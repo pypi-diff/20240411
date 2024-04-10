@@ -398,3 +398,24 @@
 [2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-core]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_core-0.30.0.tar.gz]
 [2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-core]: success
 [2024-04-11 00:18:19] INFO root fetch - main [MainThread]: Store serial: [22710286]
+[2024-04-11 00:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710286]
+[2024-04-11 00:20:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-processing-test
+[2024-04-11 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VLCDA
+[2024-04-11 00:20:29] INFO root fetch - processPackages [VLCDA]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-11 00:20:29] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-11 00:20:29] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/78/f5/1edbe94a28bbf2968b4b38efe9ab94563a56b2921c41c8618ebd8b1e4e17/VLCDA-1.0.6.tar.gz
+[2024-04-11 00:20:29] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/9b/23/313208e984f1f69cf1d5a57d83ea045c2c75b6bbe6217438aea3429bbb64/dkist-processing-test-1.9.8.tar.gz
+[2024-04-11 00:20:30] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/06/32/b6d516328652fe461998db030584e4b356d7d650f8bdc5430649c7292072/dkist-processing-test-1.9.9.tar.gz
+[2024-04-11 00:20:30] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/f3/7c/13b61afd72792b8def4f8373e12d1c694488a6cf01181bc3e6479a773abe/VLCDA-1.0.7.tar.gz
+[2024-04-11 00:20:30] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2024-04-11 00:20:30] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.9.8.tar.gz tmp/dkist-processing-test-1.9.9.tar.gz --markdown 20240411/d/dkist-processing-test/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-11 00:20:30] INFO root fetch - processPackages [VLCDA]: executing diffoscope
+[2024-04-11 00:20:30] INFO root fetch - processPackages [VLCDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VLCDA-1.0.6.tar.gz tmp/VLCDA-1.0.7.tar.gz --markdown 20240411/V/VLCDA/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-11 00:20:30] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.8.tar.gz]
+[2024-04-11 00:20:30] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.9.tar.gz]
+[2024-04-11 00:20:30] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2024-04-11 00:20:31] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.6.tar.gz]
+[2024-04-11 00:20:31] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.7.tar.gz]
+[2024-04-11 00:20:31] INFO root fetch - main [MainThread]: End processing [VLCDA]: success
+[2024-04-11 00:20:31] INFO root fetch - main [MainThread]: Store serial: [22710291]

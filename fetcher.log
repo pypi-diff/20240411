@@ -1,0 +1,53 @@
+[2024-04-11 00:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710097]
+[2024-04-11 00:00:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seapopym
+[2024-04-11 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Starfysh
+[2024-04-11 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trinnov-altitude
+[2024-04-11 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dgenerate
+[2024-04-11 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-qchem
+[2024-04-11 00:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aisploit
+[2024-04-11 00:00:48] INFO root fetch - processPackages [aisploit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 00:00:48] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 00:00:48] INFO root fetch - processPackages [dgenerate]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-11 00:00:48] INFO root fetch - processPackages [Starfysh]: New version: [1.2.1] Old Version: [1.1.1]
+[2024-04-11 00:00:48] INFO root fetch - processPackages [seapopym]: New version: [0.0.1.3] Old Version: [0.0.1.1]
+[2024-04-11 00:00:48] INFO root fetch - processPackages [auto-qchem]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-11 00:00:48] INFO root fetch - processPackages [aisploit]: Downloading https://files.pythonhosted.org/packages/1d/74/57334bbb6cdd1f5fb94ed46c97de575ed8c0ab6a66b52cc953fe6946746c/aisploit-0.0.8.tar.gz
+[2024-04-11 00:00:48] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/27/fd/64e12bac662566f7bbd3dbd3f3bf9faff784a3195e85763dd7252c9bc220/trinnov-altitude-0.1.4.tar.gz
+[2024-04-11 00:00:48] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/a2/86/484825ded3f4a1f42cd12d5cad46851c7701474cc94f5eb188418d22cac6/dgenerate-3.2.0.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [Starfysh]: Downloading https://files.pythonhosted.org/packages/8b/a0/67135705caeb332c3a6c849914984ec0bcaee4a4b610e9719d433636440f/Starfysh-1.1.1.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [seapopym]: Downloading https://files.pythonhosted.org/packages/b6/03/18a036e5e057271b616bcd71af360f59bb688e22ede356cf9aeba5c1e6dd/seapopym-0.0.1.1.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/db/06/e5a3965f106f9610314c92ff08127f01c023e66c8f27eb7afd179402cb57/auto-qchem-1.3.5.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [aisploit]: Downloading https://files.pythonhosted.org/packages/79/1a/32067b96fbd51e172e74fa8134d42b6721bd699ae2c9f8e5927b09de2401/aisploit-0.0.9.tar.gz
+[2024-04-11 00:00:49] WARNING root fetch - processPackages [Starfysh]: Skipping package: exceeds size limit 64776137>=10485760
+[2024-04-11 00:00:49] INFO root fetch - main [MainThread]: End processing [Starfysh] error
+[2024-04-11 00:00:49] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/e1/37/b977b021d812372248945c5337ac6acd09c28b85b79eeaa555fa5a7de974/dgenerate-3.3.0.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/30/ac/3260df75cfab4c349023cec4e9ce58f0bbc881928be9ff50806541a6b446/trinnov-altitude-0.1.5.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [aisploit]: executing diffoscope
+[2024-04-11 00:00:49] INFO root fetch - processPackages [aisploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisploit-0.0.8.tar.gz tmp/aisploit-0.0.9.tar.gz --markdown 20240411/a/aisploit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 00:00:49] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-11 00:00:49] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.4.tar.gz tmp/trinnov-altitude-0.1.5.tar.gz --markdown 20240411/t/trinnov-altitude/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 00:00:49] INFO root fetch - processPackages [seapopym]: Downloading https://files.pythonhosted.org/packages/4c/d5/c5dbdb7bfcd68d9836f9d1af0842168b955027181bf2a38b212c08001b1d/seapopym-0.0.1.3.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [dgenerate]: executing diffoscope
+[2024-04-11 00:00:49] INFO root fetch - processPackages [dgenerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgenerate-3.2.0.tar.gz tmp/dgenerate-3.3.0.tar.gz --markdown 20240411/d/dgenerate/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-11 00:00:49] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/c3/d2/75ed9f97222b4dc9b108e9ea6107927dd00875a1ac7f51be6e372eb48430/auto-qchem-1.3.6.tar.gz
+[2024-04-11 00:00:49] INFO root fetch - processPackages [seapopym]: executing diffoscope
+[2024-04-11 00:00:49] INFO root fetch - processPackages [seapopym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seapopym-0.0.1.1.tar.gz tmp/seapopym-0.0.1.3.tar.gz --markdown 20240411/s/seapopym/0.0.1.1-0.0.1.3/README.md --exclude *.pyd
+[2024-04-11 00:00:49] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2024-04-11 00:00:49] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-qchem-1.3.5.tar.gz tmp/auto-qchem-1.3.6.tar.gz --markdown 20240411/a/auto-qchem/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-04-11 00:00:50] INFO root fetch - processPackages [aisploit]: Remove: archive file [/home/abi/fetcher/tmp/aisploit-0.0.8.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - processPackages [aisploit]: Remove: archive file [/home/abi/fetcher/tmp/aisploit-0.0.9.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - main [MainThread]: End processing [aisploit]: success
+[2024-04-11 00:00:50] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.4.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.5.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-11 00:00:50] INFO root fetch - processPackages [auto-qchem]: Remove: archive file [/home/abi/fetcher/tmp/auto-qchem-1.3.5.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - processPackages [auto-qchem]: Remove: archive file [/home/abi/fetcher/tmp/auto-qchem-1.3.6.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2024-04-11 00:00:50] INFO root fetch - processPackages [seapopym]: Remove: archive file [/home/abi/fetcher/tmp/seapopym-0.0.1.1.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - processPackages [seapopym]: Remove: archive file [/home/abi/fetcher/tmp/seapopym-0.0.1.3.tar.gz]
+[2024-04-11 00:00:50] INFO root fetch - main [MainThread]: End processing [seapopym]: success
+[2024-04-11 00:00:51] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.2.0.tar.gz]
+[2024-04-11 00:00:51] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.3.0.tar.gz]
+[2024-04-11 00:00:51] INFO root fetch - main [MainThread]: End processing [dgenerate]: success
+[2024-04-11 00:00:51] INFO root fetch - main [MainThread]: Store serial: [22710115]

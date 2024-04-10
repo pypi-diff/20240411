@@ -1024,3 +1024,53 @@
 [2024-04-11 01:02:15] INFO root fetch - processPackages [dms-variants]: Remove: archive file [/home/abi/fetcher/tmp/dms_variants-1.6.0.tar.gz]
 [2024-04-11 01:02:15] INFO root fetch - main [MainThread]: End processing [dms-variants]: success
 [2024-04-11 01:02:15] INFO root fetch - main [MainThread]: Store serial: [22710608]
+[2024-04-11 01:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710608]
+[2024-04-11 01:04:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 01:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710609]
+[2024-04-11 01:06:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kucoin-futures-lib
+[2024-04-11 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systema
+[2024-04-11 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lektor-minify-html
+[2024-04-11 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2024-04-11 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2024-04-11 01:06:29] INFO root fetch - processPackages [kucoin-futures-lib]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-11 01:06:29] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240409] Old Version: [1.9.0.dev20240406]
+[2024-04-11 01:06:29] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47b20240409]
+[2024-04-11 01:06:29] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/f4/29/92c9598d15a0bfefbda8d8e981b370bf6bd504234f7cb33a9c2687ca722f/kucoin_futures_lib-0.3.0.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-11 01:06:29] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/3b/6b/19e41a8ea43330feb2c54948fd553193dba3a677a6d39fd8a84e9ef4cfde/flwr_nightly-1.9.0.dev20240406.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [lektor-minify-html]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-11 01:06:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/0d/8d/f8838afd9fcdefa4fa02af7c239ad5060618807790128b86b3f88e4376db/tmnt-0.7.47b20240409.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [lektor-minify-html]: Downloading https://files.pythonhosted.org/packages/89/22/69d912e5af79419e3a421ead3de074551755108437bc74d308c55974b0fd/lektor-minify-html-0.0.2.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/10/ab/e97c8f428ecdd04df46aa42e56e8f4abdd83de5316feaa1a72fe217ad3cc/flwr_nightly-1.9.0.dev20240409.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/c5/67/2d05bb3b41bac8749e38a78d86a0029ad8810e7fbe0fca8f4a11307a9660/kucoin_futures_lib-0.4.0.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-11 01:06:29] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-11 01:06:29] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240406.tar.gz tmp/flwr_nightly-1.9.0.dev20240409.tar.gz --markdown 20240411/f/flwr-nightly/1.9.0.dev20240406-1.9.0.dev20240409/README.md --exclude *.pyd
+[2024-04-11 01:06:30] INFO root fetch - processPackages [kucoin-futures-lib]: executing diffoscope
+[2024-04-11 01:06:30] INFO root fetch - processPackages [kucoin-futures-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin_futures_lib-0.3.0.tar.gz tmp/kucoin_futures_lib-0.4.0.tar.gz --markdown 20240411/k/kucoin-futures-lib/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-11 01:06:30] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-11 01:06:30] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47b20240409.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240411/t/tmnt/0.7.47b20240409-0.7.4b20231227/README.md --exclude *.pyd
+[2024-04-11 01:06:30] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-04-11 01:06:30] INFO root fetch - processPackages [lektor-minify-html]: Downloading https://files.pythonhosted.org/packages/83/01/dfe11994403ef654d1131614caecda8016d83421543954c1d84619038038/lektor-minify-html-0.1.0.tar.gz
+[2024-04-11 01:06:30] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-04-11 01:06:30] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240411/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-11 01:06:30] INFO root fetch - processPackages [lektor-minify-html]: executing diffoscope
+[2024-04-11 01:06:30] INFO root fetch - processPackages [lektor-minify-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektor-minify-html-0.0.2.tar.gz tmp/lektor-minify-html-0.1.0.tar.gz --markdown 20240411/l/lektor-minify-html/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-04-11 01:06:30] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.3.0.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.4.0.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib]: success
+[2024-04-11 01:06:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47b20240409.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-11 01:06:30] INFO root fetch - processPackages [lektor-minify-html]: Remove: archive file [/home/abi/fetcher/tmp/lektor-minify-html-0.0.2.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - processPackages [lektor-minify-html]: Remove: archive file [/home/abi/fetcher/tmp/lektor-minify-html-0.1.0.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - main [MainThread]: End processing [lektor-minify-html]: success
+[2024-04-11 01:06:30] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-04-11 01:06:30] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-04-11 01:06:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240406.tar.gz]
+[2024-04-11 01:06:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240409.tar.gz]
+[2024-04-11 01:06:31] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-11 01:06:31] INFO root fetch - main [MainThread]: Store serial: [22710626]

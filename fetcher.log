@@ -1625,3 +1625,69 @@ EOFError: EOF read where object expected
 [2024-04-11 01:32:49] INFO root fetch - processPackages [pulumi-gitea]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitea-0.0.3.tar.gz]
 [2024-04-11 01:32:49] INFO root fetch - main [MainThread]: End processing [pulumi-gitea]: success
 [2024-04-11 01:32:49] INFO root fetch - main [MainThread]: Store serial: [22710891]
+[2024-04-11 01:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710891]
+[2024-04-11 01:34:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ligo.skymap
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclopts
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: comtypes
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: outerop
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tempyenv
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: together
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text-tagging-model
+[2024-04-11 01:34:58] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a3] Old Version: [0.1.2a2]
+[2024-04-11 01:34:58] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/b2/a8/b1f166ad4140f044147a05fb2d9538f1470901917e0b4dc89acc02108b9f/text_tagging_model-0.1.2a2.tar.gz
+[2024-04-11 01:34:58] INFO root fetch - processPackages [comtypes]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-11 01:34:58] INFO root fetch - processPackages [tempyenv]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 01:34:58] INFO root fetch - processPackages [outerop]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 01:34:58] INFO root fetch - processPackages [cyclopts]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-11 01:34:58] INFO root fetch - processPackages [together]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ligo.skymap]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2024-04-11 01:34:58] INFO root fetch - processPackages [cyclopts]: Downloading https://files.pythonhosted.org/packages/21/b9/779609c0307c3b1ef22044751f56716e37717ffca2bc1131a7a94d49c7ab/cyclopts-2.5.0.tar.gz
+[2024-04-11 01:34:58] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/fc/ff/480b8ef3e7aaebe1e76de80424a21ae8b4c613feba98587e170ac0b92990/comtypes-1.4.0.zip
+[2024-04-11 01:34:58] INFO root fetch - processPackages [tempyenv]: Downloading https://files.pythonhosted.org/packages/7e/52/f4bbf4c4bd3df4da906290340f6a6882fdb9b7b12679270d966507753973/tempyenv-1.0.2.tar.gz
+[2024-04-11 01:34:58] INFO root fetch - processPackages [outerop]: Downloading https://files.pythonhosted.org/packages/bb/cb/43a331757eed2dda9c41f8578d377e8503ce7b230a0e66805487c9fa6a87/outerop-0.2.0.tar.gz
+[2024-04-11 01:34:58] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/08/d9/0478bafcf74a1f21a8d54a15749e6a7fad12bae66ad474cd0dc2d2072624/together-1.0.1.tar.gz
+[2024-04-11 01:34:58] INFO root fetch - processPackages [ligo.skymap]: Downloading https://files.pythonhosted.org/packages/b8/3b/ec9d4e5ee5cf78914a606d2b86dad95b2f0731442b0b2161a2a2ebe109c7/ligo.skymap-2.0.0rc3.tar.gz
+[2024-04-11 01:34:58] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/7a/25/10ac0f1bd711d19756b38d0db2caf158494a652d42dda0fe88fa9a5bb2ce/text_tagging_model-0.1.2a3.tar.gz
+[2024-04-11 01:34:59] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 01:34:59] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a2.tar.gz tmp/text_tagging_model-0.1.2a3.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a2-0.1.2a3/README.md --exclude *.pyd
+[2024-04-11 01:34:59] INFO root fetch - processPackages [tempyenv]: Downloading https://files.pythonhosted.org/packages/88/6e/18c876c901b27e4d091ea2a88bc8832c5dc13278ab8486d4a8633ade54aa/tempyenv-1.0.3.tar.gz
+[2024-04-11 01:34:59] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/01/a2/1be5c25a761e0571194c5533ce357c5b1bb3fa2a6de972032df19a64914f/comtypes-1.4.1.zip
+[2024-04-11 01:34:59] INFO root fetch - processPackages [outerop]: Downloading https://files.pythonhosted.org/packages/e6/8e/d3f622ece3a838dd4a05abb9a9d992cc43c14da6e244306ec0844e43e773/outerop-0.2.1.tar.gz
+[2024-04-11 01:34:59] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/73/ca/e2ec00a53a632659e643f42bef7b8c073c6df53f00c6a333f6a98ddd8fd7/together-1.1.0.tar.gz
+[2024-04-11 01:34:59] INFO root fetch - processPackages [cyclopts]: Downloading https://files.pythonhosted.org/packages/ca/28/8086eaf6a268b151190d0f471bc03bac42cdef1e2346a4964b498e24eb94/cyclopts-2.6.0.tar.gz
+[2024-04-11 01:34:59] INFO root fetch - processPackages [comtypes]: executing diffoscope
+[2024-04-11 01:34:59] INFO root fetch - processPackages [comtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comtypes-1.4.0.zip tmp/comtypes-1.4.1.zip --markdown 20240411/c/comtypes/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-11 01:34:59] INFO root fetch - processPackages [outerop]: executing diffoscope
+[2024-04-11 01:34:59] INFO root fetch - processPackages [outerop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerop-0.2.0.tar.gz tmp/outerop-0.2.1.tar.gz --markdown 20240411/o/outerop/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 01:34:59] INFO root fetch - processPackages [together]: executing diffoscope
+[2024-04-11 01:34:59] INFO root fetch - processPackages [together]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together-1.0.1.tar.gz tmp/together-1.1.0.tar.gz --markdown 20240411/t/together/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-11 01:34:59] INFO root fetch - processPackages [tempyenv]: executing diffoscope
+[2024-04-11 01:34:59] INFO root fetch - processPackages [tempyenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempyenv-1.0.2.tar.gz tmp/tempyenv-1.0.3.tar.gz --markdown 20240411/t/tempyenv/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 01:34:59] INFO root fetch - processPackages [cyclopts]: executing diffoscope
+[2024-04-11 01:34:59] INFO root fetch - processPackages [cyclopts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclopts-2.5.0.tar.gz tmp/cyclopts-2.6.0.tar.gz --markdown 20240411/c/cyclopts/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-11 01:34:59] INFO root fetch - processPackages [ligo.skymap]: Downloading https://files.pythonhosted.org/packages/1c/5c/54f46ee41a660863082a56308118cb884daf40f752f3150827c54aa0428d/ligo.skymap-2.0.0rc4.tar.gz
+[2024-04-11 01:34:59] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a2.tar.gz]
+[2024-04-11 01:34:59] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a3.tar.gz]
+[2024-04-11 01:34:59] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 01:35:00] INFO root fetch - processPackages [tempyenv]: Remove: archive file [/home/abi/fetcher/tmp/tempyenv-1.0.2.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - processPackages [tempyenv]: Remove: archive file [/home/abi/fetcher/tmp/tempyenv-1.0.3.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - main [MainThread]: End processing [tempyenv]: success
+[2024-04-11 01:35:00] INFO root fetch - processPackages [outerop]: Remove: archive file [/home/abi/fetcher/tmp/outerop-0.2.0.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - processPackages [outerop]: Remove: archive file [/home/abi/fetcher/tmp/outerop-0.2.1.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - main [MainThread]: End processing [outerop]: success
+[2024-04-11 01:35:00] INFO root fetch - processPackages [ligo.skymap]: executing diffoscope
+[2024-04-11 01:35:00] INFO root fetch - processPackages [ligo.skymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo.skymap-2.0.0rc3.tar.gz tmp/ligo.skymap-2.0.0rc4.tar.gz --markdown 20240411/l/ligo.skymap/2.0.0rc3-2.0.0rc4/README.md --exclude *.pyd
+[2024-04-11 01:35:00] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-1.0.1.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-1.1.0.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - main [MainThread]: End processing [together]: success
+[2024-04-11 01:35:00] INFO root fetch - processPackages [cyclopts]: Remove: archive file [/home/abi/fetcher/tmp/cyclopts-2.5.0.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - processPackages [cyclopts]: Remove: archive file [/home/abi/fetcher/tmp/cyclopts-2.6.0.tar.gz]
+[2024-04-11 01:35:00] INFO root fetch - main [MainThread]: End processing [cyclopts]: success
+[2024-04-11 01:35:00] INFO root fetch - processPackages [comtypes]: Remove: archive file [/home/abi/fetcher/tmp/comtypes-1.4.0.zip]
+[2024-04-11 01:35:00] INFO root fetch - processPackages [comtypes]: Remove: archive file [/home/abi/fetcher/tmp/comtypes-1.4.1.zip]
+[2024-04-11 01:35:00] INFO root fetch - main [MainThread]: End processing [comtypes]: success
+[2024-04-11 01:35:01] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo.skymap-2.0.0rc3.tar.gz]
+[2024-04-11 01:35:01] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo.skymap-2.0.0rc4.tar.gz]
+[2024-04-11 01:35:01] INFO root fetch - main [MainThread]: End processing [ligo.skymap]: success
+[2024-04-11 01:35:01] INFO root fetch - main [MainThread]: Store serial: [22710927]

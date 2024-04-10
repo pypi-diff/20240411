@@ -1450,3 +1450,112 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-11 01:26:17] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.1.1.tar.gz]
 [2024-04-11 01:26:17] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
 [2024-04-11 01:26:17] INFO root fetch - main [MainThread]: Store serial: [22710754]
+[2024-04-11 01:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710754]
+[2024-04-11 01:28:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 01:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mslarkin-utils
+[2024-04-11 01:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyrc
+[2024-04-11 01:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yxr-oi-cli
+[2024-04-11 01:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-tagging-model
+[2024-04-11 01:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mslarkin-utils
+[2024-04-11 01:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appmap
+[2024-04-11 01:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aio-overpass
+[2024-04-11 01:28:26] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a2] Old Version: [0.1.2a1]
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 01:28:26] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/f3/84/77c7ae367898f1c93deddabbb9c8b8252e2eb56865ddb13efba2620f2a69/text_tagging_model-0.1.2a1.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [aio-overpass]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-11 01:28:26] WARNING root fetch - processPackages [cyrc]: Skipping, unable to determine old version
+[2024-04-11 01:28:26] INFO root fetch - main [MainThread]: End processing [cyrc] error
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [yxr-oi-cli]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [appmap]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-11 01:28:26] INFO root fetch - processPackages [yxr-oi-cli]: Downloading https://files.pythonhosted.org/packages/85/ff/c57172def141a5aae097a9d0d84d8373d341e16e05ec75d6ce38fb80545e/yxr_oi_cli-0.2.2.7.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [aio-overpass]: Downloading https://files.pythonhosted.org/packages/7a/3d/82afc81f43b25e3f22bbf1a878f25ac4af0cf44b9e28c1801d8203ffe7b7/aio_overpass-0.8.0.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/f2/7e/f32f11d1f20873b6544f9429e83a6cb2a22abe5f245abba0bcd91dfe715c/appmap-1.9.0.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/b2/a8/b1f166ad4140f044147a05fb2d9538f1470901917e0b4dc89acc02108b9f/text_tagging_model-0.1.2a2.tar.gz
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240411/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-04-11 01:28:26] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240411/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 01:28:26] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 01:28:26] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a1.tar.gz tmp/text_tagging_model-0.1.2a2.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a1-0.1.2a2/README.md --exclude *.pyd
+[2024-04-11 01:28:27] INFO root fetch - processPackages [yxr-oi-cli]: Downloading https://files.pythonhosted.org/packages/58/0b/e5f2fa20abfcca5f25eba5df073cc83784e32e7da1d08b90b17af6d2d2f7/yxr_oi_cli-0.2.2.8.tar.gz
+[2024-04-11 01:28:27] INFO root fetch - processPackages [aio-overpass]: Downloading https://files.pythonhosted.org/packages/b3/94/b7fbeb59de61b92d6346cc0701f78504a87ff2a6eafe0c557807591dff4e/aio_overpass-0.9.0.tar.gz
+[2024-04-11 01:28:27] INFO root fetch - processPackages [yxr-oi-cli]: executing diffoscope
+[2024-04-11 01:28:27] INFO root fetch - processPackages [yxr-oi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxr_oi_cli-0.2.2.7.tar.gz tmp/yxr_oi_cli-0.2.2.8.tar.gz --markdown 20240411/y/yxr-oi-cli/0.2.2.7-0.2.2.8/README.md --exclude *.pyd
+[2024-04-11 01:28:27] INFO root fetch - processPackages [aio-overpass]: executing diffoscope
+[2024-04-11 01:28:27] INFO root fetch - processPackages [aio-overpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_overpass-0.8.0.tar.gz tmp/aio_overpass-0.9.0.tar.gz --markdown 20240411/a/aio-overpass/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-11 01:28:27] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/d8/c7/6ce38549b3048524dba85c7c34487c648fd10bdd5378a2654bf672a6baba/appmap-1.9.1.tar.gz
+[2024-04-11 01:28:27] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2024-04-11 01:28:27] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-1.9.0.tar.gz tmp/appmap-1.9.1.tar.gz --markdown 20240411/a/appmap/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-11 01:28:27] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-04-11 01:28:27] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-04-11 01:28:27] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-04-11 01:28:27] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a1.tar.gz]
+[2024-04-11 01:28:27] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a2.tar.gz]
+[2024-04-11 01:28:27] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 01:28:27] INFO root fetch - processPackages [yxr-oi-cli]: Remove: archive file [/home/abi/fetcher/tmp/yxr_oi_cli-0.2.2.7.tar.gz]
+[2024-04-11 01:28:27] INFO root fetch - processPackages [yxr-oi-cli]: Remove: archive file [/home/abi/fetcher/tmp/yxr_oi_cli-0.2.2.8.tar.gz]
+[2024-04-11 01:28:27] INFO root fetch - main [MainThread]: End processing [yxr-oi-cli]: success
+[2024-04-11 01:28:27] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-04-11 01:28:28] INFO root fetch - processPackages [aio-overpass]: Remove: archive file [/home/abi/fetcher/tmp/aio_overpass-0.8.0.tar.gz]
+[2024-04-11 01:28:28] INFO root fetch - processPackages [aio-overpass]: Remove: archive file [/home/abi/fetcher/tmp/aio_overpass-0.9.0.tar.gz]
+[2024-04-11 01:28:28] INFO root fetch - main [MainThread]: End processing [aio-overpass]: success
+[2024-04-11 01:28:28] ERROR root fetch - processPackages [appmap]: Diffoscope failed: time="2024-04-11T01:28:27+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-11 01:28:28] INFO root fetch - main [MainThread]: End processing [appmap] error
+[2024-04-11 01:28:28] INFO root fetch - main [MainThread]: Store serial: [22710851]

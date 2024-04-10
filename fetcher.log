@@ -985,3 +985,42 @@
 [2024-04-11 00:59:33] INFO root fetch - processPackages [roicat]: Remove: archive file [/home/abi/fetcher/tmp/roicat-1.1.9.tar.gz]
 [2024-04-11 00:59:33] INFO root fetch - main [MainThread]: End processing [roicat]: success
 [2024-04-11 00:59:33] INFO root fetch - main [MainThread]: Store serial: [22710597]
+[2024-04-11 01:01:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710597]
+[2024-04-11 01:01:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 01:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prosperity2bt
+[2024-04-11 01:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filequery
+[2024-04-11 01:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dms-variants
+[2024-04-11 01:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapysol
+[2024-04-11 01:01:42] INFO root fetch - processPackages [dms-variants]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-11 01:01:42] INFO root fetch - processPackages [filequery]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-11 01:01:42] INFO root fetch - processPackages [prosperity2bt]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-11 01:01:42] INFO root fetch - processPackages [sapysol]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-11 01:01:42] INFO root fetch - processPackages [dms-variants]: Downloading https://files.pythonhosted.org/packages/f3/50/e2366a327de31e3c9fc546aceced95a5f27336c062d65519760e4075400b/dms_variants-1.5.0.tar.gz
+[2024-04-11 01:01:42] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/2b/e1/c44b0bb437ecfe006aa2e70dea000fe9e80076699d2649fb9435025d81ff/prosperity2bt-0.3.1.tar.gz
+[2024-04-11 01:01:42] INFO root fetch - processPackages [sapysol]: Downloading https://files.pythonhosted.org/packages/30/eb/083cd39cd3ad7e13af6c190d3b841fd13901df7e030aac1dc9b32012a670/sapysol-0.4.1.tar.gz
+[2024-04-11 01:01:42] INFO root fetch - processPackages [filequery]: Downloading https://files.pythonhosted.org/packages/86/be/1ece1e10adc90f7febf868f7e3e15c86ab72c2cb76e4c90753fff56486a1/filequery-0.2.4.tar.gz
+[2024-04-11 01:01:42] INFO root fetch - processPackages [sapysol]: Downloading https://files.pythonhosted.org/packages/e7/23/1df9f8a258b4221f25a6f51097653d441c1c2f671d801e12fe6f35aed2be/sapysol-0.5.0.tar.gz
+[2024-04-11 01:01:42] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/ce/e4/dda57174a9e8ebc3308b6ecad3a92d0457aa9d7cbc462e9ed6f40a674b85/prosperity2bt-0.4.0.tar.gz
+[2024-04-11 01:01:42] INFO root fetch - processPackages [filequery]: Downloading https://files.pythonhosted.org/packages/d8/eb/45f1c3c760ad8141972f17fd67e29a21016d9f40d4ea9f368b15361124b5/filequery-0.2.5.tar.gz
+[2024-04-11 01:01:42] INFO root fetch - processPackages [sapysol]: executing diffoscope
+[2024-04-11 01:01:42] INFO root fetch - processPackages [sapysol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapysol-0.4.1.tar.gz tmp/sapysol-0.5.0.tar.gz --markdown 20240411/s/sapysol/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-11 01:01:43] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-11 01:01:43] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.3.1.tar.gz tmp/prosperity2bt-0.4.0.tar.gz --markdown 20240411/p/prosperity2bt/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-11 01:01:43] INFO root fetch - processPackages [filequery]: executing diffoscope
+[2024-04-11 01:01:43] INFO root fetch - processPackages [filequery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filequery-0.2.4.tar.gz tmp/filequery-0.2.5.tar.gz --markdown 20240411/f/filequery/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-11 01:01:43] INFO root fetch - processPackages [dms-variants]: Downloading https://files.pythonhosted.org/packages/1c/c1/be41db644506ee17c4f535365a6e6c6a90bfa388da9e39f7a975ea6d2720/dms_variants-1.6.0.tar.gz
+[2024-04-11 01:01:43] INFO root fetch - processPackages [sapysol]: Remove: archive file [/home/abi/fetcher/tmp/sapysol-0.4.1.tar.gz]
+[2024-04-11 01:01:43] INFO root fetch - processPackages [sapysol]: Remove: archive file [/home/abi/fetcher/tmp/sapysol-0.5.0.tar.gz]
+[2024-04-11 01:01:43] INFO root fetch - main [MainThread]: End processing [sapysol]: success
+[2024-04-11 01:01:43] INFO root fetch - processPackages [filequery]: Remove: archive file [/home/abi/fetcher/tmp/filequery-0.2.4.tar.gz]
+[2024-04-11 01:01:43] INFO root fetch - processPackages [filequery]: Remove: archive file [/home/abi/fetcher/tmp/filequery-0.2.5.tar.gz]
+[2024-04-11 01:01:43] INFO root fetch - main [MainThread]: End processing [filequery]: success
+[2024-04-11 01:01:43] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.3.1.tar.gz]
+[2024-04-11 01:01:43] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.0.tar.gz]
+[2024-04-11 01:01:43] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-11 01:01:43] INFO root fetch - processPackages [dms-variants]: executing diffoscope
+[2024-04-11 01:01:43] INFO root fetch - processPackages [dms-variants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dms_variants-1.5.0.tar.gz tmp/dms_variants-1.6.0.tar.gz --markdown 20240411/d/dms-variants/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-11 01:02:15] INFO root fetch - processPackages [dms-variants]: Remove: archive file [/home/abi/fetcher/tmp/dms_variants-1.5.0.tar.gz]
+[2024-04-11 01:02:15] INFO root fetch - processPackages [dms-variants]: Remove: archive file [/home/abi/fetcher/tmp/dms_variants-1.6.0.tar.gz]
+[2024-04-11 01:02:15] INFO root fetch - main [MainThread]: End processing [dms-variants]: success
+[2024-04-11 01:02:15] INFO root fetch - main [MainThread]: Store serial: [22710608]

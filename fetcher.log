@@ -1363,3 +1363,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-11 01:21:49] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.0.4.tar.gz]
 [2024-04-11 01:21:49] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
 [2024-04-11 01:21:49] INFO root fetch - main [MainThread]: Store serial: [22710719]
+[2024-04-11 01:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710719]
+[2024-04-11 01:23:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 01:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codebase-to-text
+[2024-04-11 01:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multion
+[2024-04-11 01:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yxr-codeforces-core
+[2024-04-11 01:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: happyrobot
+[2024-04-11 01:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etl-pipes
+[2024-04-11 01:24:00] INFO root fetch - processPackages [etl-pipes]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-11 01:24:00] INFO root fetch - processPackages [codebase-to-text]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 01:24:00] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/76/0e/1bdad867a8717bcbf0290597fbd29717508aa7d681a6556abc55fcc9150d/etl_pipes-0.8.6.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [multion]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 01:24:00] INFO root fetch - processPackages [yxr-codeforces-core]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2024-04-11 01:24:00] INFO root fetch - processPackages [happyrobot]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-11 01:24:00] INFO root fetch - processPackages [codebase-to-text]: Downloading https://files.pythonhosted.org/packages/2d/af/34f38891afd8b385835b9866a77c8b104bf6cf070d8ca10dd7c99efc2e7c/codebase-to-text-1.0.0.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [yxr-codeforces-core]: Downloading https://files.pythonhosted.org/packages/9a/cf/bbcef09d04c301b4ab69f965b11ce70ccf331e7ffa71e945e0aebf303a6c/yxr_codeforces_core-0.0.2.3.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/ae/92/6296067c3f5d2a374cc1b42f6468cc93d9b17f7949c91e5c087d91c401fb/multion-1.0.0.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [happyrobot]: Downloading https://files.pythonhosted.org/packages/13/19/a771f53932d3ca334f22e365e848a58ae4f0f6c9e8abfa0466f4fc0a53de/happyrobot-0.2.5.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/8a/e3/e9a8f607450320e1861113f2e6047f67378a9ce2297e841cd630cd4e468f/etl_pipes-0.8.7.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [codebase-to-text]: Downloading https://files.pythonhosted.org/packages/b3/c3/c071e92f14ad4c8a406aad95c4626a2f2a09ed84a19384f6f763b82447a7/codebase-to-text-1.0.1.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [etl-pipes]: executing diffoscope
+[2024-04-11 01:24:00] INFO root fetch - processPackages [etl-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_pipes-0.8.6.tar.gz tmp/etl_pipes-0.8.7.tar.gz --markdown 20240411/e/etl-pipes/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-04-11 01:24:00] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/ac/71/ee5900982f187991a6e6a69bdeb156538c2674c61682eaf41c9b5d202c96/multion-1.0.1.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [yxr-codeforces-core]: Downloading https://files.pythonhosted.org/packages/56/fd/0a994ffe047c5fafb904cddd4a94ad617ade93fc3bbe2a6161c2b3c5db3b/yxr_codeforces_core-0.0.2.4.tar.gz
+[2024-04-11 01:24:00] INFO root fetch - processPackages [codebase-to-text]: executing diffoscope
+[2024-04-11 01:24:00] INFO root fetch - processPackages [codebase-to-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebase-to-text-1.0.0.tar.gz tmp/codebase-to-text-1.0.1.tar.gz --markdown 20240411/c/codebase-to-text/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 01:24:00] INFO root fetch - processPackages [multion]: executing diffoscope
+[2024-04-11 01:24:00] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-1.0.0.tar.gz tmp/multion-1.0.1.tar.gz --markdown 20240411/m/multion/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 01:24:00] INFO root fetch - processPackages [yxr-codeforces-core]: executing diffoscope
+[2024-04-11 01:24:00] INFO root fetch - processPackages [yxr-codeforces-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxr_codeforces_core-0.0.2.3.tar.gz tmp/yxr_codeforces_core-0.0.2.4.tar.gz --markdown 20240411/y/yxr-codeforces-core/0.0.2.3-0.0.2.4/README.md --exclude *.pyd
+[2024-04-11 01:24:00] INFO root fetch - processPackages [happyrobot]: Downloading https://files.pythonhosted.org/packages/d2/a2/38ec1f2253d8099677d76a235b7966a76499a822eb129d5caa4c9d133726/happyrobot-0.2.6.tar.gz
+[2024-04-11 01:24:01] INFO root fetch - processPackages [happyrobot]: executing diffoscope
+[2024-04-11 01:24:01] INFO root fetch - processPackages [happyrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happyrobot-0.2.5.tar.gz tmp/happyrobot-0.2.6.tar.gz --markdown 20240411/h/happyrobot/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-11 01:24:01] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.6.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.7.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - main [MainThread]: End processing [etl-pipes]: success
+[2024-04-11 01:24:01] INFO root fetch - processPackages [codebase-to-text]: Remove: archive file [/home/abi/fetcher/tmp/codebase-to-text-1.0.0.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - processPackages [codebase-to-text]: Remove: archive file [/home/abi/fetcher/tmp/codebase-to-text-1.0.1.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - main [MainThread]: End processing [codebase-to-text]: success
+[2024-04-11 01:24:01] INFO root fetch - processPackages [yxr-codeforces-core]: Remove: archive file [/home/abi/fetcher/tmp/yxr_codeforces_core-0.0.2.3.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - processPackages [yxr-codeforces-core]: Remove: archive file [/home/abi/fetcher/tmp/yxr_codeforces_core-0.0.2.4.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - main [MainThread]: End processing [yxr-codeforces-core]: success
+[2024-04-11 01:24:01] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-1.0.0.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-1.0.1.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2024-04-11 01:24:01] INFO root fetch - processPackages [happyrobot]: Remove: archive file [/home/abi/fetcher/tmp/happyrobot-0.2.5.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - processPackages [happyrobot]: Remove: archive file [/home/abi/fetcher/tmp/happyrobot-0.2.6.tar.gz]
+[2024-04-11 01:24:01] INFO root fetch - main [MainThread]: End processing [happyrobot]: success
+[2024-04-11 01:24:01] INFO root fetch - main [MainThread]: Store serial: [22710736]

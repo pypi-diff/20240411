@@ -638,3 +638,44 @@
 [2024-04-11 00:39:45] WARNING root fetch - processPackages [pymoose]: Skipping package: exceeds size limit 11519587>=10485760
 [2024-04-11 00:39:45] INFO root fetch - main [MainThread]: End processing [pymoose] error
 [2024-04-11 00:39:45] INFO root fetch - main [MainThread]: Store serial: [22710415]
+[2024-04-11 00:41:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710415]
+[2024-04-11 00:41:55] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 00:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710417]
+[2024-04-11 00:44:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 00:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-eventgrid
+[2024-04-11 00:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ledsc
+[2024-04-11 00:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmfunctionclient
+[2024-04-11 00:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorizer
+[2024-04-11 00:44:00] INFO root fetch - processPackages [ledsc]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-11 00:44:00] INFO root fetch - processPackages [ledsc]: Downloading https://files.pythonhosted.org/packages/63/33/f41cd05d262e3884c2347cdf6d54a99e218e259da5bff78349c3fe5e5f5f/ledsc-1.0.3.tar.gz
+[2024-04-11 00:44:00] INFO root fetch - processPackages [azure-eventgrid]: New version: [4.9.1] Old Version: [4.9.0b1]
+[2024-04-11 00:44:00] INFO root fetch - processPackages [llmfunctionclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 00:44:00] INFO root fetch - processPackages [tensorizer]: New version: [2.9.0a1] Old Version: [2.9.0a0]
+[2024-04-11 00:44:00] INFO root fetch - processPackages [llmfunctionclient]: Downloading https://files.pythonhosted.org/packages/63/6a/59210be3e1ed70322052b93a022e1452dd0e6a6b41297c5e40ba5c4b8a28/llmfunctionclient-0.1.0.tar.gz
+[2024-04-11 00:44:00] INFO root fetch - processPackages [azure-eventgrid]: Downloading https://files.pythonhosted.org/packages/56/cd/69f8781d55d8fd0d2cb001b6b3127c4639fe6533f1395b044979fcabc2f0/azure-eventgrid-4.9.0b1.zip
+[2024-04-11 00:44:00] INFO root fetch - processPackages [tensorizer]: Downloading https://files.pythonhosted.org/packages/30/77/d723496a20b015a1cd9beaa33a8ee01d34c7392e98bec180451b09345c4d/tensorizer-2.9.0a0.tar.gz
+[2024-04-11 00:44:01] INFO root fetch - processPackages [ledsc]: Downloading https://files.pythonhosted.org/packages/f4/6c/fd7a3f63774554844c5d79d61c58d9fb754ac7899b8ca27f5a5551f11879/ledsc-1.0.4.tar.gz
+[2024-04-11 00:44:01] INFO root fetch - processPackages [ledsc]: executing diffoscope
+[2024-04-11 00:44:01] INFO root fetch - processPackages [ledsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledsc-1.0.3.tar.gz tmp/ledsc-1.0.4.tar.gz --markdown 20240411/l/ledsc/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-11 00:44:01] INFO root fetch - processPackages [llmfunctionclient]: Downloading https://files.pythonhosted.org/packages/b7/db/b9847362d9f52199d3a8123eaf914707b06dfaf1f1d1c17605ce8963de53/llmfunctionclient-0.1.1.tar.gz
+[2024-04-11 00:44:01] INFO root fetch - processPackages [tensorizer]: Downloading https://files.pythonhosted.org/packages/49/dc/d82d3fe52023c638d9c0085caf68f187a2e359f6703a9c64728089b9b220/tensorizer-2.9.0a1.tar.gz
+[2024-04-11 00:44:01] INFO root fetch - processPackages [llmfunctionclient]: executing diffoscope
+[2024-04-11 00:44:01] INFO root fetch - processPackages [llmfunctionclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmfunctionclient-0.1.0.tar.gz tmp/llmfunctionclient-0.1.1.tar.gz --markdown 20240411/l/llmfunctionclient/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 00:44:01] INFO root fetch - processPackages [tensorizer]: executing diffoscope
+[2024-04-11 00:44:01] INFO root fetch - processPackages [tensorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorizer-2.9.0a0.tar.gz tmp/tensorizer-2.9.0a1.tar.gz --markdown 20240411/t/tensorizer/2.9.0a0-2.9.0a1/README.md --exclude *.pyd
+[2024-04-11 00:44:01] INFO root fetch - processPackages [ledsc]: Remove: archive file [/home/abi/fetcher/tmp/ledsc-1.0.3.tar.gz]
+[2024-04-11 00:44:01] INFO root fetch - processPackages [ledsc]: Remove: archive file [/home/abi/fetcher/tmp/ledsc-1.0.4.tar.gz]
+[2024-04-11 00:44:01] INFO root fetch - main [MainThread]: End processing [ledsc]: success
+[2024-04-11 00:44:01] INFO root fetch - processPackages [azure-eventgrid]: Downloading https://files.pythonhosted.org/packages/5f/24/6b22e91436974f4d420972637e3915724d130f1fe96d33e114152013359b/azure-eventgrid-4.9.1.zip
+[2024-04-11 00:44:01] INFO root fetch - processPackages [llmfunctionclient]: Remove: archive file [/home/abi/fetcher/tmp/llmfunctionclient-0.1.0.tar.gz]
+[2024-04-11 00:44:01] INFO root fetch - processPackages [llmfunctionclient]: Remove: archive file [/home/abi/fetcher/tmp/llmfunctionclient-0.1.1.tar.gz]
+[2024-04-11 00:44:01] INFO root fetch - main [MainThread]: End processing [llmfunctionclient]: success
+[2024-04-11 00:44:02] INFO root fetch - processPackages [tensorizer]: Remove: archive file [/home/abi/fetcher/tmp/tensorizer-2.9.0a0.tar.gz]
+[2024-04-11 00:44:02] INFO root fetch - processPackages [tensorizer]: Remove: archive file [/home/abi/fetcher/tmp/tensorizer-2.9.0a1.tar.gz]
+[2024-04-11 00:44:02] INFO root fetch - main [MainThread]: End processing [tensorizer]: success
+[2024-04-11 00:44:02] INFO root fetch - processPackages [azure-eventgrid]: executing diffoscope
+[2024-04-11 00:44:02] INFO root fetch - processPackages [azure-eventgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-eventgrid-4.9.0b1.zip tmp/azure-eventgrid-4.9.1.zip --markdown 20240411/a/azure-eventgrid/4.9.0b1-4.9.1/README.md --exclude *.pyd
+[2024-04-11 00:44:03] INFO root fetch - processPackages [azure-eventgrid]: Remove: archive file [/home/abi/fetcher/tmp/azure-eventgrid-4.9.0b1.zip]
+[2024-04-11 00:44:03] INFO root fetch - processPackages [azure-eventgrid]: Remove: archive file [/home/abi/fetcher/tmp/azure-eventgrid-4.9.1.zip]
+[2024-04-11 00:44:03] INFO root fetch - main [MainThread]: End processing [azure-eventgrid]: success
+[2024-04-11 00:44:03] INFO root fetch - main [MainThread]: Store serial: [22710435]

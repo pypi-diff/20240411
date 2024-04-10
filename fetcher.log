@@ -1922,3 +1922,29 @@ EOFError: EOF read where object expected
 [2024-04-11 01:50:58] INFO root fetch - processPackages [quillsql]: Remove: archive file [/home/abi/fetcher/tmp/quillsql-2.1.5.tar.gz]
 [2024-04-11 01:50:58] INFO root fetch - main [MainThread]: End processing [quillsql]: success
 [2024-04-11 01:50:58] INFO root fetch - main [MainThread]: Store serial: [22711016]
+[2024-04-11 01:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711016]
+[2024-04-11 01:53:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 01:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oakvar
+[2024-04-11 01:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhdust
+[2024-04-11 01:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text-tagging-model
+[2024-04-11 01:53:07] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a5] Old Version: [0.1.2a4]
+[2024-04-11 01:53:07] INFO root fetch - processPackages [oakvar]: New version: [2.9.93] Old Version: [2.9.92]
+[2024-04-11 01:53:07] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/70/cd/f6c31f00c81b25db782901b78c183e3b0f1d63a0c402c913fdcc7d3a1104/text_tagging_model-0.1.2a4.tar.gz
+[2024-04-11 01:53:07] INFO root fetch - processPackages [pyhdust]: New version: [1.5.9.post2] Old Version: [1.5.9.post1]
+[2024-04-11 01:53:07] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/0a/a7/f695793be60410873699dd3a03afc4a903f6d4d89455f997188007df2e38/oakvar-2.9.92.tar.gz
+[2024-04-11 01:53:07] INFO root fetch - processPackages [pyhdust]: Downloading https://files.pythonhosted.org/packages/48/94/b94ec3cb82ba624419c1d0a755d21b13473ba715330b5f17936f2c4e2a4b/pyhdust-1.5.9.post1.tar.gz
+[2024-04-11 01:53:07] WARNING root fetch - processPackages [pyhdust]: Skipping package: exceeds size limit 28674990>=10485760
+[2024-04-11 01:53:07] INFO root fetch - main [MainThread]: End processing [pyhdust] error
+[2024-04-11 01:53:07] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/de/79/c70a3cff007d2bdf9b3c516bfc74471499edef91bb067a74257734310e97/text_tagging_model-0.1.2a5.tar.gz
+[2024-04-11 01:53:07] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 01:53:07] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a4.tar.gz tmp/text_tagging_model-0.1.2a5.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a4-0.1.2a5/README.md --exclude *.pyd
+[2024-04-11 01:53:07] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/b1/c1/7dd704cc9b475f2399d421a34916343f8b0fbe82216e145e9883ad9e3d97/oakvar-2.9.93.tar.gz
+[2024-04-11 01:53:07] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-04-11 01:53:07] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.92.tar.gz tmp/oakvar-2.9.93.tar.gz --markdown 20240411/o/oakvar/2.9.92-2.9.93/README.md --exclude *.pyd
+[2024-04-11 01:53:08] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a4.tar.gz]
+[2024-04-11 01:53:08] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a5.tar.gz]
+[2024-04-11 01:53:08] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 01:53:10] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.92.tar.gz]
+[2024-04-11 01:53:10] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.93.tar.gz]
+[2024-04-11 01:53:10] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-04-11 01:53:10] INFO root fetch - main [MainThread]: Store serial: [22711024]

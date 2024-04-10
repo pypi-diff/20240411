@@ -1559,3 +1559,54 @@ EOFError: EOF read where object expected
 
 [2024-04-11 01:28:28] INFO root fetch - main [MainThread]: End processing [appmap] error
 [2024-04-11 01:28:28] INFO root fetch - main [MainThread]: Store serial: [22710851]
+[2024-04-11 01:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710851]
+[2024-04-11 01:30:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mslarkin-utils
+[2024-04-11 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: holdup
+[2024-04-11 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galileo-protect
+[2024-04-11 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tenduke-core
+[2024-04-11 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandas-datatypes
+[2024-04-11 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-qchem
+[2024-04-11 01:30:38] INFO root fetch - processPackages [galileo-protect]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-11 01:30:38] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 01:30:38] INFO root fetch - processPackages [auto-qchem]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-11 01:30:38] WARNING root fetch - processPackages [pandas-datatypes]: Skipping, unable to determine old version
+[2024-04-11 01:30:38] INFO root fetch - main [MainThread]: End processing [pandas-datatypes] error
+[2024-04-11 01:30:38] INFO root fetch - processPackages [holdup]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-11 01:30:38] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/c3/d2/75ed9f97222b4dc9b108e9ea6107927dd00875a1ac7f51be6e372eb48430/auto-qchem-1.3.6.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [tenduke-core]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 01:30:38] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/a7/6a/2059f20dbf61f340a18b1440fc3e5a03693a1d93753c2173390cd3632035/galileo_protect-0.3.0.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [holdup]: Downloading https://files.pythonhosted.org/packages/c7/8c/4f9e2a22787c95a965a65edc1d1cc3fc0c8670752f2fb2093fbf6b8bc0a0/holdup-3.0.0.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [tenduke-core]: Downloading https://files.pythonhosted.org/packages/e3/7f/3434a8e7408d34f84aa0fa832e4ebe9076308e047eb6e7c25f162c2c531d/tenduke_core-1.0.0.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/fb/99/d3ed2ee923b18381b53a1954ff0556ced1dd520c057e22e2278912f5da03/galileo_protect-0.4.0.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [auto-qchem]: Downloading https://files.pythonhosted.org/packages/5d/e3/119507ff0fd803eedeb9093fd520108f457248f63ea54eed42b374fe50c6/auto-qchem-1.3.7.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-04-11 01:30:38] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240411/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 01:30:38] INFO root fetch - processPackages [holdup]: Downloading https://files.pythonhosted.org/packages/fe/8d/835e5c611dd9a47478aa28751d5de03b9424ed7704806ce95fc4ef044658/holdup-4.0.0.tar.gz
+[2024-04-11 01:30:38] INFO root fetch - processPackages [galileo-protect]: executing diffoscope
+[2024-04-11 01:30:38] INFO root fetch - processPackages [galileo-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_protect-0.3.0.tar.gz tmp/galileo_protect-0.4.0.tar.gz --markdown 20240411/g/galileo-protect/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-11 01:30:38] INFO root fetch - processPackages [auto-qchem]: executing diffoscope
+[2024-04-11 01:30:38] INFO root fetch - processPackages [auto-qchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-qchem-1.3.6.tar.gz tmp/auto-qchem-1.3.7.tar.gz --markdown 20240411/a/auto-qchem/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-04-11 01:30:38] INFO root fetch - processPackages [tenduke-core]: Downloading https://files.pythonhosted.org/packages/cd/e6/de3804e03ea7a5d44e64099a3480f935a6e4c1ad441a2b35227f80cd2ac4/tenduke_core-1.1.0.tar.gz
+[2024-04-11 01:30:39] INFO root fetch - processPackages [holdup]: executing diffoscope
+[2024-04-11 01:30:39] INFO root fetch - processPackages [holdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holdup-3.0.0.tar.gz tmp/holdup-4.0.0.tar.gz --markdown 20240411/h/holdup/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-11 01:30:39] INFO root fetch - processPackages [tenduke-core]: executing diffoscope
+[2024-04-11 01:30:39] INFO root fetch - processPackages [tenduke-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenduke_core-1.0.0.tar.gz tmp/tenduke_core-1.1.0.tar.gz --markdown 20240411/t/tenduke-core/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 01:30:39] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-04-11 01:30:39] INFO root fetch - processPackages [auto-qchem]: Remove: archive file [/home/abi/fetcher/tmp/auto-qchem-1.3.6.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - processPackages [auto-qchem]: Remove: archive file [/home/abi/fetcher/tmp/auto-qchem-1.3.7.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - main [MainThread]: End processing [auto-qchem]: success
+[2024-04-11 01:30:39] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.3.0.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.4.0.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - main [MainThread]: End processing [galileo-protect]: success
+[2024-04-11 01:30:39] INFO root fetch - processPackages [holdup]: Remove: archive file [/home/abi/fetcher/tmp/holdup-3.0.0.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - processPackages [holdup]: Remove: archive file [/home/abi/fetcher/tmp/holdup-4.0.0.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - main [MainThread]: End processing [holdup]: success
+[2024-04-11 01:30:39] INFO root fetch - processPackages [tenduke-core]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_core-1.0.0.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - processPackages [tenduke-core]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_core-1.1.0.tar.gz]
+[2024-04-11 01:30:39] INFO root fetch - main [MainThread]: End processing [tenduke-core]: success
+[2024-04-11 01:30:39] INFO root fetch - main [MainThread]: Store serial: [22710874]

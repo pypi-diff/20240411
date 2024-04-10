@@ -1948,3 +1948,42 @@ EOFError: EOF read where object expected
 [2024-04-11 01:53:10] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.93.tar.gz]
 [2024-04-11 01:53:10] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-04-11 01:53:10] INFO root fetch - main [MainThread]: Store serial: [22711024]
+[2024-04-11 01:55:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711024]
+[2024-04-11 01:55:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 01:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gkutils
+[2024-04-11 01:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juice-phs
+[2024-04-11 01:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: btrview
+[2024-04-11 01:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carbon-python-sdk
+[2024-04-11 01:55:19] INFO root fetch - processPackages [btrview]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-11 01:55:19] INFO root fetch - processPackages [juice-phs]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-11 01:55:19] INFO root fetch - processPackages [gkutils]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-11 01:55:19] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/8b/0a/06e010a3edff4802936765ccf16592c8c81a54e50f4668d4a74161d61752/btrview-0.4.0.tar.gz
+[2024-04-11 01:55:19] INFO root fetch - processPackages [gkutils]: Downloading https://files.pythonhosted.org/packages/af/1a/c5c6fa69f9c45a5b8d830108ba0f75fde093d844aed1ce816aad2a33cdae/gkutils-0.3.1.tar.gz
+[2024-04-11 01:55:19] INFO root fetch - processPackages [juice-phs]: Downloading https://files.pythonhosted.org/packages/2f/ca/f6da1dbce678838d21e55ec5b73c129b1d2c9454c742def0ed5c7d9d3883/juice_phs-0.4.2-py3-none-any.whl
+[2024-04-11 01:55:19] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 01:55:19] INFO root fetch - processPackages [gkutils]: Downloading https://files.pythonhosted.org/packages/ee/83/f95a8822a0552572552cc64fe4e217dabc38b886ac3a853b9d25eee2560d/gkutils-0.3.2.tar.gz
+[2024-04-11 01:55:19] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-04-11 01:55:19] INFO root fetch - processPackages [juice-phs]: Downloading https://files.pythonhosted.org/packages/aa/bc/2780cc32c8595853043897a27a9c29374898b400d0365668dfd3d23a457a/juice_phs-0.4.3-py3-none-any.whl
+[2024-04-11 01:55:19] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/8b/15/7de27aaa30e748ceb9d4c19992b5f622d108893c5b184d89913850809f66/btrview-0.5.0.tar.gz
+[2024-04-11 01:55:19] INFO root fetch - processPackages [gkutils]: executing diffoscope
+[2024-04-11 01:55:19] INFO root fetch - processPackages [gkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkutils-0.3.1.tar.gz tmp/gkutils-0.3.2.tar.gz --markdown 20240411/g/gkutils/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-11 01:55:19] INFO root fetch - processPackages [juice-phs]: executing diffoscope
+[2024-04-11 01:55:19] INFO root fetch - processPackages [juice-phs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juice_phs-0.4.2-py3-none-any.whl.zip tmp/juice_phs-0.4.3-py3-none-any.whl.zip --markdown 20240411/j/juice-phs/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-11 01:55:19] INFO root fetch - processPackages [btrview]: executing diffoscope
+[2024-04-11 01:55:19] INFO root fetch - processPackages [btrview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrview-0.4.0.tar.gz tmp/btrview-0.5.0.tar.gz --markdown 20240411/b/btrview/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-11 01:55:20] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-04-11 01:55:20] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-04-11 01:55:20] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240411/c/carbon-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 01:55:20] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.4.0.tar.gz]
+[2024-04-11 01:55:20] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.5.0.tar.gz]
+[2024-04-11 01:55:20] INFO root fetch - main [MainThread]: End processing [btrview]: success
+[2024-04-11 01:55:20] INFO root fetch - processPackages [juice-phs]: Remove: archive file [/home/abi/fetcher/tmp/juice_phs-0.4.2-py3-none-any.whl.zip]
+[2024-04-11 01:55:20] INFO root fetch - processPackages [juice-phs]: Remove: archive file [/home/abi/fetcher/tmp/juice_phs-0.4.3-py3-none-any.whl.zip]
+[2024-04-11 01:55:20] INFO root fetch - main [MainThread]: End processing [juice-phs]: success
+[2024-04-11 01:55:20] INFO root fetch - processPackages [gkutils]: Remove: archive file [/home/abi/fetcher/tmp/gkutils-0.3.1.tar.gz]
+[2024-04-11 01:55:20] INFO root fetch - processPackages [gkutils]: Remove: archive file [/home/abi/fetcher/tmp/gkutils-0.3.2.tar.gz]
+[2024-04-11 01:55:20] INFO root fetch - main [MainThread]: End processing [gkutils]: success
+[2024-04-11 01:55:22] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-04-11 01:55:22] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-04-11 01:55:22] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-04-11 01:55:22] INFO root fetch - main [MainThread]: Store serial: [22711035]

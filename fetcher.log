@@ -1411,3 +1411,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-04-11 01:24:01] INFO root fetch - processPackages [happyrobot]: Remove: archive file [/home/abi/fetcher/tmp/happyrobot-0.2.6.tar.gz]
 [2024-04-11 01:24:01] INFO root fetch - main [MainThread]: End processing [happyrobot]: success
 [2024-04-11 01:24:01] INFO root fetch - main [MainThread]: Store serial: [22710736]
+[2024-04-11 01:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710736]
+[2024-04-11 01:26:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trame-client
+[2024-04-11 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etl-pipes
+[2024-04-11 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: madblog
+[2024-04-11 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlflow-oidc-auth
+[2024-04-11 01:26:10] INFO root fetch - processPackages [etl-pipes]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-04-11 01:26:10] INFO root fetch - processPackages [mlflow-oidc-auth]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-11 01:26:10] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/8a/e3/e9a8f607450320e1861113f2e6047f67378a9ce2297e841cd630cd4e468f/etl_pipes-0.8.7.tar.gz
+[2024-04-11 01:26:10] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/a3/da/db5f18f6b6e8fb6f11b1ace711970dbff59bbac2d724890a4681b6f478d2/mlflow-oidc-auth-1.1.0.tar.gz
+[2024-04-11 01:26:10] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 01:26:10] INFO root fetch - processPackages [trame-client]: New version: [3.0.0] Old Version: [2.9.4]
+[2024-04-11 01:26:10] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/ed/b3/2c5a42942bc6ea230ecddff4c9ebdb21887926eab799eac2ae2f7a4a9a6b/madblog-0.2.8.tar.gz
+[2024-04-11 01:26:10] INFO root fetch - processPackages [trame-client]: Downloading https://files.pythonhosted.org/packages/55/2a/686108adb0902cd2753e174fd6829d315ea9d3135fdc89b3561ebd81aeec/trame-client-2.9.4.tar.gz
+[2024-04-11 01:26:10] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/ac/5d/8d95a740416e4a22488646d526cf7dee84227a01abbf0fbd072e74149001/mlflow-oidc-auth-1.1.1.tar.gz
+[2024-04-11 01:26:10] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/7f/70/56acf0f95b122f7aa78d56930e66c6426a517eea594c65c8a47fbc18902d/etl_pipes-0.8.8.tar.gz
+[2024-04-11 01:26:10] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/04/1d/afedf727ff86588e120b14288d3e4d4b69c63b58c662ea13511f25738baa/madblog-0.2.9.tar.gz
+[2024-04-11 01:26:11] INFO root fetch - processPackages [mlflow-oidc-auth]: executing diffoscope
+[2024-04-11 01:26:11] INFO root fetch - processPackages [mlflow-oidc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-oidc-auth-1.1.0.tar.gz tmp/mlflow-oidc-auth-1.1.1.tar.gz --markdown 20240411/m/mlflow-oidc-auth/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-11 01:26:11] INFO root fetch - processPackages [etl-pipes]: executing diffoscope
+[2024-04-11 01:26:11] INFO root fetch - processPackages [etl-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_pipes-0.8.7.tar.gz tmp/etl_pipes-0.8.8.tar.gz --markdown 20240411/e/etl-pipes/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-04-11 01:26:11] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2024-04-11 01:26:11] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20240411/m/madblog/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 01:26:11] INFO root fetch - processPackages [trame-client]: Downloading https://files.pythonhosted.org/packages/93/22/c521dc316d7e6b92c7282fa41b3f4f15b15beeaf4a5eb554ddb8dda4915e/trame-client-3.0.0.tar.gz
+[2024-04-11 01:26:11] INFO root fetch - processPackages [trame-client]: executing diffoscope
+[2024-04-11 01:26:11] INFO root fetch - processPackages [trame-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-client-2.9.4.tar.gz tmp/trame-client-3.0.0.tar.gz --markdown 20240411/t/trame-client/2.9.4-3.0.0/README.md --exclude *.pyd
+[2024-04-11 01:26:11] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.7.tar.gz]
+[2024-04-11 01:26:11] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.8.tar.gz]
+[2024-04-11 01:26:11] INFO root fetch - main [MainThread]: End processing [etl-pipes]: success
+[2024-04-11 01:26:11] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.8.tar.gz]
+[2024-04-11 01:26:11] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.9.tar.gz]
+[2024-04-11 01:26:11] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2024-04-11 01:26:16] INFO root fetch - processPackages [trame-client]: Remove: archive file [/home/abi/fetcher/tmp/trame-client-2.9.4.tar.gz]
+[2024-04-11 01:26:16] INFO root fetch - processPackages [trame-client]: Remove: archive file [/home/abi/fetcher/tmp/trame-client-3.0.0.tar.gz]
+[2024-04-11 01:26:16] INFO root fetch - main [MainThread]: End processing [trame-client]: success
+[2024-04-11 01:26:17] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.1.0.tar.gz]
+[2024-04-11 01:26:17] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.1.1.tar.gz]
+[2024-04-11 01:26:17] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
+[2024-04-11 01:26:17] INFO root fetch - main [MainThread]: Store serial: [22710754]

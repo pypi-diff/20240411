@@ -1787,3 +1787,42 @@ EOFError: EOF read where object expected
 [2024-04-11 01:44:18] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.1.tar.gz]
 [2024-04-11 01:44:18] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
 [2024-04-11 01:44:18] INFO root fetch - main [MainThread]: Store serial: [22710956]
+[2024-04-11 01:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710956]
+[2024-04-11 01:46:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-tagging-model
+[2024-04-11 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sniffles
+[2024-04-11 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadcutils
+[2024-04-11 01:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecha
+[2024-04-11 01:46:27] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a4] Old Version: [0.1.2a3]
+[2024-04-11 01:46:27] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/7a/25/10ac0f1bd711d19756b38d0db2caf158494a652d42dda0fe88fa9a5bb2ce/text_tagging_model-0.1.2a3.tar.gz
+[2024-04-11 01:46:27] INFO root fetch - processPackages [sniffles]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-11 01:46:27] INFO root fetch - processPackages [cadcutils]: New version: [1.5.1.4] Old Version: [1.5.1.3]
+[2024-04-11 01:46:27] INFO root fetch - processPackages [mecha]: New version: [0.93.0] Old Version: [0.92.0]
+[2024-04-11 01:46:28] INFO root fetch - processPackages [sniffles]: Downloading https://files.pythonhosted.org/packages/31/e5/b612d16073d3c40d2c99a13d342382037224588e61bdf58fdc7d0186935f/sniffles-2.3.1.tar.gz
+[2024-04-11 01:46:28] INFO root fetch - processPackages [cadcutils]: Downloading https://files.pythonhosted.org/packages/63/05/521494e3fad3e75edd61bc1d8ae93252f2335e38b60aa7d528279213d8fa/cadcutils-1.5.1.3.tar.gz
+[2024-04-11 01:46:28] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/64/50/d87eba292a82a901931792586c5292529bc50296787e121708c8cc8ce404/mecha-0.92.0.tar.gz
+[2024-04-11 01:46:28] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/70/cd/f6c31f00c81b25db782901b78c183e3b0f1d63a0c402c913fdcc7d3a1104/text_tagging_model-0.1.2a4.tar.gz
+[2024-04-11 01:46:28] INFO root fetch - processPackages [sniffles]: Downloading https://files.pythonhosted.org/packages/47/84/2a9b7ea50db6abb9fd0608b96e92e8762412a7942cee67906ba046462571/sniffles-2.3.2.tar.gz
+[2024-04-11 01:46:28] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 01:46:28] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a3.tar.gz tmp/text_tagging_model-0.1.2a4.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a3-0.1.2a4/README.md --exclude *.pyd
+[2024-04-11 01:46:28] INFO root fetch - processPackages [cadcutils]: Downloading https://files.pythonhosted.org/packages/fb/4f/1477d4a527b7b5cd263df0be074d08a3bb003adac90bddf3edc609a60113/cadcutils-1.5.1.4.tar.gz
+[2024-04-11 01:46:28] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/8b/8e/983f9eb932c914bac6c13a5cacacf39d2d90db91bbf91978160d3eff7132/mecha-0.93.0.tar.gz
+[2024-04-11 01:46:28] INFO root fetch - processPackages [sniffles]: executing diffoscope
+[2024-04-11 01:46:28] INFO root fetch - processPackages [sniffles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniffles-2.3.1.tar.gz tmp/sniffles-2.3.2.tar.gz --markdown 20240411/s/sniffles/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-11 01:46:28] INFO root fetch - processPackages [cadcutils]: executing diffoscope
+[2024-04-11 01:46:28] INFO root fetch - processPackages [cadcutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadcutils-1.5.1.3.tar.gz tmp/cadcutils-1.5.1.4.tar.gz --markdown 20240411/c/cadcutils/1.5.1.3-1.5.1.4/README.md --exclude *.pyd
+[2024-04-11 01:46:28] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2024-04-11 01:46:28] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.92.0.tar.gz tmp/mecha-0.93.0.tar.gz --markdown 20240411/m/mecha/0.92.0-0.93.0/README.md --exclude *.pyd
+[2024-04-11 01:46:29] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a3.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a4.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 01:46:29] INFO root fetch - processPackages [sniffles]: Remove: archive file [/home/abi/fetcher/tmp/sniffles-2.3.1.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - processPackages [sniffles]: Remove: archive file [/home/abi/fetcher/tmp/sniffles-2.3.2.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - main [MainThread]: End processing [sniffles]: success
+[2024-04-11 01:46:29] INFO root fetch - processPackages [cadcutils]: Remove: archive file [/home/abi/fetcher/tmp/cadcutils-1.5.1.3.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - processPackages [cadcutils]: Remove: archive file [/home/abi/fetcher/tmp/cadcutils-1.5.1.4.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - main [MainThread]: End processing [cadcutils]: success
+[2024-04-11 01:46:29] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.92.0.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.93.0.tar.gz]
+[2024-04-11 01:46:29] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2024-04-11 01:46:29] INFO root fetch - main [MainThread]: Store serial: [22710971]

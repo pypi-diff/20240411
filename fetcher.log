@@ -230,3 +230,75 @@
 [2024-04-11 00:13:54] INFO root fetch - processPackages [md-toc]: Remove: archive file [/home/abi/fetcher/tmp/md_toc-9.0.0.tar.gz]
 [2024-04-11 00:13:54] INFO root fetch - main [MainThread]: End processing [md-toc]: success
 [2024-04-11 00:13:54] INFO root fetch - main [MainThread]: Store serial: [22710215]
+[2024-04-11 00:15:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710215]
+[2024-04-11 00:16:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ledsc
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ethyca-fides
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qbiome
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lilya
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plato-rag
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih-backup
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leptonai
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netunicorn-connector-aws
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rocm-docs-core
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ledsc]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 00:16:02] INFO root fetch - processPackages [qbiome]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 00:16:02] WARNING root fetch - processPackages [pih-backup]: Skipping, unable to determine old version
+[2024-04-11 00:16:02] INFO root fetch - main [MainThread]: End processing [pih-backup] error
+[2024-04-11 00:16:02] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ledsc]: Downloading https://files.pythonhosted.org/packages/33/ee/ec4b8fcc590ec43b33e22aef6d5df52cd7a3b2252a648dfb6021a1f59d4c/ledsc-1.0.2.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [qbiome]: Downloading https://files.pythonhosted.org/packages/ad/20/4f17af27c848eaacc5adc58cd6309669f1607526d39e86082fa5bf2a874f/qbiome-0.0.8.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [leptonai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-11 00:16:03] INFO root fetch - processPackages [netunicorn-connector-aws]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-11 00:16:03] INFO root fetch - processPackages [lilya]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-11 00:16:03] WARNING root fetch - processPackages [plato-rag]: Skipping, unable to determine old version
+[2024-04-11 00:16:03] INFO root fetch - main [MainThread]: End processing [plato-rag] error
+[2024-04-11 00:16:03] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-11 00:16:03] INFO root fetch - processPackages [qbiome]: Downloading https://files.pythonhosted.org/packages/ba/e0/9fa95c642f27ba6bf89b431c4d239478284fff62f01516c06e4c7968e78c/qbiome-0.0.9.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [leptonai]: Downloading https://files.pythonhosted.org/packages/ae/5d/e981b10294d636dced521144aadba2e7ff7287a7370c3846f4dcbb6e96d3/leptonai-0.9.8-py3-none-any.whl
+[2024-04-11 00:16:03] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/77/88/8c729d6d3472a16b00192389300c6bd5e5e85b302fb67ce180982b23c70e/lilya-0.3.4.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [netunicorn-connector-aws]: Downloading https://files.pythonhosted.org/packages/25/b0/ad66025dab0035a64bfa9b1fcb237062d73cbe56131cc4bd80b193ffe24e/netunicorn-connector-aws-0.0.7.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [qbiome]: executing diffoscope
+[2024-04-11 00:16:03] INFO root fetch - processPackages [qbiome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbiome-0.0.8.tar.gz tmp/qbiome-0.0.9.tar.gz --markdown 20240411/q/qbiome/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 00:16:03] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/f9/19/0159088f20edfe3151203150b7200a110b31f38e54a6970440c78832b50b/rocm-docs-core-0.9.1.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ledsc]: Downloading https://files.pythonhosted.org/packages/63/33/f41cd05d262e3884c2347cdf6d54a99e218e259da5bff78349c3fe5e5f5f/ledsc-1.0.3.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ledsc]: executing diffoscope
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ledsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledsc-1.0.2.tar.gz tmp/ledsc-1.0.3.tar.gz --markdown 20240411/l/ledsc/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [leptonai]: Downloading https://files.pythonhosted.org/packages/2c/46/8a0440ef08931abb629f99043abb2b21c3a05fc8d92b46bbe53302a34b5a/leptonai-0.9.9-py3-none-any.whl
+[2024-04-11 00:16:03] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/35/fb/44ab2ed042d0d106a33fc1d4e03eace382b1391116470ce665a0409fe703/lilya-0.3.5.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [netunicorn-connector-aws]: Downloading https://files.pythonhosted.org/packages/b2/51/46def6249ce34374a4f5623b462298febc28fc8c62d8196ff72190047e75/netunicorn-connector-aws-0.0.8.tar.gz
+[2024-04-11 00:16:03] INFO root fetch - processPackages [lilya]: executing diffoscope
+[2024-04-11 00:16:03] INFO root fetch - processPackages [lilya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lilya-0.3.4.tar.gz tmp/lilya-0.3.5.tar.gz --markdown 20240411/l/lilya/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-11 00:16:03] INFO root fetch - processPackages [leptonai]: executing diffoscope
+[2024-04-11 00:16:03] INFO root fetch - processPackages [leptonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leptonai-0.9.8-py3-none-any.whl.zip tmp/leptonai-0.9.9-py3-none-any.whl.zip --markdown 20240411/l/leptonai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-11 00:16:03] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240411/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-11 00:16:03] INFO root fetch - processPackages [netunicorn-connector-aws]: executing diffoscope
+[2024-04-11 00:16:03] INFO root fetch - processPackages [netunicorn-connector-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-connector-aws-0.0.7.tar.gz tmp/netunicorn-connector-aws-0.0.8.tar.gz --markdown 20240411/n/netunicorn-connector-aws/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-11 00:16:03] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/10/67/d954e3cefa6dc2afd82d2fc11f424737a09b28d389ba8c96edaaad0b6172/rocm-docs-core-0.9.2.tar.gz
+[2024-04-11 00:16:04] INFO root fetch - processPackages [ledsc]: Remove: archive file [/home/abi/fetcher/tmp/ledsc-1.0.2.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - processPackages [ledsc]: Remove: archive file [/home/abi/fetcher/tmp/ledsc-1.0.3.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - main [MainThread]: End processing [ledsc]: success
+[2024-04-11 00:16:04] INFO root fetch - processPackages [qbiome]: Remove: archive file [/home/abi/fetcher/tmp/qbiome-0.0.8.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - processPackages [qbiome]: Remove: archive file [/home/abi/fetcher/tmp/qbiome-0.0.9.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - main [MainThread]: End processing [qbiome]: success
+[2024-04-11 00:16:04] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2024-04-11 00:16:04] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.1.tar.gz tmp/rocm-docs-core-0.9.2.tar.gz --markdown 20240411/r/rocm-docs-core/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-11 00:16:04] INFO root fetch - processPackages [netunicorn-connector-aws]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-connector-aws-0.0.7.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - processPackages [netunicorn-connector-aws]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-connector-aws-0.0.8.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-aws]: success
+[2024-04-11 00:16:04] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.3.4.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.3.5.tar.gz]
+[2024-04-11 00:16:04] INFO root fetch - main [MainThread]: End processing [lilya]: success
+[2024-04-11 00:16:04] INFO root fetch - processPackages [leptonai]: Remove: archive file [/home/abi/fetcher/tmp/leptonai-0.9.8-py3-none-any.whl.zip]
+[2024-04-11 00:16:04] INFO root fetch - processPackages [leptonai]: Remove: archive file [/home/abi/fetcher/tmp/leptonai-0.9.9-py3-none-any.whl.zip]
+[2024-04-11 00:16:04] INFO root fetch - main [MainThread]: End processing [leptonai]: success
+[2024-04-11 00:16:05] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.1.tar.gz]
+[2024-04-11 00:16:05] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.2.tar.gz]
+[2024-04-11 00:16:05] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2024-04-11 00:16:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-11 00:16:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-11 00:16:07] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-11 00:16:07] INFO root fetch - main [MainThread]: Store serial: [22710248]

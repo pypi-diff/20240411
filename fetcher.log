@@ -778,3 +778,75 @@
 [2024-04-11 00:50:45] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.6.tar.gz]
 [2024-04-11 00:50:45] INFO root fetch - main [MainThread]: End processing [etl-pipes]: success
 [2024-04-11 00:50:45] INFO root fetch - main [MainThread]: Store serial: [22710503]
+[2024-04-11 00:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710503]
+[2024-04-11 00:52:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datajunction-server
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiny-match-snapshot
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datajunction-query
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: packyak
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datajunction-reflection
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packyak-aws-cdk
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datajunction
+[2024-04-11 00:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chia-blockchain
+[2024-04-11 00:52:53] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-11 00:52:53] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-04-11 00:52:53] INFO root fetch - processPackages [tiny-match-snapshot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 00:52:53] INFO root fetch - processPackages [datajunction-reflection]: New version: [0.0.1a45] Old Version: [0.0.1a44]
+[2024-04-11 00:52:53] INFO root fetch - processPackages [datajunction-query]: New version: [0.0.1a45] Old Version: [0.0.1a44]
+[2024-04-11 00:52:53] INFO root fetch - processPackages [packyak-aws-cdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-11 00:52:53] INFO root fetch - processPackages [packyak]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-11 00:52:53] INFO root fetch - processPackages [chia-blockchain]: New version: [2.3.0rc2] Old Version: [2.3.0rc1]
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/1c/dd/d011039dbc015ee0cadf6a3a31cdaef350b9b1ee49373c7b04f51d601564/datajunction-0.0.1a8.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/23/64/636d8239242161fff864e9b70e849d2f42d00a50db0dc61780bca7bfa366/datajunction_server-0.0.1a7.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [tiny-match-snapshot]: Downloading https://files.pythonhosted.org/packages/2a/86/24cb9f0cd3e0c11a6cf3a508c83f94476fa64ff17690f8ae567abd8d2d66/tiny-match-snapshot-0.0.1.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-query]: Downloading https://files.pythonhosted.org/packages/2e/16/05c43fbc0e735c6013fd7138ecb8061cd6f9672db02bc4cf6945265b1849/datajunction_query-0.0.1a44.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak]: Downloading https://files.pythonhosted.org/packages/0f/e1/71360955805898fbbbbfdd5a559f016aa041e52ccf668fa8ad97151a902c/packyak-0.4.8.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/b1/b6/90c2046a32411ebabd41c5682c3c22d7cc85dc9c26a00ed8fd1f45b32ed9/chia-blockchain-2.3.0rc1.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/9c62d5ca11e5b2b4dce5e057fc33093ed5dbde055cfab1842da917cf273b/packyak-aws-cdk-0.4.8.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-reflection]: Downloading https://files.pythonhosted.org/packages/38/8e/4b8560a8d65d3d597931b5bb6fb8d60a84befc7bf4e1c8854e780284d314/datajunction_reflection-0.0.1a44.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [tiny-match-snapshot]: Downloading https://files.pythonhosted.org/packages/d1/55/7ecf3d0707cfc50c3a0dff4d4076ad76399e1de0259bcaad645edc76c21f/tiny-match-snapshot-0.0.2.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak]: Downloading https://files.pythonhosted.org/packages/a5/ef/5bb83fa20aca2fc78d2f94c3a0c3ee37d79927cf987923d93300cd3bd478/packyak-0.4.9.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/f5/c9/e1e1e0b9b00311d30bf76d73a1b624c59a03f40fa3252dd635089b115f37/packyak-aws-cdk-0.4.9.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-query]: Downloading https://files.pythonhosted.org/packages/74/f3/7a80ef311bd5b86cc89a2d69917ebcf2cbc83e6bf3082b853cf39a33ee5d/datajunction_query-0.0.1a45.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak]: executing diffoscope
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-0.4.8.tar.gz tmp/packyak-0.4.9.tar.gz --markdown 20240411/p/packyak/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-11 00:52:54] INFO root fetch - processPackages [tiny-match-snapshot]: executing diffoscope
+[2024-04-11 00:52:54] INFO root fetch - processPackages [tiny-match-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny-match-snapshot-0.0.1.tar.gz tmp/tiny-match-snapshot-0.0.2.tar.gz --markdown 20240411/t/tiny-match-snapshot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-reflection]: Downloading https://files.pythonhosted.org/packages/47/f0/c7e7f8fe3ad544045ba6f2311798e4a282d8cf9ecd28458be85c53fc774b/datajunction_reflection-0.0.1a45.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/6d/40/e972658d81444d44ff2909f60d208a2d7c48d70ee0932e14e05d1b20e029/chia-blockchain-2.3.0rc2.tar.gz
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak-aws-cdk]: executing diffoscope
+[2024-04-11 00:52:54] INFO root fetch - processPackages [packyak-aws-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-aws-cdk-0.4.8.tar.gz tmp/packyak-aws-cdk-0.4.9.tar.gz --markdown 20240411/p/packyak-aws-cdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-query]: executing diffoscope
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction_query-0.0.1a44.tar.gz tmp/datajunction_query-0.0.1a45.tar.gz --markdown 20240411/d/datajunction-query/0.0.1a44-0.0.1a45/README.md --exclude *.pyd
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-reflection]: executing diffoscope
+[2024-04-11 00:52:54] INFO root fetch - processPackages [datajunction-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction_reflection-0.0.1a44.tar.gz tmp/datajunction_reflection-0.0.1a45.tar.gz --markdown 20240411/d/datajunction-reflection/0.0.1a44-0.0.1a45/README.md --exclude *.pyd
+[2024-04-11 00:52:54] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2024-04-11 00:52:54] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-2.3.0rc1.tar.gz tmp/chia-blockchain-2.3.0rc2.tar.gz --markdown 20240411/c/chia-blockchain/2.3.0rc1-2.3.0rc2/README.md --exclude *.pyd
+[2024-04-11 00:52:55] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/a3/56/726ef8b88da5d7d28a93212e0247effc166d3a97fbe5bb9c64412e7e2c66/datajunction-0.0.1a9.tar.gz
+[2024-04-11 00:52:55] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2024-04-11 00:52:55] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a8.tar.gz tmp/datajunction-0.0.1a9.tar.gz --markdown 20240411/d/datajunction/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-11 00:52:55] INFO root fetch - processPackages [tiny-match-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/tiny-match-snapshot-0.0.1.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - processPackages [tiny-match-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/tiny-match-snapshot-0.0.2.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - main [MainThread]: End processing [tiny-match-snapshot]: success
+[2024-04-11 00:52:55] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-04-11 00:52:55] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-04-11 00:52:55] INFO root fetch - processPackages [datajunction-reflection]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_reflection-0.0.1a44.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - processPackages [datajunction-reflection]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_reflection-0.0.1a45.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - main [MainThread]: End processing [datajunction-reflection]: success
+[2024-04-11 00:52:55] INFO root fetch - processPackages [packyak]: Remove: archive file [/home/abi/fetcher/tmp/packyak-0.4.8.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - processPackages [packyak]: Remove: archive file [/home/abi/fetcher/tmp/packyak-0.4.9.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - main [MainThread]: End processing [packyak]: success
+[2024-04-11 00:52:55] INFO root fetch - processPackages [datajunction-query]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_query-0.0.1a44.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - processPackages [datajunction-query]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_query-0.0.1a45.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - main [MainThread]: End processing [datajunction-query]: success
+[2024-04-11 00:52:55] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.8.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.9.tar.gz]
+[2024-04-11 00:52:55] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
+[2024-04-11 00:52:56] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a8.tar.gz]
+[2024-04-11 00:52:56] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
+[2024-04-11 00:52:56] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2024-04-11 00:53:00] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.3.0rc1.tar.gz]
+[2024-04-11 00:53:00] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.3.0rc2.tar.gz]
+[2024-04-11 00:53:00] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2024-04-11 00:53:00] INFO root fetch - main [MainThread]: Store serial: [22710527]

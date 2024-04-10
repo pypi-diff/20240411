@@ -1113,3 +1113,42 @@
 [2024-04-11 01:08:47] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.0.0.tar.gz]
 [2024-04-11 01:08:47] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2024-04-11 01:08:47] INFO root fetch - main [MainThread]: Store serial: [22710647]
+[2024-04-11 01:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710647]
+[2024-04-11 01:10:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 01:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octomy-batch
+[2024-04-11 01:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passphera-core
+[2024-04-11 01:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vsensebox
+[2024-04-11 01:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: madblog
+[2024-04-11 01:10:58] INFO root fetch - processPackages [vsensebox]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 01:10:58] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 01:10:58] INFO root fetch - processPackages [vsensebox]: Downloading https://files.pythonhosted.org/packages/ee/a6/977fd7f13ac283208d65a01ab2d9ca3e62871a40b2ea5fb7084924be4ac4/vsensebox-0.0.1.tar.gz
+[2024-04-11 01:10:58] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/ed/b3/2c5a42942bc6ea230ecddff4c9ebdb21887926eab799eac2ae2f7a4a9a6b/madblog-0.2.8.tar.gz
+[2024-04-11 01:10:58] INFO root fetch - processPackages [passphera-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 01:10:59] INFO root fetch - processPackages [octomy-batch]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-11 01:10:59] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/62/45/1e3473636eddb40aebc11839ce181867ede3e7f3e1acfbb224800f216900/passphera-core-0.2.0.tar.gz
+[2024-04-11 01:10:59] INFO root fetch - processPackages [octomy-batch]: Downloading https://files.pythonhosted.org/packages/5f/7a/94132cec3759feffe07a2118bfe5ff1bfa758106ead7a48299478f757465/octomy-batch-2.0.1.tar.gz
+[2024-04-11 01:10:59] INFO root fetch - processPackages [vsensebox]: Downloading https://files.pythonhosted.org/packages/8c/3f/9c2c3cf796dd6d2e4d69b496b04b37d32642d1560ce8da79b5a977fdce91/vsensebox-0.0.2.tar.gz
+[2024-04-11 01:10:59] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/04/1d/afedf727ff86588e120b14288d3e4d4b69c63b58c662ea13511f25738baa/madblog-0.2.9.tar.gz
+[2024-04-11 01:10:59] INFO root fetch - processPackages [vsensebox]: executing diffoscope
+[2024-04-11 01:10:59] INFO root fetch - processPackages [vsensebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsensebox-0.0.1.tar.gz tmp/vsensebox-0.0.2.tar.gz --markdown 20240411/v/vsensebox/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 01:10:59] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2024-04-11 01:10:59] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20240411/m/madblog/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 01:10:59] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/27/2c/7162fb89e0d8d6774f647c2de12ce7308e8f048cf250eddb8ba3373a2550/passphera-core-0.2.1.tar.gz
+[2024-04-11 01:10:59] INFO root fetch - processPackages [octomy-batch]: Downloading https://files.pythonhosted.org/packages/1c/39/c9155694bcccaeb57f8816aaa2c600169dadfe9fc818dff102819adabfdd/octomy-batch-2.0.2.tar.gz
+[2024-04-11 01:10:59] INFO root fetch - processPackages [passphera-core]: executing diffoscope
+[2024-04-11 01:10:59] INFO root fetch - processPackages [passphera-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passphera-core-0.2.0.tar.gz tmp/passphera-core-0.2.1.tar.gz --markdown 20240411/p/passphera-core/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 01:10:59] INFO root fetch - processPackages [octomy-batch]: executing diffoscope
+[2024-04-11 01:10:59] INFO root fetch - processPackages [octomy-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomy-batch-2.0.1.tar.gz tmp/octomy-batch-2.0.2.tar.gz --markdown 20240411/o/octomy-batch/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-11 01:11:00] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.8.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.9.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2024-04-11 01:11:00] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.2.0.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.2.1.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - main [MainThread]: End processing [passphera-core]: success
+[2024-04-11 01:11:00] INFO root fetch - processPackages [vsensebox]: Remove: archive file [/home/abi/fetcher/tmp/vsensebox-0.0.1.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - processPackages [vsensebox]: Remove: archive file [/home/abi/fetcher/tmp/vsensebox-0.0.2.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - main [MainThread]: End processing [vsensebox]: success
+[2024-04-11 01:11:00] INFO root fetch - processPackages [octomy-batch]: Remove: archive file [/home/abi/fetcher/tmp/octomy-batch-2.0.1.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - processPackages [octomy-batch]: Remove: archive file [/home/abi/fetcher/tmp/octomy-batch-2.0.2.tar.gz]
+[2024-04-11 01:11:00] INFO root fetch - main [MainThread]: End processing [octomy-batch]: success
+[2024-04-11 01:11:00] INFO root fetch - main [MainThread]: Store serial: [22710662]

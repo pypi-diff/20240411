@@ -135,3 +135,24 @@
 [2024-04-11 00:07:24] INFO root fetch - processPackages [od-metrics]: Remove: archive file [/home/abi/fetcher/tmp/od-metrics-1.0.1.tar.gz]
 [2024-04-11 00:07:24] INFO root fetch - main [MainThread]: End processing [od-metrics]: success
 [2024-04-11 00:07:24] INFO root fetch - main [MainThread]: Store serial: [22710142]
+[2024-04-11 00:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710142]
+[2024-04-11 00:09:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 00:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-awsx
+[2024-04-11 00:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ofnodes
+[2024-04-11 00:09:33] INFO root fetch - processPackages [pulumi-awsx]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-11 00:09:33] INFO root fetch - processPackages [ofnodes]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-11 00:09:33] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/fc/ac/336bed3d2152d385a5480de40555ead2f6fe6d507fd69ad0f2528c0a724a/pulumi_awsx-2.5.0.tar.gz
+[2024-04-11 00:09:33] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/f3/7c/fb42a5e5a780db792cd3ee31293e5b09def4ae825f801348a297442c7dcb/ofnodes-1.0.2.tar.gz
+[2024-04-11 00:09:33] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/5c/70/a49b96ab9ac3f30c65cfca1ff26c7be4bf9ed2363a4fd4d66173303b5c5c/pulumi_awsx-2.6.0.tar.gz
+[2024-04-11 00:09:33] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2024-04-11 00:09:33] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-2.5.0.tar.gz tmp/pulumi_awsx-2.6.0.tar.gz --markdown 20240411/p/pulumi-awsx/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-11 00:09:33] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/0a/96/3c755b7112f2a71332c8f2f91028a7cd99414464aab9142582a3aaa7cdb0/ofnodes-1.1.0.tar.gz
+[2024-04-11 00:09:33] INFO root fetch - processPackages [ofnodes]: executing diffoscope
+[2024-04-11 00:09:33] INFO root fetch - processPackages [ofnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofnodes-1.0.2.tar.gz tmp/ofnodes-1.1.0.tar.gz --markdown 20240411/o/ofnodes/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-11 00:09:34] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.5.0.tar.gz]
+[2024-04-11 00:09:34] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.6.0.tar.gz]
+[2024-04-11 00:09:34] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2024-04-11 00:09:34] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.0.2.tar.gz]
+[2024-04-11 00:09:34] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.1.0.tar.gz]
+[2024-04-11 00:09:34] INFO root fetch - main [MainThread]: End processing [ofnodes]: success
+[2024-04-11 00:09:34] INFO root fetch - main [MainThread]: Store serial: [22710148]

@@ -419,3 +419,49 @@
 [2024-04-11 00:20:31] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.7.tar.gz]
 [2024-04-11 00:20:31] INFO root fetch - main [MainThread]: End processing [VLCDA]: success
 [2024-04-11 00:20:31] INFO root fetch - main [MainThread]: Store serial: [22710291]
+[2024-04-11 00:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710291]
+[2024-04-11 00:22:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 00:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-04-11 00:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: check-jsonschema
+[2024-04-11 00:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mohamed-lhachimi
+[2024-04-11 00:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mohamed-lhachimi
+[2024-04-11 00:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkscreener
+[2024-04-11 00:22:39] INFO root fetch - processPackages [pih]: New version: [0.36.2] Old Version: [0.36.1]
+[2024-04-11 00:22:39] INFO root fetch - processPackages [check-jsonschema]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 00:22:39] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240410.252] Old Version: [0.44.20240407.251]
+[2024-04-11 00:22:39] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/2a/00/a0fa8541119e8809993a02e151429859d6cbcadf1e00d552884a4c0aa73d/pih-0.36.1.tar.gz
+[2024-04-11 00:22:39] INFO root fetch - processPackages [mohamed-lhachimi]: New version: [0.2] Old Version: [0.1]
+[2024-04-11 00:22:39] INFO root fetch - processPackages [mohamed-lhachimi]: New version: [0.2] Old Version: [0.1]
+[2024-04-11 00:22:39] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/b1/3d/310f82ae2200db11e144114906324ae0599928bcfd057b430c828b19582c/pkscreener-0.44.20240407.251.tar.gz
+[2024-04-11 00:22:39] INFO root fetch - processPackages [check-jsonschema]: Downloading https://files.pythonhosted.org/packages/9e/4a/0533b34d6550c603ac33a3b6185c3f5bd6d9e1e28d7c4e1e740a63d4c396/check-jsonschema-0.9.0.tar.gz
+[2024-04-11 00:22:39] INFO root fetch - processPackages [mohamed-lhachimi]: Downloading https://files.pythonhosted.org/packages/28/94/74dcdf9cb20389f9a44f3a6a9fe7e86b81b1333bdd296f971e44d1149f7a/mohamed_lhachimi-0.1.tar.gz
+[2024-04-11 00:22:39] INFO root fetch - processPackages [mohamed-lhachimi]: Downloading https://files.pythonhosted.org/packages/28/94/74dcdf9cb20389f9a44f3a6a9fe7e86b81b1333bdd296f971e44d1149f7a/mohamed_lhachimi-0.1.tar.gz
+[2024-04-11 00:22:40] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/6a/d2/8f0bce38e5869254456eecaa663ed780afe9b6c66d9e54fc503010aedd9d/pkscreener-0.44.20240410.252.tar.gz
+[2024-04-11 00:22:40] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/f7/37/b5921eeb3300dccdb43b736247b890c83967f21c4547f861f00c83e232b0/pih-0.36.2.tar.gz
+[2024-04-11 00:22:40] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-11 00:22:40] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-11 00:22:40] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240407.251.tar.gz tmp/pkscreener-0.44.20240410.252.tar.gz --markdown 20240411/p/pkscreener/0.44.20240407.251-0.44.20240410.252/README.md --exclude *.pyd
+[2024-04-11 00:22:40] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.1.tar.gz tmp/pih-0.36.2.tar.gz --markdown 20240411/p/pih/0.36.1-0.36.2/README.md --exclude *.pyd
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: Downloading https://files.pythonhosted.org/packages/9b/22/5ebb67eb6750568033f1b2e9fc2dbe511dd2a50e6cb9996255f994b5a373/mohamed_lhachimi-0.2.tar.gz
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: Downloading https://files.pythonhosted.org/packages/9b/22/5ebb67eb6750568033f1b2e9fc2dbe511dd2a50e6cb9996255f994b5a373/mohamed_lhachimi-0.2.tar.gz
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: executing diffoscope
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mohamed_lhachimi-0.1.tar.gz tmp/mohamed_lhachimi-0.2.tar.gz --markdown 20240411/m/mohamed-lhachimi/0.1-0.2/README.md --exclude *.pyd
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: executing diffoscope
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mohamed_lhachimi-0.1.tar.gz tmp/mohamed_lhachimi-0.2.tar.gz --markdown 20240411/m/mohamed-lhachimi/0.1-0.2/README.md --exclude *.pyd
+[2024-04-11 00:22:40] INFO root fetch - processPackages [check-jsonschema]: Downloading https://files.pythonhosted.org/packages/cc/95/9cdc2619b91080ae3f1fb96552399a6843ee8f2d306aa2eeee9d1587571f/check-jsonschema-0.9.1.tar.gz
+[2024-04-11 00:22:40] INFO root fetch - processPackages [check-jsonschema]: executing diffoscope
+[2024-04-11 00:22:40] INFO root fetch - processPackages [check-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check-jsonschema-0.9.0.tar.gz tmp/check-jsonschema-0.9.1.tar.gz --markdown 20240411/c/check-jsonschema/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: Remove: archive file [/home/abi/fetcher/tmp/mohamed_lhachimi-0.1.tar.gz]
+[2024-04-11 00:22:40] INFO root fetch - processPackages [mohamed-lhachimi]: Remove: archive file [/home/abi/fetcher/tmp/mohamed_lhachimi-0.2.tar.gz]
+[2024-04-11 00:22:40] INFO root fetch - main [MainThread]: End processing [mohamed-lhachimi]: success
+[2024-04-11 00:22:41] INFO root fetch - main [MainThread]: End processing [mohamed-lhachimi]: success
+[2024-04-11 00:22:41] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240407.251.tar.gz]
+[2024-04-11 00:22:41] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240410.252.tar.gz]
+[2024-04-11 00:22:41] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-11 00:22:41] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.1.tar.gz]
+[2024-04-11 00:22:41] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.2.tar.gz]
+[2024-04-11 00:22:41] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-11 00:22:44] INFO root fetch - processPackages [check-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/check-jsonschema-0.9.0.tar.gz]
+[2024-04-11 00:22:44] INFO root fetch - processPackages [check-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/check-jsonschema-0.9.1.tar.gz]
+[2024-04-11 00:22:44] INFO root fetch - main [MainThread]: End processing [check-jsonschema]: success
+[2024-04-11 00:22:44] INFO root fetch - main [MainThread]: Store serial: [22710307]

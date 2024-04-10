@@ -114,3 +114,24 @@
 [2024-04-11 00:05:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
 [2024-04-11 00:05:14] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-04-11 00:05:14] INFO root fetch - main [MainThread]: Store serial: [22710136]
+[2024-04-11 00:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710136]
+[2024-04-11 00:07:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gamdl
+[2024-04-11 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: od-metrics
+[2024-04-11 00:07:22] INFO root fetch - processPackages [od-metrics]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 00:07:22] INFO root fetch - processPackages [gamdl]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-11 00:07:23] INFO root fetch - processPackages [od-metrics]: Downloading https://files.pythonhosted.org/packages/1c/aa/a6455f7ed98fb1625c32c3747ac3ca3bb0b75cc788a719c36d1dd83c131e/od-metrics-1.0.0.tar.gz
+[2024-04-11 00:07:23] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/e1/f2/016f797f179d880d87ad88ffe50cc73d1c7cfac1b9485799f46a85e46fe0/gamdl-2.1.5.tar.gz
+[2024-04-11 00:07:23] INFO root fetch - processPackages [od-metrics]: Downloading https://files.pythonhosted.org/packages/cb/b3/fbe12c393227cbd1ff35f75ad1e502bce0df469c94789a5f12a399c5d879/od-metrics-1.0.1.tar.gz
+[2024-04-11 00:07:23] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/63/af/26a180f3c83d1ae7d1ab718562e5f937dc7f8a72528ea1827556fec806a6/gamdl-2.1.6.tar.gz
+[2024-04-11 00:07:23] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-04-11 00:07:23] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.1.5.tar.gz tmp/gamdl-2.1.6.tar.gz --markdown 20240411/g/gamdl/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-11 00:07:23] INFO root fetch - processPackages [od-metrics]: executing diffoscope
+[2024-04-11 00:07:23] INFO root fetch - processPackages [od-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/od-metrics-1.0.0.tar.gz tmp/od-metrics-1.0.1.tar.gz --markdown 20240411/o/od-metrics/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 00:07:24] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.5.tar.gz]
+[2024-04-11 00:07:24] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.6.tar.gz]
+[2024-04-11 00:07:24] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-04-11 00:07:24] INFO root fetch - processPackages [od-metrics]: Remove: archive file [/home/abi/fetcher/tmp/od-metrics-1.0.0.tar.gz]
+[2024-04-11 00:07:24] INFO root fetch - processPackages [od-metrics]: Remove: archive file [/home/abi/fetcher/tmp/od-metrics-1.0.1.tar.gz]
+[2024-04-11 00:07:24] INFO root fetch - main [MainThread]: End processing [od-metrics]: success
+[2024-04-11 00:07:24] INFO root fetch - main [MainThread]: Store serial: [22710142]

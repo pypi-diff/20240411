@@ -465,3 +465,27 @@
 [2024-04-11 00:22:44] INFO root fetch - processPackages [check-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/check-jsonschema-0.9.1.tar.gz]
 [2024-04-11 00:22:44] INFO root fetch - main [MainThread]: End processing [check-jsonschema]: success
 [2024-04-11 00:22:44] INFO root fetch - main [MainThread]: Store serial: [22710307]
+[2024-04-11 00:24:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710307]
+[2024-04-11 00:24:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-iris
+[2024-04-11 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freegenius
+[2024-04-11 00:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codebase-to-text
+[2024-04-11 00:24:53] WARNING root fetch - processPackages [codebase-to-text]: Skipping, unable to determine old version
+[2024-04-11 00:24:53] INFO root fetch - main [MainThread]: End processing [codebase-to-text] error
+[2024-04-11 00:24:53] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 00:24:53] INFO root fetch - processPackages [neon-iris]: New version: [0.1.1a5] Old Version: [0.1.1a4]
+[2024-04-11 00:24:53] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-11 00:24:53] INFO root fetch - processPackages [neon-iris]: Downloading https://files.pythonhosted.org/packages/5d/c0/451ca71a97b965106f629e145b0394d9fb9a791d74a2bba17503e05ce6f4/neon-iris-0.1.1a4.tar.gz
+[2024-04-11 00:24:53] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-11 00:24:53] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-11 00:24:53] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240411/f/freegenius/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 00:24:53] INFO root fetch - processPackages [neon-iris]: Downloading https://files.pythonhosted.org/packages/ed/72/6d2370dab9469307d0d2f0fc9da30060768686c63d14f961ec1db307c193/neon-iris-0.1.1a5.tar.gz
+[2024-04-11 00:24:53] INFO root fetch - processPackages [neon-iris]: executing diffoscope
+[2024-04-11 00:24:53] INFO root fetch - processPackages [neon-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-iris-0.1.1a4.tar.gz tmp/neon-iris-0.1.1a5.tar.gz --markdown 20240411/n/neon-iris/0.1.1a4-0.1.1a5/README.md --exclude *.pyd
+[2024-04-11 00:24:54] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-11 00:24:54] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-11 00:24:54] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-11 00:24:54] INFO root fetch - processPackages [neon-iris]: Remove: archive file [/home/abi/fetcher/tmp/neon-iris-0.1.1a4.tar.gz]
+[2024-04-11 00:24:54] INFO root fetch - processPackages [neon-iris]: Remove: archive file [/home/abi/fetcher/tmp/neon-iris-0.1.1a5.tar.gz]
+[2024-04-11 00:24:54] INFO root fetch - main [MainThread]: End processing [neon-iris]: success
+[2024-04-11 00:24:54] INFO root fetch - main [MainThread]: Store serial: [22710317]

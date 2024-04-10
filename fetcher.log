@@ -590,3 +590,51 @@
 [2024-04-11 00:37:35] WARNING root fetch - processPackages [lime-green]: Skipping, unable to determine old version
 [2024-04-11 00:37:35] INFO root fetch - main [MainThread]: End processing [lime-green] error
 [2024-04-11 00:37:35] INFO root fetch - main [MainThread]: Store serial: [22710396]
+[2024-04-11 00:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710396]
+[2024-04-11 00:39:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 00:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipez
+[2024-04-11 00:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-tagging-model
+[2024-04-11 00:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymoose
+[2024-04-11 00:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rigging
+[2024-04-11 00:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dawnai
+[2024-04-11 00:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-lyl
+[2024-04-11 00:39:44] INFO root fetch - processPackages [dawnai]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 00:39:44] WARNING root fetch - processPackages [example-package-lyl]: Skipping, unable to determine old version
+[2024-04-11 00:39:44] INFO root fetch - main [MainThread]: End processing [example-package-lyl] error
+[2024-04-11 00:39:44] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2024-04-11 00:39:44] INFO root fetch - processPackages [dawnai]: Downloading https://files.pythonhosted.org/packages/85/17/2354cac922954acdfb74b121615b3f70045013add88498753314060da5f3/dawnai-0.0.2.tar.gz
+[2024-04-11 00:39:44] INFO root fetch - processPackages [pymoose]: New version: [4.0.0.dev20240410] Old Version: [4.0.0]
+[2024-04-11 00:39:44] INFO root fetch - processPackages [pipez]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 00:39:44] INFO root fetch - processPackages [rigging]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 00:39:44] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/9b/9b/dc9712b831c79398b054720c1f49ba16f4ec66eb338c083ed911e9f1b18e/text_tagging_model-0.1.1.tar.gz
+[2024-04-11 00:39:44] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/57/41/15f90ae66b484071299d6e1321594b786409a2ff6c044cf2ceb7f0c89a77/pipez-0.0.8.tar.gz
+[2024-04-11 00:39:44] INFO root fetch - processPackages [dawnai]: Downloading https://files.pythonhosted.org/packages/68/70/a0877aba5f78fd83ace1570a3d0cb966a9bf5c73b4d470e92522405805a0/dawnai-0.0.3.tar.gz
+[2024-04-11 00:39:44] INFO root fetch - processPackages [pymoose]: Downloading https://files.pythonhosted.org/packages/72/6d/d994ad67d823821b1aaddf16c6eaea71d9ddb0eca8d2e31f9c4477818a21/pymoose-4.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 00:39:44] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/a3/87/b24e0fd80585e160f5f9f3fb9285f73f6811b274977b1150b060ab1ec79f/rigging-0.2.0.tar.gz
+[2024-04-11 00:39:44] INFO root fetch - processPackages [dawnai]: executing diffoscope
+[2024-04-11 00:39:44] INFO root fetch - processPackages [dawnai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dawnai-0.0.2.tar.gz tmp/dawnai-0.0.3.tar.gz --markdown 20240411/d/dawnai/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 00:39:45] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/41/d2/e8195b7e90329d5fc3caf434d8821ab17993e21cb800c48eacfff57b6a3d/text_tagging_model-0.1.2a0.tar.gz
+[2024-04-11 00:39:45] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-11 00:39:45] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/db/8e/fefa78f7426ad61fad2bebb5b611acf61c9ffed7ee0ef7304537e52c7048/rigging-0.2.1.tar.gz
+[2024-04-11 00:39:45] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 00:39:45] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.1.tar.gz tmp/text_tagging_model-0.1.2a0.tar.gz --markdown 20240411/t/text-tagging-model/0.1.1-0.1.2a0/README.md --exclude *.pyd
+[2024-04-11 00:39:45] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-11 00:39:45] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.8.tar.gz tmp/pipez-0.0.9.tar.gz --markdown 20240411/p/pipez/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 00:39:45] INFO root fetch - processPackages [rigging]: executing diffoscope
+[2024-04-11 00:39:45] INFO root fetch - processPackages [rigging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigging-0.2.0.tar.gz tmp/rigging-0.2.1.tar.gz --markdown 20240411/r/rigging/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 00:39:45] INFO root fetch - processPackages [dawnai]: Remove: archive file [/home/abi/fetcher/tmp/dawnai-0.0.2.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - processPackages [dawnai]: Remove: archive file [/home/abi/fetcher/tmp/dawnai-0.0.3.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - main [MainThread]: End processing [dawnai]: success
+[2024-04-11 00:39:45] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.1.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a0.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 00:39:45] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.8.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-11 00:39:45] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-0.2.0.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-0.2.1.tar.gz]
+[2024-04-11 00:39:45] INFO root fetch - main [MainThread]: End processing [rigging]: success
+[2024-04-11 00:39:45] INFO root fetch - processPackages [pymoose]: Downloading https://files.pythonhosted.org/packages/52/6c/62cb8e47e262b52054619498047a8047223c00214f64e4d6248742178853/pymoose-4.0.0.dev20240410-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 00:39:45] WARNING root fetch - processPackages [pymoose]: Skipping package: exceeds size limit 11519587>=10485760
+[2024-04-11 00:39:45] INFO root fetch - main [MainThread]: End processing [pymoose] error
+[2024-04-11 00:39:45] INFO root fetch - main [MainThread]: Store serial: [22710415]

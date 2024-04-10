@@ -1074,3 +1074,42 @@
 [2024-04-11 01:06:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240409.tar.gz]
 [2024-04-11 01:06:31] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-11 01:06:31] INFO root fetch - main [MainThread]: Store serial: [22710626]
+[2024-04-11 01:08:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710626]
+[2024-04-11 01:08:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 01:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: madblog
+[2024-04-11 01:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antsi
+[2024-04-11 01:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mocca2
+[2024-04-11 01:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stripe
+[2024-04-11 01:08:39] INFO root fetch - processPackages [mocca2]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-04-11 01:08:39] INFO root fetch - processPackages [mocca2]: Downloading https://files.pythonhosted.org/packages/bc/a8/f238f5a681bb21e9670fd841f7a71ac71052a3380c9201e751a6a1230003/mocca2-0.0.8.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [antsi]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-11 01:08:40] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 01:08:40] INFO root fetch - processPackages [stripe]: New version: [9.0.0] Old Version: [8.9.0b1]
+[2024-04-11 01:08:40] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/59/ad/278663267e95202c4a349de8f633d9ed4c31272b9464c09f0349418b2819/antsi-0.1.3.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/ed/b3/2c5a42942bc6ea230ecddff4c9ebdb21887926eab799eac2ae2f7a4a9a6b/madblog-0.2.8.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [mocca2]: Downloading https://files.pythonhosted.org/packages/7f/55/6e55d5bdeafabbc7569482b51d7d608634c08f5f30cfb1961434573369e4/mocca2-0.1.0.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/0b/4d/6fd857cc97f5d31be2005ccc222b282e450e192ecea871a7d2362d18372b/stripe-8.9.0b1.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [mocca2]: executing diffoscope
+[2024-04-11 01:08:40] INFO root fetch - processPackages [mocca2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocca2-0.0.8.tar.gz tmp/mocca2-0.1.0.tar.gz --markdown 20240411/m/mocca2/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-04-11 01:08:40] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/d9/dd/3625d5027180ad43b66f8566159aadf211416a6ce7bc13bbe67fcea4670b/antsi-0.2.0.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/a3/55/27d853529ef13521c1146794e51b7c73dd00f6147d76e6ad766b5c7bcf4f/stripe-9.0.0.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [antsi]: executing diffoscope
+[2024-04-11 01:08:40] INFO root fetch - processPackages [antsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsi-0.1.3.tar.gz tmp/antsi-0.2.0.tar.gz --markdown 20240411/a/antsi/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-11 01:08:40] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/04/1d/afedf727ff86588e120b14288d3e4d4b69c63b58c662ea13511f25738baa/madblog-0.2.9.tar.gz
+[2024-04-11 01:08:40] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-04-11 01:08:40] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-8.9.0b1.tar.gz tmp/stripe-9.0.0.tar.gz --markdown 20240411/s/stripe/8.9.0b1-9.0.0/README.md --exclude *.pyd
+[2024-04-11 01:08:40] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2024-04-11 01:08:40] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20240411/m/madblog/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 01:08:41] INFO root fetch - processPackages [mocca2]: Remove: archive file [/home/abi/fetcher/tmp/mocca2-0.0.8.tar.gz]
+[2024-04-11 01:08:41] INFO root fetch - processPackages [mocca2]: Remove: archive file [/home/abi/fetcher/tmp/mocca2-0.1.0.tar.gz]
+[2024-04-11 01:08:41] INFO root fetch - main [MainThread]: End processing [mocca2]: success
+[2024-04-11 01:08:41] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.3.tar.gz]
+[2024-04-11 01:08:41] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.2.0.tar.gz]
+[2024-04-11 01:08:41] INFO root fetch - main [MainThread]: End processing [antsi]: success
+[2024-04-11 01:08:41] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.8.tar.gz]
+[2024-04-11 01:08:41] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.9.tar.gz]
+[2024-04-11 01:08:41] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2024-04-11 01:08:47] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0b1.tar.gz]
+[2024-04-11 01:08:47] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.0.0.tar.gz]
+[2024-04-11 01:08:47] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-04-11 01:08:47] INFO root fetch - main [MainThread]: Store serial: [22710647]

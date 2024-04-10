@@ -302,3 +302,99 @@
 [2024-04-11 00:16:07] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-11 00:16:07] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-11 00:16:07] INFO root fetch - main [MainThread]: Store serial: [22710248]
+[2024-04-11 00:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710248]
+[2024-04-11 00:18:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-event
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rastervision-pipeline
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rastervision-aws-batch
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rastervision-aws-s3
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rastervision-core
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rastervision-pytorch-learner
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rastervision-pytorch-backend
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rastervision-gdal-vsi
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rastervision-aws-sagemaker
+[2024-04-11 00:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rastervision
+[2024-04-11 00:18:17] INFO root fetch - processPackages [pih-event]: New version: [0.12] Old Version: [0.11]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [pih-event]: Downloading https://files.pythonhosted.org/packages/5f/6b/e80462df9c13f34a2a42c2d51e2ad7360eee0ec65f2d5d0ef5d5fb310be5/pih-event-0.11.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-pipeline]: New version: [0.30.0] Old Version: [0.21.3]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-pytorch-learner]: New version: [0.30.0] Old Version: [0.21.3]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-aws-batch]: New version: [0.30.0] Old Version: [0.21.3]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-aws-s3]: New version: [0.30.0] Old Version: [0.21.3]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-gdal-vsi]: New version: [0.30.0] Old Version: [0.21.3]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-core]: New version: [0.30.0] Old Version: [0.21.3]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-pytorch-backend]: New version: [0.30.0] Old Version: [0.21.3]
+[2024-04-11 00:18:17] WARNING root fetch - processPackages [rastervision-aws-sagemaker]: Skipping, unable to determine old version
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-aws-sagemaker]: Start processing: mmif-python
+[2024-04-11 00:18:17] INFO root fetch - main [MainThread]: End processing [rastervision-aws-sagemaker] error
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-pipeline]: Downloading https://files.pythonhosted.org/packages/84/c3/7f5c0796c8a08d2811c49cefdb839de5f5a301893b2324e104e3a49ac0ab/rastervision_pipeline-0.21.3.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-aws-s3]: Downloading https://files.pythonhosted.org/packages/f9/55/cc482512f1a01d9c2b44d19587bdf38b464e1b436eed5a8e6abf632a1f55/rastervision_aws_s3-0.21.3.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [mmif-python]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-aws-batch]: Downloading https://files.pythonhosted.org/packages/72/06/6fcf2c257f69ae20189eb47423b1b83789f321e269ceea27df71ca713105/rastervision_aws_batch-0.21.3.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [pih-event]: Downloading https://files.pythonhosted.org/packages/8f/89/bb67258f1268febaa6e146e7feeafc9bcdf4a09d9eebe03f3ea03ab5470b/pih-event-0.12.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-pytorch-learner]: Downloading https://files.pythonhosted.org/packages/5e/62/bf348154e8e4a748f2051537ce771a0e9eb0cdc450caf17eed8596432b6d/rastervision_pytorch_learner-0.21.3.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision]: Downloading https://files.pythonhosted.org/packages/50/5c/f5e324502832d3f7fe7d357592c881b238cc01484b86c3488a9198adbb91/rastervision-0.9.0-py3-none-any.whl
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-gdal-vsi]: Downloading https://files.pythonhosted.org/packages/74/35/a1d7f4e469ebecd230e0180cba58b85fdc02fdb4b6a2284eaabe4a7828ac/rastervision_gdal_vsi-0.21.3.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-pytorch-backend]: Downloading https://files.pythonhosted.org/packages/6d/71/44a651a237c54ed17a9f40d3f203c329d82173602dc74aaa68152963884c/rastervision_pytorch_backend-0.21.3.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [rastervision-core]: Downloading https://files.pythonhosted.org/packages/72/12/8efa8f2379089da3f24cf33c3a3232bf49d0e6005fd0c5b2ab37a96ec8e6/rastervision_core-0.21.3.tar.gz
+[2024-04-11 00:18:17] INFO root fetch - processPackages [pih-event]: executing diffoscope
+[2024-04-11 00:18:17] INFO root fetch - processPackages [pih-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-event-0.11.tar.gz tmp/pih-event-0.12.tar.gz --markdown 20240411/p/pih-event/0.11-0.12/README.md --exclude *.pyd
+[2024-04-11 00:18:17] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/c3/4d/291757c48fec0aee32e6f01073af65ffd754f3596ef3bc71a87b6fd59b30/mmif-python-1.0.7.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pipeline]: Downloading https://files.pythonhosted.org/packages/95/38/b64cb1966e26812cb284d750fba85df95e24651b0e621cba7dc52ef39c8f/rastervision_pipeline-0.30.0.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-aws-batch]: Downloading https://files.pythonhosted.org/packages/24/cb/2dce80f6133809dfecb1b2fe520f474410b6a48f056c93d7cb02f4a1f37c/rastervision_aws_batch-0.30.0.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pytorch-learner]: Downloading https://files.pythonhosted.org/packages/fe/ba/8f2720d45adce0b7f66b297613107b22b8e8ca2bf73acf73ce204dcbca0e/rastervision_pytorch_learner-0.30.0.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-aws-s3]: Downloading https://files.pythonhosted.org/packages/7e/dc/e4698e05c0cfb6020504b2ab54ff7171eca01067fbfff7dac8781d502d91/rastervision_aws_s3-0.30.0.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-gdal-vsi]: Downloading https://files.pythonhosted.org/packages/73/d9/495b6aad3c8483520723a20b6ad9786a6e98fa5ef6cc7098e5f2f616322c/rastervision_gdal_vsi-0.30.0.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pipeline]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision_pipeline-0.21.3.tar.gz tmp/rastervision_pipeline-0.30.0.tar.gz --markdown 20240411/r/rastervision-pipeline/0.21.3-0.30.0/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-core]: Downloading https://files.pythonhosted.org/packages/f5/54/2e538d07cc74ac2de5fb2021d3880771226162253d4de022f50ed067f4c9/rastervision_core-0.30.0.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pytorch-backend]: Downloading https://files.pythonhosted.org/packages/fc/2d/db25f50816aea3d9d0b37dbae6f7d65acc6243ddc99345f71bb498a9f4ab/rastervision_pytorch_backend-0.30.0.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision]: Downloading https://files.pythonhosted.org/packages/ed/0f/2b97c1c0459ab8050902d878fa904ed9b8e4d3171c641a160716520169b9/rastervision-0.9.0rc1.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-aws-batch]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-aws-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision_aws_batch-0.21.3.tar.gz tmp/rastervision_aws_batch-0.30.0.tar.gz --markdown 20240411/r/rastervision-aws-batch/0.21.3-0.30.0/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pytorch-learner]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pytorch-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision_pytorch_learner-0.21.3.tar.gz tmp/rastervision_pytorch_learner-0.30.0.tar.gz --markdown 20240411/r/rastervision-pytorch-learner/0.21.3-0.30.0/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-aws-s3]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision_aws_s3-0.21.3.tar.gz tmp/rastervision_aws_s3-0.30.0.tar.gz --markdown 20240411/r/rastervision-aws-s3/0.21.3-0.30.0/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-gdal-vsi]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-gdal-vsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision_gdal_vsi-0.21.3.tar.gz tmp/rastervision_gdal_vsi-0.30.0.tar.gz --markdown 20240411/r/rastervision-gdal-vsi/0.21.3-0.30.0/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-core]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision_core-0.21.3.tar.gz tmp/rastervision_core-0.30.0.tar.gz --markdown 20240411/r/rastervision-core/0.21.3-0.30.0/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/df/4d/10a1230fc6aa08b756fe9457b2e9e18fb9dee0c0383247aebd5510dc331c/mmif-python-1.0.8.tar.gz
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pytorch-backend]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision-pytorch-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision_pytorch_backend-0.21.3.tar.gz tmp/rastervision_pytorch_backend-0.30.0.tar.gz --markdown 20240411/r/rastervision-pytorch-backend/0.21.3-0.30.0/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - processPackages [pih-event]: Remove: archive file [/home/abi/fetcher/tmp/pih-event-0.11.tar.gz]
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [pih-event]: Remove: archive file [/home/abi/fetcher/tmp/pih-event-0.12.tar.gz]
+[2024-04-11 00:18:18] INFO root fetch - processPackages [rastervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastervision-0.9.0-py3-none-any.whl.zip tmp/rastervision-0.9.0rc1.tar.gz --markdown 20240411/r/rastervision/0.9.0-0.9.0rc1/README.md --exclude *.pyd
+[2024-04-11 00:18:18] INFO root fetch - main [MainThread]: End processing [pih-event]: success
+[2024-04-11 00:18:18] INFO root fetch - processPackages [mmif-python]: executing diffoscope
+[2024-04-11 00:18:18] INFO root fetch - processPackages [mmif-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmif-python-1.0.7.tar.gz tmp/mmif-python-1.0.8.tar.gz --markdown 20240411/m/mmif-python/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-aws-batch]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_aws_batch-0.21.3.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-aws-batch]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_aws_batch-0.30.0.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-aws-batch]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_aws_s3-0.21.3.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_aws_s3-0.30.0.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-aws-s3]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_pipeline-0.21.3.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_pipeline-0.30.0.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-pipeline]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-pytorch-backend]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_pytorch_backend-0.21.3.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-pytorch-backend]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_pytorch_backend-0.30.0.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-pytorch-backend]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-pytorch-learner]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_pytorch_learner-0.21.3.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-pytorch-learner]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_pytorch_learner-0.30.0.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-pytorch-learner]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-gdal-vsi]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_gdal_vsi-0.21.3.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-gdal-vsi]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_gdal_vsi-0.30.0.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-gdal-vsi]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [mmif-python]: Remove: archive file [/home/abi/fetcher/tmp/mmif-python-1.0.7.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [mmif-python]: Remove: archive file [/home/abi/fetcher/tmp/mmif-python-1.0.8.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [mmif-python]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision]: Remove: archive file [/home/abi/fetcher/tmp/rastervision-0.9.0-py3-none-any.whl.zip]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision]: Remove: archive file [/home/abi/fetcher/tmp/rastervision-0.9.0rc1.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision]: success
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-core]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_core-0.21.3.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - processPackages [rastervision-core]: Remove: archive file [/home/abi/fetcher/tmp/rastervision_core-0.30.0.tar.gz]
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: End processing [rastervision-core]: success
+[2024-04-11 00:18:19] INFO root fetch - main [MainThread]: Store serial: [22710286]

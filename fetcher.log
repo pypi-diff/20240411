@@ -543,3 +543,44 @@
 [2024-04-11 00:31:09] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
 [2024-04-11 00:31:09] INFO root fetch - main [MainThread]: End processing [zrb]: success
 [2024-04-11 00:31:09] INFO root fetch - main [MainThread]: Store serial: [22710345]
+[2024-04-11 00:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710345]
+[2024-04-11 00:33:17] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 00:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710345]
+[2024-04-11 00:35:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dawnai
+[2024-04-11 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbor2
+[2024-04-11 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-payment-order
+[2024-04-11 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whylogs
+[2024-04-11 00:35:23] INFO root fetch - processPackages [whylogs]: New version: [1.3.9.dev0] Old Version: [1.3.9]
+[2024-04-11 00:35:23] INFO root fetch - processPackages [dawnai]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 00:35:23] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1]
+[2024-04-11 00:35:23] INFO root fetch - processPackages [cbor2]: New version: [5.6.3] Old Version: [5.6.2]
+[2024-04-11 00:35:23] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/5a/30/47d8e3f3be16165c83b5d82251bc55c5d474bc567b0fd89a0b113f2a81fd/whylogs-1.3.9.tar.gz
+[2024-04-11 00:35:23] INFO root fetch - processPackages [dawnai]: Downloading https://files.pythonhosted.org/packages/85/17/2354cac922954acdfb74b121615b3f70045013add88498753314060da5f3/dawnai-0.0.2.tar.gz
+[2024-04-11 00:35:23] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/cf/6f/a4beb1e6812591eb1ff1db6631a1a8314a3e0fb768ca09051c27d6ef04a4/odoo_addon_account_payment_order-17.0.1.0.1-py3-none-any.whl
+[2024-04-11 00:35:23] INFO root fetch - processPackages [cbor2]: Downloading https://files.pythonhosted.org/packages/ca/39/0d0a29671be102bd0c717c60f9c805b46042ff98d4a63282cfaff3704b45/cbor2-5.6.2.tar.gz
+[2024-04-11 00:35:24] INFO root fetch - processPackages [dawnai]: Downloading https://files.pythonhosted.org/packages/68/70/a0877aba5f78fd83ace1570a3d0cb966a9bf5c73b4d470e92522405805a0/dawnai-0.0.3.tar.gz
+[2024-04-11 00:35:24] INFO root fetch - processPackages [cbor2]: Downloading https://files.pythonhosted.org/packages/15/40/167a05149eff1c0b7d19e27d0e1c96a463c5f670f879bffb7d124e3a6539/cbor2-5.6.3.tar.gz
+[2024-04-11 00:35:24] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/32/dc/6c44e00c62fc15ce6fa3695ba3e8b724e71a124aad8ef26248d51a25892e/odoo_addon_account_payment_order-17.0.1.1.0-py3-none-any.whl
+[2024-04-11 00:35:24] INFO root fetch - processPackages [dawnai]: executing diffoscope
+[2024-04-11 00:35:24] INFO root fetch - processPackages [dawnai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dawnai-0.0.2.tar.gz tmp/dawnai-0.0.3.tar.gz --markdown 20240411/d/dawnai/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 00:35:24] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/46/7e/17ce1e12e86efc6877c9c8d4b1ddb2ed9c23c6065f082f28a38477f9f9ec/whylogs-1.3.9.dev0.tar.gz
+[2024-04-11 00:35:24] INFO root fetch - processPackages [cbor2]: executing diffoscope
+[2024-04-11 00:35:24] INFO root fetch - processPackages [cbor2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbor2-5.6.2.tar.gz tmp/cbor2-5.6.3.tar.gz --markdown 20240411/c/cbor2/5.6.2-5.6.3/README.md --exclude *.pyd
+[2024-04-11 00:35:24] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2024-04-11 00:35:24] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-account-payment-order/17.0.1.0.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-04-11 00:35:24] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2024-04-11 00:35:24] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.3.9.tar.gz tmp/whylogs-1.3.9.dev0.tar.gz --markdown 20240411/w/whylogs/1.3.9-1.3.9.dev0/README.md --exclude *.pyd
+[2024-04-11 00:35:24] INFO root fetch - processPackages [dawnai]: Remove: archive file [/home/abi/fetcher/tmp/dawnai-0.0.2.tar.gz]
+[2024-04-11 00:35:24] INFO root fetch - processPackages [dawnai]: Remove: archive file [/home/abi/fetcher/tmp/dawnai-0.0.3.tar.gz]
+[2024-04-11 00:35:24] INFO root fetch - main [MainThread]: End processing [dawnai]: success
+[2024-04-11 00:35:25] INFO root fetch - processPackages [cbor2]: Remove: archive file [/home/abi/fetcher/tmp/cbor2-5.6.2.tar.gz]
+[2024-04-11 00:35:25] INFO root fetch - processPackages [cbor2]: Remove: archive file [/home/abi/fetcher/tmp/cbor2-5.6.3.tar.gz]
+[2024-04-11 00:35:25] INFO root fetch - main [MainThread]: End processing [cbor2]: success
+[2024-04-11 00:35:25] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-11 00:35:25] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-11 00:35:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2024-04-11 00:35:25] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.3.9.tar.gz]
+[2024-04-11 00:35:25] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.3.9.dev0.tar.gz]
+[2024-04-11 00:35:25] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2024-04-11 00:35:25] INFO root fetch - main [MainThread]: Store serial: [22710391]

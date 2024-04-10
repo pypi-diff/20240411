@@ -949,3 +949,39 @@
 [2024-04-11 00:57:24] INFO root fetch - processPackages [trame-server]: Remove: archive file [/home/abi/fetcher/tmp/trame-server-3.0.0.tar.gz]
 [2024-04-11 00:57:24] INFO root fetch - main [MainThread]: End processing [trame-server]: success
 [2024-04-11 00:57:24] INFO root fetch - main [MainThread]: Store serial: [22710573]
+[2024-04-11 00:59:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710573]
+[2024-04-11 00:59:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandas-datatypes
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nautobot-show-tech
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecida
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roicat
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flim-labs
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/24/c2/6236f2f1bf94e1dea12b55fac2c9275170da186b141e8cc8ffede60b7a03/ecida-0.0.8.tar.gz
+[2024-04-11 00:59:32] WARNING root fetch - processPackages [pandas-datatypes]: Skipping, unable to determine old version
+[2024-04-11 00:59:32] WARNING root fetch - processPackages [nautobot-show-tech]: Skipping, unable to determine old version
+[2024-04-11 00:59:32] INFO root fetch - main [MainThread]: End processing [pandas-datatypes] error
+[2024-04-11 00:59:32] INFO root fetch - main [MainThread]: End processing [nautobot-show-tech] error
+[2024-04-11 00:59:32] INFO root fetch - processPackages [roicat]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-11 00:59:32] INFO root fetch - processPackages [flim-labs]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-11 00:59:32] INFO root fetch - processPackages [roicat]: Downloading https://files.pythonhosted.org/packages/1e/76/3319a560cc962bfcbe978d07647b470ff9fd675fd8a89a26743210729c6e/roicat-1.1.8.tar.gz
+[2024-04-11 00:59:32] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/2b/a5/9d7ca1d525b2199503e6b84207b969e0bcb6beef3048cf3cad355d2ba539/flim_labs-1.0.7-cp39-none-win_amd64.whl
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/f7/16/4d2281303335f0d5840a935b14ff0001a169415182a2fb231ef67dd1761d/ecida-0.0.9.tar.gz
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2024-04-11 00:59:32] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20240411/e/ecida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 00:59:33] INFO root fetch - processPackages [roicat]: Downloading https://files.pythonhosted.org/packages/59/a3/7a17e25adbcb0100ae09a5d6c89feb91a29f980445cde0be305f6cc9323b/roicat-1.1.9.tar.gz
+[2024-04-11 00:59:33] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/97/bf/1e9f32b4bd313feb87eb49da5551b2d09d968c2d2fdfe0543a41ebb9ac99/flim_labs-1.0.9-cp39-none-win_amd64.whl
+[2024-04-11 00:59:33] INFO root fetch - processPackages [roicat]: executing diffoscope
+[2024-04-11 00:59:33] INFO root fetch - processPackages [roicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roicat-1.1.8.tar.gz tmp/roicat-1.1.9.tar.gz --markdown 20240411/r/roicat/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-11 00:59:33] INFO root fetch - processPackages [ecida]: Remove: archive file [/home/abi/fetcher/tmp/ecida-0.0.8.tar.gz]
+[2024-04-11 00:59:33] INFO root fetch - processPackages [ecida]: Remove: archive file [/home/abi/fetcher/tmp/ecida-0.0.9.tar.gz]
+[2024-04-11 00:59:33] INFO root fetch - processPackages [flim-labs]: executing diffoscope
+[2024-04-11 00:59:33] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2024-04-11 00:59:33] INFO root fetch - processPackages [flim-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip --markdown 20240411/f/flim-labs/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-11 00:59:33] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip]
+[2024-04-11 00:59:33] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip]
+[2024-04-11 00:59:33] INFO root fetch - main [MainThread]: End processing [flim-labs]: success
+[2024-04-11 00:59:33] INFO root fetch - processPackages [roicat]: Remove: archive file [/home/abi/fetcher/tmp/roicat-1.1.8.tar.gz]
+[2024-04-11 00:59:33] INFO root fetch - processPackages [roicat]: Remove: archive file [/home/abi/fetcher/tmp/roicat-1.1.9.tar.gz]
+[2024-04-11 00:59:33] INFO root fetch - main [MainThread]: End processing [roicat]: success
+[2024-04-11 00:59:33] INFO root fetch - main [MainThread]: Store serial: [22710597]

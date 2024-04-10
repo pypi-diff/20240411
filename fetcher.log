@@ -1736,3 +1736,33 @@ EOFError: EOF read where object expected
 [2024-04-11 01:39:22] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.6.0.tar.gz]
 [2024-04-11 01:39:22] INFO root fetch - main [MainThread]: End processing [trame]: success
 [2024-04-11 01:39:22] INFO root fetch - main [MainThread]: Store serial: [22710940]
+[2024-04-11 01:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710940]
+[2024-04-11 01:41:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 01:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tempyenv
+[2024-04-11 01:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmfunctionclient
+[2024-04-11 01:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stefutils
+[2024-04-11 01:41:31] INFO root fetch - processPackages [tempyenv]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 01:41:31] INFO root fetch - processPackages [llmfunctionclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 01:41:31] INFO root fetch - processPackages [llmfunctionclient]: Downloading https://files.pythonhosted.org/packages/63/6a/59210be3e1ed70322052b93a022e1452dd0e6a6b41297c5e40ba5c4b8a28/llmfunctionclient-0.1.0.tar.gz
+[2024-04-11 01:41:31] INFO root fetch - processPackages [tempyenv]: Downloading https://files.pythonhosted.org/packages/7e/52/f4bbf4c4bd3df4da906290340f6a6882fdb9b7b12679270d966507753973/tempyenv-1.0.2.tar.gz
+[2024-04-11 01:41:31] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-11 01:41:32] INFO root fetch - processPackages [tempyenv]: Downloading https://files.pythonhosted.org/packages/88/6e/18c876c901b27e4d091ea2a88bc8832c5dc13278ab8486d4a8633ade54aa/tempyenv-1.0.3.tar.gz
+[2024-04-11 01:41:32] INFO root fetch - processPackages [llmfunctionclient]: Downloading https://files.pythonhosted.org/packages/b7/db/b9847362d9f52199d3a8123eaf914707b06dfaf1f1d1c17605ce8963de53/llmfunctionclient-0.1.1.tar.gz
+[2024-04-11 01:41:32] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-04-11 01:41:32] INFO root fetch - processPackages [tempyenv]: executing diffoscope
+[2024-04-11 01:41:32] INFO root fetch - processPackages [tempyenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempyenv-1.0.2.tar.gz tmp/tempyenv-1.0.3.tar.gz --markdown 20240411/t/tempyenv/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 01:41:32] INFO root fetch - processPackages [llmfunctionclient]: executing diffoscope
+[2024-04-11 01:41:32] INFO root fetch - processPackages [llmfunctionclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmfunctionclient-0.1.0.tar.gz tmp/llmfunctionclient-0.1.1.tar.gz --markdown 20240411/l/llmfunctionclient/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 01:41:32] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-04-11 01:41:32] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-04-11 01:41:32] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240411/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-11 01:41:32] INFO root fetch - processPackages [llmfunctionclient]: Remove: archive file [/home/abi/fetcher/tmp/llmfunctionclient-0.1.0.tar.gz]
+[2024-04-11 01:41:32] INFO root fetch - processPackages [llmfunctionclient]: Remove: archive file [/home/abi/fetcher/tmp/llmfunctionclient-0.1.1.tar.gz]
+[2024-04-11 01:41:32] INFO root fetch - main [MainThread]: End processing [llmfunctionclient]: success
+[2024-04-11 01:41:32] INFO root fetch - processPackages [tempyenv]: Remove: archive file [/home/abi/fetcher/tmp/tempyenv-1.0.2.tar.gz]
+[2024-04-11 01:41:32] INFO root fetch - processPackages [tempyenv]: Remove: archive file [/home/abi/fetcher/tmp/tempyenv-1.0.3.tar.gz]
+[2024-04-11 01:41:32] INFO root fetch - main [MainThread]: End processing [tempyenv]: success
+[2024-04-11 01:41:33] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-04-11 01:41:33] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-04-11 01:41:33] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-04-11 01:41:33] INFO root fetch - main [MainThread]: Store serial: [22710950]

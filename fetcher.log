@@ -1229,3 +1229,9 @@
 [2024-04-11 01:15:20] INFO root fetch - processPackages [jsonparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonparse-0.9.1.tar.gz]
 [2024-04-11 01:15:20] INFO root fetch - main [MainThread]: End processing [jsonparse]: success
 [2024-04-11 01:15:20] INFO root fetch - main [MainThread]: Store serial: [22710691]
+[2024-04-11 01:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710691]
+[2024-04-11 01:17:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 01:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xstate-machine
+[2024-04-11 01:17:29] WARNING root fetch - processPackages [xstate-machine]: Skipping, unable to determine old version
+[2024-04-11 01:17:29] INFO root fetch - main [MainThread]: End processing [xstate-machine] error
+[2024-04-11 01:17:29] INFO root fetch - main [MainThread]: Store serial: [22710695]

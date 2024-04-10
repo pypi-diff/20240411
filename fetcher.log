@@ -709,3 +709,60 @@
 [2024-04-11 00:46:22] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.9.tar.gz]
 [2024-04-11 00:46:22] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
 [2024-04-11 00:46:22] INFO root fetch - main [MainThread]: Store serial: [22710450]
+[2024-04-11 00:48:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710450]
+[2024-04-11 00:48:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoglows
+[2024-04-11 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etl-pipes
+[2024-04-11 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text-tagging-model
+[2024-04-11 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-cliff
+[2024-04-11 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gattlib-py
+[2024-04-11 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flim-labs
+[2024-04-11 00:48:31] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2024-04-11 00:48:31] INFO root fetch - processPackages [geoglows]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 00:48:31] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/9b/9b/dc9712b831c79398b054720c1f49ba16f4ec66eb338c083ed911e9f1b18e/text_tagging_model-0.1.1.tar.gz
+[2024-04-11 00:48:31] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/77/65/f33f48a0bd5a1c7cb148b142ae206a90d94f256796c1009a906883ade2a5/geoglows-1.0.2.tar.gz
+[2024-04-11 00:48:31] INFO root fetch - processPackages [etl-pipes]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-11 00:48:31] INFO root fetch - processPackages [flim-labs]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-11 00:48:31] INFO root fetch - processPackages [gattlib-py]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-11 00:48:31] INFO root fetch - processPackages [git-cliff]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-11 00:48:32] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/24/65/46f4d47bd7c4d1d04415ea0f8b684acf8ad139c496b3ac7e70ba03a65633/etl_pipes-0.8.5.tar.gz
+[2024-04-11 00:48:32] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/41/d2/e8195b7e90329d5fc3caf434d8821ab17993e21cb800c48eacfff57b6a3d/text_tagging_model-0.1.2a0.tar.gz
+[2024-04-11 00:48:32] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/2b/a5/9d7ca1d525b2199503e6b84207b969e0bcb6beef3048cf3cad355d2ba539/flim_labs-1.0.7-cp39-none-win_amd64.whl
+[2024-04-11 00:48:32] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/3f/0b/05937414e9e8b092a485838f3b4cd2bdde5597be8dcd061259bff6c76d29/gattlib-py-0.6.0.tar.gz
+[2024-04-11 00:48:32] INFO root fetch - processPackages [git-cliff]: Downloading https://files.pythonhosted.org/packages/ec/7e/4ac7a1d7b392a16a7cd4aee31969bcd9e451319062cccfbbe26d7b1971a8/git_cliff-2.2.0.tar.gz
+[2024-04-11 00:48:32] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/75/ab/b12a7e4b45a75426fc69926958ccef10feafc53a0885e7bbf07f5f0606cc/geoglows-1.0.3.tar.gz
+[2024-04-11 00:48:32] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 00:48:32] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.1.tar.gz tmp/text_tagging_model-0.1.2a0.tar.gz --markdown 20240411/t/text-tagging-model/0.1.1-0.1.2a0/README.md --exclude *.pyd
+[2024-04-11 00:48:32] INFO root fetch - processPackages [geoglows]: executing diffoscope
+[2024-04-11 00:48:32] INFO root fetch - processPackages [geoglows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoglows-1.0.2.tar.gz tmp/geoglows-1.0.3.tar.gz --markdown 20240411/g/geoglows/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 00:48:32] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/76/0e/1bdad867a8717bcbf0290597fbd29717508aa7d681a6556abc55fcc9150d/etl_pipes-0.8.6.tar.gz
+[2024-04-11 00:48:32] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/f1/cf/90ddbd14b70e7e395c6f0179a584a2f616d80523c1a7cd503b86d0eb8a1e/gattlib_py-0.7.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-11 00:48:32] INFO root fetch - processPackages [etl-pipes]: executing diffoscope
+[2024-04-11 00:48:32] INFO root fetch - processPackages [etl-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_pipes-0.8.5.tar.gz tmp/etl_pipes-0.8.6.tar.gz --markdown 20240411/e/etl-pipes/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-11 00:48:32] INFO root fetch - processPackages [git-cliff]: Downloading https://files.pythonhosted.org/packages/ac/bd/3bc9cd4ed7d6e2db7d51f531e3e167f1d9ce308ef137f980cda7ebed1f83/git_cliff-2.2.1.tar.gz
+[2024-04-11 00:48:32] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.1.tar.gz]
+[2024-04-11 00:48:32] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a0.tar.gz]
+[2024-04-11 00:48:32] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 00:48:32] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.0.2.tar.gz]
+[2024-04-11 00:48:32] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.0.3.tar.gz]
+[2024-04-11 00:48:32] INFO root fetch - main [MainThread]: End processing [geoglows]: success
+[2024-04-11 00:48:33] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.5.tar.gz]
+[2024-04-11 00:48:33] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.6.tar.gz]
+[2024-04-11 00:48:33] INFO root fetch - main [MainThread]: End processing [etl-pipes]: success
+[2024-04-11 00:48:33] INFO root fetch - processPackages [git-cliff]: executing diffoscope
+[2024-04-11 00:48:33] INFO root fetch - processPackages [git-cliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_cliff-2.2.0.tar.gz tmp/git_cliff-2.2.1.tar.gz --markdown 20240411/g/git-cliff/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-11 00:48:33] INFO root fetch - processPackages [git-cliff]: Remove: archive file [/home/abi/fetcher/tmp/git_cliff-2.2.0.tar.gz]
+[2024-04-11 00:48:33] INFO root fetch - processPackages [git-cliff]: Remove: archive file [/home/abi/fetcher/tmp/git_cliff-2.2.1.tar.gz]
+[2024-04-11 00:48:33] INFO root fetch - main [MainThread]: End processing [git-cliff]: success
+[2024-04-11 00:48:34] INFO root fetch - processPackages [gattlib-py]: executing diffoscope
+[2024-04-11 00:48:34] INFO root fetch - processPackages [gattlib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gattlib-py-0.6.0.tar.gz tmp/gattlib_py-0.7.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240411/g/gattlib-py/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-11 00:48:34] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/97/bf/1e9f32b4bd313feb87eb49da5551b2d09d968c2d2fdfe0543a41ebb9ac99/flim_labs-1.0.9-cp39-none-win_amd64.whl
+[2024-04-11 00:48:34] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib-py-0.6.0.tar.gz]
+[2024-04-11 00:48:34] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib_py-0.7.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-11 00:48:34] INFO root fetch - main [MainThread]: End processing [gattlib-py]: success
+[2024-04-11 00:48:34] INFO root fetch - processPackages [flim-labs]: executing diffoscope
+[2024-04-11 00:48:34] INFO root fetch - processPackages [flim-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip --markdown 20240411/f/flim-labs/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-11 00:48:35] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip]
+[2024-04-11 00:48:35] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip]
+[2024-04-11 00:48:35] INFO root fetch - main [MainThread]: End processing [flim-labs]: success
+[2024-04-11 00:48:35] INFO root fetch - main [MainThread]: Store serial: [22710481]

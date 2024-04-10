@@ -892,3 +892,60 @@
 [2024-04-11 00:55:13] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
 [2024-04-11 00:55:13] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2024-04-11 00:55:13] INFO root fetch - main [MainThread]: Store serial: [22710556]
+[2024-04-11 00:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710556]
+[2024-04-11 00:57:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-braket-sdk
+[2024-04-11 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trame-server
+[2024-04-11 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-pipelines
+[2024-04-11 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-processors
+[2024-04-11 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rats-apps
+[2024-04-11 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langfuse
+[2024-04-11 00:57:21] INFO root fetch - processPackages [rats-processors]: New version: [0.1.2.dev8] Old Version: [0.1.2.dev6]
+[2024-04-11 00:57:21] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev8] Old Version: [0.1.2.dev6]
+[2024-04-11 00:57:21] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev8] Old Version: [0.1.2.dev6]
+[2024-04-11 00:57:21] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2024-04-11 00:57:21] INFO root fetch - processPackages [langfuse]: New version: [2.9.2] Old Version: [2.9.1a0]
+[2024-04-11 00:57:21] INFO root fetch - processPackages [trame-server]: New version: [3.0.0] Old Version: [2.9.1]
+[2024-04-11 00:57:22] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/4c/2a/78dbbc7b9eb962b17f9eb17bd741e7a3a16c9e8d53610064886d07c8ab6f/rats_pipelines-0.1.2.dev6-py3-none-any.whl
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/fa/da/8830c0b678c8a8bf5b98cc4f6760d4b94801c3e29a849ce95636dc5bbc5f/rats_processors-0.1.2.dev6-py3-none-any.whl
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/12/aac5abf6c9b9b097e88b0bd0e845b593db75c51eb7d240ea57ee2d893ecc/rats_apps-0.1.2.dev6-py3-none-any.whl
+[2024-04-11 00:57:22] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/43/38/4a1023711cee549cb5f62c09965d08724e93f5cac8e7dcd2becd75f7b302/langfuse-2.9.1a0.tar.gz
+[2024-04-11 00:57:22] INFO root fetch - processPackages [trame-server]: Downloading https://files.pythonhosted.org/packages/26/e2/4a78771f17ab649d699d0f84fef5416b02ee3f59e5642211b013061adde0/trame-server-2.9.1.tar.gz
+[2024-04-11 00:57:22] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2024-04-11 00:57:22] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/71/c4/6571f0f3c2539390fbd49ca27636f5611971c2b1f9f15fae183b3c67838c/langfuse-2.9.2.tar.gz
+[2024-04-11 00:57:22] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2024-04-11 00:57:22] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20240411/a/amazon-braket-sdk/1.9.5-1.9.5.post0/README.md --exclude *.pyd
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a6/7b/990aa2956336107e9272c402ea673b4571912e861b49230e8b209cebb487/rats_processors-0.1.2.dev8-py3-none-any.whl
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-11 00:57:22] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2024-04-11 00:57:22] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-2.9.1a0.tar.gz tmp/langfuse-2.9.2.tar.gz --markdown 20240411/l/langfuse/2.9.1a0-2.9.2/README.md --exclude *.pyd
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev6-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip --markdown 20240411/r/rats-apps/0.1.2.dev6-0.1.2.dev8/README.md --exclude *.pyd
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.2.dev6-py3-none-any.whl.zip tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip --markdown 20240411/r/rats-processors/0.1.2.dev6-0.1.2.dev8/README.md --exclude *.pyd
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-11 00:57:22] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev6-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip --markdown 20240411/r/rats-pipelines/0.1.2.dev6-0.1.2.dev8/README.md --exclude *.pyd
+[2024-04-11 00:57:23] INFO root fetch - processPackages [trame-server]: Downloading https://files.pythonhosted.org/packages/44/8e/2f73d4a58f7d4b0ae408557f71d943667ac61860107cf4f40d82b430ff82/trame-server-3.0.0.tar.gz
+[2024-04-11 00:57:23] INFO root fetch - processPackages [trame-server]: executing diffoscope
+[2024-04-11 00:57:23] INFO root fetch - processPackages [trame-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-server-2.9.1.tar.gz tmp/trame-server-3.0.0.tar.gz --markdown 20240411/t/trame-server/2.9.1-3.0.0/README.md --exclude *.pyd
+[2024-04-11 00:57:23] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev6-py3-none-any.whl.zip]
+[2024-04-11 00:57:23] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-11 00:57:23] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-11 00:57:23] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2024-04-11 00:57:23] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2024-04-11 00:57:23] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2024-04-11 00:57:23] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.1a0.tar.gz]
+[2024-04-11 00:57:23] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
+[2024-04-11 00:57:23] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2024-04-11 00:57:23] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev6-py3-none-any.whl.zip]
+[2024-04-11 00:57:23] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-11 00:57:23] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-11 00:57:23] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev6-py3-none-any.whl.zip]
+[2024-04-11 00:57:23] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-11 00:57:23] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-11 00:57:24] INFO root fetch - processPackages [trame-server]: Remove: archive file [/home/abi/fetcher/tmp/trame-server-2.9.1.tar.gz]
+[2024-04-11 00:57:24] INFO root fetch - processPackages [trame-server]: Remove: archive file [/home/abi/fetcher/tmp/trame-server-3.0.0.tar.gz]
+[2024-04-11 00:57:24] INFO root fetch - main [MainThread]: End processing [trame-server]: success
+[2024-04-11 00:57:24] INFO root fetch - main [MainThread]: Store serial: [22710573]

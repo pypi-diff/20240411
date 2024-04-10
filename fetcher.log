@@ -201,3 +201,32 @@
 [2024-04-11 00:11:44] INFO root fetch - processPackages [primaldimer-py]: Remove: archive file [/home/abi/fetcher/tmp/primaldimer_py-1.0.4.tar.gz]
 [2024-04-11 00:11:44] INFO root fetch - main [MainThread]: End processing [primaldimer-py]: success
 [2024-04-11 00:11:44] INFO root fetch - main [MainThread]: Store serial: [22710188]
+[2024-04-11 00:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710188]
+[2024-04-11 00:13:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 00:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: md-toc
+[2024-04-11 00:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdkgen-client
+[2024-04-11 00:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buffer-matcher
+[2024-04-11 00:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2024-04-11 00:13:52] INFO root fetch - processPackages [sdkgen-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 00:13:52] WARNING root fetch - processPackages [buffer-matcher]: Skipping, unable to determine old version
+[2024-04-11 00:13:52] INFO root fetch - main [MainThread]: End processing [buffer-matcher] error
+[2024-04-11 00:13:52] INFO root fetch - processPackages [md-toc]: New version: [9.0.0] Old Version: [8.2.3]
+[2024-04-11 00:13:52] INFO root fetch - processPackages [sdkgen-client]: Downloading https://files.pythonhosted.org/packages/36/72/1c13bfe21b3afdb14e83ddc9deb7b66fce5efbef26ee5776ca6d991ccad3/sdkgen-client-0.2.0.tar.gz
+[2024-04-11 00:13:52] INFO root fetch - processPackages [md-toc]: Downloading https://files.pythonhosted.org/packages/f0/a4/f7f28cefc21ad2425371bec11259e676e2a5dc6b06103395e3c9047abe36/md_toc-8.2.3.tar.gz
+[2024-04-11 00:13:53] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240410] Old Version: [2.17.0.dev20240409]
+[2024-04-11 00:13:53] INFO root fetch - processPackages [sdkgen-client]: Downloading https://files.pythonhosted.org/packages/3f/66/a3a94d65be6ef213c8602abe555090782bc113cd03e0cc845ebbcfe09404/sdkgen-client-0.2.1.tar.gz
+[2024-04-11 00:13:53] INFO root fetch - processPackages [sdkgen-client]: executing diffoscope
+[2024-04-11 00:13:53] INFO root fetch - processPackages [sdkgen-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkgen-client-0.2.0.tar.gz tmp/sdkgen-client-0.2.1.tar.gz --markdown 20240411/s/sdkgen-client/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 00:13:53] INFO root fetch - processPackages [md-toc]: Downloading https://files.pythonhosted.org/packages/b5/45/3ad7b820f46daa3c0b95bb972d8962a136e452d19eea07125df958cf9055/md_toc-9.0.0.tar.gz
+[2024-04-11 00:13:53] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/7c/77/8c0917256b3bd20d595e5493a6f6f65f32fff08fca6acd06ba377ff428a4/tf_nightly_intel-2.17.0.dev20240409-cp39-cp39-win_amd64.whl
+[2024-04-11 00:13:53] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 212532019>=10485760
+[2024-04-11 00:13:53] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-11 00:13:53] INFO root fetch - processPackages [md-toc]: executing diffoscope
+[2024-04-11 00:13:53] INFO root fetch - processPackages [md-toc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md_toc-8.2.3.tar.gz tmp/md_toc-9.0.0.tar.gz --markdown 20240411/m/md-toc/8.2.3-9.0.0/README.md --exclude *.pyd
+[2024-04-11 00:13:53] INFO root fetch - processPackages [sdkgen-client]: Remove: archive file [/home/abi/fetcher/tmp/sdkgen-client-0.2.0.tar.gz]
+[2024-04-11 00:13:53] INFO root fetch - processPackages [sdkgen-client]: Remove: archive file [/home/abi/fetcher/tmp/sdkgen-client-0.2.1.tar.gz]
+[2024-04-11 00:13:53] INFO root fetch - main [MainThread]: End processing [sdkgen-client]: success
+[2024-04-11 00:13:54] INFO root fetch - processPackages [md-toc]: Remove: archive file [/home/abi/fetcher/tmp/md_toc-8.2.3.tar.gz]
+[2024-04-11 00:13:54] INFO root fetch - processPackages [md-toc]: Remove: archive file [/home/abi/fetcher/tmp/md_toc-9.0.0.tar.gz]
+[2024-04-11 00:13:54] INFO root fetch - main [MainThread]: End processing [md-toc]: success
+[2024-04-11 00:13:54] INFO root fetch - main [MainThread]: Store serial: [22710215]

@@ -519,3 +519,27 @@
 [2024-04-11 00:28:53] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.8.0.tar.gz]
 [2024-04-11 00:28:53] INFO root fetch - main [MainThread]: End processing [abstra]: success
 [2024-04-11 00:28:53] INFO root fetch - main [MainThread]: Store serial: [22710329]
+[2024-04-11 00:30:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710329]
+[2024-04-11 00:31:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 00:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xstate-machine
+[2024-04-11 00:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zrb
+[2024-04-11 00:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VLCDA
+[2024-04-11 00:31:04] INFO root fetch - processPackages [zrb]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-11 00:31:04] INFO root fetch - processPackages [VLCDA]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-11 00:31:04] WARNING root fetch - processPackages [xstate-machine]: Skipping, unable to determine old version
+[2024-04-11 00:31:04] INFO root fetch - main [MainThread]: End processing [xstate-machine] error
+[2024-04-11 00:31:04] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/32/39/a7e9fbbb7d0cb16c4ef2cdecfa0052b5b5059c4b0f8cd6cc390052054a0b/zrb-0.9.2.tar.gz
+[2024-04-11 00:31:04] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/f3/7c/13b61afd72792b8def4f8373e12d1c694488a6cf01181bc3e6479a773abe/VLCDA-1.0.7.tar.gz
+[2024-04-11 00:31:04] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/07/9e/95f2ff4e6aa4d36f6f136bc96f05e372354494c2890ec62fcf351330168a/VLCDA-1.0.8.tar.gz
+[2024-04-11 00:31:04] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/f6/b9/43574b23dd1c57d67788b82511937efe23fc957250685ba62b6025db3166/zrb-0.9.3.tar.gz
+[2024-04-11 00:31:04] INFO root fetch - processPackages [VLCDA]: executing diffoscope
+[2024-04-11 00:31:04] INFO root fetch - processPackages [VLCDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VLCDA-1.0.7.tar.gz tmp/VLCDA-1.0.8.tar.gz --markdown 20240411/V/VLCDA/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-11 00:31:05] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2024-04-11 00:31:05] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.9.2.tar.gz tmp/zrb-0.9.3.tar.gz --markdown 20240411/z/zrb/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-11 00:31:05] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.7.tar.gz]
+[2024-04-11 00:31:05] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.8.tar.gz]
+[2024-04-11 00:31:05] INFO root fetch - main [MainThread]: End processing [VLCDA]: success
+[2024-04-11 00:31:09] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.2.tar.gz]
+[2024-04-11 00:31:09] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
+[2024-04-11 00:31:09] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2024-04-11 00:31:09] INFO root fetch - main [MainThread]: Store serial: [22710345]

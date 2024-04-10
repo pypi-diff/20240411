@@ -584,3 +584,9 @@
 [2024-04-11 00:35:25] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.3.9.dev0.tar.gz]
 [2024-04-11 00:35:25] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2024-04-11 00:35:25] INFO root fetch - main [MainThread]: Store serial: [22710391]
+[2024-04-11 00:37:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710391]
+[2024-04-11 00:37:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 00:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lime-green
+[2024-04-11 00:37:35] WARNING root fetch - processPackages [lime-green]: Skipping, unable to determine old version
+[2024-04-11 00:37:35] INFO root fetch - main [MainThread]: End processing [lime-green] error
+[2024-04-11 00:37:35] INFO root fetch - main [MainThread]: Store serial: [22710396]

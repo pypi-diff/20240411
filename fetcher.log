@@ -1203,3 +1203,29 @@
 [2024-04-11 01:13:10] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.1.tar.gz]
 [2024-04-11 01:13:10] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
 [2024-04-11 01:13:10] INFO root fetch - main [MainThread]: Store serial: [22710682]
+[2024-04-11 01:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710682]
+[2024-04-11 01:15:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 01:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecoviewer
+[2024-04-11 01:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuromancer
+[2024-04-11 01:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonparse
+[2024-04-11 01:15:19] INFO root fetch - processPackages [ecoviewer]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-11 01:15:19] INFO root fetch - processPackages [neuromancer]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-04-11 01:15:19] INFO root fetch - processPackages [jsonparse]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 01:15:19] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/c0/d8/77ac28ebb10d084dd7e732ab200fcd38f7691e84a3d14a908a10f59afb35/ecoviewer-0.0.7.tar.gz
+[2024-04-11 01:15:19] INFO root fetch - processPackages [jsonparse]: Downloading https://files.pythonhosted.org/packages/32/21/0ce9f17b547b81f37350fab887ff5a67b08c110e50fd9a8070d1e909b8d8/jsonparse-0.9.0.tar.gz
+[2024-04-11 01:15:19] INFO root fetch - processPackages [neuromancer]: Downloading https://files.pythonhosted.org/packages/ea/79/0208a9e5e2313ab3214c1cd460c5f4b6409c2489a5a1f7d2afec44768301/neuromancer-1.4.2.tar.gz
+[2024-04-11 01:15:19] WARNING root fetch - processPackages [neuromancer]: Skipping package: exceeds size limit 104110136>=10485760
+[2024-04-11 01:15:19] INFO root fetch - main [MainThread]: End processing [neuromancer] error
+[2024-04-11 01:15:20] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/5a/db/1257a31257fe07a1edd658486ce3fa8cc227c830a6ee9d7dc10bd0793a7b/ecoviewer-0.0.8.tar.gz
+[2024-04-11 01:15:20] INFO root fetch - processPackages [jsonparse]: Downloading https://files.pythonhosted.org/packages/06/d1/58fc4e2fb027a86e5c593e012066f45d4c37175851f669af3f1541874fd6/jsonparse-0.9.1.tar.gz
+[2024-04-11 01:15:20] INFO root fetch - processPackages [ecoviewer]: executing diffoscope
+[2024-04-11 01:15:20] INFO root fetch - processPackages [ecoviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoviewer-0.0.7.tar.gz tmp/ecoviewer-0.0.8.tar.gz --markdown 20240411/e/ecoviewer/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-11 01:15:20] INFO root fetch - processPackages [jsonparse]: executing diffoscope
+[2024-04-11 01:15:20] INFO root fetch - processPackages [jsonparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonparse-0.9.0.tar.gz tmp/jsonparse-0.9.1.tar.gz --markdown 20240411/j/jsonparse/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 01:15:20] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.0.7.tar.gz]
+[2024-04-11 01:15:20] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.0.8.tar.gz]
+[2024-04-11 01:15:20] INFO root fetch - main [MainThread]: End processing [ecoviewer]: success
+[2024-04-11 01:15:20] INFO root fetch - processPackages [jsonparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonparse-0.9.0.tar.gz]
+[2024-04-11 01:15:20] INFO root fetch - processPackages [jsonparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonparse-0.9.1.tar.gz]
+[2024-04-11 01:15:20] INFO root fetch - main [MainThread]: End processing [jsonparse]: success
+[2024-04-11 01:15:20] INFO root fetch - main [MainThread]: Store serial: [22710691]

@@ -850,3 +850,45 @@
 [2024-04-11 00:53:00] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.3.0rc2.tar.gz]
 [2024-04-11 00:53:00] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2024-04-11 00:53:00] INFO root fetch - main [MainThread]: Store serial: [22710527]
+[2024-04-11 00:55:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710527]
+[2024-04-11 00:55:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 00:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctgan
+[2024-04-11 00:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-tagging-model
+[2024-04-11 00:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: birm-nm-foo
+[2024-04-11 00:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thirdai
+[2024-04-11 00:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resaid
+[2024-04-11 00:55:10] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a1] Old Version: [0.1.2a0]
+[2024-04-11 00:55:11] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/41/d2/e8195b7e90329d5fc3caf434d8821ab17993e21cb800c48eacfff57b6a3d/text_tagging_model-0.1.2a0.tar.gz
+[2024-04-11 00:55:11] WARNING root fetch - processPackages [birm-nm-foo]: Skipping, unable to determine old version
+[2024-04-11 00:55:11] INFO root fetch - main [MainThread]: End processing [birm-nm-foo] error
+[2024-04-11 00:55:11] INFO root fetch - processPackages [ctgan]: New version: [0.9.1.dev0] Old Version: [0.9.1]
+[2024-04-11 00:55:11] INFO root fetch - processPackages [resaid]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-11 00:55:11] INFO root fetch - processPackages [ctgan]: Downloading https://files.pythonhosted.org/packages/fe/63/ebcabd154b801de1852c66dab85ac2b77bfd999b9fcd7191c8585d2b4724/ctgan-0.9.1.tar.gz
+[2024-04-11 00:55:11] INFO root fetch - processPackages [resaid]: Downloading https://files.pythonhosted.org/packages/9c/be/846ce062ef5f677b78e172bb7d2c6122750d615aa6a688b839df72359a41/resaid-0.1.5.tar.gz
+[2024-04-11 00:55:11] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/f3/84/77c7ae367898f1c93deddabbb9c8b8252e2eb56865ddb13efba2620f2a69/text_tagging_model-0.1.2a1.tar.gz
+[2024-04-11 00:55:11] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 00:55:11] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a0.tar.gz tmp/text_tagging_model-0.1.2a1.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a0-0.1.2a1/README.md --exclude *.pyd
+[2024-04-11 00:55:11] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-11 00:55:11] INFO root fetch - processPackages [ctgan]: Downloading https://files.pythonhosted.org/packages/59/14/8441cef325828cefb0c93d5fa3751e213ae25ad2164a52db66b1fae132a4/ctgan-0.9.1.dev0.tar.gz
+[2024-04-11 00:55:11] INFO root fetch - processPackages [resaid]: Downloading https://files.pythonhosted.org/packages/7c/21/a954a13e58c0413cd1ec501a52b7d1522772eca8bc619dfc214e17908ceb/resaid-0.1.6.tar.gz
+[2024-04-11 00:55:11] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2024-04-11 00:55:11] INFO root fetch - processPackages [ctgan]: executing diffoscope
+[2024-04-11 00:55:11] INFO root fetch - processPackages [ctgan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctgan-0.9.1.tar.gz tmp/ctgan-0.9.1.dev0.tar.gz --markdown 20240411/c/ctgan/0.9.1-0.9.1.dev0/README.md --exclude *.pyd
+[2024-04-11 00:55:11] INFO root fetch - processPackages [resaid]: executing diffoscope
+[2024-04-11 00:55:11] INFO root fetch - processPackages [resaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resaid-0.1.5.tar.gz tmp/resaid-0.1.6.tar.gz --markdown 20240411/r/resaid/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-11 00:55:11] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a0.tar.gz]
+[2024-04-11 00:55:11] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a1.tar.gz]
+[2024-04-11 00:55:11] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 00:55:12] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2024-04-11 00:55:12] INFO root fetch - processPackages [resaid]: Remove: archive file [/home/abi/fetcher/tmp/resaid-0.1.5.tar.gz]
+[2024-04-11 00:55:12] INFO root fetch - processPackages [resaid]: Remove: archive file [/home/abi/fetcher/tmp/resaid-0.1.6.tar.gz]
+[2024-04-11 00:55:12] INFO root fetch - main [MainThread]: End processing [resaid]: success
+[2024-04-11 00:55:12] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-04-11 00:55:12] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20240411/t/thirdai/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-11 00:55:12] INFO root fetch - processPackages [ctgan]: Remove: archive file [/home/abi/fetcher/tmp/ctgan-0.9.1.tar.gz]
+[2024-04-11 00:55:12] INFO root fetch - processPackages [ctgan]: Remove: archive file [/home/abi/fetcher/tmp/ctgan-0.9.1.dev0.tar.gz]
+[2024-04-11 00:55:12] INFO root fetch - main [MainThread]: End processing [ctgan]: success
+[2024-04-11 00:55:13] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 00:55:13] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 00:55:13] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-04-11 00:55:13] INFO root fetch - main [MainThread]: Store serial: [22710556]

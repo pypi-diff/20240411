@@ -1883,3 +1883,42 @@ EOFError: EOF read where object expected
 [2024-04-11 01:48:46] INFO root fetch - processPackages [naluacq]: Remove: archive file [/home/abi/fetcher/tmp/naluacq-0.4.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-11 01:48:46] INFO root fetch - main [MainThread]: End processing [naluacq]: success
 [2024-04-11 01:48:46] INFO root fetch - main [MainThread]: Store serial: [22711005]
+[2024-04-11 01:50:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711005]
+[2024-04-11 01:50:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2024-04-11 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cornstarch
+[2024-04-11 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-strict-partial
+[2024-04-11 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quillsql
+[2024-04-11 01:50:57] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-11 01:50:57] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-11 01:50:57] INFO root fetch - processPackages [cornstarch]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 01:50:57] INFO root fetch - processPackages [pydantic-strict-partial]: New version: [0.4.4] Old Version: [0.4.0]
+[2024-04-11 01:50:57] INFO root fetch - processPackages [quillsql]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-11 01:50:57] INFO root fetch - processPackages [cornstarch]: Downloading https://files.pythonhosted.org/packages/47/1d/acdf1b237f08d8efc45017f6fb08baf6f71c38173a39da5895c71cac6bfc/cornstarch-0.0.3.tar.gz
+[2024-04-11 01:50:57] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/6a/e6/501bb16a15dfe7a2595b837dc9cb27bdd1f646a9e240feabac416103a7cc/pydantic_strict_partial-0.4.0.tar.gz
+[2024-04-11 01:50:57] INFO root fetch - processPackages [quillsql]: Downloading https://files.pythonhosted.org/packages/39/17/d0591c80c35aa477d20116b35757cb323e1f55c0951fcd6e6326cd7783da/quillsql-2.1.4.tar.gz
+[2024-04-11 01:50:57] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-11 01:50:57] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-11 01:50:57] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240411/m/mystring/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-11 01:50:58] INFO root fetch - processPackages [cornstarch]: Downloading https://files.pythonhosted.org/packages/05/55/d5e1e820819490799fa7480e2498ed0abcc235e4ce766c70b8586a8091d0/cornstarch-0.0.4.tar.gz
+[2024-04-11 01:50:58] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/e8/93/4a7a05be27fa12c0ada31e556c0000507e5b6e700210dc9fbd25ea5bb0ac/pydantic_strict_partial-0.4.4.tar.gz
+[2024-04-11 01:50:58] INFO root fetch - processPackages [cornstarch]: executing diffoscope
+[2024-04-11 01:50:58] INFO root fetch - processPackages [cornstarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornstarch-0.0.3.tar.gz tmp/cornstarch-0.0.4.tar.gz --markdown 20240411/c/cornstarch/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-11 01:50:58] INFO root fetch - processPackages [pydantic-strict-partial]: executing diffoscope
+[2024-04-11 01:50:58] INFO root fetch - processPackages [pydantic-strict-partial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_strict_partial-0.4.0.tar.gz tmp/pydantic_strict_partial-0.4.4.tar.gz --markdown 20240411/p/pydantic-strict-partial/0.4.0-0.4.4/README.md --exclude *.pyd
+[2024-04-11 01:50:58] INFO root fetch - processPackages [quillsql]: Downloading https://files.pythonhosted.org/packages/ea/16/85c7d6e3fd8fdc3f6433e7098435f465bc7bad73b0be8f76d2208d2cf96b/quillsql-2.1.5.tar.gz
+[2024-04-11 01:50:58] INFO root fetch - processPackages [quillsql]: executing diffoscope
+[2024-04-11 01:50:58] INFO root fetch - processPackages [quillsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quillsql-2.1.4.tar.gz tmp/quillsql-2.1.5.tar.gz --markdown 20240411/q/quillsql/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-11 01:50:58] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-11 01:50:58] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-11 01:50:58] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-11 01:50:58] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.4.0.tar.gz]
+[2024-04-11 01:50:58] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.4.4.tar.gz]
+[2024-04-11 01:50:58] INFO root fetch - main [MainThread]: End processing [pydantic-strict-partial]: success
+[2024-04-11 01:50:58] INFO root fetch - processPackages [cornstarch]: Remove: archive file [/home/abi/fetcher/tmp/cornstarch-0.0.3.tar.gz]
+[2024-04-11 01:50:58] INFO root fetch - processPackages [cornstarch]: Remove: archive file [/home/abi/fetcher/tmp/cornstarch-0.0.4.tar.gz]
+[2024-04-11 01:50:58] INFO root fetch - main [MainThread]: End processing [cornstarch]: success
+[2024-04-11 01:50:58] INFO root fetch - processPackages [quillsql]: Remove: archive file [/home/abi/fetcher/tmp/quillsql-2.1.4.tar.gz]
+[2024-04-11 01:50:58] INFO root fetch - processPackages [quillsql]: Remove: archive file [/home/abi/fetcher/tmp/quillsql-2.1.5.tar.gz]
+[2024-04-11 01:50:58] INFO root fetch - main [MainThread]: End processing [quillsql]: success
+[2024-04-11 01:50:58] INFO root fetch - main [MainThread]: Store serial: [22711016]

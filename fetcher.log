@@ -1691,3 +1691,33 @@ EOFError: EOF read where object expected
 [2024-04-11 01:35:01] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo.skymap-2.0.0rc4.tar.gz]
 [2024-04-11 01:35:01] INFO root fetch - main [MainThread]: End processing [ligo.skymap]: success
 [2024-04-11 01:35:01] INFO root fetch - main [MainThread]: Store serial: [22710927]
+[2024-04-11 01:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710927]
+[2024-04-11 01:37:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorflow-serving-api
+[2024-04-11 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorflow-serving-api-gpu
+[2024-04-11 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mslarkin-utils
+[2024-04-11 01:37:10] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 01:37:10] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-04-11 01:37:10] INFO root fetch - processPackages [tensorflow-serving-api]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-11 01:37:10] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-11 01:37:10] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-04-11 01:37:10] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/dd/4f/419cb1e87abd0220c270fee4c493dd910acdb511ecb3533e0c280c8d36c1/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl
+[2024-04-11 01:37:10] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Downloading https://files.pythonhosted.org/packages/a5/30/c16fbe62d84fb57f812c99ff027cd7e184d9f4c7a3c5635f4f867975f357/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl
+[2024-04-11 01:37:11] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-04-11 01:37:11] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240411/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Downloading https://files.pythonhosted.org/packages/72/a1/1d985b70c9460b850e2b20b7f9c7400e932a127ef16173c63971c3f4736a/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: executing diffoscope
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip --markdown 20240411/t/tensorflow-serving-api-gpu/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/e2/3d/f692757268766c25b643541fa0991d646c3660c5b55d17054d9bfd390bf4/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl
+[2024-04-11 01:37:11] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api]: executing diffoscope
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip --markdown 20240411/t/tensorflow-serving-api/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-11 01:37:11] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-04-11 01:37:11] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl.zip]
+[2024-04-11 01:37:11] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip]
+[2024-04-11 01:37:11] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api-gpu]: success
+[2024-04-11 01:37:12] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip]
+[2024-04-11 01:37:12] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip]
+[2024-04-11 01:37:12] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api]: success
+[2024-04-11 01:37:12] INFO root fetch - main [MainThread]: Store serial: [22710934]

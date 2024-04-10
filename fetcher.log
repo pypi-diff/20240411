@@ -1152,3 +1152,54 @@
 [2024-04-11 01:11:00] INFO root fetch - processPackages [octomy-batch]: Remove: archive file [/home/abi/fetcher/tmp/octomy-batch-2.0.2.tar.gz]
 [2024-04-11 01:11:00] INFO root fetch - main [MainThread]: End processing [octomy-batch]: success
 [2024-04-11 01:11:00] INFO root fetch - main [MainThread]: Store serial: [22710662]
+[2024-04-11 01:13:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710662]
+[2024-04-11 01:13:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 01:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luxos
+[2024-04-11 01:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecidacli
+[2024-04-11 01:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VegaliteJsonEnforcer
+[2024-04-11 01:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paka
+[2024-04-11 01:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mslarkin-utils
+[2024-04-11 01:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prosperity2bt
+[2024-04-11 01:13:08] INFO root fetch - processPackages [ecidacli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 01:13:09] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 01:13:09] INFO root fetch - processPackages [luxos]: New version: [0.0.1] Old Version: [0.0.0.0]
+[2024-04-11 01:13:09] INFO root fetch - processPackages [ecidacli]: Downloading https://files.pythonhosted.org/packages/a5/be/22e1d4cf3d4d80c61b191542863f96c4a9b702b3869c77436bab4342c9ad/ecidacli-0.0.8.tar.gz
+[2024-04-11 01:13:09] WARNING root fetch - processPackages [VegaliteJsonEnforcer]: Skipping, unable to determine old version
+[2024-04-11 01:13:09] INFO root fetch - main [MainThread]: End processing [VegaliteJsonEnforcer] error
+[2024-04-11 01:13:09] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [paka]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 01:13:09] INFO root fetch - processPackages [prosperity2bt]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-11 01:13:09] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/ce/e4/dda57174a9e8ebc3308b6ecad3a92d0457aa9d7cbc462e9ed6f40a674b85/prosperity2bt-0.4.0.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/9b/7e/62f3f1c240786853cbc97e6465a155868662b0a6bed652db701b26e50461/luxos-0.0.0.0.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [paka]: Downloading https://files.pythonhosted.org/packages/e1/87/7823546cc2511ff00b2a78bd4f93228b5d24cdea0888892ca2164c1d6be0/paka-0.1.1.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [ecidacli]: Downloading https://files.pythonhosted.org/packages/86/dc/ec70d299e123db7a465493ae1906d9e3d8e523c9638575888b40cdca86d7/ecidacli-0.0.9.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-04-11 01:13:09] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240411/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 01:13:09] INFO root fetch - processPackages [ecidacli]: executing diffoscope
+[2024-04-11 01:13:09] INFO root fetch - processPackages [ecidacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecidacli-0.0.8.tar.gz tmp/ecidacli-0.0.9.tar.gz --markdown 20240411/e/ecidacli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 01:13:09] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/fe/b2/ee137c12c5d5638044785ea4f88bdc6ca46dbbc77708fbd9c781bdb5bc71/prosperity2bt-0.4.1.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/ff/75/7460a2111a78309edb819bf20ed258b93cd8a4605d8bc243edbb09627d4c/luxos-0.0.1.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [paka]: Downloading https://files.pythonhosted.org/packages/73/d2/08ee78896bce986679b1ae0a128e765a5a0931824693ea20699d6aa930e8/paka-0.1.2.tar.gz
+[2024-04-11 01:13:09] INFO root fetch - processPackages [luxos]: executing diffoscope
+[2024-04-11 01:13:09] INFO root fetch - processPackages [luxos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luxos-0.0.0.0.tar.gz tmp/luxos-0.0.1.tar.gz --markdown 20240411/l/luxos/0.0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-11 01:13:09] INFO root fetch - processPackages [paka]: executing diffoscope
+[2024-04-11 01:13:09] INFO root fetch - processPackages [paka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paka-0.1.1.tar.gz tmp/paka-0.1.2.tar.gz --markdown 20240411/p/paka/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 01:13:09] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-11 01:13:09] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.4.0.tar.gz tmp/prosperity2bt-0.4.1.tar.gz --markdown 20240411/p/prosperity2bt/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-11 01:13:10] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-04-11 01:13:10] INFO root fetch - processPackages [ecidacli]: Remove: archive file [/home/abi/fetcher/tmp/ecidacli-0.0.8.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - processPackages [ecidacli]: Remove: archive file [/home/abi/fetcher/tmp/ecidacli-0.0.9.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - main [MainThread]: End processing [ecidacli]: success
+[2024-04-11 01:13:10] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.0.0.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.1.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - main [MainThread]: End processing [luxos]: success
+[2024-04-11 01:13:10] INFO root fetch - processPackages [paka]: Remove: archive file [/home/abi/fetcher/tmp/paka-0.1.1.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - processPackages [paka]: Remove: archive file [/home/abi/fetcher/tmp/paka-0.1.2.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - main [MainThread]: End processing [paka]: success
+[2024-04-11 01:13:10] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.0.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.1.tar.gz]
+[2024-04-11 01:13:10] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-11 01:13:10] INFO root fetch - main [MainThread]: Store serial: [22710682]

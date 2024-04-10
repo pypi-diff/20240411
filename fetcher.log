@@ -679,3 +679,33 @@
 [2024-04-11 00:44:03] INFO root fetch - processPackages [azure-eventgrid]: Remove: archive file [/home/abi/fetcher/tmp/azure-eventgrid-4.9.1.zip]
 [2024-04-11 00:44:03] INFO root fetch - main [MainThread]: End processing [azure-eventgrid]: success
 [2024-04-11 00:44:03] INFO root fetch - main [MainThread]: Store serial: [22710435]
+[2024-04-11 00:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710435]
+[2024-04-11 00:46:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 00:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-optumi
+[2024-04-11 00:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodejs-wheel
+[2024-04-11 00:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vipersci
+[2024-04-11 00:46:11] INFO root fetch - processPackages [vipersci]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-11 00:46:11] INFO root fetch - processPackages [vipersci]: Downloading https://files.pythonhosted.org/packages/cc/11/b8d216bf25ce58a34c70b26acc80c4bd0fdb463c9e2f9bd0088e22358849/vipersci-0.8.0.tar.gz
+[2024-04-11 00:46:11] INFO root fetch - processPackages [nodejs-wheel]: New version: [20.9.0] Old Version: [20.8.1]
+[2024-04-11 00:46:11] INFO root fetch - processPackages [jupyterlab-optumi]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-04-11 00:46:12] INFO root fetch - processPackages [nodejs-wheel]: Downloading https://files.pythonhosted.org/packages/08/da/4cff64cd8338d60e3ae9d3dc8f87150bac2ff2b304bfa045f3409e6d13ac/nodejs_wheel-20.8.1.tar.gz
+[2024-04-11 00:46:12] INFO root fetch - processPackages [vipersci]: Downloading https://files.pythonhosted.org/packages/51/4b/a0fce43b287a730d7e947c2d4d2a873559cb95735acab3a1510c61968df7/vipersci-0.9.0.tar.gz
+[2024-04-11 00:46:12] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/a7/8e/6085051d3edca1b7c81c1f3d4d29c79a216a8ea2dd87ead0913ef5c0cc68/jupyterlab-optumi-3.9.8.tar.gz
+[2024-04-11 00:46:12] INFO root fetch - processPackages [vipersci]: executing diffoscope
+[2024-04-11 00:46:12] INFO root fetch - processPackages [vipersci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipersci-0.8.0.tar.gz tmp/vipersci-0.9.0.tar.gz --markdown 20240411/v/vipersci/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-11 00:46:12] INFO root fetch - processPackages [nodejs-wheel]: Downloading https://files.pythonhosted.org/packages/22/68/2fa9f980402a92b328bf00fcb038ac3ecfd14a727a50e4c6bf202f2050ff/nodejs_wheel-20.9.0.tar.gz
+[2024-04-11 00:46:12] INFO root fetch - processPackages [nodejs-wheel]: executing diffoscope
+[2024-04-11 00:46:12] INFO root fetch - processPackages [nodejs-wheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodejs_wheel-20.8.1.tar.gz tmp/nodejs_wheel-20.9.0.tar.gz --markdown 20240411/n/nodejs-wheel/20.8.1-20.9.0/README.md --exclude *.pyd
+[2024-04-11 00:46:12] INFO root fetch - processPackages [nodejs-wheel]: Remove: archive file [/home/abi/fetcher/tmp/nodejs_wheel-20.8.1.tar.gz]
+[2024-04-11 00:46:12] INFO root fetch - processPackages [nodejs-wheel]: Remove: archive file [/home/abi/fetcher/tmp/nodejs_wheel-20.9.0.tar.gz]
+[2024-04-11 00:46:12] INFO root fetch - main [MainThread]: End processing [nodejs-wheel]: success
+[2024-04-11 00:46:13] INFO root fetch - processPackages [vipersci]: Remove: archive file [/home/abi/fetcher/tmp/vipersci-0.8.0.tar.gz]
+[2024-04-11 00:46:13] INFO root fetch - processPackages [vipersci]: Remove: archive file [/home/abi/fetcher/tmp/vipersci-0.9.0.tar.gz]
+[2024-04-11 00:46:13] INFO root fetch - main [MainThread]: End processing [vipersci]: success
+[2024-04-11 00:46:13] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/97/75/ce93a28e75bfb407dedc53ae5f247a368eb93179c14c16bca8a11218f211/jupyterlab-optumi-3.9.9.tar.gz
+[2024-04-11 00:46:14] INFO root fetch - processPackages [jupyterlab-optumi]: executing diffoscope
+[2024-04-11 00:46:14] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20240411/j/jupyterlab-optumi/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-04-11 00:46:22] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.8.tar.gz]
+[2024-04-11 00:46:22] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.9.tar.gz]
+[2024-04-11 00:46:22] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
+[2024-04-11 00:46:22] INFO root fetch - main [MainThread]: Store serial: [22710450]

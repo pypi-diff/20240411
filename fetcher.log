@@ -1721,3 +1721,18 @@ EOFError: EOF read where object expected
 [2024-04-11 01:37:12] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip]
 [2024-04-11 01:37:12] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api]: success
 [2024-04-11 01:37:12] INFO root fetch - main [MainThread]: Store serial: [22710934]
+[2024-04-11 01:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710934]
+[2024-04-11 01:39:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 01:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eigenshuffle
+[2024-04-11 01:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trame
+[2024-04-11 01:39:20] WARNING root fetch - processPackages [eigenshuffle]: Skipping, unable to determine old version
+[2024-04-11 01:39:20] INFO root fetch - main [MainThread]: End processing [eigenshuffle] error
+[2024-04-11 01:39:20] INFO root fetch - processPackages [trame]: New version: [3.6.0] Old Version: [3.5.5]
+[2024-04-11 01:39:21] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/60/69/73be97480e0b91f7528a59e97f4ba4604bf5441cdbe5d8cd1b3fdcbb7cd0/trame-3.5.5.tar.gz
+[2024-04-11 01:39:21] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/77/5b/6886f3ea4b3875757ec293406ee7872cbc21ae1733e691148c6f6958a1e6/trame-3.6.0.tar.gz
+[2024-04-11 01:39:21] INFO root fetch - processPackages [trame]: executing diffoscope
+[2024-04-11 01:39:21] INFO root fetch - processPackages [trame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-3.5.5.tar.gz tmp/trame-3.6.0.tar.gz --markdown 20240411/t/trame/3.5.5-3.6.0/README.md --exclude *.pyd
+[2024-04-11 01:39:22] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.5.5.tar.gz]
+[2024-04-11 01:39:22] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.6.0.tar.gz]
+[2024-04-11 01:39:22] INFO root fetch - main [MainThread]: End processing [trame]: success
+[2024-04-11 01:39:22] INFO root fetch - main [MainThread]: Store serial: [22710940]

@@ -2008,3 +2008,33 @@ EOFError: EOF read where object expected
 [2024-04-11 01:57:32] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc44.dev44.tar.gz]
 [2024-04-11 01:57:32] INFO root fetch - main [MainThread]: End processing [arion-library]: success
 [2024-04-11 01:57:32] INFO root fetch - main [MainThread]: Store serial: [22711040]
+[2024-04-11 01:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711040]
+[2024-04-11 01:59:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psat-server-web
+[2024-04-11 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysnc
+[2024-04-11 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-requests
+[2024-04-11 01:59:41] INFO root fetch - processPackages [pysnc]: New version: [1.1.7] Old Version: [1.1.6a5]
+[2024-04-11 01:59:41] INFO root fetch - processPackages [psat-server-web]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 01:59:41] INFO root fetch - processPackages [adafruit-circuitpython-requests]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-04-11 01:59:41] INFO root fetch - processPackages [pysnc]: Downloading https://files.pythonhosted.org/packages/10/d6/e0a3b86070bb007c1f7e5e4e2e6ef402ee7f751f96b8171ec128be75e578/pysnc-1.1.6a5.tar.gz
+[2024-04-11 01:59:41] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/95/7e/eb18d9c9dbdc01923dd522b519073e1e795ae5484081b0c1e95ee2b438da/adafruit-circuitpython-requests-3.2.3.tar.gz
+[2024-04-11 01:59:41] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/63/4c/c0f32c8e24cb6dca8fd70be5a5df4cfa2676ac4f41f77ea2b587799b03e2/psat-server-web-0.3.8.tar.gz
+[2024-04-11 01:59:41] INFO root fetch - processPackages [pysnc]: Downloading https://files.pythonhosted.org/packages/76/aa/1e22a945c8969749243e9705f17f4198b95f969def039e4e06c998ae1804/pysnc-1.1.7.tar.gz
+[2024-04-11 01:59:41] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/db/61/16991130d1ac0cf821fb7a7248a3abf36f9e56aa930fe58713a7659e0610/adafruit-circuitpython-requests-3.2.4.tar.gz
+[2024-04-11 01:59:42] INFO root fetch - processPackages [pysnc]: executing diffoscope
+[2024-04-11 01:59:42] INFO root fetch - processPackages [pysnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnc-1.1.6a5.tar.gz tmp/pysnc-1.1.7.tar.gz --markdown 20240411/p/pysnc/1.1.6a5-1.1.7/README.md --exclude *.pyd
+[2024-04-11 01:59:42] INFO root fetch - processPackages [adafruit-circuitpython-requests]: executing diffoscope
+[2024-04-11 01:59:42] INFO root fetch - processPackages [adafruit-circuitpython-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-requests-3.2.3.tar.gz tmp/adafruit-circuitpython-requests-3.2.4.tar.gz --markdown 20240411/a/adafruit-circuitpython-requests/3.2.3-3.2.4/README.md --exclude *.pyd
+[2024-04-11 01:59:42] INFO root fetch - processPackages [pysnc]: Remove: archive file [/home/abi/fetcher/tmp/pysnc-1.1.6a5.tar.gz]
+[2024-04-11 01:59:42] INFO root fetch - processPackages [pysnc]: Remove: archive file [/home/abi/fetcher/tmp/pysnc-1.1.7.tar.gz]
+[2024-04-11 01:59:42] INFO root fetch - main [MainThread]: End processing [pysnc]: success
+[2024-04-11 01:59:42] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-3.2.3.tar.gz]
+[2024-04-11 01:59:42] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-3.2.4.tar.gz]
+[2024-04-11 01:59:42] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-requests]: success
+[2024-04-11 01:59:43] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/a1/e6/698afe0d1f241b4aec8b9f51064660dc5318bbf5eb65e75bea707a0c2259/psat-server-web-0.3.9.tar.gz
+[2024-04-11 01:59:46] INFO root fetch - processPackages [psat-server-web]: executing diffoscope
+[2024-04-11 01:59:46] INFO root fetch - processPackages [psat-server-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psat-server-web-0.3.8.tar.gz tmp/psat-server-web-0.3.9.tar.gz --markdown 20240411/p/psat-server-web/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 01:59:49] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.8.tar.gz]
+[2024-04-11 01:59:49] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.9.tar.gz]
+[2024-04-11 01:59:49] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
+[2024-04-11 01:59:49] INFO root fetch - main [MainThread]: Store serial: [22711050]

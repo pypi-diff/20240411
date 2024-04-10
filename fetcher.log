@@ -1766,3 +1766,24 @@ EOFError: EOF read where object expected
 [2024-04-11 01:41:33] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
 [2024-04-11 01:41:33] INFO root fetch - main [MainThread]: End processing [stefutils]: success
 [2024-04-11 01:41:33] INFO root fetch - main [MainThread]: Store serial: [22710950]
+[2024-04-11 01:43:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710950]
+[2024-04-11 01:43:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draggable-line-chart
+[2024-04-11 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2024-04-11 01:43:41] INFO root fetch - processPackages [draggable-line-chart]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 01:43:41] INFO root fetch - processPackages [draggable-line-chart]: Downloading https://files.pythonhosted.org/packages/d8/eb/95187f4b0820dd020651af726eb2190ebdde7ad3c5d5d4ddaae1fb859bea/draggable-line-chart-0.2.0.tar.gz
+[2024-04-11 01:43:41] INFO root fetch - processPackages [data-repo-client]: New version: [2.38.0] Old Version: [2.37.0]
+[2024-04-11 01:43:41] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/34/51/8c4f7e8ce0d9a12004733a12724e6bd8c08672b12a7c73d965ab2d2781c4/data-repo-client-2.37.0.tar.gz
+[2024-04-11 01:43:41] INFO root fetch - processPackages [draggable-line-chart]: Downloading https://files.pythonhosted.org/packages/99/f5/71d50f3f3e49669ecfbb3057a699105952f5af764d5bffe1cdf37a5828a2/draggable-line-chart-0.2.1.tar.gz
+[2024-04-11 01:43:42] INFO root fetch - processPackages [draggable-line-chart]: executing diffoscope
+[2024-04-11 01:43:42] INFO root fetch - processPackages [draggable-line-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-line-chart-0.2.0.tar.gz tmp/draggable-line-chart-0.2.1.tar.gz --markdown 20240411/d/draggable-line-chart/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 01:43:42] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/11/1f/c20f20c072ab0a815803be4cab1a81019e9ed13708ee6b18c1a57d74d3e1/data-repo-client-2.38.0.tar.gz
+[2024-04-11 01:43:42] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-04-11 01:43:42] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.37.0.tar.gz tmp/data-repo-client-2.38.0.tar.gz --markdown 20240411/d/data-repo-client/2.37.0-2.38.0/README.md --exclude *.pyd
+[2024-04-11 01:43:43] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.37.0.tar.gz]
+[2024-04-11 01:43:43] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.38.0.tar.gz]
+[2024-04-11 01:43:43] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-04-11 01:44:18] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.0.tar.gz]
+[2024-04-11 01:44:18] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.1.tar.gz]
+[2024-04-11 01:44:18] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
+[2024-04-11 01:44:18] INFO root fetch - main [MainThread]: Store serial: [22710956]

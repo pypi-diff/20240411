@@ -1235,3 +1235,24 @@
 [2024-04-11 01:17:29] WARNING root fetch - processPackages [xstate-machine]: Skipping, unable to determine old version
 [2024-04-11 01:17:29] INFO root fetch - main [MainThread]: End processing [xstate-machine] error
 [2024-04-11 01:17:29] INFO root fetch - main [MainThread]: Store serial: [22710695]
+[2024-04-11 01:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710695]
+[2024-04-11 01:19:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 01:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mslarkin-utils
+[2024-04-11 01:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langgraph
+[2024-04-11 01:19:38] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 01:19:38] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 01:19:38] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-04-11 01:19:38] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-04-11 01:19:38] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-04-11 01:19:38] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-04-11 01:19:38] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-04-11 01:19:38] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240411/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 01:19:38] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-04-11 01:19:38] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240411/l/langgraph/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 01:19:39] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-04-11 01:19:39] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-04-11 01:19:39] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-04-11 01:19:39] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-04-11 01:19:39] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-04-11 01:19:39] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-04-11 01:19:39] INFO root fetch - main [MainThread]: Store serial: [22710704]

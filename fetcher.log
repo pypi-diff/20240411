@@ -766,3 +766,15 @@
 [2024-04-11 00:48:35] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip]
 [2024-04-11 00:48:35] INFO root fetch - main [MainThread]: End processing [flim-labs]: success
 [2024-04-11 00:48:35] INFO root fetch - main [MainThread]: Store serial: [22710481]
+[2024-04-11 00:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710481]
+[2024-04-11 00:50:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 00:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etl-pipes
+[2024-04-11 00:50:44] INFO root fetch - processPackages [etl-pipes]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-11 00:50:44] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/24/65/46f4d47bd7c4d1d04415ea0f8b684acf8ad139c496b3ac7e70ba03a65633/etl_pipes-0.8.5.tar.gz
+[2024-04-11 00:50:44] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/76/0e/1bdad867a8717bcbf0290597fbd29717508aa7d681a6556abc55fcc9150d/etl_pipes-0.8.6.tar.gz
+[2024-04-11 00:50:44] INFO root fetch - processPackages [etl-pipes]: executing diffoscope
+[2024-04-11 00:50:44] INFO root fetch - processPackages [etl-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_pipes-0.8.5.tar.gz tmp/etl_pipes-0.8.6.tar.gz --markdown 20240411/e/etl-pipes/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-11 00:50:45] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.5.tar.gz]
+[2024-04-11 00:50:45] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.8.6.tar.gz]
+[2024-04-11 00:50:45] INFO root fetch - main [MainThread]: End processing [etl-pipes]: success
+[2024-04-11 00:50:45] INFO root fetch - main [MainThread]: Store serial: [22710503]

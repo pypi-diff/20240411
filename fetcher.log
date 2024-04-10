@@ -51,3 +51,24 @@
 [2024-04-11 00:00:51] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.3.0.tar.gz]
 [2024-04-11 00:00:51] INFO root fetch - main [MainThread]: End processing [dgenerate]: success
 [2024-04-11 00:00:51] INFO root fetch - main [MainThread]: Store serial: [22710115]
+[2024-04-11 00:02:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710115]
+[2024-04-11 00:03:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-strict-partial
+[2024-04-11 00:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartesify-backend
+[2024-04-11 00:03:02] INFO root fetch - processPackages [pydantic-strict-partial]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-11 00:03:02] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 00:03:02] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-11 00:03:02] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/20/cb/bdc067e0fb5a35b6bf536e982a57ae13793d142cee7e333cd76cbb3f58b5/pydantic_strict_partial-0.1.0.tar.gz
+[2024-04-11 00:03:02] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-11 00:03:02] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-11 00:03:02] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240411/c/cartesify-backend/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 00:03:02] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/5a/32/5dbf89bbc8dbb2db1b3f47b9d72605941723a29a9f4a022d111b1aea64bb/pydantic_strict_partial-0.2.0.tar.gz
+[2024-04-11 00:03:02] INFO root fetch - processPackages [pydantic-strict-partial]: executing diffoscope
+[2024-04-11 00:03:02] INFO root fetch - processPackages [pydantic-strict-partial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_strict_partial-0.1.0.tar.gz tmp/pydantic_strict_partial-0.2.0.tar.gz --markdown 20240411/p/pydantic-strict-partial/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-11 00:03:03] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-11 00:03:03] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-11 00:03:03] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-11 00:03:03] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.1.0.tar.gz]
+[2024-04-11 00:03:03] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.2.0.tar.gz]
+[2024-04-11 00:03:03] INFO root fetch - main [MainThread]: End processing [pydantic-strict-partial]: success
+[2024-04-11 00:03:03] INFO root fetch - main [MainThread]: Store serial: [22710118]

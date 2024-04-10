@@ -72,3 +72,45 @@
 [2024-04-11 00:03:03] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.2.0.tar.gz]
 [2024-04-11 00:03:03] INFO root fetch - main [MainThread]: End processing [pydantic-strict-partial]: success
 [2024-04-11 00:03:03] INFO root fetch - main [MainThread]: Store serial: [22710118]
+[2024-04-11 00:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22710118]
+[2024-04-11 00:05:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 00:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cartesify-backend
+[2024-04-11 00:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VLCDA
+[2024-04-11 00:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI
+[2024-04-11 00:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clip-util
+[2024-04-11 00:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rs-distributions
+[2024-04-11 00:05:12] INFO root fetch - processPackages [clip-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 00:05:12] INFO root fetch - processPackages [VLCDA]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-11 00:05:12] INFO root fetch - processPackages [cartesify-backend]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-04-11 00:05:12] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 00:05:13] WARNING root fetch - processPackages [rs-distributions]: Skipping, unable to determine old version
+[2024-04-11 00:05:13] INFO root fetch - main [MainThread]: End processing [rs-distributions] error
+[2024-04-11 00:05:13] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/62/b3/1dadedcd87d131bf2409d1b99b98cfe912a716ec0c14a1de749fc90c6d1c/clip-util-0.1.8.tar.gz
+[2024-04-11 00:05:13] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/d8/cc/b66618a4164523173488121af722ac96bc5d2318101ee84a94de58aa5efd/VLCDA-1.0.4.tar.gz
+[2024-04-11 00:05:13] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-11 00:05:13] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-11 00:05:13] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/41/bb/9082a814e9fb8fa4545c7852a27a82fbfb2c177a9cb11dcca70a065c5bd8/clip-util-0.1.9.tar.gz
+[2024-04-11 00:05:13] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/06/bb/9b2a3e58c9b5b06bd628e99720a19904b3331ea28b224796ec892692bef4/VLCDA-1.0.5.tar.gz
+[2024-04-11 00:05:13] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-11 00:05:13] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/80/63/24a5a38b3bf19e6e72b2ab86e1b3e679e2e22e69579271d2022945b2ca91/cartesify_backend-1.0.0.tar.gz
+[2024-04-11 00:05:13] INFO root fetch - processPackages [clip-util]: executing diffoscope
+[2024-04-11 00:05:13] INFO root fetch - processPackages [clip-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip-util-0.1.8.tar.gz tmp/clip-util-0.1.9.tar.gz --markdown 20240411/c/clip-util/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 00:05:13] INFO root fetch - processPackages [VLCDA]: executing diffoscope
+[2024-04-11 00:05:13] INFO root fetch - processPackages [VLCDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VLCDA-1.0.4.tar.gz tmp/VLCDA-1.0.5.tar.gz --markdown 20240411/V/VLCDA/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-11 00:05:13] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-11 00:05:13] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.9.tar.gz tmp/cartesify_backend-1.0.0.tar.gz --markdown 20240411/c/cartesify-backend/0.0.9-1.0.0/README.md --exclude *.pyd
+[2024-04-11 00:05:13] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-11 00:05:13] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240411/O/OZI/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 00:05:14] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-11 00:05:14] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-1.0.0.tar.gz]
+[2024-04-11 00:05:14] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-11 00:05:14] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.4.tar.gz]
+[2024-04-11 00:05:14] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.5.tar.gz]
+[2024-04-11 00:05:14] INFO root fetch - main [MainThread]: End processing [VLCDA]: success
+[2024-04-11 00:05:14] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.8.tar.gz]
+[2024-04-11 00:05:14] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.9.tar.gz]
+[2024-04-11 00:05:14] INFO root fetch - main [MainThread]: End processing [clip-util]: success
+[2024-04-11 00:05:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-11 00:05:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-11 00:05:14] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-11 00:05:14] INFO root fetch - main [MainThread]: Store serial: [22710136]

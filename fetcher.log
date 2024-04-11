@@ -14446,3 +14446,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:04:38] INFO root fetch - processPackages [senpwai]: Remove: archive file [/home/abi/fetcher/tmp/senpwai-2.1.8.tar.gz]
 [2024-04-11 10:04:38] INFO root fetch - main [MainThread]: End processing [senpwai]: success
 [2024-04-11 10:04:38] INFO root fetch - main [MainThread]: Store serial: [22716061]
+[2024-04-11 10:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716061]
+[2024-04-11 10:06:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peutils
+[2024-04-11 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: braincore
+[2024-04-11 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbpretty
+[2024-04-11 10:06:47] INFO root fetch - processPackages [nbpretty]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 10:06:47] INFO root fetch - processPackages [braincore]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 10:06:47] INFO root fetch - processPackages [peutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 10:06:47] INFO root fetch - processPackages [nbpretty]: Downloading https://files.pythonhosted.org/packages/64/4c/450c3cce8c8a15970f84050ae9cf1a549ec05f532770f71729370478ef8f/nbpretty-0.3.0.tar.gz
+[2024-04-11 10:06:47] INFO root fetch - processPackages [braincore]: Downloading https://files.pythonhosted.org/packages/6b/0c/80f082af5afd8d365e0dbd62e49c04066e90c638cba04c2e6cf7031ccd28/braincore-0.0.1-py2.py3-none-any.whl
+[2024-04-11 10:06:47] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/86/56/fc38c0e7cb317b1857f035c575fbf769b42801fd4ebbac8e63455b682efc/peutils-0.0.98.tar.gz
+[2024-04-11 10:06:48] INFO root fetch - processPackages [nbpretty]: Downloading https://files.pythonhosted.org/packages/0e/2b/e81068579b6f04dd9490c03f9de85f8c2fde7262480e6d379620d0d30ecc/nbpretty-0.3.1.tar.gz
+[2024-04-11 10:06:48] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/ba/fe/8c48c448fd9667ae84b126cee4f1683e818dc74524c954a888b5bc50330a/peutils-0.0.99.tar.gz
+[2024-04-11 10:06:48] INFO root fetch - processPackages [braincore]: Downloading https://files.pythonhosted.org/packages/59/7e/f985aae4816b1698c7f441bd06650f742362a64ce6926452eb376e9a81e9/braincore-0.0.2-py2.py3-none-any.whl
+[2024-04-11 10:06:48] INFO root fetch - processPackages [nbpretty]: executing diffoscope
+[2024-04-11 10:06:48] INFO root fetch - processPackages [nbpretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbpretty-0.3.0.tar.gz tmp/nbpretty-0.3.1.tar.gz --markdown 20240411/n/nbpretty/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 10:06:48] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2024-04-11 10:06:48] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.98.tar.gz tmp/peutils-0.0.99.tar.gz --markdown 20240411/p/peutils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 10:06:48] INFO root fetch - processPackages [braincore]: executing diffoscope
+[2024-04-11 10:06:48] INFO root fetch - processPackages [braincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincore-0.0.1-py2.py3-none-any.whl.zip tmp/braincore-0.0.2-py2.py3-none-any.whl.zip --markdown 20240411/b/braincore/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 10:06:48] INFO root fetch - processPackages [nbpretty]: Remove: archive file [/home/abi/fetcher/tmp/nbpretty-0.3.0.tar.gz]
+[2024-04-11 10:06:48] INFO root fetch - processPackages [nbpretty]: Remove: archive file [/home/abi/fetcher/tmp/nbpretty-0.3.1.tar.gz]
+[2024-04-11 10:06:48] INFO root fetch - main [MainThread]: End processing [nbpretty]: success
+[2024-04-11 10:06:48] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.98.tar.gz]
+[2024-04-11 10:06:48] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.99.tar.gz]
+[2024-04-11 10:06:48] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2024-04-11 10:06:49] INFO root fetch - processPackages [braincore]: Remove: archive file [/home/abi/fetcher/tmp/braincore-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-11 10:06:49] INFO root fetch - processPackages [braincore]: Remove: archive file [/home/abi/fetcher/tmp/braincore-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-11 10:06:49] INFO root fetch - main [MainThread]: End processing [braincore]: success
+[2024-04-11 10:06:49] INFO root fetch - main [MainThread]: Store serial: [22716071]

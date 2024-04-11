@@ -12904,3 +12904,20 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:43:04] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9b1.tar.gz]
 [2024-04-11 08:43:04] INFO root fetch - main [MainThread]: End processing [superannotate]: success
 [2024-04-11 08:43:04] INFO root fetch - main [MainThread]: Store serial: [22715317]
+[2024-04-11 08:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715317]
+[2024-04-11 08:45:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satcfdi
+[2024-04-11 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-prose-editor
+[2024-04-11 08:45:14] INFO root fetch - processPackages [django-prose-editor]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 08:45:14] INFO root fetch - processPackages [satcfdi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-11 08:45:14] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/f3/67/e32b7e44d6291baa2ace4643f65dfe80e0450563991ca1b682dbe15fb364/satcfdi-4.4.8.tar.gz
+[2024-04-11 08:45:14] INFO root fetch - processPackages [django-prose-editor]: Downloading https://files.pythonhosted.org/packages/e1/b9/169f253f797e218641f514fb71e37b10633b764b537fe40766a901658fda/django_prose_editor-0.3.0.tar.gz
+[2024-04-11 08:45:14] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10631018>=10485760
+[2024-04-11 08:45:14] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2024-04-11 08:45:14] INFO root fetch - processPackages [django-prose-editor]: Downloading https://files.pythonhosted.org/packages/3d/5e/35babaca82d2a131c39d2f3296a307012dd48437633d015383e98c3a179f/django_prose_editor-0.3.1.tar.gz
+[2024-04-11 08:45:14] INFO root fetch - processPackages [django-prose-editor]: executing diffoscope
+[2024-04-11 08:45:14] INFO root fetch - processPackages [django-prose-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_prose_editor-0.3.0.tar.gz tmp/django_prose_editor-0.3.1.tar.gz --markdown 20240411/d/django-prose-editor/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 08:45:15] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.0.tar.gz]
+[2024-04-11 08:45:15] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.1.tar.gz]
+[2024-04-11 08:45:15] INFO root fetch - main [MainThread]: End processing [django-prose-editor]: success
+[2024-04-11 08:45:15] INFO root fetch - main [MainThread]: Store serial: [22715324]

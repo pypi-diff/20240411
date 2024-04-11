@@ -18816,3 +18816,102 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:59:22] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.9.1.tar.gz]
 [2024-04-11 11:59:22] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-04-11 11:59:22] INFO root fetch - main [MainThread]: Store serial: [22717802]
+[2024-04-11 12:01:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717802]
+[2024-04-11 12:01:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioipfs
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-aligenieiap-1-0
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-strict-partial
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-confluentcloud
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safe-eth-py
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yunchang
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reqargs
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-pagerduty
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guppylang
+[2024-04-11 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: avaris
+[2024-04-11 12:01:31] INFO root fetch - processPackages [pydantic-strict-partial]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [reqargs]: New version: [1.2] Old Version: [1.0.0]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [avaris]: New version: [0.1.4] Old Version: [0.1.0]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [alibabacloud-aligenieiap-1-0]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/e8/93/4a7a05be27fa12c0ada31e556c0000507e5b6e700210dc9fbd25ea5bb0ac/pydantic_strict_partial-0.4.4.tar.gz
+[2024-04-11 12:01:31] INFO root fetch - processPackages [safe-eth-py]: New version: [6.0.0b9] Old Version: [6.0.0b8]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [guppylang]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-11 12:01:31] INFO root fetch - processPackages [aioipfs]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-11 12:01:31] WARNING root fetch - processPackages [yunchang]: Skipping, unable to determine old version
+[2024-04-11 12:01:31] INFO root fetch - processPackages [yunchang]: Start processing: pulumi-datadog
+[2024-04-11 12:01:31] INFO root fetch - main [MainThread]: End processing [yunchang] error
+[2024-04-11 12:01:31] INFO root fetch - processPackages [avaris]: Downloading https://files.pythonhosted.org/packages/76/c2/8c84131c600cb7931bbc08c84c7ac22f3aeafb7b964ed277e054e3336980/avaris-0.1.0.tar.gz
+[2024-04-11 12:01:31] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-11 12:01:31] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [reqargs]: Downloading https://files.pythonhosted.org/packages/7a/26/d0e75a64c606d9b25add6d2f9ebccfdbcf8cb8e3762d131cc9829fbab3a2/reqargs-1.0.0.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [alibabacloud-aligenieiap-1-0]: Downloading https://files.pythonhosted.org/packages/4b/68/f5e6441f3651e23f5a3e094b4570cd09cbaf6cad10034d2f9c2dcd970001/alibabacloud_aligenieiap_1_0-1.1.0.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-04-11 12:01:32] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/0c/ed/23b1f27f14c642c3ed091692af8e7c8a75ab7436c5121a270b14e89f1acf/safe-eth-py-6.0.0b8.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [guppylang]: Downloading https://files.pythonhosted.org/packages/81/3b/46346840a922dc7556f91bcbbbfa33793269e9cd3d28084939a8995cd7fe/guppylang-0.1.0.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [avaris]: Downloading https://files.pythonhosted.org/packages/41/91/ada10e433b9b6d77e50ae30cc184dfa1570dbf161d51ce8e1d1db69a044f/avaris-0.1.4.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [aioipfs]: Downloading https://files.pythonhosted.org/packages/26/04/73fa61aa172725e086d3633f7bec4d8705c6b0faf1dd5b22747e33eaf1b7/aioipfs-0.6.6.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/08/63/5734a6ccc33dcc7a8ae8afdf96186ad907fde64af4566e6868296d8f1848/pydantic_strict_partial-0.4.5.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [avaris]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [avaris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avaris-0.1.0.tar.gz tmp/avaris-0.1.4.tar.gz --markdown 20240411/a/avaris/0.1.0-0.1.4/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240411/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240411/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pydantic-strict-partial]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pydantic-strict-partial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_strict_partial-0.4.4.tar.gz tmp/pydantic_strict_partial-0.4.5.tar.gz --markdown 20240411/p/pydantic-strict-partial/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [reqargs]: Downloading https://files.pythonhosted.org/packages/e2/cd/0028f936165e0318280568d95443baade70a21551b9cc3860707eaafc477/reqargs-1.2.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [alibabacloud-aligenieiap-1-0]: Downloading https://files.pythonhosted.org/packages/56/9d/98270aef1f5430b4237b89be02d327f82b5111d052955178315c02aff45a/alibabacloud_aligenieiap_1_0-1.1.1.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [guppylang]: Downloading https://files.pythonhosted.org/packages/73/b6/a102f9644e53dd0b1ec88f75c4f372290ecf304fe39475297b4e4f225c88/guppylang-0.2.0.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [aioipfs]: Downloading https://files.pythonhosted.org/packages/90/5d/32346f5117c31ed702f38455a7c35919a3f90ecb8bf53bfb3a487346b919/aioipfs-0.6.7.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [reqargs]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [reqargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqargs-1.0.0.tar.gz tmp/reqargs-1.2.tar.gz --markdown 20240411/r/reqargs/1.0.0-1.2/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [alibabacloud-aligenieiap-1-0]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [alibabacloud-aligenieiap-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieiap_1_0-1.1.0.tar.gz tmp/alibabacloud_aligenieiap_1_0-1.1.1.tar.gz --markdown 20240411/a/alibabacloud-aligenieiap-1-0/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/42/24/aefb4dee33f8794acc43acb93d196f0aa3ab97cd49040c45a40a20d1782c/safe-eth-py-6.0.0b9.tar.gz
+[2024-04-11 12:01:32] INFO root fetch - processPackages [guppylang]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [guppylang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guppylang-0.1.0.tar.gz tmp/guppylang-0.2.0.tar.gz --markdown 20240411/g/guppylang/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [aioipfs]: executing diffoscope
+[2024-04-11 12:01:32] INFO root fetch - processPackages [aioipfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioipfs-0.6.6.tar.gz tmp/aioipfs-0.6.7.tar.gz --markdown 20240411/a/aioipfs/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-04-11 12:01:32] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-04-11 12:01:33] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2024-04-11 12:01:33] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-6.0.0b8.tar.gz tmp/safe-eth-py-6.0.0b9.tar.gz --markdown 20240411/s/safe-eth-py/6.0.0b8-6.0.0b9/README.md --exclude *.pyd
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240411/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.4.4.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.4.5.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pydantic-strict-partial]: Start processing: tweets-to-topic-network
+[2024-04-11 12:01:33] INFO root fetch - main [MainThread]: End processing [pydantic-strict-partial]: success
+[2024-04-11 12:01:33] INFO root fetch - processPackages [reqargs]: Remove: archive file [/home/abi/fetcher/tmp/reqargs-1.0.0.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - processPackages [reqargs]: Remove: archive file [/home/abi/fetcher/tmp/reqargs-1.2.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - main [MainThread]: End processing [reqargs]: success
+[2024-04-11 12:01:33] WARNING root fetch - processPackages [tweets-to-topic-network]: Skipping, unable to determine old version
+[2024-04-11 12:01:33] INFO root fetch - main [MainThread]: End processing [tweets-to-topic-network] error
+[2024-04-11 12:01:33] INFO root fetch - processPackages [avaris]: Remove: archive file [/home/abi/fetcher/tmp/avaris-0.1.0.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - processPackages [avaris]: Remove: archive file [/home/abi/fetcher/tmp/avaris-0.1.4.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - main [MainThread]: End processing [avaris]: success
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-11 12:01:33] INFO root fetch - processPackages [alibabacloud-aligenieiap-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieiap_1_0-1.1.0.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - processPackages [alibabacloud-aligenieiap-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieiap_1_0-1.1.1.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieiap-1-0]: success
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-11 12:01:33] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-11 12:01:34] INFO root fetch - processPackages [aioipfs]: Remove: archive file [/home/abi/fetcher/tmp/aioipfs-0.6.6.tar.gz]
+[2024-04-11 12:01:34] INFO root fetch - processPackages [aioipfs]: Remove: archive file [/home/abi/fetcher/tmp/aioipfs-0.6.7.tar.gz]
+[2024-04-11 12:01:34] INFO root fetch - main [MainThread]: End processing [aioipfs]: success
+[2024-04-11 12:01:34] INFO root fetch - processPackages [guppylang]: Remove: archive file [/home/abi/fetcher/tmp/guppylang-0.1.0.tar.gz]
+[2024-04-11 12:01:34] INFO root fetch - processPackages [guppylang]: Remove: archive file [/home/abi/fetcher/tmp/guppylang-0.2.0.tar.gz]
+[2024-04-11 12:01:34] INFO root fetch - main [MainThread]: End processing [guppylang]: success
+[2024-04-11 12:01:34] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b8.tar.gz]
+[2024-04-11 12:01:34] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
+[2024-04-11 12:01:34] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2024-04-11 12:01:36] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-04-11 12:01:36] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-04-11 12:01:36] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-04-11 12:01:36] INFO root fetch - main [MainThread]: Store serial: [22717841]

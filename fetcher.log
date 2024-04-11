@@ -7966,3 +7966,69 @@ EOFError: EOF read where object expected
 [2024-04-11 03:21:25] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
 [2024-04-11 03:21:25] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2024-04-11 03:21:25] INFO root fetch - main [MainThread]: Store serial: [22712646]
+[2024-04-11 03:23:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22712646]
+[2024-04-11 03:23:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 03:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2024-04-11 03:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2024-04-11 03:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyBibX
+[2024-04-11 03:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swebench
+[2024-04-11 03:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dannytrigo-onkyo-eiscp
+[2024-04-11 03:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatllm
+[2024-04-11 03:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: joonmyung
+[2024-04-11 03:23:47] INFO root fetch - processPackages [swebench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 03:23:47] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 03:23:47] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.11.9.4.4]
+[2024-04-11 03:23:47] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9f/5f/e1b27b554c9d461ee219864c4084395d8c393b8c84491f779e65107362bb/swebench-1.0.8.tar.gz
+[2024-04-11 03:23:47] INFO root fetch - processPackages [joonmyung]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-11 03:23:47] INFO root fetch - processPackages [dannytrigo-onkyo-eiscp]: New version: [1.2.9] Old Version: [1.2.13]
+[2024-04-11 03:23:47] INFO root fetch - processPackages [pyBibX]: New version: [3.3.0] Old Version: [3.2.9]
+[2024-04-11 03:23:47] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-11 03:23:47] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 03:23:47] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/94/1c/8a205e1478d8d25639fb495eae0f943c7634b3ce9c421e4e4aa9281b4f32/chatllm-2024.4.11.9.4.4.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [dannytrigo-onkyo-eiscp]: Downloading https://files.pythonhosted.org/packages/8e/16/840e145d7b2caae6cd276efd91cb54b7f23d69f53c342497d3dfdb8e2bbc/dannytrigo-onkyo-eiscp-1.2.13.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/0d/36/ea5e4bd2eab2083af4aebe0278fc76a366410926536d85b3f1796fc5262b/joonmyung-1.5.0.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/f4/1e/da0a5ff7fec617ab4a890a381f312d0e2e1121cc800b024ac5b967ba62a7/swebench-1.0.9.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/fe/44/56fd4859593b0bfda13f3c8cc0df82945982ef9a5656b9b979602a6289c0/pyBibX-3.2.9.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-04-11 03:23:48] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.0.8.tar.gz tmp/swebench-1.0.9.tar.gz --markdown 20240411/s/swebench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 03:23:48] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-11 03:23:48] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [dannytrigo-onkyo-eiscp]: Downloading https://files.pythonhosted.org/packages/ee/3a/51127cf921cd141383fdaef7985ec18b4b27342d6b5fa75c250a3eb51fcc/dannytrigo-onkyo-eiscp-1.2.9.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-11 03:23:48] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240411/O/OZI/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 03:23:48] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/46/d1/e1d77f1aa0698c6cb2d65b0df58a5c609b22815dc9449c2d0f571ceb6a12/pyBibX-3.3.0.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/7b/09/5d1f08d621acd7a8553898f5fec37a4929a4d4591d3292b3524e8d34f806/joonmyung-1.5.1.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [dannytrigo-onkyo-eiscp]: executing diffoscope
+[2024-04-11 03:23:48] INFO root fetch - processPackages [dannytrigo-onkyo-eiscp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dannytrigo-onkyo-eiscp-1.2.13.tar.gz tmp/dannytrigo-onkyo-eiscp-1.2.9.tar.gz --markdown 20240411/d/dannytrigo-onkyo-eiscp/1.2.13-1.2.9/README.md --exclude *.pyd
+[2024-04-11 03:23:48] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-11 03:23:48] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.11.9.4.4.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240411/c/chatllm/2024.4.11.9.4.4-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-11 03:23:48] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2024-04-11 03:23:48] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-3.2.9.tar.gz tmp/pyBibX-3.3.0.tar.gz --markdown 20240411/p/pyBibX/3.2.9-3.3.0/README.md --exclude *.pyd
+[2024-04-11 03:23:48] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-04-11 03:23:48] INFO root fetch - processPackages [joonmyung]: executing diffoscope
+[2024-04-11 03:23:48] INFO root fetch - processPackages [joonmyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joonmyung-1.5.0.tar.gz tmp/joonmyung-1.5.1.tar.gz --markdown 20240411/j/joonmyung/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-11 03:23:48] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-04-11 03:23:48] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240411/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 03:23:49] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.8.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.9.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-04-11 03:23:49] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-04-11 03:23:49] INFO root fetch - processPackages [dannytrigo-onkyo-eiscp]: Remove: archive file [/home/abi/fetcher/tmp/dannytrigo-onkyo-eiscp-1.2.13.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - processPackages [dannytrigo-onkyo-eiscp]: Remove: archive file [/home/abi/fetcher/tmp/dannytrigo-onkyo-eiscp-1.2.9.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - main [MainThread]: End processing [dannytrigo-onkyo-eiscp]: success
+[2024-04-11 03:23:49] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.5.0.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.5.1.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - main [MainThread]: End processing [joonmyung]: success
+[2024-04-11 03:23:49] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.2.9.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.3.0.tar.gz]
+[2024-04-11 03:23:49] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2024-04-11 03:23:49] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-11 03:23:49] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-11 03:23:49] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-11 03:23:50] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.11.9.4.4.tar.gz]
+[2024-04-11 03:23:50] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-11 03:23:50] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-11 03:23:50] INFO root fetch - main [MainThread]: Store serial: [22712774]

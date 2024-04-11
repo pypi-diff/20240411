@@ -9368,3 +9368,24 @@ EOFError: EOF read where object expected
 [2024-04-11 04:58:34] INFO root fetch - processPackages [codeplot-ipython]: Remove: archive file [/home/abi/fetcher/tmp/codeplot-ipython-1.9.3.tar.gz]
 [2024-04-11 04:58:34] INFO root fetch - main [MainThread]: End processing [codeplot-ipython]: success
 [2024-04-11 04:58:34] INFO root fetch - main [MainThread]: Store serial: [22713577]
+[2024-04-11 05:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713577]
+[2024-04-11 05:00:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 05:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixeloe
+[2024-04-11 05:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pixeloe]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pixeloe]: Downloading https://files.pythonhosted.org/packages/9c/93/42dab94a4e80499494516b4518678575dc6ed0a636117a92c33e166aa084/pixeloe-0.0.7.tar.gz
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240411/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pixeloe]: Downloading https://files.pythonhosted.org/packages/16/ae/a6f22de396058cef98561a5121733c7308b4af2056a175234001db087743/pixeloe-0.0.8.tar.gz
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pixeloe]: executing diffoscope
+[2024-04-11 05:00:43] INFO root fetch - processPackages [pixeloe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixeloe-0.0.7.tar.gz tmp/pixeloe-0.0.8.tar.gz --markdown 20240411/p/pixeloe/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-11 05:00:44] INFO root fetch - processPackages [pixeloe]: Remove: archive file [/home/abi/fetcher/tmp/pixeloe-0.0.7.tar.gz]
+[2024-04-11 05:00:44] INFO root fetch - processPackages [pixeloe]: Remove: archive file [/home/abi/fetcher/tmp/pixeloe-0.0.8.tar.gz]
+[2024-04-11 05:00:44] INFO root fetch - main [MainThread]: End processing [pixeloe]: success
+[2024-04-11 05:00:44] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-04-11 05:00:44] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-04-11 05:00:44] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-04-11 05:00:44] INFO root fetch - main [MainThread]: Store serial: [22713582]

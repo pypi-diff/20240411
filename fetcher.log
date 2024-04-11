@@ -21624,3 +21624,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:42:21] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-04-11 13:42:21] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-04-11 13:42:21] INFO root fetch - main [MainThread]: Store serial: [22718970]
+[2024-04-11 13:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718970]
+[2024-04-11 13:44:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mediaflowimage
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panoptic
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bio-image-unet
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ign8
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remotivelabs-broker
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: infinity-sdk
+[2024-04-11 13:44:30] INFO root fetch - processPackages [panoptic]: New version: [0.3.1] Old Version: [0.3.0rc7]
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 13:44:30] INFO root fetch - processPackages [bio-image-unet]: New version: [1.0.0a1] Old Version: [0.6.1]
+[2024-04-11 13:44:30] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/4a/48/7b2444a0e31df3cc8d17a50a9a0b71c1e6e48e21115dbfb3bb818aa1747f/panoptic-0.3.0rc7.tar.gz
+[2024-04-11 13:44:30] INFO root fetch - processPackages [remotivelabs-broker]: New version: [0.2.0b9] Old Version: [0.2.0b8]
+[2024-04-11 13:44:30] INFO root fetch - processPackages [infinity-sdk]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-04-11 13:44:30] WARNING root fetch - processPackages [mediaflowimage]: Skipping, unable to determine old version
+[2024-04-11 13:44:30] INFO root fetch - main [MainThread]: End processing [mediaflowimage] error
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 13:44:30] INFO root fetch - processPackages [bio-image-unet]: Downloading https://files.pythonhosted.org/packages/59/95/cb7eb6f4bb05042b162cdba94cd6b7d4571538cc03a297fe7ff9cd917c67/bio-image-unet-0.6.1.tar.gz
+[2024-04-11 13:44:30] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/10/6f/998e45a82e123f8aa87e36c5064d7b28ee0af112c1ae873c7f8968a0374c/infinity_sdk-0.1.0.dev8-py3-none-any.whl
+[2024-04-11 13:44:30] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/de/20/2eb47129d613d1577b4543d5b1fea5b5b0b227f3da72609fa389cb1d8020/remotivelabs_broker-0.2.0b8.tar.gz
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 13:44:30] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/77/44/ea4888ff663cea8c70d8aafd6d4e3477b26114c6af29418f2d82ea06bca0/panoptic-0.3.1.tar.gz
+[2024-04-11 13:44:30] INFO root fetch - processPackages [bio-image-unet]: Downloading https://files.pythonhosted.org/packages/97/0f/47d1c6e0c5def590c62949d394d9cf95e50a1f6e7b3372fdb43b629370f1/bio_image_unet-1.0.0a1.tar.gz
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:44:30] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 13:44:31] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/5f/23/609dbf3b9cce37544c49a6f700daf67907a9ddd4838b098e8417fd57597d/infinity_sdk-0.1.0.dev9-py3-none-any.whl
+[2024-04-11 13:44:31] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2024-04-11 13:44:31] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.3.0rc7.tar.gz tmp/panoptic-0.3.1.tar.gz --markdown 20240411/p/panoptic/0.3.0rc7-0.3.1/README.md --exclude *.pyd
+[2024-04-11 13:44:31] INFO root fetch - processPackages [bio-image-unet]: executing diffoscope
+[2024-04-11 13:44:31] INFO root fetch - processPackages [bio-image-unet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-image-unet-0.6.1.tar.gz tmp/bio_image_unet-1.0.0a1.tar.gz --markdown 20240411/b/bio-image-unet/0.6.1-1.0.0a1/README.md --exclude *.pyd
+[2024-04-11 13:44:31] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/67/05/2deb03df2f5dac0994e3a7987a7603c11f8c1fc6ccf0375c8cb0faf0b41d/remotivelabs_broker-0.2.0b9.tar.gz
+[2024-04-11 13:44:31] INFO root fetch - processPackages [infinity-sdk]: executing diffoscope
+[2024-04-11 13:44:31] INFO root fetch - processPackages [infinity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinity_sdk-0.1.0.dev8-py3-none-any.whl.zip tmp/infinity_sdk-0.1.0.dev9-py3-none-any.whl.zip --markdown 20240411/i/infinity-sdk/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-04-11 13:44:31] INFO root fetch - processPackages [remotivelabs-broker]: executing diffoscope
+[2024-04-11 13:44:31] INFO root fetch - processPackages [remotivelabs-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_broker-0.2.0b8.tar.gz tmp/remotivelabs_broker-0.2.0b9.tar.gz --markdown 20240411/r/remotivelabs-broker/0.2.0b8-0.2.0b9/README.md --exclude *.pyd
+[2024-04-11 13:44:31] INFO root fetch - processPackages [bio-image-unet]: Remove: archive file [/home/abi/fetcher/tmp/bio-image-unet-0.6.1.tar.gz]
+[2024-04-11 13:44:31] INFO root fetch - processPackages [bio-image-unet]: Remove: archive file [/home/abi/fetcher/tmp/bio_image_unet-1.0.0a1.tar.gz]
+[2024-04-11 13:44:31] INFO root fetch - main [MainThread]: End processing [bio-image-unet]: success
+[2024-04-11 13:44:31] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b8.tar.gz]
+[2024-04-11 13:44:31] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b9.tar.gz]
+[2024-04-11 13:44:31] INFO root fetch - main [MainThread]: End processing [remotivelabs-broker]: success
+[2024-04-11 13:44:32] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.1.0.dev8-py3-none-any.whl.zip]
+[2024-04-11 13:44:32] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.1.0.dev9-py3-none-any.whl.zip]
+[2024-04-11 13:44:32] INFO root fetch - main [MainThread]: End processing [infinity-sdk]: success
+[2024-04-11 13:44:34] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 13:44:34] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 13:44:34] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:44:39] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.0rc7.tar.gz]
+[2024-04-11 13:44:39] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.1.tar.gz]
+[2024-04-11 13:44:39] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2024-04-11 13:44:39] INFO root fetch - main [MainThread]: Store serial: [22718987]

@@ -12705,3 +12705,47 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:29:52] INFO root fetch - processPackages [adb-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/adb-enhanced-2.5.9.tar.gz]
 [2024-04-11 08:29:52] INFO root fetch - main [MainThread]: End processing [adb-enhanced]: success
 [2024-04-11 08:29:52] INFO root fetch - main [MainThread]: Store serial: [22715137]
+[2024-04-11 08:31:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715137]
+[2024-04-11 08:32:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 08:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aviatrix-migration-nat
+[2024-04-11 08:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qtlink
+[2024-04-11 08:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimic-da
+[2024-04-11 08:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ticketsdk
+[2024-04-11 08:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fnschool
+[2024-04-11 08:32:01] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240411.1322.56]
+[2024-04-11 08:32:01] INFO root fetch - processPackages [qtlink]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-11 08:32:01] INFO root fetch - processPackages [ticketsdk]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-11 08:32:02] INFO root fetch - processPackages [mimic-da]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-04-11 08:32:02] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/38/ec/7dc2fe1d8cfbfc1a119d65d3a8e6652be2d06aa7e1fdcec4cfdd2d14aafa/qtlink-1.1.2.tar.gz
+[2024-04-11 08:32:02] INFO root fetch - processPackages [aviatrix-migration-nat]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-11 08:32:02] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/08/e0/2537f6e3b296825aa3684da45518a2aaebd29ec55abb4cef11ee92477abe/ticketsdk-2.2.4.tar.gz
+[2024-04-11 08:32:02] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/31/e7/c52a6e38512c44e34c0c9e500e3df47af6a1c593d3cb6e1576965e47ac9b/fnschool-20240411.1322.56.tar.gz
+[2024-04-11 08:32:02] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/d7/e7/0e32bfea9c4c71be3710cd1bddb7ab585ad0d40202461759c6d9911eb86e/aviatrix_migration_nat-0.8.1-cp39-cp39-win_amd64.whl
+[2024-04-11 08:32:02] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/4d/17/90fea393ec12af6328e5e34b3d2b21e39a245c6c06b3c8075121aea29e61/ticketsdk-2.2.5.tar.gz
+[2024-04-11 08:32:02] INFO root fetch - processPackages [mimic-da]: Downloading https://files.pythonhosted.org/packages/e7/4d/6c50ac7e989b61a56cc314ada3120459222a16cc4603da189a7d4c59908b/mimic_da-0.0.9.tar.gz
+[2024-04-11 08:32:02] WARNING root fetch - processPackages [mimic-da]: Skipping package: exceeds size limit 12363807>=10485760
+[2024-04-11 08:32:02] INFO root fetch - main [MainThread]: End processing [mimic-da] error
+[2024-04-11 08:32:02] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/3f/4b/a34090ed3882937eee1435ab8c512ce7d34abf7bf76dc471dc0d994693a3/qtlink-1.1.3.tar.gz
+[2024-04-11 08:32:02] INFO root fetch - processPackages [ticketsdk]: executing diffoscope
+[2024-04-11 08:32:02] INFO root fetch - processPackages [ticketsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticketsdk-2.2.4.tar.gz tmp/ticketsdk-2.2.5.tar.gz --markdown 20240411/t/ticketsdk/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-11 08:32:02] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 08:32:02] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-11 08:32:02] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.1.2.tar.gz tmp/qtlink-1.1.3.tar.gz --markdown 20240411/q/qtlink/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-11 08:32:02] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 08:32:02] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240411.1322.56.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240411.1322.56-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 08:32:02] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/88/6d/c722f4e64dc81e654f8d048a8a3504d1b360a453c5aba00433dda42ee179/aviatrix_migration_nat-0.8.2-cp39-cp39-win_amd64.whl
+[2024-04-11 08:32:02] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.4.tar.gz]
+[2024-04-11 08:32:02] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.5.tar.gz]
+[2024-04-11 08:32:02] INFO root fetch - main [MainThread]: End processing [ticketsdk]: success
+[2024-04-11 08:32:03] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.2.tar.gz]
+[2024-04-11 08:32:03] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.3.tar.gz]
+[2024-04-11 08:32:03] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-11 08:32:03] INFO root fetch - processPackages [aviatrix-migration-nat]: executing diffoscope
+[2024-04-11 08:32:03] INFO root fetch - processPackages [aviatrix-migration-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration_nat-0.8.1-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration_nat-0.8.2-cp39-cp39-win_amd64.whl.zip --markdown 20240411/a/aviatrix-migration-nat/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-11 08:32:03] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.1322.56.tar.gz]
+[2024-04-11 08:32:03] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-11 08:32:03] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 08:32:03] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 08:32:03] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 08:32:03] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
+[2024-04-11 08:32:03] INFO root fetch - main [MainThread]: Store serial: [22715169]

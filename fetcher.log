@@ -10257,3 +10257,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:42:27] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.2.4.tar.gz]
 [2024-04-11 05:42:27] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
 [2024-04-11 05:42:27] INFO root fetch - main [MainThread]: Store serial: [22714014]
+[2024-04-11 05:44:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714014]
+[2024-04-11 05:44:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 05:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valor-client
+[2024-04-11 05:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ring-attention-pytorch
+[2024-04-11 05:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-11 05:44:36] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712805952] Old Version: [0.0.11a1712715247]
+[2024-04-11 05:44:36] INFO root fetch - processPackages [ring-attention-pytorch]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 05:44:36] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/06/14/86d172d8924ba271b13d1d2866a1d3f868091f376e998c3ab7a31244df2d/pulumi_kubernetes_the_hard_way-0.0.11a1712715247.tar.gz
+[2024-04-11 05:44:36] INFO root fetch - processPackages [valor-client]: New version: [0.20.2] Old Version: [0.20.1]
+[2024-04-11 05:44:36] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/a6/32/99b886c413a1bcd5aba06e93348707d8c7ad6d44e5c52558c50a7ecb9773/ring-attention-pytorch-0.3.8.tar.gz
+[2024-04-11 05:44:36] INFO root fetch - processPackages [valor-client]: Downloading https://files.pythonhosted.org/packages/1a/86/efc1946e86fb8e69eb951908d7718080eb59a88461bde2447814611197b1/valor-client-0.20.1.tar.gz
+[2024-04-11 05:44:36] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/41/94/e176d8c75348bacca055c1dfdf45ffee9d51123ceae9402211b7635efdd7/pulumi_kubernetes_the_hard_way-0.0.11a1712805952.tar.gz
+[2024-04-11 05:44:36] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-11 05:44:36] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712715247.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712805952.tar.gz --markdown 20240411/p/pulumi-kubernetes-the-hard-way/0.0.11a1712715247-0.0.11a1712805952/README.md --exclude *.pyd
+[2024-04-11 05:44:36] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/be/cc/661abf9ad2226b0e543df6658ad23709481a7e1caffa2c7ff2a5ccbec9d1/ring-attention-pytorch-0.3.9.tar.gz
+[2024-04-11 05:44:37] INFO root fetch - processPackages [ring-attention-pytorch]: executing diffoscope
+[2024-04-11 05:44:37] INFO root fetch - processPackages [ring-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ring-attention-pytorch-0.3.8.tar.gz tmp/ring-attention-pytorch-0.3.9.tar.gz --markdown 20240411/r/ring-attention-pytorch/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 05:44:37] INFO root fetch - processPackages [valor-client]: Downloading https://files.pythonhosted.org/packages/89/14/7f5962ed05cf1e8b944bcac5cdc0bcf37b15e869e5365b1d075af80e9f6c/valor-client-0.20.2.tar.gz
+[2024-04-11 05:44:37] INFO root fetch - processPackages [valor-client]: executing diffoscope
+[2024-04-11 05:44:37] INFO root fetch - processPackages [valor-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valor-client-0.20.1.tar.gz tmp/valor-client-0.20.2.tar.gz --markdown 20240411/v/valor-client/0.20.1-0.20.2/README.md --exclude *.pyd
+[2024-04-11 05:44:37] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.8.tar.gz]
+[2024-04-11 05:44:37] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.9.tar.gz]
+[2024-04-11 05:44:37] INFO root fetch - main [MainThread]: End processing [ring-attention-pytorch]: success
+[2024-04-11 05:44:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712715247.tar.gz]
+[2024-04-11 05:44:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712805952.tar.gz]
+[2024-04-11 05:44:37] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-11 05:44:38] INFO root fetch - processPackages [valor-client]: Remove: archive file [/home/abi/fetcher/tmp/valor-client-0.20.1.tar.gz]
+[2024-04-11 05:44:38] INFO root fetch - processPackages [valor-client]: Remove: archive file [/home/abi/fetcher/tmp/valor-client-0.20.2.tar.gz]
+[2024-04-11 05:44:38] INFO root fetch - main [MainThread]: End processing [valor-client]: success
+[2024-04-11 05:44:38] INFO root fetch - main [MainThread]: Store serial: [22714023]

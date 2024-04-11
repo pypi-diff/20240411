@@ -19127,3 +19127,30 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:08:13] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-11 12:08:13] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 12:08:13] INFO root fetch - main [MainThread]: Store serial: [22717920]
+[2024-04-11 12:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717920]
+[2024-04-11 12:10:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 12:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roktools
+[2024-04-11 12:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ToolsStr
+[2024-04-11 12:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magic-words
+[2024-04-11 12:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-workflow-sdk
+[2024-04-11 12:10:23] WARNING root fetch - processPackages [magic-words]: Skipping, unable to determine old version
+[2024-04-11 12:10:23] INFO root fetch - main [MainThread]: End processing [magic-words] error
+[2024-04-11 12:10:23] WARNING root fetch - processPackages [ToolsStr]: Skipping, unable to determine old version
+[2024-04-11 12:10:23] INFO root fetch - main [MainThread]: End processing [ToolsStr] error
+[2024-04-11 12:10:23] INFO root fetch - processPackages [roktools]: New version: [6.0.1] Old Version: [6.0.0]
+[2024-04-11 12:10:23] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-11 12:10:23] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/a5/ec/9aa1e2b014f5a023dc7fadeb91f5ef4e1b6e89d855cd7a64c0d01a150e7c/roktools-6.0.0.tar.gz
+[2024-04-11 12:10:23] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/7c/a8/8f117e284253232f3fb5608a9b8a17b954f0ea0fa034e9a9624174caf2d7/lusid_workflow_sdk-2.1.1.tar.gz
+[2024-04-11 12:10:23] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/7e/e8/a6597b43af6b980753e55b456b164b6f48eaacbba368fb896cbf469a8d82/roktools-6.0.1.tar.gz
+[2024-04-11 12:10:23] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/c6/d9/14976f9ea4875b50b716f5e1726c40896fd6d4b9c068296bde56e90a36c3/lusid_workflow_sdk-2.1.2.tar.gz
+[2024-04-11 12:10:23] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-04-11 12:10:23] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-6.0.0.tar.gz tmp/roktools-6.0.1.tar.gz --markdown 20240411/r/roktools/6.0.0-6.0.1/README.md --exclude *.pyd
+[2024-04-11 12:10:23] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-04-11 12:10:23] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.1.tar.gz tmp/lusid_workflow_sdk-2.1.2.tar.gz --markdown 20240411/l/lusid-workflow-sdk/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-11 12:10:24] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.0.0.tar.gz]
+[2024-04-11 12:10:24] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.0.1.tar.gz]
+[2024-04-11 12:10:24] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-04-11 12:10:24] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.1.tar.gz]
+[2024-04-11 12:10:24] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.2.tar.gz]
+[2024-04-11 12:10:24] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-04-11 12:10:24] INFO root fetch - main [MainThread]: Store serial: [22717936]

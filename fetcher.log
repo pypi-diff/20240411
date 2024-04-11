@@ -8312,3 +8312,54 @@ EOFError: EOF read where object expected
 [2024-04-11 03:39:20] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240410021024-py3-none-any.whl.zip]
 [2024-04-11 03:39:20] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-04-11 03:39:20] INFO root fetch - main [MainThread]: Store serial: [22713093]
+[2024-04-11 03:41:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713093]
+[2024-04-11 03:41:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: five-strips-of-bacon
+[2024-04-11 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: austrakka
+[2024-04-11 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joonmyung
+[2024-04-11 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scmallet
+[2024-04-11 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tjax
+[2024-04-11 03:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: better-rtplot
+[2024-04-11 03:41:29] INFO root fetch - processPackages [scmallet]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 03:41:29] WARNING root fetch - processPackages [five-strips-of-bacon]: Skipping, unable to determine old version
+[2024-04-11 03:41:29] INFO root fetch - main [MainThread]: End processing [five-strips-of-bacon] error
+[2024-04-11 03:41:29] INFO root fetch - processPackages [better-rtplot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 03:41:29] INFO root fetch - processPackages [joonmyung]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-11 03:41:29] INFO root fetch - processPackages [scmallet]: Downloading https://files.pythonhosted.org/packages/d1/93/2491cae2e88f3c210d96d59954eee344511a454ff04b1dc1794ebd4f7a4c/scmallet-0.0.2.tar.gz
+[2024-04-11 03:41:29] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/3d/43/3f11666e72dc5eeec15f4a8dce1ddf3ec6679dd9cc70a71516cc1dacfe5d/better_rtplot-0.1.4.tar.gz
+[2024-04-11 03:41:29] INFO root fetch - processPackages [austrakka]: New version: [0.52.0] Old Version: [0.51.1]
+[2024-04-11 03:41:29] INFO root fetch - processPackages [tjax]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-11 03:41:29] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/0d/36/ea5e4bd2eab2083af4aebe0278fc76a366410926536d85b3f1796fc5262b/joonmyung-1.5.0.tar.gz
+[2024-04-11 03:41:29] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/1d/48/e88e898651f7f63be9679f2ee26865597dcff5e5ed01347dbfe674171945/better_rtplot-0.1.5.tar.gz
+[2024-04-11 03:41:29] INFO root fetch - processPackages [scmallet]: Downloading https://files.pythonhosted.org/packages/77/c8/eaf2679568ed28a491790c34fac0b3fc865fa404d9906254871c196e8783/scmallet-0.0.3.tar.gz
+[2024-04-11 03:41:29] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/0a/6a/2363c88006dd7f98956bcd37716a18eff3b3138599af4e6dbde76d22d085/tjax-0.8.4.tar.gz
+[2024-04-11 03:41:29] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/c3/96/9de8d5f05b09f49e552aba2a5bba60c41f57c883eed8fa105fbd66de1aae/austrakka-0.51.1-py3-none-any.whl
+[2024-04-11 03:41:29] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/7b/09/5d1f08d621acd7a8553898f5fec37a4929a4d4591d3292b3524e8d34f806/joonmyung-1.5.1.tar.gz
+[2024-04-11 03:41:29] INFO root fetch - processPackages [scmallet]: executing diffoscope
+[2024-04-11 03:41:29] INFO root fetch - processPackages [scmallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmallet-0.0.2.tar.gz tmp/scmallet-0.0.3.tar.gz --markdown 20240411/s/scmallet/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 03:41:29] INFO root fetch - processPackages [better-rtplot]: executing diffoscope
+[2024-04-11 03:41:29] INFO root fetch - processPackages [better-rtplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_rtplot-0.1.4.tar.gz tmp/better_rtplot-0.1.5.tar.gz --markdown 20240411/b/better-rtplot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 03:41:29] INFO root fetch - processPackages [joonmyung]: executing diffoscope
+[2024-04-11 03:41:29] INFO root fetch - processPackages [joonmyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joonmyung-1.5.0.tar.gz tmp/joonmyung-1.5.1.tar.gz --markdown 20240411/j/joonmyung/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-11 03:41:30] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/57/01/f98bbb6401e9f80de1c5663aa532816369213307a917745c771d56909428/austrakka-0.52.0-py3-none-any.whl
+[2024-04-11 03:41:30] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/be/f1/ce1970f050f673ae52c304257120a380736f531fee4d81b57ab0f24b506f/tjax-0.9.0.tar.gz
+[2024-04-11 03:41:30] INFO root fetch - processPackages [tjax]: executing diffoscope
+[2024-04-11 03:41:30] INFO root fetch - processPackages [tjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tjax-0.8.4.tar.gz tmp/tjax-0.9.0.tar.gz --markdown 20240411/t/tjax/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-11 03:41:30] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2024-04-11 03:41:30] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.51.1-py3-none-any.whl.zip tmp/austrakka-0.52.0-py3-none-any.whl.zip --markdown 20240411/a/austrakka/0.51.1-0.52.0/README.md --exclude *.pyd
+[2024-04-11 03:41:30] INFO root fetch - processPackages [scmallet]: Remove: archive file [/home/abi/fetcher/tmp/scmallet-0.0.2.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - processPackages [scmallet]: Remove: archive file [/home/abi/fetcher/tmp/scmallet-0.0.3.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - main [MainThread]: End processing [scmallet]: success
+[2024-04-11 03:41:30] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.4.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.5.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - main [MainThread]: End processing [better-rtplot]: success
+[2024-04-11 03:41:30] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.5.0.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.5.1.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - main [MainThread]: End processing [joonmyung]: success
+[2024-04-11 03:41:30] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.8.4.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
+[2024-04-11 03:41:30] INFO root fetch - main [MainThread]: End processing [tjax]: success
+[2024-04-11 03:41:31] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.51.1-py3-none-any.whl.zip]
+[2024-04-11 03:41:31] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.52.0-py3-none-any.whl.zip]
+[2024-04-11 03:41:31] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2024-04-11 03:41:31] INFO root fetch - main [MainThread]: Store serial: [22713109]

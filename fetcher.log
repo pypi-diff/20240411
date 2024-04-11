@@ -13549,3 +13549,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:14:17] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-4.4.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-11 09:14:17] INFO root fetch - main [MainThread]: End processing [aiotieba]: success
 [2024-04-11 09:14:17] INFO root fetch - main [MainThread]: Store serial: [22715635]
+[2024-04-11 09:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715635]
+[2024-04-11 09:16:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 09:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tulona
+[2024-04-11 09:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laboneq
+[2024-04-11 09:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JayttleProcess
+[2024-04-11 09:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fnschool
+[2024-04-11 09:16:26] INFO root fetch - processPackages [tulona]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-11 09:16:26] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240411.1431.35]
+[2024-04-11 09:16:26] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/00/d7/205366807d108642ff47580b8e487d895cbd0740d2e6fceac2658ab52da2/tulona-0.3.1.tar.gz
+[2024-04-11 09:16:26] INFO root fetch - processPackages [laboneq]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-11 09:16:26] INFO root fetch - processPackages [JayttleProcess]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-11 09:16:26] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/43/56/eace12ef9d8aaa45fb831e218c321f06a48d242f6a2853fc629010956fe7/fnschool-20240411.1431.35.tar.gz
+[2024-04-11 09:16:26] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/8c/66/9cbe789d55155adc9d577d42d38f36e55fb8aa8c0800768033c4bbb069be/laboneq-2.8.0-py3-none-any.whl
+[2024-04-11 09:16:26] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/9f/f5/c6964fb5debcef14e47a391c21b4c0b18f62c372bfa271ffe96fe1bfa629/JayttleProcess-0.1.5-py3-none-any.whl
+[2024-04-11 09:16:26] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/30/ce/fa4cb21a5adaf690eae6a9bee88a15150556a6059523959f62e8c11b9b2a/tulona-0.3.2.tar.gz
+[2024-04-11 09:16:26] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 09:16:26] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-04-11 09:16:26] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.3.1.tar.gz tmp/tulona-0.3.2.tar.gz --markdown 20240411/t/tulona/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-11 09:16:26] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 09:16:26] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240411.1431.35.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240411.1431.35-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 09:16:26] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/28/ee/98e7b59109f851fe753f59b8099d473fe9d28eb95f8c426203f2db0c8c6d/JayttleProcess-0.1.6-py3-none-any.whl
+[2024-04-11 09:16:26] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-11 09:16:26] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.1.5-py3-none-any.whl.zip tmp/JayttleProcess-0.1.6-py3-none-any.whl.zip --markdown 20240411/J/JayttleProcess/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-11 09:16:27] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/3a/a1/716f6b29a1371e0e662d6a06e60a314276283acae5e30b79bec567dbae0a/laboneq-2.9.0-py3-none-any.whl
+[2024-04-11 09:16:27] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.3.1.tar.gz]
+[2024-04-11 09:16:27] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.3.2.tar.gz]
+[2024-04-11 09:16:27] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-04-11 09:16:27] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.1431.35.tar.gz]
+[2024-04-11 09:16:27] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-11 09:16:27] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 09:16:27] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2024-04-11 09:16:27] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.8.0-py3-none-any.whl.zip tmp/laboneq-2.9.0-py3-none-any.whl.zip --markdown 20240411/l/laboneq/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-11 09:16:27] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.1.5-py3-none-any.whl.zip]
+[2024-04-11 09:16:27] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.1.6-py3-none-any.whl.zip]
+[2024-04-11 09:16:27] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-11 09:16:29] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.8.0-py3-none-any.whl.zip]
+[2024-04-11 09:16:29] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
+[2024-04-11 09:16:29] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2024-04-11 09:16:29] INFO root fetch - main [MainThread]: Store serial: [22715671]

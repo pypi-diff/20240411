@@ -2413,3 +2413,48 @@ EOFError: EOF read where object expected
 [2024-04-11 02:15:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-11 02:15:38] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-11 02:15:38] INFO root fetch - main [MainThread]: Store serial: [22711211]
+[2024-04-11 02:17:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711211]
+[2024-04-11 02:17:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-11 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azurefunctions-extensions-bindings-blob
+[2024-04-11 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codegen-2
+[2024-04-11 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-11 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuralforecast
+[2024-04-11 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ugrc-swapper
+[2024-04-11 02:17:47] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-11 02:17:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-11 02:17:47] WARNING root fetch - processPackages [azurefunctions-extensions-bindings-blob]: Skipping, unable to determine old version
+[2024-04-11 02:17:47] INFO root fetch - main [MainThread]: End processing [azurefunctions-extensions-bindings-blob] error
+[2024-04-11 02:17:47] ERROR root fetch - processPackages [ugrc-swapper]: Unable to get metadata: No such project 'ugrc-swapper'
+[2024-04-11 02:17:47] INFO root fetch - main [MainThread]: End processing [ugrc-swapper] error
+[2024-04-11 02:17:47] INFO root fetch - processPackages [codegen-2]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-11 02:17:47] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-11 02:17:47] INFO root fetch - processPackages [neuralforecast]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-11 02:17:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-11 02:17:47] INFO root fetch - processPackages [codegen-2]: Downloading https://files.pythonhosted.org/packages/fb/d0/d9c26955d0d8c0be4ce7dff53d4d4a13844405d80f64ae438108c181fed0/codegen_2-2.1.0.tar.gz
+[2024-04-11 02:17:47] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-11 02:17:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240411/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240411/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-11 02:17:48] INFO root fetch - processPackages [neuralforecast]: Downloading https://files.pythonhosted.org/packages/b5/c2/263fdb7235e51cd5963025c940723d98ba4f3130d9cec949a075cbdf08d2/neuralforecast-1.7.0.tar.gz
+[2024-04-11 02:17:48] INFO root fetch - processPackages [codegen-2]: Downloading https://files.pythonhosted.org/packages/a6/9a/c895efa96eadf934353eede8bf9ba3921cbd2fa485b79f8a98e6eeda4950/codegen_2-2.1.1.tar.gz
+[2024-04-11 02:17:48] INFO root fetch - processPackages [codegen-2]: executing diffoscope
+[2024-04-11 02:17:48] INFO root fetch - processPackages [codegen-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegen_2-2.1.0.tar.gz tmp/codegen_2-2.1.1.tar.gz --markdown 20240411/c/codegen-2/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-11 02:17:48] INFO root fetch - processPackages [neuralforecast]: Downloading https://files.pythonhosted.org/packages/e5/90/0aea4415dcdf776662f350e743663d1a137715ce347ad51a6a866c1503c3/neuralforecast-1.7.1.tar.gz
+[2024-04-11 02:17:48] INFO root fetch - processPackages [neuralforecast]: executing diffoscope
+[2024-04-11 02:17:48] INFO root fetch - processPackages [neuralforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralforecast-1.7.0.tar.gz tmp/neuralforecast-1.7.1.tar.gz --markdown 20240411/n/neuralforecast/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-11 02:17:48] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-11 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-11 02:17:48] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-11 02:17:48] INFO root fetch - processPackages [codegen-2]: Remove: archive file [/home/abi/fetcher/tmp/codegen_2-2.1.0.tar.gz]
+[2024-04-11 02:17:48] INFO root fetch - processPackages [codegen-2]: Remove: archive file [/home/abi/fetcher/tmp/codegen_2-2.1.1.tar.gz]
+[2024-04-11 02:17:48] INFO root fetch - main [MainThread]: End processing [codegen-2]: success
+[2024-04-11 02:17:49] INFO root fetch - processPackages [neuralforecast]: Remove: archive file [/home/abi/fetcher/tmp/neuralforecast-1.7.0.tar.gz]
+[2024-04-11 02:17:49] INFO root fetch - processPackages [neuralforecast]: Remove: archive file [/home/abi/fetcher/tmp/neuralforecast-1.7.1.tar.gz]
+[2024-04-11 02:17:49] INFO root fetch - main [MainThread]: End processing [neuralforecast]: success
+[2024-04-11 02:17:49] INFO root fetch - main [MainThread]: Store serial: [22711228]

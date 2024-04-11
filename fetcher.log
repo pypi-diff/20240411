@@ -12176,3 +12176,66 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:57:54] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.3.tar.gz]
 [2024-04-11 07:57:54] INFO root fetch - main [MainThread]: End processing [avania]: success
 [2024-04-11 07:57:54] INFO root fetch - main [MainThread]: Store serial: [22714801]
+[2024-04-11 07:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714801]
+[2024-04-11 08:00:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authovalidator
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragdaemon
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pm4py
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pm4pyminimal
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot_plugin_md
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtlink
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vastdb
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-edgar-api
+[2024-04-11 08:00:03] INFO root fetch - processPackages [qtlink]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ragdaemon]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 08:00:03] WARNING root fetch - processPackages [authovalidator]: Skipping, unable to determine old version
+[2024-04-11 08:00:03] INFO root fetch - main [MainThread]: End processing [authovalidator] error
+[2024-04-11 08:00:03] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/ed/44/a3df7010b5b3f9e6cfaf1308ca65d4ec33572c6f8512895159a2afb52a17/qtlink-1.1.1.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/21/51/d13a7dea3e197f4b383a7fa823be4ada07b2420955e37e418ed4ea72db95/ragdaemon-0.1.1.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [vastdb]: New version: [0.1.0] Old Version: [0.0.5.3]
+[2024-04-11 08:00:03] WARNING root fetch - processPackages [py-edgar-api]: Skipping, unable to determine old version
+[2024-04-11 08:00:03] INFO root fetch - main [MainThread]: End processing [py-edgar-api] error
+[2024-04-11 08:00:03] INFO root fetch - processPackages [nonebot_plugin_md]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 08:00:03] INFO root fetch - processPackages [pm4pyminimal]: New version: [2.7.9.4] Old Version: [2.7.9.3]
+[2024-04-11 08:00:03] INFO root fetch - processPackages [pm4py]: New version: [2.7.9.4] Old Version: [2.7.9.3]
+[2024-04-11 08:00:03] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/89/1d/b1644282f8d920ee51e66377d98cd629da574f5e1efc1b0bf4b10db03fc8/vastdb-0.0.5.3.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [nonebot_plugin_md]: Downloading https://files.pythonhosted.org/packages/53/98/4c93c9fb36aebc541b0c7488bda24a4ade7c137743dcc9cce5a95a392a06/nonebot_plugin_md-0.1.1.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [pm4py]: Downloading https://files.pythonhosted.org/packages/59/b7/03e751fa4bb08af2ddcf33df7a384e067b11b50e04c9af098d6559b14501/pm4py-2.7.9.3.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [pm4pyminimal]: Downloading https://files.pythonhosted.org/packages/86/3c/ac0bb1c689a2cf0b706670b21afbd2600da3a95c675b77428d36c5c1f30f/pm4pyminimal-2.7.9.3.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/ac/73/5a14766c5aa1d8da810f4391288f6193dc8ca8fa40d9244aea2e5793de71/ragdaemon-0.1.2.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/38/ec/7dc2fe1d8cfbfc1a119d65d3a8e6652be2d06aa7e1fdcec4cfdd2d14aafa/qtlink-1.1.2.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-04-11 08:00:03] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.1.1.tar.gz tmp/ragdaemon-0.1.2.tar.gz --markdown 20240411/r/ragdaemon/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 08:00:03] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-11 08:00:03] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.1.1.tar.gz tmp/qtlink-1.1.2.tar.gz --markdown 20240411/q/qtlink/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-11 08:00:03] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/a9/cc/f8c985730a2942498b39e2cfeb515871f845eb234db488ae2b6e39219234/vastdb-0.1.0.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [nonebot_plugin_md]: Downloading https://files.pythonhosted.org/packages/32/0b/88efe38f05e3591f785135f5a76dfa4b0c3fa989d1cf6e78ae60131b3312/nonebot_plugin_md-0.1.2.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [vastdb]: executing diffoscope
+[2024-04-11 08:00:03] INFO root fetch - processPackages [vastdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vastdb-0.0.5.3.tar.gz tmp/vastdb-0.1.0.tar.gz --markdown 20240411/v/vastdb/0.0.5.3-0.1.0/README.md --exclude *.pyd
+[2024-04-11 08:00:03] INFO root fetch - processPackages [pm4pyminimal]: Downloading https://files.pythonhosted.org/packages/e1/e3/727c80b1141a27bc1a5909b8ba851450df8d2ee2cf3975c91ce0854fe40d/pm4pyminimal-2.7.9.4.tar.gz
+[2024-04-11 08:00:03] INFO root fetch - processPackages [pm4py]: Downloading https://files.pythonhosted.org/packages/0f/9f/e12046a39f99330fa169bd2fda726f69f8285eabdebf0b0e59e85608ea00/pm4py-2.7.9.4.tar.gz
+[2024-04-11 08:00:04] INFO root fetch - processPackages [nonebot_plugin_md]: executing diffoscope
+[2024-04-11 08:00:04] INFO root fetch - processPackages [nonebot_plugin_md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_md-0.1.1.tar.gz tmp/nonebot_plugin_md-0.1.2.tar.gz --markdown 20240411/n/nonebot_plugin_md/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 08:00:04] INFO root fetch - processPackages [pm4pyminimal]: executing diffoscope
+[2024-04-11 08:00:04] INFO root fetch - processPackages [pm4pyminimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm4pyminimal-2.7.9.3.tar.gz tmp/pm4pyminimal-2.7.9.4.tar.gz --markdown 20240411/p/pm4pyminimal/2.7.9.3-2.7.9.4/README.md --exclude *.pyd
+[2024-04-11 08:00:04] INFO root fetch - processPackages [pm4py]: executing diffoscope
+[2024-04-11 08:00:04] INFO root fetch - processPackages [pm4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm4py-2.7.9.3.tar.gz tmp/pm4py-2.7.9.4.tar.gz --markdown 20240411/p/pm4py/2.7.9.3-2.7.9.4/README.md --exclude *.pyd
+[2024-04-11 08:00:04] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.1.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.2.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-11 08:00:04] INFO root fetch - processPackages [nonebot_plugin_md]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_md-0.1.1.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - processPackages [nonebot_plugin_md]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_md-0.1.2.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - main [MainThread]: End processing [nonebot_plugin_md]: success
+[2024-04-11 08:00:04] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.1.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.2.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-04-11 08:00:04] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.0.5.3.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.0.tar.gz]
+[2024-04-11 08:00:04] INFO root fetch - main [MainThread]: End processing [vastdb]: success
+[2024-04-11 08:00:09] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.3.tar.gz]
+[2024-04-11 08:00:09] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.4.tar.gz]
+[2024-04-11 08:00:09] INFO root fetch - main [MainThread]: End processing [pm4pyminimal]: success
+[2024-04-11 08:00:09] INFO root fetch - processPackages [pm4py]: Remove: archive file [/home/abi/fetcher/tmp/pm4py-2.7.9.3.tar.gz]
+[2024-04-11 08:00:09] INFO root fetch - processPackages [pm4py]: Remove: archive file [/home/abi/fetcher/tmp/pm4py-2.7.9.4.tar.gz]
+[2024-04-11 08:00:09] INFO root fetch - main [MainThread]: End processing [pm4py]: success
+[2024-04-11 08:00:09] INFO root fetch - main [MainThread]: Store serial: [22714831]

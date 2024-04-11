@@ -19624,3 +19624,60 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:28:13] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
 [2024-04-11 12:28:13] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
 [2024-04-11 12:28:13] INFO root fetch - main [MainThread]: Store serial: [22718093]
+[2024-04-11 12:30:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718093]
+[2024-04-11 12:30:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: new-rep
+[2024-04-11 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymetadata
+[2024-04-11 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-04-11 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filetrack
+[2024-04-11 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msfabricpysdkcore
+[2024-04-11 12:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-fedit
+[2024-04-11 12:30:22] INFO root fetch - processPackages [new-rep]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 12:30:22] INFO root fetch - processPackages [filetrack]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-11 12:30:22] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-11 12:30:22] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-11 12:30:22] INFO root fetch - processPackages [pymetadata]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-11 12:30:22] INFO root fetch - processPackages [filetrack]: Downloading https://files.pythonhosted.org/packages/ca/56/277ddd12cae1f5adc0dca5fd5502100d4de59a99a884b34557b76814754d/filetrack-0.0.6.tar.gz
+[2024-04-11 12:30:22] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/e5/34/539a2e43b1e8e487e4e2d06622232fb0fb642b22b7a2812c5c504b9112a1/wagtail_fedit-1.4.3.tar.gz
+[2024-04-11 12:30:22] INFO root fetch - processPackages [msfabricpysdkcore]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 12:30:22] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-11 12:30:22] INFO root fetch - processPackages [new-rep]: Downloading https://files.pythonhosted.org/packages/be/ec/6d49084b32befa8e8c345e5570c36f055724a19bbe163bbecdf4086bdcfd/new_rep-0.1.0.tar.gz
+[2024-04-11 12:30:22] INFO root fetch - processPackages [pymetadata]: Downloading https://files.pythonhosted.org/packages/52/86/85aa68d605be7e9fe1e70e5229efbefc9e842a749e491bfc7b18944a9ae7/pymetadata-0.4.1.tar.gz
+[2024-04-11 12:30:22] INFO root fetch - processPackages [msfabricpysdkcore]: Downloading https://files.pythonhosted.org/packages/08/9c/12b810494ca99b27b53df33b5cc0d8b92636ad95a573e3c4f396d56f9bb4/msfabricpysdkcore-0.0.3.tar.gz
+[2024-04-11 12:30:23] INFO root fetch - processPackages [filetrack]: Downloading https://files.pythonhosted.org/packages/af/6a/20f32c83a0d662f13fece0990a836b28e76a97c2b5d5018cfb006af767cd/filetrack-0.0.7.tar.gz
+[2024-04-11 12:30:23] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-11 12:30:23] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/97/bc/53d1c75105dd125d8a3b86403759dccc745454907a0ae1ecbc3c777e5478/wagtail_fedit-1.4.4.tar.gz
+[2024-04-11 12:30:23] INFO root fetch - processPackages [new-rep]: Downloading https://files.pythonhosted.org/packages/c8/b7/540a8d40c8fb9874d8f4a154babd68baa37577c91d7ba00fa3da08a8a4b5/new_rep-0.1.1.tar.gz
+[2024-04-11 12:30:23] INFO root fetch - processPackages [filetrack]: executing diffoscope
+[2024-04-11 12:30:23] INFO root fetch - processPackages [filetrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filetrack-0.0.6.tar.gz tmp/filetrack-0.0.7.tar.gz --markdown 20240411/f/filetrack/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-11 12:30:23] INFO root fetch - processPackages [new-rep]: executing diffoscope
+[2024-04-11 12:30:23] INFO root fetch - processPackages [new-rep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_rep-0.1.0.tar.gz tmp/new_rep-0.1.1.tar.gz --markdown 20240411/n/new-rep/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 12:30:23] INFO root fetch - processPackages [pymetadata]: Downloading https://files.pythonhosted.org/packages/2d/50/b0e57694dca15fb22fea046fba65e079a816b0f13e9f003a664154d81d3a/pymetadata-0.4.2.tar.gz
+[2024-04-11 12:30:23] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-11 12:30:23] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.4.3.tar.gz tmp/wagtail_fedit-1.4.4.tar.gz --markdown 20240411/w/wagtail-fedit/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-11 12:30:23] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-11 12:30:23] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240411/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-11 12:30:23] INFO root fetch - processPackages [msfabricpysdkcore]: Downloading https://files.pythonhosted.org/packages/d7/04/db53c5aac7c0f19e80df07766f3e2653ecf8346ec009e29c1fe51fb6fd98/msfabricpysdkcore-0.0.4.tar.gz
+[2024-04-11 12:30:23] INFO root fetch - processPackages [pymetadata]: executing diffoscope
+[2024-04-11 12:30:23] INFO root fetch - processPackages [pymetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetadata-0.4.1.tar.gz tmp/pymetadata-0.4.2.tar.gz --markdown 20240411/p/pymetadata/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-11 12:30:23] INFO root fetch - processPackages [msfabricpysdkcore]: executing diffoscope
+[2024-04-11 12:30:23] INFO root fetch - processPackages [msfabricpysdkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msfabricpysdkcore-0.0.3.tar.gz tmp/msfabricpysdkcore-0.0.4.tar.gz --markdown 20240411/m/msfabricpysdkcore/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-11 12:30:23] INFO root fetch - processPackages [new-rep]: Remove: archive file [/home/abi/fetcher/tmp/new_rep-0.1.0.tar.gz]
+[2024-04-11 12:30:23] INFO root fetch - processPackages [new-rep]: Remove: archive file [/home/abi/fetcher/tmp/new_rep-0.1.1.tar.gz]
+[2024-04-11 12:30:23] INFO root fetch - main [MainThread]: End processing [new-rep]: success
+[2024-04-11 12:30:23] INFO root fetch - processPackages [filetrack]: Remove: archive file [/home/abi/fetcher/tmp/filetrack-0.0.6.tar.gz]
+[2024-04-11 12:30:23] INFO root fetch - processPackages [filetrack]: Remove: archive file [/home/abi/fetcher/tmp/filetrack-0.0.7.tar.gz]
+[2024-04-11 12:30:23] INFO root fetch - main [MainThread]: End processing [filetrack]: success
+[2024-04-11 12:30:24] INFO root fetch - processPackages [msfabricpysdkcore]: Remove: archive file [/home/abi/fetcher/tmp/msfabricpysdkcore-0.0.3.tar.gz]
+[2024-04-11 12:30:24] INFO root fetch - processPackages [msfabricpysdkcore]: Remove: archive file [/home/abi/fetcher/tmp/msfabricpysdkcore-0.0.4.tar.gz]
+[2024-04-11 12:30:24] INFO root fetch - main [MainThread]: End processing [msfabricpysdkcore]: success
+[2024-04-11 12:30:24] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.3.tar.gz]
+[2024-04-11 12:30:24] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.4.tar.gz]
+[2024-04-11 12:30:24] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-11 12:30:24] INFO root fetch - processPackages [pymetadata]: Remove: archive file [/home/abi/fetcher/tmp/pymetadata-0.4.1.tar.gz]
+[2024-04-11 12:30:24] INFO root fetch - processPackages [pymetadata]: Remove: archive file [/home/abi/fetcher/tmp/pymetadata-0.4.2.tar.gz]
+[2024-04-11 12:30:24] INFO root fetch - main [MainThread]: End processing [pymetadata]: success
+[2024-04-11 12:30:25] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-11 12:30:25] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-11 12:30:25] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-11 12:30:25] INFO root fetch - main [MainThread]: Store serial: [22718104]

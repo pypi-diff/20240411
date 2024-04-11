@@ -8800,3 +8800,51 @@ EOFError: EOF read where object expected
 [2024-04-11 04:16:28] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.9.tar.gz]
 [2024-04-11 04:16:28] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2024-04-11 04:16:28] INFO root fetch - main [MainThread]: Store serial: [22713277]
+[2024-04-11 04:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713277]
+[2024-04-11 04:18:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 04:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-edc
+[2024-04-11 04:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packaging-demo
+[2024-04-11 04:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-flake8-builtins
+[2024-04-11 04:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-tensorflow
+[2024-04-11 04:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ActiveCollab
+[2024-04-11 04:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UscKO
+[2024-04-11 04:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-mse20190531-py2
+[2024-04-11 04:18:36] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: New version: [6.3.2] Old Version: [6.3.1]
+[2024-04-11 04:18:36] WARNING root fetch - processPackages [ActiveCollab]: Skipping, unable to determine old version
+[2024-04-11 04:18:36] INFO root fetch - main [MainThread]: End processing [ActiveCollab] error
+[2024-04-11 04:18:36] INFO root fetch - processPackages [intecomm-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 04:18:36] WARNING root fetch - processPackages [packaging-demo]: Skipping, unable to determine old version
+[2024-04-11 04:18:36] INFO root fetch - main [MainThread]: End processing [packaging-demo] error
+[2024-04-11 04:18:36] WARNING root fetch - processPackages [UscKO]: Skipping, unable to determine old version
+[2024-04-11 04:18:36] INFO root fetch - main [MainThread]: End processing [UscKO] error
+[2024-04-11 04:18:36] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/c1/d2/73f890654f606d4204ed095b4061dd4631fd57efdcf6d9309a37664a0eda/alibabacloud_mse20190531_py2-6.3.1.tar.gz
+[2024-04-11 04:18:36] INFO root fetch - processPackages [types-tensorflow]: New version: [2.15.0.20240411] Old Version: [2.15.0.20240314]
+[2024-04-11 04:18:36] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/95/7e/91688931664f03b9e0b33b457b317a3c56b1a56f2296576c6566f791acb9/intecomm-edc-0.2.8.tar.gz
+[2024-04-11 04:18:36] INFO root fetch - processPackages [types-flake8-builtins]: New version: [2.5.0.20240411] Old Version: [2.4.0.20240404]
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/86/80/9e17b30ce441a422983a9b50861e1fd722c1e18fb1dbc7efcddcca2bd64a/types-tensorflow-2.15.0.20240314.tar.gz
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/62/0d/56fc1e4a6f6a4c626b607280ddfe1d8aa74af487837936ea914fbb7f2bb0/types-flake8-builtins-2.4.0.20240404.tar.gz
+[2024-04-11 04:18:37] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/41/3d/970b2d4837a5f433f20504c8a1819f190a4ab0b9a8d4b8cba9ba448ac9d8/alibabacloud_mse20190531_py2-6.3.2.tar.gz
+[2024-04-11 04:18:37] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/d8/f7/da7970f16a11303f171ea066f66e06b546fa84ee58cd6cfd9da33905321f/intecomm-edc-0.2.9.tar.gz
+[2024-04-11 04:18:37] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: executing diffoscope
+[2024-04-11 04:18:37] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531_py2-6.3.1.tar.gz tmp/alibabacloud_mse20190531_py2-6.3.2.tar.gz --markdown 20240411/a/alibabacloud-mse20190531-py2/6.3.1-6.3.2/README.md --exclude *.pyd
+[2024-04-11 04:18:37] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2024-04-11 04:18:37] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.2.8.tar.gz tmp/intecomm-edc-0.2.9.tar.gz --markdown 20240411/i/intecomm-edc/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/bc/23/29a42b80b70dcef0542f50ad31c0880a6e10cd971e321b2feccf6ae0d5fe/types-tensorflow-2.15.0.20240411.tar.gz
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/2c/0a/69da08e60022d3cc1e3ea1eed57075f7197a707573c22506da0a71208c10/types-flake8-builtins-2.5.0.20240411.tar.gz
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-flake8-builtins]: executing diffoscope
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-flake8-builtins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-builtins-2.4.0.20240404.tar.gz tmp/types-flake8-builtins-2.5.0.20240411.tar.gz --markdown 20240411/t/types-flake8-builtins/2.4.0.20240404-2.5.0.20240411/README.md --exclude *.pyd
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2024-04-11 04:18:37] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.15.0.20240314.tar.gz tmp/types-tensorflow-2.15.0.20240411.tar.gz --markdown 20240411/t/types-tensorflow/2.15.0.20240314-2.15.0.20240411/README.md --exclude *.pyd
+[2024-04-11 04:18:38] INFO root fetch - processPackages [types-flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-builtins-2.4.0.20240404.tar.gz]
+[2024-04-11 04:18:38] INFO root fetch - processPackages [types-flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-builtins-2.5.0.20240411.tar.gz]
+[2024-04-11 04:18:38] INFO root fetch - main [MainThread]: End processing [types-flake8-builtins]: success
+[2024-04-11 04:18:39] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240314.tar.gz]
+[2024-04-11 04:18:39] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240411.tar.gz]
+[2024-04-11 04:18:39] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2024-04-11 04:18:39] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.3.1.tar.gz]
+[2024-04-11 04:18:39] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.3.2.tar.gz]
+[2024-04-11 04:18:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531-py2]: success
+[2024-04-11 04:18:40] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.8.tar.gz]
+[2024-04-11 04:18:40] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
+[2024-04-11 04:18:40] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2024-04-11 04:18:40] INFO root fetch - main [MainThread]: Store serial: [22713307]

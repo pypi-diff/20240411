@@ -8595,3 +8595,45 @@ EOFError: EOF read where object expected
 [2024-04-11 03:58:58] INFO root fetch - processPackages [mapper-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapper_parser-1.1.tar.gz]
 [2024-04-11 03:58:58] INFO root fetch - main [MainThread]: End processing [mapper-parser]: success
 [2024-04-11 03:58:58] INFO root fetch - main [MainThread]: Store serial: [22713200]
+[2024-04-11 04:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713200]
+[2024-04-11 04:01:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcsc-dataapi
+[2024-04-11 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noisepy-seis-io
+[2024-04-11 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simulariumio
+[2024-04-11 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluxterm
+[2024-04-11 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RM-Tools
+[2024-04-11 04:01:07] INFO root fetch - processPackages [RM-Tools]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-11 04:01:07] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/31/e4/8433c14debe50e44d4e2f989737f0e25fc1ff1c3c471695df4ec5f28df4c/RM-Tools-1.4.0.tar.gz
+[2024-04-11 04:01:07] INFO root fetch - processPackages [noisepy-seis-io]: New version: [0.1.dev1] Old Version: [0.1.9]
+[2024-04-11 04:01:07] WARNING root fetch - processPackages [fluxterm]: Skipping, unable to determine old version
+[2024-04-11 04:01:07] INFO root fetch - main [MainThread]: End processing [fluxterm] error
+[2024-04-11 04:01:07] INFO root fetch - processPackages [xcsc-dataapi]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 04:01:07] INFO root fetch - processPackages [simulariumio]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-11 04:01:07] INFO root fetch - processPackages [xcsc-dataapi]: Downloading https://files.pythonhosted.org/packages/27/ee/9d2f1bb684ae12b7ce3405d7ede6aac54807b069654262bf7c5dd009c45a/xcsc_dataapi-1.0.2.tar.gz
+[2024-04-11 04:01:07] INFO root fetch - processPackages [noisepy-seis-io]: Downloading https://files.pythonhosted.org/packages/be/63/77f7bad5c469d37ccd9ce5ac5e870a6c0ae29c77abdde03b415f6c435ad0/noisepy_seis_io-0.1.9.tar.gz
+[2024-04-11 04:01:07] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/d3/3d/5b357b4c6b54227fe96eac51d56166f4df7aaa02c2a74531400af2ef1b84/RM-Tools-1.4.1.tar.gz
+[2024-04-11 04:01:07] INFO root fetch - processPackages [simulariumio]: Downloading https://files.pythonhosted.org/packages/96/7f/033376c2012c69ba4dfa01835d9797acea16f7adb0d930ae30180933d6db/simulariumio-1.9.0.tar.gz
+[2024-04-11 04:01:08] INFO root fetch - processPackages [RM-Tools]: executing diffoscope
+[2024-04-11 04:01:08] INFO root fetch - processPackages [RM-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RM-Tools-1.4.0.tar.gz tmp/RM-Tools-1.4.1.tar.gz --markdown 20240411/R/RM-Tools/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-11 04:01:08] INFO root fetch - processPackages [xcsc-dataapi]: Downloading https://files.pythonhosted.org/packages/ac/9d/3ee1c05300cadc12719cb0d1b1ed0feccff7adae9897c43ff9d0a42dda81/xcsc_dataapi-1.0.3.tar.gz
+[2024-04-11 04:01:08] INFO root fetch - processPackages [noisepy-seis-io]: Downloading https://files.pythonhosted.org/packages/db/ef/8a964fad646d879785ea5effc1135d92e0d6ee20f6d3559c4fc44e014bbc/noisepy_seis_io-0.1.dev1.tar.gz
+[2024-04-11 04:01:08] INFO root fetch - processPackages [xcsc-dataapi]: executing diffoscope
+[2024-04-11 04:01:08] INFO root fetch - processPackages [xcsc-dataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsc_dataapi-1.0.2.tar.gz tmp/xcsc_dataapi-1.0.3.tar.gz --markdown 20240411/x/xcsc-dataapi/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 04:01:08] INFO root fetch - processPackages [noisepy-seis-io]: executing diffoscope
+[2024-04-11 04:01:08] INFO root fetch - processPackages [noisepy-seis-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisepy_seis_io-0.1.9.tar.gz tmp/noisepy_seis_io-0.1.dev1.tar.gz --markdown 20240411/n/noisepy-seis-io/0.1.9-0.1.dev1/README.md --exclude *.pyd
+[2024-04-11 04:01:08] INFO root fetch - processPackages [simulariumio]: Downloading https://files.pythonhosted.org/packages/ee/87/febf358cbddc2b43c7fa16bbc018db2cecf8ef3cbf6a84db928123bfb374/simulariumio-1.9.1.tar.gz
+[2024-04-11 04:01:08] INFO root fetch - processPackages [xcsc-dataapi]: Remove: archive file [/home/abi/fetcher/tmp/xcsc_dataapi-1.0.2.tar.gz]
+[2024-04-11 04:01:08] INFO root fetch - processPackages [xcsc-dataapi]: Remove: archive file [/home/abi/fetcher/tmp/xcsc_dataapi-1.0.3.tar.gz]
+[2024-04-11 04:01:08] INFO root fetch - main [MainThread]: End processing [xcsc-dataapi]: success
+[2024-04-11 04:01:08] INFO root fetch - processPackages [noisepy-seis-io]: Remove: archive file [/home/abi/fetcher/tmp/noisepy_seis_io-0.1.9.tar.gz]
+[2024-04-11 04:01:08] INFO root fetch - processPackages [noisepy-seis-io]: Remove: archive file [/home/abi/fetcher/tmp/noisepy_seis_io-0.1.dev1.tar.gz]
+[2024-04-11 04:01:08] INFO root fetch - main [MainThread]: End processing [noisepy-seis-io]: success
+[2024-04-11 04:01:09] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/RM-Tools-1.4.0.tar.gz]
+[2024-04-11 04:01:09] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/RM-Tools-1.4.1.tar.gz]
+[2024-04-11 04:01:09] INFO root fetch - main [MainThread]: End processing [RM-Tools]: success
+[2024-04-11 04:01:09] INFO root fetch - processPackages [simulariumio]: executing diffoscope
+[2024-04-11 04:01:09] INFO root fetch - processPackages [simulariumio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulariumio-1.9.0.tar.gz tmp/simulariumio-1.9.1.tar.gz --markdown 20240411/s/simulariumio/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-11 04:01:12] INFO root fetch - processPackages [simulariumio]: Remove: archive file [/home/abi/fetcher/tmp/simulariumio-1.9.0.tar.gz]
+[2024-04-11 04:01:12] INFO root fetch - processPackages [simulariumio]: Remove: archive file [/home/abi/fetcher/tmp/simulariumio-1.9.1.tar.gz]
+[2024-04-11 04:01:12] INFO root fetch - main [MainThread]: End processing [simulariumio]: success
+[2024-04-11 04:01:12] INFO root fetch - main [MainThread]: Store serial: [22713218]

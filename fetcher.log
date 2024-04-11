@@ -20408,3 +20408,96 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:52:51] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-1.0.0rc2.tar.gz]
 [2024-04-11 12:52:51] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
 [2024-04-11 12:52:51] INFO root fetch - main [MainThread]: Store serial: [22718455]
+[2024-04-11 12:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718455]
+[2024-04-11 12:55:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 12:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flow.record
+[2024-04-11 12:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jet-bridge-base
+[2024-04-11 12:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jet-bridge
+[2024-04-11 12:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jet-django
+[2024-04-11 12:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polynomial-generator
+[2024-04-11 12:55:00] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-04-11 12:55:00] WARNING root fetch - processPackages [polynomial-generator]: Skipping, unable to determine old version
+[2024-04-11 12:55:00] INFO root fetch - main [MainThread]: End processing [polynomial-generator] error
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-bridge-base]: New version: [1.8.43] Old Version: [1.8.39]
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-django]: New version: [1.8.43] Old Version: [1.8.39]
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-bridge]: New version: [1.8.43] Old Version: [1.8.39]
+[2024-04-11 12:55:00] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/81/e7/720d43cac0635271a7bb083ae86eaf56be5204e6bb8eaa1a2142bad29c5c/jet-bridge-base-1.8.39.tar.gz
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/13/c9/26125efcddcff09ed6660bcb48b6f893ab830753bc0d7955e7ae8a51d1c1/jet-django-1.8.39.tar.gz
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/4f/bd/0bea91aeb29036f9bda172eff731385b7c0994dbf4a90283b9787b594be8/jet-bridge-1.8.39.tar.gz
+[2024-04-11 12:55:00] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2024-04-11 12:55:00] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2024-04-11 12:55:00] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20240411/f/flow.record/3.9.dev8-3.9.dev9/README.md --exclude *.pyd
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/07/27/105441f3e7a1f06dc21db03e9f5166ac395850d6f9a3a4321c332db21955/jet-django-1.8.43.tar.gz
+[2024-04-11 12:55:00] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/26/53/e7c9654badd9f81973ae4c777b01316c56e1f256f1bc0d489a5137bfb782/jet-bridge-base-1.8.43.tar.gz
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/a1/5d/a83837f8953f0c133abb9a539ad2c95ed0fa72ec3c3c10ba360ef8f192d1/jet-bridge-1.8.43.tar.gz
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-django]: executing diffoscope
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-django-1.8.39.tar.gz tmp/jet-django-1.8.43.tar.gz --markdown 20240411/j/jet-django/1.8.39-1.8.43/README.md --exclude *.pyd
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-bridge-base]: executing diffoscope
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-bridge-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-base-1.8.39.tar.gz tmp/jet-bridge-base-1.8.43.tar.gz --markdown 20240411/j/jet-bridge-base/1.8.39-1.8.43/README.md --exclude *.pyd
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-bridge]: executing diffoscope
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-1.8.39.tar.gz tmp/jet-bridge-1.8.43.tar.gz --markdown 20240411/j/jet-bridge/1.8.39-1.8.43/README.md --exclude *.pyd
+[2024-04-11 12:55:01] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev8-py3-none-any.whl.zip]
+[2024-04-11 12:55:01] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
+[2024-04-11 12:55:01] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-django]: Remove: archive file [/home/abi/fetcher/tmp/jet-django-1.8.39.tar.gz]
+[2024-04-11 12:55:01] INFO root fetch - processPackages [jet-django]: Remove: archive file [/home/abi/fetcher/tmp/jet-django-1.8.43.tar.gz]
+[2024-04-11 12:55:01] INFO root fetch - main [MainThread]: End processing [jet-django]: success
+[2024-04-11 12:55:02] ERROR root fetch - processPackages [jet-bridge-base]: Diffoscope failed: time="2024-04-11T12:55:01+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2024-04-11 12:55:02] INFO root fetch - main [MainThread]: End processing [jet-bridge-base] error
+[2024-04-11 12:55:02] INFO root fetch - processPackages [jet-bridge]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-1.8.39.tar.gz]
+[2024-04-11 12:55:02] INFO root fetch - processPackages [jet-bridge]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-1.8.43.tar.gz]
+[2024-04-11 12:55:02] INFO root fetch - main [MainThread]: End processing [jet-bridge]: success
+[2024-04-11 12:55:02] INFO root fetch - main [MainThread]: Store serial: [22718473]

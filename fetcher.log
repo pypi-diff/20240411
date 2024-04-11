@@ -8149,3 +8149,22 @@ EOFError: EOF read where object expected
 [2024-04-11 03:30:41] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.1.tar.gz]
 [2024-04-11 03:30:41] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-11 03:30:41] INFO root fetch - main [MainThread]: Store serial: [22713006]
+[2024-04-11 03:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713006]
+[2024-04-11 03:32:49] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 03:34:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713047]
+[2024-04-11 03:34:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 03:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-osubot
+[2024-04-11 03:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svc-toolkit
+[2024-04-11 03:34:55] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-11 03:34:55] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.5.2] Old Version: [5.5.1]
+[2024-04-11 03:34:55] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/94/6d/577f89402588079ffce7aa22c9f827d2cdceb611a6a46a78cba0e4b72ded/svc_toolkit-1.0.5.tar.gz
+[2024-04-11 03:34:55] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/c4/c9/0439eaa137dc9d48777986078f94def741d9969c5a16f8b18f5f41cbcd81/nonebot-plugin-osubot-5.5.1.tar.gz
+[2024-04-11 03:34:55] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29382018>=10485760
+[2024-04-11 03:34:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-11 03:34:55] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/b2/6c/af2fe911b8ad333606fc5a798373ca11a1233f3adce0a624a4a6d5fbf563/svc_toolkit-1.0.6.tar.gz
+[2024-04-11 03:34:55] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-11 03:34:55] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.5.tar.gz tmp/svc_toolkit-1.0.6.tar.gz --markdown 20240411/s/svc-toolkit/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-11 03:34:56] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.5.tar.gz]
+[2024-04-11 03:34:56] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.6.tar.gz]
+[2024-04-11 03:34:56] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-11 03:34:56] INFO root fetch - main [MainThread]: Store serial: [22713053]

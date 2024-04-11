@@ -2089,3 +2089,56 @@ EOFError: EOF read where object expected
 [2024-04-11 02:02:00] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.0rc3.tar.gz]
 [2024-04-11 02:02:00] INFO root fetch - main [MainThread]: End processing [dbt-fabric]: success
 [2024-04-11 02:02:00] INFO root fetch - main [MainThread]: Store serial: [22711068]
+[2024-04-11 02:04:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711068]
+[2024-04-11 02:04:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 02:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-package-template-pypi
+[2024-04-11 02:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxscript
+[2024-04-11 02:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmfunctionclient
+[2024-04-11 02:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-sites
+[2024-04-11 02:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: svc-toolkit
+[2024-04-11 02:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-zenloop
+[2024-04-11 02:04:09] INFO root fetch - processPackages [llmfunctionclient]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 02:04:09] INFO root fetch - processPackages [edc-sites]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 02:04:09] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240410] Old Version: [0.1.0.dev20240409]
+[2024-04-11 02:04:09] INFO root fetch - processPackages [llmfunctionclient]: Downloading https://files.pythonhosted.org/packages/b7/db/b9847362d9f52199d3a8123eaf914707b06dfaf1f1d1c17605ce8963de53/llmfunctionclient-0.1.1.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [python-package-template-pypi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 02:04:09] INFO root fetch - processPackages [airbyte-source-zenloop]: New version: [0.1.11] Old Version: [0.1.10]
+[2024-04-11 02:04:09] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-11 02:04:09] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/6c/d2/0971f47310f1e86111203d2b71e42e2b45e7f8545d3e4b302c358963aaf6/edc-sites-0.3.8.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/9e/b5/ef5bdb211becd8c35bebf1fa5494e19b02ce8758a5b3a5351b3a5794713d/onnxscript-0.1.0.dev20240409.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [python-package-template-pypi]: Downloading https://files.pythonhosted.org/packages/6a/0c/b76dbb78239a23ba4dca94d506b2bd5fb1391d22ca7088d0ecc511d30f87/python_package_template_pypi-0.0.2.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/94/6d/577f89402588079ffce7aa22c9f827d2cdceb611a6a46a78cba0e4b72ded/svc_toolkit-1.0.5.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [airbyte-source-zenloop]: Downloading https://files.pythonhosted.org/packages/3b/f7/d13fdfea798dd350ab3ef02a693a478881c41be0c78071129fe362c75d6c/airbyte-source-zenloop-0.1.10.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/93/47/2d0fe4fb111586f78d184cca78fdb1a6d3b4edda0ca7b0d1b76cb2c2af13/edc-sites-0.3.9.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [llmfunctionclient]: Downloading https://files.pythonhosted.org/packages/d8/c0/55a517eea153fd2198b352d1318194014278f77c66ead01b14d789f1ccaf/llmfunctionclient-0.1.2.tar.gz
+[2024-04-11 02:04:09] INFO root fetch - processPackages [edc-sites]: executing diffoscope
+[2024-04-11 02:04:09] INFO root fetch - processPackages [edc-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-sites-0.3.8.tar.gz tmp/edc-sites-0.3.9.tar.gz --markdown 20240411/e/edc-sites/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 02:04:10] INFO root fetch - processPackages [llmfunctionclient]: executing diffoscope
+[2024-04-11 02:04:10] INFO root fetch - processPackages [llmfunctionclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmfunctionclient-0.1.1.tar.gz tmp/llmfunctionclient-0.1.2.tar.gz --markdown 20240411/l/llmfunctionclient/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 02:04:10] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/00/43/0e40e057115b1ce5f84dcccd29e6a3d4dae8d72df03ae3ec79f13edd057e/onnxscript-0.1.0.dev20240410.tar.gz
+[2024-04-11 02:04:10] INFO root fetch - processPackages [python-package-template-pypi]: Downloading https://files.pythonhosted.org/packages/9b/69/e77526416642d5a8eae3046a9c575d1d3274dbcc7be2ec264637d063b83f/python_package_template_pypi-0.0.3.tar.gz
+[2024-04-11 02:04:10] ERROR root fetch - processPackages [airbyte-source-zenloop]: Unable to fetch info: No such project/version 'airbyte-source-zenloop' 0.1.11
+[2024-04-11 02:04:10] INFO root fetch - main [MainThread]: End processing [airbyte-source-zenloop] error
+[2024-04-11 02:04:10] INFO root fetch - processPackages [python-package-template-pypi]: executing diffoscope
+[2024-04-11 02:04:10] INFO root fetch - processPackages [python-package-template-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_package_template_pypi-0.0.2.tar.gz tmp/python_package_template_pypi-0.0.3.tar.gz --markdown 20240411/p/python-package-template-pypi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 02:04:10] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-11 02:04:10] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240409.tar.gz tmp/onnxscript-0.1.0.dev20240410.tar.gz --markdown 20240411/o/onnxscript/0.1.0.dev20240409-0.1.0.dev20240410/README.md --exclude *.pyd
+[2024-04-11 02:04:10] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/b2/6c/af2fe911b8ad333606fc5a798373ca11a1233f3adce0a624a4a6d5fbf563/svc_toolkit-1.0.6.tar.gz
+[2024-04-11 02:04:10] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-11 02:04:10] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.5.tar.gz tmp/svc_toolkit-1.0.6.tar.gz --markdown 20240411/s/svc-toolkit/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-11 02:04:10] INFO root fetch - processPackages [python-package-template-pypi]: Remove: archive file [/home/abi/fetcher/tmp/python_package_template_pypi-0.0.2.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - processPackages [python-package-template-pypi]: Remove: archive file [/home/abi/fetcher/tmp/python_package_template_pypi-0.0.3.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - main [MainThread]: End processing [python-package-template-pypi]: success
+[2024-04-11 02:04:10] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.8.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.9.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - main [MainThread]: End processing [edc-sites]: success
+[2024-04-11 02:04:10] INFO root fetch - processPackages [llmfunctionclient]: Remove: archive file [/home/abi/fetcher/tmp/llmfunctionclient-0.1.1.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - processPackages [llmfunctionclient]: Remove: archive file [/home/abi/fetcher/tmp/llmfunctionclient-0.1.2.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - main [MainThread]: End processing [llmfunctionclient]: success
+[2024-04-11 02:04:10] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.5.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.6.tar.gz]
+[2024-04-11 02:04:10] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-11 02:04:11] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240409.tar.gz]
+[2024-04-11 02:04:11] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240410.tar.gz]
+[2024-04-11 02:04:11] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-11 02:04:11] INFO root fetch - main [MainThread]: Store serial: [22711087]

@@ -17326,3 +17326,99 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:05:19] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240411074624.tar.gz]
 [2024-04-11 11:05:19] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-11 11:05:19] INFO root fetch - main [MainThread]: Store serial: [22717120]
+[2024-04-11 11:07:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717120]
+[2024-04-11 11:07:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.timeseries
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seacrowd
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonpickle
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fameprotobuf
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plugin-config-exceptions
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: persona_ai
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazyad
+[2024-04-11 11:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mly
+[2024-04-11 11:07:28] INFO root fetch - processPackages [plugin-config-exceptions]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [lazyad]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [seacrowd]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [persona_ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [autogluon]: New version: [1.1.0b20240410] Old Version: [1.1.0b20240409]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/b4/6c/f396598e2f4ea881c88b57560e2eed318fc8af080c3a2d191df67356764a/lazyad-0.0.7.tar.gz
+[2024-04-11 11:07:28] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.37.0.dev20240409] Old Version: [1.37.0.dev20240405]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [fameprotobuf]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [jsonpickle]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-11 11:07:28] INFO root fetch - processPackages [mly]: New version: [1.0.3] Old Version: [1.0.0]
+[2024-04-11 11:07:29] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/b6/79/09364be8d0ffae4d4bb5bdbc755f4b46078957703c7425bc21ff9e331939/seacrowd-0.0.2.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/e5/49/0f02282225fe55eda23c9daa2f119cd61ffe8f2dc0a1d0a93b2f16667d0e/persona_ai-0.1.1.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/bb/e3/0d066e02d8873011a92debf37ae746a5bfad2cc37817fdc62ecde7355081/autogluon-1.1.0b20240409.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/24/92/36e7e83cb5031954f0108879edcc77ca7df28a80aff5a07b5e98534077de/autogluon.timeseries-1.1.0b20240410.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [plugin-config-exceptions]: Downloading https://files.pythonhosted.org/packages/85/1e/9831f64f982699de1832a68546ed0f05570462b68e2a18b2f4d806ff9875/plugin_config_exceptions-1.2.3.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [fameprotobuf]: Downloading https://files.pythonhosted.org/packages/93/57/491099bd6388b3cc5435291f855473db80c42de444c40544f42d151a7873/fameprotobuf-1.4.0.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/7b/56/51a4ca05c5763920099907064741637df9dddec64927363cc4a9e4f6305a/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240405.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/f2/7c/b8d95dbc23d32ac4f9508dae0de34b6db78247204a224372fa25e72313d4/mly-1.0.0.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [jsonpickle]: Downloading https://files.pythonhosted.org/packages/05/68/38c6c809fd3203e507c0c95ebede5e682bdc84f2e81fc6f818d7926c6a41/jsonpickle-3.0.3.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/f4/5c/4f882d615847f3a97ab12f848b0706116b77d974aaad0703f33783fc414c/autogluon-1.1.0b20240410.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/85/fc/53cc34b11ab48613279f42c880ab94d310db63a867ad66e84ff1883832eb/seacrowd-0.0.3.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/fb/ff/64f3dc089431afcf125b885716f5dc5a60fb03a7df39f59976dbcea12a85/persona_ai-0.1.2.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [plugin-config-exceptions]: Downloading https://files.pythonhosted.org/packages/37/c5/f55404fadaedbfd51b4c24543767a6b3488ccf7a212ea2a2e0fab5b7a849/plugin_config_exceptions-1.2.4.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/ae/aa/ae68ace214628d5ebce24fc02053b43a0d72cf6cbb6795185103bb8611ee/autogluon.timeseries-1.1.0b20240411.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-11 11:07:29] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.0b20240409.tar.gz tmp/autogluon-1.1.0b20240410.tar.gz --markdown 20240411/a/autogluon/1.1.0b20240409-1.1.0b20240410/README.md --exclude *.pyd
+[2024-04-11 11:07:29] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-11 11:07:29] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.2.tar.gz tmp/seacrowd-0.0.3.tar.gz --markdown 20240411/s/seacrowd/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 11:07:29] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-11 11:07:29] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.7.tar.gz tmp/lazyad-0.0.8.tar.gz --markdown 20240411/l/lazyad/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-11 11:07:29] INFO root fetch - processPackages [plugin-config-exceptions]: executing diffoscope
+[2024-04-11 11:07:29] INFO root fetch - processPackages [plugin-config-exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugin_config_exceptions-1.2.3.tar.gz tmp/plugin_config_exceptions-1.2.4.tar.gz --markdown 20240411/p/plugin-config-exceptions/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-11 11:07:29] INFO root fetch - processPackages [persona_ai]: executing diffoscope
+[2024-04-11 11:07:29] INFO root fetch - processPackages [persona_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persona_ai-0.1.1.tar.gz tmp/persona_ai-0.1.2.tar.gz --markdown 20240411/p/persona_ai/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 11:07:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/70/20/af0412a38073a3756779d0b59ae2037bc37435991ef693604c68f29138de/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240409.tar.gz
+[2024-04-11 11:07:29] INFO root fetch - processPackages [fameprotobuf]: Downloading https://files.pythonhosted.org/packages/18/b7/3e97e851e265be3a1c58f5a11a74d6a1912442f3eb44abe62a35a7bfdf27/fameprotobuf-1.5.0.tar.gz
+[2024-04-11 11:07:30] INFO root fetch - processPackages [jsonpickle]: Downloading https://files.pythonhosted.org/packages/72/4b/8c2df97303521f99a0a2cc9be7373ee175dbc01d4befb653ff7b8d32b442/jsonpickle-3.0.4.tar.gz
+[2024-04-11 11:07:30] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-11 11:07:30] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.0b20240410.tar.gz tmp/autogluon.timeseries-1.1.0b20240411.tar.gz --markdown 20240411/a/autogluon.timeseries/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-11 11:07:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-04-11 11:07:30] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240405.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240409.tar.gz --markdown 20240411/n/nvidia-dali-tf-plugin-nightly-cuda120/1.37.0.dev20240405-1.37.0.dev20240409/README.md --exclude *.pyd
+[2024-04-11 11:07:30] INFO root fetch - processPackages [jsonpickle]: executing diffoscope
+[2024-04-11 11:07:30] INFO root fetch - processPackages [jsonpickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonpickle-3.0.3.tar.gz tmp/jsonpickle-3.0.4.tar.gz --markdown 20240411/j/jsonpickle/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-11 11:07:30] INFO root fetch - processPackages [fameprotobuf]: executing diffoscope
+[2024-04-11 11:07:30] INFO root fetch - processPackages [fameprotobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fameprotobuf-1.4.0.tar.gz tmp/fameprotobuf-1.5.0.tar.gz --markdown 20240411/f/fameprotobuf/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-11 11:07:30] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/f3/35/5ef4e1d17128852d85e2507d13abe2c83898b97594108236bf802aff6ab9/mly-1.0.3.tar.gz
+[2024-04-11 11:07:30] INFO root fetch - processPackages [mly]: executing diffoscope
+[2024-04-11 11:07:30] INFO root fetch - processPackages [mly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly-1.0.0.tar.gz tmp/mly-1.0.3.tar.gz --markdown 20240411/m/mly/1.0.0-1.0.3/README.md --exclude *.pyd
+[2024-04-11 11:07:31] INFO root fetch - processPackages [plugin-config-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/plugin_config_exceptions-1.2.3.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - processPackages [plugin-config-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/plugin_config_exceptions-1.2.4.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - processPackages [plugin-config-exceptions]: Start processing: hippo-etcd3
+[2024-04-11 11:07:31] INFO root fetch - main [MainThread]: End processing [plugin-config-exceptions]: success
+[2024-04-11 11:07:31] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240409.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240410.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-11 11:07:31] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.7.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-11 11:07:31] WARNING root fetch - processPackages [hippo-etcd3]: Skipping, unable to determine old version
+[2024-04-11 11:07:31] INFO root fetch - main [MainThread]: End processing [hippo-etcd3] error
+[2024-04-11 11:07:31] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240405.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240409.tar.gz]
+[2024-04-11 11:07:31] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-04-11 11:07:32] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.1.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.2.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - main [MainThread]: End processing [persona_ai]: success
+[2024-04-11 11:07:32] INFO root fetch - processPackages [fameprotobuf]: Remove: archive file [/home/abi/fetcher/tmp/fameprotobuf-1.4.0.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - processPackages [fameprotobuf]: Remove: archive file [/home/abi/fetcher/tmp/fameprotobuf-1.5.0.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - main [MainThread]: End processing [fameprotobuf]: success
+[2024-04-11 11:07:32] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240410.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240411.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-11 11:07:32] INFO root fetch - processPackages [jsonpickle]: Remove: archive file [/home/abi/fetcher/tmp/jsonpickle-3.0.3.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - processPackages [jsonpickle]: Remove: archive file [/home/abi/fetcher/tmp/jsonpickle-3.0.4.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - main [MainThread]: End processing [jsonpickle]: success
+[2024-04-11 11:07:32] INFO root fetch - processPackages [mly]: Remove: archive file [/home/abi/fetcher/tmp/mly-1.0.0.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - processPackages [mly]: Remove: archive file [/home/abi/fetcher/tmp/mly-1.0.3.tar.gz]
+[2024-04-11 11:07:32] INFO root fetch - main [MainThread]: End processing [mly]: success
+[2024-04-11 11:07:33] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.2.tar.gz]
+[2024-04-11 11:07:33] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.3.tar.gz]
+[2024-04-11 11:07:33] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-11 11:07:33] INFO root fetch - main [MainThread]: Store serial: [22717158]

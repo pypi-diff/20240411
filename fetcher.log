@@ -17691,3 +17691,58 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:14:18] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.3.1.tar.gz]
 [2024-04-11 11:14:18] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
 [2024-04-11 11:14:18] INFO root fetch - main [MainThread]: Store serial: [22717234]
+[2024-04-11 11:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717234]
+[2024-04-11 11:16:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-11 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databend-driver
+[2024-04-11 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-04-11 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scargo
+[2024-04-11 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpr_sdk
+[2024-04-11 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LiteLLMJson
+[2024-04-11 11:16:28] INFO root fetch - processPackages [LiteLLMJson]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-11 11:16:28] INFO root fetch - processPackages [cpr_sdk]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-11 11:16:28] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-11 11:16:28] INFO root fetch - processPackages [scargo]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-11 11:16:28] INFO root fetch - processPackages [LiteLLMJson]: Downloading https://files.pythonhosted.org/packages/3b/3d/71ec0c795a89a0ab63a386e781142146ad48be72d18f0db03ec0d42b1a14/LiteLLMJson-0.0.5.tar.gz
+[2024-04-11 11:16:28] INFO root fetch - processPackages [cpr_sdk]: Downloading https://files.pythonhosted.org/packages/7d/e5/e46330b1690bc9fb73533bb6e899eba3d21c2bdf37dfc08f43597857b453/cpr_sdk-1.0.2.tar.gz
+[2024-04-11 11:16:28] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-04-11 11:16:28] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/9a/26/15a43d99ca1755596ceb369fbab60cf574486d23a056c69a118497db48bc/scargo-2.2.0.tar.gz
+[2024-04-11 11:16:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-11 11:16:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-11 11:16:29] INFO root fetch - processPackages [LiteLLMJson]: Downloading https://files.pythonhosted.org/packages/f3/8f/3ec78ef5a624181f0cc40d16042c633b601d7e6c269f1eef4c9977acb627/LiteLLMJson-0.0.6.tar.gz
+[2024-04-11 11:16:29] INFO root fetch - processPackages [cpr_sdk]: Downloading https://files.pythonhosted.org/packages/60/27/ec3fee2579e672b2b0bc46f145103c4cc0c8ece0a0f0ec44258426984aaf/cpr_sdk-1.1.0.tar.gz
+[2024-04-11 11:16:29] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-11 11:16:29] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-11 11:16:29] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/56/f5/3886b73f60720e8b75a4ea6f5dbe7bce3750f1e4955825bca5e476c3c2e8/scargo-2.3.0.tar.gz
+[2024-04-11 11:16:29] INFO root fetch - processPackages [LiteLLMJson]: executing diffoscope
+[2024-04-11 11:16:29] INFO root fetch - processPackages [LiteLLMJson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiteLLMJson-0.0.5.tar.gz tmp/LiteLLMJson-0.0.6.tar.gz --markdown 20240411/L/LiteLLMJson/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-11 11:16:29] INFO root fetch - processPackages [cpr_sdk]: executing diffoscope
+[2024-04-11 11:16:29] INFO root fetch - processPackages [cpr_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpr_sdk-1.0.2.tar.gz tmp/cpr_sdk-1.1.0.tar.gz --markdown 20240411/c/cpr_sdk/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-11 11:16:29] INFO root fetch - processPackages [scargo]: executing diffoscope
+[2024-04-11 11:16:29] INFO root fetch - processPackages [scargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scargo-2.2.0.tar.gz tmp/scargo-2.3.0.tar.gz --markdown 20240411/s/scargo/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-11 11:16:29] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-11 11:16:29] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-11 11:16:30] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-11 11:16:30] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-11 11:16:30] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240411/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-11 11:16:30] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240411/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-11 11:16:30] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-04-11 11:16:30] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-04-11 11:16:30] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240411/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-11 11:16:30] INFO root fetch - processPackages [LiteLLMJson]: Remove: archive file [/home/abi/fetcher/tmp/LiteLLMJson-0.0.5.tar.gz]
+[2024-04-11 11:16:30] INFO root fetch - processPackages [LiteLLMJson]: Remove: archive file [/home/abi/fetcher/tmp/LiteLLMJson-0.0.6.tar.gz]
+[2024-04-11 11:16:30] INFO root fetch - main [MainThread]: End processing [LiteLLMJson]: success
+[2024-04-11 11:16:31] INFO root fetch - processPackages [cpr_sdk]: Remove: archive file [/home/abi/fetcher/tmp/cpr_sdk-1.0.2.tar.gz]
+[2024-04-11 11:16:31] INFO root fetch - processPackages [cpr_sdk]: Remove: archive file [/home/abi/fetcher/tmp/cpr_sdk-1.1.0.tar.gz]
+[2024-04-11 11:16:31] INFO root fetch - main [MainThread]: End processing [cpr_sdk]: success
+[2024-04-11 11:16:31] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-11 11:16:31] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-11 11:16:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-11 11:16:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-11 11:16:31] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-2.2.0.tar.gz]
+[2024-04-11 11:16:31] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-2.3.0.tar.gz]
+[2024-04-11 11:16:31] INFO root fetch - main [MainThread]: End processing [scargo]: success
+[2024-04-11 11:16:32] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-04-11 11:16:32] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-04-11 11:16:32] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-04-11 11:16:32] INFO root fetch - main [MainThread]: Store serial: [22717254]

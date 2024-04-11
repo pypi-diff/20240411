@@ -2314,3 +2314,57 @@ EOFError: EOF read where object expected
 [2024-04-11 02:11:16] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404100009.tar.gz]
 [2024-04-11 02:11:16] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-11 02:11:16] INFO root fetch - main [MainThread]: Store serial: [22711157]
+[2024-04-11 02:13:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711157]
+[2024-04-11 02:13:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 02:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-04-11 02:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinxcontrib.external-links
+[2024-04-11 02:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: econia-sdk
+[2024-04-11 02:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oobleck
+[2024-04-11 02:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-nag
+[2024-04-11 02:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-gitlab-runner
+[2024-04-11 02:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duplocloud-client
+[2024-04-11 02:13:26] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.93] Old Version: [2.2.92]
+[2024-04-11 02:13:26] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 02:13:26] WARNING root fetch - processPackages [sphinxcontrib.external-links]: Skipping, unable to determine old version
+[2024-04-11 02:13:26] INFO root fetch - main [MainThread]: End processing [sphinxcontrib.external-links] error
+[2024-04-11 02:13:26] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-11 02:13:26] WARNING root fetch - processPackages [oobleck]: Skipping, unable to determine old version
+[2024-04-11 02:13:26] INFO root fetch - main [MainThread]: End processing [oobleck] error
+[2024-04-11 02:13:26] INFO root fetch - processPackages [econia-sdk]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-11 02:13:26] INFO root fetch - processPackages [duplocloud-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 02:13:26] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/0e/67/f45d4e12d58052e6d61ee0084b2e73e3beffbe6449194d4543d832e17f5c/cdk-events-notify-2.2.92.tar.gz
+[2024-04-11 02:13:26] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [econia-sdk]: Downloading https://files.pythonhosted.org/packages/b8/26/bcc4284ccf478b1580cdab146f7b2d7b3fdb39174cbeac46733b9c253b85/econia_sdk-2.0.0.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/64/0f/f0e4cb432dfe138a961e25d188529a8aba71feacc3de9b5cc75bdf4ba425/duplocloud-client-0.2.8.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3b/aa/053ca79eb0389d2521d3d7572385d45286742ec08445d48fe95add9afea4/cdk-events-notify-2.2.93.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.92.tar.gz tmp/cdk-events-notify-2.2.93.tar.gz --markdown 20240411/c/cdk-events-notify/2.2.92-2.2.93/README.md --exclude *.pyd
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240411/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-11 02:13:27] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240411/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 02:13:27] INFO root fetch - processPackages [econia-sdk]: Downloading https://files.pythonhosted.org/packages/0c/84/0ddcf598129db47803517e81d1e1e16b2cbcb2d93968a315e5f2fdadd68c/econia_sdk-2.1.0.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/0c/31/a8708e76b68aa59189985ed13cb066f0d6af56d2928f45b56eaed3dcb105/duplocloud-client-0.2.9.tar.gz
+[2024-04-11 02:13:27] INFO root fetch - processPackages [econia-sdk]: executing diffoscope
+[2024-04-11 02:13:27] INFO root fetch - processPackages [econia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econia_sdk-2.0.0.tar.gz tmp/econia_sdk-2.1.0.tar.gz --markdown 20240411/e/econia-sdk/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-11 02:13:27] INFO root fetch - processPackages [duplocloud-client]: executing diffoscope
+[2024-04-11 02:13:27] INFO root fetch - processPackages [duplocloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplocloud-client-0.2.8.tar.gz tmp/duplocloud-client-0.2.9.tar.gz --markdown 20240411/d/duplocloud-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 02:13:28] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-11 02:13:28] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-11 02:13:28] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.92.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.93.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-11 02:13:28] INFO root fetch - processPackages [econia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/econia_sdk-2.0.0.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - processPackages [econia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/econia_sdk-2.1.0.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - main [MainThread]: End processing [econia-sdk]: success
+[2024-04-11 02:13:28] INFO root fetch - processPackages [duplocloud-client]: Remove: archive file [/home/abi/fetcher/tmp/duplocloud-client-0.2.8.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - processPackages [duplocloud-client]: Remove: archive file [/home/abi/fetcher/tmp/duplocloud-client-0.2.9.tar.gz]
+[2024-04-11 02:13:28] INFO root fetch - main [MainThread]: End processing [duplocloud-client]: success
+[2024-04-11 02:13:28] INFO root fetch - main [MainThread]: Store serial: [22711185]

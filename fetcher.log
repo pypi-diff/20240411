@@ -11450,3 +11450,15 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:09:38] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_pack-16.0.20240410.0-py3-none-any.whl.zip]
 [2024-04-11 07:09:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-pack]: success
 [2024-04-11 07:09:38] INFO root fetch - main [MainThread]: Store serial: [22714526]
+[2024-04-11 07:11:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714526]
+[2024-04-11 07:11:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 07:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suql
+[2024-04-11 07:11:46] INFO root fetch - processPackages [suql]: New version: [1.1.1a0] Old Version: [1.1.0a1]
+[2024-04-11 07:11:47] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/ab/8f/760c1192c49fa334659b4da79a7d26ead7a2ab56215115df20c3956a76b8/suql-1.1.0a1.tar.gz
+[2024-04-11 07:11:47] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/5a/f0/abf43ae0381578f462e9daf55d816fc7ca8661ff9500dfcef7c3bfcabe73/suql-1.1.1a0.tar.gz
+[2024-04-11 07:11:47] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-04-11 07:11:47] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.0a1.tar.gz tmp/suql-1.1.1a0.tar.gz --markdown 20240411/s/suql/1.1.0a1-1.1.1a0/README.md --exclude *.pyd
+[2024-04-11 07:11:48] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.0a1.tar.gz]
+[2024-04-11 07:11:48] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.1a0.tar.gz]
+[2024-04-11 07:11:48] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-04-11 07:11:48] INFO root fetch - main [MainThread]: Store serial: [22714530]

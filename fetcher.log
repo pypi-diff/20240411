@@ -11219,3 +11219,63 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:47:59] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.4.tar.gz]
 [2024-04-11 06:47:59] INFO root fetch - main [MainThread]: End processing [ANX]: success
 [2024-04-11 06:47:59] INFO root fetch - main [MainThread]: Store serial: [22714431]
+[2024-04-11 06:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714431]
+[2024-04-11 06:50:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANX
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prusek-spheroid
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VLCDA
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cn-stats
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: headline-gen
+[2024-04-11 06:50:09] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-11 06:50:09] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ANX]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-11 06:50:09] INFO root fetch - processPackages [prusek-spheroid]: New version: [4.7] Old Version: [4.6]
+[2024-04-11 06:50:09] INFO root fetch - processPackages [VLCDA]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 06:50:09] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-11 06:50:09] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-11 06:50:09] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/8b/97/d22ce3c250e0e352923b708f2ad83e3778517f51eab454e1f39b503d685f/ANX-0.7.3.tar.gz
+[2024-04-11 06:50:09] INFO root fetch - processPackages [cn-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 06:50:09] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/29/89/c66601530c293e5aad3f213d47ca9459896b81d0bc8fde193f1456a84f7d/prusek_spheroid-4.6.tar.gz
+[2024-04-11 06:50:09] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/07/9e/95f2ff4e6aa4d36f6f136bc96f05e372354494c2890ec62fcf351330168a/VLCDA-1.0.8.tar.gz
+[2024-04-11 06:50:09] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [cn-stats]: Downloading https://files.pythonhosted.org/packages/b8/fc/bc0653943b0ce663bc3e1e2ed59d374496fffce291dc53a5f8b5df7cc959/cn_stats-0.0.8.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/1e/43/f0acd078a56460bddc22adbf9e128617c00ec7661ef62139f7dbf5240c50/ANX-0.7.4.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/7d/d4/827d38b9dda4ffc01b94b400bb1460dc882b6233e17d87d0e335a234a014/VLCDA-1.0.9.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/f2/c7/54e46908e92ff7b534eff70494d3e254ffba27add2c75729a0f22dd3d773/prusek_spheroid-4.7.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-04-11 06:50:10] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.7.3.tar.gz tmp/ANX-0.7.4.tar.gz --markdown 20240411/A/ANX/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-11 06:50:10] INFO root fetch - processPackages [VLCDA]: executing diffoscope
+[2024-04-11 06:50:10] INFO root fetch - processPackages [VLCDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VLCDA-1.0.8.tar.gz tmp/VLCDA-1.0.9.tar.gz --markdown 20240411/V/VLCDA/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 06:50:10] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-04-11 06:50:10] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240411/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-11 06:50:10] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-11 06:50:10] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-4.6.tar.gz tmp/prusek_spheroid-4.7.tar.gz --markdown 20240411/p/prusek-spheroid/4.6-4.7/README.md --exclude *.pyd
+[2024-04-11 06:50:10] INFO root fetch - processPackages [cn-stats]: Downloading https://files.pythonhosted.org/packages/5e/38/8c1a4bb0de453542ad1c12da4aef06eb5eb368f03bfdf6536ed8e6a5206b/cn_stats-0.0.9.tar.gz
+[2024-04-11 06:50:10] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-11 06:50:10] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240411/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-11 06:50:10] INFO root fetch - processPackages [cn-stats]: executing diffoscope
+[2024-04-11 06:50:10] INFO root fetch - processPackages [cn-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cn_stats-0.0.8.tar.gz tmp/cn_stats-0.0.9.tar.gz --markdown 20240411/c/cn-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 06:50:11] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.8.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.9.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - main [MainThread]: End processing [VLCDA]: success
+[2024-04-11 06:50:11] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.6.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.7.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-11 06:50:11] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.3.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.4.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-04-11 06:50:11] INFO root fetch - processPackages [cn-stats]: Remove: archive file [/home/abi/fetcher/tmp/cn_stats-0.0.8.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - processPackages [cn-stats]: Remove: archive file [/home/abi/fetcher/tmp/cn_stats-0.0.9.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - main [MainThread]: End processing [cn-stats]: success
+[2024-04-11 06:50:11] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-04-11 06:50:11] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-04-11 06:50:12] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-11 06:50:12] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-11 06:50:12] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-11 06:50:12] INFO root fetch - main [MainThread]: Store serial: [22714451]

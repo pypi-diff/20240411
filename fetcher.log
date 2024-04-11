@@ -10046,3 +10046,55 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:29:09] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-11 05:29:09] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-11 05:29:09] INFO root fetch - main [MainThread]: Store serial: [22713911]
+[2024-04-11 05:31:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713911]
+[2024-04-11 05:31:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 05:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sprak
+[2024-04-11 05:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SecLoadSDK
+[2024-04-11 05:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: five-strips-of-bacon
+[2024-04-11 05:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Avania
+[2024-04-11 05:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarmauri
+[2024-04-11 05:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avania
+[2024-04-11 05:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-mse20190531
+[2024-04-11 05:31:19] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 05:31:19] WARNING root fetch - processPackages [sprak]: Skipping, unable to determine old version
+[2024-04-11 05:31:19] INFO root fetch - main [MainThread]: End processing [sprak] error
+[2024-04-11 05:31:19] INFO root fetch - processPackages [alibabacloud-mse20190531]: New version: [6.3.3] Old Version: [6.3.2]
+[2024-04-11 05:31:19] WARNING root fetch - processPackages [SecLoadSDK]: Skipping, unable to determine old version
+[2024-04-11 05:31:19] INFO root fetch - main [MainThread]: End processing [SecLoadSDK] error
+[2024-04-11 05:31:19] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-11 05:31:19] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/74/48/e144bf50235c486d1a4c3e608cf1977fc1d2d6642a3a0c0904bc218392fb/alibabacloud_mse20190531-6.3.2.tar.gz
+[2024-04-11 05:31:19] INFO root fetch - processPackages [Avania]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-11 05:31:19] INFO root fetch - processPackages [avania]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-11 05:31:19] INFO root fetch - processPackages [five-strips-of-bacon]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-11 05:31:19] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/cf/6e/4e08b7f984040549e5bc59ccdb3d3576baa19331fb7f3fd6d8da8cf1fc42/Avania-0.0.0.tar.gz
+[2024-04-11 05:31:19] INFO root fetch - processPackages [Avania]: Downloading https://files.pythonhosted.org/packages/cf/6e/4e08b7f984040549e5bc59ccdb3d3576baa19331fb7f3fd6d8da8cf1fc42/Avania-0.0.0.tar.gz
+[2024-04-11 05:31:19] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-11 05:31:19] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/3b/1a/9b3d904cc9d888af190fae631c57bd57ef168371a5c47ac68f0a3269b99d/five_strips_of_bacon-0.1.2.tar.gz
+[2024-04-11 05:31:19] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/2f/9d/dbbfb61a1f47fe9d2e2720035fd00baa52cd3f89905b414702ee24f02c1e/alibabacloud_mse20190531-6.3.3.tar.gz
+[2024-04-11 05:31:19] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-11 05:31:19] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240411/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 05:31:20] INFO root fetch - processPackages [alibabacloud-mse20190531]: executing diffoscope
+[2024-04-11 05:31:20] INFO root fetch - processPackages [alibabacloud-mse20190531]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531-6.3.2.tar.gz tmp/alibabacloud_mse20190531-6.3.3.tar.gz --markdown 20240411/a/alibabacloud-mse20190531/6.3.2-6.3.3/README.md --exclude *.pyd
+[2024-04-11 05:31:20] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/d1/8a/4ce6e40d5840a9b42b708bed4d399c1cddff475c9932ca38db8b6a649ef0/avania-0.0.1.tar.gz
+[2024-04-11 05:31:20] INFO root fetch - processPackages [Avania]: Downloading https://files.pythonhosted.org/packages/d1/8a/4ce6e40d5840a9b42b708bed4d399c1cddff475c9932ca38db8b6a649ef0/avania-0.0.1.tar.gz
+[2024-04-11 05:31:20] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/83/c8/cd4e4244e5b30354559f34f679d282f89dc627765e531b894332a1ea7485/five_strips_of_bacon-0.1.4.tar.gz
+[2024-04-11 05:31:20] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-11 05:31:20] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Avania-0.0.0.tar.gz tmp/avania-0.0.1.tar.gz --markdown 20240411/a/avania/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-11 05:31:20] INFO root fetch - processPackages [Avania]: executing diffoscope
+[2024-04-11 05:31:20] INFO root fetch - processPackages [Avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Avania-0.0.0.tar.gz tmp/avania-0.0.1.tar.gz --markdown 20240411/A/Avania/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-11 05:31:20] INFO root fetch - processPackages [five-strips-of-bacon]: executing diffoscope
+[2024-04-11 05:31:20] INFO root fetch - processPackages [five-strips-of-bacon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_strips_of_bacon-0.1.2.tar.gz tmp/five_strips_of_bacon-0.1.4.tar.gz --markdown 20240411/f/five-strips-of-bacon/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-11 05:31:20] INFO root fetch - processPackages [Avania]: Remove: archive file [/home/abi/fetcher/tmp/Avania-0.0.0.tar.gz]
+[2024-04-11 05:31:20] INFO root fetch - processPackages [Avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.1.tar.gz]
+[2024-04-11 05:31:20] INFO root fetch - main [MainThread]: End processing [Avania]: success
+[2024-04-11 05:31:20] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-11 05:31:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-11 05:31:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-11 05:31:21] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-11 05:31:21] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.2.tar.gz]
+[2024-04-11 05:31:21] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.4.tar.gz]
+[2024-04-11 05:31:21] INFO root fetch - main [MainThread]: End processing [five-strips-of-bacon]: success
+[2024-04-11 05:31:22] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.3.2.tar.gz]
+[2024-04-11 05:31:22] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.3.3.tar.gz]
+[2024-04-11 05:31:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531]: success
+[2024-04-11 05:31:22] INFO root fetch - main [MainThread]: Store serial: [22713953]

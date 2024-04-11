@@ -3505,3 +3505,51 @@ EOFError: EOF read where object expected
 [2024-04-11 02:48:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-11 02:48:12] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-11 02:48:12] INFO root fetch - main [MainThread]: Store serial: [22711625]
+[2024-04-11 02:50:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711625]
+[2024-04-11 02:50:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 02:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2024-04-11 02:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeastvision
+[2024-04-11 02:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fintoolkit
+[2024-04-11 02:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurora
+[2024-04-11 02:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: draggable-line-chart
+[2024-04-11 02:50:21] INFO root fetch - processPackages [draggable-line-chart]: New version: [0.3] Old Version: [0.2.1]
+[2024-04-11 02:50:21] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 02:50:21] INFO root fetch - processPackages [draggable-line-chart]: Downloading https://files.pythonhosted.org/packages/99/f5/71d50f3f3e49669ecfbb3057a699105952f5af764d5bffe1cdf37a5828a2/draggable-line-chart-0.2.1.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [fintoolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 02:50:21] INFO root fetch - processPackages [yeastvision]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-11 02:50:21] INFO root fetch - processPackages [neurora]: New version: [1.1.6.9] Old Version: [1.1.6.8]
+[2024-04-11 02:50:21] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/30/c7/f8808d714627060146bff74e4d4a4626b5bc25cdfb7f49ca939adb661d41/fintoolkit-0.0.8.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/02/54/03ef7feb5a069c9ec29c9cc8bd7d30900248c1f02a425ca240a5698b718e/yeastvision-0.1.7.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [neurora]: Downloading https://files.pythonhosted.org/packages/8a/af/05cfc89e34a971466cc1ce9fd3b475ba75fbb2957e6e91f33261f551edd2/neurora-1.1.6.8.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-11 02:50:21] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240411/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 02:50:21] INFO root fetch - processPackages [draggable-line-chart]: Downloading https://files.pythonhosted.org/packages/b2/dc/0ac45daed06d59ca9ddf78b1886154d3cc8a2f7071fcaf5b8867354aa416/draggable-line-chart-0.3.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/8d/ac/78dd93cdfc826c676f15d8cf527d9f20a32323253c96c619689efd9ca01b/fintoolkit-0.0.9.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/ca/b9/a6ea7d4301424e1292a0163c278c3763cc8a40c1437af17464222ff4badc/yeastvision-0.1.9.tar.gz
+[2024-04-11 02:50:21] INFO root fetch - processPackages [draggable-line-chart]: executing diffoscope
+[2024-04-11 02:50:21] INFO root fetch - processPackages [draggable-line-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-line-chart-0.2.1.tar.gz tmp/draggable-line-chart-0.3.tar.gz --markdown 20240411/d/draggable-line-chart/0.2.1-0.3/README.md --exclude *.pyd
+[2024-04-11 02:50:21] INFO root fetch - processPackages [fintoolkit]: executing diffoscope
+[2024-04-11 02:50:21] INFO root fetch - processPackages [fintoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolkit-0.0.8.tar.gz tmp/fintoolkit-0.0.9.tar.gz --markdown 20240411/f/fintoolkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 02:50:21] INFO root fetch - processPackages [yeastvision]: executing diffoscope
+[2024-04-11 02:50:21] INFO root fetch - processPackages [yeastvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastvision-0.1.7.tar.gz tmp/yeastvision-0.1.9.tar.gz --markdown 20240411/y/yeastvision/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-11 02:50:21] INFO root fetch - processPackages [neurora]: Downloading https://files.pythonhosted.org/packages/f0/2a/8e345b2b0e998a314e8e29f597624409d4df745e93b73ffe2c400a28be6e/neurora-1.1.6.9.tar.gz
+[2024-04-11 02:50:22] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-11 02:50:22] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-11 02:50:22] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-11 02:50:22] INFO root fetch - processPackages [neurora]: executing diffoscope
+[2024-04-11 02:50:22] INFO root fetch - processPackages [neurora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurora-1.1.6.8.tar.gz tmp/neurora-1.1.6.9.tar.gz --markdown 20240411/n/neurora/1.1.6.8-1.1.6.9/README.md --exclude *.pyd
+[2024-04-11 02:50:22] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.8.tar.gz]
+[2024-04-11 02:50:22] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.9.tar.gz]
+[2024-04-11 02:50:22] INFO root fetch - main [MainThread]: End processing [fintoolkit]: success
+[2024-04-11 02:50:22] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.7.tar.gz]
+[2024-04-11 02:50:22] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.9.tar.gz]
+[2024-04-11 02:50:22] INFO root fetch - main [MainThread]: End processing [yeastvision]: success
+[2024-04-11 02:50:23] INFO root fetch - processPackages [neurora]: Remove: archive file [/home/abi/fetcher/tmp/neurora-1.1.6.8.tar.gz]
+[2024-04-11 02:50:23] INFO root fetch - processPackages [neurora]: Remove: archive file [/home/abi/fetcher/tmp/neurora-1.1.6.9.tar.gz]
+[2024-04-11 02:50:23] INFO root fetch - main [MainThread]: End processing [neurora]: success
+[2024-04-11 02:50:57] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.1.tar.gz]
+[2024-04-11 02:50:57] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.3.tar.gz]
+[2024-04-11 02:50:57] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
+[2024-04-11 02:50:57] INFO root fetch - main [MainThread]: Store serial: [22711641]

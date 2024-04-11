@@ -9031,3 +9031,33 @@ EOFError: EOF read where object expected
 [2024-04-11 04:32:13] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.6.tar.gz]
 [2024-04-11 04:32:13] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
 [2024-04-11 04:32:13] INFO root fetch - main [MainThread]: Store serial: [22713374]
+[2024-04-11 04:34:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713374]
+[2024-04-11 04:34:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 04:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inManage
+[2024-04-11 04:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weni-rp-apps
+[2024-04-11 04:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dyff-storage
+[2024-04-11 04:34:22] INFO root fetch - processPackages [inManage]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 04:34:22] INFO root fetch - processPackages [dyff-storage]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-11 04:34:22] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.8.2] Old Version: [2.8.1a1]
+[2024-04-11 04:34:22] INFO root fetch - processPackages [inManage]: Downloading https://files.pythonhosted.org/packages/1c/ba/4c90d23fcfda106867f68bdc3c8f6ca877d31abe6291f53bd676487b8477/inManage-1.0.0.tar.gz
+[2024-04-11 04:34:22] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/fe/1f/f96eb724d6b80e2505aff53c5480594346b4b0afcbdd1ac3720db5e4ade3/dyff-storage-0.5.0.tar.gz
+[2024-04-11 04:34:22] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/cd/7c/b9789e38e23d3045430b092804e86abc2445e13b32ee1c309dacc5229963/weni_rp_apps-2.8.1a1.tar.gz
+[2024-04-11 04:34:22] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/e8/01/7f12bd5360bf5f2d658a8c9cd814910fd3f6801662a20d4d2a3a5e4cca2a/dyff-storage-0.5.1.tar.gz
+[2024-04-11 04:34:22] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/4e/94/6621f3bebdbc67fbcdf28cef94f76e61f54b55cea82f8828aabdeb08955e/weni_rp_apps-2.8.2.tar.gz
+[2024-04-11 04:34:22] INFO root fetch - processPackages [inManage]: Downloading https://files.pythonhosted.org/packages/a9/fe/738cbb4c37e05eff5fa7e23bc3a418d787833e1c8bec879a851828077fcc/inManage-1.0.1.tar.gz
+[2024-04-11 04:34:22] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2024-04-11 04:34:22] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.8.1a1.tar.gz tmp/weni_rp_apps-2.8.2.tar.gz --markdown 20240411/w/weni-rp-apps/2.8.1a1-2.8.2/README.md --exclude *.pyd
+[2024-04-11 04:34:22] INFO root fetch - processPackages [inManage]: executing diffoscope
+[2024-04-11 04:34:22] INFO root fetch - processPackages [inManage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inManage-1.0.0.tar.gz tmp/inManage-1.0.1.tar.gz --markdown 20240411/i/inManage/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 04:34:22] INFO root fetch - processPackages [dyff-storage]: executing diffoscope
+[2024-04-11 04:34:22] INFO root fetch - processPackages [dyff-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-storage-0.5.0.tar.gz tmp/dyff-storage-0.5.1.tar.gz --markdown 20240411/d/dyff-storage/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-11 04:34:23] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.8.1a1.tar.gz]
+[2024-04-11 04:34:23] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.8.2.tar.gz]
+[2024-04-11 04:34:23] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2024-04-11 04:34:23] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff-storage-0.5.0.tar.gz]
+[2024-04-11 04:34:23] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff-storage-0.5.1.tar.gz]
+[2024-04-11 04:34:23] INFO root fetch - main [MainThread]: End processing [dyff-storage]: success
+[2024-04-11 04:34:24] INFO root fetch - processPackages [inManage]: Remove: archive file [/home/abi/fetcher/tmp/inManage-1.0.0.tar.gz]
+[2024-04-11 04:34:24] INFO root fetch - processPackages [inManage]: Remove: archive file [/home/abi/fetcher/tmp/inManage-1.0.1.tar.gz]
+[2024-04-11 04:34:24] INFO root fetch - main [MainThread]: End processing [inManage]: success
+[2024-04-11 04:34:24] INFO root fetch - main [MainThread]: Store serial: [22713384]

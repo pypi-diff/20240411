@@ -9278,3 +9278,51 @@ EOFError: EOF read where object expected
 [2024-04-11 04:49:51] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.2.3.tar.gz]
 [2024-04-11 04:49:51] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
 [2024-04-11 04:49:51] INFO root fetch - main [MainThread]: Store serial: [22713542]
+[2024-04-11 04:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713542]
+[2024-04-11 04:52:00] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 04:54:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713542]
+[2024-04-11 04:54:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nahcrofDB
+[2024-04-11 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaea-operator
+[2024-04-11 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaea-operator
+[2024-04-11 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymemgpt
+[2024-04-11 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymemgpt-nightly
+[2024-04-11 04:54:06] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.8] Old Version: [1.2.0.7]
+[2024-04-11 04:54:06] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.8] Old Version: [1.2.0.7]
+[2024-04-11 04:54:06] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.8.dev20240410103932] Old Version: [0.3.8.dev20240409104037]
+[2024-04-11 04:54:06] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/6f/37/170c563d18a7579908b404d071628a3ce7e48a99f21bd0d96bf155f7dd55/gaea_operator-1.2.0.7-py3-none-any.whl
+[2024-04-11 04:54:06] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/6f/37/170c563d18a7579908b404d071628a3ce7e48a99f21bd0d96bf155f7dd55/gaea_operator-1.2.0.7-py3-none-any.whl
+[2024-04-11 04:54:06] INFO root fetch - processPackages [nahcrofDB]: New version: [1.1.5] Old Version: [1.1.2]
+[2024-04-11 04:54:06] INFO root fetch - processPackages [pymemgpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 04:54:06] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/78/2d/308534684cd7901adcb04329d2deaccc9e71952b4b7fae57f69bc6eee7d9/pymemgpt_nightly-0.3.8.dev20240409104037.tar.gz
+[2024-04-11 04:54:06] INFO root fetch - processPackages [nahcrofDB]: Downloading https://files.pythonhosted.org/packages/1e/c7/6f6afc094b285c65f2ff38e00a7c1c0ef0f8ac883934e8f1d11ecbd27bc2/nahcrofDB-1.1.2.tar.gz
+[2024-04-11 04:54:07] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/e3/99/b8d502de9760d8243c53acb45a0378adde15b75aec5dc2e0d7fa27025ed3/gaea_operator-1.2.0.8-py3-none-any.whl
+[2024-04-11 04:54:07] INFO root fetch - processPackages [pymemgpt]: Downloading https://files.pythonhosted.org/packages/06/f9/30dc88091552c220242217b9fd60e294f4f9792315fa873eceb3375e0b87/pymemgpt-0.3.8.tar.gz
+[2024-04-11 04:54:07] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/e3/99/b8d502de9760d8243c53acb45a0378adde15b75aec5dc2e0d7fa27025ed3/gaea_operator-1.2.0.8-py3-none-any.whl
+[2024-04-11 04:54:07] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-11 04:54:07] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip --markdown 20240411/g/gaea-operator/1.2.0.7-1.2.0.8/README.md --exclude *.pyd
+[2024-04-11 04:54:07] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-11 04:54:07] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip --markdown 20240411/g/gaea-operator/1.2.0.7-1.2.0.8/README.md --exclude *.pyd
+[2024-04-11 04:54:07] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/56/25/060ceb3811e48319bbf93a5611e2864180ddf93590fc92e6fa98cecfe3be/pymemgpt_nightly-0.3.8.dev20240410103932.tar.gz
+[2024-04-11 04:54:07] INFO root fetch - processPackages [nahcrofDB]: Downloading https://files.pythonhosted.org/packages/3d/6f/defe2d8b41888be011852b7ead98b4a6f318b3ff90151b656b1cc459f2c1/nahcrofDB-1.1.5.tar.gz
+[2024-04-11 04:54:07] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-11 04:54:07] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.8.dev20240409104037.tar.gz tmp/pymemgpt_nightly-0.3.8.dev20240410103932.tar.gz --markdown 20240411/p/pymemgpt-nightly/0.3.8.dev20240409104037-0.3.8.dev20240410103932/README.md --exclude *.pyd
+[2024-04-11 04:54:07] INFO root fetch - processPackages [nahcrofDB]: executing diffoscope
+[2024-04-11 04:54:07] INFO root fetch - processPackages [nahcrofDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nahcrofDB-1.1.2.tar.gz tmp/nahcrofDB-1.1.5.tar.gz --markdown 20240411/n/nahcrofDB/1.1.2-1.1.5/README.md --exclude *.pyd
+[2024-04-11 04:54:07] INFO root fetch - processPackages [pymemgpt]: Downloading https://files.pythonhosted.org/packages/cd/2e/4361ff93f07d87ed5b38cfc0fa22c2bf04b2bc5429a7d4cd910728659112/pymemgpt-0.3.9.tar.gz
+[2024-04-11 04:54:07] INFO root fetch - processPackages [pymemgpt]: executing diffoscope
+[2024-04-11 04:54:07] INFO root fetch - processPackages [pymemgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt-0.3.8.tar.gz tmp/pymemgpt-0.3.9.tar.gz --markdown 20240411/p/pymemgpt/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 04:54:07] INFO root fetch - processPackages [nahcrofDB]: Remove: archive file [/home/abi/fetcher/tmp/nahcrofDB-1.1.2.tar.gz]
+[2024-04-11 04:54:07] INFO root fetch - processPackages [nahcrofDB]: Remove: archive file [/home/abi/fetcher/tmp/nahcrofDB-1.1.5.tar.gz]
+[2024-04-11 04:54:07] INFO root fetch - main [MainThread]: End processing [nahcrofDB]: success
+[2024-04-11 04:54:08] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip]
+[2024-04-11 04:54:08] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip]
+[2024-04-11 04:54:08] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-11 04:54:08] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-11 04:54:08] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240409104037.tar.gz]
+[2024-04-11 04:54:08] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240410103932.tar.gz]
+[2024-04-11 04:54:08] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-11 04:54:14] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.8.tar.gz]
+[2024-04-11 04:54:14] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.9.tar.gz]
+[2024-04-11 04:54:14] INFO root fetch - main [MainThread]: End processing [pymemgpt]: success
+[2024-04-11 04:54:14] INFO root fetch - main [MainThread]: Store serial: [22713554]

@@ -8574,3 +8574,24 @@ EOFError: EOF read where object expected
 [2024-04-11 03:56:48] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-11 03:56:48] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-11 03:56:48] INFO root fetch - main [MainThread]: Store serial: [22713194]
+[2024-04-11 03:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713194]
+[2024-04-11 03:58:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 03:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-04-11 03:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapper-parser
+[2024-04-11 03:58:57] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-11 03:58:57] INFO root fetch - processPackages [mapper-parser]: New version: [1.1] Old Version: [1.0]
+[2024-04-11 03:58:57] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-11 03:58:58] INFO root fetch - processPackages [mapper-parser]: Downloading https://files.pythonhosted.org/packages/12/eb/e80d5052b70ee4322025914665289ccabb12609cee00cfcd2b9ffec2fed8/mapper_parser-1.0.tar.gz
+[2024-04-11 03:58:58] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-11 03:58:58] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-11 03:58:58] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240411/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-11 03:58:58] INFO root fetch - processPackages [mapper-parser]: Downloading https://files.pythonhosted.org/packages/7c/24/c355e4a1a19e8097c4b57ef664d7f181f595efffa37696cc37da94348019/mapper_parser-1.1.tar.gz
+[2024-04-11 03:58:58] INFO root fetch - processPackages [mapper-parser]: executing diffoscope
+[2024-04-11 03:58:58] INFO root fetch - processPackages [mapper-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapper_parser-1.0.tar.gz tmp/mapper_parser-1.1.tar.gz --markdown 20240411/m/mapper-parser/1.0-1.1/README.md --exclude *.pyd
+[2024-04-11 03:58:58] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-11 03:58:58] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-11 03:58:58] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-11 03:58:58] INFO root fetch - processPackages [mapper-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapper_parser-1.0.tar.gz]
+[2024-04-11 03:58:58] INFO root fetch - processPackages [mapper-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapper_parser-1.1.tar.gz]
+[2024-04-11 03:58:58] INFO root fetch - main [MainThread]: End processing [mapper-parser]: success
+[2024-04-11 03:58:58] INFO root fetch - main [MainThread]: Store serial: [22713200]

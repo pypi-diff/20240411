@@ -8168,3 +8168,24 @@ EOFError: EOF read where object expected
 [2024-04-11 03:34:56] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.6.tar.gz]
 [2024-04-11 03:34:56] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
 [2024-04-11 03:34:56] INFO root fetch - main [MainThread]: Store serial: [22713053]
+[2024-04-11 03:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713053]
+[2024-04-11 03:37:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 03:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuanwi02
+[2024-04-11 03:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jemma
+[2024-04-11 03:37:05] INFO root fetch - processPackages [jemma]: New version: [0.1.42] Old Version: [0.1.1292]
+[2024-04-11 03:37:05] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/7a/4b/64df0859d7ef3adba63a24cfb60f2dfc2c820b32b2642c8a324c325e9f6b/jemma-0.1.1292.tar.gz
+[2024-04-11 03:37:05] INFO root fetch - processPackages [neuanwi02]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-11 03:37:05] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/18/62/9f1a7c67e586a9134c4a368f6fbf327c62803a9b1269aba99a9b686d9d72/neuanwi02-0.0.0-py3-none-any.whl
+[2024-04-11 03:37:05] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/d8/06/7a8bceb21ef027f35b2bf692f1e4d181d3ac9c68c9be5fd5708ddf19e740/jemma-0.1.42.tar.gz
+[2024-04-11 03:37:06] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-11 03:37:06] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.1292.tar.gz tmp/jemma-0.1.42.tar.gz --markdown 20240411/j/jemma/0.1.1292-0.1.42/README.md --exclude *.pyd
+[2024-04-11 03:37:06] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/bb/ab/0b99f35cbd37224b5b8057565ad881ece209d7709f7c696b837c4fb8c879/neuanwi02-0.0.1-py3-none-any.whl
+[2024-04-11 03:37:06] INFO root fetch - processPackages [neuanwi02]: executing diffoscope
+[2024-04-11 03:37:06] INFO root fetch - processPackages [neuanwi02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuanwi02-0.0.0-py3-none-any.whl.zip tmp/neuanwi02-0.0.1-py3-none-any.whl.zip --markdown 20240411/n/neuanwi02/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-11 03:37:06] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1292.tar.gz]
+[2024-04-11 03:37:06] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.42.tar.gz]
+[2024-04-11 03:37:06] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-11 03:37:06] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.0-py3-none-any.whl.zip]
+[2024-04-11 03:37:06] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.1-py3-none-any.whl.zip]
+[2024-04-11 03:37:06] INFO root fetch - main [MainThread]: End processing [neuanwi02]: success
+[2024-04-11 03:37:06] INFO root fetch - main [MainThread]: Store serial: [22713058]

@@ -8452,3 +8452,36 @@ EOFError: EOF read where object expected
 [2024-04-11 03:48:01] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1687602-py3-none-any.whl.zip]
 [2024-04-11 03:48:01] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
 [2024-04-11 03:48:01] INFO root fetch - main [MainThread]: Store serial: [22713144]
+[2024-04-11 03:50:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713144]
+[2024-04-11 03:50:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogicg
+[2024-04-11 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mini-racer
+[2024-04-11 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: texnomagic
+[2024-04-11 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linkml-transformer
+[2024-04-11 03:50:11] WARNING root fetch - processPackages [ogicg]: Skipping, unable to determine old version
+[2024-04-11 03:50:11] INFO root fetch - main [MainThread]: End processing [ogicg] error
+[2024-04-11 03:50:12] INFO root fetch - processPackages [linkml-transformer]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-11 03:50:12] INFO root fetch - processPackages [texnomagic]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-11 03:50:12] INFO root fetch - processPackages [mini-racer]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-11 03:50:12] INFO root fetch - processPackages [linkml-transformer]: Downloading https://files.pythonhosted.org/packages/4b/29/cb654230c60cfdeda93d88395ea3a13988475ca42f2d2f579663751ee960/linkml_transformer-0.2.3.tar.gz
+[2024-04-11 03:50:12] INFO root fetch - processPackages [texnomagic]: Downloading https://files.pythonhosted.org/packages/a3/91/4835d0b049bc123f7fb137ac10b8dcacb09325999b5f090ec77dad5198aa/texnomagic-0.7.0.tar.gz
+[2024-04-11 03:50:12] INFO root fetch - processPackages [mini-racer]: Downloading https://files.pythonhosted.org/packages/44/3a/c9e66f4c9c692be4658b8237c571eb952a40d38cf7b80b74b273fa902ecf/mini_racer-0.8.1.tar.gz
+[2024-04-11 03:50:12] INFO root fetch - processPackages [texnomagic]: Downloading https://files.pythonhosted.org/packages/2c/f9/4c6d49b7a8f0ad304b1d2b81fb654e546d5ca4cbb8275012beb76695baba/texnomagic-0.8.0.tar.gz
+[2024-04-11 03:50:12] INFO root fetch - processPackages [linkml-transformer]: Downloading https://files.pythonhosted.org/packages/4e/4c/7bd75f9d2609f55fdae9b2e603f17d434e8decd85f82efe869f2f310b2bd/linkml_transformer-0.2.4.tar.gz
+[2024-04-11 03:50:12] INFO root fetch - processPackages [mini-racer]: Downloading https://files.pythonhosted.org/packages/23/f1/8a84ac147dd69560bc9c5163e2fc9821bef5e9d55cae3ab387889ec41334/mini_racer-0.9.0.tar.gz
+[2024-04-11 03:50:12] INFO root fetch - processPackages [texnomagic]: executing diffoscope
+[2024-04-11 03:50:12] INFO root fetch - processPackages [texnomagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texnomagic-0.7.0.tar.gz tmp/texnomagic-0.8.0.tar.gz --markdown 20240411/t/texnomagic/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-11 03:50:12] INFO root fetch - processPackages [linkml-transformer]: executing diffoscope
+[2024-04-11 03:50:12] INFO root fetch - processPackages [linkml-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_transformer-0.2.3.tar.gz tmp/linkml_transformer-0.2.4.tar.gz --markdown 20240411/l/linkml-transformer/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-11 03:50:12] INFO root fetch - processPackages [mini-racer]: executing diffoscope
+[2024-04-11 03:50:12] INFO root fetch - processPackages [mini-racer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_racer-0.8.1.tar.gz tmp/mini_racer-0.9.0.tar.gz --markdown 20240411/m/mini-racer/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-11 03:50:13] INFO root fetch - processPackages [texnomagic]: Remove: archive file [/home/abi/fetcher/tmp/texnomagic-0.7.0.tar.gz]
+[2024-04-11 03:50:13] INFO root fetch - processPackages [texnomagic]: Remove: archive file [/home/abi/fetcher/tmp/texnomagic-0.8.0.tar.gz]
+[2024-04-11 03:50:13] INFO root fetch - main [MainThread]: End processing [texnomagic]: success
+[2024-04-11 03:50:13] INFO root fetch - processPackages [linkml-transformer]: Remove: archive file [/home/abi/fetcher/tmp/linkml_transformer-0.2.3.tar.gz]
+[2024-04-11 03:50:13] INFO root fetch - processPackages [linkml-transformer]: Remove: archive file [/home/abi/fetcher/tmp/linkml_transformer-0.2.4.tar.gz]
+[2024-04-11 03:50:13] INFO root fetch - main [MainThread]: End processing [linkml-transformer]: success
+[2024-04-11 03:50:13] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.8.1.tar.gz]
+[2024-04-11 03:50:13] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.9.0.tar.gz]
+[2024-04-11 03:50:13] INFO root fetch - main [MainThread]: End processing [mini-racer]: success
+[2024-04-11 03:50:13] INFO root fetch - main [MainThread]: Store serial: [22713162]

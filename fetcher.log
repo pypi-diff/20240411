@@ -14721,3 +14721,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:22:16] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-04-11 10:22:16] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-04-11 10:22:16] INFO root fetch - main [MainThread]: Store serial: [22716268]
+[2024-04-11 10:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716268]
+[2024-04-11 10:24:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspawpy
+[2024-04-11 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-packages
+[2024-04-11 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ffmpeg-media-type
+[2024-04-11 10:24:25] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 10:24:25] INFO root fetch - processPackages [ffmpeg-media-type]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 10:24:25] INFO root fetch - processPackages [dspawpy]: New version: [1.2.2] Old Version: [1.2.0]
+[2024-04-11 10:24:25] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-11 10:24:25] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/8d/82/84ce00e0147f2d24241033bb1db5a92b748354a76e9154c97156c4f51d2e/ffmpeg_media_type-0.0.8.tar.gz
+[2024-04-11 10:24:25] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/f1/49/898a45d76f62187adcfa275da9eefb3263bf66f487a11e9ef4bd96f2e544/dspawpy-1.2.0.tar.gz
+[2024-04-11 10:24:25] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-11 10:24:25] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-11 10:24:25] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240411/a/aws-packages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 10:24:25] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/18/77/cd6952ee0915d6a5f42ea3a0c86c0e800e8e4e18aec49c1540f0c9e98387/dspawpy-1.2.2.tar.gz
+[2024-04-11 10:24:25] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/a6/4c/e0ade181d5a017c692ded84e61b5c551c7ed86b451724ce7d6f6d47293af/ffmpeg_media_type-0.0.9.tar.gz
+[2024-04-11 10:24:25] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2024-04-11 10:24:25] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-1.2.0.tar.gz tmp/dspawpy-1.2.2.tar.gz --markdown 20240411/d/dspawpy/1.2.0-1.2.2/README.md --exclude *.pyd
+[2024-04-11 10:24:25] INFO root fetch - processPackages [ffmpeg-media-type]: executing diffoscope
+[2024-04-11 10:24:25] INFO root fetch - processPackages [ffmpeg-media-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_media_type-0.0.8.tar.gz tmp/ffmpeg_media_type-0.0.9.tar.gz --markdown 20240411/f/ffmpeg-media-type/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 10:24:26] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-11 10:24:26] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-11 10:24:26] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-11 10:24:26] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.2.0.tar.gz]
+[2024-04-11 10:24:26] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.2.2.tar.gz]
+[2024-04-11 10:24:26] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2024-04-11 10:24:26] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.8.tar.gz]
+[2024-04-11 10:24:26] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.9.tar.gz]
+[2024-04-11 10:24:26] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
+[2024-04-11 10:24:26] INFO root fetch - main [MainThread]: Store serial: [22716327]

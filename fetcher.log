@@ -8526,3 +8526,51 @@ EOFError: EOF read where object expected
 [2024-04-11 03:54:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-11 03:54:37] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-11 03:54:37] INFO root fetch - main [MainThread]: Store serial: [22713179]
+[2024-04-11 03:56:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713179]
+[2024-04-11 03:56:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 03:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kucoin-futures-lib
+[2024-04-11 03:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Eryn
+[2024-04-11 03:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RabbitSpider
+[2024-04-11 03:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2024-04-11 03:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2024-04-11 03:56:46] INFO root fetch - processPackages [RabbitSpider]: New version: [1.2.0] Old Version: [1.0.0]
+[2024-04-11 03:56:46] INFO root fetch - processPackages [kucoin-futures-lib]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-11 03:56:46] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.11.9.53.24]
+[2024-04-11 03:56:46] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-11 03:56:46] INFO root fetch - processPackages [Eryn]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-11 03:56:46] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/c5/67/2d05bb3b41bac8749e38a78d86a0029ad8810e7fbe0fca8f4a11307a9660/kucoin_futures_lib-0.4.0.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/60/50/d458339af3b94418956b8ca28790596d4c12450d7041b8e51aac5a8a6a53/RabbitSpider-1.0.0.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/28/71/07c6beb2205fc4ca933a8d0e917ae4cd5add208fb849d021c5e89e8a3b64/chatllm-2024.4.11.9.53.24.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [Eryn]: Downloading https://files.pythonhosted.org/packages/77/57/12ee3a27a0ed55a2f8a266f29cbeb30c5ffdfcc8111b7429ca5211bfe1e8/Eryn-1.1.6.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/e3/52/5baa01fa6594fae1794bd8fde64aecb3be8f1e37e30a228be663173d8d1a/RabbitSpider-1.2.0.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [RabbitSpider]: executing diffoscope
+[2024-04-11 03:56:46] INFO root fetch - processPackages [RabbitSpider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RabbitSpider-1.0.0.tar.gz tmp/RabbitSpider-1.2.0.tar.gz --markdown 20240411/R/RabbitSpider/1.0.0-1.2.0/README.md --exclude *.pyd
+[2024-04-11 03:56:46] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/46/f7/5e12898213af8bf0e4f6a17555add6cfe117b39f1213cd24cc8998bbed01/kucoin_futures_lib-0.5.0.tar.gz
+[2024-04-11 03:56:46] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-11 03:56:46] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240411/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-11 03:56:46] INFO root fetch - processPackages [kucoin-futures-lib]: executing diffoscope
+[2024-04-11 03:56:46] INFO root fetch - processPackages [kucoin-futures-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin_futures_lib-0.4.0.tar.gz tmp/kucoin_futures_lib-0.5.0.tar.gz --markdown 20240411/k/kucoin-futures-lib/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-11 03:56:47] INFO root fetch - processPackages [Eryn]: Downloading https://files.pythonhosted.org/packages/97/16/8a9ef3dc098e4c2bdf4b291b289356039fe79993ede1d1d8f2d9aa0fe6fc/Eryn-1.1.7.tar.gz
+[2024-04-11 03:56:47] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-11 03:56:47] INFO root fetch - processPackages [Eryn]: executing diffoscope
+[2024-04-11 03:56:47] INFO root fetch - processPackages [Eryn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Eryn-1.1.6.tar.gz tmp/Eryn-1.1.7.tar.gz --markdown 20240411/E/Eryn/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-11 03:56:47] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-11 03:56:47] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.11.9.53.24.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240411/c/chatllm/2024.4.11.9.53.24-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-11 03:56:47] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-11 03:56:47] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.4.0.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.5.0.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib]: success
+[2024-04-11 03:56:47] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/RabbitSpider-1.0.0.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/RabbitSpider-1.2.0.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - main [MainThread]: End processing [RabbitSpider]: success
+[2024-04-11 03:56:47] INFO root fetch - processPackages [Eryn]: Remove: archive file [/home/abi/fetcher/tmp/Eryn-1.1.6.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - processPackages [Eryn]: Remove: archive file [/home/abi/fetcher/tmp/Eryn-1.1.7.tar.gz]
+[2024-04-11 03:56:47] INFO root fetch - main [MainThread]: End processing [Eryn]: success
+[2024-04-11 03:56:48] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.11.9.53.24.tar.gz]
+[2024-04-11 03:56:48] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-11 03:56:48] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-11 03:56:48] INFO root fetch - main [MainThread]: Store serial: [22713194]

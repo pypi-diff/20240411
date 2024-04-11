@@ -17158,3 +17158,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:00:45] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-11 11:00:45] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 11:00:45] INFO root fetch - main [MainThread]: Store serial: [22717075]
+[2024-04-11 11:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717075]
+[2024-04-11 11:02:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fuglu
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: merlin-ai
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peegee
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mokei
+[2024-04-11 11:02:55] INFO root fetch - processPackages [mokei]: New version: [0.2.1] Old Version: [0.1.2]
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.42]
+[2024-04-11 11:02:55] INFO root fetch - processPackages [fuglu]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-11 11:02:55] INFO root fetch - processPackages [mokei]: Downloading https://files.pythonhosted.org/packages/c6/4b/21ba8a1e9ff2aaff1f7e6edcdab7a44a715d5528592c53142f187ae8692b/mokei-0.1.2.tar.gz
+[2024-04-11 11:02:55] INFO root fetch - processPackages [merlin-ai]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-11 11:02:55] INFO root fetch - processPackages [peegee]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/c9/be/8a2be77d89147a3d0d031b3ef2120466f6848a059f6f043f95c14a0586bc/ign8-4.8.42.tar.gz
+[2024-04-11 11:02:55] INFO root fetch - processPackages [fuglu]: Downloading https://files.pythonhosted.org/packages/ac/8b/298409d9fa5e4e463608cf9deee1de4470b3f1c6b23ec7d2f535b9d47a66/fuglu-1.4.0.tar.gz
+[2024-04-11 11:02:55] INFO root fetch - processPackages [peegee]: Downloading https://files.pythonhosted.org/packages/e4/65/ed6056ef22f25744e115cee735381600460c55f1a6c478c70621e9c6dd8f/peegee-0.2.2-py3-none-any.whl
+[2024-04-11 11:02:55] INFO root fetch - processPackages [merlin-ai]: Downloading https://files.pythonhosted.org/packages/9d/6f/5b32e99951023ccd1fb61d7ed8c4596a735ec448265d3bb50692a27e1eb3/merlin_ai-0.2.0.tar.gz
+[2024-04-11 11:02:55] INFO root fetch - processPackages [mokei]: Downloading https://files.pythonhosted.org/packages/e1/11/e87ca3ead243d0d63b96d4f41bb08c4fc5842753c5315f8924bd09ec20f2/mokei-0.2.1.tar.gz
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 11:02:55] INFO root fetch - processPackages [mokei]: executing diffoscope
+[2024-04-11 11:02:55] INFO root fetch - processPackages [mokei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mokei-0.1.2.tar.gz tmp/mokei-0.2.1.tar.gz --markdown 20240411/m/mokei/0.1.2-0.2.1/README.md --exclude *.pyd
+[2024-04-11 11:02:55] INFO root fetch - processPackages [peegee]: Downloading https://files.pythonhosted.org/packages/ea/9f/efa344ceec46bb0623a278efdd6147347c92abe3f3add0293ec5e3361c00/peegee-0.2.3-py3-none-any.whl
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 11:02:55] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.42.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.42-4.8.5/README.md --exclude *.pyd
+[2024-04-11 11:02:55] INFO root fetch - processPackages [fuglu]: Downloading https://files.pythonhosted.org/packages/ac/80/c696bab0e676975c4d2940071952a8ea230ee9e0c925110ab3a58505d119/fuglu-1.5.0.tar.gz
+[2024-04-11 11:02:56] INFO root fetch - processPackages [merlin-ai]: Downloading https://files.pythonhosted.org/packages/fb/2d/aaeaf3b8211908514834c8cdffea68f7f5df5939f2e2fda8ce9552c5cd5d/merlin_ai-0.3.0.tar.gz
+[2024-04-11 11:02:56] INFO root fetch - processPackages [peegee]: executing diffoscope
+[2024-04-11 11:02:56] INFO root fetch - processPackages [peegee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peegee-0.2.2-py3-none-any.whl.zip tmp/peegee-0.2.3-py3-none-any.whl.zip --markdown 20240411/p/peegee/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-11 11:02:56] INFO root fetch - processPackages [merlin-ai]: executing diffoscope
+[2024-04-11 11:02:56] INFO root fetch - processPackages [merlin-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin_ai-0.2.0.tar.gz tmp/merlin_ai-0.3.0.tar.gz --markdown 20240411/m/merlin-ai/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-11 11:02:56] INFO root fetch - processPackages [fuglu]: executing diffoscope
+[2024-04-11 11:02:56] INFO root fetch - processPackages [fuglu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuglu-1.4.0.tar.gz tmp/fuglu-1.5.0.tar.gz --markdown 20240411/f/fuglu/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-11 11:02:57] INFO root fetch - processPackages [mokei]: Remove: archive file [/home/abi/fetcher/tmp/mokei-0.1.2.tar.gz]
+[2024-04-11 11:02:57] INFO root fetch - processPackages [mokei]: Remove: archive file [/home/abi/fetcher/tmp/mokei-0.2.1.tar.gz]
+[2024-04-11 11:02:57] INFO root fetch - main [MainThread]: End processing [mokei]: success
+[2024-04-11 11:02:57] INFO root fetch - processPackages [peegee]: Remove: archive file [/home/abi/fetcher/tmp/peegee-0.2.2-py3-none-any.whl.zip]
+[2024-04-11 11:02:57] INFO root fetch - processPackages [peegee]: Remove: archive file [/home/abi/fetcher/tmp/peegee-0.2.3-py3-none-any.whl.zip]
+[2024-04-11 11:02:57] INFO root fetch - main [MainThread]: End processing [peegee]: success
+[2024-04-11 11:02:57] INFO root fetch - processPackages [merlin-ai]: Remove: archive file [/home/abi/fetcher/tmp/merlin_ai-0.2.0.tar.gz]
+[2024-04-11 11:02:57] INFO root fetch - processPackages [merlin-ai]: Remove: archive file [/home/abi/fetcher/tmp/merlin_ai-0.3.0.tar.gz]
+[2024-04-11 11:02:57] INFO root fetch - main [MainThread]: End processing [merlin-ai]: success
+[2024-04-11 11:02:58] INFO root fetch - processPackages [fuglu]: Remove: archive file [/home/abi/fetcher/tmp/fuglu-1.4.0.tar.gz]
+[2024-04-11 11:02:58] INFO root fetch - processPackages [fuglu]: Remove: archive file [/home/abi/fetcher/tmp/fuglu-1.5.0.tar.gz]
+[2024-04-11 11:02:58] INFO root fetch - main [MainThread]: End processing [fuglu]: success
+[2024-04-11 11:03:00] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.42.tar.gz]
+[2024-04-11 11:03:00] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 11:03:00] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 11:03:00] INFO root fetch - main [MainThread]: Store serial: [22717085]

@@ -11187,3 +11187,18 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:43:37] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-0.9.0.tar.gz]
 [2024-04-11 06:43:37] INFO root fetch - main [MainThread]: End processing [python-flux]: success
 [2024-04-11 06:43:37] INFO root fetch - main [MainThread]: Store serial: [22714419]
+[2024-04-11 06:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714419]
+[2024-04-11 06:45:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 06:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LangList
+[2024-04-11 06:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocco
+[2024-04-11 06:45:47] WARNING root fetch - processPackages [LangList]: Skipping, unable to determine old version
+[2024-04-11 06:45:47] INFO root fetch - main [MainThread]: End processing [LangList] error
+[2024-04-11 06:45:47] INFO root fetch - processPackages [rocco]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-11 06:45:47] INFO root fetch - processPackages [rocco]: Downloading https://files.pythonhosted.org/packages/12/ef/26074866440aaac88be722a6b157a61e36608820927177d4eee208a5cd85/rocco-0.9.4.tar.gz
+[2024-04-11 06:45:47] INFO root fetch - processPackages [rocco]: Downloading https://files.pythonhosted.org/packages/00/9c/aded4e8cecd3c2248c666a5da3d227359dca9c18deb02270c35cc16df8a6/rocco-0.9.5.tar.gz
+[2024-04-11 06:45:48] INFO root fetch - processPackages [rocco]: executing diffoscope
+[2024-04-11 06:45:48] INFO root fetch - processPackages [rocco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocco-0.9.4.tar.gz tmp/rocco-0.9.5.tar.gz --markdown 20240411/r/rocco/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-11 06:45:48] INFO root fetch - processPackages [rocco]: Remove: archive file [/home/abi/fetcher/tmp/rocco-0.9.4.tar.gz]
+[2024-04-11 06:45:48] INFO root fetch - processPackages [rocco]: Remove: archive file [/home/abi/fetcher/tmp/rocco-0.9.5.tar.gz]
+[2024-04-11 06:45:48] INFO root fetch - main [MainThread]: End processing [rocco]: success
+[2024-04-11 06:45:48] INFO root fetch - main [MainThread]: Store serial: [22714426]

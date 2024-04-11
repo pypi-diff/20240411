@@ -3431,3 +3431,24 @@ EOFError: EOF read where object expected
 [2024-04-11 02:43:24] INFO root fetch - processPackages [up-python]: Remove: archive file [/home/abi/fetcher/tmp/up_python-0.1.2.dev0.tar.gz]
 [2024-04-11 02:43:24] INFO root fetch - main [MainThread]: End processing [up-python]: success
 [2024-04-11 02:43:24] INFO root fetch - main [MainThread]: Store serial: [22711601]
+[2024-04-11 02:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711601]
+[2024-04-11 02:45:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 02:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulsefire-types
+[2024-04-11 02:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-04-11 02:45:33] INFO root fetch - processPackages [pulsefire-types]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-11 02:45:33] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404100044] Old Version: [4.9.4.dev202404090044]
+[2024-04-11 02:45:33] INFO root fetch - processPackages [pulsefire-types]: Downloading https://files.pythonhosted.org/packages/3b/57/81d5b8b26eec4ab8ae9d9b223d24a4e7b4a9257277d055fb88cda61b1137/pulsefire-types-2.0.8.tar.gz
+[2024-04-11 02:45:33] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/7b/60/d867fa2f8354d9e60c6b33b136630447018eefd03e467720fa23aa831762/tfds-nightly-4.9.4.dev202404090044.tar.gz
+[2024-04-11 02:45:33] INFO root fetch - processPackages [pulsefire-types]: Downloading https://files.pythonhosted.org/packages/8f/87/bc3e0e7959ef9348157f4b25fb22bdbdfb2619659bceb13b1aa69209d2e5/pulsefire-types-2.0.9.tar.gz
+[2024-04-11 02:45:34] INFO root fetch - processPackages [pulsefire-types]: executing diffoscope
+[2024-04-11 02:45:34] INFO root fetch - processPackages [pulsefire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsefire-types-2.0.8.tar.gz tmp/pulsefire-types-2.0.9.tar.gz --markdown 20240411/p/pulsefire-types/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-11 02:45:34] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/64/b6/de033285c9bbac72f91eb2a91736256cc507976125c7ae5c713d3cd0902b/tfds-nightly-4.9.4.dev202404100044.tar.gz
+[2024-04-11 02:45:34] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-11 02:45:34] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404090044.tar.gz tmp/tfds-nightly-4.9.4.dev202404100044.tar.gz --markdown 20240411/t/tfds-nightly/4.9.4.dev202404090044-4.9.4.dev202404100044/README.md --exclude *.pyd
+[2024-04-11 02:45:34] INFO root fetch - processPackages [pulsefire-types]: Remove: archive file [/home/abi/fetcher/tmp/pulsefire-types-2.0.8.tar.gz]
+[2024-04-11 02:45:34] INFO root fetch - processPackages [pulsefire-types]: Remove: archive file [/home/abi/fetcher/tmp/pulsefire-types-2.0.9.tar.gz]
+[2024-04-11 02:45:34] INFO root fetch - main [MainThread]: End processing [pulsefire-types]: success
+[2024-04-11 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404090044.tar.gz]
+[2024-04-11 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404100044.tar.gz]
+[2024-04-11 02:45:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-11 02:45:43] INFO root fetch - main [MainThread]: Store serial: [22711607]

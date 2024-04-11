@@ -14056,3 +14056,69 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:42:48] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.7.tar.gz]
 [2024-04-11 09:42:48] INFO root fetch - main [MainThread]: End processing [tomwer]: success
 [2024-04-11 09:42:48] INFO root fetch - main [MainThread]: Store serial: [22715879]
+[2024-04-11 09:44:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715879]
+[2024-04-11 09:44:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyosv
+[2024-04-11 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb-wrapper
+[2024-04-11 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reviutils
+[2024-04-11 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: headline-gen
+[2024-04-11 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj_sinp_nomenclatures
+[2024-04-11 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dnspooh
+[2024-04-11 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-field-logger
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dnspooh]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-11 09:44:57] INFO root fetch - processPackages [pyosv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 09:44:57] INFO root fetch - processPackages [tb-wrapper]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-11 09:44:57] INFO root fetch - processPackages [headline-gen]: New version: [2.1] Old Version: [2.0]
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dj_sinp_nomenclatures]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dnspooh]: Downloading https://files.pythonhosted.org/packages/af/a0/3309a130adb57996cd4e5fb70300f1241438f441b2d853828bdf28599c63/dnspooh-1.3.1.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 09:44:57] INFO root fetch - processPackages [reviutils]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-11 09:44:57] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/83/7b/361ff8d612d386fd7baf4bb3a12538b7e469e1cc7245280118f0c8c54d1d/headline-gen-2.0.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/72/bd/f4dbaf978e4248a96e17dffc15354fc715f759dcf840b41cd4cf07df41b0/tb_wrapper-0.1.6.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [pyosv]: Downloading https://files.pythonhosted.org/packages/3f/9f/1a7299c86dc479af306e1b9d834083076a341c3b55316a9054c6b8168d51/pyosv-0.0.8.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dj_sinp_nomenclatures]: Downloading https://files.pythonhosted.org/packages/83/13/906ee8800c127e349e2675fa015b07460257c33f98d8810464c766324ead/dj_sinp_nomenclatures-1.0.0.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/2e/76/fee79277fe29884f114e7b6c73dc6ddeb53e297db1e857ed12e6a7722eae/reviutils-1.3.1.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/1c/b1/0c28001b1c64dc68f23f04b7ed59dc0c799098d1b32e8eb9504b9754fc22/django-field-logger-0.0.8.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dnspooh]: Downloading https://files.pythonhosted.org/packages/17/4e/3805c1a8f34720302a65ecfd5643067769967fbcacea5e853f3dc000ffc9/dnspooh-1.3.2.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [pyosv]: Downloading https://files.pythonhosted.org/packages/cd/75/82803fd1bb05e9003026185f67f0de76c76f20721198bfc0cd2f7a6caf02/pyosv-0.0.9.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/4b/4d/09ec7150f298a964c7d28e9403bf4d2bde6616e69487b18807f84837050e/headline-gen-2.1.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/37/a5/9bfd469afaafc4f12a12fe0b62185751d4d7fc7a410a1a8bcf781a03c309/tb_wrapper-0.1.7.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [pyosv]: executing diffoscope
+[2024-04-11 09:44:57] INFO root fetch - processPackages [pyosv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosv-0.0.8.tar.gz tmp/pyosv-0.0.9.tar.gz --markdown 20240411/p/pyosv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dnspooh]: executing diffoscope
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dnspooh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnspooh-1.3.1.tar.gz tmp/dnspooh-1.3.2.tar.gz --markdown 20240411/d/dnspooh/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-11 09:44:57] INFO root fetch - processPackages [headline-gen]: executing diffoscope
+[2024-04-11 09:44:57] INFO root fetch - processPackages [headline-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headline-gen-2.0.tar.gz tmp/headline-gen-2.1.tar.gz --markdown 20240411/h/headline-gen/2.0-2.1/README.md --exclude *.pyd
+[2024-04-11 09:44:57] INFO root fetch - processPackages [dj_sinp_nomenclatures]: Downloading https://files.pythonhosted.org/packages/8f/61/86f22fa4f80e42442a86942e5c8d75a2f285efa67d467af7b7bcfab71e0f/dj_sinp_nomenclatures-1.0.1.tar.gz
+[2024-04-11 09:44:57] INFO root fetch - processPackages [tb-wrapper]: executing diffoscope
+[2024-04-11 09:44:57] INFO root fetch - processPackages [tb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_wrapper-0.1.6.tar.gz tmp/tb_wrapper-0.1.7.tar.gz --markdown 20240411/t/tb-wrapper/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-11 09:44:57] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/bd/46/dd6490c220f2ffefe97e0545ff5890131b245d390529a7370bd824b2c1c4/reviutils-1.3.2.tar.gz
+[2024-04-11 09:44:58] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/5c/38/5b6cb284e041551a472a53325ce600b28a43088933b8022578ffa40f44de/django-field-logger-0.0.9.tar.gz
+[2024-04-11 09:44:58] INFO root fetch - processPackages [dj_sinp_nomenclatures]: executing diffoscope
+[2024-04-11 09:44:58] INFO root fetch - processPackages [dj_sinp_nomenclatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_sinp_nomenclatures-1.0.0.tar.gz tmp/dj_sinp_nomenclatures-1.0.1.tar.gz --markdown 20240411/d/dj_sinp_nomenclatures/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 09:44:58] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-11 09:44:58] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.1.tar.gz tmp/reviutils-1.3.2.tar.gz --markdown 20240411/r/reviutils/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-11 09:44:58] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-11 09:44:58] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-field-logger-0.0.8.tar.gz tmp/django-field-logger-0.0.9.tar.gz --markdown 20240411/d/django-field-logger/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 09:44:58] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-2.0.tar.gz]
+[2024-04-11 09:44:58] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-2.1.tar.gz]
+[2024-04-11 09:44:58] INFO root fetch - main [MainThread]: End processing [headline-gen]: success
+[2024-04-11 09:44:58] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.6.tar.gz]
+[2024-04-11 09:44:58] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.7.tar.gz]
+[2024-04-11 09:44:58] INFO root fetch - main [MainThread]: End processing [tb-wrapper]: success
+[2024-04-11 09:44:58] INFO root fetch - processPackages [pyosv]: Remove: archive file [/home/abi/fetcher/tmp/pyosv-0.0.8.tar.gz]
+[2024-04-11 09:44:58] INFO root fetch - processPackages [pyosv]: Remove: archive file [/home/abi/fetcher/tmp/pyosv-0.0.9.tar.gz]
+[2024-04-11 09:44:58] INFO root fetch - main [MainThread]: End processing [pyosv]: success
+[2024-04-11 09:44:59] INFO root fetch - processPackages [dnspooh]: Remove: archive file [/home/abi/fetcher/tmp/dnspooh-1.3.1.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - processPackages [dnspooh]: Remove: archive file [/home/abi/fetcher/tmp/dnspooh-1.3.2.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - main [MainThread]: End processing [dnspooh]: success
+[2024-04-11 09:44:59] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.8.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.9.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-11 09:44:59] INFO root fetch - processPackages [dj_sinp_nomenclatures]: Remove: archive file [/home/abi/fetcher/tmp/dj_sinp_nomenclatures-1.0.0.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - processPackages [dj_sinp_nomenclatures]: Remove: archive file [/home/abi/fetcher/tmp/dj_sinp_nomenclatures-1.0.1.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - main [MainThread]: End processing [dj_sinp_nomenclatures]: success
+[2024-04-11 09:44:59] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.1.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.2.tar.gz]
+[2024-04-11 09:44:59] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-11 09:44:59] INFO root fetch - main [MainThread]: Store serial: [22715898]

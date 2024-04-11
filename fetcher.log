@@ -20711,3 +20711,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:03:55] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.9.2.dev0.tar.gz]
 [2024-04-11 13:03:55] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2024-04-11 13:03:55] INFO root fetch - main [MainThread]: Store serial: [22718546]
+[2024-04-11 13:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718546]
+[2024-04-11 13:06:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcffont
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: janus-core
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hilda
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-fedit
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ign8
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ign8]: New version: [4.9.5] Old Version: [4.9.4]
+[2024-04-11 13:06:05] INFO root fetch - processPackages [hilda]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-11 13:06:05] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/44/aa/3853ed1cf2768c031b9bc218be718e162bae899a9f52530458183acb8fa1/ign8-4.9.4.tar.gz
+[2024-04-11 13:06:05] INFO root fetch - processPackages [janus-core]: New version: [0.2.0b5] Old Version: [0.2.0b4]
+[2024-04-11 13:06:05] WARNING root fetch - processPackages [pcffont]: Skipping, unable to determine old version
+[2024-04-11 13:06:05] INFO root fetch - main [MainThread]: End processing [pcffont] error
+[2024-04-11 13:06:05] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/b8/be/7e6a99d14e31c4312196068c130421e978699081a5f7e39367e563b63234/wagtail_fedit-1.4.5.tar.gz
+[2024-04-11 13:06:05] INFO root fetch - processPackages [hilda]: Downloading https://files.pythonhosted.org/packages/3b/2c/ba5fea480e5050cac640588765ac26e785ed0f03e4a0146f6cb6d1d4daab/hilda-1.4.1.tar.gz
+[2024-04-11 13:06:05] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/59/71/570a51b6a2d3287bd4f7ee05915d78e3cf76277e42f8c7b59b292386606d/janus_core-0.2.0b4.tar.gz
+[2024-04-11 13:06:05] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/b3/07/9f5087427eb5a670c82a82e026a31f6794771374576315dd5094b78c091f/ign8-4.9.5.tar.gz
+[2024-04-11 13:06:05] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/3c/7c/13f8985ea4ca8d4271141598af320d49886516f13c16f3cdca4ce18851f1/wagtail_fedit-1.4.6.tar.gz
+[2024-04-11 13:06:06] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/25/65/80bcbb4ea36d6b2ae4f0eeb43124b2693e98103ecf0b00964c3126a6a115/janus_core-0.2.0b5.tar.gz
+[2024-04-11 13:06:06] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-11 13:06:06] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.4.5.tar.gz tmp/wagtail_fedit-1.4.6.tar.gz --markdown 20240411/w/wagtail-fedit/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-04-11 13:06:06] INFO root fetch - processPackages [janus-core]: executing diffoscope
+[2024-04-11 13:06:06] INFO root fetch - processPackages [janus-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_core-0.2.0b4.tar.gz tmp/janus_core-0.2.0b5.tar.gz --markdown 20240411/j/janus-core/0.2.0b4-0.2.0b5/README.md --exclude *.pyd
+[2024-04-11 13:06:06] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:06:06] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.4.tar.gz tmp/ign8-4.9.5.tar.gz --markdown 20240411/i/ign8/4.9.4-4.9.5/README.md --exclude *.pyd
+[2024-04-11 13:06:06] INFO root fetch - processPackages [hilda]: Downloading https://files.pythonhosted.org/packages/c1/81/ca6a62a74bdf4a9dd79b285b65866fce174711afb681bcaa0c970cc1adb3/hilda-1.4.2.tar.gz
+[2024-04-11 13:06:06] INFO root fetch - processPackages [hilda]: executing diffoscope
+[2024-04-11 13:06:06] INFO root fetch - processPackages [hilda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hilda-1.4.1.tar.gz tmp/hilda-1.4.2.tar.gz --markdown 20240411/h/hilda/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-11 13:06:06] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.5.tar.gz]
+[2024-04-11 13:06:06] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.6.tar.gz]
+[2024-04-11 13:06:06] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-11 13:06:06] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.2.0b4.tar.gz]
+[2024-04-11 13:06:06] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.2.0b5.tar.gz]
+[2024-04-11 13:06:06] INFO root fetch - main [MainThread]: End processing [janus-core]: success
+[2024-04-11 13:06:07] INFO root fetch - processPackages [hilda]: Remove: archive file [/home/abi/fetcher/tmp/hilda-1.4.1.tar.gz]
+[2024-04-11 13:06:07] INFO root fetch - processPackages [hilda]: Remove: archive file [/home/abi/fetcher/tmp/hilda-1.4.2.tar.gz]
+[2024-04-11 13:06:07] INFO root fetch - main [MainThread]: End processing [hilda]: success
+[2024-04-11 13:06:09] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.4.tar.gz]
+[2024-04-11 13:06:09] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.5.tar.gz]
+[2024-04-11 13:06:09] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:06:09] INFO root fetch - main [MainThread]: Store serial: [22718570]

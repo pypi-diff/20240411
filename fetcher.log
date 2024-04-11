@@ -9505,3 +9505,47 @@ EOFError: EOF read where object expected
 [2024-04-11 05:07:34] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.2.tar.gz]
 [2024-04-11 05:07:34] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-11 05:07:34] INFO root fetch - main [MainThread]: Store serial: [22713617]
+[2024-04-11 05:09:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713617]
+[2024-04-11 05:09:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erlab
+[2024-04-11 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distcrab
+[2024-04-11 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toml-to-requirements
+[2024-04-11 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alliance-platform-frontend
+[2024-04-11 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sourcery-nightly
+[2024-04-11 05:09:43] INFO root fetch - processPackages [erlab]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-11 05:09:43] INFO root fetch - processPackages [alliance-platform-frontend]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 05:09:43] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/5d/2f/b7c7f1785bc597e6b4a0799c8af1cd18f2cc1f172889c95fd3ffbffca1d8/erlab-2.1.2.tar.gz
+[2024-04-11 05:09:43] INFO root fetch - processPackages [toml-to-requirements]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 05:09:43] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 05:09:43] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-11 05:09:43] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/f7/6b/dde800e97477388f6e109300480600730dee433c44fd070562b27ee644c9/toml_to_requirements-0.2.0.tar.gz
+[2024-04-11 05:09:44] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/77/ab/9b766dd680d7158df4746ca0643ceda420f44a880bfb5b1bb5fd19e03e31/alliance_platform_frontend-0.0.2.tar.gz
+[2024-04-11 05:09:44] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2024-04-11 05:09:44] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-04-11 05:09:44] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-04-11 05:09:44] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-04-11 05:09:44] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/4f/e8/e348abf742a26e4a5e0a7f1981d27e1beef7dc90b3b804117fa008625223/toml_to_requirements-0.2.1.tar.gz
+[2024-04-11 05:09:44] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/3d/e1/2ab3fd1976e413c8420a759531500d442684a01b73670632ac46f6bb9702/alliance_platform_frontend-0.0.3.tar.gz
+[2024-04-11 05:09:44] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/2c/33/a056bc8cc11cd7f04af2f67a3db15c5c39edb9f2cda96aef28d91389f438/erlab-2.1.3.tar.gz
+[2024-04-11 05:09:44] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2024-04-11 05:09:44] INFO root fetch - processPackages [toml-to-requirements]: executing diffoscope
+[2024-04-11 05:09:44] INFO root fetch - processPackages [toml-to-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_to_requirements-0.2.0.tar.gz tmp/toml_to_requirements-0.2.1.tar.gz --markdown 20240411/t/toml-to-requirements/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 05:09:44] INFO root fetch - processPackages [alliance-platform-frontend]: executing diffoscope
+[2024-04-11 05:09:44] INFO root fetch - processPackages [alliance-platform-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_frontend-0.0.2.tar.gz tmp/alliance_platform_frontend-0.0.3.tar.gz --markdown 20240411/a/alliance-platform-frontend/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 05:09:44] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2024-04-11 05:09:44] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20240411/d/distcrab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 05:09:44] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-11 05:09:44] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.1.2.tar.gz tmp/erlab-2.1.3.tar.gz --markdown 20240411/e/erlab/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-11 05:09:45] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.2.0.tar.gz]
+[2024-04-11 05:09:45] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.2.1.tar.gz]
+[2024-04-11 05:09:45] INFO root fetch - main [MainThread]: End processing [toml-to-requirements]: success
+[2024-04-11 05:09:45] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2024-04-11 05:09:45] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2024-04-11 05:09:45] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2024-04-11 05:09:45] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.2.tar.gz]
+[2024-04-11 05:09:45] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.3.tar.gz]
+[2024-04-11 05:09:45] INFO root fetch - main [MainThread]: End processing [alliance-platform-frontend]: success
+[2024-04-11 05:09:46] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.2.tar.gz]
+[2024-04-11 05:09:46] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.3.tar.gz]
+[2024-04-11 05:09:46] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-11 05:09:46] INFO root fetch - main [MainThread]: Store serial: [22713633]

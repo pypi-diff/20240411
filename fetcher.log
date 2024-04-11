@@ -13294,3 +13294,72 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:58:48] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.7.tar.gz]
 [2024-04-11 08:58:48] INFO root fetch - main [MainThread]: End processing [lazyad]: success
 [2024-04-11 08:58:48] INFO root fetch - main [MainThread]: Store serial: [22715514]
+[2024-04-11 09:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715514]
+[2024-04-11 09:00:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ast-grep-cli
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeMeST
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambdaq
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: traceloop-sdk
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slurmpie
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vos
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysql-server-has-gone
+[2024-04-11 09:00:57] INFO root fetch - processPackages [slurmpie]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-11 09:00:57] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-11 09:00:57] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-11 09:00:57] INFO root fetch - processPackages [slurmpie]: Downloading https://files.pythonhosted.org/packages/25/45/434ff66de5a8c2901743a0848a82c92d432eba2f5205c1436c20c4ceeb6d/slurmpie-0.8.2.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-11 09:00:57] WARNING root fetch - processPackages [mysql-server-has-gone]: Skipping, unable to determine old version
+[2024-04-11 09:00:57] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone] error
+[2024-04-11 09:00:57] INFO root fetch - processPackages [lambdaq]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-11 09:00:57] INFO root fetch - processPackages [vos]: New version: [3.6rc0] Old Version: [3.5]
+[2024-04-11 09:00:57] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-11 09:00:57] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [slurmpie]: Downloading https://files.pythonhosted.org/packages/4a/11/4bf1ed404966f396aa2482f1f47dd9d38125f63d30bb837df3e0da0a3ee3/slurmpie-0.8.3.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [vos]: Downloading https://files.pythonhosted.org/packages/ca/33/56c88bd2a9341038ab79935d5e013f463975de38c2b9ce2cfc3b3435c9be/vos-3.5.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [lambdaq]: Downloading https://files.pythonhosted.org/packages/3c/df/2f3112f09f1362493f43b6ea0881b104d9dc73ef167865b759bc638fdf28/lambdaq-0.0.1-py3-none-any.whl
+[2024-04-11 09:00:57] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [slurmpie]: executing diffoscope
+[2024-04-11 09:00:57] INFO root fetch - processPackages [slurmpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmpie-0.8.2.tar.gz tmp/slurmpie-0.8.3.tar.gz --markdown 20240411/s/slurmpie/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-11 09:00:57] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-11 09:00:57] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240411/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-11 09:00:57] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-11 09:00:57] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [lambdaq]: Downloading https://files.pythonhosted.org/packages/8c/bd/0f0edb774772463e4656bef0438207fe25b1e19dd451a95fe06e71e2dc1c/lambdaq-0.0.3-py3-none-any.whl
+[2024-04-11 09:00:57] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-11 09:00:57] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240411/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-11 09:00:57] INFO root fetch - processPackages [vos]: Downloading https://files.pythonhosted.org/packages/a2/18/384700ece925e9c167bc0d39e0128886a680f8e9a2907c8e236c3aeda24b/vos-3.6rc0.tar.gz
+[2024-04-11 09:00:57] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-04-11 09:00:58] INFO root fetch - processPackages [lambdaq]: executing diffoscope
+[2024-04-11 09:00:58] INFO root fetch - processPackages [lambdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdaq-0.0.1-py3-none-any.whl.zip tmp/lambdaq-0.0.3-py3-none-any.whl.zip --markdown 20240411/l/lambdaq/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-11 09:00:58] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2024-04-11 09:00:58] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20240411/a/ast-grep-cli/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-11 09:00:58] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-04-11 09:00:58] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240411/t/traceloop-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-11 09:00:58] INFO root fetch - processPackages [vos]: executing diffoscope
+[2024-04-11 09:00:58] INFO root fetch - processPackages [vos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vos-3.5.tar.gz tmp/vos-3.6rc0.tar.gz --markdown 20240411/v/vos/3.5-3.6rc0/README.md --exclude *.pyd
+[2024-04-11 09:00:58] INFO root fetch - processPackages [slurmpie]: Remove: archive file [/home/abi/fetcher/tmp/slurmpie-0.8.2.tar.gz]
+[2024-04-11 09:00:58] INFO root fetch - processPackages [slurmpie]: Remove: archive file [/home/abi/fetcher/tmp/slurmpie-0.8.3.tar.gz]
+[2024-04-11 09:00:58] INFO root fetch - main [MainThread]: End processing [slurmpie]: success
+[2024-04-11 09:00:58] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-11 09:00:58] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-11 09:00:58] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-11 09:00:58] INFO root fetch - processPackages [lambdaq]: Remove: archive file [/home/abi/fetcher/tmp/lambdaq-0.0.1-py3-none-any.whl.zip]
+[2024-04-11 09:00:58] INFO root fetch - processPackages [lambdaq]: Remove: archive file [/home/abi/fetcher/tmp/lambdaq-0.0.3-py3-none-any.whl.zip]
+[2024-04-11 09:00:58] INFO root fetch - main [MainThread]: End processing [lambdaq]: success
+[2024-04-11 09:00:58] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-11 09:00:58] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-11 09:00:58] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-11 09:00:58] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-04-11 09:00:58] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-04-11 09:00:58] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-04-11 09:00:59] INFO root fetch - processPackages [vos]: Remove: archive file [/home/abi/fetcher/tmp/vos-3.5.tar.gz]
+[2024-04-11 09:00:59] INFO root fetch - processPackages [vos]: Remove: archive file [/home/abi/fetcher/tmp/vos-3.6rc0.tar.gz]
+[2024-04-11 09:00:59] INFO root fetch - main [MainThread]: End processing [vos]: success
+[2024-04-11 09:00:59] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2024-04-11 09:00:59] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2024-04-11 09:00:59] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2024-04-11 09:00:59] INFO root fetch - main [MainThread]: Store serial: [22715544]

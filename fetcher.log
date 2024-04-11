@@ -2986,3 +2986,90 @@ EOFError: EOF read where object expected
 [2024-04-11 02:26:05] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-04-11 02:26:05] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-04-11 02:26:05] INFO root fetch - main [MainThread]: Store serial: [22711385]
+[2024-04-11 02:28:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711385]
+[2024-04-11 02:28:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-serverless-clamscan
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: five-strips-of-bacon
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-ecs-service-extensions
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gdsfactory
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-gitlab-runner
+[2024-04-11 02:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-aurora-globaldatabase
+[2024-04-11 02:28:14] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-11 02:28:15] WARNING root fetch - processPackages [five-strips-of-bacon]: Skipping, unable to determine old version
+[2024-04-11 02:28:15] INFO root fetch - main [MainThread]: End processing [five-strips-of-bacon] error
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.81]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [gdsfactory]: New version: [7.9.4] Old Version: [7.9.3]
+[2024-04-11 02:28:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/fb/ed/db9f3b09a78ca8a3c167a6ee51dc243ed8a745a2d37d19b4fd6a60213c61/edc-0.5.81.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/1c/96/7a29503ca823dbf6601482ccaa06c4ed69751cfe757c588af2d42d0144a1/gdsfactory-7.9.3.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240411/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-11 02:28:15] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-11 02:28:15] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240411/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240411/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240411/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240411/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-11 02:28:15] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240411/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240411/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-11 02:28:16] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/9f/1a/628268e13c9a7b40bfd62de355f5bf3a597a44e601c8a59044e8b419bfe9/gdsfactory-7.9.4.tar.gz
+[2024-04-11 02:28:16] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2024-04-11 02:28:16] INFO root fetch - processPackages [edc]: executing diffoscope
+[2024-04-11 02:28:16] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.81.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20240411/e/edc/0.5.81-0.5.9/README.md --exclude *.pyd
+[2024-04-11 02:28:16] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2024-04-11 02:28:16] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.9.3.tar.gz tmp/gdsfactory-7.9.4.tar.gz --markdown 20240411/g/gdsfactory/7.9.3-7.9.4/README.md --exclude *.pyd
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-11 02:28:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-11 02:28:16] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-11 02:28:17] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.81.tar.gz]
+[2024-04-11 02:28:17] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2024-04-11 02:28:17] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2024-04-11 02:28:18] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.3.tar.gz]
+[2024-04-11 02:28:18] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
+[2024-04-11 02:28:18] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2024-04-11 02:28:18] INFO root fetch - main [MainThread]: Store serial: [22711477]

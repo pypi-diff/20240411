@@ -11012,3 +11012,18 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:28:15] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl.zip]
 [2024-04-11 06:28:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-account-edi-ubl]: success
 [2024-04-11 06:28:15] INFO root fetch - main [MainThread]: Store serial: [22714346]
+[2024-04-11 06:30:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714346]
+[2024-04-11 06:30:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 06:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypeec
+[2024-04-11 06:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: headline-gen
+[2024-04-11 06:30:23] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-11 06:30:23] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-11 06:30:23] INFO root fetch - processPackages [pypeec]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-11 06:30:23] INFO root fetch - processPackages [pypeec]: Downloading https://files.pythonhosted.org/packages/95/6a/11228d9ff2eeb1603e23a5f900331b83333564167ac0fe64584dfd27cf9d/pypeec-4.8.0.tar.gz
+[2024-04-11 06:30:26] INFO root fetch - processPackages [pypeec]: Downloading https://files.pythonhosted.org/packages/c0/ad/ffe32ac50a5f9ebe3d67d18282ad2f09ff2581e6987f65b40c7e9f5d4d64/pypeec-4.9.0.tar.gz
+[2024-04-11 06:30:27] INFO root fetch - processPackages [pypeec]: executing diffoscope
+[2024-04-11 06:30:27] INFO root fetch - processPackages [pypeec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypeec-4.8.0.tar.gz tmp/pypeec-4.9.0.tar.gz --markdown 20240411/p/pypeec/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-11 06:30:31] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-4.8.0.tar.gz]
+[2024-04-11 06:30:31] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-4.9.0.tar.gz]
+[2024-04-11 06:30:31] INFO root fetch - main [MainThread]: End processing [pypeec]: success
+[2024-04-11 06:30:31] INFO root fetch - main [MainThread]: Store serial: [22714352]

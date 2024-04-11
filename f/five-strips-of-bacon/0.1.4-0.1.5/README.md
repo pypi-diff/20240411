@@ -1,0 +1,114 @@
+# Comparing `tmp/five_strips_of_bacon-0.1.4.tar.gz` & `tmp/five_strips_of_bacon-0.1.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "five_strips_of_bacon-0.1.4.tar", max compression
++gzip compressed data, was "five_strips_of_bacon-0.1.5.tar", max compression
+```
+
+## Comparing `five_strips_of_bacon-0.1.4.tar` & `five_strips_of_bacon-0.1.5.tar`
+
+### file list
+
+```diff
+@@ -1,7 +1,7 @@
+--rw-r--r--   0        0        0     1118 2024-04-09 18:02:12.474693 five_strips_of_bacon-0.1.4/README.md
+--rw-r--r--   0        0        0      636 2024-04-11 03:29:00.914683 five_strips_of_bacon-0.1.4/pyproject.toml
+--rw-r--r--   0        0        0     2256 2023-10-20 03:40:16.732000 five_strips_of_bacon-0.1.4/src/bacon.py
+--rw-r--r--   0        0        0     2866 2024-04-09 18:08:34.450000 five_strips_of_bacon-0.1.4/src/decode_five_strips_of_bacon.py
+--rw-r--r--   0        0        0     7954 2024-04-11 03:25:02.307806 five_strips_of_bacon-0.1.4/src/main.py
+--rw-r--r--   0        0        0    29094 2024-03-08 05:34:01.619000 five_strips_of_bacon-0.1.4/src/resources/bacon_five.png
+--rw-r--r--   0        0        0     1762 1970-01-01 00:00:00.000000 five_strips_of_bacon-0.1.4/PKG-INFO
++-rw-r--r--   0        0        0     1118 2024-04-09 18:02:12.474693 five_strips_of_bacon-0.1.5/README.md
++-rw-r--r--   0        0        0      636 2024-04-11 03:44:58.864472 five_strips_of_bacon-0.1.5/pyproject.toml
++-rw-r--r--   0        0        0     2256 2023-10-20 03:40:16.732000 five_strips_of_bacon-0.1.5/src/bacon.py
++-rw-r--r--   0        0        0     2866 2024-04-09 18:08:34.450000 five_strips_of_bacon-0.1.5/src/decode_five_strips_of_bacon.py
++-rw-r--r--   0        0        0     7957 2024-04-11 03:44:04.337926 five_strips_of_bacon-0.1.5/src/main.py
++-rw-r--r--   0        0        0    29094 2024-03-08 05:34:01.619000 five_strips_of_bacon-0.1.5/src/resources/bacon_five.png
++-rw-r--r--   0        0        0     1762 1970-01-01 00:00:00.000000 five_strips_of_bacon-0.1.5/PKG-INFO
+```
+
+### Comparing `five_strips_of_bacon-0.1.4/README.md` & `five_strips_of_bacon-0.1.5/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `five_strips_of_bacon-0.1.4/pyproject.toml` & `five_strips_of_bacon-0.1.5/pyproject.toml`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "five-strips-of-bacon"
+-version = "0.1.4"
++version = "0.1.5"
+ description = "Encode/Decode messages using five simultaneous bacon ciphers."
+ authors = ["Odyhibit <josh.2990@gmail.com>"]
+ readme = "README.md"
+ packages = [
+     { include = "src/main.py"},
+     { include = "src/bacon.py"},
+     { include = "src/decode_five_strips_of_bacon.py"},
+```
+
+### Comparing `five_strips_of_bacon-0.1.4/src/bacon.py` & `five_strips_of_bacon-0.1.5/src/bacon.py`
+
+ * *Files identical despite different names*
+
+### Comparing `five_strips_of_bacon-0.1.4/src/decode_five_strips_of_bacon.py` & `five_strips_of_bacon-0.1.5/src/decode_five_strips_of_bacon.py`
+
+ * *Files identical despite different names*
+
+### Comparing `five_strips_of_bacon-0.1.4/src/main.py` & `five_strips_of_bacon-0.1.5/src/main.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -7,17 +7,17 @@
+ 
+ class MainWindow:
+ 
+     def __init__(self, root):
+ 
+         tabcontrol = CTkTabview(root)
+         tabcontrol.pack(expand=True)
+-        icon_path = ImageTk.PhotoImage(file="five-strips-of-bacon/src/resources/bacon_five.png")
+-        root.wm_iconbitmap()
+-        root.iconphoto(False, icon_path)
++        #icon_path = ImageTk.PhotoImage(file="five-strips-of-bacon/src/resources/bacon_five.png")
++        #root.wm_iconbitmap()
++        #root.iconphoto(False, icon_path)
+         root.title("Five Strips of Bacon")
+         tabcontrol.pack(padx=20, pady=20)
+         tabcontrol.add("Encode")
+         tabcontrol.add("Decode")
+ 
+         def convert_hidden(e):
+             temp = hidden_text.get("1.0", "end-1c").upper()
+```
+
+### Comparing `five_strips_of_bacon-0.1.4/src/resources/bacon_five.png` & `five_strips_of_bacon-0.1.5/src/resources/bacon_five.png`
+
+ * *Files identical despite different names*
+
+### Comparing `five_strips_of_bacon-0.1.4/PKG-INFO` & `five_strips_of_bacon-0.1.5/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: five-strips-of-bacon
+-Version: 0.1.4
++Version: 0.1.5
+ Summary: Encode/Decode messages using five simultaneous bacon ciphers.
+ Author: Odyhibit
+ Author-email: josh.2990@gmail.com
+ Requires-Python: >=3.8,<4.0
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Programming Language :: Python :: 3.8
+ Classifier: Programming Language :: Python :: 3.9
+```
+

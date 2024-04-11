@@ -11093,3 +11093,35 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:37:07] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.91.tar.gz]
 [2024-04-11 06:37:07] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
 [2024-04-11 06:37:07] INFO root fetch - main [MainThread]: Store serial: [22714378]
+[2024-04-11 06:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714378]
+[2024-04-11 06:39:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 06:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapy-aiohttp-downloader
+[2024-04-11 06:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: five-strips-of-bacon
+[2024-04-11 06:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headline-gen
+[2024-04-11 06:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyco-types
+[2024-04-11 06:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe
+[2024-04-11 06:39:16] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-11 06:39:16] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-11 06:39:16] INFO root fetch - processPackages [five-strips-of-bacon]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 06:39:16] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/83/c8/cd4e4244e5b30354559f34f679d282f89dc627765e531b894332a1ea7485/five_strips_of_bacon-0.1.4.tar.gz
+[2024-04-11 06:39:16] INFO root fetch - processPackages [pyco-types]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-11 06:39:16] WARNING root fetch - processPackages [scrapy-aiohttp-downloader]: Skipping, unable to determine old version
+[2024-04-11 06:39:16] INFO root fetch - main [MainThread]: End processing [scrapy-aiohttp-downloader] error
+[2024-04-11 06:39:16] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240411] Old Version: [2.5.0b20240410]
+[2024-04-11 06:39:16] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/12/8c/ed9559527f2e1f8f2fd2c6845c2aecad941e89e10e968864c7dec9475d78/pyco-types-1.1.6.tar.gz
+[2024-04-11 06:39:16] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/3c/55/e31f14459d787e4986bd93717c6b86c7d75fe6dca54b9ad736ec1687839b/bigdl_core_xe-2.5.0b20240410-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-11 06:39:16] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/a2/fb/95f4fef9d02572e26751818f0002709d79179088176707bb3299667f7937/five_strips_of_bacon-0.1.5.tar.gz
+[2024-04-11 06:39:16] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 95050172>=10485760
+[2024-04-11 06:39:16] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-11 06:39:17] INFO root fetch - processPackages [five-strips-of-bacon]: executing diffoscope
+[2024-04-11 06:39:17] INFO root fetch - processPackages [five-strips-of-bacon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_strips_of_bacon-0.1.4.tar.gz tmp/five_strips_of_bacon-0.1.5.tar.gz --markdown 20240411/f/five-strips-of-bacon/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 06:39:17] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/de/93/d36686c05735aba28bede53c4f2be1167b5c69a4642ce8efd30bbefd9c9e/pyco-types-1.1.7.tar.gz
+[2024-04-11 06:39:17] INFO root fetch - processPackages [pyco-types]: executing diffoscope
+[2024-04-11 06:39:17] INFO root fetch - processPackages [pyco-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyco-types-1.1.6.tar.gz tmp/pyco-types-1.1.7.tar.gz --markdown 20240411/p/pyco-types/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-11 06:39:17] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.4.tar.gz]
+[2024-04-11 06:39:17] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.5.tar.gz]
+[2024-04-11 06:39:17] INFO root fetch - main [MainThread]: End processing [five-strips-of-bacon]: success
+[2024-04-11 06:39:17] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.6.tar.gz]
+[2024-04-11 06:39:17] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.7.tar.gz]
+[2024-04-11 06:39:17] INFO root fetch - main [MainThread]: End processing [pyco-types]: success
+[2024-04-11 06:39:17] INFO root fetch - main [MainThread]: Store serial: [22714393]

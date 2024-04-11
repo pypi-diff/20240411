@@ -14989,3 +14989,81 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:36:40] INFO root fetch - processPackages [fyplot]: Remove: archive file [/home/abi/fetcher/tmp/fyplot-2.1.tar.gz]
 [2024-04-11 10:36:40] INFO root fetch - main [MainThread]: End processing [fyplot]: success
 [2024-04-11 10:36:40] INFO root fetch - main [MainThread]: Store serial: [22716444]
+[2024-04-11 10:38:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716444]
+[2024-04-11 10:38:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bec-client
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-lib
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-server
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roktools
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libro
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fine
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magnumnp
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reviutils
+[2024-04-11 10:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-predpurchase
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-server]: New version: [2.0.1] Old Version: [1.9.0]
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-client]: New version: [2.0.1] Old Version: [1.24.1]
+[2024-04-11 10:38:51] INFO root fetch - processPackages [roktools]: New version: [6.0.0] Old Version: [5.7.0]
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/76/6f/c113eddcd9e42fa0e7ab1de5ea609bbedab64bce7ead2a6c1c0c3c72b36a/bec-server-1.9.0.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/db/96/4fb5ded4b63781cfbb7b6536be5327454005b7f55a9870288200e7e896ff/bec_client-1.24.1.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [libro]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-11 10:38:51] WARNING root fetch - processPackages [py-predpurchase]: Skipping, unable to determine old version
+[2024-04-11 10:38:51] INFO root fetch - main [MainThread]: End processing [py-predpurchase] error
+[2024-04-11 10:38:51] INFO root fetch - processPackages [reviutils]: New version: [1.3.2a1] Old Version: [1.3.1]
+[2024-04-11 10:38:51] INFO root fetch - processPackages [magnumnp]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-11 10:38:51] INFO root fetch - processPackages [fine]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-04-11 10:38:51] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/dc/c2/7a45a28418308c83cba5c911436c725d72a51b7bb705a8d7d01271d4cb63/roktools-5.7.0-py2.py3-none-any.whl
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-lib]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-11 10:38:51] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/bd/29/0b05b8287d512c7720136a179ed4f47c754c4e80e1f537168c8482ce0954/libro-0.1.3.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/89/1c/71b5b265682b512a157891812f34fa64d938322628f93a69465d83f6d9f7/bec_lib-2.0.1.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [fine]: Downloading https://files.pythonhosted.org/packages/c0/8e/18b9098afb36e681797d452d6f585358c8869739f1f1f60c947c4d63deca/fine-2.3.5.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [magnumnp]: Downloading https://files.pythonhosted.org/packages/d0/f4/8f7f23491b78b2f9df500ef410b9e56803a6dc9bf8f0c9cb85f5712c6dfe/magnumnp-1.1.5.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/2e/76/fee79277fe29884f114e7b6c73dc6ddeb53e297db1e857ed12e6a7722eae/reviutils-1.3.1.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/86/40/00678897729cbea253bfe741ed50947253622e6e5cce186f7764ac835e5f/bec-server-2.0.1.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/1b/52/40728998d681e7883f6e293c54d27d7d5b35e53354230301cd4f2e37a9e9/bec_client-2.0.1.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/a5/ec/9aa1e2b014f5a023dc7fadeb91f5ef4e1b6e89d855cd7a64c0d01a150e7c/roktools-6.0.0.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-1.9.0.tar.gz tmp/bec-server-2.0.1.tar.gz --markdown 20240411/b/bec-server/1.9.0-2.0.1/README.md --exclude *.pyd
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-client]: executing diffoscope
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_client-1.24.1.tar.gz tmp/bec_client-2.0.1.tar.gz --markdown 20240411/b/bec-client/1.24.1-2.0.1/README.md --exclude *.pyd
+[2024-04-11 10:38:51] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/c6/37/df9bd416d13887d11271e7a0e9012443578233b0ab327a8e2bd7856cc9de/libro-0.1.4.tar.gz
+[2024-04-11 10:38:51] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/cb/c2/491bbf7a07bcb043afd0660b8407a4a25939a6cdf65f410fddae1e65cdf7/bec_lib-2.0.2.tar.gz
+[2024-04-11 10:38:52] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/8e/fa/e907c16cf82c5aff2b736ea4251f7a2ec0098bc134f66a2de9777fb1588e/reviutils-1.3.2a1.tar.gz
+[2024-04-11 10:38:52] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-04-11 10:38:52] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-5.7.0-py2.py3-none-any.whl.zip tmp/roktools-6.0.0.tar.gz --markdown 20240411/r/roktools/5.7.0-6.0.0/README.md --exclude *.pyd
+[2024-04-11 10:38:52] INFO root fetch - processPackages [magnumnp]: Downloading https://files.pythonhosted.org/packages/b4/b5/250ded7405a9d4191d6e18754f0fcc776f64984c414115ca6cc8391554d2/magnumnp-1.1.6.tar.gz
+[2024-04-11 10:38:52] INFO root fetch - processPackages [fine]: Downloading https://files.pythonhosted.org/packages/83/0d/9be541c45244bbbeac8fd467dd7529c7968e42a645ecb40bbaac26694964/fine-2.3.6.tar.gz
+[2024-04-11 10:38:52] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-11 10:38:52] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.0.1.tar.gz tmp/bec_lib-2.0.2.tar.gz --markdown 20240411/b/bec-lib/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-11 10:38:52] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-11 10:38:52] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.1.tar.gz tmp/reviutils-1.3.2a1.tar.gz --markdown 20240411/r/reviutils/1.3.1-1.3.2a1/README.md --exclude *.pyd
+[2024-04-11 10:38:52] INFO root fetch - processPackages [magnumnp]: executing diffoscope
+[2024-04-11 10:38:52] INFO root fetch - processPackages [magnumnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnumnp-1.1.5.tar.gz tmp/magnumnp-1.1.6.tar.gz --markdown 20240411/m/magnumnp/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-11 10:38:52] INFO root fetch - processPackages [fine]: executing diffoscope
+[2024-04-11 10:38:52] INFO root fetch - processPackages [fine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fine-2.3.5.tar.gz tmp/fine-2.3.6.tar.gz --markdown 20240411/f/fine/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-04-11 10:38:52] INFO root fetch - processPackages [libro]: executing diffoscope
+[2024-04-11 10:38:52] INFO root fetch - processPackages [libro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro-0.1.3.tar.gz tmp/libro-0.1.4.tar.gz --markdown 20240411/l/libro/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-11 10:38:53] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-1.9.0.tar.gz]
+[2024-04-11 10:38:53] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.0.1.tar.gz]
+[2024-04-11 10:38:53] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-11 10:38:53] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-1.24.1.tar.gz]
+[2024-04-11 10:38:53] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-2.0.1.tar.gz]
+[2024-04-11 10:38:53] INFO root fetch - main [MainThread]: End processing [bec-client]: success
+[2024-04-11 10:38:53] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.7.0-py2.py3-none-any.whl.zip]
+[2024-04-11 10:38:53] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.0.0.tar.gz]
+[2024-04-11 10:38:53] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-04-11 10:38:54] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.1.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.2a1.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-11 10:38:54] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.0.1.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.0.2.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-11 10:38:54] INFO root fetch - processPackages [magnumnp]: Remove: archive file [/home/abi/fetcher/tmp/magnumnp-1.1.5.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - processPackages [magnumnp]: Remove: archive file [/home/abi/fetcher/tmp/magnumnp-1.1.6.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - main [MainThread]: End processing [magnumnp]: success
+[2024-04-11 10:38:54] INFO root fetch - processPackages [fine]: Remove: archive file [/home/abi/fetcher/tmp/fine-2.3.5.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - processPackages [fine]: Remove: archive file [/home/abi/fetcher/tmp/fine-2.3.6.tar.gz]
+[2024-04-11 10:38:54] INFO root fetch - main [MainThread]: End processing [fine]: success
+[2024-04-11 10:38:57] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.3.tar.gz]
+[2024-04-11 10:38:57] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.4.tar.gz]
+[2024-04-11 10:38:57] INFO root fetch - main [MainThread]: End processing [libro]: success
+[2024-04-11 10:38:57] INFO root fetch - main [MainThread]: Store serial: [22716474]

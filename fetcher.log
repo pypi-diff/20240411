@@ -21675,3 +21675,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:44:39] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.1.tar.gz]
 [2024-04-11 13:44:39] INFO root fetch - main [MainThread]: End processing [panoptic]: success
 [2024-04-11 13:44:39] INFO root fetch - main [MainThread]: Store serial: [22718987]
+[2024-04-11 13:46:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718987]
+[2024-04-11 13:46:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smad-legi-foreign-id
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NetKet
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dump-github
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eltako14bus
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ign8
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryptojwt
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mindgard
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htagui
+[2024-04-11 13:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weather-api-wrapper
+[2024-04-11 13:46:49] WARNING root fetch - processPackages [weather-api-wrapper]: Skipping, unable to determine old version
+[2024-04-11 13:46:49] INFO root fetch - main [MainThread]: End processing [weather-api-wrapper] error
+[2024-04-11 13:46:49] INFO root fetch - processPackages [eltako14bus]: New version: [0.0.51] Old Version: [0.0.50]
+[2024-04-11 13:46:49] INFO root fetch - processPackages [dump-github]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 13:46:49] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 13:46:49] INFO root fetch - processPackages [htagui]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 13:46:49] WARNING root fetch - processPackages [smad-legi-foreign-id]: Skipping, unable to determine old version
+[2024-04-11 13:46:49] INFO root fetch - main [MainThread]: End processing [smad-legi-foreign-id] error
+[2024-04-11 13:46:49] INFO root fetch - processPackages [NetKet]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-11 13:46:49] INFO root fetch - processPackages [mindgard]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-11 13:46:49] INFO root fetch - processPackages [cryptojwt]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-04-11 13:46:49] INFO root fetch - processPackages [eltako14bus]: Downloading https://files.pythonhosted.org/packages/e0/d8/8a415156c7e478715c417f1de2b1ceeeae4d459dad8a5333aa894befa8d1/eltako14bus-0.0.50.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [dump-github]: Downloading https://files.pythonhosted.org/packages/2d/6c/5ae120c72d3716df06acdf8c86397434d3e49c8a7dbc9e7a347b500363d7/dump_github-0.1.4-py3-none-any.whl
+[2024-04-11 13:46:49] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/77/f0/04438c2322e5894eb42864c2fb14271481b4d8c7d262b380cb41927bbbf1/netket-3.9.1.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/9c/b1/49266284532823bcff62b68da03adcba0ce12145cfedf619217e68b90784/mindgard-0.8.0.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/3b/c5/131522a2ab138cdab5c49d4832e41ab96509373c002622a64077dbe8eeba/htagui-0.0.1.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [cryptojwt]: Downloading https://files.pythonhosted.org/packages/79/2f/f35c1b946cb8475f4ebad14431725583ea2bae61de3fd2fc5998687b63dd/cryptojwt-1.8.4.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [dump-github]: Downloading https://files.pythonhosted.org/packages/d0/08/3f52d7d5ba43bdd7bd4ec4067e44e7716b8eb62c4265dc9205d2af7d40eb/dump_github-0.1.5-py3-none-any.whl
+[2024-04-11 13:46:49] INFO root fetch - processPackages [eltako14bus]: Downloading https://files.pythonhosted.org/packages/16/1a/3f6a1f768aa955df3e97b8f56dcbce5707a3b07181e6cfdfe264c533cc30/eltako14bus-0.0.51.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:46:49] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 13:46:49] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/3d/46/43c1e357331fd69e429226f32578c8023c748ab62ec8721f3c7388d325b1/mindgard-0.9.0.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [dump-github]: executing diffoscope
+[2024-04-11 13:46:49] INFO root fetch - processPackages [dump-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dump_github-0.1.4-py3-none-any.whl.zip tmp/dump_github-0.1.5-py3-none-any.whl.zip --markdown 20240411/d/dump-github/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 13:46:49] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/f4/ee/c08fe9bc04cfb2690671f09e7c0187015584f9ea8fe48d9cd84971bb78c0/htagui-0.0.2.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [eltako14bus]: executing diffoscope
+[2024-04-11 13:46:49] INFO root fetch - processPackages [eltako14bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eltako14bus-0.0.50.tar.gz tmp/eltako14bus-0.0.51.tar.gz --markdown 20240411/e/eltako14bus/0.0.50-0.0.51/README.md --exclude *.pyd
+[2024-04-11 13:46:49] INFO root fetch - processPackages [cryptojwt]: Downloading https://files.pythonhosted.org/packages/fa/56/ea87894961d6d364da5cb408926ed961a4c44ed0e7516d7d9e6546e9e15c/cryptojwt-1.9.0.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [mindgard]: executing diffoscope
+[2024-04-11 13:46:49] INFO root fetch - processPackages [mindgard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindgard-0.8.0.tar.gz tmp/mindgard-0.9.0.tar.gz --markdown 20240411/m/mindgard/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-11 13:46:49] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/87/44/b8e2416db80d74a1748fc9add287166955b9fa3fba911a532c2abd5f3efd/netket-3.9.2.tar.gz
+[2024-04-11 13:46:49] INFO root fetch - processPackages [cryptojwt]: executing diffoscope
+[2024-04-11 13:46:49] INFO root fetch - processPackages [cryptojwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptojwt-1.8.4.tar.gz tmp/cryptojwt-1.9.0.tar.gz --markdown 20240411/c/cryptojwt/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-04-11 13:46:49] INFO root fetch - processPackages [htagui]: executing diffoscope
+[2024-04-11 13:46:49] INFO root fetch - processPackages [htagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagui-0.0.1.tar.gz tmp/htagui-0.0.2.tar.gz --markdown 20240411/h/htagui/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 13:46:50] INFO root fetch - processPackages [NetKet]: executing diffoscope
+[2024-04-11 13:46:50] INFO root fetch - processPackages [NetKet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netket-3.9.1.tar.gz tmp/netket-3.9.2.tar.gz --markdown 20240411/N/NetKet/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-11 13:46:50] INFO root fetch - processPackages [dump-github]: Remove: archive file [/home/abi/fetcher/tmp/dump_github-0.1.4-py3-none-any.whl.zip]
+[2024-04-11 13:46:50] INFO root fetch - processPackages [dump-github]: Remove: archive file [/home/abi/fetcher/tmp/dump_github-0.1.5-py3-none-any.whl.zip]
+[2024-04-11 13:46:50] INFO root fetch - main [MainThread]: End processing [dump-github]: success
+[2024-04-11 13:46:50] INFO root fetch - processPackages [eltako14bus]: Remove: archive file [/home/abi/fetcher/tmp/eltako14bus-0.0.50.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - processPackages [eltako14bus]: Remove: archive file [/home/abi/fetcher/tmp/eltako14bus-0.0.51.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - main [MainThread]: End processing [eltako14bus]: success
+[2024-04-11 13:46:50] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.8.0.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.0.1.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.9.0.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.0.2.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - main [MainThread]: End processing [mindgard]: success
+[2024-04-11 13:46:50] INFO root fetch - main [MainThread]: End processing [htagui]: success
+[2024-04-11 13:46:50] INFO root fetch - processPackages [cryptojwt]: Remove: archive file [/home/abi/fetcher/tmp/cryptojwt-1.8.4.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - processPackages [cryptojwt]: Remove: archive file [/home/abi/fetcher/tmp/cryptojwt-1.9.0.tar.gz]
+[2024-04-11 13:46:50] INFO root fetch - main [MainThread]: End processing [cryptojwt]: success
+[2024-04-11 13:46:51] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.1.tar.gz]
+[2024-04-11 13:46:51] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.2.tar.gz]
+[2024-04-11 13:46:51] INFO root fetch - main [MainThread]: End processing [NetKet]: success
+[2024-04-11 13:46:53] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 13:46:53] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 13:46:53] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:46:53] INFO root fetch - main [MainThread]: Store serial: [22719022]

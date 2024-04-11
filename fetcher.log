@@ -20065,3 +20065,109 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:39:19] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-11 12:39:19] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 12:39:19] INFO root fetch - main [MainThread]: Store serial: [22718270]
+[2024-04-11 12:41:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718270]
+[2024-04-11 12:41:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cudacanvas
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-screen-stats
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cudacanvas
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cudacanvas
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ign8
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cudacanvas
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skypilot-nightly
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gigagraph
+[2024-04-11 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cudacanvas
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [gigagraph]: New version: [0.0.34] Old Version: [0.0.26]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.49]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240410] Old Version: [1.0.0.dev20240409]
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/57/26/99c97d014d622ccb98b45a361f597f5d926a960c29ace5dd720693e3cfea/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/85/c5/3aabf588c3d0a471c362fe60540abcc1dce732b50a3d51c0c60e6cf04cdd/finbourne_access_sdk-2.1.2.tar.gz
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/57/26/99c97d014d622ccb98b45a361f597f5d926a960c29ace5dd720693e3cfea/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/57/26/99c97d014d622ccb98b45a361f597f5d926a960c29ace5dd720693e3cfea/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/57/26/99c97d014d622ccb98b45a361f597f5d926a960c29ace5dd720693e3cfea/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-04-11 12:41:29] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/bd/b5/21ecd0f36e028dce78f8a874a062179a6409d43e4d48e07615046494bc06/skypilot-nightly-1.0.0.dev20240409.tar.gz
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/57/26/99c97d014d622ccb98b45a361f597f5d926a960c29ace5dd720693e3cfea/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [gigagraph]: Downloading https://files.pythonhosted.org/packages/8a/51/5eb452127c2fd847ec79e8fba9a3d725fdd9825da125119b2b462269afb7/gigagraph-0.0.26.tar.gz
+[2024-04-11 12:41:29] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/78/59/dd079685f7e7377e0ad6aded5f41166b2e41720fdda02545245656f2cc30/ign8-4.8.49.tar.gz
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-04-11 12:41:29] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/86/5c/53fa29be53be469007a785db4716fb6f737f9fb2a2578f7f2c59924a4bb1/finbourne_access_sdk-2.1.3.tar.gz
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:29] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/df/93/4f93b1737ffbfa35fba1ccdbdfae64f2d0a2c45975690e471b71241018bc/skypilot-nightly-1.0.0.dev20240410.tar.gz
+[2024-04-11 12:41:30] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.2.tar.gz tmp/finbourne_access_sdk-2.1.3.tar.gz --markdown 20240411/f/finbourne-access-sdk/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240411/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [gigagraph]: Downloading https://files.pythonhosted.org/packages/7e/c3/e14bfa7cb25f339e93f4b6181ec98d16cc26c1421d3d90d9b5d3595d9546/gigagraph-0.0.34.tar.gz
+[2024-04-11 12:41:30] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.49.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.49-4.8.5/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240409.tar.gz tmp/skypilot-nightly-1.0.0.dev20240410.tar.gz --markdown 20240411/s/skypilot-nightly/1.0.0.dev20240409-1.0.0.dev20240410/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [gigagraph]: executing diffoscope
+[2024-04-11 12:41:30] INFO root fetch - processPackages [gigagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagraph-0.0.26.tar.gz tmp/gigagraph-0.0.34.tar.gz --markdown 20240411/g/gigagraph/0.0.26-0.0.34/README.md --exclude *.pyd
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: Remove: archive file [/home/abi/fetcher/tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: Remove: archive file [/home/abi/fetcher/tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: Start processing: cudacanvas
+[2024-04-11 12:41:30] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:30] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/57/26/99c97d014d622ccb98b45a361f597f5d926a960c29ace5dd720693e3cfea/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: Start processing: cudacanvas
+[2024-04-11 12:41:31] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: Start processing: cudacanvas
+[2024-04-11 12:41:31] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:31] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:41:31] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:31] INFO root fetch - processPackages [gigagraph]: Remove: archive file [/home/abi/fetcher/tmp/gigagraph-0.0.26.tar.gz]
+[2024-04-11 12:41:31] INFO root fetch - processPackages [gigagraph]: Remove: archive file [/home/abi/fetcher/tmp/gigagraph-0.0.34.tar.gz]
+[2024-04-11 12:41:31] INFO root fetch - main [MainThread]: End processing [gigagraph]: success
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:41:31] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.2.tar.gz]
+[2024-04-11 12:41:31] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.3.tar.gz]
+[2024-04-11 12:41:31] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: Remove: archive file [/home/abi/fetcher/tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 12:41:31] INFO root fetch - processPackages [cudacanvas]: Remove: archive file [/home/abi/fetcher/tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 12:41:31] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:32] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:32] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:41:32] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240409.tar.gz]
+[2024-04-11 12:41:32] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240410.tar.gz]
+[2024-04-11 12:41:32] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-11 12:41:33] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.49.tar.gz]
+[2024-04-11 12:41:33] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 12:41:33] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 12:41:43] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-04-11 12:41:43] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-04-11 12:41:43] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-04-11 12:41:43] INFO root fetch - main [MainThread]: Store serial: [22718338]

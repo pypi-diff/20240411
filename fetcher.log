@@ -14263,3 +14263,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:55:53] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.22.tar.gz]
 [2024-04-11 09:55:53] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
 [2024-04-11 09:55:53] INFO root fetch - main [MainThread]: Store serial: [22715964]
+[2024-04-11 09:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715964]
+[2024-04-11 09:58:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omotes-sdk-python
+[2024-04-11 09:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apis-highlighter-ng
+[2024-04-11 09:58:01] INFO root fetch - processPackages [apis-highlighter-ng]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-11 09:58:01] INFO root fetch - processPackages [apis-highlighter-ng]: Downloading https://files.pythonhosted.org/packages/43/5e/bc1d0af4d387248d385b199bf345fd8b41b0694d189c89a67870eec9c23e/apis_highlighter_ng-0.2.1.tar.gz
+[2024-04-11 09:58:01] INFO root fetch - processPackages [omotes-sdk-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 09:58:02] INFO root fetch - processPackages [omotes-sdk-python]: Downloading https://files.pythonhosted.org/packages/d2/4e/63849e351a553535bf4b54d530853a2b6a813cf21044dfc71d157cad5d3e/omotes-sdk-python-0.0.8.tar.gz
+[2024-04-11 09:58:02] INFO root fetch - processPackages [apis-highlighter-ng]: Downloading https://files.pythonhosted.org/packages/d5/2e/8a6ca2ccb2e177f39bbcc92033a8650e47ff86f9e12a7549e271309accf0/apis_highlighter_ng-0.3.0.tar.gz
+[2024-04-11 09:58:02] INFO root fetch - processPackages [apis-highlighter-ng]: executing diffoscope
+[2024-04-11 09:58:02] INFO root fetch - processPackages [apis-highlighter-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apis_highlighter_ng-0.2.1.tar.gz tmp/apis_highlighter_ng-0.3.0.tar.gz --markdown 20240411/a/apis-highlighter-ng/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-11 09:58:02] INFO root fetch - processPackages [omotes-sdk-python]: Downloading https://files.pythonhosted.org/packages/48/3d/943369b74da41f22bbc61e7e4e9ee7ce985d5da99d6fb44abda79797b70a/omotes-sdk-python-0.0.9.tar.gz
+[2024-04-11 09:58:02] INFO root fetch - processPackages [omotes-sdk-python]: executing diffoscope
+[2024-04-11 09:58:02] INFO root fetch - processPackages [omotes-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omotes-sdk-python-0.0.8.tar.gz tmp/omotes-sdk-python-0.0.9.tar.gz --markdown 20240411/o/omotes-sdk-python/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 09:58:03] INFO root fetch - processPackages [apis-highlighter-ng]: Remove: archive file [/home/abi/fetcher/tmp/apis_highlighter_ng-0.2.1.tar.gz]
+[2024-04-11 09:58:03] INFO root fetch - processPackages [apis-highlighter-ng]: Remove: archive file [/home/abi/fetcher/tmp/apis_highlighter_ng-0.3.0.tar.gz]
+[2024-04-11 09:58:03] INFO root fetch - main [MainThread]: End processing [apis-highlighter-ng]: success
+[2024-04-11 09:58:03] INFO root fetch - processPackages [omotes-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/omotes-sdk-python-0.0.8.tar.gz]
+[2024-04-11 09:58:03] INFO root fetch - processPackages [omotes-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/omotes-sdk-python-0.0.9.tar.gz]
+[2024-04-11 09:58:03] INFO root fetch - main [MainThread]: End processing [omotes-sdk-python]: success
+[2024-04-11 09:58:03] INFO root fetch - main [MainThread]: Store serial: [22715970]

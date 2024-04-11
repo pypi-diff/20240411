@@ -3339,3 +3339,56 @@ EOFError: EOF read where object expected
 [2024-04-11 02:38:51] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip]
 [2024-04-11 02:38:51] INFO root fetch - main [MainThread]: End processing [nvflare]: success
 [2024-04-11 02:38:51] INFO root fetch - main [MainThread]: Store serial: [22711573]
+[2024-04-11 02:40:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711573]
+[2024-04-11 02:40:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 02:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fosslight-yocto
+[2024-04-11 02:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prosperity2bt
+[2024-04-11 02:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lookout-cli
+[2024-04-11 02:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lookout-config
+[2024-04-11 02:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qick
+[2024-04-11 02:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mystmd
+[2024-04-11 02:40:59] INFO root fetch - processPackages [prosperity2bt]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-11 02:40:59] INFO root fetch - processPackages [lookout-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-11 02:40:59] INFO root fetch - processPackages [fosslight-yocto]: New version: [3.1.28] Old Version: [3.1.27]
+[2024-04-11 02:40:59] INFO root fetch - processPackages [lookout-config]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 02:40:59] INFO root fetch - processPackages [mystmd]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-04-11 02:40:59] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/ce/e4/dda57174a9e8ebc3308b6ecad3a92d0457aa9d7cbc462e9ed6f40a674b85/prosperity2bt-0.4.0.tar.gz
+[2024-04-11 02:40:59] INFO root fetch - processPackages [lookout-cli]: Downloading https://files.pythonhosted.org/packages/88/fb/e3e36776e1ae42e79d7f57f2ddbe895da81e109e3c5ae7d8838b641aa432/lookout_cli-1.0.1.tar.gz
+[2024-04-11 02:40:59] INFO root fetch - processPackages [qick]: New version: [0.2.256] Old Version: [0.2.255]
+[2024-04-11 02:40:59] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/b7/ec/cb4167b42334bc7dbde7eb1ed951ed3d6d6a1284771a4d873812b8a99988/fosslight_yocto-3.1.27.tar.gz
+[2024-04-11 02:40:59] INFO root fetch - processPackages [lookout-config]: Downloading https://files.pythonhosted.org/packages/c2/6d/1fa230b4d17aa709313c68cd7518bf815780f2e7521c1a616d55556449fe/lookout_config-1.0.2.tar.gz
+[2024-04-11 02:40:59] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/7a/c3/d50a03a8e2015a7e02b98296e34aa4c8adfef17e5a98fc06871f9e2a2dee/mystmd-1.1.7.tar.gz
+[2024-04-11 02:40:59] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/ec/4f/b6aa993a5c1df79846442b844c237eb255c158eec0b98ab557249c979ea4/qick-0.2.255.tar.gz
+[2024-04-11 02:40:59] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/fe/b2/ee137c12c5d5638044785ea4f88bdc6ca46dbbc77708fbd9c781bdb5bc71/prosperity2bt-0.4.1.tar.gz
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-cli]: Downloading https://files.pythonhosted.org/packages/f5/65/1ea7c151da2a6e57bcaa991e0eb7540566ad9dbc6eac9fd7810bdc213145/lookout_cli-1.0.2.tar.gz
+[2024-04-11 02:41:00] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 16612265>=10485760
+[2024-04-11 02:41:00] INFO root fetch - main [MainThread]: End processing [qick] error
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-cli]: executing diffoscope
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookout_cli-1.0.1.tar.gz tmp/lookout_cli-1.0.2.tar.gz --markdown 20240411/l/lookout-cli/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-11 02:41:00] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/10/c5/c847acf8516d53e0d2f77c8b872c95d8006eeb15b372bdd852f5fa6afd47/fosslight_yocto-3.1.28.tar.gz
+[2024-04-11 02:41:00] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-11 02:41:00] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.4.0.tar.gz tmp/prosperity2bt-0.4.1.tar.gz --markdown 20240411/p/prosperity2bt/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-config]: Downloading https://files.pythonhosted.org/packages/88/91/717788a75ea11f0aacfbcf17f27235450af7abead963da19871e318183d7/lookout_config-1.0.3.tar.gz
+[2024-04-11 02:41:00] INFO root fetch - processPackages [fosslight-yocto]: executing diffoscope
+[2024-04-11 02:41:00] INFO root fetch - processPackages [fosslight-yocto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_yocto-3.1.27.tar.gz tmp/fosslight_yocto-3.1.28.tar.gz --markdown 20240411/f/fosslight-yocto/3.1.27-3.1.28/README.md --exclude *.pyd
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-config]: executing diffoscope
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookout_config-1.0.2.tar.gz tmp/lookout_config-1.0.3.tar.gz --markdown 20240411/l/lookout-config/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 02:41:00] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/fe/ca/67f015b4a726a6b31f4300f946fdd248881d9d144883f9be9a3486ad8ee8/mystmd-1.1.9.tar.gz
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-cli]: Remove: archive file [/home/abi/fetcher/tmp/lookout_cli-1.0.1.tar.gz]
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-cli]: Remove: archive file [/home/abi/fetcher/tmp/lookout_cli-1.0.2.tar.gz]
+[2024-04-11 02:41:00] INFO root fetch - main [MainThread]: End processing [lookout-cli]: success
+[2024-04-11 02:41:00] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.27.tar.gz]
+[2024-04-11 02:41:00] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.28.tar.gz]
+[2024-04-11 02:41:00] INFO root fetch - main [MainThread]: End processing [fosslight-yocto]: success
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-config]: Remove: archive file [/home/abi/fetcher/tmp/lookout_config-1.0.2.tar.gz]
+[2024-04-11 02:41:00] INFO root fetch - processPackages [lookout-config]: Remove: archive file [/home/abi/fetcher/tmp/lookout_config-1.0.3.tar.gz]
+[2024-04-11 02:41:00] INFO root fetch - main [MainThread]: End processing [lookout-config]: success
+[2024-04-11 02:41:01] INFO root fetch - processPackages [mystmd]: executing diffoscope
+[2024-04-11 02:41:01] INFO root fetch - processPackages [mystmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystmd-1.1.7.tar.gz tmp/mystmd-1.1.9.tar.gz --markdown 20240411/m/mystmd/1.1.7-1.1.9/README.md --exclude *.pyd
+[2024-04-11 02:41:01] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.0.tar.gz]
+[2024-04-11 02:41:01] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.1.tar.gz]
+[2024-04-11 02:41:01] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-11 02:41:10] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.1.7.tar.gz]
+[2024-04-11 02:41:10] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.1.9.tar.gz]
+[2024-04-11 02:41:10] INFO root fetch - main [MainThread]: End processing [mystmd]: success
+[2024-04-11 02:41:10] INFO root fetch - main [MainThread]: Store serial: [22711591]

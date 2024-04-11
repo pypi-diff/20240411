@@ -11732,3 +11732,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:29:21] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.6.1.tar.gz]
 [2024-04-11 07:29:21] INFO root fetch - main [MainThread]: End processing [klvm-rs]: success
 [2024-04-11 07:29:21] INFO root fetch - main [MainThread]: Store serial: [22714663]
+[2024-04-11 07:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714663]
+[2024-04-11 07:31:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 07:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipxu
+[2024-04-11 07:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agsconfig
+[2024-04-11 07:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-runtime
+[2024-04-11 07:31:30] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 07:31:30] INFO root fetch - processPackages [mojo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 07:31:30] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-04-11 07:31:31] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/a2/73/8d6292a4a8763a95222fb988aaaf46e8e4faa6dbfa82aba07ec8abaabd54/mojo_runtime-1.3.8.tar.gz
+[2024-04-11 07:31:31] INFO root fetch - processPackages [agsconfig]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 07:31:31] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/d8/72/11ae6da51311fb6fe39796b32cda706673eed2e6d5f1cc271bf029880f36/mojo_runtime-1.3.9.tar.gz
+[2024-04-11 07:31:31] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-04-11 07:31:31] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/f3/ce/bed8c3b3c319d59bd2e55d41f933dc82eba037ec0a7347654c8448ec2435/agsconfig-0.3.0-py2.py3-none-any.whl
+[2024-04-11 07:31:31] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2024-04-11 07:31:31] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-1.3.8.tar.gz tmp/mojo_runtime-1.3.9.tar.gz --markdown 20240411/m/mojo-runtime/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 07:31:31] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-11 07:31:31] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240411/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 07:31:31] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/e6/e8/86afc9675e0137adc300a4b1e23e8707967a313a940797493e0bafd3c896/agsconfig-0.3.1-py2.py3-none-any.whl
+[2024-04-11 07:31:31] INFO root fetch - processPackages [agsconfig]: executing diffoscope
+[2024-04-11 07:31:31] INFO root fetch - processPackages [agsconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsconfig-0.3.0-py2.py3-none-any.whl.zip tmp/agsconfig-0.3.1-py2.py3-none-any.whl.zip --markdown 20240411/a/agsconfig/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 07:31:31] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.8.tar.gz]
+[2024-04-11 07:31:31] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
+[2024-04-11 07:31:31] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2024-04-11 07:31:32] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-04-11 07:31:32] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-04-11 07:31:32] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-11 07:31:32] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.0-py2.py3-none-any.whl.zip]
+[2024-04-11 07:31:32] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.1-py2.py3-none-any.whl.zip]
+[2024-04-11 07:31:32] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
+[2024-04-11 07:31:32] INFO root fetch - main [MainThread]: Store serial: [22714671]

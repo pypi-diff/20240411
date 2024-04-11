@@ -12749,3 +12749,30 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:32:03] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-11 08:32:03] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
 [2024-04-11 08:32:03] INFO root fetch - main [MainThread]: Store serial: [22715169]
+[2024-04-11 08:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715169]
+[2024-04-11 08:34:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pact-python
+[2024-04-11 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: insights-core
+[2024-04-11 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-app-rdm
+[2024-04-11 08:34:12] INFO root fetch - processPackages [pact-python]: New version: [2.2.0] Old Version: [2.1.3]
+[2024-04-11 08:34:12] INFO root fetch - processPackages [insights-core]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-11 08:34:12] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/ba/d8/b4d9d13c98972e4370422b1d57a92708ffaadff3c348f7dbda016efd4b6e/insights-core-3.3.8.tar.gz
+[2024-04-11 08:34:12] INFO root fetch - processPackages [pact-python]: Downloading https://files.pythonhosted.org/packages/6d/71/942294b51b77ea52ec6d524e9082cc165f660ad9f227c6f9697b148bc74a/pact_python-2.1.3.tar.gz
+[2024-04-11 08:34:12] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2024-04-11 08:34:13] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2024-04-11 08:34:13] INFO root fetch - processPackages [pact-python]: Downloading https://files.pythonhosted.org/packages/5b/c2/f2a3da76d00ea4749dd3574da4fb6aa3ab05edc138a83a7e9c5a07dabeef/pact_python-2.2.0-cp38-cp38-macosx_10_16_x86_64.whl
+[2024-04-11 08:34:13] WARNING root fetch - processPackages [pact-python]: Skipping package: exceeds size limit 33527753>=10485760
+[2024-04-11 08:34:13] INFO root fetch - main [MainThread]: End processing [pact-python] error
+[2024-04-11 08:34:13] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2024-04-11 08:34:13] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2024-04-11 08:34:13] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20240411/i/invenio-app-rdm/9.1.5-9.1.6/README.md --exclude *.pyd
+[2024-04-11 08:34:14] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/24/e5/442fc4f4958a234b3da006d746cfaa647f4bd2048585f64608614d4ba7da/insights-core-3.3.9.tar.gz
+[2024-04-11 08:34:14] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2024-04-11 08:34:14] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.3.8.tar.gz tmp/insights-core-3.3.9.tar.gz --markdown 20240411/i/insights-core/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-11 08:34:14] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2024-04-11 08:34:14] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2024-04-11 08:34:14] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2024-04-11 08:34:20] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.8.tar.gz]
+[2024-04-11 08:34:20] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
+[2024-04-11 08:34:20] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2024-04-11 08:34:20] INFO root fetch - main [MainThread]: Store serial: [22715198]

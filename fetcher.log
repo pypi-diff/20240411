@@ -11462,3 +11462,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:11:48] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.1a0.tar.gz]
 [2024-04-11 07:11:48] INFO root fetch - main [MainThread]: End processing [suql]: success
 [2024-04-11 07:11:48] INFO root fetch - main [MainThread]: Store serial: [22714530]
+[2024-04-11 07:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714530]
+[2024-04-11 07:13:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragons96-tools
+[2024-04-11 07:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cntracer
+[2024-04-11 07:13:56] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 07:13:56] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-11 07:13:56] INFO root fetch - processPackages [cntracer]: New version: [1.7.10] Old Version: [1.1.65]
+[2024-04-11 07:13:56] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-11 07:13:56] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/a7/ec/b7be139b9b7d8b486c65651f6737770e0f8e5f5ac0f683ebee3ad28b276a/cntracer-1.1.65-cp39-cp39-win_amd64.whl
+[2024-04-11 07:13:56] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-11 07:13:56] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240411/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 07:13:57] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/09/e4/1da978a3cc8482942ced87853386ba6d611ecaf52aa1212c0c6739b76afc/cntracer-1.7.10-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-11 07:13:57] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-11 07:13:57] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-11 07:13:57] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-11 07:13:58] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2024-04-11 07:13:58] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-1.1.65-cp39-cp39-win_amd64.whl.zip tmp/cntracer-1.7.10-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240411/c/cntracer/1.1.65-1.7.10/README.md --exclude *.pyd
+[2024-04-11 07:13:58] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.1.65-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 07:13:58] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.10-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-11 07:13:58] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2024-04-11 07:13:58] INFO root fetch - main [MainThread]: Store serial: [22714535]

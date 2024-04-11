@@ -8404,3 +8404,51 @@ EOFError: EOF read where object expected
 [2024-04-11 03:45:51] WARNING root fetch - processPackages [dblmt]: Skipping, unable to determine old version
 [2024-04-11 03:45:51] INFO root fetch - main [MainThread]: End processing [dblmt] error
 [2024-04-11 03:45:51] INFO root fetch - main [MainThread]: Store serial: [22713129]
+[2024-04-11 03:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713129]
+[2024-04-11 03:47:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 03:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: better-rtplot
+[2024-04-11 03:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-04-11 03:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaturbate-poller
+[2024-04-11 03:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jy_lib
+[2024-04-11 03:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weni-rp-apps
+[2024-04-11 03:48:00] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-11 03:48:00] INFO root fetch - processPackages [better-rtplot]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-11 03:48:00] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4.dev1687602] Old Version: [0.1.4.dev1687487]
+[2024-04-11 03:48:00] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.8.1a0] Old Version: [2.8.1]
+[2024-04-11 03:48:00] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/b9/9d/f731fcf0579646f13a119334d3d20a9fc0eb5b536992167d34f68f6b9536/chaturbate_poller-0.3.5.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/1d/48/e88e898651f7f63be9679f2ee26865597dcff5e5ed01347dbfe674171945/better_rtplot-0.1.5.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/49/08/8ad586812b0ed49fd06609ad5eaf7cdea9f771f51ccd51934c5b85e18822/py2docfx-0.1.4.dev1687487-py3-none-any.whl
+[2024-04-11 03:48:00] INFO root fetch - processPackages [jy_lib]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-11 03:48:00] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/17/c8/7a6ef98fcb1a70afabf54b51689fc3d7df2d2b823ba392447c6a83fa68a3/weni_rp_apps-2.8.1.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/be/70/4cc0bb8bfa19f66813c6fb145ebdbd405963f035970d6b3c040c611f2758/jy_lib-0.5.5.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/5c/92/8ca75ee0467844286b1155cc78f0f02c0aa63906e58397489d8cbe339b0e/chaturbate_poller-0.3.6.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/43/2f/79e308bd2644c66ba8b35ba1d5b660db2a1f707c4e2ec7b675236a1bb5e0/better_rtplot-0.1.6.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/5d/aa/56d2c2857ca0aa4a86e104746191e1ac24b256be28a1642b01e66f048d9a/py2docfx-0.1.4.dev1687602-py3-none-any.whl
+[2024-04-11 03:48:00] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/9f/b3/d4a499d23d4481d9b54a16e0e14b64f52a70abc231f472671b9658deb2e7/weni_rp_apps-2.8.1a0.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-11 03:48:00] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.3.5.tar.gz tmp/chaturbate_poller-0.3.6.tar.gz --markdown 20240411/c/chaturbate-poller/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-11 03:48:00] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-11 03:48:00] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4.dev1687487-py3-none-any.whl.zip tmp/py2docfx-0.1.4.dev1687602-py3-none-any.whl.zip --markdown 20240411/p/py2docfx/0.1.4.dev1687487-0.1.4.dev1687602/README.md --exclude *.pyd
+[2024-04-11 03:48:00] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/7a/3a/eaabc232a0991a55d2197e0b98fc3843873239c1f8ba5e20d5c3c5e7eb76/jy_lib-0.5.6.tar.gz
+[2024-04-11 03:48:00] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2024-04-11 03:48:00] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.8.1.tar.gz tmp/weni_rp_apps-2.8.1a0.tar.gz --markdown 20240411/w/weni-rp-apps/2.8.1-2.8.1a0/README.md --exclude *.pyd
+[2024-04-11 03:48:00] INFO root fetch - processPackages [better-rtplot]: executing diffoscope
+[2024-04-11 03:48:00] INFO root fetch - processPackages [better-rtplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_rtplot-0.1.5.tar.gz tmp/better_rtplot-0.1.6.tar.gz --markdown 20240411/b/better-rtplot/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-11 03:48:00] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-11 03:48:00] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.5.5.tar.gz tmp/jy_lib-0.5.6.tar.gz --markdown 20240411/j/jy_lib/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-11 03:48:01] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.5.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.6.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-11 03:48:01] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.5.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.6.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - main [MainThread]: End processing [better-rtplot]: success
+[2024-04-11 03:48:01] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.5.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.6.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-11 03:48:01] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.8.1.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.8.1a0.tar.gz]
+[2024-04-11 03:48:01] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2024-04-11 03:48:01] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1687487-py3-none-any.whl.zip]
+[2024-04-11 03:48:01] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1687602-py3-none-any.whl.zip]
+[2024-04-11 03:48:01] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-11 03:48:01] INFO root fetch - main [MainThread]: Store serial: [22713144]

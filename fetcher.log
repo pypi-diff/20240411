@@ -20588,3 +20588,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 12:59:30] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.3.tar.gz]
 [2024-04-11 12:59:30] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 12:59:30] INFO root fetch - main [MainThread]: Store serial: [22718499]
+[2024-04-11 13:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718499]
+[2024-04-11 13:01:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graal
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ws-analytics
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ign8
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-command
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: design.plone.ioprenoto
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dig-ass-chat-protos
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py2docfx
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snakemake-interface-common
+[2024-04-11 13:01:39] INFO root fetch - processPackages [snakemake-interface-common]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ign8]: New version: [4.9.4] Old Version: [4.9.3]
+[2024-04-11 13:01:39] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4rc1690176] Old Version: [0.1.4.dev1689521]
+[2024-04-11 13:01:39] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-04-11 13:01:39] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-11 13:01:39] INFO root fetch - processPackages [graal]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 13:01:39] INFO root fetch - processPackages [design.plone.ioprenoto]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-11 13:01:39] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/ab/4c/0a2ebd4d69b751a965b2895f9603c3e2a217e7cf6307904f0b0a9073a600/ign8-4.9.3.tar.gz
+[2024-04-11 13:01:39] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/bc/6d/9a3d674673b6bbf99ec83ab345a864d70bf0961e362280e74b3c5f08a560/py2docfx-0.1.4.dev1689521-py3-none-any.whl
+[2024-04-11 13:01:39] INFO root fetch - processPackages [snakemake-interface-common]: Downloading https://files.pythonhosted.org/packages/4c/61/2e14b5e0e0606052c79c22f5fe1d023dd7c3a36824a5470db8bb9d7589ba/snakemake_interface_common-1.9.1.tar.gz
+[2024-04-11 13:01:39] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-11 13:01:39] ERROR root fetch - processPackages [dig-ass-chat-protos]: Unable to get metadata: No such project 'dig-ass-chat-protos'
+[2024-04-11 13:01:39] INFO root fetch - main [MainThread]: End processing [dig-ass-chat-protos] error
+[2024-04-11 13:01:39] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-04-11 13:01:39] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/25/87/967dd889ba5afc1468d8ad2a3cdf19e7ed5141e316a88694cc6f7ec83068/graal-1.0.0rc1.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/70/16/90b2616e88857a566c861940402077b3e4fab2de7d016b541cf951b9adf8/design.plone.ioprenoto-1.2.3.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/44/aa/3853ed1cf2768c031b9bc218be718e162bae899a9f52530458183acb8fa1/ign8-4.9.4.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/8a/89/92fad384f2155a5bd7d53e077137cbde350759805d3d8ffca87f25c05e42/py2docfx-0.1.4rc1690176-py3-none-any.whl
+[2024-04-11 13:01:40] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [snakemake-interface-common]: Downloading https://files.pythonhosted.org/packages/51/ce/cd02f340223332f628aea014cd032f906170eb35a04873ef7140b65072f7/snakemake_interface_common-1.9.2.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/da/75/a143a82e0e665f1f42b0e49912fbf659908453d00338dcda1c602c9ea3bf/graal-1.0.0rc2.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-11 13:01:40] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4.dev1689521-py3-none-any.whl.zip tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip --markdown 20240411/p/py2docfx/0.1.4.dev1689521-0.1.4rc1690176/README.md --exclude *.pyd
+[2024-04-11 13:01:40] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-11 13:01:40] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240411/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-11 13:01:40] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/bf/4a/0969df7fe0628c08173e623ebe8cad20a824f0c043b1a71e7123360256e1/design.plone.ioprenoto-1.2.4.tar.gz
+[2024-04-11 13:01:40] INFO root fetch - processPackages [snakemake-interface-common]: executing diffoscope
+[2024-04-11 13:01:40] INFO root fetch - processPackages [snakemake-interface-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_interface_common-1.9.1.tar.gz tmp/snakemake_interface_common-1.9.2.tar.gz --markdown 20240411/s/snakemake-interface-common/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-11 13:01:40] INFO root fetch - processPackages [graal]: executing diffoscope
+[2024-04-11 13:01:40] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-1.0.0rc1.tar.gz tmp/graal-1.0.0rc2.tar.gz --markdown 20240411/g/graal/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 13:01:40] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:01:40] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.3.tar.gz tmp/ign8-4.9.4.tar.gz --markdown 20240411/i/ign8/4.9.3-4.9.4/README.md --exclude *.pyd
+[2024-04-11 13:01:40] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-04-11 13:01:40] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240411/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-04-11 13:01:40] INFO root fetch - processPackages [design.plone.ioprenoto]: executing diffoscope
+[2024-04-11 13:01:40] INFO root fetch - processPackages [design.plone.ioprenoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.ioprenoto-1.2.3.tar.gz tmp/design.plone.ioprenoto-1.2.4.tar.gz --markdown 20240411/d/design.plone.ioprenoto/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-11 13:01:41] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-11 13:01:41] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-04-11 13:01:41] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1689521-py3-none-any.whl.zip]
+[2024-04-11 13:01:41] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip]
+[2024-04-11 13:01:41] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-11 13:01:41] INFO root fetch - processPackages [snakemake-interface-common]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_common-1.9.1.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - processPackages [snakemake-interface-common]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_common-1.9.2.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - main [MainThread]: End processing [snakemake-interface-common]: success
+[2024-04-11 13:01:41] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-1.0.0rc1.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-1.0.0rc2.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2024-04-11 13:01:41] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.2.3.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.2.4.tar.gz]
+[2024-04-11 13:01:41] INFO root fetch - main [MainThread]: End processing [design.plone.ioprenoto]: success
+[2024-04-11 13:01:44] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.3.tar.gz]
+[2024-04-11 13:01:44] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.4.tar.gz]
+[2024-04-11 13:01:44] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:01:44] INFO root fetch - main [MainThread]: Store serial: [22718526]

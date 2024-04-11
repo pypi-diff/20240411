@@ -13363,3 +13363,18 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:00:59] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
 [2024-04-11 09:00:59] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
 [2024-04-11 09:00:59] INFO root fetch - main [MainThread]: Store serial: [22715544]
+[2024-04-11 09:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715544]
+[2024-04-11 09:03:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 09:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysql-server-has-gone
+[2024-04-11 09:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-models-nightly
+[2024-04-11 09:03:08] WARNING root fetch - processPackages [mysql-server-has-gone]: Skipping, unable to determine old version
+[2024-04-11 09:03:08] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone] error
+[2024-04-11 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-11 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-11 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-11 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-11 09:03:08] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240411/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-11 09:03:11] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-11 09:03:11] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-11 09:03:11] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-11 09:03:11] INFO root fetch - main [MainThread]: Store serial: [22715549]

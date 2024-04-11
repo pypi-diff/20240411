@@ -17746,3 +17746,95 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:16:32] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
 [2024-04-11 11:16:32] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
 [2024-04-11 11:16:32] INFO root fetch - main [MainThread]: Store serial: [22717254]
+[2024-04-11 11:18:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717254]
+[2024-04-11 11:18:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtcv2-util
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spai
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ignutils
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seacrowd
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pldag
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tbp-nightly
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huojiweiguoba
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyraf
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: std-uritemplate
+[2024-04-11 11:18:41] INFO root fetch - processPackages [spai]: New version: [2024.4.11] Old Version: [2024.3.6]
+[2024-04-11 11:18:41] INFO root fetch - processPackages [pldag]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-11 11:18:41] INFO root fetch - processPackages [seacrowd]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 11:18:41] WARNING root fetch - processPackages [ignutils]: Skipping, unable to determine old version
+[2024-04-11 11:18:41] INFO root fetch - processPackages [ignutils]: Start processing: biorobot
+[2024-04-11 11:18:41] INFO root fetch - main [MainThread]: End processing [ignutils] error
+[2024-04-11 11:18:41] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-11 11:18:41] INFO root fetch - processPackages [biorobot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 11:18:42] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/33/4e/453f0e866a24ffb4a20aa881e53ef5936b92d8c01ba11ef6a005ad667f7d/spai-2024.3.6.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [dtcv2-util]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-11 11:18:42] INFO root fetch - processPackages [pyraf]: New version: [2.2.2rc1] Old Version: [2.2.1rc1]
+[2024-04-11 11:18:42] INFO root fetch - processPackages [std-uritemplate]: New version: [0.0.56] Old Version: [0.0.55]
+[2024-04-11 11:18:42] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-11 11:18:42] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/18/a6/f20468777900b0ac32680b46c0b80f2f5e924c2f6c1592304d8565289f99/pldag-0.4.4.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [certora-cli]: New version: [7.3.0] Old Version: [7.0.7]
+[2024-04-11 11:18:42] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/85/fc/53cc34b11ab48613279f42c880ab94d310db63a867ad66e84ff1883832eb/seacrowd-0.0.3.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [biorobot]: Downloading https://files.pythonhosted.org/packages/97/58/506e0f36ccd2d426658c223aaf526dd9a00fc0d70b137c3a4af005da9fa7/biorobot-0.1.4.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/bd/dc/30d1ac3804f936f53cb9b8a1c76f85c6d78ae6986d4754392df09efe0b7e/dtcv2_util-0.1.2.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [std-uritemplate]: Downloading https://files.pythonhosted.org/packages/22/68/bfc445f7fdf96363da9528ae398eb599e5a619a4909296f065a51a72af94/std_uritemplate-0.0.55.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [pyraf]: Downloading https://files.pythonhosted.org/packages/e1/2a/56099b57e1b059a95d1020c5eff0ec41f3e65178336387765ef96c7ee12e/pyraf-2.2.1rc1.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [certora-cli]: Downloading https://files.pythonhosted.org/packages/2c/5c/f85fddfb65ed4c03990f07ecaa0e2cca2d1f62669b4fadea8d78eaea9195/certora-cli-7.0.7.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/82/61/170756484b9beebb3266d001866b1f3774872a96880bad798674bdf1074f/pldag-0.5.0.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/2c/ad/be91531f44513607696877ff2bc33d48f9bc9b7a37713cead811ee1ae64e/spai-2024.4.11.tar.gz
+[2024-04-11 11:18:42] WARNING root fetch - processPackages [certora-cli]: Skipping package: exceeds size limit 14268576>=10485760
+[2024-04-11 11:18:42] INFO root fetch - main [MainThread]: End processing [certora-cli] error
+[2024-04-11 11:18:42] INFO root fetch - processPackages [biorobot]: Downloading https://files.pythonhosted.org/packages/44/4e/a588fb4955d72229b46208662f97a750a03d0637c766931376d8ddd7248d/biorobot-0.1.5.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/0a/47/ad19a8fe6937f67617e5fbeb24b5a1a3aae91ea4d1f0bd3073a574366e1d/seacrowd-0.0.4.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-11 11:18:42] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.4.4.tar.gz tmp/pldag-0.5.0.tar.gz --markdown 20240411/p/pldag/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-04-11 11:18:42] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/37/8b/ae222d8373d30564035d07a6843fb79857a8b80bfa991c5d2a10a949d5be/dtcv2_util-0.1.3.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-11 11:18:42] INFO root fetch - processPackages [biorobot]: executing diffoscope
+[2024-04-11 11:18:42] INFO root fetch - processPackages [biorobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biorobot-0.1.4.tar.gz tmp/biorobot-0.1.5.tar.gz --markdown 20240411/b/biorobot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 11:18:42] INFO root fetch - processPackages [std-uritemplate]: Downloading https://files.pythonhosted.org/packages/8c/39/34cb8a3003b822beb41916ab7deb9be369f6367a49fa24d70515e5aa4eaf/std_uritemplate-0.0.56.tar.gz
+[2024-04-11 11:18:43] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-04-11 11:18:43] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.3.6.tar.gz tmp/spai-2024.4.11.tar.gz --markdown 20240411/s/spai/2024.3.6-2024.4.11/README.md --exclude *.pyd
+[2024-04-11 11:18:43] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-11 11:18:43] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.3.tar.gz tmp/seacrowd-0.0.4.tar.gz --markdown 20240411/s/seacrowd/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-11 11:18:43] INFO root fetch - processPackages [dtcv2-util]: executing diffoscope
+[2024-04-11 11:18:43] INFO root fetch - processPackages [dtcv2-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtcv2_util-0.1.2.tar.gz tmp/dtcv2_util-0.1.3.tar.gz --markdown 20240411/d/dtcv2-util/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-11 11:18:43] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-11 11:18:43] INFO root fetch - processPackages [std-uritemplate]: executing diffoscope
+[2024-04-11 11:18:43] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-11 11:18:43] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240411/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-11 11:18:43] INFO root fetch - processPackages [std-uritemplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std_uritemplate-0.0.55.tar.gz tmp/std_uritemplate-0.0.56.tar.gz --markdown 20240411/s/std-uritemplate/0.0.55-0.0.56/README.md --exclude *.pyd
+[2024-04-11 11:18:43] INFO root fetch - processPackages [pyraf]: Downloading https://files.pythonhosted.org/packages/52/6a/cece6215b4e1af1f8ae55d8da1a7428c91c3834bbcfa533c0171d2c0d29b/pyraf-2.2.2rc1.tar.gz
+[2024-04-11 11:18:43] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-11 11:18:43] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240411/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-11 11:18:43] INFO root fetch - processPackages [pyraf]: executing diffoscope
+[2024-04-11 11:18:43] INFO root fetch - processPackages [pyraf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyraf-2.2.1rc1.tar.gz tmp/pyraf-2.2.2rc1.tar.gz --markdown 20240411/p/pyraf/2.2.1rc1-2.2.2rc1/README.md --exclude *.pyd
+[2024-04-11 11:18:44] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.4.4.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.5.0.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-11 11:18:44] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.2.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.3.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - main [MainThread]: End processing [dtcv2-util]: success
+[2024-04-11 11:18:44] INFO root fetch - processPackages [std-uritemplate]: Remove: archive file [/home/abi/fetcher/tmp/std_uritemplate-0.0.55.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - processPackages [std-uritemplate]: Remove: archive file [/home/abi/fetcher/tmp/std_uritemplate-0.0.56.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - main [MainThread]: End processing [std-uritemplate]: success
+[2024-04-11 11:18:44] INFO root fetch - processPackages [biorobot]: Remove: archive file [/home/abi/fetcher/tmp/biorobot-0.1.4.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - processPackages [biorobot]: Remove: archive file [/home/abi/fetcher/tmp/biorobot-0.1.5.tar.gz]
+[2024-04-11 11:18:44] INFO root fetch - main [MainThread]: End processing [biorobot]: success
+[2024-04-11 11:18:45] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-11 11:18:45] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-11 11:18:45] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-11 11:18:45] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.3.6.tar.gz]
+[2024-04-11 11:18:45] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.11.tar.gz]
+[2024-04-11 11:18:45] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-04-11 11:18:46] INFO root fetch - processPackages [pyraf]: Remove: archive file [/home/abi/fetcher/tmp/pyraf-2.2.1rc1.tar.gz]
+[2024-04-11 11:18:46] INFO root fetch - processPackages [pyraf]: Remove: archive file [/home/abi/fetcher/tmp/pyraf-2.2.2rc1.tar.gz]
+[2024-04-11 11:18:46] INFO root fetch - main [MainThread]: End processing [pyraf]: success
+[2024-04-11 11:18:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-11 11:18:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-11 11:18:46] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-11 11:18:46] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.3.tar.gz]
+[2024-04-11 11:18:46] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.4.tar.gz]
+[2024-04-11 11:18:46] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-11 11:18:46] INFO root fetch - main [MainThread]: Store serial: [22717288]

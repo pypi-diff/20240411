@@ -11943,3 +11943,63 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:46:56] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-04-11 07:46:56] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-04-11 07:46:56] INFO root fetch - main [MainThread]: Store serial: [22714728]
+[2024-04-11 07:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714728]
+[2024-04-11 07:49:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 07:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-autovacuum-message-attachment
+[2024-04-11 07:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-name-search-improved
+[2024-04-11 07:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-coder
+[2024-04-11 07:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-runtime
+[2024-04-11 07:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vit-pytorch-implementation
+[2024-04-11 07:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fd2py
+[2024-04-11 07:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xt-st-common
+[2024-04-11 07:49:05] INFO root fetch - processPackages [mojo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 07:49:05] INFO root fetch - processPackages [vit-pytorch-implementation]: New version: [3.0.0] Old Version: [1.0.0]
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.8]
+[2024-04-11 07:49:05] WARNING root fetch - processPackages [fd2py]: Skipping, unable to determine old version
+[2024-04-11 07:49:05] INFO root fetch - main [MainThread]: End processing [fd2py] error
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/c1/52/705f6d88f4e837272b324a70221fb384370c622c534bba069808040a2195/odoo_addon_autovacuum_message_attachment-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-11 07:49:05] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/a2/73/8d6292a4a8763a95222fb988aaaf46e8e4faa6dbfa82aba07ec8abaabd54/mojo_runtime-1.3.8.tar.gz
+[2024-04-11 07:49:05] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2024-04-11 07:49:05] INFO root fetch - processPackages [xt-st-common]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-11 07:49:05] INFO root fetch - processPackages [vit-pytorch-implementation]: Downloading https://files.pythonhosted.org/packages/b8/82/7a1bc509cf2468440023a2b0533647d5ec29c9ebe1de110718ee0c3fc528/vit-pytorch-implementation-1.0.0.tar.gz
+[2024-04-11 07:49:05] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-11 07:49:05] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/67/1b/719b44dfec73a206881dc4028f0b39d910078ee494becc05d7c95a6bea3c/xt_st_common-1.1.3.tar.gz
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Downloading https://files.pythonhosted.org/packages/36/3a/3b06d09d885ae3bcc76d550a27646c02a02a37b909f9f4331b6d45ea5ff1/odoo_addon_base_name_search_improved-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/0b/4f/e2e15c011670b84c3ab280a5c0f4dd5d941be7f25c6d8eb5f547f81947a8/odoo_addon_autovacuum_message_attachment-16.0.1.0.1-py3-none-any.whl
+[2024-04-11 07:49:05] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/d8/72/11ae6da51311fb6fe39796b32cda706673eed2e6d5f1cc271bf029880f36/mojo_runtime-1.3.9.tar.gz
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: executing diffoscope
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-autovacuum-message-attachment/16.0.1.0.0.8-16.0.1.0.1/README.md --exclude *.pyd
+[2024-04-11 07:49:05] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2024-04-11 07:49:05] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-1.3.8.tar.gz tmp/mojo_runtime-1.3.9.tar.gz --markdown 20240411/m/mojo-runtime/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 07:49:05] INFO root fetch - processPackages [vit-pytorch-implementation]: Downloading https://files.pythonhosted.org/packages/9e/1e/2a0e28a25579ef31392eaf3582627b18c5ed8311793aa2a5924b0cd4f684/vit-pytorch-implementation-3.0.0.tar.gz
+[2024-04-11 07:49:05] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-11 07:49:05] INFO root fetch - processPackages [vit-pytorch-implementation]: executing diffoscope
+[2024-04-11 07:49:05] INFO root fetch - processPackages [vit-pytorch-implementation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit-pytorch-implementation-1.0.0.tar.gz tmp/vit-pytorch-implementation-3.0.0.tar.gz --markdown 20240411/v/vit-pytorch-implementation/1.0.0-3.0.0/README.md --exclude *.pyd
+[2024-04-11 07:49:05] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Downloading https://files.pythonhosted.org/packages/d2/15/66df17c454af03c4bf6142bc197a8dfa7a73a2a1d9539aac7a4214d1b17f/odoo_addon_base_name_search_improved-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-11 07:49:05] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-11 07:49:05] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240411/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 07:49:06] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: executing diffoscope
+[2024-04-11 07:49:06] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-base-name-search-improved/16.0.1.0.0.6-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-04-11 07:49:06] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/6d/7e/7490ca2f5738d82b6ce6cd6930125f13545d58c39559a7b53ce36614427a/xt_st_common-1.1.4.tar.gz
+[2024-04-11 07:49:06] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.8.tar.gz]
+[2024-04-11 07:49:06] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
+[2024-04-11 07:49:06] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2024-04-11 07:49:06] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-11 07:49:06] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-11 07:49:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-autovacuum-message-attachment]: success
+[2024-04-11 07:49:06] INFO root fetch - processPackages [vit-pytorch-implementation]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-implementation-1.0.0.tar.gz]
+[2024-04-11 07:49:06] INFO root fetch - processPackages [vit-pytorch-implementation]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-implementation-3.0.0.tar.gz]
+[2024-04-11 07:49:06] INFO root fetch - main [MainThread]: End processing [vit-pytorch-implementation]: success
+[2024-04-11 07:49:06] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-11 07:49:06] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-11 07:49:06] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-11 07:49:06] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-11 07:49:06] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_name_search_improved-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-11 07:49:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-name-search-improved]: success
+[2024-04-11 07:49:07] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2024-04-11 07:49:07] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-1.1.3.tar.gz tmp/xt_st_common-1.1.4.tar.gz --markdown 20240411/x/xt-st-common/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-11 07:49:08] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-1.1.3.tar.gz]
+[2024-04-11 07:49:08] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-1.1.4.tar.gz]
+[2024-04-11 07:49:08] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2024-04-11 07:49:08] INFO root fetch - main [MainThread]: Store serial: [22714750]

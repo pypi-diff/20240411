@@ -15238,3 +15238,45 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:48:01] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
 [2024-04-11 10:48:01] INFO root fetch - main [MainThread]: End processing [azdev]: success
 [2024-04-11 10:48:01] INFO root fetch - main [MainThread]: Store serial: [22716566]
+[2024-04-11 10:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716566]
+[2024-04-11 10:50:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 10:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marketplace-handler
+[2024-04-11 10:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-coder
+[2024-04-11 10:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypatorch
+[2024-04-11 10:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medgyver
+[2024-04-11 10:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csnlp
+[2024-04-11 10:50:10] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 10:50:10] INFO root fetch - processPackages [hypatorch]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-11 10:50:10] INFO root fetch - processPackages [marketplace-handler]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-11 10:50:10] WARNING root fetch - processPackages [medgyver]: Skipping, unable to determine old version
+[2024-04-11 10:50:10] INFO root fetch - main [MainThread]: End processing [medgyver] error
+[2024-04-11 10:50:10] INFO root fetch - processPackages [csnlp]: New version: [1.5.9rc3] Old Version: [1.5.9rc2]
+[2024-04-11 10:50:10] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-11 10:50:10] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/bc/9d/35c124514e9f0b276475edc7b69259d76eadec7d70ca4b5ccb56ea1d6843/hypatorch-0.2.7.tar.gz
+[2024-04-11 10:50:10] INFO root fetch - processPackages [marketplace-handler]: Downloading https://files.pythonhosted.org/packages/fa/46/2ed928cdf97eaffb065c8ca78c7d12eaac1472749770120c7d165cf18ca4/marketplace_handler-1.4.1.tar.gz
+[2024-04-11 10:50:10] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/2e/2b/01f3b4918ddda421aecf5cbdc4f03bde43a1b66121a33d6667e1ab1e4451/csnlp-1.5.9rc2.tar.gz
+[2024-04-11 10:50:10] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-11 10:50:11] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-11 10:50:11] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240411/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 10:50:11] INFO root fetch - processPackages [marketplace-handler]: Downloading https://files.pythonhosted.org/packages/f3/39/478ac5a6be0b7b379412ec0ac52d7fc774b13d00883b1aaa4b426063607f/marketplace_handler-1.4.2.tar.gz
+[2024-04-11 10:50:11] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/0d/2d/0fa5b24e7109f6373e6f37970160deb67e911342bf09bea261a454470723/hypatorch-0.2.8.tar.gz
+[2024-04-11 10:50:11] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/75/46/cbfd8deaa3343e95a5f140e816f1f97a5c135d2e3934e237c6e2f0ee5f94/csnlp-1.5.9rc3.tar.gz
+[2024-04-11 10:50:11] INFO root fetch - processPackages [marketplace-handler]: executing diffoscope
+[2024-04-11 10:50:11] INFO root fetch - processPackages [marketplace-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketplace_handler-1.4.1.tar.gz tmp/marketplace_handler-1.4.2.tar.gz --markdown 20240411/m/marketplace-handler/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-11 10:50:11] INFO root fetch - processPackages [hypatorch]: executing diffoscope
+[2024-04-11 10:50:11] INFO root fetch - processPackages [hypatorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypatorch-0.2.7.tar.gz tmp/hypatorch-0.2.8.tar.gz --markdown 20240411/h/hypatorch/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-11 10:50:11] INFO root fetch - processPackages [csnlp]: executing diffoscope
+[2024-04-11 10:50:11] INFO root fetch - processPackages [csnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csnlp-1.5.9rc2.tar.gz tmp/csnlp-1.5.9rc3.tar.gz --markdown 20240411/c/csnlp/1.5.9rc2-1.5.9rc3/README.md --exclude *.pyd
+[2024-04-11 10:50:12] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-11 10:50:12] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-11 10:50:12] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-11 10:50:12] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.7.tar.gz]
+[2024-04-11 10:50:12] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.8.tar.gz]
+[2024-04-11 10:50:12] INFO root fetch - main [MainThread]: End processing [hypatorch]: success
+[2024-04-11 10:50:12] INFO root fetch - processPackages [marketplace-handler]: Remove: archive file [/home/abi/fetcher/tmp/marketplace_handler-1.4.1.tar.gz]
+[2024-04-11 10:50:12] INFO root fetch - processPackages [marketplace-handler]: Remove: archive file [/home/abi/fetcher/tmp/marketplace_handler-1.4.2.tar.gz]
+[2024-04-11 10:50:12] INFO root fetch - main [MainThread]: End processing [marketplace-handler]: success
+[2024-04-11 10:50:13] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc2.tar.gz]
+[2024-04-11 10:50:13] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc3.tar.gz]
+[2024-04-11 10:50:13] INFO root fetch - main [MainThread]: End processing [csnlp]: success
+[2024-04-11 10:50:13] INFO root fetch - main [MainThread]: Store serial: [22716585]

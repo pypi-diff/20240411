@@ -17649,3 +17649,45 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:12:05] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-1.0.0.tar.gz]
 [2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [happy-vllm]: success
 [2024-04-11 11:12:05] INFO root fetch - main [MainThread]: Store serial: [22717217]
+[2024-04-11 11:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717217]
+[2024-04-11 11:14:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local-redash
+[2024-04-11 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gearpy
+[2024-04-11 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: control-lab-ly
+[2024-04-11 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prosperity2submit
+[2024-04-11 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spai
+[2024-04-11 11:14:15] INFO root fetch - processPackages [gearpy]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-11 11:14:15] INFO root fetch - processPackages [spai]: New version: [2024.4.11] Old Version: [2024.3.6]
+[2024-04-11 11:14:15] INFO root fetch - processPackages [control-lab-ly]: New version: [1.3.1] Old Version: [1.3.0b0]
+[2024-04-11 11:14:15] WARNING root fetch - processPackages [local-redash]: Skipping, unable to determine old version
+[2024-04-11 11:14:15] INFO root fetch - main [MainThread]: End processing [local-redash] error
+[2024-04-11 11:14:15] INFO root fetch - processPackages [prosperity2submit]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-11 11:14:15] INFO root fetch - processPackages [gearpy]: Downloading https://files.pythonhosted.org/packages/64/d2/5457fec8cab9ee5599469f22f71f85fcaed4c96ae0cd9cd1243f251c4c33/gearpy-0.7.0.tar.gz
+[2024-04-11 11:14:15] INFO root fetch - processPackages [prosperity2submit]: Downloading https://files.pythonhosted.org/packages/fd/ae/5b79f2a16285db95bd5ac287b7641e43240309e6cb1bd7f90351838a047c/prosperity2submit-0.2.3.tar.gz
+[2024-04-11 11:14:15] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/33/4e/453f0e866a24ffb4a20aa881e53ef5936b92d8c01ba11ef6a005ad667f7d/spai-2024.3.6.tar.gz
+[2024-04-11 11:14:15] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/ca/05/996a63e01b511b37005b619a2b9720bd230e205beb41d731ffa552a2244e/control-lab-ly-1.3.0b0.tar.gz
+[2024-04-11 11:14:15] INFO root fetch - processPackages [prosperity2submit]: Downloading https://files.pythonhosted.org/packages/b1/d0/b30331c0a6afccc79c25e61a5b597e0cf3ce760bc82a0a68f8c7e298fbd6/prosperity2submit-0.2.4.tar.gz
+[2024-04-11 11:14:16] INFO root fetch - processPackages [gearpy]: Downloading https://files.pythonhosted.org/packages/ec/aa/ded39865a1c85badb96f5875a1a6b71b47ec59aaf1c936cd6505a46900bc/gearpy-0.7.1.tar.gz
+[2024-04-11 11:14:16] INFO root fetch - processPackages [prosperity2submit]: executing diffoscope
+[2024-04-11 11:14:16] INFO root fetch - processPackages [prosperity2submit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2submit-0.2.3.tar.gz tmp/prosperity2submit-0.2.4.tar.gz --markdown 20240411/p/prosperity2submit/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-11 11:14:16] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/85/fa/2af6c14c874c10e61103b5522c0428a9129fc77f8830217b2b2aad2a2dcb/control-lab-ly-1.3.1.tar.gz
+[2024-04-11 11:14:16] INFO root fetch - processPackages [gearpy]: executing diffoscope
+[2024-04-11 11:14:16] INFO root fetch - processPackages [gearpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearpy-0.7.0.tar.gz tmp/gearpy-0.7.1.tar.gz --markdown 20240411/g/gearpy/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-11 11:14:16] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2024-04-11 11:14:16] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.3.0b0.tar.gz tmp/control-lab-ly-1.3.1.tar.gz --markdown 20240411/c/control-lab-ly/1.3.0b0-1.3.1/README.md --exclude *.pyd
+[2024-04-11 11:14:16] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/2c/ad/be91531f44513607696877ff2bc33d48f9bc9b7a37713cead811ee1ae64e/spai-2024.4.11.tar.gz
+[2024-04-11 11:14:16] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-04-11 11:14:16] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.3.6.tar.gz tmp/spai-2024.4.11.tar.gz --markdown 20240411/s/spai/2024.3.6-2024.4.11/README.md --exclude *.pyd
+[2024-04-11 11:14:17] INFO root fetch - processPackages [prosperity2submit]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2submit-0.2.3.tar.gz]
+[2024-04-11 11:14:17] INFO root fetch - processPackages [prosperity2submit]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2submit-0.2.4.tar.gz]
+[2024-04-11 11:14:17] INFO root fetch - main [MainThread]: End processing [prosperity2submit]: success
+[2024-04-11 11:14:18] INFO root fetch - processPackages [gearpy]: Remove: archive file [/home/abi/fetcher/tmp/gearpy-0.7.0.tar.gz]
+[2024-04-11 11:14:18] INFO root fetch - processPackages [gearpy]: Remove: archive file [/home/abi/fetcher/tmp/gearpy-0.7.1.tar.gz]
+[2024-04-11 11:14:18] INFO root fetch - main [MainThread]: End processing [gearpy]: success
+[2024-04-11 11:14:18] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.3.6.tar.gz]
+[2024-04-11 11:14:18] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.11.tar.gz]
+[2024-04-11 11:14:18] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-04-11 11:14:18] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.3.0b0.tar.gz]
+[2024-04-11 11:14:18] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.3.1.tar.gz]
+[2024-04-11 11:14:18] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2024-04-11 11:14:18] INFO root fetch - main [MainThread]: Store serial: [22717234]

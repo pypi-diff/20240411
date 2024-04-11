@@ -18260,3 +18260,38 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:32:48] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-04-11 11:32:48] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-04-11 11:32:48] INFO root fetch - main [MainThread]: Store serial: [22717550]
+[2024-04-11 11:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717550]
+[2024-04-11 11:34:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 11:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySecDec
+[2024-04-11 11:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hi-ml-multimodal
+[2024-04-11 11:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyodide-mkdocs-theme
+[2024-04-11 11:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gn2pg_client
+[2024-04-11 11:34:58] INFO root fetch - processPackages [pyodide-mkdocs-theme]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-11 11:34:58] INFO root fetch - processPackages [pySecDec]: New version: [1.6.post1] Old Version: [1.6.3]
+[2024-04-11 11:34:58] INFO root fetch - processPackages [hi-ml-multimodal]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-11 11:34:58] INFO root fetch - processPackages [gn2pg_client]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-11 11:34:58] INFO root fetch - processPackages [pySecDec]: Downloading https://files.pythonhosted.org/packages/e1/98/088d8dc5736c1f3317f3f6dba8c253f1f23eb4e1c8376f6634991b1e52dd/pySecDec-1.6.3.tar.gz
+[2024-04-11 11:34:58] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/eb/bc/ba0c7bd5f4117e2ccc6998430f53389c81818bea8d74197a0b015961f1f0/pyodide_mkdocs_theme-0.2.1.tar.gz
+[2024-04-11 11:34:58] INFO root fetch - processPackages [hi-ml-multimodal]: Downloading https://files.pythonhosted.org/packages/99/6d/2c2d33e3158da4ed3c6227f57ac30e6c517ec34cfee0d2fc94ede8229cc1/hi-ml-multimodal-0.2.1.tar.gz
+[2024-04-11 11:34:58] WARNING root fetch - processPackages [pySecDec]: Skipping package: exceeds size limit 22458152>=10485760
+[2024-04-11 11:34:58] INFO root fetch - main [MainThread]: End processing [pySecDec] error
+[2024-04-11 11:34:58] INFO root fetch - processPackages [gn2pg_client]: Downloading https://files.pythonhosted.org/packages/e7/03/b0824dd56fe7137ce142b295a1cf9cab6226f33442295ea4ba1afbbcaa9f/gn2pg_client-1.6.2.tar.gz
+[2024-04-11 11:34:58] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/df/69/826d86c830483c4ce74c107686e75bea5b2bc2d0899f7bdd29657ebfeaa0/pyodide_mkdocs_theme-0.2.2.tar.gz
+[2024-04-11 11:34:58] INFO root fetch - processPackages [hi-ml-multimodal]: Downloading https://files.pythonhosted.org/packages/08/84/5b1dcfb23500a905db5aed77522d94f62a1ebfe581941b8817573d06c5da/hi-ml-multimodal-0.2.2.tar.gz
+[2024-04-11 11:34:58] INFO root fetch - processPackages [gn2pg_client]: Downloading https://files.pythonhosted.org/packages/d5/9f/f42ba0426a32f542244070efbe08c951d4127e815bdaa0acb8abbbb73fe7/gn2pg_client-1.6.3.tar.gz
+[2024-04-11 11:34:58] INFO root fetch - processPackages [pyodide-mkdocs-theme]: executing diffoscope
+[2024-04-11 11:34:58] INFO root fetch - processPackages [pyodide-mkdocs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide_mkdocs_theme-0.2.1.tar.gz tmp/pyodide_mkdocs_theme-0.2.2.tar.gz --markdown 20240411/p/pyodide-mkdocs-theme/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-11 11:34:58] INFO root fetch - processPackages [hi-ml-multimodal]: executing diffoscope
+[2024-04-11 11:34:58] INFO root fetch - processPackages [hi-ml-multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hi-ml-multimodal-0.2.1.tar.gz tmp/hi-ml-multimodal-0.2.2.tar.gz --markdown 20240411/h/hi-ml-multimodal/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-11 11:34:59] INFO root fetch - processPackages [gn2pg_client]: executing diffoscope
+[2024-04-11 11:34:59] INFO root fetch - processPackages [gn2pg_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gn2pg_client-1.6.2.tar.gz tmp/gn2pg_client-1.6.3.tar.gz --markdown 20240411/g/gn2pg_client/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-11 11:34:59] INFO root fetch - processPackages [hi-ml-multimodal]: Remove: archive file [/home/abi/fetcher/tmp/hi-ml-multimodal-0.2.1.tar.gz]
+[2024-04-11 11:34:59] INFO root fetch - processPackages [hi-ml-multimodal]: Remove: archive file [/home/abi/fetcher/tmp/hi-ml-multimodal-0.2.2.tar.gz]
+[2024-04-11 11:34:59] INFO root fetch - main [MainThread]: End processing [hi-ml-multimodal]: success
+[2024-04-11 11:34:59] INFO root fetch - processPackages [gn2pg_client]: Remove: archive file [/home/abi/fetcher/tmp/gn2pg_client-1.6.2.tar.gz]
+[2024-04-11 11:34:59] INFO root fetch - processPackages [gn2pg_client]: Remove: archive file [/home/abi/fetcher/tmp/gn2pg_client-1.6.3.tar.gz]
+[2024-04-11 11:34:59] INFO root fetch - main [MainThread]: End processing [gn2pg_client]: success
+[2024-04-11 11:35:01] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.2.1.tar.gz]
+[2024-04-11 11:35:01] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.2.2.tar.gz]
+[2024-04-11 11:35:01] INFO root fetch - main [MainThread]: End processing [pyodide-mkdocs-theme]: success
+[2024-04-11 11:35:01] INFO root fetch - main [MainThread]: Store serial: [22717565]

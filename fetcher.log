@@ -12596,3 +12596,22 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:22:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240410210756.tar.gz]
 [2024-04-11 08:22:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-11 08:22:27] INFO root fetch - main [MainThread]: Store serial: [22715027]
+[2024-04-11 08:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715027]
+[2024-04-11 08:24:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 08:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dump-github
+[2024-04-11 08:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto-ext
+[2024-04-11 08:24:36] INFO root fetch - processPackages [dump-github]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 08:24:37] INFO root fetch - processPackages [dump-github]: Downloading https://files.pythonhosted.org/packages/a1/48/06e37b706a182a4b325962a744d703407f3a5f1f510c04dc5fb38e2fbe79/dump_github-0.1.1-py3-none-any.whl
+[2024-04-11 08:24:37] INFO root fetch - processPackages [moto-ext]: New version: [5.0.5.post1] Old Version: [5.0.4.post1]
+[2024-04-11 08:24:37] INFO root fetch - processPackages [dump-github]: Downloading https://files.pythonhosted.org/packages/7a/7d/7a9ac4d0fe375e860b58c4dc5dfac822b320800c2c11fe6960e095c31ed1/dump_github-0.1.2-py3-none-any.whl
+[2024-04-11 08:24:37] INFO root fetch - processPackages [dump-github]: executing diffoscope
+[2024-04-11 08:24:37] INFO root fetch - processPackages [dump-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dump_github-0.1.1-py3-none-any.whl.zip tmp/dump_github-0.1.2-py3-none-any.whl.zip --markdown 20240411/d/dump-github/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 08:24:37] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/e9/11/966fdc46a9fa01d00d0c1af84594090fd3e7bb4448d8dbdc392fc2a43865/moto-ext-5.0.5.post1.tar.gz
+[2024-04-11 08:24:37] INFO root fetch - processPackages [dump-github]: Remove: archive file [/home/abi/fetcher/tmp/dump_github-0.1.1-py3-none-any.whl.zip]
+[2024-04-11 08:24:37] INFO root fetch - processPackages [dump-github]: Remove: archive file [/home/abi/fetcher/tmp/dump_github-0.1.2-py3-none-any.whl.zip]
+[2024-04-11 08:24:37] INFO root fetch - main [MainThread]: End processing [dump-github]: success
+[2024-04-11 08:24:38] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2024-04-11 08:24:38] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-5.0.4.post1.tar.gz tmp/moto-ext-5.0.5.post1.tar.gz --markdown 20240411/m/moto-ext/5.0.4.post1-5.0.5.post1/README.md --exclude *.pyd
+[2024-04-11 08:27:38] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2024-04-11 08:27:38] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2024-04-11 08:27:38] INFO root fetch - main [MainThread]: Store serial: [22715032]

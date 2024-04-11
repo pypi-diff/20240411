@@ -9094,3 +9094,54 @@ EOFError: EOF read where object expected
 [2024-04-11 04:39:15] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.727.2.tar.gz]
 [2024-04-11 04:39:15] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-11 04:39:15] INFO root fetch - main [MainThread]: Store serial: [22713394]
+[2024-04-11 04:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713394]
+[2024-04-11 04:41:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 04:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-test-common
+[2024-04-11 04:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swf-typed
+[2024-04-11 04:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: determined
+[2024-04-11 04:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-hub
+[2024-04-11 04:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aseprite-reader
+[2024-04-11 04:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaea-operator
+[2024-04-11 04:41:26] INFO root fetch - processPackages [auto-test-common]: New version: [1.1.97] Old Version: [1.1.96]
+[2024-04-11 04:41:26] INFO root fetch - processPackages [model-hub]: New version: [0.31.0rc1] Old Version: [0.31.0rc0]
+[2024-04-11 04:41:26] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.8] Old Version: [1.2.0.7]
+[2024-04-11 04:41:26] INFO root fetch - processPackages [determined]: New version: [0.31.0rc1] Old Version: [0.31.0rc0]
+[2024-04-11 04:41:26] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/bb/90/99918932f0e53cf94f1133005e3370285c0bb20c6dedbfdb8d1d2f58de78/auto-test-common-1.1.96.tar.gz
+[2024-04-11 04:41:26] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/62/22/a2e2702265eb0a240733db04206d80b4e3fae4380e44dfb2f3b7db6bc5b6/model_hub-0.31.0rc0-py3-none-any.whl
+[2024-04-11 04:41:26] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/6f/37/170c563d18a7579908b404d071628a3ce7e48a99f21bd0d96bf155f7dd55/gaea_operator-1.2.0.7-py3-none-any.whl
+[2024-04-11 04:41:26] INFO root fetch - processPackages [swf-typed]: New version: [1.1.2rc0] Old Version: [1.1.1rc1]
+[2024-04-11 04:41:26] WARNING root fetch - processPackages [aseprite-reader]: Skipping, unable to determine old version
+[2024-04-11 04:41:26] INFO root fetch - main [MainThread]: End processing [aseprite-reader] error
+[2024-04-11 04:41:26] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/35/3a/641c8deaf40405127bd957961edf0f762343836902fade5e4a5da94b1ca2/determined-0.31.0rc0-py3-none-any.whl
+[2024-04-11 04:41:26] INFO root fetch - processPackages [swf-typed]: Downloading https://files.pythonhosted.org/packages/b8/5a/9c7fbaab31f4795b31add0d9bfe963fa68d5b8922e922c3cfb98ed4c1b99/swf-typed-1.1.1rc1.tar.gz
+[2024-04-11 04:41:26] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/e3/99/b8d502de9760d8243c53acb45a0378adde15b75aec5dc2e0d7fa27025ed3/gaea_operator-1.2.0.8-py3-none-any.whl
+[2024-04-11 04:41:26] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/96/dd/cf4bcd74b139a1245ff38cc90c2f61ad8182d7d601026e8aeb2e998b4d66/auto-test-common-1.1.97.tar.gz
+[2024-04-11 04:41:26] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/2e/5a/76d30477a2066608c4608c625c3d0cbfefc387f6c8b2b97cfb25476a9e90/model_hub-0.31.0rc1-py3-none-any.whl
+[2024-04-11 04:41:26] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-11 04:41:26] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip --markdown 20240411/g/gaea-operator/1.2.0.7-1.2.0.8/README.md --exclude *.pyd
+[2024-04-11 04:41:27] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/27/ac/36d0c92769e0e744b85224237d51228a6bf1c8f656c1b116efe7ea5a6d51/determined-0.31.0rc1-py3-none-any.whl
+[2024-04-11 04:41:27] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-11 04:41:27] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.1.96.tar.gz tmp/auto-test-common-1.1.97.tar.gz --markdown 20240411/a/auto-test-common/1.1.96-1.1.97/README.md --exclude *.pyd
+[2024-04-11 04:41:27] INFO root fetch - processPackages [swf-typed]: Downloading https://files.pythonhosted.org/packages/bc/e0/762169310c3d429fbe26f0e64306cf8f104ddde9f2d9aea7f9d5bc467cd8/swf-typed-1.1.2rc0.tar.gz
+[2024-04-11 04:41:27] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-11 04:41:27] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.31.0rc0-py3-none-any.whl.zip tmp/model_hub-0.31.0rc1-py3-none-any.whl.zip --markdown 20240411/m/model-hub/0.31.0rc0-0.31.0rc1/README.md --exclude *.pyd
+[2024-04-11 04:41:27] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-11 04:41:27] INFO root fetch - processPackages [swf-typed]: executing diffoscope
+[2024-04-11 04:41:27] INFO root fetch - processPackages [swf-typed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swf-typed-1.1.1rc1.tar.gz tmp/swf-typed-1.1.2rc0.tar.gz --markdown 20240411/s/swf-typed/1.1.1rc1-1.1.2rc0/README.md --exclude *.pyd
+[2024-04-11 04:41:27] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.31.0rc0-py3-none-any.whl.zip tmp/determined-0.31.0rc1-py3-none-any.whl.zip --markdown 20240411/d/determined/0.31.0rc0-0.31.0rc1/README.md --exclude *.pyd
+[2024-04-11 04:41:27] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.96.tar.gz]
+[2024-04-11 04:41:27] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.97.tar.gz]
+[2024-04-11 04:41:27] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-11 04:41:27] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc0-py3-none-any.whl.zip]
+[2024-04-11 04:41:27] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc1-py3-none-any.whl.zip]
+[2024-04-11 04:41:27] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-11 04:41:27] INFO root fetch - processPackages [swf-typed]: Remove: archive file [/home/abi/fetcher/tmp/swf-typed-1.1.1rc1.tar.gz]
+[2024-04-11 04:41:27] INFO root fetch - processPackages [swf-typed]: Remove: archive file [/home/abi/fetcher/tmp/swf-typed-1.1.2rc0.tar.gz]
+[2024-04-11 04:41:27] INFO root fetch - main [MainThread]: End processing [swf-typed]: success
+[2024-04-11 04:41:27] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip]
+[2024-04-11 04:41:27] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip]
+[2024-04-11 04:41:27] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-11 04:41:28] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc0-py3-none-any.whl.zip]
+[2024-04-11 04:41:28] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc1-py3-none-any.whl.zip]
+[2024-04-11 04:41:28] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-11 04:41:28] INFO root fetch - main [MainThread]: Store serial: [22713410]

@@ -12380,3 +12380,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:09:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404110606.tar.gz]
 [2024-04-11 08:09:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-11 08:09:11] INFO root fetch - main [MainThread]: Store serial: [22714936]
+[2024-04-11 08:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714936]
+[2024-04-11 08:11:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2024-04-11 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agit
+[2024-04-11 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2024-04-11 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wtu-mlflow
+[2024-04-11 08:11:20] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240410] Old Version: [2.6.0.dev20240409]
+[2024-04-11 08:11:20] INFO root fetch - processPackages [agit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 08:11:20] INFO root fetch - processPackages [kfish]: New version: [99.0.202404110609] Old Version: [99.0.202404091941]
+[2024-04-11 08:11:20] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/16/38/060337d805cefbd83a0006a8780d2428ae3bb4a1c98e1917ec24e998e7b3/pyg_nightly-2.6.0.dev20240409.tar.gz
+[2024-04-11 08:11:20] INFO root fetch - processPackages [wtu-mlflow]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-11 08:11:20] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/8e/35/84e9bd83f61584d50d2835f5305579d1de65e01385e73fb4b7ce38c3eaea/agit-0.1.8.tar.gz
+[2024-04-11 08:11:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/71/f8/bea98dde0d383f0df800e3bf56b72d2d622d1558e9679f10a33ae60bc3e4/kfish-99.0.202404091941-py3-none-any.whl
+[2024-04-11 08:11:20] INFO root fetch - processPackages [wtu-mlflow]: Downloading https://files.pythonhosted.org/packages/15/53/e8f47b799637437b87f5387e6d602ec64ab3625251a54663689aca94f637/wtu-mlflow-0.0.5.tar.gz
+[2024-04-11 08:11:21] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/0f/c5/e73e87b988d7ee920f464eda626bf703eed3ceea8aef88e7a9583c396f9e/pyg_nightly-2.6.0.dev20240410.tar.gz
+[2024-04-11 08:11:21] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/43/45/5e13cee81764e200c542b0f3a290a75add1114d48461471c291f56c94c44/kfish-99.0.202404110609-py3-none-any.whl
+[2024-04-11 08:11:21] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-11 08:11:21] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240409.tar.gz tmp/pyg_nightly-2.6.0.dev20240410.tar.gz --markdown 20240411/p/pyg-nightly/2.6.0.dev20240409-2.6.0.dev20240410/README.md --exclude *.pyd
+[2024-04-11 08:11:21] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-11 08:11:21] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404091941-py3-none-any.whl.zip tmp/kfish-99.0.202404110609-py3-none-any.whl.zip --markdown 20240411/k/kfish/99.0.202404091941-99.0.202404110609/README.md --exclude *.pyd
+[2024-04-11 08:11:21] INFO root fetch - processPackages [wtu-mlflow]: Downloading https://files.pythonhosted.org/packages/31/c5/821e67e3611e55de161d1e549b96f7c62eb9e73a4793b6e0113bb24b500e/wtu-mlflow-0.0.6.tar.gz
+[2024-04-11 08:11:21] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/60/33/b2bf26349fba7328d66c4a5b6fd237c552d1830b8eff1e2aa7cf9aab1d1f/agit-0.1.9.tar.gz
+[2024-04-11 08:11:21] INFO root fetch - processPackages [agit]: executing diffoscope
+[2024-04-11 08:11:21] INFO root fetch - processPackages [agit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agit-0.1.8.tar.gz tmp/agit-0.1.9.tar.gz --markdown 20240411/a/agit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 08:11:21] INFO root fetch - processPackages [wtu-mlflow]: executing diffoscope
+[2024-04-11 08:11:21] INFO root fetch - processPackages [wtu-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtu-mlflow-0.0.5.tar.gz tmp/wtu-mlflow-0.0.6.tar.gz --markdown 20240411/w/wtu-mlflow/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-11 08:11:21] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404091941-py3-none-any.whl.zip]
+[2024-04-11 08:11:21] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404110609-py3-none-any.whl.zip]
+[2024-04-11 08:11:21] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-11 08:11:22] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.8.tar.gz]
+[2024-04-11 08:11:22] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.9.tar.gz]
+[2024-04-11 08:11:22] INFO root fetch - main [MainThread]: End processing [agit]: success
+[2024-04-11 08:11:22] INFO root fetch - processPackages [wtu-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/wtu-mlflow-0.0.5.tar.gz]
+[2024-04-11 08:11:22] INFO root fetch - processPackages [wtu-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/wtu-mlflow-0.0.6.tar.gz]
+[2024-04-11 08:11:22] INFO root fetch - main [MainThread]: End processing [wtu-mlflow]: success
+[2024-04-11 08:11:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240409.tar.gz]
+[2024-04-11 08:11:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240410.tar.gz]
+[2024-04-11 08:11:23] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-11 08:11:23] INFO root fetch - main [MainThread]: Store serial: [22714952]

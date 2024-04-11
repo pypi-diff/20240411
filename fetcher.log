@@ -10727,3 +10727,88 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:04:26] WARNING root fetch - processPackages [sqlfluff-common-conventions]: Skipping, unable to determine old version
 [2024-04-11 06:04:26] INFO root fetch - main [MainThread]: End processing [sqlfluff-common-conventions] error
 [2024-04-11 06:04:26] INFO root fetch - main [MainThread]: Store serial: [22714148]
+[2024-04-11 06:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714148]
+[2024-04-11 06:06:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aett-postgres
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aett-s3
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aett-domain
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aett-eventstore
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aett-dynamodb
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aett-mongodb
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-mecab-ko
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromedriver-binary
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chromedriver-binary
+[2024-04-11 06:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aett-inmemory
+[2024-04-11 06:06:35] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-11 06:06:35] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-11 06:06:35] INFO root fetch - processPackages [aett-s3]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-11 06:06:35] WARNING root fetch - processPackages [aett-inmemory]: Skipping, unable to determine old version
+[2024-04-11 06:06:35] INFO root fetch - main [MainThread]: End processing [aett-inmemory] error
+[2024-04-11 06:06:35] INFO root fetch - processPackages [aett-dynamodb]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-11 06:06:35] INFO root fetch - processPackages [aett-domain]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-11 06:06:35] INFO root fetch - processPackages [aett-postgres]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-11 06:06:35] INFO root fetch - processPackages [aett-mongodb]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-11 06:06:35] INFO root fetch - processPackages [aett-eventstore]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-11 06:06:35] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [python-mecab-ko]: New version: [1.3.5] Old Version: [1.3.3]
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-eventstore]: Downloading https://files.pythonhosted.org/packages/ad/fc/98dd87b5bd8d0ded2384cc3c45ba13228509a72e64618fa2ebf1157317f7/aett-eventstore-0.7.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-domain]: Downloading https://files.pythonhosted.org/packages/bb/75/10c374e9b836b7943c2d3ea7731c1dedf2c6453648203d750e28f1718a69/aett-domain-0.7.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-s3]: Downloading https://files.pythonhosted.org/packages/88/ac/1d7016d7cf3a4a36172daaf45c3b434ca88bc9ef2bfe078730d9150484fe/aett-s3-0.7.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-dynamodb]: Downloading https://files.pythonhosted.org/packages/e1/72/e600c2b0618207ca9b3a40e83260322104870380162cd0e6210c78a2481d/aett-dynamodb-0.7.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-postgres]: Downloading https://files.pythonhosted.org/packages/0a/8d/41dbd1114e5e27e72bb8cd2a3d98dcfaff6ae76768d60c18ab7b33359a63/aett-postgres-0.7.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-mongodb]: Downloading https://files.pythonhosted.org/packages/0f/d2/f4f72f0dad2ac6f46d15ca5e2402cd76cfcdd0fd236ec0d575faf9b6b20a/aett-mongodb-0.7.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [python-mecab-ko]: Downloading https://files.pythonhosted.org/packages/c7/e4/67bb46b9831d2e94bf6895fed8773cb725be8fa8df8dcfc8f17dc81f1ce4/python-mecab-ko-1.3.3.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240411/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-11 06:06:36] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240411/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-eventstore]: Downloading https://files.pythonhosted.org/packages/ab/fa/9f3d5ad5313ea61ea6665b36c8dffda30d87fe3aa2fab9cb096231a98f38/aett-eventstore-0.8.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-s3]: Downloading https://files.pythonhosted.org/packages/5a/74/3fc4ee4b55faf046dfac174f2acd1f1128ff47c3f21ea609eb4e4577f16a/aett-s3-0.8.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-dynamodb]: Downloading https://files.pythonhosted.org/packages/f2/fb/2d2d898860e68f92a48e832bc18f9304715e26bc2aa9b4436a4859fc72b1/aett-dynamodb-0.8.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-domain]: Downloading https://files.pythonhosted.org/packages/15/fb/301bfd69c287903ead4ebd3fe5f9148b0c3ddf03cb5a59f296bec5830e0e/aett-domain-0.8.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-postgres]: Downloading https://files.pythonhosted.org/packages/48/6c/474098b1be4eb6e9d945e20d60653ceec9f42f35de53dd5493ab1e0c95bc/aett-postgres-0.8.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [python-mecab-ko]: Downloading https://files.pythonhosted.org/packages/9a/7d/12fd678e1145f33c7a810a1181d063eb86f7524e5c60a332f4f14c04b475/python_mecab_ko-1.3.5-cp39-cp39-win32.whl
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-mongodb]: Downloading https://files.pythonhosted.org/packages/aa/35/7b9666a9240a80af89fc59ea45c9e991d1fe84c9cdc3f1538b1aa38bb201/aett-mongodb-0.8.0.tar.gz
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-eventstore]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-eventstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aett-eventstore-0.7.0.tar.gz tmp/aett-eventstore-0.8.0.tar.gz --markdown 20240411/a/aett-eventstore/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-dynamodb]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aett-dynamodb-0.7.0.tar.gz tmp/aett-dynamodb-0.8.0.tar.gz --markdown 20240411/a/aett-dynamodb/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-domain]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aett-domain-0.7.0.tar.gz tmp/aett-domain-0.8.0.tar.gz --markdown 20240411/a/aett-domain/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-s3]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aett-s3-0.7.0.tar.gz tmp/aett-s3-0.8.0.tar.gz --markdown 20240411/a/aett-s3/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-mongodb]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aett-mongodb-0.7.0.tar.gz tmp/aett-mongodb-0.8.0.tar.gz --markdown 20240411/a/aett-mongodb/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-postgres]: executing diffoscope
+[2024-04-11 06:06:36] INFO root fetch - processPackages [aett-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aett-postgres-0.7.0.tar.gz tmp/aett-postgres-0.8.0.tar.gz --markdown 20240411/a/aett-postgres/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-11 06:06:37] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-eventstore]: Remove: archive file [/home/abi/fetcher/tmp/aett-eventstore-0.7.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-eventstore]: Remove: archive file [/home/abi/fetcher/tmp/aett-eventstore-0.8.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [aett-eventstore]: success
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/aett-dynamodb-0.7.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/aett-dynamodb-0.8.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [aett-dynamodb]: success
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-s3]: Remove: archive file [/home/abi/fetcher/tmp/aett-s3-0.7.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-s3]: Remove: archive file [/home/abi/fetcher/tmp/aett-s3-0.8.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [aett-s3]: success
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-domain]: Remove: archive file [/home/abi/fetcher/tmp/aett-domain-0.7.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-domain]: Remove: archive file [/home/abi/fetcher/tmp/aett-domain-0.8.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [aett-domain]: success
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-postgres]: Remove: archive file [/home/abi/fetcher/tmp/aett-postgres-0.7.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-postgres]: Remove: archive file [/home/abi/fetcher/tmp/aett-postgres-0.8.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [aett-postgres]: success
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/aett-mongodb-0.7.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - processPackages [aett-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/aett-mongodb-0.8.0.tar.gz]
+[2024-04-11 06:06:37] INFO root fetch - main [MainThread]: End processing [aett-mongodb]: success
+[2024-04-11 06:06:37] INFO root fetch - processPackages [python-mecab-ko]: executing diffoscope
+[2024-04-11 06:06:37] INFO root fetch - processPackages [python-mecab-ko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-mecab-ko-1.3.3.tar.gz tmp/python_mecab_ko-1.3.5-cp39-cp39-win32.whl.zip --markdown 20240411/p/python-mecab-ko/1.3.3-1.3.5/README.md --exclude *.pyd
+[2024-04-11 06:06:38] INFO root fetch - processPackages [python-mecab-ko]: Remove: archive file [/home/abi/fetcher/tmp/python-mecab-ko-1.3.3.tar.gz]
+[2024-04-11 06:06:38] INFO root fetch - processPackages [python-mecab-ko]: Remove: archive file [/home/abi/fetcher/tmp/python_mecab_ko-1.3.5-cp39-cp39-win32.whl.zip]
+[2024-04-11 06:06:38] INFO root fetch - main [MainThread]: End processing [python-mecab-ko]: success
+[2024-04-11 06:06:38] INFO root fetch - main [MainThread]: Store serial: [22714219]

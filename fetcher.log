@@ -12956,3 +12956,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:47:42] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.2.8.tar.gz]
 [2024-04-11 08:47:42] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
 [2024-04-11 08:47:42] INFO root fetch - main [MainThread]: Store serial: [22715343]
+[2024-04-11 08:49:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715343]
+[2024-04-11 08:49:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrobo
+[2024-04-11 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BoatBuddy
+[2024-04-11 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcentrapi
+[2024-04-11 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geventhttpclient
+[2024-04-11 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plugin-config-exceptions
+[2024-04-11 08:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: t-bug-catcher
+[2024-04-11 08:49:51] INFO root fetch - processPackages [dcentrapi]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-11 08:49:51] WARNING root fetch - processPackages [plugin-config-exceptions]: Skipping, unable to determine old version
+[2024-04-11 08:49:51] INFO root fetch - main [MainThread]: End processing [plugin-config-exceptions] error
+[2024-04-11 08:49:51] INFO root fetch - processPackages [nrobo]: New version: [2024.40.2] Old Version: [2024.40.1]
+[2024-04-11 08:49:51] INFO root fetch - processPackages [geventhttpclient]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-11 08:49:51] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-11 08:49:52] INFO root fetch - processPackages [BoatBuddy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-11 08:49:52] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/02/59/9b82f031a7a19f09bdf8023888f2910261d3538ec8533ce5b2edba7b7f2f/dcentrapi-0.4.3.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/fe/94/60ddf2edb3e04e0446ac0b73b56d68f009ab8069a89c5490b72d000d5f89/nrobo-2024.40.1.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [geventhttpclient]: Downloading https://files.pythonhosted.org/packages/7b/bf/608b0c44108ec980dcc4a7658997b3d5340de7604f5b74683d1615ba9a7c/geventhttpclient-2.1.0.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/6c/ac/16fbef452383f5388bcaa8eea967b5ae73dc06c9d2c001da55d4f4ecc6ae/t_bug_catcher-0.4.1.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/bf/4d/9e321cfe04d1c06153ff54a1253eda867fdd54ee3739262e5d7cfc51b1c7/boatbuddy-0.9.4.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/2d/17/1c808959d1176ac7ee5a1e0b362b05a15600ce5102e6c6f3be2b4a6d7be7/dcentrapi-0.4.4.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/dc/7d/bfd8435e38db9ef0a0a19a66b181b4778d9928c17c370d953b29b7dd9793/nrobo-2024.40.2.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [geventhttpclient]: Downloading https://files.pythonhosted.org/packages/50/58/ec8d5604ed8460c3e5a86906d469429f0b7bec180ea815203b94283a39b7/geventhttpclient-2.1.1.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2024-04-11 08:49:52] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.4.3.tar.gz tmp/dcentrapi-0.4.4.tar.gz --markdown 20240411/d/dcentrapi/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-11 08:49:52] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/0d/dc/b83a900002767e5feb49ef107b3317e0bd9b08c246d446615dcbe14aaa50/t_bug_catcher-0.4.2.tar.gz
+[2024-04-11 08:49:52] INFO root fetch - processPackages [nrobo]: executing diffoscope
+[2024-04-11 08:49:52] INFO root fetch - processPackages [nrobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrobo-2024.40.1.tar.gz tmp/nrobo-2024.40.2.tar.gz --markdown 20240411/n/nrobo/2024.40.1-2024.40.2/README.md --exclude *.pyd
+[2024-04-11 08:49:52] INFO root fetch - processPackages [geventhttpclient]: executing diffoscope
+[2024-04-11 08:49:52] INFO root fetch - processPackages [geventhttpclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geventhttpclient-2.1.0.tar.gz tmp/geventhttpclient-2.1.1.tar.gz --markdown 20240411/g/geventhttpclient/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-11 08:49:52] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-04-11 08:49:52] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.4.1.tar.gz tmp/t_bug_catcher-0.4.2.tar.gz --markdown 20240411/t/t-bug-catcher/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-11 08:49:53] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/fd/f5/139785198b6a0e3c5ca20dae7046eff9e2b660f9a02f1ecd73546dfff321/boatbuddy-0.9.5.tar.gz
+[2024-04-11 08:49:53] INFO root fetch - processPackages [geventhttpclient]: Remove: archive file [/home/abi/fetcher/tmp/geventhttpclient-2.1.0.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - processPackages [geventhttpclient]: Remove: archive file [/home/abi/fetcher/tmp/geventhttpclient-2.1.1.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - main [MainThread]: End processing [geventhttpclient]: success
+[2024-04-11 08:49:53] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.4.3.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.4.4.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2024-04-11 08:49:53] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.1.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.2.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-04-11 08:49:53] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.40.1.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.40.2.tar.gz]
+[2024-04-11 08:49:53] INFO root fetch - main [MainThread]: End processing [nrobo]: success
+[2024-04-11 08:49:53] INFO root fetch - processPackages [BoatBuddy]: executing diffoscope
+[2024-04-11 08:49:53] INFO root fetch - processPackages [BoatBuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boatbuddy-0.9.4.tar.gz tmp/boatbuddy-0.9.5.tar.gz --markdown 20240411/B/BoatBuddy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-11 08:50:00] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.4.tar.gz]
+[2024-04-11 08:50:00] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
+[2024-04-11 08:50:00] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
+[2024-04-11 08:50:00] INFO root fetch - main [MainThread]: Store serial: [22715382]

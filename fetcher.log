@@ -21911,3 +21911,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:56:08] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.99.tar.gz]
 [2024-04-11 13:56:08] INFO root fetch - main [MainThread]: End processing [orso]: success
 [2024-04-11 13:56:08] INFO root fetch - main [MainThread]: Store serial: [22719127]
+[2024-04-11 13:58:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719127]
+[2024-04-11 13:58:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: angreal
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catalystwan
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttxt
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socktalk
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dissect
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyserilog-settings-configuration
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: startlit
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyodmongo
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-currency-rate-update-xe
+[2024-04-11 13:58:17] INFO root fetch - processPackages [catalystwan]: New version: [0.33.1] Old Version: [0.33.0.dev0]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [pyserilog-settings-configuration]: New version: [0.2.0] Old Version: [0.1.0a1]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [startlit]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/3c/76/9ae9414357ffc0ecadf09892ed917727ff5a227f969bbc0838e605ddc454/catalystwan-0.33.0.dev0.tar.gz
+[2024-04-11 13:58:17] INFO root fetch - processPackages [ttxt]: New version: [0.0.5.9] Old Version: [0.0.5.8]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [socktalk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: New version: [16.0.1.0.0.1] Old Version: [15.0.1.0.0.5]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [pyodmongo]: New version: [0.7.0] Old Version: [0.6.8]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [dissect]: New version: [3.9.dev1] Old Version: [3.9]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [angreal]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-11 13:58:17] INFO root fetch - processPackages [startlit]: Downloading https://files.pythonhosted.org/packages/7e/41/ad5cc359940bce14b554c650bb1123efa595ea25c34f5e7cfc3c2c4ea344/startlit-0.0.2.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/c1/96/e8986bcc5eac4413056a7e800eb0c63f4db12997622fec5b851e1f5b608f/socktalk-0.1.4.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/52/97/806f2204ab9d313e3c0f88649d457acd1321c5974165c6dd832ea805c643/dissect-3.9.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [ttxt]: Downloading https://files.pythonhosted.org/packages/11/00/310d7101d9d7e8f64a52490af04aff00f716b9e159ea53821e8a4fc38ad3/ttxt-0.0.5.8.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/13/0f/7521b00c1bcb04b5e627f015aaaa0d6a8f7f43961dac17836159ebdd728d/odoo_addon_currency_rate_update_xe-15.0.1.0.0.5-py3-none-any.whl
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyserilog-settings-configuration]: Downloading https://files.pythonhosted.org/packages/0e/c7/4fb3adce8e8d483ed5515432f5d8dbf754bbd89ab94605cd23e60bf87eec/pyserilog_settings_configuration-0.1.0a1-py3-none-any.whl
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/0e/50/e23fefea6258164d3bcd1fcf4597b1ee0867fc1a018fe190c06ff0579384/pyodmongo-0.6.8.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/e1/b7/c170368754ca737883cfeebd9a142ca60b401c291afc06f6a03351a2f12e/angreal-2.1.3.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/1d/0d/89c00b106fbf9f95e1f73ca4c4ae1a206ad0aa8eb8efc7c31365e05d14a2/catalystwan-0.33.1.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [startlit]: Downloading https://files.pythonhosted.org/packages/12/f4/64053d7e49f8539cfa0a56c484adbcec58faa4b3fe7f094cd12bd1c51d87/startlit-0.0.3.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.0.dev0.tar.gz tmp/catalystwan-0.33.1.tar.gz --markdown 20240411/c/catalystwan/0.33.0.dev0-0.33.1/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/e0/89/a1b6c680063bf5b6f662ecc34073759c8d7340f9841a0d12dcc8dc9ec31f/socktalk-0.1.5.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [ttxt]: Downloading https://files.pythonhosted.org/packages/f5/47/0fbe2a598ec36d67cd4a1781671a031dfe87e1fbb7955f2a37b584f5bda1/ttxt-0.0.5.9.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/26/8b/900d568d16bd88ab9c7254707a923ebcd1315bfb9b0db9d5f4b781f283ea/odoo_addon_currency_rate_update_xe-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyserilog-settings-configuration]: Downloading https://files.pythonhosted.org/packages/43/9f/4eb96054cd3dae61a7dfadf79cc42f23a39cdcf1c286b9090be8e099b788/pyserilog_settings_configuration-0.2.0-py3-none-any.whl
+[2024-04-11 13:58:18] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/29/84/887736676b00725cbd132e503907cf36e9efd354114b3ae03347507c866e/dissect-3.9.dev1.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [startlit]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [startlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/startlit-0.0.2.tar.gz tmp/startlit-0.0.3.tar.gz --markdown 20240411/s/startlit/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/a4/4c/c05bd0798c34ea96a37a2c894d1180e5e94365e7c0f64f705fd1bc762591/pyodmongo-0.7.0.tar.gz
+[2024-04-11 13:58:18] INFO root fetch - processPackages [socktalk]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [socktalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socktalk-0.1.4.tar.gz tmp/socktalk-0.1.5.tar.gz --markdown 20240411/s/socktalk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [ttxt]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [ttxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttxt-0.0.5.8.tar.gz tmp/ttxt-0.0.5.9.tar.gz --markdown 20240411/t/ttxt/0.0.5.8-0.0.5.9/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_xe-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_xe-16.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-currency-rate-update-xe/15.0.1.0.0.5-16.0.1.0.0.1/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyserilog-settings-configuration]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyserilog-settings-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserilog_settings_configuration-0.1.0a1-py3-none-any.whl.zip tmp/pyserilog_settings_configuration-0.2.0-py3-none-any.whl.zip --markdown 20240411/p/pyserilog-settings-configuration/0.1.0a1-0.2.0/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyodmongo]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [pyodmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodmongo-0.6.8.tar.gz tmp/pyodmongo-0.7.0.tar.gz --markdown 20240411/p/pyodmongo/0.6.8-0.7.0/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [dissect]: executing diffoscope
+[2024-04-11 13:58:18] INFO root fetch - processPackages [dissect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect-3.9.tar.gz tmp/dissect-3.9.dev1.tar.gz --markdown 20240411/d/dissect/3.9-3.9.dev1/README.md --exclude *.pyd
+[2024-04-11 13:58:18] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/ed/56/29484a18b2bf6a2cb3e39c21043e1ace31ac0e2f39728d3c5102db01c175/angreal-2.1.4-cp37-none-win_amd64.whl
+[2024-04-11 13:58:19] INFO root fetch - processPackages [startlit]: Remove: archive file [/home/abi/fetcher/tmp/startlit-0.0.2.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - processPackages [startlit]: Remove: archive file [/home/abi/fetcher/tmp/startlit-0.0.3.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - main [MainThread]: End processing [startlit]: success
+[2024-04-11 13:58:19] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.4.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.5.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - main [MainThread]: End processing [socktalk]: success
+[2024-04-11 13:58:19] INFO root fetch - processPackages [pyserilog-settings-configuration]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog_settings_configuration-0.1.0a1-py3-none-any.whl.zip]
+[2024-04-11 13:58:19] INFO root fetch - processPackages [pyserilog-settings-configuration]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog_settings_configuration-0.2.0-py3-none-any.whl.zip]
+[2024-04-11 13:58:19] INFO root fetch - main [MainThread]: End processing [pyserilog-settings-configuration]: success
+[2024-04-11 13:58:19] INFO root fetch - processPackages [ttxt]: Remove: archive file [/home/abi/fetcher/tmp/ttxt-0.0.5.8.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - processPackages [ttxt]: Remove: archive file [/home/abi/fetcher/tmp/ttxt-0.0.5.9.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - main [MainThread]: End processing [ttxt]: success
+[2024-04-11 13:58:19] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-11 13:58:19] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-11 13:58:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-xe]: success
+[2024-04-11 13:58:19] INFO root fetch - processPackages [dissect]: Remove: archive file [/home/abi/fetcher/tmp/dissect-3.9.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - processPackages [dissect]: Remove: archive file [/home/abi/fetcher/tmp/dissect-3.9.dev1.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - main [MainThread]: End processing [dissect]: success
+[2024-04-11 13:58:19] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.6.8.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.7.0.tar.gz]
+[2024-04-11 13:58:19] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
+[2024-04-11 13:58:20] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.0.dev0.tar.gz]
+[2024-04-11 13:58:20] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.1.tar.gz]
+[2024-04-11 13:58:20] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-04-11 13:58:21] INFO root fetch - processPackages [angreal]: executing diffoscope
+[2024-04-11 13:58:21] INFO root fetch - processPackages [angreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angreal-2.1.3.tar.gz tmp/angreal-2.1.4-cp37-none-win_amd64.whl.zip --markdown 20240411/a/angreal/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-11 13:58:22] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.1.3.tar.gz]
+[2024-04-11 13:58:22] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.1.4-cp37-none-win_amd64.whl.zip]
+[2024-04-11 13:58:22] INFO root fetch - main [MainThread]: End processing [angreal]: success
+[2024-04-11 13:58:22] INFO root fetch - main [MainThread]: Store serial: [22719202]

@@ -19741,3 +19741,15 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:32:37] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-11 12:32:37] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-11 12:32:37] INFO root fetch - main [MainThread]: Store serial: [22718129]
+[2024-04-11 12:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718129]
+[2024-04-11 12:34:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 12:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign8
+[2024-04-11 12:34:47] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.47]
+[2024-04-11 12:34:47] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/09/a3/4b7757b95e1876fecab87ee847ba21749e3c208a9183b0ab2eec084b06d2/ign8-4.8.47.tar.gz
+[2024-04-11 12:34:47] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 12:34:47] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 12:34:47] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.47.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.47-4.8.5/README.md --exclude *.pyd
+[2024-04-11 12:34:51] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.47.tar.gz]
+[2024-04-11 12:34:51] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 12:34:51] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 12:34:51] INFO root fetch - main [MainThread]: Store serial: [22718139]

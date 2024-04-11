@@ -21531,3 +21531,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:37:47] INFO root fetch - processPackages [ll-xist]: Remove: archive file [/home/abi/fetcher/tmp/ll-xist-5.9.1.zip]
 [2024-04-11 13:37:47] INFO root fetch - main [MainThread]: End processing [ll-xist]: success
 [2024-04-11 13:37:47] INFO root fetch - main [MainThread]: Store serial: [22718932]
+[2024-04-11 13:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718932]
+[2024-04-11 13:39:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 13:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPhasesRecordloader
+[2024-04-11 13:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyPhasesML
+[2024-04-11 13:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smaht-submitr
+[2024-04-11 13:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: signapse
+[2024-04-11 13:39:56] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-11 13:39:56] INFO root fetch - processPackages [signapse]: New version: [1.0.13] Old Version: [1.0.12]
+[2024-04-11 13:39:56] INFO root fetch - processPackages [pyPhasesRecordloader]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-04-11 13:39:56] INFO root fetch - processPackages [pyPhasesML]: New version: [0.9.0] Old Version: [0.8.6]
+[2024-04-11 13:39:56] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/76/68/01c86b5aca7b5a2aa4d44dc62723d46ccbafa1cb440557be63d2867cc185/pyPhasesML-0.8.6.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesRecordloader]: Downloading https://files.pythonhosted.org/packages/fa/50/ebe11e67a31edb0e97f9044900c6bdc8e2c5c2804f836e73a95249b5ba54/pyPhasesRecordloader-0.4.3.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [signapse]: Downloading https://files.pythonhosted.org/packages/11/59/cb1bd1510538ae2de34e5fa1914b331adfd22e0e7e9537efc528376821a0/signapse-1.0.12.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-11 13:39:57] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240411/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesRecordloader]: Downloading https://files.pythonhosted.org/packages/f0/0f/411426bc6db809a2246dec46a7d254f8fa83908fe698dd986989e1503c7e/pyPhasesRecordloader-0.5.0.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [signapse]: Downloading https://files.pythonhosted.org/packages/b6/66/a1924e7203bc77476a95e9718a4fe5cf8c9b934d95c48f9a06adf8b0cf56/signapse-1.0.13.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/66/14/e65896db82e7f1d1c0c1753b8aca281f243d78e9910c32919522decb9bbf/pyPhasesML-0.9.0.tar.gz
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesRecordloader]: executing diffoscope
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesRecordloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesRecordloader-0.4.3.tar.gz tmp/pyPhasesRecordloader-0.5.0.tar.gz --markdown 20240411/p/pyPhasesRecordloader/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-04-11 13:39:57] INFO root fetch - processPackages [signapse]: executing diffoscope
+[2024-04-11 13:39:57] INFO root fetch - processPackages [signapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signapse-1.0.12.tar.gz tmp/signapse-1.0.13.tar.gz --markdown 20240411/s/signapse/1.0.12-1.0.13/README.md --exclude *.pyd
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2024-04-11 13:39:57] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.8.6.tar.gz tmp/pyPhasesML-0.9.0.tar.gz --markdown 20240411/p/pyPhasesML/0.8.6-0.9.0/README.md --exclude *.pyd
+[2024-04-11 13:39:57] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-11 13:39:57] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-11 13:39:57] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-11 13:39:58] INFO root fetch - processPackages [signapse]: Remove: archive file [/home/abi/fetcher/tmp/signapse-1.0.12.tar.gz]
+[2024-04-11 13:39:58] INFO root fetch - processPackages [signapse]: Remove: archive file [/home/abi/fetcher/tmp/signapse-1.0.13.tar.gz]
+[2024-04-11 13:39:58] INFO root fetch - main [MainThread]: End processing [signapse]: success
+[2024-04-11 13:39:58] INFO root fetch - processPackages [pyPhasesRecordloader]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloader-0.4.3.tar.gz]
+[2024-04-11 13:39:58] INFO root fetch - processPackages [pyPhasesRecordloader]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesRecordloader-0.5.0.tar.gz]
+[2024-04-11 13:39:58] INFO root fetch - main [MainThread]: End processing [pyPhasesRecordloader]: success
+[2024-04-11 13:39:58] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.8.6.tar.gz]
+[2024-04-11 13:39:58] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.9.0.tar.gz]
+[2024-04-11 13:39:58] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2024-04-11 13:39:58] INFO root fetch - main [MainThread]: Store serial: [22718946]

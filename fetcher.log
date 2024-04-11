@@ -8485,3 +8485,20 @@ EOFError: EOF read where object expected
 [2024-04-11 03:50:13] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.9.0.tar.gz]
 [2024-04-11 03:50:13] INFO root fetch - main [MainThread]: End processing [mini-racer]: success
 [2024-04-11 03:50:13] INFO root fetch - main [MainThread]: Store serial: [22713162]
+[2024-04-11 03:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713162]
+[2024-04-11 03:52:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 03:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-declarative-manifest
+[2024-04-11 03:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-pdk
+[2024-04-11 03:52:23] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: New version: [0.81.1] Old Version: [0.81.0]
+[2024-04-11 03:52:23] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-11 03:52:24] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/7c/66/68200e0eb3181873508708a41d712017b48f61177389bef4fbceda563bc8/airbyte_source_declarative_manifest-0.81.0.tar.gz
+[2024-04-11 03:52:24] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-11 03:52:24] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-11 03:52:24] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-11 03:52:24] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/c2/dd/e22df3f68392b10461834f8c53fdc610e770ec22600be3d278ad175591cb/airbyte_source_declarative_manifest-0.81.1.tar.gz
+[2024-04-11 03:52:24] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: executing diffoscope
+[2024-04-11 03:52:24] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_declarative_manifest-0.81.0.tar.gz tmp/airbyte_source_declarative_manifest-0.81.1.tar.gz --markdown 20240411/a/airbyte-source-declarative-manifest/0.81.0-0.81.1/README.md --exclude *.pyd
+[2024-04-11 03:52:25] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.81.0.tar.gz]
+[2024-04-11 03:52:25] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.81.1.tar.gz]
+[2024-04-11 03:52:25] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest]: success
+[2024-04-11 03:52:25] INFO root fetch - main [MainThread]: Store serial: [22713168]

@@ -11338,3 +11338,9 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:56:42] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.5.tar.gz]
 [2024-04-11 06:56:42] INFO root fetch - main [MainThread]: End processing [ticketsdk]: success
 [2024-04-11 06:56:42] INFO root fetch - main [MainThread]: Store serial: [22714478]
+[2024-04-11 06:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714478]
+[2024-04-11 06:58:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 06:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vit-pytorch-implementation
+[2024-04-11 06:58:51] WARNING root fetch - processPackages [vit-pytorch-implementation]: Skipping, unable to determine old version
+[2024-04-11 06:58:51] INFO root fetch - main [MainThread]: End processing [vit-pytorch-implementation] error
+[2024-04-11 06:58:51] INFO root fetch - main [MainThread]: Store serial: [22714481]

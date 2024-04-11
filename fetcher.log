@@ -11762,3 +11762,19 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:31:32] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.1-py2.py3-none-any.whl.zip]
 [2024-04-11 07:31:32] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
 [2024-04-11 07:31:32] INFO root fetch - main [MainThread]: Store serial: [22714671]
+[2024-04-11 07:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714671]
+[2024-04-11 07:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714671]
+[2024-04-11 07:35:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 07:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-autho-validator
+[2024-04-11 07:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-runtime
+[2024-04-11 07:35:58] INFO root fetch - processPackages [mojo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 07:35:58] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/a2/73/8d6292a4a8763a95222fb988aaaf46e8e4faa6dbfa82aba07ec8abaabd54/mojo_runtime-1.3.8.tar.gz
+[2024-04-11 07:35:58] WARNING root fetch - processPackages [flask-autho-validator]: Skipping, unable to determine old version
+[2024-04-11 07:35:58] INFO root fetch - main [MainThread]: End processing [flask-autho-validator] error
+[2024-04-11 07:35:58] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/d8/72/11ae6da51311fb6fe39796b32cda706673eed2e6d5f1cc271bf029880f36/mojo_runtime-1.3.9.tar.gz
+[2024-04-11 07:35:58] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2024-04-11 07:35:58] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-1.3.8.tar.gz tmp/mojo_runtime-1.3.9.tar.gz --markdown 20240411/m/mojo-runtime/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 07:35:59] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.8.tar.gz]
+[2024-04-11 07:35:59] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
+[2024-04-11 07:35:59] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2024-04-11 07:35:59] INFO root fetch - main [MainThread]: Store serial: [22714680]

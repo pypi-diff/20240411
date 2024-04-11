@@ -8708,3 +8708,33 @@ EOFError: EOF read where object expected
 [2024-04-11 04:07:46] INFO root fetch - processPackages [quantminer]: Remove: archive file [/home/abi/fetcher/tmp/quantminer-0.3.1.tar.gz]
 [2024-04-11 04:07:46] INFO root fetch - main [MainThread]: End processing [quantminer]: success
 [2024-04-11 04:07:46] INFO root fetch - main [MainThread]: Store serial: [22713247]
+[2024-04-11 04:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713247]
+[2024-04-11 04:09:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvflare
+[2024-04-11 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-test-common
+[2024-04-11 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: migoapiclient
+[2024-04-11 04:09:54] INFO root fetch - processPackages [nvflare]: New version: [2.4.1rc5] Old Version: [2.4.1rc4]
+[2024-04-11 04:09:54] INFO root fetch - processPackages [migoapiclient]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-11 04:09:54] INFO root fetch - processPackages [auto-test-common]: New version: [1.1.96] Old Version: [1.1.95]
+[2024-04-11 04:09:55] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/c7/8c/0468990a85874766879db8c127260d8f3c13bef23437952255601a950a7b/nvflare-2.4.1rc4-py3-none-any.whl
+[2024-04-11 04:09:55] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/8f/9e/cd43e99a2bb318a1bdccacccaa2209cda6f4590a5bed19fa3a34f0f76e5f/migoapiclient-1.0.8.tar.gz
+[2024-04-11 04:09:55] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/73/31/a7eb41ad1c1ec0fa3a4297a46f11206cade942e922ec6c86f840fb039111/auto-test-common-1.1.95.tar.gz
+[2024-04-11 04:09:55] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/33/6f/90397fc0baca758e319e256dbe4042a83ca48348cd1f885d374c1f7bbaf0/migoapiclient-1.1.0.tar.gz
+[2024-04-11 04:09:55] INFO root fetch - processPackages [migoapiclient]: executing diffoscope
+[2024-04-11 04:09:55] INFO root fetch - processPackages [migoapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migoapiclient-1.0.8.tar.gz tmp/migoapiclient-1.1.0.tar.gz --markdown 20240411/m/migoapiclient/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-04-11 04:09:55] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/bb/90/99918932f0e53cf94f1133005e3370285c0bb20c6dedbfdb8d1d2f58de78/auto-test-common-1.1.96.tar.gz
+[2024-04-11 04:09:55] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/24/9b/2bc680253876ae46c23ff6eeae84a4020f65a0e590210312108ae8cc13a3/nvflare-2.4.1rc5-py3-none-any.whl
+[2024-04-11 04:09:55] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-11 04:09:55] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.1.95.tar.gz tmp/auto-test-common-1.1.96.tar.gz --markdown 20240411/a/auto-test-common/1.1.95-1.1.96/README.md --exclude *.pyd
+[2024-04-11 04:09:55] INFO root fetch - processPackages [nvflare]: executing diffoscope
+[2024-04-11 04:09:55] INFO root fetch - processPackages [nvflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvflare-2.4.1rc4-py3-none-any.whl.zip tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip --markdown 20240411/n/nvflare/2.4.1rc4-2.4.1rc5/README.md --exclude *.pyd
+[2024-04-11 04:09:55] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.0.8.tar.gz]
+[2024-04-11 04:09:55] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.1.0.tar.gz]
+[2024-04-11 04:09:55] INFO root fetch - main [MainThread]: End processing [migoapiclient]: success
+[2024-04-11 04:09:56] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.95.tar.gz]
+[2024-04-11 04:09:56] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.96.tar.gz]
+[2024-04-11 04:09:56] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-11 04:09:58] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc4-py3-none-any.whl.zip]
+[2024-04-11 04:09:58] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip]
+[2024-04-11 04:09:58] INFO root fetch - main [MainThread]: End processing [nvflare]: success
+[2024-04-11 04:09:58] INFO root fetch - main [MainThread]: Store serial: [22713253]

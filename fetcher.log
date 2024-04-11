@@ -12419,3 +12419,27 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:11:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240410.tar.gz]
 [2024-04-11 08:11:23] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-11 08:11:23] INFO root fetch - main [MainThread]: Store serial: [22714952]
+[2024-04-11 08:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714952]
+[2024-04-11 08:13:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avania
+[2024-04-11 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uaiDiffusers
+[2024-04-11 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-snippets
+[2024-04-11 08:13:32] INFO root fetch - processPackages [avania]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 08:13:32] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/cd/5f/8421154aa76d2a4b32989dc46b7bd6603af660d012783d66520ee97ff717/avania-0.0.3.tar.gz
+[2024-04-11 08:13:32] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.41]
+[2024-04-11 08:13:32] WARNING root fetch - processPackages [uaiDiffusers]: Skipping, unable to determine old version
+[2024-04-11 08:13:32] INFO root fetch - main [MainThread]: End processing [uaiDiffusers] error
+[2024-04-11 08:13:32] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/59/bb/c96a5cb1bf3e66d083bacd6e2ef41f706b8df3613917d688606421fd1ae2/python-snippets-0.0.41.tar.gz
+[2024-04-11 08:13:32] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/39/14/e1021cfd5b77a1e2ace09d158c1e0c935afb5ce2a8bd1a2e6334820f02cb/avania-0.0.4.tar.gz
+[2024-04-11 08:13:33] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-11 08:13:33] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.0.3.tar.gz tmp/avania-0.0.4.tar.gz --markdown 20240411/a/avania/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-11 08:13:33] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2024-04-11 08:13:33] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2024-04-11 08:13:33] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.41.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20240411/p/python-snippets/0.0.41-0.0.6/README.md --exclude *.pyd
+[2024-04-11 08:13:33] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.3.tar.gz]
+[2024-04-11 08:13:33] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.4.tar.gz]
+[2024-04-11 08:13:33] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-11 08:13:33] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.41.tar.gz]
+[2024-04-11 08:13:33] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
+[2024-04-11 08:13:33] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2024-04-11 08:13:33] INFO root fetch - main [MainThread]: Store serial: [22714965]

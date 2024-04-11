@@ -12515,3 +12515,27 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:17:58] INFO root fetch - processPackages [hs-correct]: Remove: archive file [/home/abi/fetcher/tmp/hs_correct-0.0.5.tar.gz]
 [2024-04-11 08:17:58] INFO root fetch - main [MainThread]: End processing [hs-correct]: success
 [2024-04-11 08:17:58] INFO root fetch - main [MainThread]: Store serial: [22714997]
+[2024-04-11 08:20:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714997]
+[2024-04-11 08:20:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlfluff-common-conventions
+[2024-04-11 08:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-rdm-records
+[2024-04-11 08:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurowave-logger
+[2024-04-11 08:20:09] WARNING root fetch - processPackages [sqlfluff-common-conventions]: Skipping, unable to determine old version
+[2024-04-11 08:20:09] INFO root fetch - main [MainThread]: End processing [sqlfluff-common-conventions] error
+[2024-04-11 08:20:09] INFO root fetch - processPackages [neurowave-logger]: New version: [0.2.3b0] Old Version: [0.2.2b0]
+[2024-04-11 08:20:09] INFO root fetch - processPackages [invenio-rdm-records]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-04-11 08:20:09] INFO root fetch - processPackages [neurowave-logger]: Downloading https://files.pythonhosted.org/packages/56/3a/7d32726440ebc8bec447de85a0170758e7aa73582797af6ce21f669700bb/neurowave_logger-0.2.2b0.tar.gz
+[2024-04-11 08:20:09] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/18/fd/64e00ec4c048a386747c1bef38aee5bea63914ced22c4011af61c18c7617/invenio-rdm-records-9.0.1.tar.gz
+[2024-04-11 08:20:09] INFO root fetch - processPackages [neurowave-logger]: Downloading https://files.pythonhosted.org/packages/36/1c/e539d7b1156f466794236f0fd64564e7cf31934de1aafaa585c2a94990ef/neurowave_logger-0.2.3b0.tar.gz
+[2024-04-11 08:20:10] INFO root fetch - processPackages [neurowave-logger]: executing diffoscope
+[2024-04-11 08:20:10] INFO root fetch - processPackages [neurowave-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurowave_logger-0.2.2b0.tar.gz tmp/neurowave_logger-0.2.3b0.tar.gz --markdown 20240411/n/neurowave-logger/0.2.2b0-0.2.3b0/README.md --exclude *.pyd
+[2024-04-11 08:20:10] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ff/b3/da0e80b7a9fddba227a118921bf77e45d687a1dfb9f61cc030022dd8500e/invenio-rdm-records-9.1.0.tar.gz
+[2024-04-11 08:20:10] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2024-04-11 08:20:10] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-9.0.1.tar.gz tmp/invenio-rdm-records-9.1.0.tar.gz --markdown 20240411/i/invenio-rdm-records/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-04-11 08:20:10] INFO root fetch - processPackages [neurowave-logger]: Remove: archive file [/home/abi/fetcher/tmp/neurowave_logger-0.2.2b0.tar.gz]
+[2024-04-11 08:20:10] INFO root fetch - processPackages [neurowave-logger]: Remove: archive file [/home/abi/fetcher/tmp/neurowave_logger-0.2.3b0.tar.gz]
+[2024-04-11 08:20:10] INFO root fetch - main [MainThread]: End processing [neurowave-logger]: success
+[2024-04-11 08:20:14] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.0.1.tar.gz]
+[2024-04-11 08:20:14] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
+[2024-04-11 08:20:14] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2024-04-11 08:20:14] INFO root fetch - main [MainThread]: Store serial: [22715006]

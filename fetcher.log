@@ -12539,3 +12539,60 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:20:14] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
 [2024-04-11 08:20:14] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2024-04-11 08:20:14] INFO root fetch - main [MainThread]: Store serial: [22715006]
+[2024-04-11 08:22:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715006]
+[2024-04-11 08:22:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quotientai
+[2024-04-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avania
+[2024-04-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-04-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-client
+[2024-04-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-lib
+[2024-04-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-server
+[2024-04-11 08:22:23] INFO root fetch - processPackages [avania]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-client]: New version: [1.24.1] Old Version: [1.24.0]
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-server]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-11 08:22:23] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240410210756] Old Version: [3.3.1.dev20240410202123]
+[2024-04-11 08:22:23] INFO root fetch - processPackages [quotientai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 08:22:23] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/39/14/e1021cfd5b77a1e2ace09d158c1e0c935afb5ce2a8bd1a2e6334820f02cb/avania-0.0.4.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5a/d8/055323d5cf8ace841479313aa32052f858bf81044d0476d102dd7f648595/bec-server-1.8.0.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-lib]: New version: [2.0.1] Old Version: [1.9.0]
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/11/75/0c5a058b50bc3c26f44f52c85418806f997bc3bfc6273948bea5182b1a51/bec_client-1.24.0.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d6/7d/6d074edd9dc2acc2edc60443313cf0bcf45886df610086dd066cbfde3c32/localstack-core-3.3.1.dev20240410202123.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/c6/fe/d6d742f9109a15a82397056d1662b1da3e81e7e4f8d692f87fab850fc89d/bec_lib-1.9.0.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [quotientai]: Downloading https://files.pythonhosted.org/packages/65/51/4111a899775c921b6c643160157be08c13b3723b7b4f2ff19694786d73c9/quotientai-0.0.1.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/76/6f/c113eddcd9e42fa0e7ab1de5ea609bbedab64bce7ead2a6c1c0c3c72b36a/bec-server-1.9.0.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/db/96/4fb5ded4b63781cfbb7b6536be5327454005b7f55a9870288200e7e896ff/bec_client-1.24.1.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/e4/60/3efe699a5a9e9cd5750406470d6473bcb624c9b890cd36c02668a64d6316/avania-0.0.5.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-1.8.0.tar.gz tmp/bec-server-1.9.0.tar.gz --markdown 20240411/b/bec-server/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-client]: executing diffoscope
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_client-1.24.0.tar.gz tmp/bec_client-1.24.1.tar.gz --markdown 20240411/b/bec-client/1.24.0-1.24.1/README.md --exclude *.pyd
+[2024-04-11 08:22:23] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/89/1c/71b5b265682b512a157891812f34fa64d938322628f93a69465d83f6d9f7/bec_lib-2.0.1.tar.gz
+[2024-04-11 08:22:23] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-11 08:22:23] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.0.4.tar.gz tmp/avania-0.0.5.tar.gz --markdown 20240411/a/avania/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-11 08:22:23] INFO root fetch - processPackages [quotientai]: Downloading https://files.pythonhosted.org/packages/7d/78/c0123411d20a362d6b171aabf8e3e9c7ba82e478f00458a5c7adca1fe29e/quotientai-0.0.2.tar.gz
+[2024-04-11 08:22:24] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-11 08:22:24] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-1.9.0.tar.gz tmp/bec_lib-2.0.1.tar.gz --markdown 20240411/b/bec-lib/1.9.0-2.0.1/README.md --exclude *.pyd
+[2024-04-11 08:22:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1d/bd/abe6fa12697a6ddb49866c9428cc68e382a301416bf2d8f638b332b1cd2c/localstack-core-3.3.1.dev20240410210756.tar.gz
+[2024-04-11 08:22:24] INFO root fetch - processPackages [quotientai]: executing diffoscope
+[2024-04-11 08:22:24] INFO root fetch - processPackages [quotientai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quotientai-0.0.1.tar.gz tmp/quotientai-0.0.2.tar.gz --markdown 20240411/q/quotientai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 08:22:24] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-11 08:22:24] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240410202123.tar.gz tmp/localstack-core-3.3.1.dev20240410210756.tar.gz --markdown 20240411/l/localstack-core/3.3.1.dev20240410202123-3.3.1.dev20240410210756/README.md --exclude *.pyd
+[2024-04-11 08:22:24] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.4.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.5.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-11 08:22:24] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-1.8.0.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-1.9.0.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-11 08:22:24] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-1.24.0.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-1.24.1.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - main [MainThread]: End processing [bec-client]: success
+[2024-04-11 08:22:24] INFO root fetch - processPackages [quotientai]: Remove: archive file [/home/abi/fetcher/tmp/quotientai-0.0.1.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - processPackages [quotientai]: Remove: archive file [/home/abi/fetcher/tmp/quotientai-0.0.2.tar.gz]
+[2024-04-11 08:22:24] INFO root fetch - main [MainThread]: End processing [quotientai]: success
+[2024-04-11 08:22:25] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-1.9.0.tar.gz]
+[2024-04-11 08:22:25] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.0.1.tar.gz]
+[2024-04-11 08:22:25] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-11 08:22:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240410202123.tar.gz]
+[2024-04-11 08:22:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240410210756.tar.gz]
+[2024-04-11 08:22:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-11 08:22:27] INFO root fetch - main [MainThread]: Store serial: [22715027]

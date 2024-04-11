@@ -22936,3 +22936,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:16:16] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
 [2024-04-11 14:16:16] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 14:16:16] INFO root fetch - main [MainThread]: Store serial: [22719587]
+[2024-04-11 14:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719587]
+[2024-04-11 14:18:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypandas2024-JKK
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygwalker
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pts-fault-injection
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: L7N
+[2024-04-11 14:18:26] INFO root fetch - processPackages [pts-fault-injection]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 14:18:26] INFO root fetch - processPackages [mypandas2024-JKK]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 14:18:26] INFO root fetch - processPackages [pts-fault-injection]: Downloading https://files.pythonhosted.org/packages/1c/55/cd2f4aecdf258680de5d093783ee433f3f21c01a0b65efc8410f8e520d50/pts_fault_injection-0.0.8.tar.gz
+[2024-04-11 14:18:26] WARNING root fetch - processPackages [L7N]: Skipping, unable to determine old version
+[2024-04-11 14:18:26] INFO root fetch - main [MainThread]: End processing [L7N] error
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 14:18:26] INFO root fetch - processPackages [mypandas2024-JKK]: Downloading https://files.pythonhosted.org/packages/cb/6b/969f16ee009d0ba321a6d9ff524184bb1a3d1db173eaeec945dad8159b8f/mypandas2024_JKK-0.0.1-py3-none-any.whl
+[2024-04-11 14:18:26] INFO root fetch - processPackages [pygwalker]: New version: [0.4.8a8] Old Version: [0.4.8a7]
+[2024-04-11 14:18:26] INFO root fetch - processPackages [pts-fault-injection]: Downloading https://files.pythonhosted.org/packages/b1/ef/2b56655e0fe081075879a02f787252ddf69d4860dcae97d48ccf943b1ebe/pts_fault_injection-0.0.9.tar.gz
+[2024-04-11 14:18:26] INFO root fetch - processPackages [mypandas2024-JKK]: Downloading https://files.pythonhosted.org/packages/35/81/16f4327d45907c009207e14e322b875bf975f2bed1a9833e4ed184b79132/mypandas2024_JKK-0.0.2-py3-none-any.whl
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 14:18:26] INFO root fetch - processPackages [pts-fault-injection]: executing diffoscope
+[2024-04-11 14:18:26] INFO root fetch - processPackages [pts-fault-injection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pts_fault_injection-0.0.8.tar.gz tmp/pts_fault_injection-0.0.9.tar.gz --markdown 20240411/p/pts-fault-injection/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 14:18:26] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f9/77/0c650bc4bafcc2bdc769f5ba7babf179cbe1905c8811759e61fd0de240e9/pygwalker-0.4.8a7.tar.gz
+[2024-04-11 14:18:26] INFO root fetch - processPackages [mypandas2024-JKK]: executing diffoscope
+[2024-04-11 14:18:26] INFO root fetch - processPackages [mypandas2024-JKK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypandas2024_JKK-0.0.1-py3-none-any.whl.zip tmp/mypandas2024_JKK-0.0.2-py3-none-any.whl.zip --markdown 20240411/m/mypandas2024-JKK/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 14:18:26] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 14:18:27] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f6/33/fbf469e43cee79a994a8cec335b8e89c989213e80670880057752b498d80/pygwalker-0.4.8a8.tar.gz
+[2024-04-11 14:18:27] INFO root fetch - processPackages [mypandas2024-JKK]: Remove: archive file [/home/abi/fetcher/tmp/mypandas2024_JKK-0.0.1-py3-none-any.whl.zip]
+[2024-04-11 14:18:27] INFO root fetch - processPackages [mypandas2024-JKK]: Remove: archive file [/home/abi/fetcher/tmp/mypandas2024_JKK-0.0.2-py3-none-any.whl.zip]
+[2024-04-11 14:18:27] INFO root fetch - main [MainThread]: End processing [mypandas2024-JKK]: success
+[2024-04-11 14:18:27] INFO root fetch - processPackages [pts-fault-injection]: Remove: archive file [/home/abi/fetcher/tmp/pts_fault_injection-0.0.8.tar.gz]
+[2024-04-11 14:18:27] INFO root fetch - processPackages [pts-fault-injection]: Remove: archive file [/home/abi/fetcher/tmp/pts_fault_injection-0.0.9.tar.gz]
+[2024-04-11 14:18:27] INFO root fetch - main [MainThread]: End processing [pts-fault-injection]: success
+[2024-04-11 14:18:27] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2024-04-11 14:18:27] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.4.8a7.tar.gz tmp/pygwalker-0.4.8a8.tar.gz --markdown 20240411/p/pygwalker/0.4.8a7-0.4.8a8/README.md --exclude *.pyd
+[2024-04-11 14:18:30] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 14:18:30] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 14:18:30] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 14:19:03] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.8a7.tar.gz]
+[2024-04-11 14:19:03] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.8a8.tar.gz]
+[2024-04-11 14:19:03] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2024-04-11 14:19:03] INFO root fetch - main [MainThread]: Store serial: [22719609]

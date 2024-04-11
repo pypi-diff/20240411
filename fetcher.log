@@ -12042,3 +12042,65 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:51:21] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip]
 [2024-04-11 07:51:21] INFO root fetch - main [MainThread]: End processing [wipo-gbd-transformation]: success
 [2024-04-11 07:51:21] INFO root fetch - main [MainThread]: Store serial: [22714758]
+[2024-04-11 07:53:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714758]
+[2024-04-11 07:53:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wipo-gbd-transformation
+[2024-04-11 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spatialist
+[2024-04-11 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: olive-ai
+[2024-04-11 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avania
+[2024-04-11 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vit-pytorch-implementation
+[2024-04-11 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mojo-testplus
+[2024-04-11 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: octoflow
+[2024-04-11 07:53:29] INFO root fetch - processPackages [avania]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-04-11 07:53:29] INFO root fetch - processPackages [mojo-testplus]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 07:53:29] INFO root fetch - processPackages [wipo-gbd-transformation]: New version: [1.1.48] Old Version: [1.1.47]
+[2024-04-11 07:53:29] INFO root fetch - processPackages [vit-pytorch-implementation]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-11 07:53:29] INFO root fetch - processPackages [spatialist]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-11 07:53:29] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 07:53:29] INFO root fetch - processPackages [olive-ai]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-11 07:53:29] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/cf/6e/4e08b7f984040549e5bc59ccdb3d3576baa19331fb7f3fd6d8da8cf1fc42/Avania-0.0.0.tar.gz
+[2024-04-11 07:53:29] INFO root fetch - processPackages [vit-pytorch-implementation]: Downloading https://files.pythonhosted.org/packages/9e/1e/2a0e28a25579ef31392eaf3582627b18c5ed8311793aa2a5924b0cd4f684/vit-pytorch-implementation-3.0.0.tar.gz
+[2024-04-11 07:53:29] INFO root fetch - processPackages [wipo-gbd-transformation]: Downloading https://files.pythonhosted.org/packages/86/e2/854b90a7303c451c1f5e50b5342c92354e46c1ac778d047f2847853b9dec/wipo_gbd_transformation-1.1.47-py3-none-any.whl
+[2024-04-11 07:53:29] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a5/fe/6ef403e4cd8937907cb1b6d2bfaee70af2ccb33355ae49346889ebd9d153/mojo_testplus-1.3.8.tar.gz
+[2024-04-11 07:53:30] INFO root fetch - processPackages [spatialist]: Downloading https://files.pythonhosted.org/packages/b3/17/2cb305b2d8ee641ecc81b20452b9b9e413f51b349cb211190e93da321457/spatialist-0.8.1.tar.gz
+[2024-04-11 07:53:30] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-04-11 07:53:30] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/2b/56/0216e186f88a0ed339558f969d22e320fb32b524d2d7d547e9260110c266/olive_ai-0.5.1-py3-none-any.whl
+[2024-04-11 07:53:30] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/bc/f1/facf39018bf2aa2dbfbda6d98bc496259fe88f84bba21ea6ceb0f3a2bd83/avania-0.0.2.tar.gz
+[2024-04-11 07:53:30] INFO root fetch - processPackages [vit-pytorch-implementation]: Downloading https://files.pythonhosted.org/packages/f3/72/bb953d8d788d05d9e3a7651a5e7c6ea1f5bb77a655a4e6892839c0da5b9d/vit-pytorch-implementation-4.0.0.tar.gz
+[2024-04-11 07:53:30] WARNING root fetch - processPackages [spatialist]: Skipping package: exceeds size limit 10855013>=10485760
+[2024-04-11 07:53:30] INFO root fetch - main [MainThread]: End processing [spatialist] error
+[2024-04-11 07:53:30] INFO root fetch - processPackages [wipo-gbd-transformation]: Downloading https://files.pythonhosted.org/packages/bf/79/015125e704c32e92eb6e3423aaa21a7200eb5d7eac7cb27c81eb2501632e/wipo_gbd_transformation-1.1.48-py3-none-any.whl
+[2024-04-11 07:53:30] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-11 07:53:30] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Avania-0.0.0.tar.gz tmp/avania-0.0.2.tar.gz --markdown 20240411/a/avania/0.0.0-0.0.2/README.md --exclude *.pyd
+[2024-04-11 07:53:30] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-04-11 07:53:30] INFO root fetch - processPackages [vit-pytorch-implementation]: executing diffoscope
+[2024-04-11 07:53:30] INFO root fetch - processPackages [vit-pytorch-implementation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit-pytorch-implementation-3.0.0.tar.gz tmp/vit-pytorch-implementation-4.0.0.tar.gz --markdown 20240411/v/vit-pytorch-implementation/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-11 07:53:30] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a4/cd/894241650e47414136a3bf37ddbbef7907d3dc69c678f40c9716e3afbfd2/mojo_testplus-1.3.9.tar.gz
+[2024-04-11 07:53:30] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-04-11 07:53:30] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240411/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 07:53:30] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/67/be/d1cebf003089f725ce20dae835787c7c0ffe7159be078c153dbcb7ac9e0a/olive_ai-0.5.2-py3-none-any.whl
+[2024-04-11 07:53:30] INFO root fetch - processPackages [wipo-gbd-transformation]: executing diffoscope
+[2024-04-11 07:53:30] INFO root fetch - processPackages [wipo-gbd-transformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipo_gbd_transformation-1.1.47-py3-none-any.whl.zip tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip --markdown 20240411/w/wipo-gbd-transformation/1.1.47-1.1.48/README.md --exclude *.pyd
+[2024-04-11 07:53:30] INFO root fetch - processPackages [olive-ai]: executing diffoscope
+[2024-04-11 07:53:30] INFO root fetch - processPackages [olive-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olive_ai-0.5.1-py3-none-any.whl.zip tmp/olive_ai-0.5.2-py3-none-any.whl.zip --markdown 20240411/o/olive-ai/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-11 07:53:30] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2024-04-11 07:53:30] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-1.3.8.tar.gz tmp/mojo_testplus-1.3.9.tar.gz --markdown 20240411/m/mojo-testplus/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 07:53:31] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/Avania-0.0.0.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.2.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-11 07:53:31] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-04-11 07:53:31] INFO root fetch - processPackages [vit-pytorch-implementation]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-implementation-3.0.0.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - processPackages [vit-pytorch-implementation]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-implementation-4.0.0.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - main [MainThread]: End processing [vit-pytorch-implementation]: success
+[2024-04-11 07:53:31] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.8.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.9.tar.gz]
+[2024-04-11 07:53:31] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2024-04-11 07:53:31] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.5.1-py3-none-any.whl.zip]
+[2024-04-11 07:53:31] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.5.2-py3-none-any.whl.zip]
+[2024-04-11 07:53:31] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
+[2024-04-11 07:53:32] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.47-py3-none-any.whl.zip]
+[2024-04-11 07:53:32] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip]
+[2024-04-11 07:53:32] INFO root fetch - main [MainThread]: End processing [wipo-gbd-transformation]: success
+[2024-04-11 07:53:32] INFO root fetch - main [MainThread]: Store serial: [22714777]

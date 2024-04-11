@@ -3392,3 +3392,42 @@ EOFError: EOF read where object expected
 [2024-04-11 02:41:10] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.1.9.tar.gz]
 [2024-04-11 02:41:10] INFO root fetch - main [MainThread]: End processing [mystmd]: success
 [2024-04-11 02:41:10] INFO root fetch - main [MainThread]: Store serial: [22711591]
+[2024-04-11 02:43:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711591]
+[2024-04-11 02:43:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 02:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trinnov-altitude
+[2024-04-11 02:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-python
+[2024-04-11 02:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulsefire
+[2024-04-11 02:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulsefire-types
+[2024-04-11 02:43:22] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-11 02:43:22] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/6f/42/09f54ac0884fceb2919fade6d2d061223bc576dbee40d2202857be632558/trinnov-altitude-0.1.7.tar.gz
+[2024-04-11 02:43:22] INFO root fetch - processPackages [pulsefire]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-11 02:43:22] INFO root fetch - processPackages [up-python]: New version: [0.1.2.dev0] Old Version: [0.1.1.dev0]
+[2024-04-11 02:43:22] INFO root fetch - processPackages [pulsefire-types]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-11 02:43:23] INFO root fetch - processPackages [up-python]: Downloading https://files.pythonhosted.org/packages/bf/f4/a1d970fea5e4c4e90d8b6c930c0f4b42b1a2885faded20fadde66e7bb537/up_python-0.1.1.dev0.tar.gz
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire]: Downloading https://files.pythonhosted.org/packages/20/b3/524516cf847d6eb6120fb2a8bb04ed9a1ec4a5ccd9a8f011f64597fc323c/pulsefire-2.0.8.tar.gz
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire-types]: Downloading https://files.pythonhosted.org/packages/3b/57/81d5b8b26eec4ab8ae9d9b223d24a4e7b4a9257277d055fb88cda61b1137/pulsefire-types-2.0.8.tar.gz
+[2024-04-11 02:43:23] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-11 02:43:23] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-11 02:43:23] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.7.tar.gz tmp/trinnov-altitude-0.1.8.tar.gz --markdown 20240411/t/trinnov-altitude/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire-types]: Downloading https://files.pythonhosted.org/packages/8f/87/bc3e0e7959ef9348157f4b25fb22bdbdfb2619659bceb13b1aa69209d2e5/pulsefire-types-2.0.9.tar.gz
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire]: Downloading https://files.pythonhosted.org/packages/5a/e9/374b162e00d11e6d10ff42512a1d043fcda2217e16d76bcc8179986e26e6/pulsefire-2.0.9.tar.gz
+[2024-04-11 02:43:23] INFO root fetch - processPackages [up-python]: Downloading https://files.pythonhosted.org/packages/14/dd/b543c37813e3b274836df603af505c26012dbf210c71c258e4c6972cf3a5/up_python-0.1.2.dev0.tar.gz
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire-types]: executing diffoscope
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsefire-types-2.0.8.tar.gz tmp/pulsefire-types-2.0.9.tar.gz --markdown 20240411/p/pulsefire-types/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-11 02:43:23] INFO root fetch - processPackages [up-python]: executing diffoscope
+[2024-04-11 02:43:23] INFO root fetch - processPackages [up-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_python-0.1.1.dev0.tar.gz tmp/up_python-0.1.2.dev0.tar.gz --markdown 20240411/u/up-python/0.1.1.dev0-0.1.2.dev0/README.md --exclude *.pyd
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire]: executing diffoscope
+[2024-04-11 02:43:23] INFO root fetch - processPackages [pulsefire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsefire-2.0.8.tar.gz tmp/pulsefire-2.0.9.tar.gz --markdown 20240411/p/pulsefire/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-11 02:43:23] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.7.tar.gz]
+[2024-04-11 02:43:23] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-11 02:43:23] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-11 02:43:24] INFO root fetch - processPackages [pulsefire-types]: Remove: archive file [/home/abi/fetcher/tmp/pulsefire-types-2.0.8.tar.gz]
+[2024-04-11 02:43:24] INFO root fetch - processPackages [pulsefire-types]: Remove: archive file [/home/abi/fetcher/tmp/pulsefire-types-2.0.9.tar.gz]
+[2024-04-11 02:43:24] INFO root fetch - main [MainThread]: End processing [pulsefire-types]: success
+[2024-04-11 02:43:24] INFO root fetch - processPackages [pulsefire]: Remove: archive file [/home/abi/fetcher/tmp/pulsefire-2.0.8.tar.gz]
+[2024-04-11 02:43:24] INFO root fetch - processPackages [pulsefire]: Remove: archive file [/home/abi/fetcher/tmp/pulsefire-2.0.9.tar.gz]
+[2024-04-11 02:43:24] INFO root fetch - main [MainThread]: End processing [pulsefire]: success
+[2024-04-11 02:43:24] INFO root fetch - processPackages [up-python]: Remove: archive file [/home/abi/fetcher/tmp/up_python-0.1.1.dev0.tar.gz]
+[2024-04-11 02:43:24] INFO root fetch - processPackages [up-python]: Remove: archive file [/home/abi/fetcher/tmp/up_python-0.1.2.dev0.tar.gz]
+[2024-04-11 02:43:24] INFO root fetch - main [MainThread]: End processing [up-python]: success
+[2024-04-11 02:43:24] INFO root fetch - main [MainThread]: Store serial: [22711601]

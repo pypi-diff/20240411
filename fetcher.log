@@ -11598,3 +11598,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
 [2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
 [2024-04-11 07:20:31] INFO root fetch - main [MainThread]: Store serial: [22714596]
+[2024-04-11 07:22:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714596]
+[2024-04-11 07:22:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 07:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbgpt
+[2024-04-11 07:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icutil-IGNchinmay
+[2024-04-11 07:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnschool
+[2024-04-11 07:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xnode
+[2024-04-11 07:22:42] INFO root fetch - processPackages [icutil-IGNchinmay]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-11 07:22:42] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240411.1301.13]
+[2024-04-11 07:22:43] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/03/17/b0a969b973da247614f69b06520f62371816b4fbf6e13038cf8176eb0d99/icutil_IGNchinmay-0.0.6.tar.gz
+[2024-04-11 07:22:43] INFO root fetch - processPackages [xnode]: New version: [1.0.0.1] Old Version: [1.0.0]
+[2024-04-11 07:22:43] INFO root fetch - processPackages [dbgpt]: New version: [0.5.4rc0] Old Version: [0.5.3rc0]
+[2024-04-11 07:22:43] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/ef/73/7f416281184af3a34ddf9814fc108e210afb6e98432f0c09660832ab7d3c/fnschool-20240411.1301.13-py3-none-any.whl
+[2024-04-11 07:22:43] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/a0/2c/e98b1c38eb9e3d7666df155fc638810cb4b6528a5e3fb0e5c743b1b7db4a/xnode-1.0.0.tar.gz
+[2024-04-11 07:22:43] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/99/12/20df87fad0b2c9cdf1fd22675ac79b6dd6ce0186eb15e9798cc1c216e24b/dbgpt-0.5.3rc0.tar.gz
+[2024-04-11 07:22:43] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/67/73/4f02a3a654fc79ae81eb99b94cca2b14cdf71f9c813786b2aeed20505b88/icutil_IGNchinmay-0.0.7.tar.gz
+[2024-04-11 07:22:43] INFO root fetch - processPackages [icutil-IGNchinmay]: executing diffoscope
+[2024-04-11 07:22:43] INFO root fetch - processPackages [icutil-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icutil_IGNchinmay-0.0.6.tar.gz tmp/icutil_IGNchinmay-0.0.7.tar.gz --markdown 20240411/i/icutil-IGNchinmay/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-11 07:22:43] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:22:43] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/94/c9/fd8e56c58202a0253116084284b8ca32bd3de78192ab81f02b7009d06bab/xnode-1.0.0.1.tar.gz
+[2024-04-11 07:22:43] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:22:43] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240411.1301.13-py3-none-any.whl.zip tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240411.1301.13-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:22:43] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/3a/a9/67c2c46b5591c69e9dc987a62c817377dd0f071ddd65c5b95ec4f1725ac1/dbgpt-0.5.4rc0.tar.gz
+[2024-04-11 07:22:43] INFO root fetch - processPackages [xnode]: executing diffoscope
+[2024-04-11 07:22:43] INFO root fetch - processPackages [xnode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnode-1.0.0.tar.gz tmp/xnode-1.0.0.1.tar.gz --markdown 20240411/x/xnode/1.0.0-1.0.0.1/README.md --exclude *.pyd
+[2024-04-11 07:22:43] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.6.tar.gz]
+[2024-04-11 07:22:43] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.7.tar.gz]
+[2024-04-11 07:22:43] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay]: success
+[2024-04-11 07:22:43] INFO root fetch - processPackages [dbgpt]: executing diffoscope
+[2024-04-11 07:22:43] INFO root fetch - processPackages [dbgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgpt-0.5.3rc0.tar.gz tmp/dbgpt-0.5.4rc0.tar.gz --markdown 20240411/d/dbgpt/0.5.3rc0-0.5.4rc0/README.md --exclude *.pyd
+[2024-04-11 07:22:44] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-1.0.0.tar.gz]
+[2024-04-11 07:22:44] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-1.0.0.1.tar.gz]
+[2024-04-11 07:22:44] INFO root fetch - main [MainThread]: End processing [xnode]: success
+[2024-04-11 07:22:44] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.1301.13-py3-none-any.whl.zip]
+[2024-04-11 07:22:44] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-11 07:22:44] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:22:45] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.3rc0.tar.gz]
+[2024-04-11 07:22:45] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.4rc0.tar.gz]
+[2024-04-11 07:22:45] INFO root fetch - main [MainThread]: End processing [dbgpt]: success
+[2024-04-11 07:22:45] INFO root fetch - main [MainThread]: Store serial: [22714618]

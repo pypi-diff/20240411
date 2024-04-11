@@ -10119,3 +10119,39 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:33:36] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.3.3.tar.gz]
 [2024-04-11 05:33:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531-py2]: success
 [2024-04-11 05:33:36] INFO root fetch - main [MainThread]: Store serial: [22713959]
+[2024-04-11 05:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713959]
+[2024-04-11 05:35:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 05:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-04-11 05:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idna
+[2024-04-11 05:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goose-checker
+[2024-04-11 05:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bont
+[2024-04-11 05:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-11 05:35:47] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-11 05:35:47] WARNING root fetch - processPackages [goose-checker]: Skipping, unable to determine old version
+[2024-04-11 05:35:47] INFO root fetch - main [MainThread]: End processing [goose-checker] error
+[2024-04-11 05:35:47] INFO root fetch - processPackages [idna]: New version: [3.6] Old Version: [3.5]
+[2024-04-11 05:35:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712805952] Old Version: [0.0.11a1712715247]
+[2024-04-11 05:35:47] WARNING root fetch - processPackages [bont]: Skipping, unable to determine old version
+[2024-04-11 05:35:47] INFO root fetch - main [MainThread]: End processing [bont] error
+[2024-04-11 05:35:47] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-11 05:35:47] INFO root fetch - processPackages [idna]: Downloading https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz
+[2024-04-11 05:35:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/06/14/86d172d8924ba271b13d1d2866a1d3f868091f376e998c3ab7a31244df2d/pulumi_kubernetes_the_hard_way-0.0.11a1712715247.tar.gz
+[2024-04-11 05:35:47] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-11 05:35:47] INFO root fetch - processPackages [idna]: Downloading https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz
+[2024-04-11 05:35:47] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-11 05:35:47] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240411/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-11 05:35:47] INFO root fetch - processPackages [idna]: executing diffoscope
+[2024-04-11 05:35:47] INFO root fetch - processPackages [idna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idna-3.5.tar.gz tmp/idna-3.6.tar.gz --markdown 20240411/i/idna/3.5-3.6/README.md --exclude *.pyd
+[2024-04-11 05:35:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/41/94/e176d8c75348bacca055c1dfdf45ffee9d51123ceae9402211b7635efdd7/pulumi_kubernetes_the_hard_way-0.0.11a1712805952.tar.gz
+[2024-04-11 05:35:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-11 05:35:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712715247.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712805952.tar.gz --markdown 20240411/p/pulumi-kubernetes-the-hard-way/0.0.11a1712715247-0.0.11a1712805952/README.md --exclude *.pyd
+[2024-04-11 05:35:48] INFO root fetch - processPackages [idna]: Remove: archive file [/home/abi/fetcher/tmp/idna-3.5.tar.gz]
+[2024-04-11 05:35:48] INFO root fetch - processPackages [idna]: Remove: archive file [/home/abi/fetcher/tmp/idna-3.6.tar.gz]
+[2024-04-11 05:35:48] INFO root fetch - main [MainThread]: End processing [idna]: success
+[2024-04-11 05:35:48] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-11 05:35:48] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-11 05:35:48] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-11 05:35:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712715247.tar.gz]
+[2024-04-11 05:35:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712805952.tar.gz]
+[2024-04-11 05:35:48] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-11 05:35:48] INFO root fetch - main [MainThread]: Store serial: [22713988]

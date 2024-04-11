@@ -2458,3 +2458,63 @@ EOFError: EOF read where object expected
 [2024-04-11 02:17:49] INFO root fetch - processPackages [neuralforecast]: Remove: archive file [/home/abi/fetcher/tmp/neuralforecast-1.7.1.tar.gz]
 [2024-04-11 02:17:49] INFO root fetch - main [MainThread]: End processing [neuralforecast]: success
 [2024-04-11 02:17:49] INFO root fetch - main [MainThread]: Store serial: [22711228]
+[2024-04-11 02:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711228]
+[2024-04-11 02:19:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 02:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ugrc-swapper
+[2024-04-11 02:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.appsync-utils
+[2024-04-11 02:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-budibase
+[2024-04-11 02:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2024-04-11 02:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vtjson
+[2024-04-11 02:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cpop
+[2024-04-11 02:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchao-nightly
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 02:19:59] INFO root fetch - processPackages [vtjson]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-11 02:19:59] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cpop]: New version: [32.0.4] Old Version: [32.0.3]
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-11 02:19:59] WARNING root fetch - processPackages [ugrc-swapper]: Skipping, unable to determine old version
+[2024-04-11 02:19:59] INFO root fetch - main [MainThread]: End processing [ugrc-swapper] error
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/95/3c/f47a428c8373aef792fcc543914249546a972d5994293ac141bbff995e2c/cpop-32.0.3.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/f6/36/3ce6fe2cd739509c2802d12e61fb8bcff923c2d1ae8d18b3686d6a1a2fe7/vtjson-1.6.7.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/8d/a2/51716abe84905b5c2875b829f467427e35e929d8939675761717b524fc7b/cpop-32.0.4.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/45/5f/3cdc06db43aad8ec40156dc7ea33830d3d3d3a43de86ffd3dcee9d636d14/vtjson-1.6.8.tar.gz
+[2024-04-11 02:19:59] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-11 02:19:59] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240411/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240411/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240411/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240411/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-11 02:19:59] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-32.0.3.tar.gz tmp/cpop-32.0.4.tar.gz --markdown 20240411/c/cpop/32.0.3-32.0.4/README.md --exclude *.pyd
+[2024-04-11 02:19:59] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-04-11 02:19:59] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.6.7.tar.gz tmp/vtjson-1.6.8.tar.gz --markdown 20240411/v/vtjson/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-11 02:20:00] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.7.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.8.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-32.0.3.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-32.0.4.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-11 02:20:00] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-11 02:20:00] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-11 02:20:00] INFO root fetch - main [MainThread]: Store serial: [22711256]

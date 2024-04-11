@@ -22978,3 +22978,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:19:03] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.8a8.tar.gz]
 [2024-04-11 14:19:03] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-04-11 14:19:03] INFO root fetch - main [MainThread]: Store serial: [22719609]
+[2024-04-11 14:21:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719609]
+[2024-04-11 14:21:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devilry
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finter
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcnmc
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-customer-deposit
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smad-legi-passport-extraction
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhanshop
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scalifiai-client
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyE2
+[2024-04-11 14:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zrb-noto
+[2024-04-11 14:21:14] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-11 14:21:14] WARNING root fetch - processPackages [zhanshop]: Skipping, unable to determine old version
+[2024-04-11 14:21:14] INFO root fetch - main [MainThread]: End processing [zhanshop] error
+[2024-04-11 14:21:14] INFO root fetch - processPackages [finter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 14:21:14] INFO root fetch - processPackages [zrb-noto]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 14:21:14] WARNING root fetch - processPackages [smad-legi-passport-extraction]: Skipping, unable to determine old version
+[2024-04-11 14:21:14] INFO root fetch - main [MainThread]: End processing [smad-legi-passport-extraction] error
+[2024-04-11 14:21:14] INFO root fetch - processPackages [libcnmc]: New version: [24.9.0] Old Version: [24.8.3]
+[2024-04-11 14:21:14] INFO root fetch - processPackages [scalifiai-client]: New version: [1.3.0a8] Old Version: [1.3.0a7]
+[2024-04-11 14:21:14] WARNING root fetch - processPackages [odoo-addon-stock-customer-deposit]: Skipping, unable to determine old version
+[2024-04-11 14:21:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-customer-deposit] error
+[2024-04-11 14:21:14] INFO root fetch - processPackages [devilry]: New version: [6.3.0rc4] Old Version: [6.3.0rc3]
+[2024-04-11 14:21:14] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-11 14:21:14] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/58/c9/1246d6e062936e104c558cd89b4ac58804e246a9fa80e078670405d583d9/finter-0.1.8-py3-none-any.whl
+[2024-04-11 14:21:14] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/06/95/80722d6009cc50259f4ce428e98ab7aa5f24029258e48badd2a15d9022d1/libcnmc-24.8.3.tar.gz
+[2024-04-11 14:21:14] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/a1/0a/15713cbd4286b0c91c558b52e7a55d1364ac325b78fa362eef89259c47a3/scalifiai-client-1.3.0a7.tar.gz
+[2024-04-11 14:21:14] INFO root fetch - processPackages [zrb-noto]: Downloading https://files.pythonhosted.org/packages/9c/b0/29ba7a0bf77f31fe33dfa2e641f8b352e9ed67c0d4efaec935943a8834c8/zrb_noto-0.0.2.tar.gz
+[2024-04-11 14:21:14] INFO root fetch - processPackages [devilry]: Downloading https://files.pythonhosted.org/packages/45/2c/67f8c10bce41cee6a23ada268d8a1f0aca4ad6d6a51cfb94513acd60e4e6/devilry-6.3.0rc3.tar.gz
+[2024-04-11 14:21:14] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-11 14:21:14] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-11 14:21:14] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240411/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-11 14:21:15] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/99/4e/b7b67460b8509dcc7a2d1f24e5cffce8649a1b66a32a9a9cf096ea455aa4/finter-0.1.9-py3-none-any.whl
+[2024-04-11 14:21:15] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/80/9b/3c50acc630ff122623a0def3d1145430763cb3ca6f3195b9288ef0962a44/libcnmc-24.9.0.tar.gz
+[2024-04-11 14:21:15] INFO root fetch - processPackages [zrb-noto]: Downloading https://files.pythonhosted.org/packages/cc/49/53abc3a0ffb9a61f2be7a1b3544b7e86e0814052f5b3fe9fa581995226f0/zrb_noto-0.0.3.tar.gz
+[2024-04-11 14:21:15] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/cf/fd/1fdb0524ef7ed71820283077c2f3b890ae1a5be62f3d07dd026485293ad0/scalifiai-client-1.3.0a8.tar.gz
+[2024-04-11 14:21:15] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-04-11 14:21:15] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.1.8-py3-none-any.whl.zip tmp/finter-0.1.9-py3-none-any.whl.zip --markdown 20240411/f/finter/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 14:21:15] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-04-11 14:21:15] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.3.tar.gz tmp/libcnmc-24.9.0.tar.gz --markdown 20240411/l/libcnmc/24.8.3-24.9.0/README.md --exclude *.pyd
+[2024-04-11 14:21:15] INFO root fetch - processPackages [zrb-noto]: executing diffoscope
+[2024-04-11 14:21:15] INFO root fetch - processPackages [zrb-noto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb_noto-0.0.2.tar.gz tmp/zrb_noto-0.0.3.tar.gz --markdown 20240411/z/zrb-noto/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 14:21:15] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-11 14:21:15] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.3.0a7.tar.gz tmp/scalifiai-client-1.3.0a8.tar.gz --markdown 20240411/s/scalifiai-client/1.3.0a7-1.3.0a8/README.md --exclude *.pyd
+[2024-04-11 14:21:15] INFO root fetch - processPackages [devilry]: Downloading https://files.pythonhosted.org/packages/5f/74/14ea30e2e3a6f05b28019536050b497f4b1554a7330b593e032234c0da76/devilry-6.3.0rc4.tar.gz
+[2024-04-11 14:21:15] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-11 14:21:15] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-11 14:21:15] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-11 14:21:15] INFO root fetch - processPackages [devilry]: executing diffoscope
+[2024-04-11 14:21:15] INFO root fetch - processPackages [devilry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devilry-6.3.0rc3.tar.gz tmp/devilry-6.3.0rc4.tar.gz --markdown 20240411/d/devilry/6.3.0rc3-6.3.0rc4/README.md --exclude *.pyd
+[2024-04-11 14:21:16] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.3.0a7.tar.gz]
+[2024-04-11 14:21:16] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.3.0a8.tar.gz]
+[2024-04-11 14:21:16] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-11 14:21:16] INFO root fetch - processPackages [zrb-noto]: Remove: archive file [/home/abi/fetcher/tmp/zrb_noto-0.0.2.tar.gz]
+[2024-04-11 14:21:16] INFO root fetch - processPackages [zrb-noto]: Remove: archive file [/home/abi/fetcher/tmp/zrb_noto-0.0.3.tar.gz]
+[2024-04-11 14:21:16] INFO root fetch - main [MainThread]: End processing [zrb-noto]: success
+[2024-04-11 14:21:16] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.1.8-py3-none-any.whl.zip]
+[2024-04-11 14:21:16] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.1.9-py3-none-any.whl.zip]
+[2024-04-11 14:21:16] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-04-11 14:21:16] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.3.tar.gz]
+[2024-04-11 14:21:16] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
+[2024-04-11 14:21:16] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-04-11 14:21:20] INFO root fetch - processPackages [devilry]: Remove: archive file [/home/abi/fetcher/tmp/devilry-6.3.0rc3.tar.gz]
+[2024-04-11 14:21:20] INFO root fetch - processPackages [devilry]: Remove: archive file [/home/abi/fetcher/tmp/devilry-6.3.0rc4.tar.gz]
+[2024-04-11 14:21:20] INFO root fetch - main [MainThread]: End processing [devilry]: success
+[2024-04-11 14:21:20] INFO root fetch - main [MainThread]: Store serial: [22719641]

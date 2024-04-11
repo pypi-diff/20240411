@@ -17838,3 +17838,81 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:18:46] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.4.tar.gz]
 [2024-04-11 11:18:46] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
 [2024-04-11 11:18:46] INFO root fetch - main [MainThread]: Store serial: [22717288]
+[2024-04-11 11:20:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717288]
+[2024-04-11 11:20:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign8
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evg
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skanym
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harlequin-risingwave
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akshare
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-tag-mixin
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astrapy
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-wrapper
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: S-Taper
+[2024-04-11 11:20:57] INFO root fetch - processPackages [harlequin-risingwave]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 11:20:57] INFO root fetch - processPackages [tb-wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.43]
+[2024-04-11 11:20:57] INFO root fetch - processPackages [skanym]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-11 11:20:57] WARNING root fetch - processPackages [odoo14-addon-ssi-tag-mixin]: Skipping, unable to determine old version
+[2024-04-11 11:20:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-tag-mixin] error
+[2024-04-11 11:20:57] INFO root fetch - processPackages [evg]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-11 11:20:57] INFO root fetch - processPackages [astrapy]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2024-04-11 11:20:57] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/34/c6/64c4116e1162184a1aebb735eb6d34f694e6bcbe5993810309093290dadc/harlequin_risingwave-0.2.0.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-11 11:20:57] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/2c/b4/ec57b3c98ce59403232d3f80d4c368d7c14d8231782a4e1e16d04cae8051/tb_wrapper-0.1.8.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [S-Taper]: New version: [0.8.4.0] Old Version: [0.8.3.6]
+[2024-04-11 11:20:57] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/ab/24/ef252870e778b2915344da4ba07188b9e1325961992c23a7fcc8584837c0/ign8-4.8.43.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [astrapy]: Downloading https://files.pythonhosted.org/packages/12/38/7505856bcd1f1a232d5fa432b5a2e51241cc5ae1809ae5cb7eb665206c10/astrapy-1.0.0.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [skanym]: Downloading https://files.pythonhosted.org/packages/56/57/152fd0c1cde0becddd46f25ecf8c988b5ba8d4d02fdff55448a566c58bcd/skanym-0.0.3.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [evg]: Downloading https://files.pythonhosted.org/packages/df/a6/b88e61b28d8ff4839e0ac4eab9be5e920e0eff5540bd9e7db02a4703537d/evg-2.6.0.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [S-Taper]: Downloading https://files.pythonhosted.org/packages/89/2e/b38ec2c6e0c8463b4d95508ebfe1b10f6f9295ebe6e66edc5800e3c6362c/S_Taper-0.8.3.6.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/b5/9e/20885e1da565391967149ead1f4236ffc73264f154a5a18147ecf26e7703/harlequin_risingwave-0.2.1.tar.gz
+[2024-04-11 11:20:57] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/21/89/f49a28288c035383351e4e7ef91e37a7a63cc914601375565b45cbae4b82/tb_wrapper-0.1.9.tar.gz
+[2024-04-11 11:20:58] INFO root fetch - processPackages [harlequin-risingwave]: executing diffoscope
+[2024-04-11 11:20:58] INFO root fetch - processPackages [harlequin-risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin_risingwave-0.2.0.tar.gz tmp/harlequin_risingwave-0.2.1.tar.gz --markdown 20240411/h/harlequin-risingwave/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 11:20:58] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 11:20:58] INFO root fetch - processPackages [tb-wrapper]: executing diffoscope
+[2024-04-11 11:20:58] INFO root fetch - processPackages [tb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_wrapper-0.1.8.tar.gz tmp/tb_wrapper-0.1.9.tar.gz --markdown 20240411/t/tb-wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 11:20:58] INFO root fetch - processPackages [evg]: Downloading https://files.pythonhosted.org/packages/f1/cf/97911df254b1676e5f65d6cc13868be176ef600181571777c36179d22234/evg-2.7.0.tar.gz
+[2024-04-11 11:20:58] INFO root fetch - processPackages [astrapy]: Downloading https://files.pythonhosted.org/packages/d1/f3/a38a85e3be094e707c4464e36d97d20829bbffe045c85e9620d2304e997a/astrapy-1.0.0rc1.tar.gz
+[2024-04-11 11:20:58] INFO root fetch - processPackages [S-Taper]: Downloading https://files.pythonhosted.org/packages/31/4b/87e68978189e0717c1ac5fcb1c1fb902e46dd14beec38c045ef954af38a4/S_Taper-0.8.4.0.tar.gz
+[2024-04-11 11:20:58] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-11 11:20:58] INFO root fetch - processPackages [evg]: executing diffoscope
+[2024-04-11 11:20:58] INFO root fetch - processPackages [evg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evg-2.6.0.tar.gz tmp/evg-2.7.0.tar.gz --markdown 20240411/e/evg/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-04-11 11:20:58] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 11:20:58] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.43.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.43-4.8.5/README.md --exclude *.pyd
+[2024-04-11 11:20:58] INFO root fetch - processPackages [astrapy]: executing diffoscope
+[2024-04-11 11:20:58] INFO root fetch - processPackages [astrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrapy-1.0.0.tar.gz tmp/astrapy-1.0.0rc1.tar.gz --markdown 20240411/a/astrapy/1.0.0-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-11 11:20:58] INFO root fetch - processPackages [S-Taper]: executing diffoscope
+[2024-04-11 11:20:58] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-11 11:20:58] INFO root fetch - processPackages [S-Taper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/S_Taper-0.8.3.6.tar.gz tmp/S_Taper-0.8.4.0.tar.gz --markdown 20240411/S/S-Taper/0.8.3.6-0.8.4.0/README.md --exclude *.pyd
+[2024-04-11 11:20:58] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240411/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-11 11:20:58] INFO root fetch - processPackages [skanym]: Downloading https://files.pythonhosted.org/packages/cd/91/94600878d3d9333576d6e676140cf625cb6dfb4463d99c49ed3cd7a39edb/skanym-0.1.0.tar.gz
+[2024-04-11 11:20:59] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.2.0.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.2.1.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - main [MainThread]: End processing [harlequin-risingwave]: success
+[2024-04-11 11:20:59] INFO root fetch - processPackages [skanym]: executing diffoscope
+[2024-04-11 11:20:59] INFO root fetch - processPackages [skanym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skanym-0.0.3.tar.gz tmp/skanym-0.1.0.tar.gz --markdown 20240411/s/skanym/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-04-11 11:20:59] INFO root fetch - processPackages [evg]: Remove: archive file [/home/abi/fetcher/tmp/evg-2.6.0.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - processPackages [evg]: Remove: archive file [/home/abi/fetcher/tmp/evg-2.7.0.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - main [MainThread]: End processing [evg]: success
+[2024-04-11 11:20:59] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.8.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.9.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - main [MainThread]: End processing [tb-wrapper]: success
+[2024-04-11 11:20:59] INFO root fetch - processPackages [astrapy]: Remove: archive file [/home/abi/fetcher/tmp/astrapy-1.0.0.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - processPackages [astrapy]: Remove: archive file [/home/abi/fetcher/tmp/astrapy-1.0.0rc1.tar.gz]
+[2024-04-11 11:20:59] INFO root fetch - main [MainThread]: End processing [astrapy]: success
+[2024-04-11 11:21:00] INFO root fetch - processPackages [S-Taper]: Remove: archive file [/home/abi/fetcher/tmp/S_Taper-0.8.3.6.tar.gz]
+[2024-04-11 11:21:00] INFO root fetch - processPackages [S-Taper]: Remove: archive file [/home/abi/fetcher/tmp/S_Taper-0.8.4.0.tar.gz]
+[2024-04-11 11:21:00] INFO root fetch - main [MainThread]: End processing [S-Taper]: success
+[2024-04-11 11:21:00] INFO root fetch - processPackages [skanym]: Remove: archive file [/home/abi/fetcher/tmp/skanym-0.0.3.tar.gz]
+[2024-04-11 11:21:00] INFO root fetch - processPackages [skanym]: Remove: archive file [/home/abi/fetcher/tmp/skanym-0.1.0.tar.gz]
+[2024-04-11 11:21:00] INFO root fetch - main [MainThread]: End processing [skanym]: success
+[2024-04-11 11:21:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-11 11:21:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-11 11:21:02] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-11 11:21:02] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.43.tar.gz]
+[2024-04-11 11:21:02] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 11:21:02] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 11:21:02] INFO root fetch - main [MainThread]: Store serial: [22717316]

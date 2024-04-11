@@ -20657,3 +20657,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:01:44] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.4.tar.gz]
 [2024-04-11 13:01:44] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 13:01:44] INFO root fetch - main [MainThread]: Store serial: [22718526]
+[2024-04-11 13:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718526]
+[2024-04-11 13:03:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CNFgen
+[2024-04-11 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dna-engine
+[2024-04-11 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minio_async_client
+[2024-04-11 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiddler-client
+[2024-04-11 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prpy
+[2024-04-11 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sarus-data-spec-public
+[2024-04-11 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pcffont
+[2024-04-11 13:03:53] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.9.2.dev0] Old Version: [3.9.1.dev1]
+[2024-04-11 13:03:53] WARNING root fetch - processPackages [minio_async_client]: Skipping, unable to determine old version
+[2024-04-11 13:03:53] INFO root fetch - main [MainThread]: End processing [minio_async_client] error
+[2024-04-11 13:03:53] INFO root fetch - processPackages [prpy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-11 13:03:53] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev1] Old Version: [3.0.0.dev9]
+[2024-04-11 13:03:53] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5a/48/3aff6730d3ff2bdc16ff047e6dcaa9b8d9f07de9557a724e7659544180c5/sarus_data_spec_public-3.9.1.dev1.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [dna-engine]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-11 13:03:53] ERROR root fetch - processPackages [pcffont]: Unable to get metadata: No such project 'pcffont'
+[2024-04-11 13:03:53] INFO root fetch - main [MainThread]: End processing [pcffont] error
+[2024-04-11 13:03:53] INFO root fetch - processPackages [CNFgen]: New version: [0.9.3.post1] Old Version: [0.9.2]
+[2024-04-11 13:03:53] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/ff/e1/4f0bace7747053b705b1b7aae20344f14657b7e98f7742553847e34590cb/fiddler-client-3.0.0.dev9.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [prpy]: Downloading https://files.pythonhosted.org/packages/d7/d9/304b2f8583866ca64475d87385ed3909241d249d832217eb81faaf1b3a2f/prpy-0.2.2.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [dna-engine]: Downloading https://files.pythonhosted.org/packages/92/2e/b60efa442f7a38d647d9a1331e9e07538f5cf2425f44aad4c933fd1a1a01/dna_engine-1.0.1.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [CNFgen]: Downloading https://files.pythonhosted.org/packages/ff/6f/8e7d4845efa84ba14aac47f016a171eab70954ea10fce76b6beef465c859/CNFgen-0.9.2.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/09/66/b47ab90fb871ff7cf26b1a333e6d6017119f477ca0eb3d92c9c5722d4867/sarus_data_spec_public-3.9.2.dev0.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/08/ea/1f0e0c4bf6978125bb6d32314f0dcebce3728dfce8fa0ef3106948b4d899/fiddler-client-3.1.0.dev1.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-04-11 13:03:53] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.9.1.dev1.tar.gz tmp/sarus_data_spec_public-3.9.2.dev0.tar.gz --markdown 20240411/s/sarus-data-spec-public/3.9.1.dev1-3.9.2.dev0/README.md --exclude *.pyd
+[2024-04-11 13:03:53] INFO root fetch - processPackages [prpy]: Downloading https://files.pythonhosted.org/packages/a0/d6/d978f4a2f34c24d1d9935fd8ae9d0d5db7b00b4e4f6615db91fd5ce840c6/prpy-0.2.3.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-04-11 13:03:53] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.0.0.dev9.tar.gz tmp/fiddler-client-3.1.0.dev1.tar.gz --markdown 20240411/f/fiddler-client/3.0.0.dev9-3.1.0.dev1/README.md --exclude *.pyd
+[2024-04-11 13:03:53] INFO root fetch - processPackages [dna-engine]: Downloading https://files.pythonhosted.org/packages/b1/9f/5fdeddf6cae3cb186f3c95241bcdef9d75b83bdaf89d398ea6a04b1a684f/dna_engine-1.0.2.tar.gz
+[2024-04-11 13:03:53] INFO root fetch - processPackages [prpy]: executing diffoscope
+[2024-04-11 13:03:53] INFO root fetch - processPackages [prpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prpy-0.2.2.tar.gz tmp/prpy-0.2.3.tar.gz --markdown 20240411/p/prpy/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-11 13:03:53] INFO root fetch - processPackages [CNFgen]: Downloading https://files.pythonhosted.org/packages/71/2f/f24ea38a48a81995c3c51cd27580d9a21db84ecbe3cf5ff74d61fbac982e/CNFgen-0.9.3.post1.tar.gz
+[2024-04-11 13:03:54] INFO root fetch - processPackages [dna-engine]: executing diffoscope
+[2024-04-11 13:03:54] INFO root fetch - processPackages [dna-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_engine-1.0.1.tar.gz tmp/dna_engine-1.0.2.tar.gz --markdown 20240411/d/dna-engine/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-11 13:03:54] INFO root fetch - processPackages [CNFgen]: executing diffoscope
+[2024-04-11 13:03:54] INFO root fetch - processPackages [CNFgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CNFgen-0.9.2.tar.gz tmp/CNFgen-0.9.3.post1.tar.gz --markdown 20240411/C/CNFgen/0.9.2-0.9.3.post1/README.md --exclude *.pyd
+[2024-04-11 13:03:54] INFO root fetch - processPackages [prpy]: Remove: archive file [/home/abi/fetcher/tmp/prpy-0.2.2.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - processPackages [prpy]: Remove: archive file [/home/abi/fetcher/tmp/prpy-0.2.3.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - main [MainThread]: End processing [prpy]: success
+[2024-04-11 13:03:54] INFO root fetch - processPackages [dna-engine]: Remove: archive file [/home/abi/fetcher/tmp/dna_engine-1.0.1.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - processPackages [dna-engine]: Remove: archive file [/home/abi/fetcher/tmp/dna_engine-1.0.2.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - main [MainThread]: End processing [dna-engine]: success
+[2024-04-11 13:03:54] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.0.0.dev9.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev1.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-04-11 13:03:54] INFO root fetch - processPackages [CNFgen]: Remove: archive file [/home/abi/fetcher/tmp/CNFgen-0.9.2.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - processPackages [CNFgen]: Remove: archive file [/home/abi/fetcher/tmp/CNFgen-0.9.3.post1.tar.gz]
+[2024-04-11 13:03:54] INFO root fetch - main [MainThread]: End processing [CNFgen]: success
+[2024-04-11 13:03:55] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.9.1.dev1.tar.gz]
+[2024-04-11 13:03:55] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.9.2.dev0.tar.gz]
+[2024-04-11 13:03:55] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-04-11 13:03:55] INFO root fetch - main [MainThread]: Store serial: [22718546]

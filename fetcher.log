@@ -20815,3 +20815,20 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:08:22] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.7.tar.gz]
 [2024-04-11 13:08:22] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 13:08:22] INFO root fetch - main [MainThread]: Store serial: [22718632]
+[2024-04-11 13:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718632]
+[2024-04-11 13:10:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-04-11 13:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-11 13:10:31] INFO root fetch - processPackages [ign8]: New version: [4.9.8] Old Version: [4.9.7]
+[2024-04-11 13:10:31] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240411] Old Version: [2.5.0b20240410]
+[2024-04-11 13:10:31] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/fd/0d/da0b32645df75d665a1f595e960cfb8fb35cf153bd6e88509e9119548372/ign8-4.9.7.tar.gz
+[2024-04-11 13:10:32] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/84/2d/46d47a0e30ee57395d8ae8c080e3fde707eb37eb92194c7ab3099692a1ed/bigdl_core_cpp-2.5.0b20240410-py3-none-win_amd64.whl
+[2024-04-11 13:10:32] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 55032153>=10485760
+[2024-04-11 13:10:32] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-11 13:10:32] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 13:10:32] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:10:32] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.7.tar.gz tmp/ign8-4.9.8.tar.gz --markdown 20240411/i/ign8/4.9.7-4.9.8/README.md --exclude *.pyd
+[2024-04-11 13:10:35] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.7.tar.gz]
+[2024-04-11 13:10:35] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 13:10:35] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:10:35] INFO root fetch - main [MainThread]: Store serial: [22718637]

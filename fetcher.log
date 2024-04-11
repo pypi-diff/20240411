@@ -12152,3 +12152,27 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:55:44] INFO root fetch - processPackages [wipo-gbd-pypers]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_pypers-2.1.9-py3-none-any.whl.zip]
 [2024-04-11 07:55:44] INFO root fetch - main [MainThread]: End processing [wipo-gbd-pypers]: success
 [2024-04-11 07:55:44] INFO root fetch - main [MainThread]: Store serial: [22714790]
+[2024-04-11 07:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714790]
+[2024-04-11 07:57:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avania
+[2024-04-11 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vit-pytorch-implementation
+[2024-04-11 07:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laserembeddings-fork
+[2024-04-11 07:57:53] INFO root fetch - processPackages [avania]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 07:57:53] INFO root fetch - processPackages [vit-pytorch-implementation]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-11 07:57:53] WARNING root fetch - processPackages [laserembeddings-fork]: Skipping, unable to determine old version
+[2024-04-11 07:57:53] INFO root fetch - main [MainThread]: End processing [laserembeddings-fork] error
+[2024-04-11 07:57:53] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/bc/f1/facf39018bf2aa2dbfbda6d98bc496259fe88f84bba21ea6ceb0f3a2bd83/avania-0.0.2.tar.gz
+[2024-04-11 07:57:53] INFO root fetch - processPackages [vit-pytorch-implementation]: Downloading https://files.pythonhosted.org/packages/9e/1e/2a0e28a25579ef31392eaf3582627b18c5ed8311793aa2a5924b0cd4f684/vit-pytorch-implementation-3.0.0.tar.gz
+[2024-04-11 07:57:53] INFO root fetch - processPackages [vit-pytorch-implementation]: Downloading https://files.pythonhosted.org/packages/f3/72/bb953d8d788d05d9e3a7651a5e7c6ea1f5bb77a655a4e6892839c0da5b9d/vit-pytorch-implementation-4.0.0.tar.gz
+[2024-04-11 07:57:53] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/cd/5f/8421154aa76d2a4b32989dc46b7bd6603af660d012783d66520ee97ff717/avania-0.0.3.tar.gz
+[2024-04-11 07:57:53] INFO root fetch - processPackages [vit-pytorch-implementation]: executing diffoscope
+[2024-04-11 07:57:53] INFO root fetch - processPackages [vit-pytorch-implementation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit-pytorch-implementation-3.0.0.tar.gz tmp/vit-pytorch-implementation-4.0.0.tar.gz --markdown 20240411/v/vit-pytorch-implementation/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-11 07:57:53] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-11 07:57:53] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.0.2.tar.gz tmp/avania-0.0.3.tar.gz --markdown 20240411/a/avania/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 07:57:54] INFO root fetch - processPackages [vit-pytorch-implementation]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-implementation-3.0.0.tar.gz]
+[2024-04-11 07:57:54] INFO root fetch - processPackages [vit-pytorch-implementation]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-implementation-4.0.0.tar.gz]
+[2024-04-11 07:57:54] INFO root fetch - main [MainThread]: End processing [vit-pytorch-implementation]: success
+[2024-04-11 07:57:54] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.2.tar.gz]
+[2024-04-11 07:57:54] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.3.tar.gz]
+[2024-04-11 07:57:54] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-11 07:57:54] INFO root fetch - main [MainThread]: Store serial: [22714801]

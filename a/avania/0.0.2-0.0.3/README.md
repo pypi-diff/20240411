@@ -1,0 +1,54 @@
+# Comparing `tmp/avania-0.0.2.tar.gz` & `tmp/avania-0.0.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "avania-0.0.2.tar", last modified: Thu Apr 11 05:49:56 2024, max compression
++gzip compressed data, was "avania-0.0.3.tar", last modified: Thu Apr 11 05:52:23 2024, max compression
+```
+
+## Comparing `avania-0.0.2.tar` & `avania-0.0.3.tar`
+
+### file list
+
+```diff
+@@ -1,14 +1,14 @@
+-drwxr-xr-x   0 staran     (501) staff       (20)        0 2024-04-11 05:49:56.615710 avania-0.0.2/
+--rw-r--r--   0 staran     (501) staff       (20)     1742 2024-04-11 04:09:41.000000 avania-0.0.2/LICENSE
+--rw-r--r--   0 staran     (501) staff       (20)      164 2024-04-11 05:49:56.615479 avania-0.0.2/PKG-INFO
+--rw-r--r--   0 staran     (501) staff       (20)      662 2024-04-11 04:48:48.000000 avania-0.0.2/README.md
+-drwxr-xr-x   0 staran     (501) staff       (20)        0 2024-04-11 05:49:56.614501 avania-0.0.2/avania/
+--rw-r--r--   0 staran     (501) staff       (20)       30 2024-04-11 05:21:55.000000 avania-0.0.2/avania/__init__.py
+-drwxr-xr-x   0 staran     (501) staff       (20)        0 2024-04-11 05:49:56.615255 avania-0.0.2/avania.egg-info/
+--rw-r--r--   0 staran     (501) staff       (20)      164 2024-04-11 05:49:56.000000 avania-0.0.2/avania.egg-info/PKG-INFO
+--rw-r--r--   0 staran     (501) staff       (20)      194 2024-04-11 05:49:56.000000 avania-0.0.2/avania.egg-info/SOURCES.txt
+--rw-r--r--   0 staran     (501) staff       (20)        1 2024-04-11 05:49:56.000000 avania-0.0.2/avania.egg-info/dependency_links.txt
+--rw-r--r--   0 staran     (501) staff       (20)       15 2024-04-11 05:49:56.000000 avania-0.0.2/avania.egg-info/requires.txt
+--rw-r--r--   0 staran     (501) staff       (20)        7 2024-04-11 05:49:56.000000 avania-0.0.2/avania.egg-info/top_level.txt
+--rw-r--r--   0 staran     (501) staff       (20)       38 2024-04-11 05:49:56.615748 avania-0.0.2/setup.cfg
+--rw-r--r--   0 staran     (501) staff       (20)      254 2024-04-11 05:40:33.000000 avania-0.0.2/setup.py
++drwxr-xr-x   0 staran     (501) staff       (20)        0 2024-04-11 05:52:23.621652 avania-0.0.3/
++-rw-r--r--   0 staran     (501) staff       (20)     1742 2024-04-11 04:09:41.000000 avania-0.0.3/LICENSE
++-rw-r--r--   0 staran     (501) staff       (20)      867 2024-04-11 05:52:23.621440 avania-0.0.3/PKG-INFO
++-rw-r--r--   0 staran     (501) staff       (20)      662 2024-04-11 04:48:48.000000 avania-0.0.3/README.md
++drwxr-xr-x   0 staran     (501) staff       (20)        0 2024-04-11 05:52:23.620392 avania-0.0.3/avania/
++-rw-r--r--   0 staran     (501) staff       (20)       30 2024-04-11 05:21:55.000000 avania-0.0.3/avania/__init__.py
++drwxr-xr-x   0 staran     (501) staff       (20)        0 2024-04-11 05:52:23.621247 avania-0.0.3/avania.egg-info/
++-rw-r--r--   0 staran     (501) staff       (20)      867 2024-04-11 05:52:23.000000 avania-0.0.3/avania.egg-info/PKG-INFO
++-rw-r--r--   0 staran     (501) staff       (20)      194 2024-04-11 05:52:23.000000 avania-0.0.3/avania.egg-info/SOURCES.txt
++-rw-r--r--   0 staran     (501) staff       (20)        1 2024-04-11 05:52:23.000000 avania-0.0.3/avania.egg-info/dependency_links.txt
++-rw-r--r--   0 staran     (501) staff       (20)       15 2024-04-11 05:52:23.000000 avania-0.0.3/avania.egg-info/requires.txt
++-rw-r--r--   0 staran     (501) staff       (20)        7 2024-04-11 05:52:23.000000 avania-0.0.3/avania.egg-info/top_level.txt
++-rw-r--r--   0 staran     (501) staff       (20)       38 2024-04-11 05:52:23.621693 avania-0.0.3/setup.cfg
++-rw-r--r--   0 staran     (501) staff       (20)      352 2024-04-11 05:52:18.000000 avania-0.0.3/setup.py
+```
+
+### Comparing `avania-0.0.2/LICENSE` & `avania-0.0.3/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `avania-0.0.2/README.md` & `avania-0.0.3/README.md`
+
+ * *Files identical despite different names*
+

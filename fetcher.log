@@ -9920,3 +9920,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:22:34] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-7.1.2-cp27-cp27mu-manylinux2014_aarch64.whl.zip]
 [2024-04-11 05:22:34] INFO root fetch - main [MainThread]: End processing [coptpy]: success
 [2024-04-11 05:22:34] INFO root fetch - main [MainThread]: Store serial: [22713772]
+[2024-04-11 05:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713772]
+[2024-04-11 05:24:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-04-11 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stimcirq
+[2024-04-11 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinter
+[2024-04-11 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odh-elyra
+[2024-04-11 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcsfe-iosapi
+[2024-04-11 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alondra
+[2024-04-11 05:24:43] INFO root fetch - processPackages [bcsfe-iosapi]: New version: [2.7.70] Old Version: [2.7.69]
+[2024-04-11 05:24:43] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/85/f3/9256a3e5bbb1e334c66c1d4d936ca6a91a5833a0bee5c46eece0fac316f9/bcsfe-iosapi-2.7.69.tar.gz
+[2024-04-11 05:24:43] WARNING root fetch - processPackages [alondra]: Skipping, unable to determine old version
+[2024-04-11 05:24:43] INFO root fetch - main [MainThread]: End processing [alondra] error
+[2024-04-11 05:24:43] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.1.dev2024041103] Old Version: [3.2.0.dev2024041003]
+[2024-04-11 05:24:43] INFO root fetch - processPackages [odh-elyra]: New version: [3.16.5] Old Version: [3.16.4]
+[2024-04-11 05:24:43] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2024-04-11 05:24:43] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2024-04-11 05:24:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/55/0e/6e961318c6053156e15d48595d87fd463bd927fec128e2fe91f084038949/keras-nightly-3.2.0.dev2024041003.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [odh-elyra]: Downloading https://files.pythonhosted.org/packages/75/54/9fa112576ee7d7c900036161472883529539f238843fbe4fec5d167f0ec1/odh_elyra-3.16.4.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/4f/0b/5f6b01d21fa793795e47dbd61c447f7c39e3f6e8f6b3899e9994b8824097/bcsfe-iosapi-2.7.70.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [bcsfe-iosapi]: executing diffoscope
+[2024-04-11 05:24:43] INFO root fetch - processPackages [bcsfe-iosapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-iosapi-2.7.69.tar.gz tmp/bcsfe-iosapi-2.7.70.tar.gz --markdown 20240411/b/bcsfe-iosapi/2.7.69-2.7.70/README.md --exclude *.pyd
+[2024-04-11 05:24:43] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/34/6a/c901546883f01c9c70bac06eff563b72df076ef97e0970433e41bb97a25b/keras-nightly-3.2.1.dev2024041103.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2024-04-11 05:24:43] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2024-04-11 05:24:43] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20240411/s/sinter/1.9.dev1656756326-1.9.dev1657429876/README.md --exclude *.pyd
+[2024-04-11 05:24:43] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-11 05:24:43] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nightly-3.2.0.dev2024041003.tar.gz tmp/keras-nightly-3.2.1.dev2024041103.tar.gz --markdown 20240411/k/keras-nightly/3.2.0.dev2024041003-3.2.1.dev2024041103/README.md --exclude *.pyd
+[2024-04-11 05:24:44] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2024-04-11 05:24:44] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20240411/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/README.md --exclude *.pyd
+[2024-04-11 05:24:44] INFO root fetch - processPackages [odh-elyra]: Downloading https://files.pythonhosted.org/packages/1c/b2/935b802b5c8983d974a608530d5dd93c32421595025ae87a5a8f2a401ec5/odh_elyra-3.16.5.tar.gz
+[2024-04-11 05:24:44] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.69.tar.gz]
+[2024-04-11 05:24:44] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.70.tar.gz]
+[2024-04-11 05:24:44] INFO root fetch - main [MainThread]: End processing [bcsfe-iosapi]: success
+[2024-04-11 05:24:44] INFO root fetch - processPackages [odh-elyra]: executing diffoscope
+[2024-04-11 05:24:44] INFO root fetch - processPackages [odh-elyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_elyra-3.16.4.tar.gz tmp/odh_elyra-3.16.5.tar.gz --markdown 20240411/o/odh-elyra/3.16.4-3.16.5/README.md --exclude *.pyd
+[2024-04-11 05:24:44] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2024-04-11 05:24:44] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2024-04-11 05:24:44] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2024-04-11 05:24:44] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2024-04-11 05:24:44] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2024-04-11 05:24:44] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2024-04-11 05:24:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024041003.tar.gz]
+[2024-04-11 05:24:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.1.dev2024041103.tar.gz]
+[2024-04-11 05:24:46] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-11 05:24:49] INFO root fetch - processPackages [odh-elyra]: Remove: archive file [/home/abi/fetcher/tmp/odh_elyra-3.16.4.tar.gz]
+[2024-04-11 05:24:49] INFO root fetch - processPackages [odh-elyra]: Remove: archive file [/home/abi/fetcher/tmp/odh_elyra-3.16.5.tar.gz]
+[2024-04-11 05:24:49] INFO root fetch - main [MainThread]: End processing [odh-elyra]: success
+[2024-04-11 05:24:49] INFO root fetch - main [MainThread]: Store serial: [22713820]

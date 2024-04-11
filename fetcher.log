@@ -12776,3 +12776,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:34:20] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
 [2024-04-11 08:34:20] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2024-04-11 08:34:20] INFO root fetch - main [MainThread]: Store serial: [22715198]
+[2024-04-11 08:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715198]
+[2024-04-11 08:36:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 08:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-config
+[2024-04-11 08:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-xlibrary
+[2024-04-11 08:36:29] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [6.0.0] Old Version: [1.0.4]
+[2024-04-11 08:36:29] INFO root fetch - processPackages [mojo-config]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 08:36:29] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/c8/9f/242ddb7b28adb9a02e7640cddb94dab243da401539012aa9d62457250485/robotframework-xlibrary-1.0.4.tar.gz
+[2024-04-11 08:36:29] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/a4/cc/2ca4b4e6a03640f1f240e3e4a12356d8ad8fe7320294cac819d54a345cdb/mojo_config-1.3.8.tar.gz
+[2024-04-11 08:36:30] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/07/c2/dcccde688e9d4ee4459fc64084bb091e765cbab41964c3a61efe477a9538/robotframework-xlibrary-6.0.0.tar.gz
+[2024-04-11 08:36:30] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-11 08:36:30] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-1.0.4.tar.gz tmp/robotframework-xlibrary-6.0.0.tar.gz --markdown 20240411/r/robotframework-xlibrary/1.0.4-6.0.0/README.md --exclude *.pyd
+[2024-04-11 08:36:30] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/2d/77/59ae99bdaf8ff23d580a64c62212f3a16bb49ad2cd8d08d9dbab4c159829/mojo_config-1.3.9.tar.gz
+[2024-04-11 08:36:30] INFO root fetch - processPackages [mojo-config]: executing diffoscope
+[2024-04-11 08:36:30] INFO root fetch - processPackages [mojo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_config-1.3.8.tar.gz tmp/mojo_config-1.3.9.tar.gz --markdown 20240411/m/mojo-config/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 08:36:30] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.4.tar.gz]
+[2024-04-11 08:36:30] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-6.0.0.tar.gz]
+[2024-04-11 08:36:30] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-11 08:36:30] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.8.tar.gz]
+[2024-04-11 08:36:30] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.9.tar.gz]
+[2024-04-11 08:36:30] INFO root fetch - main [MainThread]: End processing [mojo-config]: success
+[2024-04-11 08:36:30] INFO root fetch - main [MainThread]: Store serial: [22715226]

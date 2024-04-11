@@ -11426,3 +11426,27 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:07:28] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
 [2024-04-11 07:07:28] INFO root fetch - main [MainThread]: End processing [wah]: success
 [2024-04-11 07:07:28] INFO root fetch - main [MainThread]: Store serial: [22714516]
+[2024-04-11 07:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714516]
+[2024-04-11 07:09:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPrintShape
+[2024-04-11 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-product-pack
+[2024-04-11 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prusek-spheroid
+[2024-04-11 07:09:37] INFO root fetch - processPackages [prusek-spheroid]: New version: [4.9] Old Version: [4.8]
+[2024-04-11 07:09:37] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/32/7f/3edd9c30f8248e9741c36255bca4eb47077516e25af01feb8d3d01dc696e/prusek_spheroid-4.8.tar.gz
+[2024-04-11 07:09:37] WARNING root fetch - processPackages [pyPrintShape]: Skipping, unable to determine old version
+[2024-04-11 07:09:37] INFO root fetch - main [MainThread]: End processing [pyPrintShape] error
+[2024-04-11 07:09:37] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: New version: [16.0.20240410.0] Old Version: [16.0.20240326.0]
+[2024-04-11 07:09:37] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Downloading https://files.pythonhosted.org/packages/74/03/7518c714c43b5cd6141a85eb2f58dd0801cb7dffb9c0aff7f466318470b3/odoo_addons_oca_product_pack-16.0.20240326.0-py3-none-any.whl
+[2024-04-11 07:09:37] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/d4/54/856251a5be60617775078d42cb1fdd810923df74ebc7632d1ddf4cbe20a6/prusek_spheroid-4.9.tar.gz
+[2024-04-11 07:09:37] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-11 07:09:37] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-4.8.tar.gz tmp/prusek_spheroid-4.9.tar.gz --markdown 20240411/p/prusek-spheroid/4.8-4.9/README.md --exclude *.pyd
+[2024-04-11 07:09:37] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Downloading https://files.pythonhosted.org/packages/2d/35/e860dacf5cc4f51b4a2da35be5c25ea2a66587d728bd0a06287644d25ee3/odoo_addons_oca_product_pack-16.0.20240410.0-py3-none-any.whl
+[2024-04-11 07:09:38] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: executing diffoscope
+[2024-04-11 07:09:38] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_pack-16.0.20240326.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_pack-16.0.20240410.0-py3-none-any.whl.zip --markdown 20240411/o/odoo-addons-oca-product-pack/16.0.20240326.0-16.0.20240410.0/README.md --exclude *.pyd
+[2024-04-11 07:09:38] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.8.tar.gz]
+[2024-04-11 07:09:38] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.9.tar.gz]
+[2024-04-11 07:09:38] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-11 07:09:38] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_pack-16.0.20240326.0-py3-none-any.whl.zip]
+[2024-04-11 07:09:38] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_pack-16.0.20240410.0-py3-none-any.whl.zip]
+[2024-04-11 07:09:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-pack]: success
+[2024-04-11 07:09:38] INFO root fetch - main [MainThread]: Store serial: [22714526]

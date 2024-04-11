@@ -18975,3 +18975,50 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:03:46] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.6.8-py2.py3-none-any.whl.zip]
 [2024-04-11 12:03:46] INFO root fetch - main [MainThread]: End processing [mariqt]: success
 [2024-04-11 12:03:46] INFO root fetch - main [MainThread]: Store serial: [22717861]
+[2024-04-11 12:05:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717861]
+[2024-04-11 12:05:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magic-words
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebilab
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cj-package
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mriqc
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-organization-python
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 12:05:56] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-11 12:05:56] INFO root fetch - processPackages [mriqc]: New version: [24.0.0rc5] Old Version: [24.0.0rc4]
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-11 12:05:56] WARNING root fetch - processPackages [magic-words]: Skipping, unable to determine old version
+[2024-04-11 12:05:56] INFO root fetch - main [MainThread]: End processing [magic-words] error
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ebilab]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-11 12:05:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-11 12:05:56] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/c5/84/b71ef90ec9fce84dbd7a0cef9987cd4a6e3121bc988b38de1d633e0134e9/ebilab-2.3.0.tar.gz
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-11 12:05:56] INFO root fetch - processPackages [mriqc]: Downloading https://files.pythonhosted.org/packages/96/55/a05f7248b165ed830aa32ca0f42bacc397175a95688c8810bf48c1f830c4/mriqc-24.0.0rc4.tar.gz
+[2024-04-11 12:05:56] WARNING root fetch - processPackages [mriqc]: Skipping package: exceeds size limit 45826891>=10485760
+[2024-04-11 12:05:56] INFO root fetch - main [MainThread]: End processing [mriqc] error
+[2024-04-11 12:05:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240411/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-11 12:05:56] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240411/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 12:05:57] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-11 12:05:57] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240411/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-11 12:05:57] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/a7/ab/81efc67908d3791d106584ef4bf0a57c6dd508488b68b8a0e541f19f8632/ebilab-2.4.0.tar.gz
+[2024-04-11 12:05:57] INFO root fetch - processPackages [ebilab]: executing diffoscope
+[2024-04-11 12:05:57] INFO root fetch - processPackages [ebilab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebilab-2.3.0.tar.gz tmp/ebilab-2.4.0.tar.gz --markdown 20240411/e/ebilab/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-11 12:05:57] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-11 12:05:57] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-11 12:05:57] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-11 12:05:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-11 12:05:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-11 12:05:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-11 12:05:57] INFO root fetch - processPackages [ebilab]: Remove: archive file [/home/abi/fetcher/tmp/ebilab-2.3.0.tar.gz]
+[2024-04-11 12:05:57] INFO root fetch - processPackages [ebilab]: Remove: archive file [/home/abi/fetcher/tmp/ebilab-2.4.0.tar.gz]
+[2024-04-11 12:05:57] INFO root fetch - main [MainThread]: End processing [ebilab]: success
+[2024-04-11 12:05:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-11 12:05:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-11 12:05:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-11 12:05:58] INFO root fetch - main [MainThread]: Store serial: [22717880]

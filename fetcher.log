@@ -20246,3 +20246,45 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:46:11] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.51.tar.gz]
 [2024-04-11 12:46:11] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 12:46:11] INFO root fetch - main [MainThread]: Store serial: [22718383]
+[2024-04-11 12:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718383]
+[2024-04-11 12:48:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 12:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perceval
+[2024-04-11 12:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wtu-mlflow
+[2024-04-11 12:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tushare-interface
+[2024-04-11 12:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fnschool
+[2024-04-11 12:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelon-impact-client
+[2024-04-11 12:48:21] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240411.1741.22]
+[2024-04-11 12:48:21] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-04-11 12:48:22] WARNING root fetch - processPackages [tushare-interface]: Skipping, unable to determine old version
+[2024-04-11 12:48:22] INFO root fetch - main [MainThread]: End processing [tushare-interface] error
+[2024-04-11 12:48:22] INFO root fetch - processPackages [wtu-mlflow]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-11 12:48:22] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/e6/38/1b8d34bf587fde7a79d9b937f1fe576d628ffdf0d9ca864081f0f93f7c25/modelon_impact_client-3.8.1.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [perceval]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 12:48:22] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/11/c4/8f2b47b8903c42cf382fa564ddd567479635d51d94b16e1b039cee4a76d4/fnschool-20240411.1741.22.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [wtu-mlflow]: Downloading https://files.pythonhosted.org/packages/31/c5/821e67e3611e55de161d1e549b96f7c62eb9e73a4793b6e0113bb24b500e/wtu-mlflow-0.0.6.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/05/98/6dd03250d3f1a5e630e3b7fd5ef27b407fb803b73fdca8cc1e13c04107a6/perceval-1.0.0rc1.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/60/b8/7c2424190ed68b6558d409ff3ae458f12114b0e2ff5e4df7d07cc9344fd9/modelon_impact_client-3.9.0.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2024-04-11 12:48:22] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.8.1.tar.gz tmp/modelon_impact_client-3.9.0.tar.gz --markdown 20240411/m/modelon-impact-client/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-04-11 12:48:22] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [wtu-mlflow]: Downloading https://files.pythonhosted.org/packages/75/d4/ef599365a8bbbac7bb20ee1291acd177555e268de91f98e4187f6ea25ff9/wtu-mlflow-0.0.7.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 12:48:22] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240411.1741.22.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240411.1741.22-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 12:48:22] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/5c/72/97cd27786ef0f1eaa11432c84abe8569599542ed2ec2b619798db9b6cc47/perceval-1.0.0rc2.tar.gz
+[2024-04-11 12:48:22] INFO root fetch - processPackages [wtu-mlflow]: executing diffoscope
+[2024-04-11 12:48:22] INFO root fetch - processPackages [wtu-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtu-mlflow-0.0.6.tar.gz tmp/wtu-mlflow-0.0.7.tar.gz --markdown 20240411/w/wtu-mlflow/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-11 12:48:22] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2024-04-11 12:48:22] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-1.0.0rc1.tar.gz tmp/perceval-1.0.0rc2.tar.gz --markdown 20240411/p/perceval/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 12:48:23] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.1741.22.tar.gz]
+[2024-04-11 12:48:23] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-11 12:48:23] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 12:48:23] INFO root fetch - processPackages [wtu-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/wtu-mlflow-0.0.6.tar.gz]
+[2024-04-11 12:48:23] INFO root fetch - processPackages [wtu-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/wtu-mlflow-0.0.7.tar.gz]
+[2024-04-11 12:48:23] INFO root fetch - main [MainThread]: End processing [wtu-mlflow]: success
+[2024-04-11 12:48:23] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.8.1.tar.gz]
+[2024-04-11 12:48:23] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
+[2024-04-11 12:48:23] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2024-04-11 12:48:24] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-1.0.0rc1.tar.gz]
+[2024-04-11 12:48:24] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-1.0.0rc2.tar.gz]
+[2024-04-11 12:48:24] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2024-04-11 12:48:24] INFO root fetch - main [MainThread]: Store serial: [22718407]

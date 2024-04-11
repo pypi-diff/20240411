@@ -15157,3 +15157,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:43:33] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev31.tar.gz]
 [2024-04-11 10:43:33] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-11 10:43:33] INFO root fetch - main [MainThread]: Store serial: [22716535]
+[2024-04-11 10:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716535]
+[2024-04-11 10:45:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 10:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seacrowd
+[2024-04-11 10:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-04-11 10:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bisenv
+[2024-04-11 10:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2024-04-11 10:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gonk
+[2024-04-11 10:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: staticjinjaplus
+[2024-04-11 10:45:42] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-11 10:45:42] INFO root fetch - processPackages [staticjinjaplus]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2024-04-11 10:45:42] INFO root fetch - processPackages [gonk]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-11 10:45:42] WARNING root fetch - processPackages [bisenv]: Skipping, unable to determine old version
+[2024-04-11 10:45:42] INFO root fetch - processPackages [seacrowd]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 10:45:42] INFO root fetch - main [MainThread]: End processing [bisenv] error
+[2024-04-11 10:45:42] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240411] Old Version: [2.17.0.dev20240410]
+[2024-04-11 10:45:42] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-11 10:45:42] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/62/1f/3d6d19fd26b2cb3da01fd3fa8e2c901168a15331b3591797eecc5b74aeb2/staticjinjaplus-1.0.0b3.tar.gz
+[2024-04-11 10:45:42] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/b6/79/09364be8d0ffae4d4bb5bdbc755f4b46078957703c7425bc21ff9e331939/seacrowd-0.0.2.tar.gz
+[2024-04-11 10:45:42] INFO root fetch - processPackages [gonk]: Downloading https://files.pythonhosted.org/packages/2c/02/4bd6d6b8caac79a6c971c0d6c8dd273382fcf575da54fc8dd9eb6a034a10/gonk-0.6.0.tar.gz
+[2024-04-11 10:45:42] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e2/bd/8da8f3c775692e5ffd962952489f9e3a0386639249c7ad5b19f5c920060e/tf_nightly_cpu-2.17.0.dev20240410-cp39-cp39-win_amd64.whl
+[2024-04-11 10:45:43] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/4e/0f/fd694bac2d50c8475a6faf207836650d4be187dfcc20bc9e4b6e3218909e/staticjinjaplus-1.0.0b4.tar.gz
+[2024-04-11 10:45:43] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-11 10:45:43] INFO root fetch - processPackages [staticjinjaplus]: executing diffoscope
+[2024-04-11 10:45:43] INFO root fetch - processPackages [staticjinjaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticjinjaplus-1.0.0b3.tar.gz tmp/staticjinjaplus-1.0.0b4.tar.gz --markdown 20240411/s/staticjinjaplus/1.0.0b3-1.0.0b4/README.md --exclude *.pyd
+[2024-04-11 10:45:43] INFO root fetch - processPackages [gonk]: Downloading https://files.pythonhosted.org/packages/cb/05/a247cb0da6d3ccb49b2a80c381a905b38ae392124b8a735b29067082583d/gonk-0.6.1.tar.gz
+[2024-04-11 10:45:43] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c1/72/0a21f6194ea75d7c7575c94055cdf0ec3d1adf21df79c5a17faa7e63fa18/tf_nightly_cpu-2.17.0.dev20240411-cp39-cp39-win_amd64.whl
+[2024-04-11 10:45:43] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/85/fc/53cc34b11ab48613279f42c880ab94d310db63a867ad66e84ff1883832eb/seacrowd-0.0.3.tar.gz
+[2024-04-11 10:45:43] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-11 10:45:43] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240411/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-11 10:45:43] INFO root fetch - processPackages [gonk]: executing diffoscope
+[2024-04-11 10:45:43] INFO root fetch - processPackages [gonk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gonk-0.6.0.tar.gz tmp/gonk-0.6.1.tar.gz --markdown 20240411/g/gonk/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-11 10:45:43] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-11 10:45:43] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240411-cp39-cp39-win_amd64.whl.zip --markdown 20240411/t/tf-nightly-cpu/2.17.0.dev20240410-2.17.0.dev20240411/README.md --exclude *.pyd
+[2024-04-11 10:45:43] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-11 10:45:43] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.2.tar.gz tmp/seacrowd-0.0.3.tar.gz --markdown 20240411/s/seacrowd/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 10:45:44] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-1.0.0b3.tar.gz]
+[2024-04-11 10:45:44] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-1.0.0b4.tar.gz]
+[2024-04-11 10:45:44] INFO root fetch - main [MainThread]: End processing [staticjinjaplus]: success
+[2024-04-11 10:45:44] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 10:45:44] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240411-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 10:45:44] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-11 10:45:44] INFO root fetch - processPackages [gonk]: Remove: archive file [/home/abi/fetcher/tmp/gonk-0.6.0.tar.gz]
+[2024-04-11 10:45:44] INFO root fetch - processPackages [gonk]: Remove: archive file [/home/abi/fetcher/tmp/gonk-0.6.1.tar.gz]
+[2024-04-11 10:45:44] INFO root fetch - main [MainThread]: End processing [gonk]: success
+[2024-04-11 10:45:46] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.2.tar.gz]
+[2024-04-11 10:45:46] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.3.tar.gz]
+[2024-04-11 10:45:46] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-11 10:45:48] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-11 10:45:48] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-11 10:45:48] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-11 10:45:48] INFO root fetch - main [MainThread]: Store serial: [22716554]

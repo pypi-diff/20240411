@@ -13007,3 +13007,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:50:00] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
 [2024-04-11 08:50:00] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
 [2024-04-11 08:50:00] INFO root fetch - main [MainThread]: Store serial: [22715382]
+[2024-04-11 08:52:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715382]
+[2024-04-11 08:52:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 08:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t-bug-catcher
+[2024-04-11 08:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cwsgiutils
+[2024-04-11 08:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runtimepy
+[2024-04-11 08:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ast-grep-py
+[2024-04-11 08:52:10] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-11 08:52:10] INFO root fetch - processPackages [runtimepy]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-04-11 08:52:10] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-11 08:52:10] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/17/b2/258e474f05814d9ec3fc8210f146327a9ba9c519c44cfe3cdd96fc4779c6/runtimepy-4.0.3.tar.gz
+[2024-04-11 08:52:10] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-11 08:52:10] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/6c/ac/16fbef452383f5388bcaa8eea967b5ae73dc06c9d2c001da55d4f4ecc6ae/t_bug_catcher-0.4.1.tar.gz
+[2024-04-11 08:52:10] INFO root fetch - processPackages [ast-grep-py]: New version: [0.20.5] Old Version: [0.20.4]
+[2024-04-11 08:52:10] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-11 08:52:10] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/f8/75/b4c0aa05582369707cb26fa72e3e01ffb6564a838c26cb077be2b0a994f7/runtimepy-4.0.4.tar.gz
+[2024-04-11 08:52:10] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/0d/dc/b83a900002767e5feb49ef107b3317e0bd9b08c246d446615dcbe14aaa50/t_bug_catcher-0.4.2.tar.gz
+[2024-04-11 08:52:10] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-04-11 08:52:10] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.4.1.tar.gz tmp/t_bug_catcher-0.4.2.tar.gz --markdown 20240411/t/t-bug-catcher/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-11 08:52:10] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-04-11 08:52:10] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.0.3.tar.gz tmp/runtimepy-4.0.4.tar.gz --markdown 20240411/r/runtimepy/4.0.3-4.0.4/README.md --exclude *.pyd
+[2024-04-11 08:52:10] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-11 08:52:10] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240411/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-04-11 08:52:10] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/cd/a8/4bdf34a4d62c51b8c7420759a91f1bedde38f38125157e7a532535d1af48/ast_grep_py-0.20.4.tar.gz
+[2024-04-11 08:52:10] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/15/67/af65f883af802ad5ba9933adb10bc1cc431fbe3276c641481834fd004fa9/ast_grep_py-0.20.5-cp311-none-win_amd64.whl
+[2024-04-11 08:52:11] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.1.tar.gz]
+[2024-04-11 08:52:11] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.2.tar.gz]
+[2024-04-11 08:52:11] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-04-11 08:52:11] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-11 08:52:11] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-11 08:52:11] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-11 08:52:11] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.0.3.tar.gz]
+[2024-04-11 08:52:11] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.0.4.tar.gz]
+[2024-04-11 08:52:11] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-04-11 08:52:12] INFO root fetch - processPackages [ast-grep-py]: executing diffoscope
+[2024-04-11 08:52:12] INFO root fetch - processPackages [ast-grep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_py-0.20.4.tar.gz tmp/ast_grep_py-0.20.5-cp311-none-win_amd64.whl.zip --markdown 20240411/a/ast-grep-py/0.20.4-0.20.5/README.md --exclude *.pyd
+[2024-04-11 08:52:13] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.20.4.tar.gz]
+[2024-04-11 08:52:13] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.20.5-cp311-none-win_amd64.whl.zip]
+[2024-04-11 08:52:13] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
+[2024-04-11 08:52:13] INFO root fetch - main [MainThread]: Store serial: [22715400]

@@ -10227,3 +10227,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:40:17] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_elasticsearch-0.1.7.tar.gz]
 [2024-04-11 05:40:17] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-elasticsearch]: success
 [2024-04-11 05:40:17] INFO root fetch - main [MainThread]: Store serial: [22714006]
+[2024-04-11 05:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714006]
+[2024-04-11 05:42:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-vector-stores-elasticsearch
+[2024-04-11 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-fieldservice-agreement-helpdesk-mgmt
+[2024-04-11 05:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPtt
+[2024-04-11 05:42:26] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-11 05:42:26] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: Downloading https://files.pythonhosted.org/packages/6b/14/46a5acebb6734b7a4363b41187dc0ce0bbe6f157121c97f4877a73e0deb8/llama_index_vector_stores_elasticsearch-0.1.6.tar.gz
+[2024-04-11 05:42:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev5]
+[2024-04-11 05:42:26] INFO root fetch - processPackages [PyPtt]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-11 05:42:26] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: Downloading https://files.pythonhosted.org/packages/68/ac/22483ca4273070741b2f1738db72c1bcab688e07f66b13d0f5213abc49de/llama_index_vector_stores_elasticsearch-0.1.7.tar.gz
+[2024-04-11 05:42:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/f8/46/918018d197b0a804d93d95b9e6583586a7dc9542194ef6c12b8802b806cc/odoo12_addon_fieldservice_agreement_helpdesk_mgmt-12.0.1.0.0.99.dev5-py3-none-any.whl
+[2024-04-11 05:42:26] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/64/67/d5fdc18727c898fafdf13c3ac75d2a7eda57b6925a5dacf5d610a0a3ef50/PyPtt-1.2.3.tar.gz
+[2024-04-11 05:42:26] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: executing diffoscope
+[2024-04-11 05:42:26] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_elasticsearch-0.1.6.tar.gz tmp/llama_index_vector_stores_elasticsearch-0.1.7.tar.gz --markdown 20240411/l/llama-index-vector-stores-elasticsearch/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-11 05:42:26] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/4c/60/ec0368ede2f1124a2eaa49a12d4a300739f6c70991a2ca7250c605c0531f/PyPtt-1.2.4.tar.gz
+[2024-04-11 05:42:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/57/af/7e893350a2c9e094c92ffb8af5a9c781d9c584f381c9db318a4ab3903288/odoo12_addon_fieldservice_agreement_helpdesk_mgmt-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2024-04-11 05:42:27] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2024-04-11 05:42:27] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPtt-1.2.3.tar.gz tmp/PyPtt-1.2.4.tar.gz --markdown 20240411/P/PyPtt/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-11 05:42:27] INFO root fetch - processPackages [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: executing diffoscope
+[2024-04-11 05:42:27] INFO root fetch - processPackages [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_agreement_helpdesk_mgmt-12.0.1.0.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_agreement_helpdesk_mgmt-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20240411/o/odoo12-addon-fieldservice-agreement-helpdesk-mgmt/12.0.1.0.0.99.dev5-12.0.1.0.0.99.dev7/README.md --exclude *.pyd
+[2024-04-11 05:42:27] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_elasticsearch-0.1.6.tar.gz]
+[2024-04-11 05:42:27] INFO root fetch - processPackages [llama-index-vector-stores-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_elasticsearch-0.1.7.tar.gz]
+[2024-04-11 05:42:27] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-elasticsearch]: success
+[2024-04-11 05:42:27] INFO root fetch - processPackages [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_agreement_helpdesk_mgmt-12.0.1.0.0.99.dev5-py3-none-any.whl.zip]
+[2024-04-11 05:42:27] INFO root fetch - processPackages [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_agreement_helpdesk_mgmt-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2024-04-11 05:42:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-agreement-helpdesk-mgmt]: success
+[2024-04-11 05:42:27] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.2.3.tar.gz]
+[2024-04-11 05:42:27] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.2.4.tar.gz]
+[2024-04-11 05:42:27] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2024-04-11 05:42:27] INFO root fetch - main [MainThread]: Store serial: [22714014]

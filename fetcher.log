@@ -10880,3 +10880,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:10:58] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.9.tar.gz]
 [2024-04-11 06:10:58] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
 [2024-04-11 06:10:58] INFO root fetch - main [MainThread]: Store serial: [22714249]
+[2024-04-11 06:13:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714249]
+[2024-04-11 06:13:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dumang-ctrl
+[2024-04-11 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaea-operator
+[2024-04-11 06:13:07] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.8] Old Version: [1.2.0.7]
+[2024-04-11 06:13:07] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/6f/37/170c563d18a7579908b404d071628a3ce7e48a99f21bd0d96bf155f7dd55/gaea_operator-1.2.0.7-py3-none-any.whl
+[2024-04-11 06:13:07] INFO root fetch - processPackages [dumang-ctrl]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-11 06:13:08] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/e3/99/b8d502de9760d8243c53acb45a0378adde15b75aec5dc2e0d7fa27025ed3/gaea_operator-1.2.0.8-py3-none-any.whl
+[2024-04-11 06:13:08] INFO root fetch - processPackages [dumang-ctrl]: Downloading https://files.pythonhosted.org/packages/f3/b6/d4488da5b77dd98542af701f3ef1fe416db53f829d88ba66f56a0a8975a0/dumang_ctrl-1.0.3.tar.gz
+[2024-04-11 06:13:08] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-11 06:13:08] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip --markdown 20240411/g/gaea-operator/1.2.0.7-1.2.0.8/README.md --exclude *.pyd
+[2024-04-11 06:13:08] INFO root fetch - processPackages [dumang-ctrl]: Downloading https://files.pythonhosted.org/packages/e6/b8/0767ba6c8fca4c4a578e733100faf144e959a8d26743b10f22b87d82e855/dumang_ctrl-1.0.4.tar.gz
+[2024-04-11 06:13:08] INFO root fetch - processPackages [dumang-ctrl]: executing diffoscope
+[2024-04-11 06:13:08] INFO root fetch - processPackages [dumang-ctrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumang_ctrl-1.0.3.tar.gz tmp/dumang_ctrl-1.0.4.tar.gz --markdown 20240411/d/dumang-ctrl/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-11 06:13:09] INFO root fetch - processPackages [dumang-ctrl]: Remove: archive file [/home/abi/fetcher/tmp/dumang_ctrl-1.0.3.tar.gz]
+[2024-04-11 06:13:09] INFO root fetch - processPackages [dumang-ctrl]: Remove: archive file [/home/abi/fetcher/tmp/dumang_ctrl-1.0.4.tar.gz]
+[2024-04-11 06:13:09] INFO root fetch - main [MainThread]: End processing [dumang-ctrl]: success
+[2024-04-11 06:13:09] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip]
+[2024-04-11 06:13:09] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip]
+[2024-04-11 06:13:09] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-11 06:13:09] INFO root fetch - main [MainThread]: Store serial: [22714254]

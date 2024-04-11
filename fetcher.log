@@ -9467,3 +9467,41 @@ EOFError: EOF read where object expected
 [2024-04-11 05:05:06] INFO root fetch - processPackages [capsule-manager-sdk]: Remove: archive file [/home/abi/fetcher/tmp/capsule_manager_sdk-0.2.0.dev20240411-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-04-11 05:05:06] INFO root fetch - main [MainThread]: End processing [capsule-manager-sdk]: success
 [2024-04-11 05:05:06] INFO root fetch - main [MainThread]: Store serial: [22713604]
+[2024-04-11 05:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713604]
+[2024-04-11 05:07:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepncclplugin
+[2024-04-11 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genomad
+[2024-04-11 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idc-index
+[2024-04-11 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy_technical_analysis
+[2024-04-11 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erlab
+[2024-04-11 05:07:15] WARNING root fetch - processPackages [easy_technical_analysis]: Skipping, unable to determine old version
+[2024-04-11 05:07:15] INFO root fetch - main [MainThread]: End processing [easy_technical_analysis] error
+[2024-04-11 05:07:15] INFO root fetch - processPackages [erlab]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-11 05:07:15] INFO root fetch - processPackages [idc-index]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-11 05:07:15] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/3f/b7/9f85915edd18434c07216f7c1bfaec2954c12c672af924e9e84807ead59d/erlab-2.1.1.tar.gz
+[2024-04-11 05:07:15] INFO root fetch - processPackages [deepncclplugin]: New version: [2.1.0] Old Version: [1.0.0]
+[2024-04-11 05:07:15] INFO root fetch - processPackages [genomad]: New version: [1.8.0] Old Version: [1.7.6]
+[2024-04-11 05:07:15] INFO root fetch - processPackages [idc-index]: Downloading https://files.pythonhosted.org/packages/52/55/beef70622a9262f5881d8c4fd00e1d7e6aa50c6e2f2a82663ff0f2609768/idc_index-0.4.2.tar.gz
+[2024-04-11 05:07:15] INFO root fetch - processPackages [genomad]: Downloading https://files.pythonhosted.org/packages/5d/4b/f4d2e6875f0930a1bd061ed018ed0d857fe96baef91ec363a8adb5479b45/genomad-1.7.6.tar.gz
+[2024-04-11 05:07:15] INFO root fetch - processPackages [deepncclplugin]: Downloading https://files.pythonhosted.org/packages/2e/d5/f48a50429c49270bc4ed9914fea8baad83b228bb51a60ffebc27ab6b9a7a/deepncclplugin-1.0.0.tar.gz
+[2024-04-11 05:07:15] WARNING root fetch - processPackages [genomad]: Skipping package: exceeds size limit 28295348>=10485760
+[2024-04-11 05:07:15] INFO root fetch - main [MainThread]: End processing [genomad] error
+[2024-04-11 05:07:15] INFO root fetch - processPackages [idc-index]: Downloading https://files.pythonhosted.org/packages/8b/e9/1a92d258569c7cabb0a7859a5d63a66002c00b83ff6b5cad4ad17056dd7b/idc_index-0.5.0.tar.gz
+[2024-04-11 05:07:16] INFO root fetch - processPackages [idc-index]: executing diffoscope
+[2024-04-11 05:07:16] INFO root fetch - processPackages [idc-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idc_index-0.4.2.tar.gz tmp/idc_index-0.5.0.tar.gz --markdown 20240411/i/idc-index/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-11 05:07:16] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/5d/2f/b7c7f1785bc597e6b4a0799c8af1cd18f2cc1f172889c95fd3ffbffca1d8/erlab-2.1.2.tar.gz
+[2024-04-11 05:07:16] INFO root fetch - processPackages [deepncclplugin]: Downloading https://files.pythonhosted.org/packages/54/34/2bc05453010e77fc610c12d6421c829e37c44966a9417b2354822ce62760/deepncclplugin-2.1.0.tar.gz
+[2024-04-11 05:07:16] INFO root fetch - processPackages [deepncclplugin]: executing diffoscope
+[2024-04-11 05:07:16] INFO root fetch - processPackages [deepncclplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepncclplugin-1.0.0.tar.gz tmp/deepncclplugin-2.1.0.tar.gz --markdown 20240411/d/deepncclplugin/1.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-11 05:07:16] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-11 05:07:16] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.1.1.tar.gz tmp/erlab-2.1.2.tar.gz --markdown 20240411/e/erlab/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-11 05:07:16] INFO root fetch - processPackages [deepncclplugin]: Remove: archive file [/home/abi/fetcher/tmp/deepncclplugin-1.0.0.tar.gz]
+[2024-04-11 05:07:16] INFO root fetch - processPackages [deepncclplugin]: Remove: archive file [/home/abi/fetcher/tmp/deepncclplugin-2.1.0.tar.gz]
+[2024-04-11 05:07:16] INFO root fetch - main [MainThread]: End processing [deepncclplugin]: success
+[2024-04-11 05:07:16] INFO root fetch - processPackages [idc-index]: Remove: archive file [/home/abi/fetcher/tmp/idc_index-0.4.2.tar.gz]
+[2024-04-11 05:07:16] INFO root fetch - processPackages [idc-index]: Remove: archive file [/home/abi/fetcher/tmp/idc_index-0.5.0.tar.gz]
+[2024-04-11 05:07:16] INFO root fetch - main [MainThread]: End processing [idc-index]: success
+[2024-04-11 05:07:34] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.1.tar.gz]
+[2024-04-11 05:07:34] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.2.tar.gz]
+[2024-04-11 05:07:34] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-11 05:07:34] INFO root fetch - main [MainThread]: Store serial: [22713617]

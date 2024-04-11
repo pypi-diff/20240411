@@ -21747,3 +21747,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:46:53] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
 [2024-04-11 13:46:53] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 13:46:53] INFO root fetch - main [MainThread]: Store serial: [22719022]
+[2024-04-11 13:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719022]
+[2024-04-11 13:49:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ignutils
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smad-legi-extractor-donut-plausible
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tedective-etl
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dig-ass-critic-protos
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ignutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 13:49:02] ERROR root fetch - processPackages [dig-ass-critic-protos]: Unable to get metadata: No such project 'dig-ass-critic-protos'
+[2024-04-11 13:49:02] INFO root fetch - main [MainThread]: End processing [dig-ass-critic-protos] error
+[2024-04-11 13:49:02] WARNING root fetch - processPackages [tedective-etl]: Skipping, unable to determine old version
+[2024-04-11 13:49:02] INFO root fetch - main [MainThread]: End processing [tedective-etl] error
+[2024-04-11 13:49:02] WARNING root fetch - processPackages [smad-legi-extractor-donut-plausible]: Skipping, unable to determine old version
+[2024-04-11 13:49:02] INFO root fetch - main [MainThread]: End processing [smad-legi-extractor-donut-plausible] error
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ignutils]: Downloading https://files.pythonhosted.org/packages/91/5b/62366d8dea9aae6e2032deb594b67db167c87f90060bb8e0fdd751416e09/ignutils-0.0.2.tar.gz
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ignutils]: Downloading https://files.pythonhosted.org/packages/fa/0b/72d08375115d8fcbb910d6d6184e6b50d48f9b56e0f29019d8c83f83618f/ignutils-0.0.3.tar.gz
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ignutils]: executing diffoscope
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ignutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignutils-0.0.2.tar.gz tmp/ignutils-0.0.3.tar.gz --markdown 20240411/i/ignutils/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:49:02] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 13:49:03] INFO root fetch - processPackages [ignutils]: Remove: archive file [/home/abi/fetcher/tmp/ignutils-0.0.2.tar.gz]
+[2024-04-11 13:49:03] INFO root fetch - processPackages [ignutils]: Remove: archive file [/home/abi/fetcher/tmp/ignutils-0.0.3.tar.gz]
+[2024-04-11 13:49:03] INFO root fetch - main [MainThread]: End processing [ignutils]: success
+[2024-04-11 13:49:06] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 13:49:06] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 13:49:06] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:49:06] INFO root fetch - main [MainThread]: Store serial: [22719046]

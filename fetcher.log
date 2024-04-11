@@ -18220,3 +18220,43 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:30:25] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.9.tar.gz]
 [2024-04-11 11:30:25] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2024-04-11 11:30:25] INFO root fetch - main [MainThread]: Store serial: [22717535]
+[2024-04-11 11:32:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717535]
+[2024-04-11 11:32:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: figeno
+[2024-04-11 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-screen-stats
+[2024-04-11 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sayoroll
+[2024-04-11 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speculos
+[2024-04-11 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maturin-watchdog
+[2024-04-11 11:32:34] INFO root fetch - processPackages [maturin-watchdog]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 11:32:34] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:32:35] INFO root fetch - processPackages [maturin-watchdog]: Downloading https://files.pythonhosted.org/packages/06/69/9e50ef7d392535d66e59f4c716a14741ebe16dedfeef46f4e28f60a68342/maturin_watchdog-0.1.8.tar.gz
+[2024-04-11 11:32:35] INFO root fetch - processPackages [speculos]: New version: [0.8.5.dev2] Old Version: [0.8.4.dev6]
+[2024-04-11 11:32:35] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 11:32:35] INFO root fetch - processPackages [figeno]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-11 11:32:35] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-04-11 11:32:35] INFO root fetch - processPackages [figeno]: Downloading https://files.pythonhosted.org/packages/3c/fd/9f90ab1c57246638f9e664cf73f651027081b74947ba340057bf8c72858f/figeno-1.0.5.tar.gz
+[2024-04-11 11:32:35] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/26/94/1b15230a2c69b81acaa2a584e26f5dbcf5c338970d852147855abeb5ec4e/nonebot-plugin-sayoroll-1.0.2.tar.gz
+[2024-04-11 11:32:35] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/44/f8/b40c181b5863e994796f4fa47fcefcaa40cb7be3b5f2b46f8c80297be4ce/speculos-0.8.4.dev6.tar.gz
+[2024-04-11 11:32:35] INFO root fetch - processPackages [maturin-watchdog]: Downloading https://files.pythonhosted.org/packages/c9/89/9d8fc5cca8de1da6023c5c61551c0f2b9908adaa788e915a2cb2a2952b51/maturin_watchdog-0.1.9.tar.gz
+[2024-04-11 11:32:35] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-04-11 11:32:35] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16554641>=10485760
+[2024-04-11 11:32:35] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2024-04-11 11:32:35] WARNING root fetch - processPackages [figeno]: Skipping package: exceeds size limit 14354059>=10485760
+[2024-04-11 11:32:35] INFO root fetch - main [MainThread]: End processing [figeno] error
+[2024-04-11 11:32:35] INFO root fetch - processPackages [maturin-watchdog]: executing diffoscope
+[2024-04-11 11:32:35] INFO root fetch - processPackages [maturin-watchdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maturin_watchdog-0.1.8.tar.gz tmp/maturin_watchdog-0.1.9.tar.gz --markdown 20240411/m/maturin-watchdog/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 11:32:35] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-04-11 11:32:35] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240411/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:32:35] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/4e/89/a38cd2ae5feab04d625d6c31af65ed9abf34bed8e34d7c4d1c3d6af3403c/nonebot-plugin-sayoroll-1.0.3.tar.gz
+[2024-04-11 11:32:35] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2024-04-11 11:32:35] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-1.0.2.tar.gz tmp/nonebot-plugin-sayoroll-1.0.3.tar.gz --markdown 20240411/n/nonebot-plugin-sayoroll/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 11:32:36] INFO root fetch - processPackages [maturin-watchdog]: Remove: archive file [/home/abi/fetcher/tmp/maturin_watchdog-0.1.8.tar.gz]
+[2024-04-11 11:32:36] INFO root fetch - processPackages [maturin-watchdog]: Remove: archive file [/home/abi/fetcher/tmp/maturin_watchdog-0.1.9.tar.gz]
+[2024-04-11 11:32:36] INFO root fetch - main [MainThread]: End processing [maturin-watchdog]: success
+[2024-04-11 11:32:36] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-1.0.2.tar.gz]
+[2024-04-11 11:32:36] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-1.0.3.tar.gz]
+[2024-04-11 11:32:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2024-04-11 11:32:48] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-04-11 11:32:48] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-04-11 11:32:48] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-04-11 11:32:48] INFO root fetch - main [MainThread]: Store serial: [22717550]

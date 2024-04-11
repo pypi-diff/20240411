@@ -8670,3 +8670,20 @@ EOFError: EOF read where object expected
 [2024-04-11 04:03:23] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-11 04:03:23] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-11 04:03:23] INFO root fetch - main [MainThread]: Store serial: [22713230]
+[2024-04-11 04:05:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713230]
+[2024-04-11 04:05:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 04:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QtMDi
+[2024-04-11 04:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2024-04-11 04:05:33] INFO root fetch - processPackages [anyon]: New version: [4.1.5] Old Version: [4.1.4]
+[2024-04-11 04:05:33] INFO root fetch - processPackages [QtMDi]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-11 04:05:33] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/b3/15/b5859ff5be615dffd3d48dcc8bbbabfc624e6af6743b06a554dd67b2532d/anyon-4.1.4-cp312-none-win_amd64.whl
+[2024-04-11 04:05:33] INFO root fetch - processPackages [QtMDi]: Downloading https://files.pythonhosted.org/packages/98/57/71d4d051a7c8618ccee73a34338e30c1be6a674b0053904f67260261180b/QtMDi-1.1.8.tar.gz
+[2024-04-11 04:05:34] WARNING root fetch - processPackages [QtMDi]: Skipping package: exceeds size limit 25247034>=10485760
+[2024-04-11 04:05:34] INFO root fetch - main [MainThread]: End processing [QtMDi] error
+[2024-04-11 04:05:34] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/3a/4d/7b7aa76ce9b32c8eedd801ec61240d02e321c387fca969eab45a7be5146c/anyon-4.1.5-cp312-none-win_amd64.whl
+[2024-04-11 04:05:35] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2024-04-11 04:05:35] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-4.1.4-cp312-none-win_amd64.whl.zip tmp/anyon-4.1.5-cp312-none-win_amd64.whl.zip --markdown 20240411/a/anyon/4.1.4-4.1.5/README.md --exclude *.pyd
+[2024-04-11 04:05:36] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.4-cp312-none-win_amd64.whl.zip]
+[2024-04-11 04:05:36] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.5-cp312-none-win_amd64.whl.zip]
+[2024-04-11 04:05:36] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2024-04-11 04:05:36] INFO root fetch - main [MainThread]: Store serial: [22713239]

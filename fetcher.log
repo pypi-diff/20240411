@@ -18295,3 +18295,63 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:35:01] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.2.2.tar.gz]
 [2024-04-11 11:35:01] INFO root fetch - main [MainThread]: End processing [pyodide-mkdocs-theme]: success
 [2024-04-11 11:35:01] INFO root fetch - main [MainThread]: Store serial: [22717565]
+[2024-04-11 11:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717565]
+[2024-04-11 11:37:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-cluster-login
+[2024-04-11 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ToolsStr
+[2024-04-11 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bas-geoplot
+[2024-04-11 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skip-developers-chamber
+[2024-04-11 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: port-ocean
+[2024-04-11 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-daf-butler
+[2024-04-11 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataiku-cli-requests
+[2024-04-11 11:37:10] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-11 11:37:10] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-04-11 11:37:10] WARNING root fetch - processPackages [ToolsStr]: Skipping, unable to determine old version
+[2024-04-11 11:37:10] INFO root fetch - main [MainThread]: End processing [ToolsStr] error
+[2024-04-11 11:37:10] INFO root fetch - processPackages [openshift-cluster-login]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 11:37:10] INFO root fetch - processPackages [dataiku-cli-requests]: New version: [0.3] Old Version: [0.1.1]
+[2024-04-11 11:37:10] INFO root fetch - processPackages [bas-geoplot]: New version: [0.1.0] Old Version: [0.0.25]
+[2024-04-11 11:37:10] INFO root fetch - processPackages [skip-developers-chamber]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-11 11:37:10] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-11 11:37:10] INFO root fetch - processPackages [openshift-cluster-login]: Downloading https://files.pythonhosted.org/packages/ad/88/707d63417e192a48134da43fc3cc8311e790da163a02d7e90fe8b9cf1a7e/openshift_cluster_login-1.0.2.tar.gz
+[2024-04-11 11:37:10] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-04-11 11:37:10] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/e9/65/b8b1d4ee0280be2243d5e67d12afa63196f66d33c2fa0aa89b890a8770c5/lsst-daf-butler-26.2024.800.tar.gz
+[2024-04-11 11:37:10] INFO root fetch - processPackages [bas-geoplot]: Downloading https://files.pythonhosted.org/packages/74/00/3a0f8d5271b6ee70220b3b4ba350955d1394097131180829e802b42ac7ea/bas_geoplot-0.0.25.tar.gz
+[2024-04-11 11:37:10] INFO root fetch - processPackages [skip-developers-chamber]: Downloading https://files.pythonhosted.org/packages/9c/23/dce2a75644340957f785d538d793b5bf0a92818edd94f649caee3de1af3a/skip-developers-chamber-1.3.0.tar.gz
+[2024-04-11 11:37:10] INFO root fetch - processPackages [dataiku-cli-requests]: Downloading https://files.pythonhosted.org/packages/8c/d5/25ec3b7a191189f1d246b9662db927ccdcff1da2b92544490472db1b73d0/dataiku-cli-requests-0.1.1.tar.gz
+[2024-04-11 11:37:10] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-04-11 11:37:10] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240411/p/port-ocean/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-11 11:37:11] INFO root fetch - processPackages [openshift-cluster-login]: Downloading https://files.pythonhosted.org/packages/11/7d/df33ed917fc79a58bf6961c8a4fa75b76ed48225329ece7a226444a1ec06/openshift_cluster_login-1.0.3.tar.gz
+[2024-04-11 11:37:11] INFO root fetch - processPackages [bas-geoplot]: Downloading https://files.pythonhosted.org/packages/2d/82/3edd7c7f09410d69f5e0845cffcdcab84d760cdb9e51aa60d1d2d7e70994/bas_geoplot-0.1.0.tar.gz
+[2024-04-11 11:37:11] INFO root fetch - processPackages [skip-developers-chamber]: Downloading https://files.pythonhosted.org/packages/7d/11/64c7a3237b3f5d4618a746236bae65262d44e311372c96f6a9f3ceeadf5b/skip-developers-chamber-1.4.0.tar.gz
+[2024-04-11 11:37:11] INFO root fetch - processPackages [openshift-cluster-login]: executing diffoscope
+[2024-04-11 11:37:11] INFO root fetch - processPackages [openshift-cluster-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_login-1.0.2.tar.gz tmp/openshift_cluster_login-1.0.3.tar.gz --markdown 20240411/o/openshift-cluster-login/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 11:37:11] INFO root fetch - processPackages [dataiku-cli-requests]: Downloading https://files.pythonhosted.org/packages/7e/60/34301d1b4a45f5bb8fa7c1abce62c4e7aa026cc525606030c5a8f67f46cb/dataiku-cli-requests-0.3.tar.gz
+[2024-04-11 11:37:11] INFO root fetch - processPackages [bas-geoplot]: executing diffoscope
+[2024-04-11 11:37:11] INFO root fetch - processPackages [bas-geoplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bas_geoplot-0.0.25.tar.gz tmp/bas_geoplot-0.1.0.tar.gz --markdown 20240411/b/bas-geoplot/0.0.25-0.1.0/README.md --exclude *.pyd
+[2024-04-11 11:37:11] INFO root fetch - processPackages [skip-developers-chamber]: executing diffoscope
+[2024-04-11 11:37:11] INFO root fetch - processPackages [skip-developers-chamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-developers-chamber-1.3.0.tar.gz tmp/skip-developers-chamber-1.4.0.tar.gz --markdown 20240411/s/skip-developers-chamber/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-11 11:37:11] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/35/da/8bce0d98726fbd70ab7e6e2fc0fb1baf812e62f538b08df5ad5f8eda4411/lsst-daf-butler-26.2024.900.tar.gz
+[2024-04-11 11:37:11] INFO root fetch - processPackages [dataiku-cli-requests]: executing diffoscope
+[2024-04-11 11:37:11] INFO root fetch - processPackages [dataiku-cli-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-cli-requests-0.1.1.tar.gz tmp/dataiku-cli-requests-0.3.tar.gz --markdown 20240411/d/dataiku-cli-requests/0.1.1-0.3/README.md --exclude *.pyd
+[2024-04-11 11:37:11] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-04-11 11:37:11] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.2024.800.tar.gz tmp/lsst-daf-butler-26.2024.900.tar.gz --markdown 20240411/l/lsst-daf-butler/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-11 11:37:12] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-04-11 11:37:12] INFO root fetch - processPackages [bas-geoplot]: Remove: archive file [/home/abi/fetcher/tmp/bas_geoplot-0.0.25.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - processPackages [bas-geoplot]: Remove: archive file [/home/abi/fetcher/tmp/bas_geoplot-0.1.0.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - main [MainThread]: End processing [bas-geoplot]: success
+[2024-04-11 11:37:12] INFO root fetch - processPackages [openshift-cluster-login]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_login-1.0.2.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - processPackages [openshift-cluster-login]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_login-1.0.3.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - main [MainThread]: End processing [openshift-cluster-login]: success
+[2024-04-11 11:37:12] INFO root fetch - processPackages [dataiku-cli-requests]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-cli-requests-0.1.1.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - processPackages [dataiku-cli-requests]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-cli-requests-0.3.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - main [MainThread]: End processing [dataiku-cli-requests]: success
+[2024-04-11 11:37:12] INFO root fetch - processPackages [skip-developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/skip-developers-chamber-1.3.0.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - processPackages [skip-developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/skip-developers-chamber-1.4.0.tar.gz]
+[2024-04-11 11:37:12] INFO root fetch - main [MainThread]: End processing [skip-developers-chamber]: success
+[2024-04-11 11:37:13] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.800.tar.gz]
+[2024-04-11 11:37:13] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.900.tar.gz]
+[2024-04-11 11:37:13] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-04-11 11:37:13] INFO root fetch - main [MainThread]: Store serial: [22717588]

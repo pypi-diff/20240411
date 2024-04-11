@@ -10656,3 +10656,56 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:55:35] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
 [2024-04-11 05:55:35] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
 [2024-04-11 05:55:35] INFO root fetch - main [MainThread]: Store serial: [22714118]
+[2024-04-11 05:57:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714118]
+[2024-04-11 05:57:43] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 05:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714118]
+[2024-04-11 05:59:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: komodo-sdk
+[2024-04-11 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: os2024
+[2024-04-11 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fcmenu
+[2024-04-11 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cj-package
+[2024-04-11 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-harmonized-system-stock
+[2024-04-11 05:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NuriKit
+[2024-04-11 05:59:49] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 05:59:49] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-11 05:59:49] INFO root fetch - processPackages [os2024]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-11 05:59:49] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-11 05:59:49] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-stock]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-11 05:59:49] WARNING root fetch - processPackages [fcmenu]: Skipping, unable to determine old version
+[2024-04-11 05:59:49] INFO root fetch - main [MainThread]: End processing [fcmenu] error
+[2024-04-11 05:59:49] INFO root fetch - processPackages [NuriKit]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-04-11 05:59:49] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-11 05:59:49] INFO root fetch - processPackages [os2024]: Downloading https://files.pythonhosted.org/packages/fc/da/5c7afd95882b38f123fa01f0983701d4f194baa2161fa67a0e86ad9b37ba/os2024-0.5.0.tar.gz
+[2024-04-11 05:59:49] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-stock]: Downloading https://files.pythonhosted.org/packages/97/07/bdf95f0b21b67bd7d655286bd400310bfa7cc7c2d64de15e78fcd6202d3f/odoo_addon_product_harmonized_system_stock-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-11 05:59:49] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/ed/04/cdca5aeb9ac9536e839c5138ff9f58fcb15927acc3c52467dfb9baa31805/komodo_sdk-0.0.90.tar.gz
+[2024-04-11 05:59:49] INFO root fetch - processPackages [NuriKit]: Downloading https://files.pythonhosted.org/packages/55/7c/27e0dff4e1bb1cdd48b964dd03b39b8f5b2599f464436fb348f6f4fe194e/nurikit-0.1.0a1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 05:59:49] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-11 05:59:49] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240411/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 05:59:50] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-stock]: Downloading https://files.pythonhosted.org/packages/df/f7/036122a22de0cf2bc18785ee95a75c8843a987fc125fe83cb255194d726c/odoo_addon_product_harmonized_system_stock-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-11 05:59:50] INFO root fetch - processPackages [os2024]: Downloading https://files.pythonhosted.org/packages/0e/6b/578ce8a744d06c8acd9e74fada5b26cf22dbd39fbba867739ea36ac35807/os2024-0.6.0.tar.gz
+[2024-04-11 05:59:50] INFO root fetch - processPackages [os2024]: executing diffoscope
+[2024-04-11 05:59:50] INFO root fetch - processPackages [os2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2024-0.5.0.tar.gz tmp/os2024-0.6.0.tar.gz --markdown 20240411/o/os2024/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-11 05:59:50] INFO root fetch - processPackages [NuriKit]: Downloading https://files.pythonhosted.org/packages/63/32/ddc03ab2aadb0e09f136f979afe935eb639964de8a21e6ef5321996da69f/nurikit-0.1.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 05:59:50] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-stock]: executing diffoscope
+[2024-04-11 05:59:50] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_harmonized_system_stock-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_harmonized_system_stock-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-product-harmonized-system-stock/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-11 05:59:50] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/a2/30/abcf0fccef909600c703fb6298dc2d2f23d1f1353cd9802424dccdb51af7/komodo_sdk-0.0.91.tar.gz
+[2024-04-11 05:59:50] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-11 05:59:50] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-11 05:59:50] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-11 05:59:50] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-11 05:59:50] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.90.tar.gz tmp/komodo_sdk-0.0.91.tar.gz --markdown 20240411/k/komodo-sdk/0.0.90-0.0.91/README.md --exclude *.pyd
+[2024-04-11 05:59:50] INFO root fetch - processPackages [NuriKit]: executing diffoscope
+[2024-04-11 05:59:50] INFO root fetch - processPackages [NuriKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nurikit-0.1.0a1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nurikit-0.1.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240411/N/NuriKit/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-04-11 05:59:50] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_harmonized_system_stock-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-11 05:59:50] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_harmonized_system_stock-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-11 05:59:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-harmonized-system-stock]: success
+[2024-04-11 05:59:50] INFO root fetch - processPackages [os2024]: Remove: archive file [/home/abi/fetcher/tmp/os2024-0.5.0.tar.gz]
+[2024-04-11 05:59:50] INFO root fetch - processPackages [os2024]: Remove: archive file [/home/abi/fetcher/tmp/os2024-0.6.0.tar.gz]
+[2024-04-11 05:59:50] INFO root fetch - main [MainThread]: End processing [os2024]: success
+[2024-04-11 05:59:55] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.90.tar.gz]
+[2024-04-11 05:59:55] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.91.tar.gz]
+[2024-04-11 05:59:55] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-11 06:00:03] INFO root fetch - processPackages [NuriKit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-11 06:00:03] INFO root fetch - processPackages [NuriKit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-11 06:00:03] INFO root fetch - main [MainThread]: End processing [NuriKit]: success
+[2024-04-11 06:00:03] INFO root fetch - main [MainThread]: Store serial: [22714141]

@@ -12239,3 +12239,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:00:09] INFO root fetch - processPackages [pm4py]: Remove: archive file [/home/abi/fetcher/tmp/pm4py-2.7.9.4.tar.gz]
 [2024-04-11 08:00:09] INFO root fetch - main [MainThread]: End processing [pm4py]: success
 [2024-04-11 08:00:09] INFO root fetch - main [MainThread]: Store serial: [22714831]
+[2024-04-11 08:02:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714831]
+[2024-04-11 08:02:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 08:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli-films
+[2024-04-11 08:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LabGym
+[2024-04-11 08:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suql
+[2024-04-11 08:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaea-operator
+[2024-04-11 08:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fgen-example
+[2024-04-11 08:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typed-argument-parser
+[2024-04-11 08:02:20] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.8] Old Version: [1.2.0.7]
+[2024-04-11 08:02:20] INFO root fetch - processPackages [suql]: New version: [1.1.1a0] Old Version: [1.1.0a1]
+[2024-04-11 08:02:20] WARNING root fetch - processPackages [fgen-example]: Skipping, unable to determine old version
+[2024-04-11 08:02:20] INFO root fetch - main [MainThread]: End processing [fgen-example] error
+[2024-04-11 08:02:20] INFO root fetch - processPackages [mov-cli-films]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-04-11 08:02:20] INFO root fetch - processPackages [LabGym]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-04-11 08:02:20] INFO root fetch - processPackages [typed-argument-parser]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-11 08:02:20] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/48/14/a628973be611b9a16e3687e9e2c42a3ce539c2611c650de4d00638071376/mov-cli-films-1.3.7.tar.gz
+[2024-04-11 08:02:20] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/ab/8f/760c1192c49fa334659b4da79a7d26ead7a2ab56215115df20c3956a76b8/suql-1.1.0a1.tar.gz
+[2024-04-11 08:02:20] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/6f/37/170c563d18a7579908b404d071628a3ce7e48a99f21bd0d96bf155f7dd55/gaea_operator-1.2.0.7-py3-none-any.whl
+[2024-04-11 08:02:20] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/a7/21/35befc14ba77c4bbad1a73525b84531b49697a9def3b413b78421de499a6/labgym-2.4.2.tar.gz
+[2024-04-11 08:02:20] INFO root fetch - processPackages [typed-argument-parser]: Downloading https://files.pythonhosted.org/packages/ce/2d/484ac09d0a9c16639bd404817f402dc74dca8dca12763514194ce21a99e4/typed-argument-parser-1.8.1.tar.gz
+[2024-04-11 08:02:20] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/5a/f0/abf43ae0381578f462e9daf55d816fc7ca8661ff9500dfcef7c3bfcabe73/suql-1.1.1a0.tar.gz
+[2024-04-11 08:02:20] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/e3/99/b8d502de9760d8243c53acb45a0378adde15b75aec5dc2e0d7fa27025ed3/gaea_operator-1.2.0.8-py3-none-any.whl
+[2024-04-11 08:02:20] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/7a/6a/124c6792182cda8395c60668c6ae12b934fbbcbd1538877618aa1550fe80/mov-cli-films-1.3.8.tar.gz
+[2024-04-11 08:02:20] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-04-11 08:02:20] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.0a1.tar.gz tmp/suql-1.1.1a0.tar.gz --markdown 20240411/s/suql/1.1.0a1-1.1.1a0/README.md --exclude *.pyd
+[2024-04-11 08:02:20] INFO root fetch - processPackages [mov-cli-films]: executing diffoscope
+[2024-04-11 08:02:20] INFO root fetch - processPackages [mov-cli-films]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-films-1.3.7.tar.gz tmp/mov-cli-films-1.3.8.tar.gz --markdown 20240411/m/mov-cli-films/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-04-11 08:02:20] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-11 08:02:20] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip --markdown 20240411/g/gaea-operator/1.2.0.7-1.2.0.8/README.md --exclude *.pyd
+[2024-04-11 08:02:20] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/49/79/8cfcf45de2b19a7cb62fa96f7a699d5ed51588b3109a4941465ef1e33e48/labgym-2.4.3.tar.gz
+[2024-04-11 08:02:21] INFO root fetch - processPackages [typed-argument-parser]: Downloading https://files.pythonhosted.org/packages/97/25/9a17c3b9e45fd413cd4497b0a5e17e173420f895c96b8805cb28ea6a40da/typed-argument-parser-1.9.0.tar.gz
+[2024-04-11 08:02:21] INFO root fetch - processPackages [LabGym]: executing diffoscope
+[2024-04-11 08:02:21] INFO root fetch - processPackages [LabGym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labgym-2.4.2.tar.gz tmp/labgym-2.4.3.tar.gz --markdown 20240411/L/LabGym/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-04-11 08:02:21] INFO root fetch - processPackages [typed-argument-parser]: executing diffoscope
+[2024-04-11 08:02:21] INFO root fetch - processPackages [typed-argument-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-argument-parser-1.8.1.tar.gz tmp/typed-argument-parser-1.9.0.tar.gz --markdown 20240411/t/typed-argument-parser/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-11 08:02:21] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.7.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.8.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - main [MainThread]: End processing [mov-cli-films]: success
+[2024-04-11 08:02:21] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.0a1.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.1a0.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-04-11 08:02:21] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip]
+[2024-04-11 08:02:21] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip]
+[2024-04-11 08:02:21] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-11 08:02:21] INFO root fetch - processPackages [LabGym]: Remove: archive file [/home/abi/fetcher/tmp/labgym-2.4.2.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - processPackages [LabGym]: Remove: archive file [/home/abi/fetcher/tmp/labgym-2.4.3.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - main [MainThread]: End processing [LabGym]: success
+[2024-04-11 08:02:21] INFO root fetch - processPackages [typed-argument-parser]: Remove: archive file [/home/abi/fetcher/tmp/typed-argument-parser-1.8.1.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - processPackages [typed-argument-parser]: Remove: archive file [/home/abi/fetcher/tmp/typed-argument-parser-1.9.0.tar.gz]
+[2024-04-11 08:02:21] INFO root fetch - main [MainThread]: End processing [typed-argument-parser]: success
+[2024-04-11 08:02:21] INFO root fetch - main [MainThread]: Store serial: [22714859]

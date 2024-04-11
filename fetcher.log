@@ -8363,3 +8363,38 @@ EOFError: EOF read where object expected
 [2024-04-11 03:41:31] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.52.0-py3-none-any.whl.zip]
 [2024-04-11 03:41:31] INFO root fetch - main [MainThread]: End processing [austrakka]: success
 [2024-04-11 03:41:31] INFO root fetch - main [MainThread]: Store serial: [22713109]
+[2024-04-11 03:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713109]
+[2024-04-11 03:43:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2024-04-11 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyDecision
+[2024-04-11 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-diveMove
+[2024-04-11 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jemma
+[2024-04-11 03:43:39] INFO root fetch - processPackages [pyDecision]: New version: [4.4.0] Old Version: [4.3.9]
+[2024-04-11 03:43:39] INFO root fetch - processPackages [jemma]: New version: [0.1.420] Old Version: [0.1.42]
+[2024-04-11 03:43:39] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/bf/e6/60cdbf00e818e880060e57f74698d4da6e049c7379180516181d7e43b679/pyDecision-4.3.9.tar.gz
+[2024-04-11 03:43:39] INFO root fetch - processPackages [scikit-diveMove]: New version: [0.3.3] Old Version: [0.3.2.post2]
+[2024-04-11 03:43:39] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-11 03:43:39] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/d8/06/7a8bceb21ef027f35b2bf692f1e4d181d3ac9c68c9be5fd5708ddf19e740/jemma-0.1.42.tar.gz
+[2024-04-11 03:43:40] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/71/4d/ba27c35386abfd6e3d827926105080d62bc90c1ed5ff435b3b46da275db3/pyDecision-4.4.0.tar.gz
+[2024-04-11 03:43:40] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-04-11 03:43:40] INFO root fetch - processPackages [scikit-diveMove]: Downloading https://files.pythonhosted.org/packages/13/fd/b53df82e9469b7b420e4f79b9bdde4a74e3af60bdb0e5ac7845750e2448e/scikit-diveMove-0.3.2.post2.tar.gz
+[2024-04-11 03:43:40] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2024-04-11 03:43:40] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-4.3.9.tar.gz tmp/pyDecision-4.4.0.tar.gz --markdown 20240411/p/pyDecision/4.3.9-4.4.0/README.md --exclude *.pyd
+[2024-04-11 03:43:40] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/56/7a/ebed3dec7e9476f79c3da2c0e34aad99730ada2893da2f8e87cf9d76f5b8/jemma-0.1.420.tar.gz
+[2024-04-11 03:43:40] WARNING root fetch - processPackages [scikit-diveMove]: Skipping package: exceeds size limit 34603427>=10485760
+[2024-04-11 03:43:40] INFO root fetch - main [MainThread]: End processing [scikit-diveMove] error
+[2024-04-11 03:43:40] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-11 03:43:40] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.42.tar.gz tmp/jemma-0.1.420.tar.gz --markdown 20240411/j/jemma/0.1.42-0.1.420/README.md --exclude *.pyd
+[2024-04-11 03:43:40] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-04-11 03:43:40] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-04-11 03:43:40] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240411/a/airbyte-cdk/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-11 03:43:41] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.42.tar.gz]
+[2024-04-11 03:43:41] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.420.tar.gz]
+[2024-04-11 03:43:41] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-11 03:43:41] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.3.9.tar.gz]
+[2024-04-11 03:43:41] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.4.0.tar.gz]
+[2024-04-11 03:43:41] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2024-04-11 03:43:41] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-04-11 03:43:41] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-04-11 03:43:41] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-04-11 03:43:41] INFO root fetch - main [MainThread]: Store serial: [22713121]

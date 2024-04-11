@@ -9628,3 +9628,69 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:11:56] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.0.tar.gz]
 [2024-04-11 05:11:56] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
 [2024-04-11 05:11:56] INFO root fetch - main [MainThread]: Store serial: [22713655]
+[2024-04-11 05:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713655]
+[2024-04-11 05:14:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-contract
+[2024-04-11 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tqsdk
+[2024-04-11 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcsfe-iosapi
+[2024-04-11 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toml-to-requirements
+[2024-04-11 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gixpy
+[2024-04-11 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstra
+[2024-04-11 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pixeloe
+[2024-04-11 05:14:05] INFO root fetch - processPackages [toml-to-requirements]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 05:14:05] INFO root fetch - processPackages [pixeloe]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-11 05:14:05] INFO root fetch - processPackages [bcsfe-iosapi]: New version: [2.7.68] Old Version: [2.7.67]
+[2024-04-11 05:14:05] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.8.0]
+[2024-04-11 05:14:05] INFO root fetch - processPackages [abstra]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-11 05:14:05] INFO root fetch - processPackages [gixpy]: New version: [1.1] Old Version: [1.0]
+[2024-04-11 05:14:05] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/f7/6b/dde800e97477388f6e109300480600730dee433c44fd070562b27ee644c9/toml_to_requirements-0.2.0.tar.gz
+[2024-04-11 05:14:05] INFO root fetch - processPackages [pixeloe]: Downloading https://files.pythonhosted.org/packages/9c/93/42dab94a4e80499494516b4518678575dc6ed0a636117a92c33e166aa084/pixeloe-0.0.7.tar.gz
+[2024-04-11 05:14:05] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/dc/13/ed6c1f0c6aeec0a720c587e24fd7ce71e16dfced791fc806c2f5e74dfc85/bcsfe-iosapi-2.7.67.tar.gz
+[2024-04-11 05:14:05] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/94/4b/7c4e2731365d7c5a6305413596fc49a8d9a7ac8dc7791085a79c04204a43/abstra-2.8.0.tar.gz
+[2024-04-11 05:14:05] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/47/6b/654956d3f0426af15a536ac9ec327c3fc170531a3ebf723113c1f3a98d6f/odoo_addon_contract-16.0.2.8.0-py3-none-any.whl
+[2024-04-11 05:14:05] INFO root fetch - processPackages [gixpy]: Downloading https://files.pythonhosted.org/packages/71/6d/ce875e4189af46c6d585ef149e46447913b1a95393a37ba47518678750cc/gixpy-1.0.tar.gz
+[2024-04-11 05:14:05] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/4f/e8/e348abf742a26e4a5e0a7f1981d27e1beef7dc90b3b804117fa008625223/toml_to_requirements-0.2.1.tar.gz
+[2024-04-11 05:14:05] INFO root fetch - processPackages [pixeloe]: Downloading https://files.pythonhosted.org/packages/16/ae/a6f22de396058cef98561a5121733c7308b4af2056a175234001db087743/pixeloe-0.0.8.tar.gz
+[2024-04-11 05:14:05] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/4f/b5/586da1db3cb4d3cce20a7cf3c02c18aa64daa39a4e51a348e56aff6d6089/bcsfe-iosapi-2.7.68.tar.gz
+[2024-04-11 05:14:06] INFO root fetch - processPackages [toml-to-requirements]: executing diffoscope
+[2024-04-11 05:14:06] INFO root fetch - processPackages [toml-to-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_to_requirements-0.2.0.tar.gz tmp/toml_to_requirements-0.2.1.tar.gz --markdown 20240411/t/toml-to-requirements/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 05:14:06] INFO root fetch - processPackages [pixeloe]: executing diffoscope
+[2024-04-11 05:14:06] INFO root fetch - processPackages [pixeloe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixeloe-0.0.7.tar.gz tmp/pixeloe-0.0.8.tar.gz --markdown 20240411/p/pixeloe/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-11 05:14:06] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/64/58/f1e2cf0232202175f8076f101a247cac8a81399024a3147930dc7b81a523/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-11 05:14:06] INFO root fetch - processPackages [bcsfe-iosapi]: executing diffoscope
+[2024-04-11 05:14:06] INFO root fetch - processPackages [bcsfe-iosapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-iosapi-2.7.67.tar.gz tmp/bcsfe-iosapi-2.7.68.tar.gz --markdown 20240411/b/bcsfe-iosapi/2.7.67-2.7.68/README.md --exclude *.pyd
+[2024-04-11 05:14:06] INFO root fetch - processPackages [gixpy]: Downloading https://files.pythonhosted.org/packages/b4/48/3207e43d62ab7585140ae0e496ed2595ccab4a534947f9dd789eaa6f19d3/gixpy-1.1.tar.gz
+[2024-04-11 05:14:06] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-04-11 05:14:06] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-16.0.2.8.0-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-contract/16.0.2.8.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-11 05:14:06] INFO root fetch - processPackages [gixpy]: executing diffoscope
+[2024-04-11 05:14:06] INFO root fetch - processPackages [gixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gixpy-1.0.tar.gz tmp/gixpy-1.1.tar.gz --markdown 20240411/g/gixpy/1.0-1.1/README.md --exclude *.pyd
+[2024-04-11 05:14:06] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/1e/35/eb7405e3736295269e9520bd7c81f554658b0e8eb3e3265a067211dc18e3/abstra-2.9.0.tar.gz
+[2024-04-11 05:14:06] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.2.0.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.2.1.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - main [MainThread]: End processing [toml-to-requirements]: success
+[2024-04-11 05:14:06] INFO root fetch - processPackages [pixeloe]: Remove: archive file [/home/abi/fetcher/tmp/pixeloe-0.0.7.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - processPackages [pixeloe]: Remove: archive file [/home/abi/fetcher/tmp/pixeloe-0.0.8.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - main [MainThread]: End processing [pixeloe]: success
+[2024-04-11 05:14:06] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2024-04-11 05:14:06] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-2.8.0.tar.gz tmp/abstra-2.9.0.tar.gz --markdown 20240411/a/abstra/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-11 05:14:06] INFO root fetch - processPackages [gixpy]: Remove: archive file [/home/abi/fetcher/tmp/gixpy-1.0.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - processPackages [gixpy]: Remove: archive file [/home/abi/fetcher/tmp/gixpy-1.1.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - main [MainThread]: End processing [gixpy]: success
+[2024-04-11 05:14:06] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.67.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.68.tar.gz]
+[2024-04-11 05:14:06] INFO root fetch - main [MainThread]: End processing [bcsfe-iosapi]: success
+[2024-04-11 05:14:07] INFO root fetch - processPackages [tqsdk]: New version: [3.5.6] Old Version: [3.5.5]
+[2024-04-11 05:14:07] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/bd/7e/9e583fa840a73fbb206251fcc76444975f7f61667709fca398076194431c/tqsdk-3.5.5.tar.gz
+[2024-04-11 05:14:07] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-11 05:14:07] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-11 05:14:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-04-11 05:14:07] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/91/a5/7138055a2579b75065089eb2f8834c3238d2de1ef15ef9fc57d55d04781f/tqsdk-3.5.6.tar.gz
+[2024-04-11 05:14:07] INFO root fetch - processPackages [tqsdk]: executing diffoscope
+[2024-04-11 05:14:07] INFO root fetch - processPackages [tqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqsdk-3.5.5.tar.gz tmp/tqsdk-3.5.6.tar.gz --markdown 20240411/t/tqsdk/3.5.5-3.5.6/README.md --exclude *.pyd
+[2024-04-11 05:14:09] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.5.tar.gz]
+[2024-04-11 05:14:09] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.6.tar.gz]
+[2024-04-11 05:14:09] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
+[2024-04-11 05:15:58] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.8.0.tar.gz]
+[2024-04-11 05:15:58] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.9.0.tar.gz]
+[2024-04-11 05:15:58] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2024-04-11 05:15:58] INFO root fetch - main [MainThread]: Store serial: [22713674]

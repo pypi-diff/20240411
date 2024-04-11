@@ -12847,3 +12847,60 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:40:53] INFO root fetch - processPackages [rs1090]: Remove: archive file [/home/abi/fetcher/tmp/rs1090-0.2.0.tar.gz]
 [2024-04-11 08:40:53] INFO root fetch - main [MainThread]: End processing [rs1090]: success
 [2024-04-11 08:40:53] INFO root fetch - main [MainThread]: Store serial: [22715299]
+[2024-04-11 08:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715299]
+[2024-04-11 08:43:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: davify
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycotore
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ehdtd-daemon
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fd2py
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superannotate
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pykrotik
+[2024-04-11 08:43:02] INFO root fetch - processPackages [pykrotik]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 08:43:02] INFO root fetch - processPackages [pycotore]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-11 08:43:02] INFO root fetch - processPackages [davify]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ehdtd-daemon]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 08:43:02] INFO root fetch - processPackages [pykrotik]: Downloading https://files.pythonhosted.org/packages/3f/2a/d222887d3b357cb1934b01702111f44c64cf6752f1180a1f26c1fb4e1e4e/pykrotik-0.0.2.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2024-04-11 08:43:02] INFO root fetch - processPackages [fd2py]: New version: [1.1] Old Version: [1.0]
+[2024-04-11 08:43:02] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/67/79/0ff07aa245f3876272698693c889c746ab3fddf32e7c2393b46e7d5f20a1/pycotore-0.0.4.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [davify]: Downloading https://files.pythonhosted.org/packages/ae/b7/c4c08dd603b46a585a42d509f845bf7f5f151cdc21a2c90bce0c9a38f1b7/davify-1.0.0.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [ehdtd-daemon]: Downloading https://files.pythonhosted.org/packages/87/05/8d463799ea8ded627ab6a164553405e912bd5f7a4df8b4e615ad3aa202ca/ehdtd_daemon-0.1.8.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [fd2py]: Downloading https://files.pythonhosted.org/packages/40/df/53c87eb7476f1cbd6b6fdd48f4f07747728f0101de3879ac4a1e6fab33b3/fd2py-1.0.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/91/97/d6fe3e744af4694539cbd9044fb74358f6c8aad95d66825e2bbf83490b35/superannotate-4.4.9.dev5.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [davify]: Downloading https://files.pythonhosted.org/packages/cd/46/bf15b2855615a219b2a0fc515fdade8cb8d00545c00ff1cdf2837b3f401e/davify-1.1.0.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/4b/fb/987ae1aaf6866984f3f0778cef005bdbd988645ebfb7563de8aaa6277540/pycotore-0.1.0.tar.gz
+[2024-04-11 08:43:02] INFO root fetch - processPackages [pykrotik]: Downloading https://files.pythonhosted.org/packages/93/71/d73041237bebb58e031776176620b918a3d83f5fc06b6d0fc340919dde7b/pykrotik-0.0.3.tar.gz
+[2024-04-11 08:43:03] INFO root fetch - processPackages [davify]: executing diffoscope
+[2024-04-11 08:43:03] INFO root fetch - processPackages [davify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/davify-1.0.0.tar.gz tmp/davify-1.1.0.tar.gz --markdown 20240411/d/davify/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pycotore]: executing diffoscope
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pycotore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycotore-0.0.4.tar.gz tmp/pycotore-0.1.0.tar.gz --markdown 20240411/p/pycotore/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pykrotik]: executing diffoscope
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pykrotik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykrotik-0.0.2.tar.gz tmp/pykrotik-0.0.3.tar.gz --markdown 20240411/p/pykrotik/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 08:43:03] INFO root fetch - processPackages [fd2py]: Downloading https://files.pythonhosted.org/packages/76/bf/ad719cd8d2f91bc8a5e15c1ea9e20b9fec1a8952a1cc2d64d073320c392b/fd2py-1.1.tar.gz
+[2024-04-11 08:43:03] INFO root fetch - processPackages [ehdtd-daemon]: Downloading https://files.pythonhosted.org/packages/5e/08/825f5bce7546ca2934871f5a2c5b09b3442132816e88b2f161a7cc70af33/ehdtd_daemon-0.1.9.tar.gz
+[2024-04-11 08:43:03] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/eb/25/4836840831402b0bfc03d72cb2055a0f87d406e0fc3ded759cd47db072d8/superannotate-4.4.9b1.tar.gz
+[2024-04-11 08:43:03] INFO root fetch - processPackages [fd2py]: executing diffoscope
+[2024-04-11 08:43:03] INFO root fetch - processPackages [fd2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fd2py-1.0.tar.gz tmp/fd2py-1.1.tar.gz --markdown 20240411/f/fd2py/1.0-1.1/README.md --exclude *.pyd
+[2024-04-11 08:43:03] INFO root fetch - processPackages [ehdtd-daemon]: executing diffoscope
+[2024-04-11 08:43:03] INFO root fetch - processPackages [ehdtd-daemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdtd_daemon-0.1.8.tar.gz tmp/ehdtd_daemon-0.1.9.tar.gz --markdown 20240411/e/ehdtd-daemon/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 08:43:03] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2024-04-11 08:43:03] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20240411/s/superannotate/4.4.9.dev5-4.4.9b1/README.md --exclude *.pyd
+[2024-04-11 08:43:03] INFO root fetch - processPackages [davify]: Remove: archive file [/home/abi/fetcher/tmp/davify-1.0.0.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - processPackages [davify]: Remove: archive file [/home/abi/fetcher/tmp/davify-1.1.0.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - main [MainThread]: End processing [davify]: success
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.0.4.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.1.0.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - main [MainThread]: End processing [pycotore]: success
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pykrotik]: Remove: archive file [/home/abi/fetcher/tmp/pykrotik-0.0.2.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - processPackages [pykrotik]: Remove: archive file [/home/abi/fetcher/tmp/pykrotik-0.0.3.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - main [MainThread]: End processing [pykrotik]: success
+[2024-04-11 08:43:03] INFO root fetch - processPackages [fd2py]: Remove: archive file [/home/abi/fetcher/tmp/fd2py-1.0.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - processPackages [fd2py]: Remove: archive file [/home/abi/fetcher/tmp/fd2py-1.1.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - main [MainThread]: End processing [fd2py]: success
+[2024-04-11 08:43:03] INFO root fetch - processPackages [ehdtd-daemon]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd_daemon-0.1.8.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - processPackages [ehdtd-daemon]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd_daemon-0.1.9.tar.gz]
+[2024-04-11 08:43:03] INFO root fetch - main [MainThread]: End processing [ehdtd-daemon]: success
+[2024-04-11 08:43:04] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9.dev5.tar.gz]
+[2024-04-11 08:43:04] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9b1.tar.gz]
+[2024-04-11 08:43:04] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2024-04-11 08:43:04] INFO root fetch - main [MainThread]: Store serial: [22715317]

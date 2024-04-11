@@ -9019,3 +9019,15 @@ EOFError: EOF read where object expected
 [2024-04-11 04:30:02] INFO root fetch - processPackages [nwbinspector]: Remove: archive file [/home/abi/fetcher/tmp/nwbinspector-0.4.5.tar.gz]
 [2024-04-11 04:30:02] INFO root fetch - main [MainThread]: End processing [nwbinspector]: success
 [2024-04-11 04:30:02] INFO root fetch - main [MainThread]: Store serial: [22713371]
+[2024-04-11 04:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713371]
+[2024-04-11 04:32:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inspursmsdk
+[2024-04-11 04:32:11] INFO root fetch - processPackages [inspursmsdk]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-11 04:32:11] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/f6/33/7343236ab07ad47daef0d0fa006698d4a3ddde9d4384d3832be494a57324/inspursmsdk-2.1.5.tar.gz
+[2024-04-11 04:32:11] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/3b/e3/59abb982d6974f6f2f6770a91e56bcf451b63d299454831db90fdfc66734/inspursmsdk-2.1.6.tar.gz
+[2024-04-11 04:32:12] INFO root fetch - processPackages [inspursmsdk]: executing diffoscope
+[2024-04-11 04:32:12] INFO root fetch - processPackages [inspursmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspursmsdk-2.1.5.tar.gz tmp/inspursmsdk-2.1.6.tar.gz --markdown 20240411/i/inspursmsdk/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-11 04:32:13] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.5.tar.gz]
+[2024-04-11 04:32:13] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.6.tar.gz]
+[2024-04-11 04:32:13] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
+[2024-04-11 04:32:13] INFO root fetch - main [MainThread]: Store serial: [22713374]

@@ -18687,3 +18687,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:52:45] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-04-11 11:52:45] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-04-11 11:52:45] INFO root fetch - main [MainThread]: Store serial: [22717748]
+[2024-04-11 11:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717748]
+[2024-04-11 11:54:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 11:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-sphinx-theme
+[2024-04-11 11:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pelican-avatar
+[2024-04-11 11:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beepy-web
+[2024-04-11 11:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyE2
+[2024-04-11 11:54:56] INFO root fetch - processPackages [pelican-avatar]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-11 11:54:56] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-11 11:54:56] INFO root fetch - processPackages [pelican-avatar]: Downloading https://files.pythonhosted.org/packages/d6/f1/5f1db76300850602f500f1fe2f50f217a77b73485ed0f90149f632dcb759/pelican_avatar-1.0.6.tar.gz
+[2024-04-11 11:54:56] INFO root fetch - processPackages [dkist-sphinx-theme]: New version: [2.0.0rc1] Old Version: [1.1.2]
+[2024-04-11 11:54:56] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-11 11:54:56] INFO root fetch - processPackages [beepy-web]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-11 11:54:56] INFO root fetch - processPackages [pelican-avatar]: Downloading https://files.pythonhosted.org/packages/3e/cd/4c84290d8999173423726132b16546d8e129419a8209be8245af7267e62d/pelican_avatar-1.0.7.tar.gz
+[2024-04-11 11:54:56] INFO root fetch - processPackages [dkist-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/ca/82/524e1ee8893e8b69a28a6e7ab727aa74a35daa11dc357e22ca7a7f4eefad/dkist-sphinx-theme-1.1.2.tar.gz
+[2024-04-11 11:54:56] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-11 11:54:56] INFO root fetch - processPackages [beepy-web]: Downloading https://files.pythonhosted.org/packages/77/bc/0f7b45eebff7278aa0f593260ade66480858656abf5f666a7027933f9bde/beepy_web-0.8.9.tar.gz
+[2024-04-11 11:54:56] INFO root fetch - processPackages [pelican-avatar]: executing diffoscope
+[2024-04-11 11:54:56] INFO root fetch - processPackages [pelican-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_avatar-1.0.6.tar.gz tmp/pelican_avatar-1.0.7.tar.gz --markdown 20240411/p/pelican-avatar/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-11 11:54:56] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-11 11:54:56] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240411/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-11 11:54:57] INFO root fetch - processPackages [dkist-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/b7/f7/c1aa42b72f3f5062138e62e3a6837edf0c3095c0aa8bde18059af260d01e/dkist-sphinx-theme-2.0.0rc1.tar.gz
+[2024-04-11 11:54:57] INFO root fetch - processPackages [dkist-sphinx-theme]: executing diffoscope
+[2024-04-11 11:54:57] INFO root fetch - processPackages [dkist-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-sphinx-theme-1.1.2.tar.gz tmp/dkist-sphinx-theme-2.0.0rc1.tar.gz --markdown 20240411/d/dkist-sphinx-theme/1.1.2-2.0.0rc1/README.md --exclude *.pyd
+[2024-04-11 11:54:57] INFO root fetch - processPackages [pelican-avatar]: Remove: archive file [/home/abi/fetcher/tmp/pelican_avatar-1.0.6.tar.gz]
+[2024-04-11 11:54:57] INFO root fetch - processPackages [pelican-avatar]: Remove: archive file [/home/abi/fetcher/tmp/pelican_avatar-1.0.7.tar.gz]
+[2024-04-11 11:54:57] INFO root fetch - main [MainThread]: End processing [pelican-avatar]: success
+[2024-04-11 11:54:57] INFO root fetch - processPackages [beepy-web]: Downloading https://files.pythonhosted.org/packages/b8/a3/1cf089dcbe4836e45895dba021fab1333709af49c8a46f44718d1f9b75bc/beepy_web-0.9.0.tar.gz
+[2024-04-11 11:54:57] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-11 11:54:57] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-11 11:54:57] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-11 11:54:57] INFO root fetch - processPackages [beepy-web]: executing diffoscope
+[2024-04-11 11:54:57] INFO root fetch - processPackages [beepy-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beepy_web-0.8.9.tar.gz tmp/beepy_web-0.9.0.tar.gz --markdown 20240411/b/beepy-web/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-11 11:54:57] INFO root fetch - processPackages [dkist-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/dkist-sphinx-theme-1.1.2.tar.gz]
+[2024-04-11 11:54:57] INFO root fetch - processPackages [dkist-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/dkist-sphinx-theme-2.0.0rc1.tar.gz]
+[2024-04-11 11:54:57] INFO root fetch - main [MainThread]: End processing [dkist-sphinx-theme]: success
+[2024-04-11 11:54:58] INFO root fetch - processPackages [beepy-web]: Remove: archive file [/home/abi/fetcher/tmp/beepy_web-0.8.9.tar.gz]
+[2024-04-11 11:54:58] INFO root fetch - processPackages [beepy-web]: Remove: archive file [/home/abi/fetcher/tmp/beepy_web-0.9.0.tar.gz]
+[2024-04-11 11:54:58] INFO root fetch - main [MainThread]: End processing [beepy-web]: success
+[2024-04-11 11:54:58] INFO root fetch - main [MainThread]: Store serial: [22717763]

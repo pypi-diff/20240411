@@ -19022,3 +19022,108 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:05:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-11 12:05:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-11 12:05:58] INFO root fetch - main [MainThread]: Store serial: [22717880]
+[2024-04-11 12:08:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717880]
+[2024-04-11 12:08:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trial-IGNchinmay
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p99Bluesky
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-id-python
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text-tagging-model
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandasai
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ign8
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spai
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-keras-nightly
+[2024-04-11 12:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CADET-RDM
+[2024-04-11 12:08:08] WARNING root fetch - processPackages [trial-IGNchinmay]: Skipping, unable to determine old version
+[2024-04-11 12:08:08] INFO root fetch - processPackages [trial-IGNchinmay]: Start processing: huojiweiguoba
+[2024-04-11 12:08:08] INFO root fetch - main [MainThread]: End processing [trial-IGNchinmay] error
+[2024-04-11 12:08:08] INFO root fetch - processPackages [spai]: New version: [2024.4.11.post2] Old Version: [2024.4.11]
+[2024-04-11 12:08:08] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-11 12:08:08] INFO root fetch - processPackages [p99Bluesky]: New version: [2] Old Version: [0.0.0.3]
+[2024-04-11 12:08:08] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-11 12:08:08] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-11 12:08:09] INFO root fetch - processPackages [CADET-RDM]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-11 12:08:09] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a9] Old Version: [0.1.2a8]
+[2024-04-11 12:08:09] INFO root fetch - processPackages [pandasai]: New version: [2.0a9] Old Version: [2.0a8]
+[2024-04-11 12:08:09] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/2c/ad/be91531f44513607696877ff2bc33d48f9bc9b7a37713cead811ee1ae64e/spai-2024.4.11.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024041109] Old Version: [2.17.0.dev2024040909]
+[2024-04-11 12:08:09] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.46]
+[2024-04-11 12:08:09] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [p99Bluesky]: Downloading https://files.pythonhosted.org/packages/d1/56/a5fb2b85f9389949ab2d4eef1b963cf648681809a45a093b8350b5188777/p99Bluesky-0.0.0.3.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/45/d0/411589316f7a6ef5ebd6102b368912a4af989b793a0944b97d0d900e6161/pandasai-2.0a8.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/d2/aa/0b7718418e5af94a759f9103a1ce4e95aab5b43bd9cc6982841ef69b5495/text_tagging_model-0.1.2a8.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/b8/6e/f505128df1dfe596bc3fd6231cab925531191e708a6d398e062915715376/CADET-RDM-0.0.6.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/0a/c5/363f1bc1804ae3cded37e37f7cbca72102b66d210370d0da5e4cc7c19f07/ign8-4.8.46.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/2b/00/698174893a70b96ff75b49f654950b8ffa9ac793844b1411abbb86df9d53/tf_keras-nightly-2.17.0.dev2024040909.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/dd/af/fd56ce082e11f3b3fc52dfde914cf58490854f904435ca518ea4407a9c45/spai-2024.4.11.post2.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240411/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240411/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [p99Bluesky]: Downloading https://files.pythonhosted.org/packages/46/d8/a2f320ca3d1884339affda37e34e280892009809f5813a9bedd7497b8877/p99Bluesky-2.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/ae/ee/90f07f7f23d035c4a1891a43729ffadb5f0a822ff1990e448aafcf65e330/text_tagging_model-0.1.2a9.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/a1/20/3561bdae1b48497693d449a6c68b80514d1748d9bb36a7928867f863159a/pandasai-2.0a9.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.4.11.tar.gz tmp/spai-2024.4.11.post2.tar.gz --markdown 20240411/s/spai/2024.4.11-2024.4.11.post2/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240411/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [p99Bluesky]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [p99Bluesky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p99Bluesky-0.0.0.3.tar.gz tmp/p99Bluesky-2.tar.gz --markdown 20240411/p/p99Bluesky/0.0.0.3-2/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a8.tar.gz tmp/text_tagging_model-0.1.2a9.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a8-0.1.2a9/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/8c/4f/cc6992d3cee849248ebcafed89c42d8801d905fc23651ef92b0ef0a83cb5/CADET-RDM-0.0.9.tar.gz
+[2024-04-11 12:08:09] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-2.0a8.tar.gz tmp/pandasai-2.0a9.tar.gz --markdown 20240411/p/pandasai/2.0a8-2.0a9/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 12:08:09] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.46.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.46-4.8.5/README.md --exclude *.pyd
+[2024-04-11 12:08:09] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/f8/51/406c9bacb062cc51c0f0836efb8e7dc39f7681c11c3adbf594f48cab7162/tf_keras-nightly-2.17.0.dev2024041109.tar.gz
+[2024-04-11 12:08:10] INFO root fetch - processPackages [CADET-RDM]: executing diffoscope
+[2024-04-11 12:08:10] INFO root fetch - processPackages [CADET-RDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-RDM-0.0.6.tar.gz tmp/CADET-RDM-0.0.9.tar.gz --markdown 20240411/C/CADET-RDM/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-11 12:08:10] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-11 12:08:10] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras-nightly-2.17.0.dev2024040909.tar.gz tmp/tf_keras-nightly-2.17.0.dev2024041109.tar.gz --markdown 20240411/t/tf-keras-nightly/2.17.0.dev2024040909-2.17.0.dev2024041109/README.md --exclude *.pyd
+[2024-04-11 12:08:10] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - processPackages [huojiweiguoba]: Start processing: lusid-workflow-sdk-preview
+[2024-04-11 12:08:10] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-11 12:08:10] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.879] Old Version: [0.1.878]
+[2024-04-11 12:08:10] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b5/ba/c75e099f79cf36344d4ec46246e60a509a2ca1a149215bd604936c6cb8a7/lusid-workflow-sdk-preview-0.1.878.tar.gz
+[2024-04-11 12:08:10] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a8.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a9.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 12:08:10] INFO root fetch - processPackages [p99Bluesky]: Remove: archive file [/home/abi/fetcher/tmp/p99Bluesky-0.0.0.3.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - processPackages [p99Bluesky]: Remove: archive file [/home/abi/fetcher/tmp/p99Bluesky-2.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - main [MainThread]: End processing [p99Bluesky]: success
+[2024-04-11 12:08:10] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.11.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.11.post2.tar.gz]
+[2024-04-11 12:08:10] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-04-11 12:08:11] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a8.tar.gz]
+[2024-04-11 12:08:11] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a9.tar.gz]
+[2024-04-11 12:08:11] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2024-04-11 12:08:11] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/90/e2/49163989e9687384ef331cb24541c44f76ceeb37d39c5b0316f6f831e946/lusid-workflow-sdk-preview-0.1.879.tar.gz
+[2024-04-11 12:08:11] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-11 12:08:11] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-11 12:08:11] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-11 12:08:11] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.6.tar.gz]
+[2024-04-11 12:08:11] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.9.tar.gz]
+[2024-04-11 12:08:11] INFO root fetch - main [MainThread]: End processing [CADET-RDM]: success
+[2024-04-11 12:08:11] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-04-11 12:08:11] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.878.tar.gz tmp/lusid-workflow-sdk-preview-0.1.879.tar.gz --markdown 20240411/l/lusid-workflow-sdk-preview/0.1.878-0.1.879/README.md --exclude *.pyd
+[2024-04-11 12:08:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.878.tar.gz]
+[2024-04-11 12:08:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.879.tar.gz]
+[2024-04-11 12:08:12] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-04-11 12:08:12] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-11 12:08:12] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-11 12:08:12] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-11 12:08:13] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040909.tar.gz]
+[2024-04-11 12:08:13] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024041109.tar.gz]
+[2024-04-11 12:08:13] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-11 12:08:13] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.46.tar.gz]
+[2024-04-11 12:08:13] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 12:08:13] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 12:08:13] INFO root fetch - main [MainThread]: Store serial: [22717920]

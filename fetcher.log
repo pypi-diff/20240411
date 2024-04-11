@@ -2368,3 +2368,48 @@ EOFError: EOF read where object expected
 [2024-04-11 02:13:28] INFO root fetch - processPackages [duplocloud-client]: Remove: archive file [/home/abi/fetcher/tmp/duplocloud-client-0.2.9.tar.gz]
 [2024-04-11 02:13:28] INFO root fetch - main [MainThread]: End processing [duplocloud-client]: success
 [2024-04-11 02:13:28] INFO root fetch - main [MainThread]: Store serial: [22711185]
+[2024-04-11 02:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711185]
+[2024-04-11 02:15:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 02:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-04-11 02:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azurefunctions-extensions-http-fastapi
+[2024-04-11 02:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2024-04-11 02:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-skylight
+[2024-04-11 02:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nokey
+[2024-04-11 02:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-strict-partial
+[2024-04-11 02:15:37] INFO root fetch - processPackages [pydantic-strict-partial]: New version: [0.4.4] Old Version: [0.4.0]
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.94] Old Version: [2.2.93]
+[2024-04-11 02:15:37] WARNING root fetch - processPackages [azurefunctions-extensions-http-fastapi]: Skipping, unable to determine old version
+[2024-04-11 02:15:37] INFO root fetch - main [MainThread]: End processing [azurefunctions-extensions-http-fastapi] error
+[2024-04-11 02:15:37] WARNING root fetch - processPackages [nokey]: Skipping, unable to determine old version
+[2024-04-11 02:15:37] INFO root fetch - main [MainThread]: End processing [nokey] error
+[2024-04-11 02:15:37] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/6a/e6/501bb16a15dfe7a2595b837dc9cb27bdd1f646a9e240feabac416103a7cc/pydantic_strict_partial-0.4.0.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3b/aa/053ca79eb0389d2521d3d7572385d45286742ec08445d48fe95add9afea4/cdk-events-notify-2.2.93.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [pydantic-strict-partial]: Downloading https://files.pythonhosted.org/packages/e8/93/4a7a05be27fa12c0ada31e556c0000507e5b6e700210dc9fbd25ea5bb0ac/pydantic_strict_partial-0.4.4.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [pydantic-strict-partial]: executing diffoscope
+[2024-04-11 02:15:37] INFO root fetch - processPackages [pydantic-strict-partial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_strict_partial-0.4.0.tar.gz tmp/pydantic_strict_partial-0.4.4.tar.gz --markdown 20240411/p/pydantic-strict-partial/0.4.0-0.4.4/README.md --exclude *.pyd
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a2/a7/9c61a2c6bab15bd55363b427bf380afe4595e3d2a43cf3c34d0f22f32dd1/cdk-events-notify-2.2.94.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240411/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.93.tar.gz tmp/cdk-events-notify-2.2.94.tar.gz --markdown 20240411/c/cdk-events-notify/2.2.93-2.2.94/README.md --exclude *.pyd
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-11 02:15:37] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240411/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-11 02:15:38] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.4.0.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - processPackages [pydantic-strict-partial]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_strict_partial-0.4.4.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - main [MainThread]: End processing [pydantic-strict-partial]: success
+[2024-04-11 02:15:38] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-11 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.93.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.94.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-11 02:15:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-11 02:15:38] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-11 02:15:38] INFO root fetch - main [MainThread]: Store serial: [22711211]

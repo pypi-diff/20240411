@@ -11152,3 +11152,38 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:41:27] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
 [2024-04-11 06:41:27] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
 [2024-04-11 06:41:27] INFO root fetch - main [MainThread]: Store serial: [22714406]
+[2024-04-11 06:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714406]
+[2024-04-11 06:43:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 06:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metrics_layer
+[2024-04-11 06:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swebench
+[2024-04-11 06:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-flux
+[2024-04-11 06:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codex
+[2024-04-11 06:43:36] INFO root fetch - processPackages [swebench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 06:43:36] INFO root fetch - processPackages [metrics_layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-11 06:43:36] INFO root fetch - processPackages [python-flux]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-11 06:43:36] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9f/5f/e1b27b554c9d461ee219864c4084395d8c393b8c84491f779e65107362bb/swebench-1.0.8.tar.gz
+[2024-04-11 06:43:36] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2024-04-11 06:43:36] INFO root fetch - processPackages [codex]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-11 06:43:36] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/90/cf/cc74c7e4738bffd0c824e097e6dc656d868b3864aaac5656cd1d84560adc/python-flux-0.8.4.tar.gz
+[2024-04-11 06:43:36] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/0c/6f/7c4b25c7a3f59e29de3052fd98dcb78a9ee044406464991bc45a1fd4a48f/codex-1.5.8.tar.gz
+[2024-04-11 06:43:36] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2024-04-11 06:43:36] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/f4/1e/da0a5ff7fec617ab4a890a381f312d0e2e1121cc800b024ac5b967ba62a7/swebench-1.0.9.tar.gz
+[2024-04-11 06:43:36] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 18232846>=10485760
+[2024-04-11 06:43:36] INFO root fetch - main [MainThread]: End processing [codex] error
+[2024-04-11 06:43:36] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-04-11 06:43:36] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.0.8.tar.gz tmp/swebench-1.0.9.tar.gz --markdown 20240411/s/swebench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 06:43:36] INFO root fetch - processPackages [metrics_layer]: executing diffoscope
+[2024-04-11 06:43:36] INFO root fetch - processPackages [metrics_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20240411/m/metrics_layer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-11 06:43:36] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/41/0c/a30d9fc0e8290358f3c35e92a3cc2b5169eee65f57566ec14975fab275a9/python_flux-0.9.0.tar.gz
+[2024-04-11 06:43:37] INFO root fetch - processPackages [python-flux]: executing diffoscope
+[2024-04-11 06:43:37] INFO root fetch - processPackages [python-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-flux-0.8.4.tar.gz tmp/python_flux-0.9.0.tar.gz --markdown 20240411/p/python-flux/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-11 06:43:37] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.8.tar.gz]
+[2024-04-11 06:43:37] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.9.tar.gz]
+[2024-04-11 06:43:37] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-04-11 06:43:37] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2024-04-11 06:43:37] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2024-04-11 06:43:37] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
+[2024-04-11 06:43:37] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python-flux-0.8.4.tar.gz]
+[2024-04-11 06:43:37] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-0.9.0.tar.gz]
+[2024-04-11 06:43:37] INFO root fetch - main [MainThread]: End processing [python-flux]: success
+[2024-04-11 06:43:37] INFO root fetch - main [MainThread]: Store serial: [22714419]

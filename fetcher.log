@@ -21418,3 +21418,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:33:22] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.1.tar.gz]
 [2024-04-11 13:33:22] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-04-11 13:33:22] INFO root fetch - main [MainThread]: Store serial: [22718891]
+[2024-04-11 13:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718891]
+[2024-04-11 13:35:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smad-legi-classifier
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dfss
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logger-36
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-archiver-nightly
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-workflow-archiver-nightly
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-command
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ign8
+[2024-04-11 13:35:31] WARNING root fetch - processPackages [smad-legi-classifier]: Skipping, unable to determine old version
+[2024-04-11 13:35:31] INFO root fetch - main [MainThread]: End processing [smad-legi-classifier] error
+[2024-04-11 13:35:31] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-04-11 13:35:31] INFO root fetch - processPackages [dfss]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-11 13:35:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-11 13:35:31] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-11 13:35:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 13:35:31] INFO root fetch - processPackages [logger-36]: New version: [2024.9] Old Version: [2024.8]
+[2024-04-11 13:35:31] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-04-11 13:35:31] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/3c/05/cc06bd160cc7ceabf7c8a9fbb1a12bb41285287a5ad59c978b7e1f4ef92d/dfss-1.6.8.tar.gz
+[2024-04-11 13:35:31] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/45/5e/4f1364a73e0ee415abfe197b77d791f9294a79e4d8f7a3e886e5eec8d664/torchserve_nightly-2024.4.7-py3-none-any.whl
+[2024-04-11 13:35:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/18/8d/5c32ddd637a0599b7a839f802a7243a55780adba3d383c90ef75166e05a8/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-11 13:35:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/19/d4/48ed170e79102607db9758662c34c1e9a7d2cca453a976226f2d8dd11967/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-11 13:35:31] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 13:35:31] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332257>=10485760
+[2024-04-11 13:35:31] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-11 13:35:31] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/be/ac/d04c6d3018760c0dc2cb021f06007938f73e60b86161086e27f03442f592/logger-36-2024.8.tar.gz
+[2024-04-11 13:35:31] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/53/e4/eb1b79783b9a45ea3bcb4726a998f6787e63d4d269053f4a5dea9fbb9ea7/dfss-1.6.9.tar.gz
+[2024-04-11 13:35:31] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-04-11 13:35:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-11 13:35:32] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 13:35:32] INFO root fetch - processPackages [dfss]: executing diffoscope
+[2024-04-11 13:35:32] INFO root fetch - processPackages [dfss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfss-1.6.8.tar.gz tmp/dfss-1.6.9.tar.gz --markdown 20240411/d/dfss/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-11 13:35:32] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-04-11 13:35:32] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240411/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240411/t/torch-workflow-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240411/t/torch-model-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-11 13:35:32] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:35:32] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 13:35:32] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/ac/ac/ebafc097eefbb9d560772a29236dc99b15962580ee71f01ce7575b065632/logger-36-2024.9.tar.gz
+[2024-04-11 13:35:32] INFO root fetch - processPackages [logger-36]: executing diffoscope
+[2024-04-11 13:35:32] INFO root fetch - processPackages [logger-36]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-36-2024.8.tar.gz tmp/logger-36-2024.9.tar.gz --markdown 20240411/l/logger-36/2024.8-2024.9/README.md --exclude *.pyd
+[2024-04-11 13:35:32] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.8.tar.gz]
+[2024-04-11 13:35:32] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.9.tar.gz]
+[2024-04-11 13:35:32] INFO root fetch - main [MainThread]: End processing [dfss]: success
+[2024-04-11 13:35:32] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-04-11 13:35:32] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-04-11 13:35:32] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-11 13:35:32] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-11 13:35:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-11 13:35:32] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-11 13:35:33] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.8.tar.gz]
+[2024-04-11 13:35:33] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.9.tar.gz]
+[2024-04-11 13:35:33] INFO root fetch - main [MainThread]: End processing [logger-36]: success
+[2024-04-11 13:35:35] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 13:35:35] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 13:35:35] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:35:35] INFO root fetch - main [MainThread]: Store serial: [22718915]

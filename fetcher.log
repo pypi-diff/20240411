@@ -18456,3 +18456,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:41:36] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
 [2024-04-11 11:41:36] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2024-04-11 11:41:36] INFO root fetch - main [MainThread]: Store serial: [22717633]
+[2024-04-11 11:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717633]
+[2024-04-11 11:43:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 11:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fnschool
+[2024-04-11 11:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beatrica
+[2024-04-11 11:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-spotinst
+[2024-04-11 11:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scholarly-publications
+[2024-04-11 11:43:46] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240411.1515.27]
+[2024-04-11 11:43:46] INFO root fetch - processPackages [beatrica]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-11 11:43:46] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-11 11:43:46] INFO root fetch - processPackages [scholarly-publications]: New version: [0.6] Old Version: [0.5]
+[2024-04-11 11:43:46] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/f3/20/783f2ac5a3bcae19acefa6be47ec37e70ef6f238298b0cbd3802a62351b9/fnschool-20240411.1515.27.tar.gz
+[2024-04-11 11:43:46] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/6b/b3/8a418af2313d103425454aed58a5057004c035cb6b4f4148c7a18a59461b/beatrica-0.0.1.tar.gz
+[2024-04-11 11:43:46] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-11 11:43:46] INFO root fetch - processPackages [scholarly-publications]: Downloading https://files.pythonhosted.org/packages/23/a2/6603dc4383a4288b99c9eb8fb9cbe820389078db7cb55c2bdd4cca39774d/scholarly_publications-0.5.tar.gz
+[2024-04-11 11:43:47] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 11:43:47] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 11:43:47] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240411.1515.27.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240411.1515.27-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 11:43:47] INFO root fetch - processPackages [scholarly-publications]: Downloading https://files.pythonhosted.org/packages/ef/66/17acfc3e248f20cbb4c85785e3f30e76b97be20e916d74e975406eb3324f/scholarly_publications-0.6.tar.gz
+[2024-04-11 11:43:47] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-11 11:43:47] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/f4/4f/6e016d62fa675094cc43cdbbbc2714a9ad9da8a6ac084c0fa0d7b7b29251/beatrica-0.0.3.tar.gz
+[2024-04-11 11:43:47] INFO root fetch - processPackages [beatrica]: executing diffoscope
+[2024-04-11 11:43:47] INFO root fetch - processPackages [beatrica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beatrica-0.0.1.tar.gz tmp/beatrica-0.0.3.tar.gz --markdown 20240411/b/beatrica/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-11 11:43:47] INFO root fetch - processPackages [scholarly-publications]: executing diffoscope
+[2024-04-11 11:43:47] INFO root fetch - processPackages [scholarly-publications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scholarly_publications-0.5.tar.gz tmp/scholarly_publications-0.6.tar.gz --markdown 20240411/s/scholarly-publications/0.5-0.6/README.md --exclude *.pyd
+[2024-04-11 11:43:47] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-11 11:43:47] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240411/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-04-11 11:43:48] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.1515.27.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 11:43:48] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.1.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.3.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - main [MainThread]: End processing [beatrica]: success
+[2024-04-11 11:43:48] INFO root fetch - processPackages [scholarly-publications]: Remove: archive file [/home/abi/fetcher/tmp/scholarly_publications-0.5.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - processPackages [scholarly-publications]: Remove: archive file [/home/abi/fetcher/tmp/scholarly_publications-0.6.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - main [MainThread]: End processing [scholarly-publications]: success
+[2024-04-11 11:43:48] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-11 11:43:48] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-11 11:43:48] INFO root fetch - main [MainThread]: Store serial: [22717647]

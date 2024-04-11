@@ -17422,3 +17422,230 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:07:33] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.3.tar.gz]
 [2024-04-11 11:07:33] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
 [2024-04-11 11:07:33] INFO root fetch - main [MainThread]: Store serial: [22717158]
+[2024-04-11 11:09:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717158]
+[2024-04-11 11:09:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipez
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PVNet
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safe-init
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ts-soup
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyverified
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CTK-Desert
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pySigma-backend-QRadar-AQL
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terrajinja-sbp-vcd
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: harlequin-risingwave
+[2024-04-11 11:09:43] INFO root fetch - processPackages [terrajinja-sbp-vcd]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ts-soup]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-11 11:09:43] INFO root fetch - processPackages [harlequin-risingwave]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-11 11:09:43] INFO root fetch - processPackages [pipez]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:09:43] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-11 11:09:43] INFO root fetch - processPackages [safe-init]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 11:09:43] WARNING root fetch - processPackages [pyverified]: Skipping, unable to determine old version
+[2024-04-11 11:09:43] INFO root fetch - main [MainThread]: End processing [pyverified] error
+[2024-04-11 11:09:43] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:09:43] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/00/1a/83e4491cf55d830b34d0a4c6b9fbbf1f6ba373a59d14a50c0ee96f13512a/ts-soup-0.1.2.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/5f/d1/dd31512b37a1367f7dcfaeb6287ad9966876b8a7bd380318bb11be1e0ad3/terrajinja-sbp-vcd-0.1.8.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/57/41/15f90ae66b484071299d6e1321594b786409a2ff6c044cf2ceb7f0c89a77/pipez-0.0.8.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/fc/2f/fa6de5c60ab32caf25c4515b37c324e338042dbf298ec9650d037184418e/harlequin_risingwave-0.1.0-py3-none-any.whl
+[2024-04-11 11:09:43] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/8d/c5/bd84c313c452575c81001a2060747df0e6c492bb2b79dc5cb97e93958e94/safe_init-1.0.0.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Downloading https://files.pythonhosted.org/packages/08/a6/3e3246349de7af5c7a9328a6569bf03381dc5d4d29dbb9ef0a674fb00d00/pysigma_backend_qradar_aql-0.2.9.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/40/9c/bb02ca6cf9b31fc433419b4c0bf116b070426536819e872d1d87f48ec0db/ts-soup-0.1.3.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/9c/63/bd804aadc142960421f5951228e82bc1158431eb00cac60ad599ce1f5e1b/terrajinja-sbp-vcd-0.1.9.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-11 11:09:43] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-04-11 11:09:44] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-11 11:09:44] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts-soup-0.1.2.tar.gz tmp/ts-soup-0.1.3.tar.gz --markdown 20240411/t/ts-soup/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-11 11:09:44] INFO root fetch - processPackages [terrajinja-sbp-vcd]: executing diffoscope
+[2024-04-11 11:09:44] INFO root fetch - processPackages [terrajinja-sbp-vcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-sbp-vcd-0.1.8.tar.gz tmp/terrajinja-sbp-vcd-0.1.9.tar.gz --markdown 20240411/t/terrajinja-sbp-vcd/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 11:09:44] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-11 11:09:44] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.8.tar.gz tmp/pipez-0.0.9.tar.gz --markdown 20240411/p/pipez/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:09:44] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/21/e1/2381cff565d51723910e5136a53c017d39c2dadc735c5545f6608848e818/safe_init-1.0.1.tar.gz
+[2024-04-11 11:09:44] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-04-11 11:09:44] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240411/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-11 11:09:44] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/34/c6/64c4116e1162184a1aebb735eb6d34f694e6bcbe5993810309093290dadc/harlequin_risingwave-0.2.0.tar.gz
+[2024-04-11 11:09:44] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Downloading https://files.pythonhosted.org/packages/48/9e/19ab4bb07743df08711bcd6013c3da6806c2c07f6b9c02d810f66efb7a66/pysigma_backend_qradar_aql-0.3.0.tar.gz
+[2024-04-11 11:09:44] INFO root fetch - processPackages [safe-init]: executing diffoscope
+[2024-04-11 11:09:44] INFO root fetch - processPackages [safe-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_init-1.0.0.tar.gz tmp/safe_init-1.0.1.tar.gz --markdown 20240411/s/safe-init/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 11:09:44] INFO root fetch - processPackages [harlequin-risingwave]: executing diffoscope
+[2024-04-11 11:09:44] INFO root fetch - processPackages [harlequin-risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin_risingwave-0.1.0-py3-none-any.whl.zip tmp/harlequin_risingwave-0.2.0.tar.gz --markdown 20240411/h/harlequin-risingwave/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-11 11:09:44] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: executing diffoscope
+[2024-04-11 11:09:44] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_qradar_aql-0.2.9.tar.gz tmp/pysigma_backend_qradar_aql-0.3.0.tar.gz --markdown 20240411/p/pySigma-backend-QRadar-AQL/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-11 11:09:45] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.8.tar.gz]
+[2024-04-11 11:09:45] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-11 11:09:45] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-11 11:09:45] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.1.2.tar.gz]
+[2024-04-11 11:09:45] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.1.3.tar.gz]
+[2024-04-11 11:09:45] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-11 11:09:45] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.1.0-py3-none-any.whl.zip]
+[2024-04-11 11:09:45] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.2.0.tar.gz]
+[2024-04-11 11:09:45] INFO root fetch - main [MainThread]: End processing [harlequin-risingwave]: success
+[2024-04-11 11:09:45] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-04-11 11:09:45] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-04-11 11:09:45] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-04-11 11:09:46] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.1.8.tar.gz]
+[2024-04-11 11:09:46] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.1.9.tar.gz]
+[2024-04-11 11:09:46] INFO root fetch - main [MainThread]: End processing [terrajinja-sbp-vcd]: success
+[2024-04-11 11:09:46] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_qradar_aql-0.2.9.tar.gz]
+[2024-04-11 11:09:46] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_qradar_aql-0.3.0.tar.gz]
+[2024-04-11 11:09:46] INFO root fetch - main [MainThread]: End processing [pySigma-backend-QRadar-AQL]: success
+[2024-04-11 11:09:46] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.0.tar.gz]
+[2024-04-11 11:09:46] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.1.tar.gz]
+[2024-04-11 11:09:46] INFO root fetch - main [MainThread]: End processing [safe-init]: success
+[2024-04-11 11:11:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717158]
+[2024-04-11 11:11:59] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipez
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PVNet
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safe-init
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ts-soup
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyverified
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CTK-Desert
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pySigma-backend-QRadar-AQL
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terrajinja-sbp-vcd
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: harlequin-risingwave
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: esy-osm-pbf
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ts-soup]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [pipez]: New version: [0.0.9] Old Version: [0.0.80]
+[2024-04-11 11:11:59] WARNING root fetch - processPackages [pyverified]: Skipping, unable to determine old version
+[2024-04-11 11:11:59] INFO root fetch - processPackages [pyverified]: Start processing: esy-osm-pbf
+[2024-04-11 11:11:59] INFO root fetch - main [MainThread]: End processing [pyverified] error
+[2024-04-11 11:11:59] INFO root fetch - processPackages [terrajinja-sbp-vcd]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [safe-init]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [harlequin-risingwave]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [esy-osm-pbf]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [esy-osm-pbf]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-11 11:11:59] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/40/9c/bb02ca6cf9b31fc433419b4c0bf116b070426536819e872d1d87f48ec0db/ts-soup-0.1.3.tar.gz
+[2024-04-11 11:11:59] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/8d/c5/bd84c313c452575c81001a2060747df0e6c492bb2b79dc5cb97e93958e94/safe_init-1.0.0.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/34/c6/64c4116e1162184a1aebb735eb6d34f694e6bcbe5993810309093290dadc/harlequin_risingwave-0.2.0.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Downloading https://files.pythonhosted.org/packages/08/a6/3e3246349de7af5c7a9328a6569bf03381dc5d4d29dbb9ef0a674fb00d00/pysigma_backend_qradar_aql-0.2.9.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/05/e2/b110c1499e70e3ce8c84bfae341495ff0cbfcb0087a09ea6678288ffc46c/pipez-0.0.80.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/5f/d1/dd31512b37a1367f7dcfaeb6287ad9966876b8a7bd380318bb11be1e0ad3/terrajinja-sbp-vcd-0.1.8.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [esy-osm-pbf]: Downloading https://files.pythonhosted.org/packages/e8/20/6f85fb5f6222abb366c2b82dc2130467d920b362f8256607c4ef384e4f03/esy-osm-pbf-0.1.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [esy-osm-pbf]: Downloading https://files.pythonhosted.org/packages/e8/20/6f85fb5f6222abb366c2b82dc2130467d920b362f8256607c4ef384e4f03/esy-osm-pbf-0.1.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/21/e1/2381cff565d51723910e5136a53c017d39c2dadc735c5545f6608848e818/safe_init-1.0.1.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/af/68/1710bbfeac27e31c87891fc05e80da01ccd36754cc5988f35b5dfe6f3f15/ts-soup-0.1.4.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Downloading https://files.pythonhosted.org/packages/48/9e/19ab4bb07743df08711bcd6013c3da6806c2c07f6b9c02d810f66efb7a66/pysigma_backend_qradar_aql-0.3.0.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/b5/9e/20885e1da565391967149ead1f4236ffc73264f154a5a18147ecf26e7703/harlequin_risingwave-0.2.1.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-11 11:12:00] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240411/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:12:00] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/9c/63/bd804aadc142960421f5951228e82bc1158431eb00cac60ad599ce1f5e1b/terrajinja-sbp-vcd-0.1.9.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [safe-init]: executing diffoscope
+[2024-04-11 11:12:00] INFO root fetch - processPackages [safe-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_init-1.0.0.tar.gz tmp/safe_init-1.0.1.tar.gz --markdown 20240411/s/safe-init/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 11:12:00] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [esy-osm-pbf]: Downloading https://files.pythonhosted.org/packages/b5/14/5242bc6a813335abde5f6a956cf1da68746a49a12ce152d6ae3a45cbb9d4/esy-osm-pbf-0.1.1.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [esy-osm-pbf]: Downloading https://files.pythonhosted.org/packages/b5/14/5242bc6a813335abde5f6a956cf1da68746a49a12ce152d6ae3a45cbb9d4/esy-osm-pbf-0.1.1.tar.gz
+[2024-04-11 11:12:00] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-11 11:12:00] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts-soup-0.1.3.tar.gz tmp/ts-soup-0.1.4.tar.gz --markdown 20240411/t/ts-soup/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-11 11:12:00] INFO root fetch - processPackages [harlequin-risingwave]: executing diffoscope
+[2024-04-11 11:12:00] INFO root fetch - processPackages [harlequin-risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin_risingwave-0.2.0.tar.gz tmp/harlequin_risingwave-0.2.1.tar.gz --markdown 20240411/h/harlequin-risingwave/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 11:12:00] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: executing diffoscope
+[2024-04-11 11:12:00] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_qradar_aql-0.2.9.tar.gz tmp/pysigma_backend_qradar_aql-0.3.0.tar.gz --markdown 20240411/p/pySigma-backend-QRadar-AQL/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-11 11:12:00] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-04-11 11:12:00] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240411/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-11 11:12:00] INFO root fetch - processPackages [terrajinja-sbp-vcd]: executing diffoscope
+[2024-04-11 11:12:00] INFO root fetch - processPackages [terrajinja-sbp-vcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-sbp-vcd-0.1.8.tar.gz tmp/terrajinja-sbp-vcd-0.1.9.tar.gz --markdown 20240411/t/terrajinja-sbp-vcd/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 11:12:00] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-11 11:12:01] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.80.tar.gz tmp/pipez-0.0.9.tar.gz --markdown 20240411/p/pipez/0.0.80-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:12:01] INFO root fetch - processPackages [esy-osm-pbf]: executing diffoscope
+[2024-04-11 11:12:01] INFO root fetch - processPackages [esy-osm-pbf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esy-osm-pbf-0.1.tar.gz tmp/esy-osm-pbf-0.1.1.tar.gz --markdown 20240411/e/esy-osm-pbf/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-11 11:12:01] INFO root fetch - processPackages [esy-osm-pbf]: executing diffoscope
+[2024-04-11 11:12:01] INFO root fetch - processPackages [esy-osm-pbf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esy-osm-pbf-0.1.tar.gz tmp/esy-osm-pbf-0.1.1.tar.gz --markdown 20240411/e/esy-osm-pbf/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-11 11:12:02] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [CTK-Desert]: Start processing: wagtail-fedit
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-11 11:12:02] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.2.0.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.2.1.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [harlequin-risingwave]: Start processing: mly-pipeline
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [harlequin-risingwave]: success
+[2024-04-11 11:12:02] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/60/8a/aec17e719015cb90a64fcec1f98183e7a02bfdfa2a6bda332eec37f79f2f/wagtail_fedit-1.4.2.tar.gz
+[2024-04-11 11:12:02] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [PVNet]: Start processing: skillbridge
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-04-11 11:12:02] INFO root fetch - processPackages [mly-pipeline]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.0.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.1.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [safe-init]: Start processing: persona_ai
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [safe-init]: success
+[2024-04-11 11:12:02] INFO root fetch - processPackages [esy-osm-pbf]: Remove: archive file [/home/abi/fetcher/tmp/esy-osm-pbf-0.1.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [esy-osm-pbf]: Remove: archive file [/home/abi/fetcher/tmp/esy-osm-pbf-0.1.1.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [esy-osm-pbf]: Start processing: lazyad
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [esy-osm-pbf]: success
+[2024-04-11 11:12:02] INFO root fetch - processPackages [esy-osm-pbf]: Start processing: happy-vllm
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [esy-osm-pbf]: success
+[2024-04-11 11:12:02] INFO root fetch - processPackages [persona_ai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [skillbridge]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.1.8.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.1.9.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Start processing: oa
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [terrajinja-sbp-vcd]: success
+[2024-04-11 11:12:02] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_qradar_aql-0.2.9.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_qradar_aql-0.3.0.tar.gz]
+[2024-04-11 11:12:02] INFO root fetch - main [MainThread]: End processing [pySigma-backend-QRadar-AQL]: success
+[2024-04-11 11:12:03] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.80.tar.gz]
+[2024-04-11 11:12:03] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-11 11:12:03] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-11 11:12:03] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.1.3.tar.gz]
+[2024-04-11 11:12:03] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.1.4.tar.gz]
+[2024-04-11 11:12:03] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-11 11:12:03] INFO root fetch - processPackages [oa]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 11:12:03] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/32/97/786e0769a280aa239049741ec4d82137725996ad7203b00c477b70eaac53/mly_pipeline-1.0.2.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/fb/ff/64f3dc089431afcf125b885716f5dc5a60fb03a7df39f59976dbcea12a85/persona_ai-0.1.2.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/e5/34/539a2e43b1e8e487e4e2d06622232fb0fb642b22b7a2812c5c504b9112a1/wagtail_fedit-1.4.3.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [happy-vllm]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-04-11 11:12:03] INFO root fetch - processPackages [skillbridge]: Downloading https://files.pythonhosted.org/packages/eb/0d/3c7d2dfc3ae8cd32fcc60f933af33f5e4f12b5db9c84576e0285efc7a208/skillbridge-1.7.0.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-11 11:12:03] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.4.2.tar.gz tmp/wagtail_fedit-1.4.3.tar.gz --markdown 20240411/w/wagtail-fedit/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-11 11:12:03] INFO root fetch - processPackages [oa]: Downloading https://files.pythonhosted.org/packages/39/e8/ba1cf5044479abb2394c9cd5080f20532a34a1e8d580f5be6e76c657faf7/oa-0.1.8.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [happy-vllm]: Downloading https://files.pythonhosted.org/packages/86/d0/446f348befcdf3b5fa9af820a7e7eaa996aae5b9f8ad83561ebdedeaddc5/happy_vllm-0.9.0.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/0f/37/d450e72875691394be2ff826c076a42fefd98945f9735272d114fc6a6f99/persona_ai-0.1.3.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/84/ee/7875d531226a2c7a6878fbd226197d03cbac5fa4d8c42a12ec892a3a4a43/mly_pipeline-1.0.3.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [skillbridge]: Downloading https://files.pythonhosted.org/packages/c5/0d/7a46ccd565dfd602f2c68041e092f14ddb9bfcee3fa9e080cf9d54216c0f/skillbridge-1.7.1.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [persona_ai]: executing diffoscope
+[2024-04-11 11:12:03] INFO root fetch - processPackages [persona_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persona_ai-0.1.2.tar.gz tmp/persona_ai-0.1.3.tar.gz --markdown 20240411/p/persona_ai/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-11 11:12:03] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-11 11:12:03] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240411/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:12:03] INFO root fetch - processPackages [oa]: Downloading https://files.pythonhosted.org/packages/64/f6/2549959cf2fd3573d13c7685c325d32851b2303e0611bd2f55d6060d2304/oa-0.1.9.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [happy-vllm]: Downloading https://files.pythonhosted.org/packages/96/b0/531cf7ba37df8b1e043800f72428ce5ba673ed036d7586733858262b21d5/happy_vllm-1.0.0.tar.gz
+[2024-04-11 11:12:03] INFO root fetch - processPackages [mly-pipeline]: executing diffoscope
+[2024-04-11 11:12:03] INFO root fetch - processPackages [mly-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly_pipeline-1.0.2.tar.gz tmp/mly_pipeline-1.0.3.tar.gz --markdown 20240411/m/mly-pipeline/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 11:12:03] INFO root fetch - processPackages [oa]: executing diffoscope
+[2024-04-11 11:12:03] INFO root fetch - processPackages [oa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oa-0.1.8.tar.gz tmp/oa-0.1.9.tar.gz --markdown 20240411/o/oa/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 11:12:03] INFO root fetch - processPackages [skillbridge]: executing diffoscope
+[2024-04-11 11:12:03] INFO root fetch - processPackages [skillbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillbridge-1.7.0.tar.gz tmp/skillbridge-1.7.1.tar.gz --markdown 20240411/s/skillbridge/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-04-11 11:12:04] INFO root fetch - processPackages [happy-vllm]: executing diffoscope
+[2024-04-11 11:12:04] INFO root fetch - processPackages [happy-vllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happy_vllm-0.9.0.tar.gz tmp/happy_vllm-1.0.0.tar.gz --markdown 20240411/h/happy-vllm/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-04-11 11:12:05] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.2.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.3.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-11 11:12:05] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-11 11:12:05] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.2.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.3.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [persona_ai]: success
+[2024-04-11 11:12:05] INFO root fetch - processPackages [oa]: Remove: archive file [/home/abi/fetcher/tmp/oa-0.1.8.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - processPackages [oa]: Remove: archive file [/home/abi/fetcher/tmp/oa-0.1.9.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [oa]: success
+[2024-04-11 11:12:05] INFO root fetch - processPackages [skillbridge]: Remove: archive file [/home/abi/fetcher/tmp/skillbridge-1.7.0.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - processPackages [skillbridge]: Remove: archive file [/home/abi/fetcher/tmp/skillbridge-1.7.1.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [skillbridge]: success
+[2024-04-11 11:12:05] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-1.0.2.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-1.0.3.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
+[2024-04-11 11:12:05] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-0.9.0.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-1.0.0.tar.gz]
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: End processing [happy-vllm]: success
+[2024-04-11 11:12:05] INFO root fetch - main [MainThread]: Store serial: [22717217]

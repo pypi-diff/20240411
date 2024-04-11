@@ -14476,3 +14476,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:06:49] INFO root fetch - processPackages [braincore]: Remove: archive file [/home/abi/fetcher/tmp/braincore-0.0.2-py2.py3-none-any.whl.zip]
 [2024-04-11 10:06:49] INFO root fetch - main [MainThread]: End processing [braincore]: success
 [2024-04-11 10:06:49] INFO root fetch - main [MainThread]: Store serial: [22716071]
+[2024-04-11 10:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716071]
+[2024-04-11 10:08:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qoria-opentelemetry
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms-salesforce-api
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmt_py
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plover-python-dictionary-cmd
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ert
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phasegen
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ms-salesforce-api]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-11 10:08:58] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240410] Old Version: [0.4.5.dev20240409]
+[2024-04-11 10:08:58] WARNING root fetch - processPackages [plover-python-dictionary-cmd]: Skipping, unable to determine old version
+[2024-04-11 10:08:58] INFO root fetch - processPackages [phasegen]: New version: [0.0.6b0] Old Version: [0.0.5b0]
+[2024-04-11 10:08:58] INFO root fetch - main [MainThread]: End processing [plover-python-dictionary-cmd] error
+[2024-04-11 10:08:58] WARNING root fetch - processPackages [qoria-opentelemetry]: Skipping, unable to determine old version
+[2024-04-11 10:08:58] INFO root fetch - main [MainThread]: End processing [qoria-opentelemetry] error
+[2024-04-11 10:08:58] WARNING root fetch - processPackages [bmt_py]: Skipping, unable to determine old version
+[2024-04-11 10:08:58] INFO root fetch - main [MainThread]: End processing [bmt_py] error
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/6f/5a/9842bcdfcc8fc97d3f525afb5abff7c125d29b70d2aa45cccd2cb31e8629/ms_salesforce_api-2.2.0.tar.gz
+[2024-04-11 10:08:58] INFO root fetch - processPackages [ert]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-11 10:08:58] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9e/42/c6b4ce5c85ebb0a6ac2d9722c6efe6e380124e2c41cca21a6ed72f0accf6/pyglove-0.4.5.dev20240409.tar.gz
+[2024-04-11 10:08:58] INFO root fetch - processPackages [phasegen]: Downloading https://files.pythonhosted.org/packages/95/cd/b325bd6213055a193a65814fd4dc721f9200102d28528f8c851378272dc7/phasegen-0.0.5b0.tar.gz
+[2024-04-11 10:08:59] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/f2/9e/7fe48914058756543caa0709aec61b9472678f57eb4bca5f7d44bfced709/ert-9.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 10:09:00] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/1d/0b/94b5b5521997898b28580a273215bbd034d43ed85bdd0125316d691c5630/ms_salesforce_api-2.2.1.tar.gz
+[2024-04-11 10:09:00] INFO root fetch - processPackages [phasegen]: Downloading https://files.pythonhosted.org/packages/ab/cf/5800d90aa987329a003133c1ccc31af8f7c67ed46b34458eb6bd56b39cd2/phasegen-0.0.6b0.tar.gz
+[2024-04-11 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/e4/31/25617bb172690129ba376a30b4f167f3c1f3d1675bc883de35566b42d95d/pyglove-0.4.5.dev20240410.tar.gz
+[2024-04-11 10:09:00] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2024-04-11 10:09:00] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-2.2.0.tar.gz tmp/ms_salesforce_api-2.2.1.tar.gz --markdown 20240411/m/ms-salesforce-api/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-11 10:09:00] INFO root fetch - processPackages [phasegen]: executing diffoscope
+[2024-04-11 10:09:00] INFO root fetch - processPackages [phasegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasegen-0.0.5b0.tar.gz tmp/phasegen-0.0.6b0.tar.gz --markdown 20240411/p/phasegen/0.0.5b0-0.0.6b0/README.md --exclude *.pyd
+[2024-04-11 10:09:00] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/7a/d7/12daa2c80a68009270565b3afabd50c3161e7c5b2d1c523f6e3fe8d2ef6f/ert-9.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 10:09:00] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-11 10:09:00] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240409.tar.gz tmp/pyglove-0.4.5.dev20240410.tar.gz --markdown 20240411/p/pyglove/0.4.5.dev20240409-0.4.5.dev20240410/README.md --exclude *.pyd
+[2024-04-11 10:09:00] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-04-11 10:09:00] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240411/e/ert/9.0.4-9.0.5/README.md --exclude *.pyd
+[2024-04-11 10:09:01] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.2.0.tar.gz]
+[2024-04-11 10:09:01] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.2.1.tar.gz]
+[2024-04-11 10:09:01] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2024-04-11 10:09:01] INFO root fetch - processPackages [phasegen]: Remove: archive file [/home/abi/fetcher/tmp/phasegen-0.0.5b0.tar.gz]
+[2024-04-11 10:09:01] INFO root fetch - processPackages [phasegen]: Remove: archive file [/home/abi/fetcher/tmp/phasegen-0.0.6b0.tar.gz]
+[2024-04-11 10:09:01] INFO root fetch - main [MainThread]: End processing [phasegen]: success
+[2024-04-11 10:09:01] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240409.tar.gz]
+[2024-04-11 10:09:01] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240410.tar.gz]
+[2024-04-11 10:09:01] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-11 10:09:02] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-11 10:09:02] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-11 10:09:02] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-04-11 10:09:02] INFO root fetch - main [MainThread]: Store serial: [22716121]

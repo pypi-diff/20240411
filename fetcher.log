@@ -11778,3 +11778,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:35:59] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
 [2024-04-11 07:35:59] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
 [2024-04-11 07:35:59] INFO root fetch - main [MainThread]: Store serial: [22714680]
+[2024-04-11 07:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714680]
+[2024-04-11 07:38:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 07:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-order-product-picker
+[2024-04-11 07:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betfair-parser
+[2024-04-11 07:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyerplint
+[2024-04-11 07:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-automatic-workflow
+[2024-04-11 07:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-triple-discount
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: New version: [16.0.1.0.2.7] Old Version: [16.0.1.0.2.6]
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-order-product-picker]: New version: [16.0.1.1.1.2] Old Version: [16.0.1.1.1.1]
+[2024-04-11 07:38:08] INFO root fetch - processPackages [anyerplint]: New version: [0.2.90] Old Version: [0.2.69]
+[2024-04-11 07:38:08] INFO root fetch - processPackages [betfair-parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-triple-discount]: New version: [16.0.1.0.1.8] Old Version: [16.0.1.0.1.7]
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-order-product-picker]: Downloading https://files.pythonhosted.org/packages/4f/d1/40097dca9de5d5dcda8f4c46cb18bc9982135dca2bf7e79efc80929f6e96/odoo_addon_sale_order_product_picker-16.0.1.1.1.1-py3-none-any.whl
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/9c/b7/65a9b602129aa1da86b3a8df81993171255753a9fa7cbff385bea7790a15/odoo_addon_sale_automatic_workflow-16.0.1.0.2.6-py3-none-any.whl
+[2024-04-11 07:38:08] INFO root fetch - processPackages [anyerplint]: Downloading https://files.pythonhosted.org/packages/d9/0e/28071ad47d3b21b577847af1c3681fd6c0af9a0e5cf92faab33202a33ac5/anyerplint-0.2.69.tar.gz
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-triple-discount]: Downloading https://files.pythonhosted.org/packages/88/e9/4ee442ec3c3054a963287965f37252aa4c6c252ad70d2de8863da7ee8f0f/odoo_addon_sale_triple_discount-16.0.1.0.1.7-py3-none-any.whl
+[2024-04-11 07:38:08] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/15/29/f71b7887469e0b25858f6c498741c46959db7661837d546fb16f1aa8e891/betfair_parser-0.9.0.tar.gz
+[2024-04-11 07:38:08] INFO root fetch - processPackages [anyerplint]: Downloading https://files.pythonhosted.org/packages/cf/38/efc53adb5b83b40e2b0aa6e88923b2700a3e24a63025c83e8802df7502a6/anyerplint-0.2.90.tar.gz
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/9f/54/080084559788ba91078f9ce8d3757a44fbee14f7e02f1546322f8030ddf8/odoo_addon_sale_automatic_workflow-16.0.1.0.2.7-py3-none-any.whl
+[2024-04-11 07:38:08] INFO root fetch - processPackages [odoo-addon-sale-triple-discount]: Downloading https://files.pythonhosted.org/packages/7e/1b/a28aea7070742a31129b9e4fce7b88daf66d3049819483317a371652977e/odoo_addon_sale_triple_discount-16.0.1.0.1.8-py3-none-any.whl
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-picker]: Downloading https://files.pythonhosted.org/packages/bc/0a/44663b1592dd2dac08ada9accd2867fff333d1e767a50d3f2149ec5a1a3f/odoo_addon_sale_order_product_picker-16.0.1.1.1.2-py3-none-any.whl
+[2024-04-11 07:38:09] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/49/4c/cc460a86ab61ac61c3bad60a166c8d721348ca53e84d94f2a65ac9ab291f/betfair_parser-0.9.1.tar.gz
+[2024-04-11 07:38:09] INFO root fetch - processPackages [anyerplint]: executing diffoscope
+[2024-04-11 07:38:09] INFO root fetch - processPackages [anyerplint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyerplint-0.2.69.tar.gz tmp/anyerplint-0.2.90.tar.gz --markdown 20240411/a/anyerplint/0.2.69-0.2.90/README.md --exclude *.pyd
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: executing diffoscope
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_automatic_workflow-16.0.1.0.2.6-py3-none-any.whl.zip tmp/odoo_addon_sale_automatic_workflow-16.0.1.0.2.7-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-sale-automatic-workflow/16.0.1.0.2.6-16.0.1.0.2.7/README.md --exclude *.pyd
+[2024-04-11 07:38:09] INFO root fetch - processPackages [betfair-parser]: executing diffoscope
+[2024-04-11 07:38:09] INFO root fetch - processPackages [betfair-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfair_parser-0.9.0.tar.gz tmp/betfair_parser-0.9.1.tar.gz --markdown 20240411/b/betfair-parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-picker]: executing diffoscope
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-picker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_picker-16.0.1.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_picker-16.0.1.1.1.2-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-sale-order-product-picker/16.0.1.1.1.1-16.0.1.1.1.2/README.md --exclude *.pyd
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-triple-discount]: executing diffoscope
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-triple-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_triple_discount-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_sale_triple_discount-16.0.1.0.1.8-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-sale-triple-discount/16.0.1.0.1.7-16.0.1.0.1.8/README.md --exclude *.pyd
+[2024-04-11 07:38:09] INFO root fetch - processPackages [anyerplint]: Remove: archive file [/home/abi/fetcher/tmp/anyerplint-0.2.69.tar.gz]
+[2024-04-11 07:38:09] INFO root fetch - processPackages [anyerplint]: Remove: archive file [/home/abi/fetcher/tmp/anyerplint-0.2.90.tar.gz]
+[2024-04-11 07:38:09] INFO root fetch - main [MainThread]: End processing [anyerplint]: success
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_automatic_workflow-16.0.1.0.2.6-py3-none-any.whl.zip]
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_automatic_workflow-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2024-04-11 07:38:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-automatic-workflow]: success
+[2024-04-11 07:38:09] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.9.0.tar.gz]
+[2024-04-11 07:38:09] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.9.1.tar.gz]
+[2024-04-11 07:38:09] INFO root fetch - main [MainThread]: End processing [betfair-parser]: success
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-picker]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_picker-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2024-04-11 07:38:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-picker]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_picker-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2024-04-11 07:38:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-picker]: success
+[2024-04-11 07:38:10] INFO root fetch - processPackages [odoo-addon-sale-triple-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_triple_discount-16.0.1.0.1.7-py3-none-any.whl.zip]
+[2024-04-11 07:38:10] INFO root fetch - processPackages [odoo-addon-sale-triple-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_triple_discount-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-04-11 07:38:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-triple-discount]: success
+[2024-04-11 07:38:10] INFO root fetch - main [MainThread]: Store serial: [22714693]

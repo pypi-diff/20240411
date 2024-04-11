@@ -10982,3 +10982,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:26:05] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
 [2024-04-11 06:26:05] INFO root fetch - main [MainThread]: End processing [magentic]: success
 [2024-04-11 06:26:05] INFO root fetch - main [MainThread]: Store serial: [22714336]
+[2024-04-11 06:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714336]
+[2024-04-11 06:28:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-11 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-ro-account-edi-ubl
+[2024-04-11 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdapi
+[2024-04-11 06:28:13] INFO root fetch - processPackages [pyqqq]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-04-11 06:28:13] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/9c/27/2a339968e9b1a9072d13dc7e87d2532373029dc50440d36589963636f9b7/pyqqq-0.6.9.tar.gz
+[2024-04-11 06:28:13] INFO root fetch - processPackages [mdapi]: New version: [3.1.6a1] Old Version: [3.1.5]
+[2024-04-11 06:28:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2024-04-11 06:28:14] INFO root fetch - processPackages [mdapi]: Downloading https://files.pythonhosted.org/packages/ad/5d/a44eb14889e1bd6b57b501091fe7c55eeb97fe8bb3e5141189f662e35ab4/mdapi-3.1.5.tar.gz
+[2024-04-11 06:28:14] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/2c/38/064e7c961e373b5ebe7bea6c0879fbd0aabd5e1e0fdfef71d929cabdb56d/pyqqq-0.7.0.tar.gz
+[2024-04-11 06:28:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/dd/8a/fcf024c906f4ffcf1fdb4729121cb2b7e33f19b685e7b423f9e0a32e9300/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.0-py3-none-any.whl
+[2024-04-11 06:28:14] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-11 06:28:14] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.9.tar.gz tmp/pyqqq-0.7.0.tar.gz --markdown 20240411/p/pyqqq/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-04-11 06:28:14] INFO root fetch - processPackages [mdapi]: Downloading https://files.pythonhosted.org/packages/44/67/c9ff33eb22349814727c46c94aaa93c02a0a107f5aea76e5ae30ac80bbba/mdapi-3.1.6a1.tar.gz
+[2024-04-11 06:28:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/99/b8/7133f1ae688e9819904a9b2000a8378d671a5230dfd06bcf15deba0db595/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl
+[2024-04-11 06:28:14] INFO root fetch - processPackages [mdapi]: executing diffoscope
+[2024-04-11 06:28:14] INFO root fetch - processPackages [mdapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdapi-3.1.5.tar.gz tmp/mdapi-3.1.6a1.tar.gz --markdown 20240411/m/mdapi/3.1.5-3.1.6a1/README.md --exclude *.pyd
+[2024-04-11 06:28:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-04-11 06:28:14] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20240411/o/odoo14-addon-l10n-ro-account-edi-ubl/14.0.1.9.0-14.0.1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-11 06:28:15] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.9.tar.gz]
+[2024-04-11 06:28:15] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.0.tar.gz]
+[2024-04-11 06:28:15] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-11 06:28:15] INFO root fetch - processPackages [mdapi]: Remove: archive file [/home/abi/fetcher/tmp/mdapi-3.1.5.tar.gz]
+[2024-04-11 06:28:15] INFO root fetch - processPackages [mdapi]: Remove: archive file [/home/abi/fetcher/tmp/mdapi-3.1.6a1.tar.gz]
+[2024-04-11 06:28:15] INFO root fetch - main [MainThread]: End processing [mdapi]: success
+[2024-04-11 06:28:15] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-11 06:28:15] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_edi_ubl-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2024-04-11 06:28:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-account-edi-ubl]: success
+[2024-04-11 06:28:15] INFO root fetch - main [MainThread]: Store serial: [22714346]

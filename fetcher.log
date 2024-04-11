@@ -11637,3 +11637,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:22:45] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.4rc0.tar.gz]
 [2024-04-11 07:22:45] INFO root fetch - main [MainThread]: End processing [dbgpt]: success
 [2024-04-11 07:22:45] INFO root fetch - main [MainThread]: Store serial: [22714618]
+[2024-04-11 07:24:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714618]
+[2024-04-11 07:24:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykrotik
+[2024-04-11 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fnschool
+[2024-04-11 07:24:55] INFO root fetch - processPackages [pykrotik]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 07:24:55] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240411.1321.53]
+[2024-04-11 07:24:55] INFO root fetch - processPackages [pykrotik]: Downloading https://files.pythonhosted.org/packages/8f/b3/124b1455a4b24b7dac7d6264d70f15b383c920eb36c9cef20c028bee533f/pykrotik-0.0.1.tar.gz
+[2024-04-11 07:24:55] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/4c/9f/7a1340e67c8077a5457bb8916b6938f84b8ec260232cdbd026400747d66f/fnschool-20240411.1321.53.tar.gz
+[2024-04-11 07:24:55] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:24:55] INFO root fetch - processPackages [pykrotik]: Downloading https://files.pythonhosted.org/packages/3f/2a/d222887d3b357cb1934b01702111f44c64cf6752f1180a1f26c1fb4e1e4e/pykrotik-0.0.2.tar.gz
+[2024-04-11 07:24:55] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:24:55] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240411.1321.53.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240411.1321.53-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:24:55] INFO root fetch - processPackages [pykrotik]: executing diffoscope
+[2024-04-11 07:24:55] INFO root fetch - processPackages [pykrotik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykrotik-0.0.1.tar.gz tmp/pykrotik-0.0.2.tar.gz --markdown 20240411/p/pykrotik/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 07:24:56] INFO root fetch - processPackages [pykrotik]: Remove: archive file [/home/abi/fetcher/tmp/pykrotik-0.0.1.tar.gz]
+[2024-04-11 07:24:56] INFO root fetch - processPackages [pykrotik]: Remove: archive file [/home/abi/fetcher/tmp/pykrotik-0.0.2.tar.gz]
+[2024-04-11 07:24:56] INFO root fetch - main [MainThread]: End processing [pykrotik]: success
+[2024-04-11 07:24:56] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.1321.53.tar.gz]
+[2024-04-11 07:24:56] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-11 07:24:56] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:24:56] INFO root fetch - main [MainThread]: Store serial: [22714623]

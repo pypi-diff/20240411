@@ -18622,3 +18622,68 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:50:23] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst-sphgeom-26.2024.900.tar.gz]
 [2024-04-11 11:50:23] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
 [2024-04-11 11:50:23] INFO root fetch - main [MainThread]: Store serial: [22717724]
+[2024-04-11 11:52:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717724]
+[2024-04-11 11:52:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seam
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AqPyMuPdf
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erniebot
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-screen-stats
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibllib
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dapla-toolbelt-pseudo
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systemds
+[2024-04-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ign8
+[2024-04-11 11:52:32] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:52:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-11 11:52:32] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.44]
+[2024-04-11 11:52:32] INFO root fetch - processPackages [seam]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-11 11:52:32] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [systemds]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-11 11:52:32] WARNING root fetch - processPackages [AqPyMuPdf]: Skipping, unable to determine old version
+[2024-04-11 11:52:32] INFO root fetch - main [MainThread]: End processing [AqPyMuPdf] error
+[2024-04-11 11:52:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/56/3d/f0660c83b9def848d6ac88d8c786e277ea2ffb5225d9d5231324db747eb1/dapla_toolbelt_pseudo-1.7.0.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [erniebot]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-11 11:52:32] INFO root fetch - processPackages [ibllib]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-11 11:52:32] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/10/a6/57d4490ce6f916ee7b6e797d387e5e73210aac452c79fd9902b2d1dfbebb/ign8-4.8.44.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/f6/02/37eaf029b23527c31d0cf2af9ab1f67a8ea24a5097573dfbecf7472885c5/seam-0.2.0.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [systemds]: Downloading https://files.pythonhosted.org/packages/3a/c8/a00c8c3ea96c061c83e18b43cfee03830f78764f19ca1804d28f88d14e6e/systemds-3.1.0.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [erniebot]: Downloading https://files.pythonhosted.org/packages/b8/82/8bcbb280e13da2dd67667423d6ba34cb72f54c4201fb18816adc7de4914f/erniebot-0.5.3-py3-none-any.whl
+[2024-04-11 11:52:32] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/ab/89/44c95a037d76b6889d7b1fff4e582da5f6dd09e65a3587c657816840b22a/ibllib-2.9.0.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-04-11 11:52:32] WARNING root fetch - processPackages [systemds]: Skipping package: exceeds size limit 69842738>=10485760
+[2024-04-11 11:52:32] INFO root fetch - main [MainThread]: End processing [systemds] error
+[2024-04-11 11:52:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/6e/f6/c4d2637f463e72070476a337f9186bf68d0f5cc3dd8372601930afcb05c8/dapla_toolbelt_pseudo-1.8.0.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2024-04-11 11:52:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-1.7.0.tar.gz tmp/dapla_toolbelt_pseudo-1.8.0.tar.gz --markdown 20240411/d/dapla-toolbelt-pseudo/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-11 11:52:32] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-04-11 11:52:32] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240411/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:52:32] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/35/44/3da744b11d663847ea63d6b6d0a95d43dcb998d02571d2116a4f2870068c/seam-0.3.0.tar.gz
+[2024-04-11 11:52:32] INFO root fetch - processPackages [erniebot]: Downloading https://files.pythonhosted.org/packages/a4/dd/377b013a89e6c06321c67da58f41168ad12bd580c6854e6f4a3fea1aa09c/erniebot-0.5.4-py3-none-any.whl
+[2024-04-11 11:52:32] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 11:52:32] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.44.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.44-4.8.5/README.md --exclude *.pyd
+[2024-04-11 11:52:32] INFO root fetch - processPackages [seam]: executing diffoscope
+[2024-04-11 11:52:32] INFO root fetch - processPackages [seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seam-0.2.0.tar.gz tmp/seam-0.3.0.tar.gz --markdown 20240411/s/seam/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-11 11:52:32] INFO root fetch - processPackages [erniebot]: executing diffoscope
+[2024-04-11 11:52:32] INFO root fetch - processPackages [erniebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniebot-0.5.3-py3-none-any.whl.zip tmp/erniebot-0.5.4-py3-none-any.whl.zip --markdown 20240411/e/erniebot/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-11 11:52:33] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.2.0.tar.gz]
+[2024-04-11 11:52:33] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.3.0.tar.gz]
+[2024-04-11 11:52:33] INFO root fetch - main [MainThread]: End processing [seam]: success
+[2024-04-11 11:52:33] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.7.0.tar.gz]
+[2024-04-11 11:52:33] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.8.0.tar.gz]
+[2024-04-11 11:52:33] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2024-04-11 11:52:33] INFO root fetch - processPackages [erniebot]: Remove: archive file [/home/abi/fetcher/tmp/erniebot-0.5.3-py3-none-any.whl.zip]
+[2024-04-11 11:52:33] INFO root fetch - processPackages [erniebot]: Remove: archive file [/home/abi/fetcher/tmp/erniebot-0.5.4-py3-none-any.whl.zip]
+[2024-04-11 11:52:33] INFO root fetch - main [MainThread]: End processing [erniebot]: success
+[2024-04-11 11:52:35] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/c5/45/5d61840e022b5979571f2e5f0e06601d558f19541bda74d82e3389bf7968/ibllib-2.9.1.tar.gz
+[2024-04-11 11:52:36] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.44.tar.gz]
+[2024-04-11 11:52:36] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 11:52:36] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 11:52:36] INFO root fetch - processPackages [ibllib]: executing diffoscope
+[2024-04-11 11:52:36] INFO root fetch - processPackages [ibllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibllib-2.9.0.tar.gz tmp/ibllib-2.9.1.tar.gz --markdown 20240411/i/ibllib/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-11 11:52:39] INFO root fetch - processPackages [ibllib]: Remove: archive file [/home/abi/fetcher/tmp/ibllib-2.9.0.tar.gz]
+[2024-04-11 11:52:39] INFO root fetch - processPackages [ibllib]: Remove: archive file [/home/abi/fetcher/tmp/ibllib-2.9.1.tar.gz]
+[2024-04-11 11:52:39] INFO root fetch - main [MainThread]: End processing [ibllib]: success
+[2024-04-11 11:52:45] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-04-11 11:52:45] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-04-11 11:52:45] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-04-11 11:52:45] INFO root fetch - main [MainThread]: Store serial: [22717748]

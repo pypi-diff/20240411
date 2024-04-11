@@ -8970,3 +8970,52 @@ EOFError: EOF read where object expected
 [2024-04-11 04:27:52] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2024-04-11 04:27:52] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2024-04-11 04:27:52] INFO root fetch - main [MainThread]: Store serial: [22713353]
+[2024-04-11 04:29:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713353]
+[2024-04-11 04:30:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ActiveCollab
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwbinspector
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ApiLogicServer
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-parser
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluxterm
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svc-toolkit
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ActiveCollab]: New version: [1.1] Old Version: [1]
+[2024-04-11 04:30:00] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-11 04:30:00] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/b2/6c/af2fe911b8ad333606fc5a798373ca11a1233f3adce0a624a4a6d5fbf563/svc_toolkit-1.0.6.tar.gz
+[2024-04-11 04:30:00] INFO root fetch - processPackages [nwbinspector]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-11 04:30:00] INFO root fetch - processPackages [open-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 04:30:00] INFO root fetch - processPackages [fluxterm]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ApiLogicServer]: New version: [9.6.0] Old Version: [9.5.8]
+[2024-04-11 04:30:00] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/77/3e/b6e88689c5675cda87c4c102517bcbdcd5f6bb5a18d3a8de1afb307ee5ea/ActiveCollab-1.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/bf/4d/398a2600d3f4012ccc0a609acd8b43f0efff1d1c090bb6eafada11633511/open_parser-0.0.3.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [nwbinspector]: Downloading https://files.pythonhosted.org/packages/76/c3/f0495055e321b3193af788f60794d52b52d20cc44f199a2f856059614c1b/nwbinspector-0.4.4.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [fluxterm]: Downloading https://files.pythonhosted.org/packages/30/6b/4cfb04c0d7ed24ad34b0c877a6bc7fa53cffbba3e8176881a059fc99d4f8/fluxterm-0.0.0.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/30/ab/b352cb7220c50fdd164e96db4f5755c4edf3b910a15853f19eb32d998666/ApiLogicServer-9.5.8.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/8c/d5/584312f61c1586e2da94b6fdf207d879f0e06d1cdeb0941c0e8eec5f89d3/svc_toolkit-1.0.7.tar.gz
+[2024-04-11 04:30:01] ERROR root fetch - processPackages [ActiveCollab]: Unable to fetch info: No such project/version 'ActiveCollab' 1.1
+[2024-04-11 04:30:01] INFO root fetch - main [MainThread]: End processing [ActiveCollab] error
+[2024-04-11 04:30:01] WARNING root fetch - processPackages [ApiLogicServer]: Skipping package: exceeds size limit 10730132>=10485760
+[2024-04-11 04:30:01] INFO root fetch - main [MainThread]: End processing [ApiLogicServer] error
+[2024-04-11 04:30:01] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-11 04:30:01] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.6.tar.gz tmp/svc_toolkit-1.0.7.tar.gz --markdown 20240411/s/svc-toolkit/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-11 04:30:01] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/a1/d0/744dacfa4d1dd8a870317d49f2ec5bb6e9cd066cba85496a6b14e8e4bd20/open_parser-0.0.4.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [fluxterm]: Downloading https://files.pythonhosted.org/packages/50/8b/fd980c5248e49190b655475561126eaf15003316d6bc7e570664b2858faf/fluxterm-0.0.1.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [nwbinspector]: Downloading https://files.pythonhosted.org/packages/6e/21/414078add4dc2aacedb33524941da7579bc711c2526db6bce03fa2a27ed0/nwbinspector-0.4.5.tar.gz
+[2024-04-11 04:30:01] INFO root fetch - processPackages [nwbinspector]: executing diffoscope
+[2024-04-11 04:30:01] INFO root fetch - processPackages [nwbinspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwbinspector-0.4.4.tar.gz tmp/nwbinspector-0.4.5.tar.gz --markdown 20240411/n/nwbinspector/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-11 04:30:01] INFO root fetch - processPackages [open-parser]: executing diffoscope
+[2024-04-11 04:30:01] INFO root fetch - processPackages [open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_parser-0.0.3.tar.gz tmp/open_parser-0.0.4.tar.gz --markdown 20240411/o/open-parser/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-11 04:30:01] INFO root fetch - processPackages [fluxterm]: executing diffoscope
+[2024-04-11 04:30:01] INFO root fetch - processPackages [fluxterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxterm-0.0.0.tar.gz tmp/fluxterm-0.0.1.tar.gz --markdown 20240411/f/fluxterm/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-11 04:30:01] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.6.tar.gz]
+[2024-04-11 04:30:01] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.7.tar.gz]
+[2024-04-11 04:30:01] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-11 04:30:02] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.3.tar.gz]
+[2024-04-11 04:30:02] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.4.tar.gz]
+[2024-04-11 04:30:02] INFO root fetch - main [MainThread]: End processing [open-parser]: success
+[2024-04-11 04:30:02] INFO root fetch - processPackages [fluxterm]: Remove: archive file [/home/abi/fetcher/tmp/fluxterm-0.0.0.tar.gz]
+[2024-04-11 04:30:02] INFO root fetch - processPackages [fluxterm]: Remove: archive file [/home/abi/fetcher/tmp/fluxterm-0.0.1.tar.gz]
+[2024-04-11 04:30:02] INFO root fetch - main [MainThread]: End processing [fluxterm]: success
+[2024-04-11 04:30:02] INFO root fetch - processPackages [nwbinspector]: Remove: archive file [/home/abi/fetcher/tmp/nwbinspector-0.4.4.tar.gz]
+[2024-04-11 04:30:02] INFO root fetch - processPackages [nwbinspector]: Remove: archive file [/home/abi/fetcher/tmp/nwbinspector-0.4.5.tar.gz]
+[2024-04-11 04:30:02] INFO root fetch - main [MainThread]: End processing [nwbinspector]: success
+[2024-04-11 04:30:02] INFO root fetch - main [MainThread]: Store serial: [22713371]

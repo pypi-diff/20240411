@@ -3633,3 +3633,14 @@ EOFError: EOF read where object expected
 [2024-04-11 02:57:47] INFO root fetch - processPackages [pyprtg-api]: Remove: archive file [/home/abi/fetcher/tmp/pyprtg-api-0.0.9.tar.gz]
 [2024-04-11 02:57:47] INFO root fetch - main [MainThread]: End processing [pyprtg-api]: success
 [2024-04-11 02:57:47] INFO root fetch - main [MainThread]: Store serial: [22711674]
+[2024-04-11 02:59:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711674]
+[2024-04-11 02:59:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 02:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymoose
+[2024-04-11 02:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psya
+[2024-04-11 02:59:57] INFO root fetch - processPackages [pymoose]: New version: [4.0.0.dev20240410] Old Version: [4.0.0]
+[2024-04-11 02:59:57] WARNING root fetch - processPackages [psya]: Skipping, unable to determine old version
+[2024-04-11 02:59:57] INFO root fetch - main [MainThread]: End processing [psya] error
+[2024-04-11 02:59:57] INFO root fetch - processPackages [pymoose]: Downloading https://files.pythonhosted.org/packages/52/6c/62cb8e47e262b52054619498047a8047223c00214f64e4d6248742178853/pymoose-4.0.0.dev20240410-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 02:59:57] WARNING root fetch - processPackages [pymoose]: Skipping package: exceeds size limit 11519587>=10485760
+[2024-04-11 02:59:57] INFO root fetch - main [MainThread]: End processing [pymoose] error
+[2024-04-11 02:59:57] INFO root fetch - main [MainThread]: Store serial: [22711684]

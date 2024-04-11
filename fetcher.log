@@ -20832,3 +20832,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:10:35] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
 [2024-04-11 13:10:35] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 13:10:35] INFO root fetch - main [MainThread]: Store serial: [22718637]
+[2024-04-11 13:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718637]
+[2024-04-11 13:12:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edu-rdm-integration
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ECmean4
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyclonedx-bom
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-act-uiframework-win-demo
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-mse20190531-py2
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synch2jira
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ign8
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grimoire-elk
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dna-engine
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-mse20190531
+[2024-04-11 13:12:44] INFO root fetch - processPackages [edu-rdm-integration]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: New version: [1.3.0.dev8644030535] Old Version: [1.3.0.dev8544485212]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [dna-engine]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: New version: [6.4.0] Old Version: [6.3.3]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [alibabacloud-mse20190531]: New version: [6.4.0] Old Version: [6.3.3]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ECmean4]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [grimoire-elk]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [cyclonedx-bom]: New version: [4.1.5] Old Version: [4.1.4]
+[2024-04-11 13:12:44] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 13:12:44] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/e7/6e/cae0f12fc503ab640785c6ebea4014d6d33cf8ea30295e736c0b9999e522/edu-rdm-integration-3.0.1.tar.gz
+[2024-04-11 13:12:44] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Downloading https://files.pythonhosted.org/packages/39/60/1a4ee826fd279f3937fedecfc98989a3066d9baf40ec861e912abcf98703/th2_grpc_act_uiframework_win_demo-1.3.0.dev8544485212.tar.gz
+[2024-04-11 13:12:44] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-11 13:12:44] INFO root fetch - processPackages [dna-engine]: Downloading https://files.pythonhosted.org/packages/92/2e/b60efa442f7a38d647d9a1331e9e07538f5cf2425f44aad4c933fd1a1a01/dna_engine-1.0.1.tar.gz
+[2024-04-11 13:12:44] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/2f/9d/dbbfb61a1f47fe9d2e2720035fd00baa52cd3f89905b414702ee24f02c1e/alibabacloud_mse20190531-6.3.3.tar.gz
+[2024-04-11 13:12:44] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/ac/86/2d5fa41bb11e6432ce4bef610f17ff5da5a166e23e4151992fcffbad81c9/alibabacloud_mse20190531_py2-6.3.3.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [ECmean4]: Downloading https://files.pythonhosted.org/packages/80/0d/994f04dccba77270d398a1a48d2067fe0bf2e2a0b89fcafc7b708aebd2fc/ECmean4-0.1.7.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [cyclonedx-bom]: Downloading https://files.pythonhosted.org/packages/59/a1/2f68d3c69ca109c999967bc90e29b268ce3545286fdc5d4d178aea9832d5/cyclonedx_bom-4.1.4.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/c1/37/8a28e14ad13b61ea6fe541c212fa099870fb0df0b3107d9da1241d0213df/grimoire_elk-1.0.0rc1.tar.gz
+[2024-04-11 13:12:45] WARNING root fetch - processPackages [ECmean4]: Skipping package: exceeds size limit 11648953>=10485760
+[2024-04-11 13:12:45] INFO root fetch - processPackages [ECmean4]: Start processing: authentik-client
+[2024-04-11 13:12:45] INFO root fetch - main [MainThread]: End processing [ECmean4] error
+[2024-04-11 13:12:45] INFO root fetch - processPackages [authentik-client]: New version: [2024.2.2.post1712833602] Old Version: [2024.2.2.post1712687873]
+[2024-04-11 13:12:45] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Downloading https://files.pythonhosted.org/packages/32/33/a3147cb3a32fc64886a8343d1fbbdab9ba4d48e695c15182a4f33ea759ed/th2_grpc_act_uiframework_win_demo-1.3.0.dev8644030535.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [dna-engine]: Downloading https://files.pythonhosted.org/packages/b1/9f/5fdeddf6cae3cb186f3c95241bcdef9d75b83bdaf89d398ea6a04b1a684f/dna_engine-1.0.2.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/1a/92/07615e907de7614cffdb794a98088d8d11a1c87fd1b0cc576a365b00925f/edu-rdm-integration-3.0.2.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/26/8b/ec8ba6426bd888e232275a1d4a2f33fefc17ea9d02dc19ab632ddf8c1812/authentik_client-2024.2.2.post1712687873.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8544485212.tar.gz tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8644030535.tar.gz --markdown 20240411/t/th2-grpc-act-uiframework-win-demo/1.3.0.dev8544485212-1.3.0.dev8644030535/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [dna-engine]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [dna-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_engine-1.0.1.tar.gz tmp/dna_engine-1.0.2.tar.gz --markdown 20240411/d/dna-engine/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240411/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/aa/9a/4e18bec232e5bff0e1d5bd5b5bcd3bb36179599f0e68b5173bb87c08be22/alibabacloud_mse20190531-6.4.0.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/52/50/1b7bb0c73b3dc3fa68e80106827a70da06f21d1c8e0a7db88e13412b8406/alibabacloud_mse20190531_py2-6.4.0.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-3.0.1.tar.gz tmp/edu-rdm-integration-3.0.2.tar.gz --markdown 20240411/e/edu-rdm-integration/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [alibabacloud-mse20190531]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [alibabacloud-mse20190531]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531-6.3.3.tar.gz tmp/alibabacloud_mse20190531-6.4.0.tar.gz --markdown 20240411/a/alibabacloud-mse20190531/6.3.3-6.4.0/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531_py2-6.3.3.tar.gz tmp/alibabacloud_mse20190531_py2-6.4.0.tar.gz --markdown 20240411/a/alibabacloud-mse20190531-py2/6.3.3-6.4.0/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/9c/2d/fb85445cfa3ddeef82885a0e3a9ffdcf64edd20b61ebd09265745a6cdab3/grimoire_elk-1.0.0rc2.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/80/f2/efb282e05c9184e2ab1adfb76dd62fa4036ff5f78cb95f3a89b4b92bceb1/authentik_client-2024.2.2.post1712833602.tar.gz
+[2024-04-11 13:12:45] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire_elk-1.0.0rc1.tar.gz tmp/grimoire_elk-1.0.0rc2.tar.gz --markdown 20240411/g/grimoire-elk/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 13:12:45] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-04-11 13:12:45] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.2.2.post1712687873.tar.gz tmp/authentik_client-2024.2.2.post1712833602.tar.gz --markdown 20240411/a/authentik-client/2024.2.2.post1712687873-2024.2.2.post1712833602/README.md --exclude *.pyd
+[2024-04-11 13:12:46] INFO root fetch - processPackages [cyclonedx-bom]: Downloading https://files.pythonhosted.org/packages/25/69/dac893508bdc10fdc22689d10a656f247198f4dbff8f53d49276c05770e6/cyclonedx_bom-4.1.5.tar.gz
+[2024-04-11 13:12:46] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8544485212.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8644030535.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-uiframework-win-demo]: success
+[2024-04-11 13:12:46] INFO root fetch - processPackages [dna-engine]: Remove: archive file [/home/abi/fetcher/tmp/dna_engine-1.0.1.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - processPackages [dna-engine]: Remove: archive file [/home/abi/fetcher/tmp/dna_engine-1.0.2.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - main [MainThread]: End processing [dna-engine]: success
+[2024-04-11 13:12:46] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-11 13:12:46] INFO root fetch - processPackages [cyclonedx-bom]: executing diffoscope
+[2024-04-11 13:12:46] INFO root fetch - processPackages [cyclonedx-bom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_bom-4.1.4.tar.gz tmp/cyclonedx_bom-4.1.5.tar.gz --markdown 20240411/c/cyclonedx-bom/4.1.4-4.1.5/README.md --exclude *.pyd
+[2024-04-11 13:12:46] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.0.1.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.0.2.tar.gz]
+[2024-04-11 13:12:46] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2024-04-11 13:12:47] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire_elk-1.0.0rc1.tar.gz]
+[2024-04-11 13:12:47] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire_elk-1.0.0rc2.tar.gz]
+[2024-04-11 13:12:47] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2024-04-11 13:12:48] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.3.3.tar.gz]
+[2024-04-11 13:12:48] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.4.0.tar.gz]
+[2024-04-11 13:12:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531-py2]: success
+[2024-04-11 13:12:48] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.3.3.tar.gz]
+[2024-04-11 13:12:48] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.4.0.tar.gz]
+[2024-04-11 13:12:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531]: success
+[2024-04-11 13:12:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712687873.tar.gz]
+[2024-04-11 13:12:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712833602.tar.gz]
+[2024-04-11 13:12:48] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-04-11 13:12:49] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 13:12:49] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 13:12:49] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:12:54] INFO root fetch - processPackages [cyclonedx-bom]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_bom-4.1.4.tar.gz]
+[2024-04-11 13:12:54] INFO root fetch - processPackages [cyclonedx-bom]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_bom-4.1.5.tar.gz]
+[2024-04-11 13:12:54] INFO root fetch - main [MainThread]: End processing [cyclonedx-bom]: success
+[2024-04-11 13:12:54] INFO root fetch - main [MainThread]: Store serial: [22718682]

@@ -17206,3 +17206,123 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:03:00] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-11 11:03:00] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 11:03:00] INFO root fetch - main [MainThread]: Store serial: [22717085]
+[2024-04-11 11:05:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717085]
+[2024-04-11 11:05:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mokei
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: disruptive
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: novum-api-client
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.common
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.core
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.features
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-nightly-cuda120
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhijiang
+[2024-04-11 11:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.tabular
+[2024-04-11 11:05:10] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [mokei]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [disruptive]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.0b20240410] Old Version: [1.1.0b20240409]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.0b20240410] Old Version: [1.1.0b20240409]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.37.0.dev20240409] Old Version: [1.37.0.dev20240405]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [novum-api-client]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-11 11:05:10] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240411074624] Old Version: [3.3.1.dev20240411062051]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.0b20240410] Old Version: [1.1.0b20240409]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.0b20240410] Old Version: [1.1.0b20240409]
+[2024-04-11 11:05:10] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/24/39/f5eddffe8e184b1986c8aebd98ee4d4efa4ef325bf441590f73f895efd92/autogluon.common-1.1.0b20240409.tar.gz
+[2024-04-11 11:05:10] INFO root fetch - processPackages [mokei]: Downloading https://files.pythonhosted.org/packages/e1/11/e87ca3ead243d0d63b96d4f41bb08c4fc5842753c5315f8924bd09ec20f2/mokei-0.2.1.tar.gz
+[2024-04-11 11:05:10] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/1f/05/2c771e6778bf490a6c77df997ff7996bde52cc16f57f1c6e026ea7aad3af/autogluon.core-1.1.0b20240409.tar.gz
+[2024-04-11 11:05:10] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/21/38/d2c0a990d09fa9398ee862948d902e71948ba3c5acb24de0ffcc026983c5/autogluon.features-1.1.0b20240409.tar.gz
+[2024-04-11 11:05:10] INFO root fetch - processPackages [disruptive]: Downloading https://files.pythonhosted.org/packages/a7/6c/45bdf8789e9f79cb03d2b032d47959cdb55ff6417f306fc60a9921c34a06/disruptive-1.6.6.tar.gz
+[2024-04-11 11:05:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/ff/fc/22cb5f759b4e4370ae52ed061c02fd0e680c6612a81c2fbcb8f7eaceccf0/nvidia_dali_nightly_cuda120-1.37.0.dev20240405.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/26/55/ae913048dd478b5bee696411bb433badf226ca5af97816aedcdf597167bf/localstack-core-3.3.1.dev20240411062051.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/53/7e/c2e675b9145d092340670d9545af19aea76c41761cd9f74e616b374c4ae3/autogluon.tabular-1.1.0b20240409.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [novum-api-client]: Downloading https://files.pythonhosted.org/packages/8d/dc/e689a4e2cf3c0c0fc0f69a90371c04df783967b6d78fdfb4b2c298890ac4/novum_api_client-1.0.1.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-11 11:05:11] INFO root fetch - processPackages [mokei]: Downloading https://files.pythonhosted.org/packages/09/15/6a0e51d46ae86c3521ad1e9365ed5a16b359914a122bed9bb83839784fd7/mokei-0.2.2.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/c1/33/2766cbcb10985fa6f59c2e4c106907a4ead497b4bdb3f776f44a6d44ab0b/autogluon.common-1.1.0b20240410.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/95/15/4b135b7cfac7f9304296bc63d7854f76249cb989c481cd07da33492c6f42/autogluon.features-1.1.0b20240410.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/47/49/404bfab07d70185d1228d96723690dfee71c4ea9b750cf1a343aceb9029f/nvidia_dali_nightly_cuda120-1.37.0.dev20240409.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [disruptive]: Downloading https://files.pythonhosted.org/packages/40/d1/3557037b926cf3b6de266d26fed1817b5a291ce3383222b76c11ab83c437/disruptive-1.6.7.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [mokei]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [mokei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mokei-0.2.1.tar.gz tmp/mokei-0.2.2.tar.gz --markdown 20240411/m/mokei/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/93/1f/bc4c2153aea25a23ba27b1741f36fba7b71c5953e0f687c34aede4162c4e/autogluon.core-1.1.0b20240410.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [novum-api-client]: Downloading https://files.pythonhosted.org/packages/9e/17/b62f5b91afe44fd6fd97cfb85bec59debdbbdb0d2e22355a7eacfba49bbf/novum_api_client-1.1.1.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/8b/1b/be1aff68a6b68322bd6d051158589604eaf7eaaedf013a6f58f7726c8a5c/autogluon.tabular-1.1.0b20240410.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240411/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.0b20240409.tar.gz tmp/autogluon.common-1.1.0b20240410.tar.gz --markdown 20240411/a/autogluon.common/1.1.0b20240409-1.1.0b20240410/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.0b20240409.tar.gz tmp/autogluon.features-1.1.0b20240410.tar.gz --markdown 20240411/a/autogluon.features/1.1.0b20240409-1.1.0b20240410/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.37.0.dev20240405.tar.gz tmp/nvidia_dali_nightly_cuda120-1.37.0.dev20240409.tar.gz --markdown 20240411/n/nvidia-dali-nightly-cuda120/1.37.0.dev20240405-1.37.0.dev20240409/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [disruptive]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [disruptive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disruptive-1.6.6.tar.gz tmp/disruptive-1.6.7.tar.gz --markdown 20240411/d/disruptive/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [novum-api-client]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [novum-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novum_api_client-1.0.1.tar.gz tmp/novum_api_client-1.1.1.tar.gz --markdown 20240411/n/novum-api-client/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9c/bf/3f62ffd690f98c4e0bff6a70a43d5fae2daf275bb7e84799ef48602fa809/localstack-core-3.3.1.dev20240411074624.tar.gz
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.0b20240409.tar.gz tmp/autogluon.tabular-1.1.0b20240410.tar.gz --markdown 20240411/a/autogluon.tabular/1.1.0b20240409-1.1.0b20240410/README.md --exclude *.pyd
+[2024-04-11 11:05:11] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.0b20240409.tar.gz tmp/autogluon.core-1.1.0b20240410.tar.gz --markdown 20240411/a/autogluon.core/1.1.0b20240409-1.1.0b20240410/README.md --exclude *.pyd
+[2024-04-11 11:05:12] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-11 11:05:12] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240411062051.tar.gz tmp/localstack-core-3.3.1.dev20240411074624.tar.gz --markdown 20240411/l/localstack-core/3.3.1.dev20240411062051-3.3.1.dev20240411074624/README.md --exclude *.pyd
+[2024-04-11 11:05:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.37.0.dev20240405.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.37.0.dev20240409.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Start processing: tdfs4ds
+[2024-04-11 11:05:13] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-04-11 11:05:13] INFO root fetch - processPackages [mokei]: Remove: archive file [/home/abi/fetcher/tmp/mokei-0.2.1.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [mokei]: Remove: archive file [/home/abi/fetcher/tmp/mokei-0.2.2.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [mokei]: Start processing: autogluon.multimodal
+[2024-04-11 11:05:13] INFO root fetch - main [MainThread]: End processing [mokei]: success
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.0b20240410] Old Version: [1.1.0b20240409]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [tdfs4ds]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [novum-api-client]: Remove: archive file [/home/abi/fetcher/tmp/novum_api_client-1.0.1.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [novum-api-client]: Remove: archive file [/home/abi/fetcher/tmp/novum_api_client-1.1.1.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [novum-api-client]: Start processing: autogluon.timeseries
+[2024-04-11 11:05:13] INFO root fetch - main [MainThread]: End processing [novum-api-client]: success
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.0b20240410] Old Version: [1.1.0b20240409]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/5a/3c/41882076f39f3874e055a2bb399f3790265912bc1d92a3449aac1602906f/autogluon.multimodal-1.1.0b20240409.tar.gz
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240409.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240410.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/e7/8d/14e4e23d1e0a9de5d5c7f9398255e5af740bcd866b19d309b14631752614/autogluon.timeseries-1.1.0b20240409.tar.gz
+[2024-04-11 11:05:13] INFO root fetch - processPackages [disruptive]: Remove: archive file [/home/abi/fetcher/tmp/disruptive-1.6.6.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [disruptive]: Remove: archive file [/home/abi/fetcher/tmp/disruptive-1.6.7.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - main [MainThread]: End processing [disruptive]: success
+[2024-04-11 11:05:13] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/fa/37/57478043d8a5f99023428379798c6bea0e6260352769563dce75e9f2ecf9/tdfs4ds-0.2.2.7-py3-none-any.whl
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240409.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240410.tar.gz]
+[2024-04-11 11:05:13] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240409.tar.gz]
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240410.tar.gz]
+[2024-04-11 11:05:14] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-11 11:05:14] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-11 11:05:14] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-11 11:05:14] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/89/db/1d486c92d9ca04d6da2f1ac704647df159390813dd9a792bdc0f7e4afc05/autogluon.multimodal-1.1.0b20240410.tar.gz
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240409.tar.gz]
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240410.tar.gz]
+[2024-04-11 11:05:14] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/24/92/36e7e83cb5031954f0108879edcc77ca7df28a80aff5a07b5e98534077de/autogluon.timeseries-1.1.0b20240410.tar.gz
+[2024-04-11 11:05:14] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/08/04/766984098508bfd77b91632a5c66c19626ec5dfe5cc2e6f6bc295bc24fed/tdfs4ds-0.2.2.8-py3-none-any.whl
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.0b20240409.tar.gz tmp/autogluon.multimodal-1.1.0b20240410.tar.gz --markdown 20240411/a/autogluon.multimodal/1.1.0b20240409-1.1.0b20240410/README.md --exclude *.pyd
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-11 11:05:14] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.0b20240409.tar.gz tmp/autogluon.timeseries-1.1.0b20240410.tar.gz --markdown 20240411/a/autogluon.timeseries/1.1.0b20240409-1.1.0b20240410/README.md --exclude *.pyd
+[2024-04-11 11:05:14] INFO root fetch - processPackages [tdfs4ds]: executing diffoscope
+[2024-04-11 11:05:14] INFO root fetch - processPackages [tdfs4ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip --markdown 20240411/t/tdfs4ds/0.2.2.7-0.2.2.8/README.md --exclude *.pyd
+[2024-04-11 11:05:15] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip]
+[2024-04-11 11:05:15] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip]
+[2024-04-11 11:05:15] INFO root fetch - main [MainThread]: End processing [tdfs4ds]: success
+[2024-04-11 11:05:15] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240409.tar.gz]
+[2024-04-11 11:05:15] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240410.tar.gz]
+[2024-04-11 11:05:15] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-11 11:05:16] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240409.tar.gz]
+[2024-04-11 11:05:16] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240410.tar.gz]
+[2024-04-11 11:05:16] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-11 11:05:19] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240411062051.tar.gz]
+[2024-04-11 11:05:19] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240411074624.tar.gz]
+[2024-04-11 11:05:19] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-11 11:05:19] INFO root fetch - main [MainThread]: Store serial: [22717120]

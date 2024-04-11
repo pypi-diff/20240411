@@ -2038,3 +2038,54 @@ EOFError: EOF read where object expected
 [2024-04-11 01:59:49] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.9.tar.gz]
 [2024-04-11 01:59:49] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
 [2024-04-11 01:59:49] INFO root fetch - main [MainThread]: Store serial: [22711050]
+[2024-04-11 02:01:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711050]
+[2024-04-11 02:01:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytoy
+[2024-04-11 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passphera-core
+[2024-04-11 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnschool
+[2024-04-11 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tictacsync
+[2024-04-11 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-fabric
+[2024-04-11 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vidsrc-search
+[2024-04-11 02:01:59] INFO root fetch - processPackages [vidsrc-search]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-11 02:01:59] INFO root fetch - processPackages [fnschool]: New version: [20240410.2229.5] Old Version: [20240329.81506.844]
+[2024-04-11 02:01:59] INFO root fetch - processPackages [passphera-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 02:01:59] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/b8/28/fe9b500ad35050eb9fcce1dbefd2e44dc419731b3e99dc58fff8c5775ef8/vidsrc-search-0.1.2.tar.gz
+[2024-04-11 02:01:59] WARNING root fetch - processPackages [pytoy]: Skipping, unable to determine old version
+[2024-04-11 02:01:59] INFO root fetch - main [MainThread]: End processing [pytoy] error
+[2024-04-11 02:01:59] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/b8/b9/d21ad53a24feb64fcb548509cf1b4d228fb94787176e8fd3f535a33bf768/fnschool-20240329.81506.844.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [tictacsync]: New version: [0.3a4] Old Version: [0.3a3]
+[2024-04-11 02:01:59] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/62/45/1e3473636eddb40aebc11839ce181867ede3e7f3e1acfbb224800f216900/passphera-core-0.2.0.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [dbt-fabric]: New version: [1.8.0rc3] Old Version: [1.8.0rc2]
+[2024-04-11 02:01:59] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/6c/aa/52b4bdab2df25eaa9f7741b8356390deced3a41724c26c542ae2245686f4/vidsrc-search-0.1.3.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [tictacsync]: Downloading https://files.pythonhosted.org/packages/8b/d8/de9ff050c8661cb2c4ae9d0f3ea7af7f38bb4b6c377581bde2d3c8a4f744/tictacsync-0.3a3.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/b7/40/43006e78feb920626f86c33c2414d1ca5953c92504248f30b3b6cf6c0f2b/dbt-fabric-1.8.0rc2.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [vidsrc-search]: executing diffoscope
+[2024-04-11 02:01:59] INFO root fetch - processPackages [vidsrc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidsrc-search-0.1.2.tar.gz tmp/vidsrc-search-0.1.3.tar.gz --markdown 20240411/v/vidsrc-search/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-11 02:01:59] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 02:01:59] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240329.81506.844.tar.gz tmp/fnschool-20240410.2229.5.tar.gz --markdown 20240411/f/fnschool/20240329.81506.844-20240410.2229.5/README.md --exclude *.pyd
+[2024-04-11 02:01:59] INFO root fetch - processPackages [tictacsync]: Downloading https://files.pythonhosted.org/packages/a7/17/ceffb99ef5766267768639526a9316b69b8cc25c664f28b0f4293a9168b8/tictacsync-0.3a4.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/27/2c/7162fb89e0d8d6774f647c2de12ce7308e8f048cf250eddb8ba3373a2550/passphera-core-0.2.1.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/10/4c/2d4c6666a9c534c999b2af1e0ece39625dd67540545221fecdfe8a0675c0/dbt-fabric-1.8.0rc3.tar.gz
+[2024-04-11 02:01:59] INFO root fetch - processPackages [tictacsync]: executing diffoscope
+[2024-04-11 02:01:59] INFO root fetch - processPackages [tictacsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictacsync-0.3a3.tar.gz tmp/tictacsync-0.3a4.tar.gz --markdown 20240411/t/tictacsync/0.3a3-0.3a4/README.md --exclude *.pyd
+[2024-04-11 02:01:59] INFO root fetch - processPackages [passphera-core]: executing diffoscope
+[2024-04-11 02:01:59] INFO root fetch - processPackages [passphera-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passphera-core-0.2.0.tar.gz tmp/passphera-core-0.2.1.tar.gz --markdown 20240411/p/passphera-core/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 02:02:00] INFO root fetch - processPackages [dbt-fabric]: executing diffoscope
+[2024-04-11 02:02:00] INFO root fetch - processPackages [dbt-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fabric-1.8.0rc2.tar.gz tmp/dbt-fabric-1.8.0rc3.tar.gz --markdown 20240411/d/dbt-fabric/1.8.0rc2-1.8.0rc3/README.md --exclude *.pyd
+[2024-04-11 02:02:00] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.1.2.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.1.3.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - main [MainThread]: End processing [vidsrc-search]: success
+[2024-04-11 02:02:00] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240329.81506.844.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240410.2229.5.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 02:02:00] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.2.0.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.2.1.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - main [MainThread]: End processing [passphera-core]: success
+[2024-04-11 02:02:00] INFO root fetch - processPackages [tictacsync]: Remove: archive file [/home/abi/fetcher/tmp/tictacsync-0.3a3.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - processPackages [tictacsync]: Remove: archive file [/home/abi/fetcher/tmp/tictacsync-0.3a4.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - main [MainThread]: End processing [tictacsync]: success
+[2024-04-11 02:02:00] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.0rc2.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.0rc3.tar.gz]
+[2024-04-11 02:02:00] INFO root fetch - main [MainThread]: End processing [dbt-fabric]: success
+[2024-04-11 02:02:00] INFO root fetch - main [MainThread]: Store serial: [22711068]

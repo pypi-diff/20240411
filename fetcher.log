@@ -9061,3 +9061,15 @@ EOFError: EOF read where object expected
 [2024-04-11 04:34:24] INFO root fetch - processPackages [inManage]: Remove: archive file [/home/abi/fetcher/tmp/inManage-1.0.1.tar.gz]
 [2024-04-11 04:34:24] INFO root fetch - main [MainThread]: End processing [inManage]: success
 [2024-04-11 04:34:24] INFO root fetch - main [MainThread]: Store serial: [22713384]
+[2024-04-11 04:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713384]
+[2024-04-11 04:36:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qrawl
+[2024-04-11 04:36:33] INFO root fetch - processPackages [qrawl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 04:36:33] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/03/7c/40341ad148474e2c3cb87f330973d40da304ec14be17a61673e315e92d53/qrawl-0.1.0.tar.gz
+[2024-04-11 04:36:34] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/bb/b3/58bea78083fb37321303c2ad04ea53c0bbb2bb26e23267162d904a922afe/qrawl-0.1.1.tar.gz
+[2024-04-11 04:36:34] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-04-11 04:36:34] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.0.tar.gz tmp/qrawl-0.1.1.tar.gz --markdown 20240411/q/qrawl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 04:36:34] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.0.tar.gz]
+[2024-04-11 04:36:34] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.1.tar.gz]
+[2024-04-11 04:36:34] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-04-11 04:36:34] INFO root fetch - main [MainThread]: Store serial: [22713389]

@@ -13441,3 +13441,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:07:45] INFO root fetch - processPackages [mrx-link-git]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_git-1.1.0.dev0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-11 09:07:45] INFO root fetch - main [MainThread]: End processing [mrx-link-git]: success
 [2024-04-11 09:07:45] INFO root fetch - main [MainThread]: Store serial: [22715583]
+[2024-04-11 09:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715583]
+[2024-04-11 09:09:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 09:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-ms-core
+[2024-04-11 09:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stock-hexagonal-app
+[2024-04-11 09:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyiron-continuum
+[2024-04-11 09:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forumaisdktest
+[2024-04-11 09:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winiel-rfid-sensor
+[2024-04-11 09:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lambdaq
+[2024-04-11 09:09:54] INFO root fetch - processPackages [stock-hexagonal-app]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-11 09:09:54] INFO root fetch - processPackages [lambdaq]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-11 09:09:54] INFO root fetch - processPackages [stock-hexagonal-app]: Downloading https://files.pythonhosted.org/packages/df/df/4ffa628426d709c30f7905aa7b626a3e275ea75a7966ed302b348078cb12/stock-hexagonal-app-0.1.6.tar.gz
+[2024-04-11 09:09:54] INFO root fetch - processPackages [lambdaq]: Downloading https://files.pythonhosted.org/packages/3c/df/2f3112f09f1362493f43b6ea0881b104d9dc73ef167865b759bc638fdf28/lambdaq-0.0.1-py3-none-any.whl
+[2024-04-11 09:09:54] INFO root fetch - processPackages [python-ms-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 09:09:54] WARNING root fetch - processPackages [forumaisdktest]: Skipping, unable to determine old version
+[2024-04-11 09:09:54] INFO root fetch - main [MainThread]: End processing [forumaisdktest] error
+[2024-04-11 09:09:54] INFO root fetch - processPackages [winiel-rfid-sensor]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-11 09:09:54] INFO root fetch - processPackages [pyiron-continuum]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 09:09:54] INFO root fetch - processPackages [pyiron-continuum]: Downloading https://files.pythonhosted.org/packages/09/b9/c8a9cc7771b9adee92bab96e8650cfb30459768325a09559ff0668aa2cea/pyiron_continuum-0.0.8.tar.gz
+[2024-04-11 09:09:54] INFO root fetch - processPackages [python-ms-core]: Downloading https://files.pythonhosted.org/packages/8b/cb/b66113396fd3898574b01935799477bc74fd098ed667fcdd87c3b3fa8d82/python_ms_core-0.0.8-py3-none-any.whl
+[2024-04-11 09:09:54] INFO root fetch - processPackages [stock-hexagonal-app]: Downloading https://files.pythonhosted.org/packages/0a/fe/6c67b1906abfee91682594faafc9f6cd677c67d333031e16df8ec22c80b9/stock-hexagonal-app-0.2.0.tar.gz
+[2024-04-11 09:09:54] INFO root fetch - processPackages [lambdaq]: Downloading https://files.pythonhosted.org/packages/8c/bd/0f0edb774772463e4656bef0438207fe25b1e19dd451a95fe06e71e2dc1c/lambdaq-0.0.3-py3-none-any.whl
+[2024-04-11 09:09:54] INFO root fetch - processPackages [winiel-rfid-sensor]: Downloading https://files.pythonhosted.org/packages/db/fa/8d226ffc69563d48ac5e36fe9a21253723e9c18a8b97bd93a0bb6318200f/winiel-rfid-sensor-0.0.5.tar.gz
+[2024-04-11 09:09:54] INFO root fetch - processPackages [stock-hexagonal-app]: executing diffoscope
+[2024-04-11 09:09:54] INFO root fetch - processPackages [stock-hexagonal-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-hexagonal-app-0.1.6.tar.gz tmp/stock-hexagonal-app-0.2.0.tar.gz --markdown 20240411/s/stock-hexagonal-app/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-11 09:09:54] INFO root fetch - processPackages [lambdaq]: executing diffoscope
+[2024-04-11 09:09:54] INFO root fetch - processPackages [lambdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdaq-0.0.1-py3-none-any.whl.zip tmp/lambdaq-0.0.3-py3-none-any.whl.zip --markdown 20240411/l/lambdaq/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-11 09:09:54] INFO root fetch - processPackages [python-ms-core]: Downloading https://files.pythonhosted.org/packages/36/68/f44aaef418d79d525b7c72f7705b33327f55471582b3f3d12e768365b053/python_ms_core-0.0.9-py3-none-any.whl
+[2024-04-11 09:09:54] INFO root fetch - processPackages [winiel-rfid-sensor]: Downloading https://files.pythonhosted.org/packages/91/72/90ece6a73e32cd68116bee7fa2f723e305906f2b3c9ba760bd9ff768904b/winiel-rfid-sensor-0.0.6.tar.gz
+[2024-04-11 09:09:54] INFO root fetch - processPackages [pyiron-continuum]: Downloading https://files.pythonhosted.org/packages/2d/10/6ed408bb36b8a02ea38dac49f746bb486cfe41fe021ae6a530f5355a5a35/pyiron_continuum-0.0.9.tar.gz
+[2024-04-11 09:09:54] INFO root fetch - processPackages [python-ms-core]: executing diffoscope
+[2024-04-11 09:09:54] INFO root fetch - processPackages [python-ms-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ms_core-0.0.8-py3-none-any.whl.zip tmp/python_ms_core-0.0.9-py3-none-any.whl.zip --markdown 20240411/p/python-ms-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 09:09:55] INFO root fetch - processPackages [winiel-rfid-sensor]: executing diffoscope
+[2024-04-11 09:09:55] INFO root fetch - processPackages [winiel-rfid-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winiel-rfid-sensor-0.0.5.tar.gz tmp/winiel-rfid-sensor-0.0.6.tar.gz --markdown 20240411/w/winiel-rfid-sensor/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-11 09:09:55] INFO root fetch - processPackages [pyiron-continuum]: executing diffoscope
+[2024-04-11 09:09:55] INFO root fetch - processPackages [pyiron-continuum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_continuum-0.0.8.tar.gz tmp/pyiron_continuum-0.0.9.tar.gz --markdown 20240411/p/pyiron-continuum/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 09:09:55] INFO root fetch - processPackages [stock-hexagonal-app]: Remove: archive file [/home/abi/fetcher/tmp/stock-hexagonal-app-0.1.6.tar.gz]
+[2024-04-11 09:09:55] INFO root fetch - processPackages [stock-hexagonal-app]: Remove: archive file [/home/abi/fetcher/tmp/stock-hexagonal-app-0.2.0.tar.gz]
+[2024-04-11 09:09:55] INFO root fetch - main [MainThread]: End processing [stock-hexagonal-app]: success
+[2024-04-11 09:09:55] INFO root fetch - processPackages [lambdaq]: Remove: archive file [/home/abi/fetcher/tmp/lambdaq-0.0.1-py3-none-any.whl.zip]
+[2024-04-11 09:09:55] INFO root fetch - processPackages [lambdaq]: Remove: archive file [/home/abi/fetcher/tmp/lambdaq-0.0.3-py3-none-any.whl.zip]
+[2024-04-11 09:09:55] INFO root fetch - main [MainThread]: End processing [lambdaq]: success
+[2024-04-11 09:09:55] INFO root fetch - processPackages [python-ms-core]: Remove: archive file [/home/abi/fetcher/tmp/python_ms_core-0.0.8-py3-none-any.whl.zip]
+[2024-04-11 09:09:55] INFO root fetch - processPackages [python-ms-core]: Remove: archive file [/home/abi/fetcher/tmp/python_ms_core-0.0.9-py3-none-any.whl.zip]
+[2024-04-11 09:09:55] INFO root fetch - main [MainThread]: End processing [python-ms-core]: success
+[2024-04-11 09:09:55] INFO root fetch - processPackages [winiel-rfid-sensor]: Remove: archive file [/home/abi/fetcher/tmp/winiel-rfid-sensor-0.0.5.tar.gz]
+[2024-04-11 09:09:55] INFO root fetch - processPackages [winiel-rfid-sensor]: Remove: archive file [/home/abi/fetcher/tmp/winiel-rfid-sensor-0.0.6.tar.gz]
+[2024-04-11 09:09:55] INFO root fetch - main [MainThread]: End processing [winiel-rfid-sensor]: success
+[2024-04-11 09:09:55] INFO root fetch - processPackages [pyiron-continuum]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_continuum-0.0.8.tar.gz]
+[2024-04-11 09:09:55] INFO root fetch - processPackages [pyiron-continuum]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_continuum-0.0.9.tar.gz]
+[2024-04-11 09:09:55] INFO root fetch - main [MainThread]: End processing [pyiron-continuum]: success
+[2024-04-11 09:09:55] INFO root fetch - main [MainThread]: Store serial: [22715605]

@@ -11323,3 +11323,18 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:54:31] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.8.tar.gz]
 [2024-04-11 06:54:31] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
 [2024-04-11 06:54:31] INFO root fetch - main [MainThread]: Store serial: [22714470]
+[2024-04-11 06:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714470]
+[2024-04-11 06:56:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ticketsdk
+[2024-04-11 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ttscube
+[2024-04-11 06:56:41] INFO root fetch - processPackages [ticketsdk]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-11 06:56:41] WARNING root fetch - processPackages [ttscube]: Skipping, unable to determine old version
+[2024-04-11 06:56:41] INFO root fetch - main [MainThread]: End processing [ttscube] error
+[2024-04-11 06:56:42] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/08/e0/2537f6e3b296825aa3684da45518a2aaebd29ec55abb4cef11ee92477abe/ticketsdk-2.2.4.tar.gz
+[2024-04-11 06:56:42] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/4d/17/90fea393ec12af6328e5e34b3d2b21e39a245c6c06b3c8075121aea29e61/ticketsdk-2.2.5.tar.gz
+[2024-04-11 06:56:42] INFO root fetch - processPackages [ticketsdk]: executing diffoscope
+[2024-04-11 06:56:42] INFO root fetch - processPackages [ticketsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticketsdk-2.2.4.tar.gz tmp/ticketsdk-2.2.5.tar.gz --markdown 20240411/t/ticketsdk/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-11 06:56:42] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.4.tar.gz]
+[2024-04-11 06:56:42] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.5.tar.gz]
+[2024-04-11 06:56:42] INFO root fetch - main [MainThread]: End processing [ticketsdk]: success
+[2024-04-11 06:56:42] INFO root fetch - main [MainThread]: Store serial: [22714478]

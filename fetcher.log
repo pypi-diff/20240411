@@ -20288,3 +20288,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:48:24] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-1.0.0rc2.tar.gz]
 [2024-04-11 12:48:24] INFO root fetch - main [MainThread]: End processing [perceval]: success
 [2024-04-11 12:48:24] INFO root fetch - main [MainThread]: Store serial: [22718407]
+[2024-04-11 12:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718407]
+[2024-04-11 12:50:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minio_async_client
+[2024-04-11 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pfx
+[2024-04-11 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazylinop
+[2024-04-11 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sortinghat
+[2024-04-11 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ToolsStr
+[2024-04-11 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: video-images-creator
+[2024-04-11 12:50:34] INFO root fetch - processPackages [ToolsStr]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 12:50:34] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 12:50:34] WARNING root fetch - processPackages [minio_async_client]: Skipping, unable to determine old version
+[2024-04-11 12:50:34] INFO root fetch - main [MainThread]: End processing [minio_async_client] error
+[2024-04-11 12:50:34] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 12:50:34] INFO root fetch - processPackages [lazylinop]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-04-11 12:50:34] INFO root fetch - processPackages [django-pfx]: New version: [1.4.dev8] Old Version: [1.4.dev6]
+[2024-04-11 12:50:34] INFO root fetch - processPackages [sortinghat]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 12:50:35] INFO root fetch - processPackages [ToolsStr]: Downloading https://files.pythonhosted.org/packages/b4/07/885c1fe2ae8a2bb6366b985f297596ccb4540293ddd8fe4a3e12eecf02bd/ToolsStr-1.0.0.tar.gz
+[2024-04-11 12:50:35] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/2e/9f/65575dd6215264f53e9e8b7a4683326bc83c43481f371071af7e71e7a40e/django-pfx-1.4.dev6.tar.gz
+[2024-04-11 12:50:35] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/74/21/8ce0b1f262bbe15ab1025adb6bb0991bdf6ab9c0a8a3ba598fcad498e2ee/lazylinop-1.6.1-py3-none-any.whl
+[2024-04-11 12:50:35] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/2f/66/493496cd8c501feb471f5406c947a75b375b7e61ff031b95aed83cb9cf3f/sortinghat-1.0.0rc1.tar.gz
+[2024-04-11 12:50:35] INFO root fetch - processPackages [ToolsStr]: Downloading https://files.pythonhosted.org/packages/8b/d7/0da922d1dcca2f1ee8f03594bb1d157073334e21a1e8a57676a8ce562ee5/ToolsStr-1.0.1.tar.gz
+[2024-04-11 12:50:35] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 12:50:35] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/7f/53/caf5a55c22d1a4048e13c64bf53557581259f02deab3e33483ff3512cdf3/django-pfx-1.4.dev8.tar.gz
+[2024-04-11 12:50:35] INFO root fetch - processPackages [ToolsStr]: executing diffoscope
+[2024-04-11 12:50:35] INFO root fetch - processPackages [ToolsStr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ToolsStr-1.0.0.tar.gz tmp/ToolsStr-1.0.1.tar.gz --markdown 20240411/T/ToolsStr/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 12:50:35] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2024-04-11 12:50:35] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.4.dev6.tar.gz tmp/django-pfx-1.4.dev8.tar.gz --markdown 20240411/d/django-pfx/1.4.dev6-1.4.dev8/README.md --exclude *.pyd
+[2024-04-11 12:50:35] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/27/06/c20bffb9973be786366c1fbef8eb88725069bcd333fde473b5cb531be7ee/lazylinop-1.7.0-py3-none-any.whl
+[2024-04-11 12:50:35] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2024-04-11 12:50:35] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.6.1-py3-none-any.whl.zip tmp/lazylinop-1.7.0-py3-none-any.whl.zip --markdown 20240411/l/lazylinop/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-04-11 12:50:35] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/d2/2a/effb7864fef153fcc0563aa7e3b0a742d21629cc8d9c3f86d8e7bbba1dab/sortinghat-1.0.0rc2.tar.gz
+[2024-04-11 12:50:35] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 12:50:35] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 12:50:36] INFO root fetch - processPackages [ToolsStr]: Remove: archive file [/home/abi/fetcher/tmp/ToolsStr-1.0.0.tar.gz]
+[2024-04-11 12:50:36] INFO root fetch - processPackages [ToolsStr]: Remove: archive file [/home/abi/fetcher/tmp/ToolsStr-1.0.1.tar.gz]
+[2024-04-11 12:50:36] INFO root fetch - main [MainThread]: End processing [ToolsStr]: success
+[2024-04-11 12:50:36] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev6.tar.gz]
+[2024-04-11 12:50:36] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
+[2024-04-11 12:50:36] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2024-04-11 12:50:36] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.6.1-py3-none-any.whl.zip]
+[2024-04-11 12:50:36] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.7.0-py3-none-any.whl.zip]
+[2024-04-11 12:50:36] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2024-04-11 12:50:36] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 12:50:36] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 12:50:36] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 12:50:36] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2024-04-11 12:50:36] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-1.0.0rc1.tar.gz tmp/sortinghat-1.0.0rc2.tar.gz --markdown 20240411/s/sortinghat/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 12:50:38] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.0rc1.tar.gz]
+[2024-04-11 12:50:38] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.0rc2.tar.gz]
+[2024-04-11 12:50:38] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2024-04-11 12:50:38] INFO root fetch - main [MainThread]: Store serial: [22718429]

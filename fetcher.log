@@ -11483,3 +11483,15 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:13:58] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.10-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-11 07:13:58] INFO root fetch - main [MainThread]: End processing [cntracer]: success
 [2024-04-11 07:13:58] INFO root fetch - main [MainThread]: Store serial: [22714535]
+[2024-04-11 07:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714535]
+[2024-04-11 07:16:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 07:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofdcomparer
+[2024-04-11 07:16:07] INFO root fetch - processPackages [ofdcomparer]: New version: [1.5.40] Old Version: [1.5.39]
+[2024-04-11 07:16:07] INFO root fetch - processPackages [ofdcomparer]: Downloading https://files.pythonhosted.org/packages/d8/96/18b7b84f841482b96e3b699d654ff7d9f92585a797a4128be788ff0f4116/ofdcomparer-1.5.39.tar.gz
+[2024-04-11 07:16:07] INFO root fetch - processPackages [ofdcomparer]: Downloading https://files.pythonhosted.org/packages/f7/2d/c9b20b99089a2d843e607fb6d7d8809212116d788114c96bf275ec65eb95/ofdcomparer-1.5.40.tar.gz
+[2024-04-11 07:16:08] INFO root fetch - processPackages [ofdcomparer]: executing diffoscope
+[2024-04-11 07:16:08] INFO root fetch - processPackages [ofdcomparer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofdcomparer-1.5.39.tar.gz tmp/ofdcomparer-1.5.40.tar.gz --markdown 20240411/o/ofdcomparer/1.5.39-1.5.40/README.md --exclude *.pyd
+[2024-04-11 07:16:08] INFO root fetch - processPackages [ofdcomparer]: Remove: archive file [/home/abi/fetcher/tmp/ofdcomparer-1.5.39.tar.gz]
+[2024-04-11 07:16:08] INFO root fetch - processPackages [ofdcomparer]: Remove: archive file [/home/abi/fetcher/tmp/ofdcomparer-1.5.40.tar.gz]
+[2024-04-11 07:16:08] INFO root fetch - main [MainThread]: End processing [ofdcomparer]: success
+[2024-04-11 07:16:08] INFO root fetch - main [MainThread]: Store serial: [22714546]

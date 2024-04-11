@@ -10098,3 +10098,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:31:22] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.3.3.tar.gz]
 [2024-04-11 05:31:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531]: success
 [2024-04-11 05:31:22] INFO root fetch - main [MainThread]: Store serial: [22713953]
+[2024-04-11 05:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713953]
+[2024-04-11 05:33:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 05:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-mse20190531-py2
+[2024-04-11 05:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toml-to-requirements
+[2024-04-11 05:33:33] INFO root fetch - processPackages [toml-to-requirements]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-11 05:33:33] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: New version: [6.3.3] Old Version: [6.3.2]
+[2024-04-11 05:33:33] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/4f/e8/e348abf742a26e4a5e0a7f1981d27e1beef7dc90b3b804117fa008625223/toml_to_requirements-0.2.1.tar.gz
+[2024-04-11 05:33:33] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/41/3d/970b2d4837a5f433f20504c8a1819f190a4ab0b9a8d4b8cba9ba448ac9d8/alibabacloud_mse20190531_py2-6.3.2.tar.gz
+[2024-04-11 05:33:33] INFO root fetch - processPackages [toml-to-requirements]: Downloading https://files.pythonhosted.org/packages/5b/53/af0d498562319bfa3527109faf8f05b7e28c0fcb4e340d6347823a2b985e/toml_to_requirements-0.2.2.tar.gz
+[2024-04-11 05:33:33] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/ac/86/2d5fa41bb11e6432ce4bef610f17ff5da5a166e23e4151992fcffbad81c9/alibabacloud_mse20190531_py2-6.3.3.tar.gz
+[2024-04-11 05:33:33] INFO root fetch - processPackages [toml-to-requirements]: executing diffoscope
+[2024-04-11 05:33:33] INFO root fetch - processPackages [toml-to-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_to_requirements-0.2.1.tar.gz tmp/toml_to_requirements-0.2.2.tar.gz --markdown 20240411/t/toml-to-requirements/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-11 05:33:33] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: executing diffoscope
+[2024-04-11 05:33:33] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531_py2-6.3.2.tar.gz tmp/alibabacloud_mse20190531_py2-6.3.3.tar.gz --markdown 20240411/a/alibabacloud-mse20190531-py2/6.3.2-6.3.3/README.md --exclude *.pyd
+[2024-04-11 05:33:34] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.2.1.tar.gz]
+[2024-04-11 05:33:34] INFO root fetch - processPackages [toml-to-requirements]: Remove: archive file [/home/abi/fetcher/tmp/toml_to_requirements-0.2.2.tar.gz]
+[2024-04-11 05:33:34] INFO root fetch - main [MainThread]: End processing [toml-to-requirements]: success
+[2024-04-11 05:33:36] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.3.2.tar.gz]
+[2024-04-11 05:33:36] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.3.3.tar.gz]
+[2024-04-11 05:33:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531-py2]: success
+[2024-04-11 05:33:36] INFO root fetch - main [MainThread]: Store serial: [22713959]

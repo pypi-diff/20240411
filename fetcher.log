@@ -12921,3 +12921,38 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:45:15] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.1.tar.gz]
 [2024-04-11 08:45:15] INFO root fetch - main [MainThread]: End processing [django-prose-editor]: success
 [2024-04-11 08:45:15] INFO root fetch - main [MainThread]: Store serial: [22715324]
+[2024-04-11 08:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715324]
+[2024-04-11 08:47:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyAibote
+[2024-04-11 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwastic-desktop
+[2024-04-11 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiscalsim-us
+[2024-04-11 08:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytun-pmd3
+[2024-04-11 08:47:24] INFO root fetch - processPackages [fiscalsim-us]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-11 08:47:24] INFO root fetch - processPackages [PyAibote]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-11 08:47:24] INFO root fetch - processPackages [gwastic-desktop]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-11 08:47:24] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/1b/22/e4a97e6c91ea196614e8f64023ec1fe641d27194a851022f5ddd203f6820/PyAibote-1.3.5.tar.gz
+[2024-04-11 08:47:24] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/cf/b2/4e16a4161bac5c42d418b42c737532990f8f3013da1a1bbb464e5e977e58/fiscalsim-us-0.2.7.tar.gz
+[2024-04-11 08:47:24] INFO root fetch - processPackages [pytun-pmd3]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-11 08:47:24] INFO root fetch - processPackages [gwastic-desktop]: Downloading https://files.pythonhosted.org/packages/94/3b/f11ea0c134f8dfc8774d275552a6fa229bce216469598b9d2e5d497890bb/gwastic_desktop-0.4.9.tar.gz
+[2024-04-11 08:47:24] WARNING root fetch - processPackages [gwastic-desktop]: Skipping package: exceeds size limit 18145676>=10485760
+[2024-04-11 08:47:24] INFO root fetch - main [MainThread]: End processing [gwastic-desktop] error
+[2024-04-11 08:47:24] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/42/1d/f4ccb6fc1c73f3d2e0e48043f6f1b76bc34c01d187238008a914c776d194/PyAibote-1.3.6.tar.gz
+[2024-04-11 08:47:24] INFO root fetch - processPackages [pytun-pmd3]: Downloading https://files.pythonhosted.org/packages/d4/1f/8cb797c36f727666bc7147e81a6727df098f1dbe99baaed6e969ae6d2045/pytun-pmd3-2.0.4.tar.gz
+[2024-04-11 08:47:24] INFO root fetch - processPackages [PyAibote]: executing diffoscope
+[2024-04-11 08:47:24] INFO root fetch - processPackages [PyAibote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAibote-1.3.5.tar.gz tmp/PyAibote-1.3.6.tar.gz --markdown 20240411/P/PyAibote/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-04-11 08:47:24] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/10/ff/e2d632cfacf972cb79ca0495818d3b7927c9a18cdd45ebe780b72262608e/fiscalsim-us-0.2.8.tar.gz
+[2024-04-11 08:47:25] INFO root fetch - processPackages [fiscalsim-us]: executing diffoscope
+[2024-04-11 08:47:25] INFO root fetch - processPackages [fiscalsim-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiscalsim-us-0.2.7.tar.gz tmp/fiscalsim-us-0.2.8.tar.gz --markdown 20240411/f/fiscalsim-us/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-11 08:47:25] INFO root fetch - processPackages [pytun-pmd3]: Downloading https://files.pythonhosted.org/packages/fb/8c/5379536212bb471f6e2cac0e7c3ad6117ade6592118b0954ce64b777131c/pytun-pmd3-2.0.5.tar.gz
+[2024-04-11 08:47:25] INFO root fetch - processPackages [pytun-pmd3]: executing diffoscope
+[2024-04-11 08:47:25] INFO root fetch - processPackages [pytun-pmd3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytun-pmd3-2.0.4.tar.gz tmp/pytun-pmd3-2.0.5.tar.gz --markdown 20240411/p/pytun-pmd3/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-04-11 08:47:25] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.3.5.tar.gz]
+[2024-04-11 08:47:25] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.3.6.tar.gz]
+[2024-04-11 08:47:25] INFO root fetch - main [MainThread]: End processing [PyAibote]: success
+[2024-04-11 08:47:26] INFO root fetch - processPackages [pytun-pmd3]: Remove: archive file [/home/abi/fetcher/tmp/pytun-pmd3-2.0.4.tar.gz]
+[2024-04-11 08:47:26] INFO root fetch - processPackages [pytun-pmd3]: Remove: archive file [/home/abi/fetcher/tmp/pytun-pmd3-2.0.5.tar.gz]
+[2024-04-11 08:47:26] INFO root fetch - main [MainThread]: End processing [pytun-pmd3]: success
+[2024-04-11 08:47:42] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.2.7.tar.gz]
+[2024-04-11 08:47:42] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.2.8.tar.gz]
+[2024-04-11 08:47:42] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
+[2024-04-11 08:47:42] INFO root fetch - main [MainThread]: Store serial: [22715343]

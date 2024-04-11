@@ -14751,3 +14751,50 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:24:26] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.9.tar.gz]
 [2024-04-11 10:24:26] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
 [2024-04-11 10:24:26] INFO root fetch - main [MainThread]: Store serial: [22716327]
+[2024-04-11 10:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716327]
+[2024-04-11 10:26:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toptica-lasersdk
+[2024-04-11 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playmolecule
+[2024-04-11 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bunkatopics
+[2024-04-11 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aspose-diagram
+[2024-04-11 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roktools
+[2024-04-11 10:26:35] INFO root fetch - processPackages [roktools]: New version: [5.7.0] Old Version: [5.5.2]
+[2024-04-11 10:26:35] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/e5/2d/31fe9dc982af4116aca6ddb255b440cb468a324edb8f74cc66a040b83505/roktools-5.5.2-py2.py3-none-any.whl
+[2024-04-11 10:26:35] INFO root fetch - processPackages [toptica-lasersdk]: New version: [3.2.0] Old Version: [3.1.2]
+[2024-04-11 10:26:35] INFO root fetch - processPackages [aspose-diagram]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-04-11 10:26:35] INFO root fetch - processPackages [bunkatopics]: New version: [0.8] Old Version: [0.7]
+[2024-04-11 10:26:35] INFO root fetch - processPackages [playmolecule]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-11 10:26:35] INFO root fetch - processPackages [toptica-lasersdk]: Downloading https://files.pythonhosted.org/packages/2a/db/be5fa0fb2e0efda3be13d76d188dc3f401e1baef0c63816fd1cf79856779/toptica_lasersdk-3.1.2.tar.gz
+[2024-04-11 10:26:35] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/64/b0/bfc18e7eb81d52b6e6f077f79370a1f7695b7f0778851e66d68186b30be0/playmolecule-2.4.8.tar.gz
+[2024-04-11 10:26:35] INFO root fetch - processPackages [bunkatopics]: Downloading https://files.pythonhosted.org/packages/ce/83/0a81009cd90884907a7dbf000b4620f61107e6d19af91c4e93aebf7e7a74/bunkatopics-0.7.tar.gz
+[2024-04-11 10:26:35] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/dc/c2/7a45a28418308c83cba5c911436c725d72a51b7bb705a8d7d01271d4cb63/roktools-5.7.0-py2.py3-none-any.whl
+[2024-04-11 10:26:35] INFO root fetch - processPackages [aspose-diagram]: Downloading https://files.pythonhosted.org/packages/13/41/ce3a9b378e2e9d426fc23e77308089bee077b9fb87cedd0477d578bd8792/aspose-diagram-24.3.0.tar.gz
+[2024-04-11 10:26:35] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-04-11 10:26:35] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-5.5.2-py2.py3-none-any.whl.zip tmp/roktools-5.7.0-py2.py3-none-any.whl.zip --markdown 20240411/r/roktools/5.5.2-5.7.0/README.md --exclude *.pyd
+[2024-04-11 10:26:36] INFO root fetch - processPackages [bunkatopics]: Downloading https://files.pythonhosted.org/packages/ed/00/7a7a8067e7f169270993b124c983baf04df5e80eee002825a77288b3f886/bunkatopics-0.8.tar.gz
+[2024-04-11 10:26:36] INFO root fetch - processPackages [toptica-lasersdk]: Downloading https://files.pythonhosted.org/packages/c9/f8/a6496b7d4c64fd1494da4e49303ff36f345a4cbb368234716365fcdaa190/toptica_lasersdk-3.2.0.tar.gz
+[2024-04-11 10:26:36] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/f4/32/91c078a0b892421b5797977c4fe473b624a5babecf8f1b20496273257880/playmolecule-2.4.9.tar.gz
+[2024-04-11 10:26:36] INFO root fetch - processPackages [bunkatopics]: executing diffoscope
+[2024-04-11 10:26:36] INFO root fetch - processPackages [bunkatopics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bunkatopics-0.7.tar.gz tmp/bunkatopics-0.8.tar.gz --markdown 20240411/b/bunkatopics/0.7-0.8/README.md --exclude *.pyd
+[2024-04-11 10:26:36] INFO root fetch - processPackages [aspose-diagram]: Downloading https://files.pythonhosted.org/packages/ef/85/b1e242420d67353c06dbd3bb82477396b7e67a463a3f87bf889c9f69166b/aspose-diagram-24.4.0.tar.gz
+[2024-04-11 10:26:36] INFO root fetch - processPackages [toptica-lasersdk]: executing diffoscope
+[2024-04-11 10:26:36] INFO root fetch - processPackages [toptica-lasersdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toptica_lasersdk-3.1.2.tar.gz tmp/toptica_lasersdk-3.2.0.tar.gz --markdown 20240411/t/toptica-lasersdk/3.1.2-3.2.0/README.md --exclude *.pyd
+[2024-04-11 10:26:36] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2024-04-11 10:26:36] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-2.4.8.tar.gz tmp/playmolecule-2.4.9.tar.gz --markdown 20240411/p/playmolecule/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-11 10:26:36] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.5.2-py2.py3-none-any.whl.zip]
+[2024-04-11 10:26:36] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.7.0-py2.py3-none-any.whl.zip]
+[2024-04-11 10:26:36] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-04-11 10:26:37] INFO root fetch - processPackages [bunkatopics]: Remove: archive file [/home/abi/fetcher/tmp/bunkatopics-0.7.tar.gz]
+[2024-04-11 10:26:37] INFO root fetch - processPackages [bunkatopics]: Remove: archive file [/home/abi/fetcher/tmp/bunkatopics-0.8.tar.gz]
+[2024-04-11 10:26:37] INFO root fetch - main [MainThread]: End processing [bunkatopics]: success
+[2024-04-11 10:26:37] INFO root fetch - processPackages [aspose-diagram]: executing diffoscope
+[2024-04-11 10:26:37] INFO root fetch - processPackages [aspose-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-diagram-24.3.0.tar.gz tmp/aspose-diagram-24.4.0.tar.gz --markdown 20240411/a/aspose-diagram/24.3.0-24.4.0/README.md --exclude *.pyd
+[2024-04-11 10:26:37] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.8.tar.gz]
+[2024-04-11 10:26:37] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.9.tar.gz]
+[2024-04-11 10:26:37] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2024-04-11 10:26:43] INFO root fetch - processPackages [toptica-lasersdk]: Remove: archive file [/home/abi/fetcher/tmp/toptica_lasersdk-3.1.2.tar.gz]
+[2024-04-11 10:26:43] INFO root fetch - processPackages [toptica-lasersdk]: Remove: archive file [/home/abi/fetcher/tmp/toptica_lasersdk-3.2.0.tar.gz]
+[2024-04-11 10:26:43] INFO root fetch - main [MainThread]: End processing [toptica-lasersdk]: success
+[2024-04-11 10:29:37] ERROR root fetch - processPackages [aspose-diagram]: Timeout during execution of pkgdiff
+[2024-04-11 10:29:37] INFO root fetch - main [MainThread]: End processing [aspose-diagram] error
+[2024-04-11 10:29:37] INFO root fetch - main [MainThread]: Store serial: [22716368]

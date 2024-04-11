@@ -20540,3 +20540,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 12:57:16] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.2.tar.gz]
 [2024-04-11 12:57:16] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 12:57:16] INFO root fetch - main [MainThread]: Store serial: [22718485]
+[2024-04-11 12:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718485]
+[2024-04-11 12:59:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-qasm2
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openfabric-pysdk
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: video-images-creator
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyad
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ign8
+[2024-04-11 12:59:26] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 12:59:26] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ign8]: New version: [4.9.3] Old Version: [4.9.2]
+[2024-04-11 12:59:26] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [openfabric-pysdk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 12:59:26] INFO root fetch - processPackages [qiskit-qasm2]: New version: [0.5.3.1] Old Version: [0.5.3]
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a0/5f/211cfed934349b96606ff4618ba070c164ea461840a1aa6b4e5bf47f3a7e/ign8-4.9.2.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [openfabric-pysdk]: Downloading https://files.pythonhosted.org/packages/45/44/8ef59164d4be9ef924f1de02847d99374f2042c7a8f0a85f34eddbeafac6/openfabric_pysdk-0.2.8.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [qiskit-qasm2]: Downloading https://files.pythonhosted.org/packages/aa/73/a38af416f8cda842835a54d0c702b744b324a60677c8b663df500aa8ba63/qiskit_qasm2-0.5.3.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-11 12:59:26] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240411/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 12:59:26] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/ab/4c/0a2ebd4d69b751a965b2895f9603c3e2a217e7cf6307904f0b0a9073a600/ign8-4.9.3.tar.gz
+[2024-04-11 12:59:26] INFO root fetch - processPackages [openfabric-pysdk]: Downloading https://files.pythonhosted.org/packages/be/99/6554476dc80c08f670b6e262b2062ef87ba4cee70b48e3268c12adfbf860/openfabric_pysdk-0.2.9.tar.gz
+[2024-04-11 12:59:27] INFO root fetch - processPackages [qiskit-qasm2]: Downloading https://files.pythonhosted.org/packages/22/b5/c61cd6ddc10e403ef4205cfd35379fc9a3235b472d7c2fc4d1f22904feb6/qiskit_qasm2-0.5.3.1.tar.gz
+[2024-04-11 12:59:27] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 12:59:27] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 12:59:27] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 12:59:27] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.2.tar.gz tmp/ign8-4.9.3.tar.gz --markdown 20240411/i/ign8/4.9.2-4.9.3/README.md --exclude *.pyd
+[2024-04-11 12:59:27] INFO root fetch - processPackages [openfabric-pysdk]: executing diffoscope
+[2024-04-11 12:59:27] INFO root fetch - processPackages [openfabric-pysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfabric_pysdk-0.2.8.tar.gz tmp/openfabric_pysdk-0.2.9.tar.gz --markdown 20240411/o/openfabric-pysdk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 12:59:27] INFO root fetch - processPackages [qiskit-qasm2]: executing diffoscope
+[2024-04-11 12:59:27] INFO root fetch - processPackages [qiskit-qasm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_qasm2-0.5.3.tar.gz tmp/qiskit_qasm2-0.5.3.1.tar.gz --markdown 20240411/q/qiskit-qasm2/0.5.3-0.5.3.1/README.md --exclude *.pyd
+[2024-04-11 12:59:27] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-11 12:59:27] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-11 12:59:27] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-11 12:59:28] INFO root fetch - processPackages [qiskit-qasm2]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_qasm2-0.5.3.tar.gz]
+[2024-04-11 12:59:28] INFO root fetch - processPackages [qiskit-qasm2]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_qasm2-0.5.3.1.tar.gz]
+[2024-04-11 12:59:28] INFO root fetch - main [MainThread]: End processing [qiskit-qasm2]: success
+[2024-04-11 12:59:28] INFO root fetch - processPackages [openfabric-pysdk]: Remove: archive file [/home/abi/fetcher/tmp/openfabric_pysdk-0.2.8.tar.gz]
+[2024-04-11 12:59:28] INFO root fetch - processPackages [openfabric-pysdk]: Remove: archive file [/home/abi/fetcher/tmp/openfabric_pysdk-0.2.9.tar.gz]
+[2024-04-11 12:59:28] INFO root fetch - main [MainThread]: End processing [openfabric-pysdk]: success
+[2024-04-11 12:59:28] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 12:59:28] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 12:59:28] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 12:59:30] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.2.tar.gz]
+[2024-04-11 12:59:30] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.3.tar.gz]
+[2024-04-11 12:59:30] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 12:59:30] INFO root fetch - main [MainThread]: Store serial: [22718499]

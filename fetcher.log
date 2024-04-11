@@ -14563,3 +14563,18 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:11:14] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.1.tar.gz]
 [2024-04-11 10:11:14] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-11 10:11:14] INFO root fetch - main [MainThread]: Store serial: [22716147]
+[2024-04-11 10:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716147]
+[2024-04-11 10:13:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 10:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onyxpm
+[2024-04-11 10:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thonny-etboard-micropython-firmware
+[2024-04-11 10:13:25] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-04-11 10:13:25] WARNING root fetch - processPackages [onyxpm]: Skipping, unable to determine old version
+[2024-04-11 10:13:25] INFO root fetch - main [MainThread]: End processing [onyxpm] error
+[2024-04-11 10:13:25] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Downloading https://files.pythonhosted.org/packages/26/19/d4d9aa4351c2e0b390f440059502f055fc20e2e3e2e0664eaa2efe0c468c/thonny-etboard-micropython-firmware-1.0.1.tar.gz
+[2024-04-11 10:13:25] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Downloading https://files.pythonhosted.org/packages/44/19/b74869a0fe9415152a544e486bb64f1f3666849b31a5bc4dbda3be6b3eff/thonny-etboard-micropython-firmware-1.0.3.tar.gz
+[2024-04-11 10:13:25] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: executing diffoscope
+[2024-04-11 10:13:25] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-etboard-micropython-firmware-1.0.1.tar.gz tmp/thonny-etboard-micropython-firmware-1.0.3.tar.gz --markdown 20240411/t/thonny-etboard-micropython-firmware/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-04-11 10:13:26] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-1.0.1.tar.gz]
+[2024-04-11 10:13:26] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-1.0.3.tar.gz]
+[2024-04-11 10:13:26] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware]: success
+[2024-04-11 10:13:26] INFO root fetch - main [MainThread]: Store serial: [22716153]

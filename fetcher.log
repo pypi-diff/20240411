@@ -21816,3 +21816,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:51:18] INFO root fetch - processPackages [antchain-yuqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yuqing-1.2.9.tar.gz]
 [2024-04-11 13:51:18] INFO root fetch - main [MainThread]: End processing [antchain-yuqing]: success
 [2024-04-11 13:51:18] INFO root fetch - main [MainThread]: Store serial: [22719064]
+[2024-04-11 13:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719064]
+[2024-04-11 13:53:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 13:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smad-legi-extractor-meldebescheinigung-plausible
+[2024-04-11 13:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentralify
+[2024-04-11 13:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cumo
+[2024-04-11 13:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: so-ml-tools
+[2024-04-11 13:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smad-legi-meldebescheinigung-extraction
+[2024-04-11 13:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ERA-V2-Architecture
+[2024-04-11 13:53:28] INFO root fetch - processPackages [ERA-V2-Architecture]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 13:53:28] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-11 13:53:28] INFO root fetch - processPackages [cumo]: New version: [0.33.0] Old Version: [0.32.0]
+[2024-04-11 13:53:28] WARNING root fetch - processPackages [smad-legi-extractor-meldebescheinigung-plausible]: Skipping, unable to determine old version
+[2024-04-11 13:53:28] INFO root fetch - main [MainThread]: End processing [smad-legi-extractor-meldebescheinigung-plausible] error
+[2024-04-11 13:53:28] WARNING root fetch - processPackages [smad-legi-meldebescheinigung-extraction]: Skipping, unable to determine old version
+[2024-04-11 13:53:28] INFO root fetch - main [MainThread]: End processing [smad-legi-meldebescheinigung-extraction] error
+[2024-04-11 13:53:28] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-11 13:53:28] INFO root fetch - processPackages [sentralify]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-11 13:53:29] INFO root fetch - processPackages [ERA-V2-Architecture]: Downloading https://files.pythonhosted.org/packages/ae/56/0bda86001400495dca76028f7bdca5967b8f9160c8fcdc7013b36139d554/ERA_V2_Architecture-0.1.1.tar.gz
+[2024-04-11 13:53:29] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/c6/97/4e267fcf50a95da84d68c54b7027091d8fa3a00968c7a3749ff081624afa/cumo-0.32.0.tar.gz
+[2024-04-11 13:53:29] INFO root fetch - processPackages [sentralify]: Downloading https://files.pythonhosted.org/packages/f2/f2/df145728dee8f004766fa317659e0dd27dad4d6ddc515a79de2d22b362eb/sentralify-1.2.4.tar.gz
+[2024-04-11 13:53:29] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-11 13:53:29] INFO root fetch - processPackages [ERA-V2-Architecture]: Downloading https://files.pythonhosted.org/packages/84/38/32e9d243c5609533736f4868627d95bfcd9427c32f50c5c62f5c7131d2a5/ERA_V2_Architecture-0.1.2.tar.gz
+[2024-04-11 13:53:29] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-11 13:53:29] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240411/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-11 13:53:29] INFO root fetch - processPackages [ERA-V2-Architecture]: executing diffoscope
+[2024-04-11 13:53:29] INFO root fetch - processPackages [ERA-V2-Architecture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ERA_V2_Architecture-0.1.1.tar.gz tmp/ERA_V2_Architecture-0.1.2.tar.gz --markdown 20240411/E/ERA-V2-Architecture/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 13:53:29] INFO root fetch - processPackages [sentralify]: Downloading https://files.pythonhosted.org/packages/8f/cd/efa6c42ae0b6995ada134be361bcd2e47c6bdad0ed2b769722c510d3f023/sentralify-1.2.5.tar.gz
+[2024-04-11 13:53:29] INFO root fetch - processPackages [sentralify]: executing diffoscope
+[2024-04-11 13:53:29] INFO root fetch - processPackages [sentralify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentralify-1.2.4.tar.gz tmp/sentralify-1.2.5.tar.gz --markdown 20240411/s/sentralify/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-11 13:53:29] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/f4/54/1a90c6ded607e34974eeb77d5a49ed017e51ce5e7a684eefcb778f8bbfbb/cumo-0.33.0.tar.gz
+[2024-04-11 13:53:29] INFO root fetch - processPackages [ERA-V2-Architecture]: Remove: archive file [/home/abi/fetcher/tmp/ERA_V2_Architecture-0.1.1.tar.gz]
+[2024-04-11 13:53:29] INFO root fetch - processPackages [ERA-V2-Architecture]: Remove: archive file [/home/abi/fetcher/tmp/ERA_V2_Architecture-0.1.2.tar.gz]
+[2024-04-11 13:53:29] INFO root fetch - main [MainThread]: End processing [ERA-V2-Architecture]: success
+[2024-04-11 13:53:29] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-11 13:53:29] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-11 13:53:29] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-11 13:53:30] INFO root fetch - processPackages [cumo]: executing diffoscope
+[2024-04-11 13:53:30] INFO root fetch - processPackages [cumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumo-0.32.0.tar.gz tmp/cumo-0.33.0.tar.gz --markdown 20240411/c/cumo/0.32.0-0.33.0/README.md --exclude *.pyd
+[2024-04-11 13:53:30] INFO root fetch - processPackages [sentralify]: Remove: archive file [/home/abi/fetcher/tmp/sentralify-1.2.4.tar.gz]
+[2024-04-11 13:53:30] INFO root fetch - processPackages [sentralify]: Remove: archive file [/home/abi/fetcher/tmp/sentralify-1.2.5.tar.gz]
+[2024-04-11 13:53:30] INFO root fetch - main [MainThread]: End processing [sentralify]: success
+[2024-04-11 13:53:57] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.32.0.tar.gz]
+[2024-04-11 13:53:57] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.0.tar.gz]
+[2024-04-11 13:53:57] INFO root fetch - main [MainThread]: End processing [cumo]: success
+[2024-04-11 13:53:57] INFO root fetch - main [MainThread]: Store serial: [22719088]

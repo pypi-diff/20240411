@@ -20171,3 +20171,36 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:41:43] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-04-11 12:41:43] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-04-11 12:41:43] INFO root fetch - main [MainThread]: Store serial: [22718338]
+[2024-04-11 12:43:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718338]
+[2024-04-11 12:43:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 12:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign8
+[2024-04-11 12:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: illuminatapp
+[2024-04-11 12:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: table-schema-to-markdown
+[2024-04-11 12:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kidash
+[2024-04-11 12:43:53] INFO root fetch - processPackages [table-schema-to-markdown]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-11 12:43:53] WARNING root fetch - processPackages [illuminatapp]: Skipping, unable to determine old version
+[2024-04-11 12:43:53] INFO root fetch - main [MainThread]: End processing [illuminatapp] error
+[2024-04-11 12:43:53] INFO root fetch - processPackages [ign8]: New version: [4.8.50] Old Version: [4.8.5]
+[2024-04-11 12:43:53] INFO root fetch - processPackages [table-schema-to-markdown]: Downloading https://files.pythonhosted.org/packages/8c/f1/8a519beb3268896ebc12a7c48ab33779bd79bdecd6a7d0466ef269000b48/table_schema_to_markdown-0.4.8-py3-none-any.whl
+[2024-04-11 12:43:53] INFO root fetch - processPackages [kidash]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 12:43:53] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 12:43:54] INFO root fetch - processPackages [table-schema-to-markdown]: Downloading https://files.pythonhosted.org/packages/81/f3/839e05c1c2ca37d21326bcf34cca25b8025249169e38f9113e5f27e0975c/table_schema_to_markdown-0.4.9-py3-none-any.whl
+[2024-04-11 12:43:54] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/9b/c6/8d0e3c8677a5e634b9c95652ea1a5906d30cf41b390439cc6e9a1b114988/kidash-1.0.0rc1.tar.gz
+[2024-04-11 12:43:54] INFO root fetch - processPackages [table-schema-to-markdown]: executing diffoscope
+[2024-04-11 12:43:54] INFO root fetch - processPackages [table-schema-to-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/table_schema_to_markdown-0.4.8-py3-none-any.whl.zip tmp/table_schema_to_markdown-0.4.9-py3-none-any.whl.zip --markdown 20240411/t/table-schema-to-markdown/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-11 12:43:54] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/7c/46/03700bbc8f7eb0d8350d7c546f3db0505443522d3f3283e365b9dcb279d8/ign8-4.8.50.tar.gz
+[2024-04-11 12:43:54] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/f0/44/a3737fdc43884e7c0446c9d4a064f55042c9c89cb9757fd55e6f07bd8f6c/kidash-1.0.0rc2.tar.gz
+[2024-04-11 12:43:54] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2024-04-11 12:43:54] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-1.0.0rc1.tar.gz tmp/kidash-1.0.0rc2.tar.gz --markdown 20240411/k/kidash/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 12:43:54] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 12:43:54] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.5.tar.gz tmp/ign8-4.8.50.tar.gz --markdown 20240411/i/ign8/4.8.5-4.8.50/README.md --exclude *.pyd
+[2024-04-11 12:43:54] INFO root fetch - processPackages [table-schema-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/table_schema_to_markdown-0.4.8-py3-none-any.whl.zip]
+[2024-04-11 12:43:54] INFO root fetch - processPackages [table-schema-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/table_schema_to_markdown-0.4.9-py3-none-any.whl.zip]
+[2024-04-11 12:43:54] INFO root fetch - main [MainThread]: End processing [table-schema-to-markdown]: success
+[2024-04-11 12:43:55] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-1.0.0rc1.tar.gz]
+[2024-04-11 12:43:55] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-1.0.0rc2.tar.gz]
+[2024-04-11 12:43:55] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2024-04-11 12:43:57] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 12:43:57] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.50.tar.gz]
+[2024-04-11 12:43:57] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 12:43:57] INFO root fetch - main [MainThread]: Store serial: [22718353]

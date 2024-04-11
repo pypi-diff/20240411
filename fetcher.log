@@ -10918,3 +10918,21 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:15:19] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export_xml-15.0.1.0.1-py3-none-any.whl.zip]
 [2024-04-11 06:15:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-datev-export-xml]: success
 [2024-04-11 06:15:19] INFO root fetch - main [MainThread]: Store serial: [22714263]
+[2024-04-11 06:17:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714263]
+[2024-04-11 06:17:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 06:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-pro
+[2024-04-11 06:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gorilla-execution-engine
+[2024-04-11 06:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goex
+[2024-04-11 06:17:28] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 06:17:28] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-11 06:17:28] WARNING root fetch - processPackages [gorilla-execution-engine]: Skipping, unable to determine old version
+[2024-04-11 06:17:28] INFO root fetch - main [MainThread]: End processing [gorilla-execution-engine] error
+[2024-04-11 06:17:28] WARNING root fetch - processPackages [goex]: Skipping, unable to determine old version
+[2024-04-11 06:17:28] INFO root fetch - main [MainThread]: End processing [goex] error
+[2024-04-11 06:17:28] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-11 06:17:28] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-11 06:17:28] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240411/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 06:17:29] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-11 06:17:29] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-11 06:17:29] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-11 06:17:29] INFO root fetch - main [MainThread]: Store serial: [22714274]

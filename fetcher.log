@@ -21570,3 +21570,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:39:58] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.9.0.tar.gz]
 [2024-04-11 13:39:58] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
 [2024-04-11 13:39:58] INFO root fetch - main [MainThread]: Store serial: [22718946]
+[2024-04-11 13:42:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718946]
+[2024-04-11 13:42:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-screen-stats
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taxhub
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polynomial-generator
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-customvueadmin
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcelogger
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smad-legi-id-extraction-donut
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ethyca-fides
+[2024-04-11 13:42:07] WARNING root fetch - processPackages [django-customvueadmin]: Skipping, unable to determine old version
+[2024-04-11 13:42:07] INFO root fetch - main [MainThread]: End processing [django-customvueadmin] error
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-11 13:42:07] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 13:42:07] INFO root fetch - processPackages [polynomial-generator]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 13:42:07] INFO root fetch - processPackages [bcelogger]: New version: [1.2.0.2] Old Version: [1.2.0.1]
+[2024-04-11 13:42:07] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-11 13:42:07] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-04-11 13:42:07] INFO root fetch - processPackages [taxhub]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-11 13:42:07] WARNING root fetch - processPackages [smad-legi-id-extraction-donut]: Skipping, unable to determine old version
+[2024-04-11 13:42:07] INFO root fetch - main [MainThread]: End processing [smad-legi-id-extraction-donut] error
+[2024-04-11 13:42:07] INFO root fetch - processPackages [polynomial-generator]: Downloading https://files.pythonhosted.org/packages/7f/2d/05d0cba044a5421266141eb0c6741093d372ee154ce414144f84cb463a8e/polynomial_generator-0.1.0.tar.gz
+[2024-04-11 13:42:07] INFO root fetch - processPackages [bcelogger]: Downloading https://files.pythonhosted.org/packages/d4/77/ab5d0f819cfb7e1c066c4daa2b21c7c94478c1593c2419e67c4620fec5e2/bcelogger-1.2.0.1-py3-none-any.whl
+[2024-04-11 13:42:07] INFO root fetch - processPackages [taxhub]: Downloading https://files.pythonhosted.org/packages/fd/75/01b426153cfc0ef6a9b67a464442af324bd76c656db7c4fe44559fa46536/taxhub-1.9.3.tar.gz
+[2024-04-11 13:42:07] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-04-11 13:42:08] INFO root fetch - processPackages [polynomial-generator]: Downloading https://files.pythonhosted.org/packages/f8/07/4ef968a626a2c2c9cb09735c010663040f4fd0ac358c87b383ee6ecbb110/polynomial_generator-0.1.1.tar.gz
+[2024-04-11 13:42:08] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-04-11 13:42:08] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240411/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 13:42:08] INFO root fetch - processPackages [bcelogger]: Downloading https://files.pythonhosted.org/packages/3b/4e/e2ee35f3f93ae5f29ecce466d91065a007af62fe2348aa706a28554f2fe3/bcelogger-1.2.0.2-py3-none-any.whl
+[2024-04-11 13:42:08] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-11 13:42:08] INFO root fetch - processPackages [taxhub]: Downloading https://files.pythonhosted.org/packages/89/88/a9a6e22ed0a383aacf3e111b9ff77bcef44a8b8713b63ff908e99841d8e5/taxhub-1.9.4.tar.gz
+[2024-04-11 13:42:08] INFO root fetch - processPackages [polynomial-generator]: executing diffoscope
+[2024-04-11 13:42:08] INFO root fetch - processPackages [polynomial-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polynomial_generator-0.1.0.tar.gz tmp/polynomial_generator-0.1.1.tar.gz --markdown 20240411/p/polynomial-generator/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 13:42:08] INFO root fetch - processPackages [bcelogger]: executing diffoscope
+[2024-04-11 13:42:08] INFO root fetch - processPackages [bcelogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcelogger-1.2.0.1-py3-none-any.whl.zip tmp/bcelogger-1.2.0.2-py3-none-any.whl.zip --markdown 20240411/b/bcelogger/1.2.0.1-1.2.0.2/README.md --exclude *.pyd
+[2024-04-11 13:42:08] INFO root fetch - processPackages [taxhub]: executing diffoscope
+[2024-04-11 13:42:08] INFO root fetch - processPackages [taxhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxhub-1.9.3.tar.gz tmp/taxhub-1.9.4.tar.gz --markdown 20240411/t/taxhub/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-04-11 13:42:08] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-11 13:42:08] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240411/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-11 13:42:08] INFO root fetch - processPackages [polynomial-generator]: Remove: archive file [/home/abi/fetcher/tmp/polynomial_generator-0.1.0.tar.gz]
+[2024-04-11 13:42:08] INFO root fetch - processPackages [polynomial-generator]: Remove: archive file [/home/abi/fetcher/tmp/polynomial_generator-0.1.1.tar.gz]
+[2024-04-11 13:42:08] INFO root fetch - main [MainThread]: End processing [polynomial-generator]: success
+[2024-04-11 13:42:08] INFO root fetch - processPackages [bcelogger]: Remove: archive file [/home/abi/fetcher/tmp/bcelogger-1.2.0.1-py3-none-any.whl.zip]
+[2024-04-11 13:42:08] INFO root fetch - processPackages [bcelogger]: Remove: archive file [/home/abi/fetcher/tmp/bcelogger-1.2.0.2-py3-none-any.whl.zip]
+[2024-04-11 13:42:08] INFO root fetch - main [MainThread]: End processing [bcelogger]: success
+[2024-04-11 13:42:09] INFO root fetch - processPackages [taxhub]: Remove: archive file [/home/abi/fetcher/tmp/taxhub-1.9.3.tar.gz]
+[2024-04-11 13:42:09] INFO root fetch - processPackages [taxhub]: Remove: archive file [/home/abi/fetcher/tmp/taxhub-1.9.4.tar.gz]
+[2024-04-11 13:42:09] INFO root fetch - main [MainThread]: End processing [taxhub]: success
+[2024-04-11 13:42:11] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-11 13:42:11] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-11 13:42:11] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-11 13:42:21] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-04-11 13:42:21] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-04-11 13:42:21] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-04-11 13:42:21] INFO root fetch - main [MainThread]: Store serial: [22718970]

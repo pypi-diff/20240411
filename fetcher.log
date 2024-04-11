@@ -10614,3 +10614,15 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:51:14] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.2.tar.gz]
 [2024-04-11 05:51:14] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
 [2024-04-11 05:51:14] INFO root fetch - main [MainThread]: Store serial: [22714105]
+[2024-04-11 05:53:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714105]
+[2024-04-11 05:53:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 05:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argsense
+[2024-04-11 05:53:23] INFO root fetch - processPackages [argsense]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-11 05:53:23] INFO root fetch - processPackages [argsense]: Downloading https://files.pythonhosted.org/packages/06/6f/b5e2980e7fdbfccd180d1f530758097358aa3fc56c2bb26f100f9aeb4962/argsense-0.5.6-py3-none-any.whl
+[2024-04-11 05:53:24] INFO root fetch - processPackages [argsense]: Downloading https://files.pythonhosted.org/packages/63/b9/e5d4458453f277ac2603d8d876baca878a735c2f792a1825fd3e657625d9/argsense-0.5.7-py3-none-any.whl
+[2024-04-11 05:53:24] INFO root fetch - processPackages [argsense]: executing diffoscope
+[2024-04-11 05:53:24] INFO root fetch - processPackages [argsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argsense-0.5.6-py3-none-any.whl.zip tmp/argsense-0.5.7-py3-none-any.whl.zip --markdown 20240411/a/argsense/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-11 05:53:25] INFO root fetch - processPackages [argsense]: Remove: archive file [/home/abi/fetcher/tmp/argsense-0.5.6-py3-none-any.whl.zip]
+[2024-04-11 05:53:25] INFO root fetch - processPackages [argsense]: Remove: archive file [/home/abi/fetcher/tmp/argsense-0.5.7-py3-none-any.whl.zip]
+[2024-04-11 05:53:25] INFO root fetch - main [MainThread]: End processing [argsense]: success
+[2024-04-11 05:53:25] INFO root fetch - main [MainThread]: Store serial: [22714109]

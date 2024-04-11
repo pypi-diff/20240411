@@ -11658,3 +11658,50 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:24:56] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
 [2024-04-11 07:24:56] INFO root fetch - main [MainThread]: End processing [fnschool]: success
 [2024-04-11 07:24:56] INFO root fetch - main [MainThread]: Store serial: [22714623]
+[2024-04-11 07:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714623]
+[2024-04-11 07:27:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 07:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: headline-gen
+[2024-04-11 07:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2024-04-11 07:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qrawl
+[2024-04-11 07:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradio-huggingfacehub-search
+[2024-04-11 07:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickapiclient
+[2024-04-11 07:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Anchor-annotator
+[2024-04-11 07:27:05] INFO root fetch - processPackages [qrawl]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-11 07:27:05] INFO root fetch - processPackages [headline-gen]: New version: [1.1] Old Version: [1.0]
+[2024-04-11 07:27:05] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/b9/4c/a90ecd3585b14666b7a53638a2896605cf6ec7fa918784b03a9b072a6902/qrawl-0.1.2.tar.gz
+[2024-04-11 07:27:05] INFO root fetch - processPackages [Anchor-annotator]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-11 07:27:05] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/a9/d8/ecac75f7ad80b34e5559b1b650b38b64847c17a23f50a4e5141c20e3b3bb/headline-gen-1.0.tar.gz
+[2024-04-11 07:27:05] INFO root fetch - processPackages [anyon]: New version: [4.1.6] Old Version: [4.1.5]
+[2024-04-11 07:27:05] WARNING root fetch - processPackages [gradio-huggingfacehub-search]: Skipping, unable to determine old version
+[2024-04-11 07:27:05] INFO root fetch - main [MainThread]: End processing [gradio-huggingfacehub-search] error
+[2024-04-11 07:27:05] INFO root fetch - processPackages [quickapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 07:27:05] INFO root fetch - processPackages [Anchor-annotator]: Downloading https://files.pythonhosted.org/packages/a6/63/b16fcd3ef9183dd23f3ad0a4eca7f9fdfb50c9da095a5cddd33a5b9fb8c6/Anchor_annotator-0.1.0.tar.gz
+[2024-04-11 07:27:05] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/3a/4d/7b7aa76ce9b32c8eedd801ec61240d02e321c387fca969eab45a7be5146c/anyon-4.1.5-cp312-none-win_amd64.whl
+[2024-04-11 07:27:05] INFO root fetch - processPackages [quickapiclient]: Downloading https://files.pythonhosted.org/packages/72/a3/acd4c723641b896f6937d1b9dad6f9aca30b2cfc258e6da0ef26bb1082ee/quickapiclient-0.0.8.tar.gz
+[2024-04-11 07:27:05] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/52/d9/7d6e1e4dd7c556398ea2bad371cebe2de7cb9ebf8a08a68765156f770a9d/qrawl-0.1.3.tar.gz
+[2024-04-11 07:27:05] WARNING root fetch - processPackages [Anchor-annotator]: Skipping package: exceeds size limit 14676664>=10485760
+[2024-04-11 07:27:05] INFO root fetch - main [MainThread]: End processing [Anchor-annotator] error
+[2024-04-11 07:27:05] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/38/35/80033465db86572909d08484ce9f8ab66155bfb7e54b7c18568e611762a0/headline-gen-1.1.tar.gz
+[2024-04-11 07:27:06] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-04-11 07:27:06] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.2.tar.gz tmp/qrawl-0.1.3.tar.gz --markdown 20240411/q/qrawl/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-11 07:27:06] INFO root fetch - processPackages [headline-gen]: executing diffoscope
+[2024-04-11 07:27:06] INFO root fetch - processPackages [headline-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headline-gen-1.0.tar.gz tmp/headline-gen-1.1.tar.gz --markdown 20240411/h/headline-gen/1.0-1.1/README.md --exclude *.pyd
+[2024-04-11 07:27:06] INFO root fetch - processPackages [quickapiclient]: Downloading https://files.pythonhosted.org/packages/df/10/0717d613eaa8b6b545d52387f8d50163fcfe48c6ba1f38a1349c2b7add04/quickapiclient-0.0.9.tar.gz
+[2024-04-11 07:27:06] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/fc/a8/7181c992be84b95e6a6e4d780902b04a03a2195acc5630dad4dae8f0885f/anyon-4.1.6-cp312-none-win_amd64.whl
+[2024-04-11 07:27:06] INFO root fetch - processPackages [quickapiclient]: executing diffoscope
+[2024-04-11 07:27:06] INFO root fetch - processPackages [quickapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickapiclient-0.0.8.tar.gz tmp/quickapiclient-0.0.9.tar.gz --markdown 20240411/q/quickapiclient/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 07:27:06] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2024-04-11 07:27:06] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-4.1.5-cp312-none-win_amd64.whl.zip tmp/anyon-4.1.6-cp312-none-win_amd64.whl.zip --markdown 20240411/a/anyon/4.1.5-4.1.6/README.md --exclude *.pyd
+[2024-04-11 07:27:06] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-1.0.tar.gz]
+[2024-04-11 07:27:06] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-1.1.tar.gz]
+[2024-04-11 07:27:06] INFO root fetch - main [MainThread]: End processing [headline-gen]: success
+[2024-04-11 07:27:06] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.2.tar.gz]
+[2024-04-11 07:27:06] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.3.tar.gz]
+[2024-04-11 07:27:06] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-04-11 07:27:06] INFO root fetch - processPackages [quickapiclient]: Remove: archive file [/home/abi/fetcher/tmp/quickapiclient-0.0.8.tar.gz]
+[2024-04-11 07:27:06] INFO root fetch - processPackages [quickapiclient]: Remove: archive file [/home/abi/fetcher/tmp/quickapiclient-0.0.9.tar.gz]
+[2024-04-11 07:27:06] INFO root fetch - main [MainThread]: End processing [quickapiclient]: success
+[2024-04-11 07:27:07] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.5-cp312-none-win_amd64.whl.zip]
+[2024-04-11 07:27:07] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.6-cp312-none-win_amd64.whl.zip]
+[2024-04-11 07:27:07] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2024-04-11 07:27:07] INFO root fetch - main [MainThread]: Store serial: [22714646]

@@ -13627,3 +13627,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:20:52] INFO root fetch - processPackages [Py-BOBYQA]: Remove: archive file [/home/abi/fetcher/tmp/Py-BOBYQA-1.4.1.tar.gz]
 [2024-04-11 09:20:52] INFO root fetch - main [MainThread]: End processing [Py-BOBYQA]: success
 [2024-04-11 09:20:52] INFO root fetch - main [MainThread]: Store serial: [22715688]
+[2024-04-11 09:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715688]
+[2024-04-11 09:23:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oskui
+[2024-04-11 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mazegroup
+[2024-04-11 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotgen
+[2024-04-11 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnspooh
+[2024-04-11 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcimboldo
+[2024-04-11 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: circuitpython-mcp48xx
+[2024-04-11 09:23:01] INFO root fetch - processPackages [mazegroup]: New version: [0.1.3.2] Old Version: [0.1.3.1]
+[2024-04-11 09:23:01] INFO root fetch - processPackages [plotgen]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-11 09:23:01] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/7b/83/b3b0e545f61039fb93b240921b472161c74c6a80d37d40a73106a5d7b686/mazegroup-0.1.3.1.tar.gz
+[2024-04-11 09:23:02] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/82/a0/8dbe948c2fd349d77a62892d410fadf6c8effd60e1a68c9ddc585d34cc15/plotgen-0.8.8-py3-none-any.whl
+[2024-04-11 09:23:02] INFO root fetch - processPackages [arcimboldo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 09:23:02] WARNING root fetch - processPackages [circuitpython-mcp48xx]: Skipping, unable to determine old version
+[2024-04-11 09:23:02] INFO root fetch - main [MainThread]: End processing [circuitpython-mcp48xx] error
+[2024-04-11 09:23:02] INFO root fetch - processPackages [dnspooh]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-11 09:23:02] INFO root fetch - processPackages [oskui]: New version: [0.14.1] Old Version: [0.13.8]
+[2024-04-11 09:23:02] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/e3/10/b2a618824599f955de880243750350623751df1ba7e06f954a6c0a7128d8/mazegroup-0.1.3.2.tar.gz
+[2024-04-11 09:23:02] INFO root fetch - processPackages [dnspooh]: Downloading https://files.pythonhosted.org/packages/af/a0/3309a130adb57996cd4e5fb70300f1241438f441b2d853828bdf28599c63/dnspooh-1.3.1.tar.gz
+[2024-04-11 09:23:02] INFO root fetch - processPackages [oskui]: Downloading https://files.pythonhosted.org/packages/2d/79/b5526546a3ac97b588a805e6458008a9cd23ab66a298413044f59c6d8de4/oskui-0.13.8.tar.gz
+[2024-04-11 09:23:02] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/fc/01/b63cc63fb60f02349d59c48b26db7629ae04b5023d7a3ce1c60efc7b268e/plotgen-0.8.9-py3-none-any.whl
+[2024-04-11 09:23:02] INFO root fetch - processPackages [arcimboldo]: Downloading https://files.pythonhosted.org/packages/81/14/fb1cbb646a1532839fbadeed1637ada4c724ac36e0e5d77422ff4eb6ff1c/arcimboldo-1.0.8-py2.py3-none-any.whl
+[2024-04-11 09:23:02] INFO root fetch - processPackages [mazegroup]: executing diffoscope
+[2024-04-11 09:23:02] INFO root fetch - processPackages [mazegroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazegroup-0.1.3.1.tar.gz tmp/mazegroup-0.1.3.2.tar.gz --markdown 20240411/m/mazegroup/0.1.3.1-0.1.3.2/README.md --exclude *.pyd
+[2024-04-11 09:23:02] INFO root fetch - processPackages [plotgen]: executing diffoscope
+[2024-04-11 09:23:02] INFO root fetch - processPackages [plotgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotgen-0.8.8-py3-none-any.whl.zip tmp/plotgen-0.8.9-py3-none-any.whl.zip --markdown 20240411/p/plotgen/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-11 09:23:02] INFO root fetch - processPackages [oskui]: Downloading https://files.pythonhosted.org/packages/67/4f/9e4f4a700264e30f1c33712904547f2a30fba37c5571c3e3ac3773253678/oskui-0.14.1.tar.gz
+[2024-04-11 09:23:02] INFO root fetch - processPackages [oskui]: executing diffoscope
+[2024-04-11 09:23:02] INFO root fetch - processPackages [oskui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oskui-0.13.8.tar.gz tmp/oskui-0.14.1.tar.gz --markdown 20240411/o/oskui/0.13.8-0.14.1/README.md --exclude *.pyd
+[2024-04-11 09:23:02] INFO root fetch - processPackages [arcimboldo]: Downloading https://files.pythonhosted.org/packages/ab/30/03c814c5fb626efb75b883e5cae75cd95539e4ab2c59d8a3040660ca1f8e/arcimboldo-1.0.9-py2.py3-none-any.whl
+[2024-04-11 09:23:02] INFO root fetch - processPackages [dnspooh]: Downloading https://files.pythonhosted.org/packages/17/4e/3805c1a8f34720302a65ecfd5643067769967fbcacea5e853f3dc000ffc9/dnspooh-1.3.2.tar.gz
+[2024-04-11 09:23:02] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.3.1.tar.gz]
+[2024-04-11 09:23:02] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.3.2.tar.gz]
+[2024-04-11 09:23:02] INFO root fetch - main [MainThread]: End processing [mazegroup]: success
+[2024-04-11 09:23:02] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.8.8-py3-none-any.whl.zip]
+[2024-04-11 09:23:02] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.8.9-py3-none-any.whl.zip]
+[2024-04-11 09:23:02] INFO root fetch - main [MainThread]: End processing [plotgen]: success
+[2024-04-11 09:23:03] INFO root fetch - processPackages [dnspooh]: executing diffoscope
+[2024-04-11 09:23:03] INFO root fetch - processPackages [dnspooh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnspooh-1.3.1.tar.gz tmp/dnspooh-1.3.2.tar.gz --markdown 20240411/d/dnspooh/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-11 09:23:03] INFO root fetch - processPackages [arcimboldo]: executing diffoscope
+[2024-04-11 09:23:03] INFO root fetch - processPackages [arcimboldo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcimboldo-1.0.8-py2.py3-none-any.whl.zip tmp/arcimboldo-1.0.9-py2.py3-none-any.whl.zip --markdown 20240411/a/arcimboldo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 09:23:03] INFO root fetch - processPackages [oskui]: Remove: archive file [/home/abi/fetcher/tmp/oskui-0.13.8.tar.gz]
+[2024-04-11 09:23:03] INFO root fetch - processPackages [oskui]: Remove: archive file [/home/abi/fetcher/tmp/oskui-0.14.1.tar.gz]
+[2024-04-11 09:23:03] INFO root fetch - main [MainThread]: End processing [oskui]: success
+[2024-04-11 09:23:03] INFO root fetch - processPackages [dnspooh]: Remove: archive file [/home/abi/fetcher/tmp/dnspooh-1.3.1.tar.gz]
+[2024-04-11 09:23:03] INFO root fetch - processPackages [dnspooh]: Remove: archive file [/home/abi/fetcher/tmp/dnspooh-1.3.2.tar.gz]
+[2024-04-11 09:23:03] INFO root fetch - main [MainThread]: End processing [dnspooh]: success
+[2024-04-11 09:23:07] INFO root fetch - processPackages [arcimboldo]: Remove: archive file [/home/abi/fetcher/tmp/arcimboldo-1.0.8-py2.py3-none-any.whl.zip]
+[2024-04-11 09:23:07] INFO root fetch - processPackages [arcimboldo]: Remove: archive file [/home/abi/fetcher/tmp/arcimboldo-1.0.9-py2.py3-none-any.whl.zip]
+[2024-04-11 09:23:07] INFO root fetch - main [MainThread]: End processing [arcimboldo]: success
+[2024-04-11 09:23:07] INFO root fetch - main [MainThread]: Store serial: [22715705]

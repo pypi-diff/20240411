@@ -8637,3 +8637,36 @@ EOFError: EOF read where object expected
 [2024-04-11 04:01:12] INFO root fetch - processPackages [simulariumio]: Remove: archive file [/home/abi/fetcher/tmp/simulariumio-1.9.1.tar.gz]
 [2024-04-11 04:01:12] INFO root fetch - main [MainThread]: End processing [simulariumio]: success
 [2024-04-11 04:01:12] INFO root fetch - main [MainThread]: Store serial: [22713218]
+[2024-04-11 04:03:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713218]
+[2024-04-11 04:03:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-04-11 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-lyl
+[2024-04-11 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: five-strips-of-bacon
+[2024-04-11 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collective.blog
+[2024-04-11 04:03:20] INFO root fetch - processPackages [five-strips-of-bacon]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 04:03:20] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.11.9.56.0]
+[2024-04-11 04:03:21] INFO root fetch - processPackages [collective.blog]: New version: [1.0a1] Old Version: [1.0.0a9]
+[2024-04-11 04:03:21] WARNING root fetch - processPackages [example-package-lyl]: Skipping, unable to determine old version
+[2024-04-11 04:03:21] INFO root fetch - main [MainThread]: End processing [example-package-lyl] error
+[2024-04-11 04:03:21] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/a9/9a/37432b52373d6150358702b5185cb22e55f1bcca2975f3959013b0972ff6/five_strips_of_bacon-0.1.0.tar.gz
+[2024-04-11 04:03:21] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/d3/6d/c4d3f25e7f0095c10be72dd4932ccd5ef6b61e1ebd7c650bd6461dca9e67/chatllm-2024.4.11.9.56.0.tar.gz
+[2024-04-11 04:03:21] INFO root fetch - processPackages [collective.blog]: Downloading https://files.pythonhosted.org/packages/d0/09/25a0f8a1264b566a5fbb2603f33e282d6d4472b4935ff8069519ebe4a3e9/collective.blog-1.0.0a9.tar.gz
+[2024-04-11 04:03:21] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/02/90/a1612d0ba8e3dede9752de0bdc39adc547d6ad139eda72ac6405dbb2fdf6/five_strips_of_bacon-0.1.1.tar.gz
+[2024-04-11 04:03:21] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-11 04:03:21] INFO root fetch - processPackages [five-strips-of-bacon]: executing diffoscope
+[2024-04-11 04:03:21] INFO root fetch - processPackages [five-strips-of-bacon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_strips_of_bacon-0.1.0.tar.gz tmp/five_strips_of_bacon-0.1.1.tar.gz --markdown 20240411/f/five-strips-of-bacon/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 04:03:21] INFO root fetch - processPackages [collective.blog]: Downloading https://files.pythonhosted.org/packages/b0/4f/0ac6f98a34548837393d8acf27b06a4164c6faff6960f2ae7bc2928b618a/collective.blog-1.0a1.tar.gz
+[2024-04-11 04:03:21] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-11 04:03:21] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.11.9.56.0.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240411/c/chatllm/2024.4.11.9.56.0-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-11 04:03:21] INFO root fetch - processPackages [collective.blog]: executing diffoscope
+[2024-04-11 04:03:21] INFO root fetch - processPackages [collective.blog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.blog-1.0.0a9.tar.gz tmp/collective.blog-1.0a1.tar.gz --markdown 20240411/c/collective.blog/1.0.0a9-1.0a1/README.md --exclude *.pyd
+[2024-04-11 04:03:22] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.0.tar.gz]
+[2024-04-11 04:03:22] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.1.tar.gz]
+[2024-04-11 04:03:22] INFO root fetch - main [MainThread]: End processing [five-strips-of-bacon]: success
+[2024-04-11 04:03:22] INFO root fetch - processPackages [collective.blog]: Remove: archive file [/home/abi/fetcher/tmp/collective.blog-1.0.0a9.tar.gz]
+[2024-04-11 04:03:22] INFO root fetch - processPackages [collective.blog]: Remove: archive file [/home/abi/fetcher/tmp/collective.blog-1.0a1.tar.gz]
+[2024-04-11 04:03:22] INFO root fetch - main [MainThread]: End processing [collective.blog]: success
+[2024-04-11 04:03:23] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.11.9.56.0.tar.gz]
+[2024-04-11 04:03:23] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-11 04:03:23] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-11 04:03:23] INFO root fetch - main [MainThread]: Store serial: [22713230]

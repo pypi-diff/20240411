@@ -14234,3 +14234,32 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:53:43] INFO root fetch - processPackages [AgentBruno]: Remove: archive file [/home/abi/fetcher/tmp/AgentBruno-0.0.3-py3-none-any.whl.zip]
 [2024-04-11 09:53:43] INFO root fetch - main [MainThread]: End processing [AgentBruno]: success
 [2024-04-11 09:53:43] INFO root fetch - main [MainThread]: Store serial: [22715946]
+[2024-04-11 09:55:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715946]
+[2024-04-11 09:55:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jy_lib
+[2024-04-11 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-orbit-api
+[2024-04-11 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxauto
+[2024-04-11 09:55:52] INFO root fetch - processPackages [wxauto]: New version: [3.9.8.15] Old Version: [3.3.5.1]
+[2024-04-11 09:55:52] INFO root fetch - processPackages [jy_lib]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-11 09:55:52] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.22] Old Version: [1.1.21]
+[2024-04-11 09:55:52] WARNING root fetch - processPackages [wxauto]: fallback to get urls: [3.3.5.1]
+[2024-04-11 09:55:52] WARNING root fetch - processPackages [wxauto]: None
+[2024-04-11 09:55:52] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/be/70/4cc0bb8bfa19f66813c6fb145ebdbd405963f035970d6b3c040c611f2758/jy_lib-0.5.5.tar.gz
+[2024-04-11 09:55:52] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/49/08/90713486ccb182b8326e9674937ee33f97eb9b6256815e961a74614c11f5/cloud_orbit_api-1.1.21.tar.gz
+[2024-04-11 09:55:52] WARNING root fetch - processPackages [wxauto]: None
+[2024-04-11 09:55:52] WARNING root fetch - processPackages [wxauto]: unable to get url for both version [3.3.5.1]
+[2024-04-11 09:55:52] WARNING root fetch - processPackages [wxauto]: None
+[2024-04-11 09:55:52] INFO root fetch - main [MainThread]: End processing [wxauto] error
+[2024-04-11 09:55:52] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/7a/3a/eaabc232a0991a55d2197e0b98fc3843873239c1f8ba5e20d5c3c5e7eb76/jy_lib-0.5.6.tar.gz
+[2024-04-11 09:55:52] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/08/9f/f7eb99b2bde72867d66539fd41a70ef62fe6fa0bd4b76c547da0c9bb4282/cloud_orbit_api-1.1.22.tar.gz
+[2024-04-11 09:55:52] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-11 09:55:52] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.5.5.tar.gz tmp/jy_lib-0.5.6.tar.gz --markdown 20240411/j/jy_lib/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-11 09:55:52] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-11 09:55:52] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-1.1.21.tar.gz tmp/cloud_orbit_api-1.1.22.tar.gz --markdown 20240411/c/cloud-orbit-api/1.1.21-1.1.22/README.md --exclude *.pyd
+[2024-04-11 09:55:53] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.5.tar.gz]
+[2024-04-11 09:55:53] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.6.tar.gz]
+[2024-04-11 09:55:53] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-11 09:55:53] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.21.tar.gz]
+[2024-04-11 09:55:53] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.22.tar.gz]
+[2024-04-11 09:55:53] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-11 09:55:53] INFO root fetch - main [MainThread]: Store serial: [22715964]

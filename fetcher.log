@@ -9843,3 +9843,80 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:18:13] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
 [2024-04-11 05:18:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2024-04-11 05:18:13] INFO root fetch - main [MainThread]: Store serial: [22713738]
+[2024-04-11 05:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713738]
+[2024-04-11 05:20:22] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 05:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713738]
+[2024-04-11 05:22:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gixpy
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gewu
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: publicsuffixlist
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easyofd
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-amcards
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stim
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coptpy
+[2024-04-11 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tokive
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gixpy]: New version: [1.2] Old Version: [1.1]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [tokive]: New version: [1.3] Old Version: [1.2]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gewu]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gixpy]: Downloading https://files.pythonhosted.org/packages/b4/48/3207e43d62ab7585140ae0e496ed2595ccab4a534947f9dd789eaa6f19d3/gixpy-1.1.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [tokive]: Downloading https://files.pythonhosted.org/packages/9a/d2/f5e62b6a647fbfceb11443e1697670df1828e30b94cc85c3c8b6a7e5e387/tokive-1.2.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [easyofd]: New version: [0.1.1.5] Old Version: [0.1.1.4]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [python-amcards]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [coptpy]: New version: [7.1.2] Old Version: [7.1.1]
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gewu]: Downloading https://files.pythonhosted.org/packages/f6/43/8ea103b381356580cb79d42895f20a5cf5a4c18050ba9afb723c96156a8e/gewu-2.3.2.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [easyofd]: Downloading https://files.pythonhosted.org/packages/56/4c/216645be3d000bc9576e1ff1982fb90e02aa9e421f551e27e4d31e778001/easyofd-0.1.1.4.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/2d/b6/9b87dbf33b87811a8f9ac6e1bf94aac65dcef8d727a8b65bb105369718b5/python-amcards-1.2.8.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [tokive]: Downloading https://files.pythonhosted.org/packages/66/4a/579cbdf4a3b45a9334ac897d8e8288cd6903209b81ed06122d7370485bd8/tokive-1.3.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/a7/d7/36196ad48b77efebe7d5d4e198ad0a9cac4f5acb5e0a8a7035133184a641/stim-1.8.0.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/35/d1/91c6bb4f0da7ca0f9712ff6973f1f7ac51403969e4730714f96f197702fd/coptpy-7.1.1-cp39-cp39-win_amd64.whl
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gixpy]: Downloading https://files.pythonhosted.org/packages/57/ef/08986088a25152bdb131be37745281b2d4ba27f4e20b4a88e5f5e8500394/gixpy-1.2.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [tokive]: executing diffoscope
+[2024-04-11 05:22:28] INFO root fetch - processPackages [tokive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokive-1.2.tar.gz tmp/tokive-1.3.tar.gz --markdown 20240411/t/tokive/1.2-1.3/README.md --exclude *.pyd
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gixpy]: executing diffoscope
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gixpy-1.1.tar.gz tmp/gixpy-1.2.tar.gz --markdown 20240411/g/gixpy/1.1-1.2/README.md --exclude *.pyd
+[2024-04-11 05:22:28] INFO root fetch - processPackages [gewu]: Downloading https://files.pythonhosted.org/packages/6b/f4/6d4beaf3df44c5f6a1045bcb79761dec5502a9d83810d348802c276562d6/gewu-2.3.3.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [easyofd]: Downloading https://files.pythonhosted.org/packages/6e/a9/e8da1b0d1da914143282dafe59527c2a28758ca7fabeb7d025e184745242/easyofd-0.1.1.5.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/8e/77/a7238e5324ac5a2b2e4005f67aa51330133e4c1255c267e828c5dfb45cf1/python-amcards-1.2.9.tar.gz
+[2024-04-11 05:22:28] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/d4/c3/eba3f24b52d2c1ed2e7fd5490f31c7cafa4a0a82b9282b1ffee94eee8a4c/stim-1.9.0.tar.gz
+[2024-04-11 05:22:29] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2024-04-11 05:22:29] INFO root fetch - processPackages [gewu]: executing diffoscope
+[2024-04-11 05:22:29] INFO root fetch - processPackages [gewu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gewu-2.3.2.tar.gz tmp/gewu-2.3.3.tar.gz --markdown 20240411/g/gewu/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-04-11 05:22:29] INFO root fetch - processPackages [easyofd]: executing diffoscope
+[2024-04-11 05:22:29] INFO root fetch - processPackages [easyofd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyofd-0.1.1.4.tar.gz tmp/easyofd-0.1.1.5.tar.gz --markdown 20240411/e/easyofd/0.1.1.4-0.1.1.5/README.md --exclude *.pyd
+[2024-04-11 05:22:29] INFO root fetch - processPackages [stim]: executing diffoscope
+[2024-04-11 05:22:29] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20240411/s/stim/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-11 05:22:29] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2024-04-11 05:22:29] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amcards-1.2.8.tar.gz tmp/python-amcards-1.2.9.tar.gz --markdown 20240411/p/python-amcards/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-11 05:22:29] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2024-04-11 05:22:29] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20240411/p/publicsuffixlist/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-11 05:22:29] INFO root fetch - processPackages [tokive]: Remove: archive file [/home/abi/fetcher/tmp/tokive-1.2.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - processPackages [tokive]: Remove: archive file [/home/abi/fetcher/tmp/tokive-1.3.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - main [MainThread]: End processing [tokive]: success
+[2024-04-11 05:22:29] INFO root fetch - processPackages [gixpy]: Remove: archive file [/home/abi/fetcher/tmp/gixpy-1.1.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - processPackages [gixpy]: Remove: archive file [/home/abi/fetcher/tmp/gixpy-1.2.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - main [MainThread]: End processing [gixpy]: success
+[2024-04-11 05:22:29] INFO root fetch - processPackages [gewu]: Remove: archive file [/home/abi/fetcher/tmp/gewu-2.3.2.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - processPackages [gewu]: Remove: archive file [/home/abi/fetcher/tmp/gewu-2.3.3.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - main [MainThread]: End processing [gewu]: success
+[2024-04-11 05:22:29] INFO root fetch - processPackages [easyofd]: Remove: archive file [/home/abi/fetcher/tmp/easyofd-0.1.1.4.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - processPackages [easyofd]: Remove: archive file [/home/abi/fetcher/tmp/easyofd-0.1.1.5.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - main [MainThread]: End processing [easyofd]: success
+[2024-04-11 05:22:29] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.8.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.9.tar.gz]
+[2024-04-11 05:22:29] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2024-04-11 05:22:30] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2024-04-11 05:22:30] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2024-04-11 05:22:30] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2024-04-11 05:22:30] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2024-04-11 05:22:30] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2024-04-11 05:22:30] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2024-04-11 05:22:31] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/9f/8e/ed72d4973995cc266468da23d195d87962e61fae1f8ac513591f16d56d0c/coptpy-7.1.2-cp27-cp27mu-manylinux2014_aarch64.whl
+[2024-04-11 05:22:32] INFO root fetch - processPackages [coptpy]: executing diffoscope
+[2024-04-11 05:22:32] INFO root fetch - processPackages [coptpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coptpy-7.1.1-cp39-cp39-win_amd64.whl.zip tmp/coptpy-7.1.2-cp27-cp27mu-manylinux2014_aarch64.whl.zip --markdown 20240411/c/coptpy/7.1.1-7.1.2/README.md --exclude *.pyd
+[2024-04-11 05:22:34] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-7.1.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 05:22:34] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-7.1.2-cp27-cp27mu-manylinux2014_aarch64.whl.zip]
+[2024-04-11 05:22:34] INFO root fetch - main [MainThread]: End processing [coptpy]: success
+[2024-04-11 05:22:34] INFO root fetch - main [MainThread]: Store serial: [22713772]

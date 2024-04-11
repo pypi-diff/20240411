@@ -21315,3 +21315,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:28:58] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.0rc2.tar.gz]
 [2024-04-11 13:28:58] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2024-04-11 13:28:58] INFO root fetch - main [MainThread]: Store serial: [22718858]
+[2024-04-11 13:31:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718858]
+[2024-04-11 13:31:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 13:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weather-api-wrapper
+[2024-04-11 13:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvispr
+[2024-04-11 13:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anjana
+[2024-04-11 13:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holboxai
+[2024-04-11 13:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htag
+[2024-04-11 13:31:08] INFO root fetch - processPackages [anjana]: New version: [0.0.1.post1] Old Version: [0.0.1]
+[2024-04-11 13:31:08] INFO root fetch - processPackages [holboxai]: New version: [0.9] Old Version: [0.8]
+[2024-04-11 13:31:08] WARNING root fetch - processPackages [weather-api-wrapper]: Skipping, unable to determine old version
+[2024-04-11 13:31:08] INFO root fetch - main [MainThread]: End processing [weather-api-wrapper] error
+[2024-04-11 13:31:08] INFO root fetch - processPackages [pyvispr]: New version: [2024.1] Old Version: [2023.9]
+[2024-04-11 13:31:09] INFO root fetch - processPackages [htag]: New version: [0.91.1] Old Version: [0.91.0]
+[2024-04-11 13:31:09] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/cb/89/4e1a887579d0e56ed511f6dcb3cd720991815eb4aeb11a3a8463f648ad78/pyvispr-2023.9.tar.gz
+[2024-04-11 13:31:09] INFO root fetch - processPackages [anjana]: Downloading https://files.pythonhosted.org/packages/5a/53/4000670873afcb4df3543af436be41839a38fba319a3f24d65958629fbc5/anjana-0.0.1.tar.gz
+[2024-04-11 13:31:09] INFO root fetch - processPackages [holboxai]: Downloading https://files.pythonhosted.org/packages/19/b9/f451a3d2db1b97819fa90850e684986e080497db8d6e454c2e51317a4d52/holboxai-0.8.tar.gz
+[2024-04-11 13:31:09] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/69/30/41edaf3730cedd18d12e7b18a435b664bbcd7af0932f2eb1d9c568bd851d/htag-0.91.0.tar.gz
+[2024-04-11 13:31:09] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/dd/a6/16affde5c2bcebefb8ef98c957aacabc579ba90c74c7e13d71b7ccdd4f23/pyvispr-2024.1.tar.gz
+[2024-04-11 13:31:09] INFO root fetch - processPackages [anjana]: Downloading https://files.pythonhosted.org/packages/7c/b1/aae18d710bc018d0238c2a3909f5b97d1b72d1034a247c6eb298882a76b8/anjana-0.0.1.post1.tar.gz
+[2024-04-11 13:31:09] INFO root fetch - processPackages [holboxai]: Downloading https://files.pythonhosted.org/packages/d4/61/cc151dd218d100f17a91f7ed69e6ede7fd7b6d4a9175097fad342846a047/holboxai-0.9.tar.gz
+[2024-04-11 13:31:09] INFO root fetch - processPackages [pyvispr]: executing diffoscope
+[2024-04-11 13:31:09] INFO root fetch - processPackages [pyvispr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvispr-2023.9.tar.gz tmp/pyvispr-2024.1.tar.gz --markdown 20240411/p/pyvispr/2023.9-2024.1/README.md --exclude *.pyd
+[2024-04-11 13:31:09] INFO root fetch - processPackages [anjana]: executing diffoscope
+[2024-04-11 13:31:09] INFO root fetch - processPackages [anjana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjana-0.0.1.tar.gz tmp/anjana-0.0.1.post1.tar.gz --markdown 20240411/a/anjana/0.0.1-0.0.1.post1/README.md --exclude *.pyd
+[2024-04-11 13:31:09] INFO root fetch - processPackages [holboxai]: executing diffoscope
+[2024-04-11 13:31:09] INFO root fetch - processPackages [holboxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holboxai-0.8.tar.gz tmp/holboxai-0.9.tar.gz --markdown 20240411/h/holboxai/0.8-0.9/README.md --exclude *.pyd
+[2024-04-11 13:31:09] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/54/32/acda25f04edeeea3eee048861986da83c5b857103448388398f4da37d65d/htag-0.91.1.tar.gz
+[2024-04-11 13:31:10] INFO root fetch - processPackages [htag]: executing diffoscope
+[2024-04-11 13:31:10] INFO root fetch - processPackages [htag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htag-0.91.0.tar.gz tmp/htag-0.91.1.tar.gz --markdown 20240411/h/htag/0.91.0-0.91.1/README.md --exclude *.pyd
+[2024-04-11 13:31:10] INFO root fetch - processPackages [anjana]: Remove: archive file [/home/abi/fetcher/tmp/anjana-0.0.1.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - processPackages [anjana]: Remove: archive file [/home/abi/fetcher/tmp/anjana-0.0.1.post1.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - main [MainThread]: End processing [anjana]: success
+[2024-04-11 13:31:10] INFO root fetch - processPackages [holboxai]: Remove: archive file [/home/abi/fetcher/tmp/holboxai-0.8.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - processPackages [holboxai]: Remove: archive file [/home/abi/fetcher/tmp/holboxai-0.9.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - main [MainThread]: End processing [holboxai]: success
+[2024-04-11 13:31:10] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2023.9.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.1.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - main [MainThread]: End processing [pyvispr]: success
+[2024-04-11 13:31:10] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.91.0.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.91.1.tar.gz]
+[2024-04-11 13:31:10] INFO root fetch - main [MainThread]: End processing [htag]: success
+[2024-04-11 13:31:10] INFO root fetch - main [MainThread]: Store serial: [22718873]

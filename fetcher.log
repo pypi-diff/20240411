@@ -13738,3 +13738,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:25:23] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-04-11 09:25:23] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
 [2024-04-11 09:25:23] INFO root fetch - main [MainThread]: Store serial: [22715726]
+[2024-04-11 09:27:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715726]
+[2024-04-11 09:27:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrx-link-core
+[2024-04-11 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mockee
+[2024-04-11 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2024-04-11 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: restfx
+[2024-04-11 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyes17
+[2024-04-11 09:27:32] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 09:27:32] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 09:27:32] INFO root fetch - processPackages [mrx-link-core]: New version: [1.4.0.dev0] Old Version: [1.3.1.dev0]
+[2024-04-11 09:27:32] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/51/97/0ed66b947eb7371ed3f33d9501745d4bbc9b06a5cd25a6e7a6a6e7869fda/omnata_plugin_devkit-0.3.8.tar.gz
+[2024-04-11 09:27:32] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-04-11 09:27:32] INFO root fetch - processPackages [mockee]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-11 09:27:32] INFO root fetch - processPackages [restfx]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 09:27:32] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/c1/bb/7bdcd7ef32feaca7250e7d78eb3b7f0d90701ca74b26cf629dd35c2cb080/mrx_link_core-1.3.1.dev0-cp39-cp39-win_amd64.whl
+[2024-04-11 09:27:32] INFO root fetch - processPackages [mockee]: Downloading https://files.pythonhosted.org/packages/cf/3b/de8462b971572d1e500eb863c83c8415b7fea3427a62cbb0acb08fa56b16/mockee-0.3.2.tar.gz
+[2024-04-11 09:27:32] INFO root fetch - processPackages [restfx]: Downloading https://files.pythonhosted.org/packages/06/6a/32c76dec22a61a54193e748dfa14dfd86e850704be7f6dfdc2f9d29eabb1/restfx-0.9.0.tar.gz
+[2024-04-11 09:27:32] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/05/26/00acb43f53fad72d614350962a4ab46ad393fce6583ee75c5dedc01385c8/omnata_plugin_devkit-0.3.9.tar.gz
+[2024-04-11 09:27:32] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-04-11 09:27:32] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/d5/b5/05580e56dd6602d1a121c556a51c016650b436ecd00baf3b11d83106deed/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-04-11 09:27:32] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2024-04-11 09:27:32] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.3.8.tar.gz tmp/omnata_plugin_devkit-0.3.9.tar.gz --markdown 20240411/o/omnata-plugin-devkit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 09:27:33] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-04-11 09:27:33] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240411/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 09:27:33] INFO root fetch - processPackages [mockee]: Downloading https://files.pythonhosted.org/packages/88/47/5eabbabd18e09ace3f5902147a4d6cac35dd3f307652206ff87e5d9ed758/mockee-0.4.0.tar.gz
+[2024-04-11 09:27:33] INFO root fetch - processPackages [restfx]: Downloading https://files.pythonhosted.org/packages/2d/2a/e9381d036f085394a026d408cd3430576fa6f319f66f6fe4869b60e28136/restfx-0.9.1.tar.gz
+[2024-04-11 09:27:33] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2024-04-11 09:27:33] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.3.1.dev0-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240411/m/mrx-link-core/1.3.1.dev0-1.4.0.dev0/README.md --exclude *.pyd
+[2024-04-11 09:27:33] INFO root fetch - processPackages [restfx]: executing diffoscope
+[2024-04-11 09:27:33] INFO root fetch - processPackages [restfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restfx-0.9.0.tar.gz tmp/restfx-0.9.1.tar.gz --markdown 20240411/r/restfx/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 09:27:33] INFO root fetch - processPackages [mockee]: executing diffoscope
+[2024-04-11 09:27:33] INFO root fetch - processPackages [mockee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mockee-0.3.2.tar.gz tmp/mockee-0.4.0.tar.gz --markdown 20240411/m/mockee/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-11 09:27:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.8.tar.gz]
+[2024-04-11 09:27:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.9.tar.gz]
+[2024-04-11 09:27:33] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2024-04-11 09:27:33] INFO root fetch - processPackages [mockee]: Remove: archive file [/home/abi/fetcher/tmp/mockee-0.3.2.tar.gz]
+[2024-04-11 09:27:33] INFO root fetch - processPackages [mockee]: Remove: archive file [/home/abi/fetcher/tmp/mockee-0.4.0.tar.gz]
+[2024-04-11 09:27:33] INFO root fetch - main [MainThread]: End processing [mockee]: success
+[2024-04-11 09:27:34] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.8.tar.gz]
+[2024-04-11 09:27:34] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
+[2024-04-11 09:27:34] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-04-11 09:27:34] INFO root fetch - processPackages [restfx]: Remove: archive file [/home/abi/fetcher/tmp/restfx-0.9.0.tar.gz]
+[2024-04-11 09:27:34] INFO root fetch - processPackages [restfx]: Remove: archive file [/home/abi/fetcher/tmp/restfx-0.9.1.tar.gz]
+[2024-04-11 09:27:34] INFO root fetch - main [MainThread]: End processing [restfx]: success
+[2024-04-11 09:27:34] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.3.1.dev0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 09:27:34] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-04-11 09:27:34] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2024-04-11 09:27:34] INFO root fetch - main [MainThread]: Store serial: [22715755]

@@ -21008,3 +21008,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:17:29] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
 [2024-04-11 13:17:29] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 13:17:29] INFO root fetch - main [MainThread]: Store serial: [22718733]
+[2024-04-11 13:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718733]
+[2024-04-11 13:19:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 13:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syntheseus
+[2024-04-11 13:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ToolsStr
+[2024-04-11 13:19:38] INFO root fetch - processPackages [ToolsStr]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-11 13:19:38] INFO root fetch - processPackages [syntheseus]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-11 13:19:38] INFO root fetch - processPackages [ToolsStr]: Downloading https://files.pythonhosted.org/packages/8b/d7/0da922d1dcca2f1ee8f03594bb1d157073334e21a1e8a57676a8ce562ee5/ToolsStr-1.0.1.tar.gz
+[2024-04-11 13:19:38] INFO root fetch - processPackages [syntheseus]: Downloading https://files.pythonhosted.org/packages/6f/05/55f01918e2c389864c5182d1452293afe24211549dab3bdca9525bdce9d2/syntheseus-0.3.0.tar.gz
+[2024-04-11 13:19:38] INFO root fetch - processPackages [ToolsStr]: Downloading https://files.pythonhosted.org/packages/e7/06/f71e568cda02b1899f8b782cafe6cb23c0b9cd828297f97393834ae13cfd/ToolsStr-1.1.0.tar.gz
+[2024-04-11 13:19:38] INFO root fetch - processPackages [ToolsStr]: executing diffoscope
+[2024-04-11 13:19:38] INFO root fetch - processPackages [ToolsStr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ToolsStr-1.0.1.tar.gz tmp/ToolsStr-1.1.0.tar.gz --markdown 20240411/T/ToolsStr/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-11 13:19:38] INFO root fetch - processPackages [syntheseus]: Downloading https://files.pythonhosted.org/packages/da/a2/4a9d7050cd6fd16615e88a344da4c8e09996d14702f14d0ea62918413490/syntheseus-0.4.0.tar.gz
+[2024-04-11 13:19:38] INFO root fetch - processPackages [syntheseus]: executing diffoscope
+[2024-04-11 13:19:38] INFO root fetch - processPackages [syntheseus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntheseus-0.3.0.tar.gz tmp/syntheseus-0.4.0.tar.gz --markdown 20240411/s/syntheseus/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-11 13:19:39] INFO root fetch - processPackages [ToolsStr]: Remove: archive file [/home/abi/fetcher/tmp/ToolsStr-1.0.1.tar.gz]
+[2024-04-11 13:19:39] INFO root fetch - processPackages [ToolsStr]: Remove: archive file [/home/abi/fetcher/tmp/ToolsStr-1.1.0.tar.gz]
+[2024-04-11 13:19:39] INFO root fetch - main [MainThread]: End processing [ToolsStr]: success
+[2024-04-11 13:19:40] INFO root fetch - processPackages [syntheseus]: Remove: archive file [/home/abi/fetcher/tmp/syntheseus-0.3.0.tar.gz]
+[2024-04-11 13:19:40] INFO root fetch - processPackages [syntheseus]: Remove: archive file [/home/abi/fetcher/tmp/syntheseus-0.4.0.tar.gz]
+[2024-04-11 13:19:40] INFO root fetch - main [MainThread]: End processing [syntheseus]: success
+[2024-04-11 13:19:40] INFO root fetch - main [MainThread]: Store serial: [22718742]

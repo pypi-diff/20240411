@@ -11125,3 +11125,30 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:39:17] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.7.tar.gz]
 [2024-04-11 06:39:17] INFO root fetch - main [MainThread]: End processing [pyco-types]: success
 [2024-04-11 06:39:17] INFO root fetch - main [MainThread]: Store serial: [22714393]
+[2024-04-11 06:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714393]
+[2024-04-11 06:41:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VLCDA
+[2024-04-11 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: headline-gen
+[2024-04-11 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datoso-seed-tdc
+[2024-04-11 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metrics_layer
+[2024-04-11 06:41:26] INFO root fetch - processPackages [VLCDA]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 06:41:26] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-11 06:41:26] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-11 06:41:26] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/07/9e/95f2ff4e6aa4d36f6f136bc96f05e372354494c2890ec62fcf351330168a/VLCDA-1.0.8.tar.gz
+[2024-04-11 06:41:26] WARNING root fetch - processPackages [datoso-seed-tdc]: Skipping, unable to determine old version
+[2024-04-11 06:41:26] INFO root fetch - main [MainThread]: End processing [datoso-seed-tdc] error
+[2024-04-11 06:41:26] INFO root fetch - processPackages [metrics_layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-11 06:41:26] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2024-04-11 06:41:26] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/7d/d4/827d38b9dda4ffc01b94b400bb1460dc882b6233e17d87d0e335a234a014/VLCDA-1.0.9.tar.gz
+[2024-04-11 06:41:26] INFO root fetch - processPackages [VLCDA]: executing diffoscope
+[2024-04-11 06:41:26] INFO root fetch - processPackages [VLCDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VLCDA-1.0.8.tar.gz tmp/VLCDA-1.0.9.tar.gz --markdown 20240411/V/VLCDA/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 06:41:26] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2024-04-11 06:41:27] INFO root fetch - processPackages [metrics_layer]: executing diffoscope
+[2024-04-11 06:41:27] INFO root fetch - processPackages [metrics_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20240411/m/metrics_layer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-11 06:41:27] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.8.tar.gz]
+[2024-04-11 06:41:27] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.9.tar.gz]
+[2024-04-11 06:41:27] INFO root fetch - main [MainThread]: End processing [VLCDA]: success
+[2024-04-11 06:41:27] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2024-04-11 06:41:27] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2024-04-11 06:41:27] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
+[2024-04-11 06:41:27] INFO root fetch - main [MainThread]: Store serial: [22714406]

@@ -2252,3 +2252,65 @@ EOFError: EOF read where object expected
 [2024-04-11 02:09:02] INFO root fetch - processPackages [faucet]: Remove: archive file [/home/abi/fetcher/tmp/faucet-1.9.9.tar.gz]
 [2024-04-11 02:09:02] INFO root fetch - main [MainThread]: End processing [faucet]: success
 [2024-04-11 02:09:02] INFO root fetch - main [MainThread]: Store serial: [22711136]
+[2024-04-11 02:11:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711136]
+[2024-04-11 02:11:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sharemyai-utils
+[2024-04-11 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodrivecan
+[2024-04-11 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text-tagging-model
+[2024-04-11 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbb-nightly
+[2024-04-11 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2024-04-11 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-quantizers-nightly
+[2024-04-11 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domdiv
+[2024-04-11 02:11:11] INFO root fetch - processPackages [pyodrivecan]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 02:11:11] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.4.0.20240410.post1030] Old Version: [1.4.0.20240409.post1057]
+[2024-04-11 02:11:11] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a7] Old Version: [0.1.2a6]
+[2024-04-11 02:11:11] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404100009] Old Version: [4.1.6.dev202404090009]
+[2024-04-11 02:11:11] INFO root fetch - processPackages [sharemyai-utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-11 02:11:11] INFO root fetch - processPackages [pyodrivecan]: Downloading https://files.pythonhosted.org/packages/cb/82/9ab9635008e98a3c5ceec5e676187ec6be1a0074b676905d7b6fffab67c3/pyodrivecan-0.1.1.tar.gz
+[2024-04-11 02:11:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/4b/f5/603e1dbf30aa1bbda827c060ebb8e3ab115ce88832186769cffa83aa2981/mct-quantizers-nightly-1.4.0.20240409.post1057.tar.gz
+[2024-04-11 02:11:11] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/57/49/e8d81a45dd400dd958c9ad65e6dadff2f3dc39401d111173f2a1f45a2a39/text_tagging_model-0.1.2a6.tar.gz
+[2024-04-11 02:11:11] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a4/da/c764c8e1d02f08186aae0095f7d5f450d4309563c80d97e81457bb341ee5/openbb_nightly-4.1.6.dev202404090009.tar.gz
+[2024-04-11 02:11:11] INFO root fetch - processPackages [domdiv]: New version: [4.5.2] Old Version: [4.5.1]
+[2024-04-11 02:11:11] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-11 02:11:11] INFO root fetch - processPackages [sharemyai-utils]: Downloading https://files.pythonhosted.org/packages/52/7c/f4ad9895612dc5c311fcde83a5642f8c6d6c26c0f991fd523058e3e66469/sharemyai_utils-0.1.7.tar.gz
+[2024-04-11 02:11:11] INFO root fetch - processPackages [pyodrivecan]: Downloading https://files.pythonhosted.org/packages/d8/6b/c6335bcc7355a4a9d840c86cecc6bfa694482611d328f61273b0bba5e694/pyodrivecan-0.1.2.tar.gz
+[2024-04-11 02:11:11] INFO root fetch - processPackages [domdiv]: Downloading https://files.pythonhosted.org/packages/21/f5/a1dbf2c851923ecc2acdc3d60c048ac66317a998e8b5cd95869e4f021661/domdiv-4.5.1.tar.gz
+[2024-04-11 02:11:12] WARNING root fetch - processPackages [domdiv]: Skipping package: exceeds size limit 25969837>=10485760
+[2024-04-11 02:11:12] INFO root fetch - main [MainThread]: End processing [domdiv] error
+[2024-04-11 02:11:12] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/ce/32/8a989cc9c7e203720dbd9d69d3cdd2217bff407ba2cd5a304ea522087064/text_tagging_model-0.1.2a7.tar.gz
+[2024-04-11 02:11:12] INFO root fetch - processPackages [pyodrivecan]: executing diffoscope
+[2024-04-11 02:11:12] INFO root fetch - processPackages [pyodrivecan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodrivecan-0.1.1.tar.gz tmp/pyodrivecan-0.1.2.tar.gz --markdown 20240411/p/pyodrivecan/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 02:11:12] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-11 02:11:12] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/48/b7/45b33e2d8df5e56c843483eab08225684c273ec563b5ef68dd1ba37bdd25/mct-quantizers-nightly-1.4.0.20240410.post1030.tar.gz
+[2024-04-11 02:11:12] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 02:11:12] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a6.tar.gz tmp/text_tagging_model-0.1.2a7.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a6-0.1.2a7/README.md --exclude *.pyd
+[2024-04-11 02:11:12] INFO root fetch - processPackages [sharemyai-utils]: Downloading https://files.pythonhosted.org/packages/f9/85/4d1a239d5b2310753e3641b585d5e4ca024697cf417a14227d8f78c0763c/sharemyai_utils-0.1.8.tar.gz
+[2024-04-11 02:11:12] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/d6/f9/02190f657b84ee81763c0174a6a59bc785802bd0bd22310142dc3cc41669/openbb_nightly-4.1.6.dev202404100009.tar.gz
+[2024-04-11 02:11:12] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-11 02:11:12] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.4.0.20240409.post1057.tar.gz tmp/mct-quantizers-nightly-1.4.0.20240410.post1030.tar.gz --markdown 20240411/m/mct-quantizers-nightly/1.4.0.20240409.post1057-1.4.0.20240410.post1030/README.md --exclude *.pyd
+[2024-04-11 02:11:12] INFO root fetch - processPackages [sharemyai-utils]: executing diffoscope
+[2024-04-11 02:11:12] INFO root fetch - processPackages [sharemyai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharemyai_utils-0.1.7.tar.gz tmp/sharemyai_utils-0.1.8.tar.gz --markdown 20240411/s/sharemyai-utils/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-11 02:11:12] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-11 02:11:12] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404090009.tar.gz tmp/openbb_nightly-4.1.6.dev202404100009.tar.gz --markdown 20240411/o/openbb-nightly/4.1.6.dev202404090009-4.1.6.dev202404100009/README.md --exclude *.pyd
+[2024-04-11 02:11:12] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-11 02:11:12] INFO root fetch - processPackages [pyodrivecan]: Remove: archive file [/home/abi/fetcher/tmp/pyodrivecan-0.1.1.tar.gz]
+[2024-04-11 02:11:12] INFO root fetch - processPackages [pyodrivecan]: Remove: archive file [/home/abi/fetcher/tmp/pyodrivecan-0.1.2.tar.gz]
+[2024-04-11 02:11:12] INFO root fetch - main [MainThread]: End processing [pyodrivecan]: success
+[2024-04-11 02:11:12] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-11 02:11:12] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240411/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-11 02:11:12] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a6.tar.gz]
+[2024-04-11 02:11:12] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a7.tar.gz]
+[2024-04-11 02:11:12] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 02:11:12] INFO root fetch - processPackages [sharemyai-utils]: Remove: archive file [/home/abi/fetcher/tmp/sharemyai_utils-0.1.7.tar.gz]
+[2024-04-11 02:11:12] INFO root fetch - processPackages [sharemyai-utils]: Remove: archive file [/home/abi/fetcher/tmp/sharemyai_utils-0.1.8.tar.gz]
+[2024-04-11 02:11:12] INFO root fetch - main [MainThread]: End processing [sharemyai-utils]: success
+[2024-04-11 02:11:13] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240409.post1057.tar.gz]
+[2024-04-11 02:11:13] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240410.post1030.tar.gz]
+[2024-04-11 02:11:13] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-11 02:11:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-11 02:11:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-11 02:11:14] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-11 02:11:16] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404090009.tar.gz]
+[2024-04-11 02:11:16] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404100009.tar.gz]
+[2024-04-11 02:11:16] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-11 02:11:16] INFO root fetch - main [MainThread]: Store serial: [22711157]

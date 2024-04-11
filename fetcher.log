@@ -13046,3 +13046,29 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:52:13] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.20.5-cp311-none-win_amd64.whl.zip]
 [2024-04-11 08:52:13] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
 [2024-04-11 08:52:13] INFO root fetch - main [MainThread]: Store serial: [22715400]
+[2024-04-11 08:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715400]
+[2024-04-11 08:54:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datajunction-server
+[2024-04-11 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lakefs-sdk
+[2024-04-11 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lakefs-client
+[2024-04-11 08:54:22] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-04-11 08:54:22] INFO root fetch - processPackages [lakefs-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-11 08:54:22] INFO root fetch - processPackages [lakefs-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-11 08:54:22] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-04-11 08:54:22] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-04-11 08:54:22] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-04-11 08:54:22] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/b5/8b/0e57e5ca7f72b64dcd56587dff33da866b14e4d1dd505d5c315efc513c08/lakefs-client-1.9.0.tar.gz
+[2024-04-11 08:54:22] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/57/be/a4450c759e43b20b40f85c0bb00fb07959df9d30e7555c87ec6683a285d8/lakefs-sdk-1.9.0.tar.gz
+[2024-04-11 08:54:22] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/13/cf/5e0682fc74d8210e18babfe0e44ebb9eee4c4f86cb6a012c84ba0b18fcc2/lakefs-sdk-1.9.1.tar.gz
+[2024-04-11 08:54:22] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/71/39/dbe6ee4e66e711c97a1ccfa218019d31013870cb273ac42fd4ac3f84928b/lakefs-client-1.9.1.tar.gz
+[2024-04-11 08:54:23] INFO root fetch - processPackages [lakefs-sdk]: executing diffoscope
+[2024-04-11 08:54:23] INFO root fetch - processPackages [lakefs-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-sdk-1.9.0.tar.gz tmp/lakefs-sdk-1.9.1.tar.gz --markdown 20240411/l/lakefs-sdk/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-11 08:54:23] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2024-04-11 08:54:23] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-1.9.0.tar.gz tmp/lakefs-client-1.9.1.tar.gz --markdown 20240411/l/lakefs-client/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-11 08:54:24] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.0.tar.gz]
+[2024-04-11 08:54:24] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.1.tar.gz]
+[2024-04-11 08:54:24] INFO root fetch - main [MainThread]: End processing [lakefs-sdk]: success
+[2024-04-11 08:54:24] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.0.tar.gz]
+[2024-04-11 08:54:24] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.1.tar.gz]
+[2024-04-11 08:54:24] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2024-04-11 08:54:24] INFO root fetch - main [MainThread]: Store serial: [22715441]

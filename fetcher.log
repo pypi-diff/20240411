@@ -20339,3 +20339,72 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:50:38] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.0rc2.tar.gz]
 [2024-04-11 12:50:38] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2024-04-11 12:50:38] INFO root fetch - main [MainThread]: Store serial: [22718429]
+[2024-04-11 12:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718429]
+[2024-04-11 12:52:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winBullet
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eve2cml
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perceval-weblate
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perceval-mozilla
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perceval-opnfv
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rpcclient
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: perceval-puppet
+[2024-04-11 12:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lineartest
+[2024-04-11 12:52:49] INFO root fetch - processPackages [lineartest]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-11 12:52:49] WARNING root fetch - processPackages [winBullet]: Skipping, unable to determine old version
+[2024-04-11 12:52:49] INFO root fetch - main [MainThread]: End processing [winBullet] error
+[2024-04-11 12:52:49] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/d3/8e/dccb689e09bec8c5cfd9b77c7c3359d039fa07666528ec31258a95a1e2a8/lineartest-0.3.1.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [eve2cml]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-mozilla]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 12:52:49] INFO root fetch - processPackages [rpcclient]: New version: [4.6.1] Old Version: [4.6.0]
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-weblate]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-puppet]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-opnfv]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-11 12:52:49] INFO root fetch - processPackages [eve2cml]: Downloading https://files.pythonhosted.org/packages/94/5c/06ddf147ee70d546340593133261aac86b34b7872034930521f0b87aaafa/eve2cml-0.1.0b1.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/81/87/8bc543f18dce54e3e4c8ecbee1c8c30907cec2f902efd1e81189708a69ba/perceval_weblate-1.0.0rc1.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/ff/24/b6eb256a332e0816e3aa871c6b35eed98f353c4edf9b2539929a400a6939/rpcclient-4.6.0.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/81/3c/37a38ee7806f245fa80104aac8d1f48840e97d84021e7e0f82c6f0020093/perceval_opnfv-1.0.0rc1.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/ef/32/e61aac00dcbb2be77e25048370def015c585e195317ea92cf483dc6101d1/perceval_puppet-1.0.0rc1.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/02/62/1db8904ec9d2e4314180dc53f7fd9ece2abe6da5f9bb40dc4dd0065b654f/perceval_mozilla-1.0.0rc1.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/c0/53/96f2bfd7e004a25f4efc7bf3de61eba7a9874647080eca141e15e82ffcb2/lineartest-0.3.2.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/71/6c/67467db1d57342ef92f265d2b47e75f3b1928bf448d7222cece3db0d6374/perceval_weblate-1.0.0rc2.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [lineartest]: executing diffoscope
+[2024-04-11 12:52:49] INFO root fetch - processPackages [lineartest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineartest-0.3.1.tar.gz tmp/lineartest-0.3.2.tar.gz --markdown 20240411/l/lineartest/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-11 12:52:49] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/cc/78/4eb49cdb33060319c0d5622aac9fd6a37c331f5938a99309f140171d2826/rpcclient-4.6.1.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/b0/3d/a1834436db592451e8d24360e822b57a5e86a0d3f50def015d2ed4cfe116/perceval_opnfv-1.0.0rc2.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [eve2cml]: Downloading https://files.pythonhosted.org/packages/57/60/911ed8b7690c3f3814f20e54f48a021f023b45c3a3f9cd058d1cf80601fa/eve2cml-0.1.0b2.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/de/f8/8e69f85af2a94cb66d379bcc603a153ed1be6aaa3f9ab3465a2782e882bc/perceval_puppet-1.0.0rc2.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/aa/18/0430e4b1c074e2bf5baed5c00255c1661c0801887606ad28f571eb50c492/perceval_mozilla-1.0.0rc2.tar.gz
+[2024-04-11 12:52:49] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2024-04-11 12:52:49] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-4.6.0.tar.gz tmp/rpcclient-4.6.1.tar.gz --markdown 20240411/r/rpcclient/4.6.0-4.6.1/README.md --exclude *.pyd
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2024-04-11 12:52:49] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-1.0.0rc1.tar.gz tmp/perceval_opnfv-1.0.0rc2.tar.gz --markdown 20240411/p/perceval-opnfv/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 12:52:50] INFO root fetch - processPackages [eve2cml]: executing diffoscope
+[2024-04-11 12:52:50] INFO root fetch - processPackages [eve2cml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eve2cml-0.1.0b1.tar.gz tmp/eve2cml-0.1.0b2.tar.gz --markdown 20240411/e/eve2cml/0.1.0b1-0.1.0b2/README.md --exclude *.pyd
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-1.0.0rc1.tar.gz tmp/perceval_weblate-1.0.0rc2.tar.gz --markdown 20240411/p/perceval-weblate/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-1.0.0rc1.tar.gz tmp/perceval_puppet-1.0.0rc2.tar.gz --markdown 20240411/p/perceval-puppet/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-1.0.0rc1.tar.gz tmp/perceval_mozilla-1.0.0rc2.tar.gz --markdown 20240411/p/perceval-mozilla/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-11 12:52:50] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.3.1.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.3.2.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - main [MainThread]: End processing [lineartest]: success
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-1.0.0rc1.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-1.0.0rc2.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2024-04-11 12:52:50] INFO root fetch - processPackages [eve2cml]: Remove: archive file [/home/abi/fetcher/tmp/eve2cml-0.1.0b1.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - processPackages [eve2cml]: Remove: archive file [/home/abi/fetcher/tmp/eve2cml-0.1.0b2.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - main [MainThread]: End processing [eve2cml]: success
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-1.0.0rc1.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-1.0.0rc2.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-1.0.0rc1.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-1.0.0rc2.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2024-04-11 12:52:50] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-4.6.0.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-4.6.1.tar.gz]
+[2024-04-11 12:52:50] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2024-04-11 12:52:51] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-1.0.0rc1.tar.gz]
+[2024-04-11 12:52:51] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-1.0.0rc2.tar.gz]
+[2024-04-11 12:52:51] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2024-04-11 12:52:51] INFO root fetch - main [MainThread]: Store serial: [22718455]

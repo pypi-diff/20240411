@@ -9971,3 +9971,27 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:24:49] INFO root fetch - processPackages [odh-elyra]: Remove: archive file [/home/abi/fetcher/tmp/odh_elyra-3.16.5.tar.gz]
 [2024-04-11 05:24:49] INFO root fetch - main [MainThread]: End processing [odh-elyra]: success
 [2024-04-11 05:24:49] INFO root fetch - main [MainThread]: Store serial: [22713820]
+[2024-04-11 05:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713820]
+[2024-04-11 05:26:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 05:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arxiv-client
+[2024-04-11 05:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: konfuzio-sdk
+[2024-04-11 05:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sprak
+[2024-04-11 05:26:58] INFO root fetch - processPackages [arxiv-client]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-11 05:26:58] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.2.dev20240409093519] Old Version: [0.3.2]
+[2024-04-11 05:26:58] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/00/2c/75a1f7a4149a243aa1cc06c9d4dd82e493e8fb7cc14b37cc591f78a9cc99/arxiv_client-0.2.4.tar.gz
+[2024-04-11 05:26:58] WARNING root fetch - processPackages [sprak]: Skipping, unable to determine old version
+[2024-04-11 05:26:58] INFO root fetch - main [MainThread]: End processing [sprak] error
+[2024-04-11 05:26:58] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/8e/18/a37cea42ea48a150d89cedb438d7eaf8fa3270b87304457e295ff11a1cb9/konfuzio_sdk-0.3.2.tar.gz
+[2024-04-11 05:26:58] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/65/06/0d569a274b58a9d21ef7789f1ad556b5f6fd982d519df5d253401e8ce9c3/arxiv_client-0.2.5.tar.gz
+[2024-04-11 05:26:58] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/e0/82/ce2d0b580791b6347efd9ef1b661c1a48b3fa5b02ace943eef07696c8489/konfuzio_sdk-0.3.2.dev20240409093519.tar.gz
+[2024-04-11 05:26:58] INFO root fetch - processPackages [arxiv-client]: executing diffoscope
+[2024-04-11 05:26:58] INFO root fetch - processPackages [arxiv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_client-0.2.4.tar.gz tmp/arxiv_client-0.2.5.tar.gz --markdown 20240411/a/arxiv-client/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-11 05:26:58] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-04-11 05:26:58] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.2.tar.gz tmp/konfuzio_sdk-0.3.2.dev20240409093519.tar.gz --markdown 20240411/k/konfuzio-sdk/0.3.2-0.3.2.dev20240409093519/README.md --exclude *.pyd
+[2024-04-11 05:26:59] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.2.4.tar.gz]
+[2024-04-11 05:26:59] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.2.5.tar.gz]
+[2024-04-11 05:26:59] INFO root fetch - main [MainThread]: End processing [arxiv-client]: success
+[2024-04-11 05:26:59] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.2.tar.gz]
+[2024-04-11 05:26:59] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.2.dev20240409093519.tar.gz]
+[2024-04-11 05:26:59] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-04-11 05:26:59] INFO root fetch - main [MainThread]: Store serial: [22713846]

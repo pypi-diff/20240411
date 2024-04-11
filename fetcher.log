@@ -15100,3 +15100,60 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:41:10] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
 [2024-04-11 10:41:10] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
 [2024-04-11 10:41:10] INFO root fetch - main [MainThread]: Store serial: [22716489]
+[2024-04-11 10:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716489]
+[2024-04-11 10:43:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reqstool
+[2024-04-11 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freegenius
+[2024-04-11 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuzu
+[2024-04-11 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bragir
+[2024-04-11 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xchangelib
+[2024-04-11 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-jobs
+[2024-04-11 10:43:19] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 10:43:19] INFO root fetch - processPackages [xchangelib]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-11 10:43:19] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-11 10:43:19] INFO root fetch - processPackages [reqstool]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-11 10:43:19] INFO root fetch - processPackages [bragir]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 10:43:19] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev31] Old Version: [0.3.3.dev30]
+[2024-04-11 10:43:19] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-11 10:43:19] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-11 10:43:19] INFO root fetch - processPackages [xchangelib]: Downloading https://files.pythonhosted.org/packages/e3/dc/648c8f01511d5d162b4537441bf467950f2e2c838f82eefcb2aba5e17383/xchangelib-0.0.6.tar.gz
+[2024-04-11 10:43:19] INFO root fetch - processPackages [reqstool]: Downloading https://files.pythonhosted.org/packages/1d/e1/cfeb895c5c0d2637d14bac3334677076edee720f3c448a68c40cf3529295/reqstool-0.4.2.tar.gz
+[2024-04-11 10:43:19] INFO root fetch - processPackages [bragir]: Downloading https://files.pythonhosted.org/packages/26/a4/ca1e04f5f4d381f5be19c86977f1d7841b00056ad4e317a56689e95f0258/bragir-1.0.2.tar.gz
+[2024-04-11 10:43:19] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/00/d2/7e7db97fde5ec89a13ae4fdebba228e0e0ab06323d69cce640a3821e800b/kuzu-0.3.3.dev30.tar.gz
+[2024-04-11 10:43:19] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-11 10:43:19] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-11 10:43:20] INFO root fetch - processPackages [xchangelib]: Downloading https://files.pythonhosted.org/packages/d0/7c/0d72174c1b934ad2ad797e7ffe15527841e70904bc22276fee58b59139c5/xchangelib-0.0.7.tar.gz
+[2024-04-11 10:43:20] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-11 10:43:20] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240411/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-11 10:43:20] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-11 10:43:20] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240411/f/freegenius/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 10:43:20] INFO root fetch - processPackages [reqstool]: Downloading https://files.pythonhosted.org/packages/aa/5f/bad3c453ea700aed10b9ae9385bf4d80116c20463149325357e3821c49e9/reqstool-0.4.3.tar.gz
+[2024-04-11 10:43:20] INFO root fetch - processPackages [bragir]: Downloading https://files.pythonhosted.org/packages/49/f3/ce8b849fd21107b164fd1e4b9ca050ae8575d5d385cb4d6f5ee7150c9951/bragir-1.0.3.tar.gz
+[2024-04-11 10:43:20] INFO root fetch - processPackages [xchangelib]: executing diffoscope
+[2024-04-11 10:43:20] INFO root fetch - processPackages [xchangelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchangelib-0.0.6.tar.gz tmp/xchangelib-0.0.7.tar.gz --markdown 20240411/x/xchangelib/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-11 10:43:20] INFO root fetch - processPackages [reqstool]: executing diffoscope
+[2024-04-11 10:43:20] INFO root fetch - processPackages [reqstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqstool-0.4.2.tar.gz tmp/reqstool-0.4.3.tar.gz --markdown 20240411/r/reqstool/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-11 10:43:20] INFO root fetch - processPackages [bragir]: executing diffoscope
+[2024-04-11 10:43:20] INFO root fetch - processPackages [bragir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bragir-1.0.2.tar.gz tmp/bragir-1.0.3.tar.gz --markdown 20240411/b/bragir/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 10:43:20] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/02/b9/0acd9642e7736069e095afce0ea7eeb4034683e2e642afbeb060457aec04/kuzu-0.3.3.dev31.tar.gz
+[2024-04-11 10:43:21] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-11 10:43:21] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev30.tar.gz tmp/kuzu-0.3.3.dev31.tar.gz --markdown 20240411/k/kuzu/0.3.3.dev30-0.3.3.dev31/README.md --exclude *.pyd
+[2024-04-11 10:43:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-11 10:43:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-11 10:43:21] INFO root fetch - processPackages [xchangelib]: Remove: archive file [/home/abi/fetcher/tmp/xchangelib-0.0.6.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - processPackages [xchangelib]: Remove: archive file [/home/abi/fetcher/tmp/xchangelib-0.0.7.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - main [MainThread]: End processing [xchangelib]: success
+[2024-04-11 10:43:21] INFO root fetch - processPackages [bragir]: Remove: archive file [/home/abi/fetcher/tmp/bragir-1.0.2.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - processPackages [bragir]: Remove: archive file [/home/abi/fetcher/tmp/bragir-1.0.3.tar.gz]
+[2024-04-11 10:43:21] INFO root fetch - main [MainThread]: End processing [bragir]: success
+[2024-04-11 10:43:23] INFO root fetch - processPackages [reqstool]: Remove: archive file [/home/abi/fetcher/tmp/reqstool-0.4.2.tar.gz]
+[2024-04-11 10:43:23] INFO root fetch - processPackages [reqstool]: Remove: archive file [/home/abi/fetcher/tmp/reqstool-0.4.3.tar.gz]
+[2024-04-11 10:43:23] INFO root fetch - main [MainThread]: End processing [reqstool]: success
+[2024-04-11 10:43:33] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev30.tar.gz]
+[2024-04-11 10:43:33] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev31.tar.gz]
+[2024-04-11 10:43:33] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-11 10:43:33] INFO root fetch - main [MainThread]: Store serial: [22716535]

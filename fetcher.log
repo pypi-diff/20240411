@@ -13786,3 +13786,21 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:27:34] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-04-11 09:27:34] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
 [2024-04-11 09:27:34] INFO root fetch - main [MainThread]: Store serial: [22715755]
+[2024-04-11 09:29:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715755]
+[2024-04-11 09:29:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 09:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anjana
+[2024-04-11 09:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-orbit-api
+[2024-04-11 09:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qd2-node
+[2024-04-11 09:29:42] WARNING root fetch - processPackages [qd2-node]: Skipping, unable to determine old version
+[2024-04-11 09:29:42] INFO root fetch - main [MainThread]: End processing [qd2-node] error
+[2024-04-11 09:29:42] WARNING root fetch - processPackages [anjana]: Skipping, unable to determine old version
+[2024-04-11 09:29:42] INFO root fetch - main [MainThread]: End processing [anjana] error
+[2024-04-11 09:29:42] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.21] Old Version: [1.1.20]
+[2024-04-11 09:29:43] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/47/95/d0acbe1d623f704aeed0688c7f2cb93d61e342a2917a34af2de7bad6850a/cloud_orbit_api-1.1.20.tar.gz
+[2024-04-11 09:29:43] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/49/08/90713486ccb182b8326e9674937ee33f97eb9b6256815e961a74614c11f5/cloud_orbit_api-1.1.21.tar.gz
+[2024-04-11 09:29:43] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-11 09:29:43] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-1.1.20.tar.gz tmp/cloud_orbit_api-1.1.21.tar.gz --markdown 20240411/c/cloud-orbit-api/1.1.20-1.1.21/README.md --exclude *.pyd
+[2024-04-11 09:29:44] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.20.tar.gz]
+[2024-04-11 09:29:44] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.21.tar.gz]
+[2024-04-11 09:29:44] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-11 09:29:44] INFO root fetch - main [MainThread]: Store serial: [22715769]

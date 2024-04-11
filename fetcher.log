@@ -13588,3 +13588,30 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:16:29] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
 [2024-04-11 09:16:29] INFO root fetch - main [MainThread]: End processing [laboneq]: success
 [2024-04-11 09:16:29] INFO root fetch - main [MainThread]: Store serial: [22715671]
+[2024-04-11 09:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715671]
+[2024-04-11 09:18:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 09:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plugin-config-exceptions
+[2024-04-11 09:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: griff
+[2024-04-11 09:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eyes17
+[2024-04-11 09:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2024-04-11 09:18:38] WARNING root fetch - processPackages [plugin-config-exceptions]: Skipping, unable to determine old version
+[2024-04-11 09:18:38] INFO root fetch - main [MainThread]: End processing [plugin-config-exceptions] error
+[2024-04-11 09:18:38] INFO root fetch - processPackages [hiddifypanel]: New version: [8.8.99] Old Version: [8.8.97]
+[2024-04-11 09:18:38] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 09:18:38] WARNING root fetch - processPackages [griff]: Skipping, unable to determine old version
+[2024-04-11 09:18:38] INFO root fetch - main [MainThread]: End processing [griff] error
+[2024-04-11 09:18:38] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/3b/4c/15ca81d9764c196bd632b929c178a21ce2569604e1b7958aaf21f3591f24/hiddifypanel-8.8.97.tar.gz
+[2024-04-11 09:18:38] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-04-11 09:18:38] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ef/74/ab9bc5ebe1c31d96fcff0642f25280d3eebba3d867bbf874c9e8c9fe2a23/hiddifypanel-8.8.99.tar.gz
+[2024-04-11 09:18:38] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-04-11 09:18:39] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2024-04-11 09:18:39] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.8.97.tar.gz tmp/hiddifypanel-8.8.99.tar.gz --markdown 20240411/h/hiddifypanel/8.8.97-8.8.99/README.md --exclude *.pyd
+[2024-04-11 09:18:39] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-04-11 09:18:39] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240411/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 09:18:40] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.8.tar.gz]
+[2024-04-11 09:18:40] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
+[2024-04-11 09:18:40] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-04-11 09:18:42] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.97.tar.gz]
+[2024-04-11 09:18:42] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.99.tar.gz]
+[2024-04-11 09:18:42] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2024-04-11 09:18:42] INFO root fetch - main [MainThread]: Store serial: [22715685]

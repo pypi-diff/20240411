@@ -21861,3 +21861,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:53:57] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.0.tar.gz]
 [2024-04-11 13:53:57] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-04-11 13:53:57] INFO root fetch - main [MainThread]: Store serial: [22719088]
+[2024-04-11 13:56:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719088]
+[2024-04-11 13:56:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 13:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-11 13:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2024-04-11 13:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: that-depends
+[2024-04-11 13:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQSPICE
+[2024-04-11 13:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samplemongoconnect
+[2024-04-11 13:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-sqlmodel-starter
+[2024-04-11 13:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orso
+[2024-04-11 13:56:06] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-11 13:56:06] WARNING root fetch - processPackages [samplemongoconnect]: Skipping, unable to determine old version
+[2024-04-11 13:56:06] INFO root fetch - main [MainThread]: End processing [samplemongoconnect] error
+[2024-04-11 13:56:06] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240411.10.11.593218] Old Version: [20240410.9.49.501422]
+[2024-04-11 13:56:06] INFO root fetch - processPackages [that-depends]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-11 13:56:06] WARNING root fetch - processPackages [fastapi-sqlmodel-starter]: Skipping, unable to determine old version
+[2024-04-11 13:56:06] INFO root fetch - main [MainThread]: End processing [fastapi-sqlmodel-starter] error
+[2024-04-11 13:56:06] INFO root fetch - processPackages [PyQSPICE]: New version: [2024.4.11] Old Version: [2024.3.18]
+[2024-04-11 13:56:06] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-11 13:56:06] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9a/43/2c3bba40c748fe1256af4f444f6d241c1e92035c39fc987d61c81600cc0d/certora-cli-alpha-master-20240410.9.49.501422.tar.gz
+[2024-04-11 13:56:06] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14482325>=10485760
+[2024-04-11 13:56:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-11 13:56:06] INFO root fetch - processPackages [that-depends]: Downloading https://files.pythonhosted.org/packages/0a/0f/e0f1aeb3e1ee2b11dc0c435c504a246588021215708a4f6ade402d2f5885/that_depends-1.3.0.tar.gz
+[2024-04-11 13:56:06] INFO root fetch - processPackages [PyQSPICE]: Downloading https://files.pythonhosted.org/packages/50/23/16fe3a82bdfbded45144c913150c4901caf075d2176c9409826b53cca229/PyQSPICE-2024.3.18.tar.gz
+[2024-04-11 13:56:06] INFO root fetch - processPackages [orso]: New version: [0.0.99] Old Version: [0.0.97]
+[2024-04-11 13:56:06] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-11 13:56:07] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-11 13:56:07] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240411/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-11 13:56:07] INFO root fetch - processPackages [that-depends]: Downloading https://files.pythonhosted.org/packages/9a/6d/d8546e80440fbd74ad68a350c84d86af0b8ea715f396fa62fea4e0060a38/that_depends-1.4.0.tar.gz
+[2024-04-11 13:56:07] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/7f/44/c9b678951273a9e9d68f6792efdb0a6d7c20d4d59015b193b974dd2cc5f3/orso-0.0.97.tar.gz
+[2024-04-11 13:56:07] INFO root fetch - processPackages [PyQSPICE]: Downloading https://files.pythonhosted.org/packages/42/a9/df3effeac4e60b38ef439cdf5981c4dbe8e7464f544a4af25defdbe15abd/PyQSPICE-2024.4.11.tar.gz
+[2024-04-11 13:56:07] INFO root fetch - processPackages [that-depends]: executing diffoscope
+[2024-04-11 13:56:07] INFO root fetch - processPackages [that-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/that_depends-1.3.0.tar.gz tmp/that_depends-1.4.0.tar.gz --markdown 20240411/t/that-depends/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-11 13:56:07] INFO root fetch - processPackages [PyQSPICE]: executing diffoscope
+[2024-04-11 13:56:07] INFO root fetch - processPackages [PyQSPICE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQSPICE-2024.3.18.tar.gz tmp/PyQSPICE-2024.4.11.tar.gz --markdown 20240411/P/PyQSPICE/2024.3.18-2024.4.11/README.md --exclude *.pyd
+[2024-04-11 13:56:07] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/03/62/532b5a6178cc484d36c6b124c65d4de27ba7fd3af10850166b93c9a661cd/orso-0.0.99.tar.gz
+[2024-04-11 13:56:07] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-11 13:56:07] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-11 13:56:07] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-11 13:56:07] INFO root fetch - processPackages [that-depends]: Remove: archive file [/home/abi/fetcher/tmp/that_depends-1.3.0.tar.gz]
+[2024-04-11 13:56:07] INFO root fetch - processPackages [that-depends]: Remove: archive file [/home/abi/fetcher/tmp/that_depends-1.4.0.tar.gz]
+[2024-04-11 13:56:07] INFO root fetch - main [MainThread]: End processing [that-depends]: success
+[2024-04-11 13:56:07] INFO root fetch - processPackages [PyQSPICE]: Remove: archive file [/home/abi/fetcher/tmp/PyQSPICE-2024.3.18.tar.gz]
+[2024-04-11 13:56:07] INFO root fetch - processPackages [PyQSPICE]: Remove: archive file [/home/abi/fetcher/tmp/PyQSPICE-2024.4.11.tar.gz]
+[2024-04-11 13:56:07] INFO root fetch - main [MainThread]: End processing [PyQSPICE]: success
+[2024-04-11 13:56:07] INFO root fetch - processPackages [orso]: executing diffoscope
+[2024-04-11 13:56:07] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.97.tar.gz tmp/orso-0.0.99.tar.gz --markdown 20240411/o/orso/0.0.97-0.0.99/README.md --exclude *.pyd
+[2024-04-11 13:56:08] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.97.tar.gz]
+[2024-04-11 13:56:08] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.99.tar.gz]
+[2024-04-11 13:56:08] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2024-04-11 13:56:08] INFO root fetch - main [MainThread]: Store serial: [22719127]

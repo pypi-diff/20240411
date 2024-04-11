@@ -23270,3 +23270,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:30:09] INFO root fetch - processPackages [cnl2asp]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp-1.3.1.tar.gz]
 [2024-04-11 14:30:09] INFO root fetch - main [MainThread]: End processing [cnl2asp]: success
 [2024-04-11 14:30:09] INFO root fetch - main [MainThread]: Store serial: [22719767]
+[2024-04-11 14:32:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719767]
+[2024-04-11 14:32:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 14:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: badB
+[2024-04-11 14:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-04-11 14:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valx
+[2024-04-11 14:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelscope-studio
+[2024-04-11 14:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wipo-gbd-validation
+[2024-04-11 14:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-neat
+[2024-04-11 14:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: herschelhelp-internal
+[2024-04-11 14:32:18] INFO root fetch - processPackages [cognite-neat]: New version: [0.72.0] Old Version: [0.71.0]
+[2024-04-11 14:32:18] INFO root fetch - processPackages [valx]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 14:32:18] INFO root fetch - processPackages [wipo-gbd-validation]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-11 14:32:18] WARNING root fetch - processPackages [badB]: Skipping, unable to determine old version
+[2024-04-11 14:32:18] INFO root fetch - main [MainThread]: End processing [badB] error
+[2024-04-11 14:32:18] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/dd/ca/e33045883cd42711f76ce9f845f2c5bda502cbcdad95d0f070b2775e7d39/cognite_neat-0.71.0.tar.gz
+[2024-04-11 14:32:18] WARNING root fetch - processPackages [herschelhelp-internal]: Skipping, unable to determine old version
+[2024-04-11 14:32:18] INFO root fetch - main [MainThread]: End processing [herschelhelp-internal] error
+[2024-04-11 14:32:18] INFO root fetch - processPackages [modelscope-studio]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-11 14:32:19] INFO root fetch - processPackages [valx]: Downloading https://files.pythonhosted.org/packages/92/7d/3249f7a2e6589ebe53815ac073dc30cb0e2e1f950827b03ee29f72cb17d3/valx-0.1.0.tar.gz
+[2024-04-11 14:32:19] INFO root fetch - processPackages [wipo-gbd-validation]: Downloading https://files.pythonhosted.org/packages/22/5f/50d140feb0c24606b531690556896efbde0e139e4e2445f47461c7b99fc6/wipo_gbd_validation-2.0.3-py3-none-any.whl
+[2024-04-11 14:32:19] INFO root fetch - processPackages [modelscope-studio]: Downloading https://files.pythonhosted.org/packages/4b/15/1a48e00dcc353bddfcba5d7517c02e1c3f491befa21be2343d7b8bf415cf/modelscope_studio-0.1.6.tar.gz
+[2024-04-11 14:32:19] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/f4/5d/629e15ade879c232943a4dbfb9ffac54844f352cd5b385c588e0a8b72417/cognite_neat-0.72.0.tar.gz
+[2024-04-11 14:32:19] INFO root fetch - processPackages [valx]: Downloading https://files.pythonhosted.org/packages/df/a7/d526fd47cdd6ad5dd3c40e5d9b845dd4b2358d8d5d76c93741542916b8d2/valx-0.1.1.tar.gz
+[2024-04-11 14:32:19] INFO root fetch - processPackages [wipo-gbd-validation]: Downloading https://files.pythonhosted.org/packages/b7/eb/bc3050c6f56efa9d709d5925c21b873338ab2ad8456d47d5db12b21355a7/wipo_gbd_validation-2.0.4-py3-none-any.whl
+[2024-04-11 14:32:19] INFO root fetch - processPackages [valx]: executing diffoscope
+[2024-04-11 14:32:19] INFO root fetch - processPackages [valx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valx-0.1.0.tar.gz tmp/valx-0.1.1.tar.gz --markdown 20240411/v/valx/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 14:32:19] INFO root fetch - processPackages [wipo-gbd-validation]: executing diffoscope
+[2024-04-11 14:32:19] INFO root fetch - processPackages [wipo-gbd-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipo_gbd_validation-2.0.3-py3-none-any.whl.zip tmp/wipo_gbd_validation-2.0.4-py3-none-any.whl.zip --markdown 20240411/w/wipo-gbd-validation/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-11 14:32:19] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-11 14:32:19] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.71.0.tar.gz tmp/cognite_neat-0.72.0.tar.gz --markdown 20240411/c/cognite-neat/0.71.0-0.72.0/README.md --exclude *.pyd
+[2024-04-11 14:32:19] INFO root fetch - processPackages [modelscope-studio]: Downloading https://files.pythonhosted.org/packages/16/53/c9a792246f011344141012b01f9dfa2011738b22fa2f48811e6a63798920/modelscope_studio-0.1.7.tar.gz
+[2024-04-11 14:32:19] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-11 14:32:19] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-11 14:32:20] INFO root fetch - processPackages [valx]: Remove: archive file [/home/abi/fetcher/tmp/valx-0.1.0.tar.gz]
+[2024-04-11 14:32:20] INFO root fetch - processPackages [valx]: Remove: archive file [/home/abi/fetcher/tmp/valx-0.1.1.tar.gz]
+[2024-04-11 14:32:20] INFO root fetch - main [MainThread]: End processing [valx]: success
+[2024-04-11 14:32:20] INFO root fetch - processPackages [wipo-gbd-validation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_validation-2.0.3-py3-none-any.whl.zip]
+[2024-04-11 14:32:20] INFO root fetch - processPackages [wipo-gbd-validation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_validation-2.0.4-py3-none-any.whl.zip]
+[2024-04-11 14:32:20] INFO root fetch - main [MainThread]: End processing [wipo-gbd-validation]: success
+[2024-04-11 14:32:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-11 14:32:20] INFO root fetch - processPackages [modelscope-studio]: executing diffoscope
+[2024-04-11 14:32:20] INFO root fetch - processPackages [modelscope-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscope_studio-0.1.6.tar.gz tmp/modelscope_studio-0.1.7.tar.gz --markdown 20240411/m/modelscope-studio/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-11 14:32:20] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-11 14:32:20] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240411/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-11 14:32:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-11 14:32:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-11 14:32:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-11 14:32:31] INFO root fetch - processPackages [modelscope-studio]: Remove: archive file [/home/abi/fetcher/tmp/modelscope_studio-0.1.6.tar.gz]
+[2024-04-11 14:32:31] INFO root fetch - processPackages [modelscope-studio]: Remove: archive file [/home/abi/fetcher/tmp/modelscope_studio-0.1.7.tar.gz]
+[2024-04-11 14:32:31] INFO root fetch - main [MainThread]: End processing [modelscope-studio]: success
+[2024-04-11 14:34:30] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.71.0.tar.gz]
+[2024-04-11 14:34:30] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.72.0.tar.gz]
+[2024-04-11 14:34:30] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-11 14:34:30] INFO root fetch - main [MainThread]: Store serial: [22719795]

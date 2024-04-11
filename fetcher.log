@@ -18574,3 +18574,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:48:11] INFO root fetch - processPackages [pytket-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qiskit-0.9.1.tar.gz]
 [2024-04-11 11:48:11] INFO root fetch - main [MainThread]: End processing [pytket-qiskit]: success
 [2024-04-11 11:48:11] INFO root fetch - main [MainThread]: Store serial: [22717696]
+[2024-04-11 11:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717696]
+[2024-04-11 11:50:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 11:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ticketsdk
+[2024-04-11 11:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: silence-lint-error
+[2024-04-11 11:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dock-cli
+[2024-04-11 11:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weighted-sample-statistics
+[2024-04-11 11:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-sphgeom
+[2024-04-11 11:50:20] INFO root fetch - processPackages [ticketsdk]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-11 11:50:20] INFO root fetch - processPackages [weighted-sample-statistics]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 11:50:20] INFO root fetch - processPackages [silence-lint-error]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-11 11:50:20] INFO root fetch - processPackages [dock-cli]: New version: [1.0.0rc0] Old Version: [0.4.1]
+[2024-04-11 11:50:20] INFO root fetch - processPackages [weighted-sample-statistics]: Downloading https://files.pythonhosted.org/packages/22/c5/cdd15e3586d8b0ffaecd8132eb2c55b48944b9808dcca6904fbe29469d86/weighted_sample_statistics-0.1.0.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/44/02/60214e52e1ad7b8787525fd697e5e93492a350504a1b769f38ea8e558a79/ticketsdk-2.2.7.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [lsst-sphgeom]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-11 11:50:20] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/d7/30/d25628c3048b36d858835001014db8916ceec63090077910729f1a8d2748/dock-cli-0.4.1.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [silence-lint-error]: Downloading https://files.pythonhosted.org/packages/96/4c/8ceb2f8ed28c3913996520bdf1115c7088031ca088115a28104eb50979bb/silence_lint_error-1.3.0.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/59/a7/e4ace106f07639229e1f60fc565349dc9f46d27449a0d6b8b35b38f145ee/lsst-sphgeom-26.2024.800.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [weighted-sample-statistics]: Downloading https://files.pythonhosted.org/packages/c8/f0/f8fff17205af7112c04f8ff493def34609d836791e775d43e182fd6c9c99/weighted_sample_statistics-0.1.1.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/31/b6/049b71967d553ccf12abfdedf28b2189afb6bf9426d081e0552b445d85ff/ticketsdk-2.2.8.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/c7/61/3131002cc935c7824eb5c232acca515a5042a0e72c0f571b3d360b239e7a/dock-cli-1.0.0rc0.tar.gz
+[2024-04-11 11:50:20] INFO root fetch - processPackages [weighted-sample-statistics]: executing diffoscope
+[2024-04-11 11:50:20] INFO root fetch - processPackages [weighted-sample-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weighted_sample_statistics-0.1.0.tar.gz tmp/weighted_sample_statistics-0.1.1.tar.gz --markdown 20240411/w/weighted-sample-statistics/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 11:50:20] INFO root fetch - processPackages [silence-lint-error]: Downloading https://files.pythonhosted.org/packages/a2/79/19517481d66e42ae6c715dfd3f5367b917b2dfc6ac68c3a4967e0913378a/silence_lint_error-1.4.0.tar.gz
+[2024-04-11 11:50:21] INFO root fetch - processPackages [ticketsdk]: executing diffoscope
+[2024-04-11 11:50:21] INFO root fetch - processPackages [ticketsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticketsdk-2.2.7.tar.gz tmp/ticketsdk-2.2.8.tar.gz --markdown 20240411/t/ticketsdk/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-04-11 11:50:21] INFO root fetch - processPackages [dock-cli]: executing diffoscope
+[2024-04-11 11:50:21] INFO root fetch - processPackages [dock-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-cli-0.4.1.tar.gz tmp/dock-cli-1.0.0rc0.tar.gz --markdown 20240411/d/dock-cli/0.4.1-1.0.0rc0/README.md --exclude *.pyd
+[2024-04-11 11:50:21] INFO root fetch - processPackages [silence-lint-error]: executing diffoscope
+[2024-04-11 11:50:21] INFO root fetch - processPackages [silence-lint-error]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silence_lint_error-1.3.0.tar.gz tmp/silence_lint_error-1.4.0.tar.gz --markdown 20240411/s/silence-lint-error/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-11 11:50:21] INFO root fetch - processPackages [weighted-sample-statistics]: Remove: archive file [/home/abi/fetcher/tmp/weighted_sample_statistics-0.1.0.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - processPackages [weighted-sample-statistics]: Remove: archive file [/home/abi/fetcher/tmp/weighted_sample_statistics-0.1.1.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - main [MainThread]: End processing [weighted-sample-statistics]: success
+[2024-04-11 11:50:21] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock-cli-0.4.1.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock-cli-1.0.0rc0.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - main [MainThread]: End processing [dock-cli]: success
+[2024-04-11 11:50:21] INFO root fetch - processPackages [silence-lint-error]: Remove: archive file [/home/abi/fetcher/tmp/silence_lint_error-1.3.0.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - processPackages [silence-lint-error]: Remove: archive file [/home/abi/fetcher/tmp/silence_lint_error-1.4.0.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - main [MainThread]: End processing [silence-lint-error]: success
+[2024-04-11 11:50:21] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.7.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.8.tar.gz]
+[2024-04-11 11:50:21] INFO root fetch - main [MainThread]: End processing [ticketsdk]: success
+[2024-04-11 11:50:22] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/ca/b5/36db8ff1eb11875886c2eb41decdca9d62f3fe9a15fc93dd7f8d78426a13/lsst-sphgeom-26.2024.900.tar.gz
+[2024-04-11 11:50:22] INFO root fetch - processPackages [lsst-sphgeom]: executing diffoscope
+[2024-04-11 11:50:22] INFO root fetch - processPackages [lsst-sphgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-sphgeom-26.2024.800.tar.gz tmp/lsst-sphgeom-26.2024.900.tar.gz --markdown 20240411/l/lsst-sphgeom/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-11 11:50:23] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst-sphgeom-26.2024.800.tar.gz]
+[2024-04-11 11:50:23] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst-sphgeom-26.2024.900.tar.gz]
+[2024-04-11 11:50:23] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
+[2024-04-11 11:50:23] INFO root fetch - main [MainThread]: Store serial: [22717724]

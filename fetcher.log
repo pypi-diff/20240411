@@ -19921,3 +19921,147 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:37:05] INFO root fetch - processPackages [arcor2-fit-demo]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_fit_demo-1.5.0-py311-none-any.whl.zip]
 [2024-04-11 12:37:05] INFO root fetch - main [MainThread]: End processing [arcor2-fit-demo]: success
 [2024-04-11 12:37:05] INFO root fetch - main [MainThread]: Store serial: [22718186]
+[2024-04-11 12:39:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718186]
+[2024-04-11 12:39:14] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-muttrc
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcor2-logger
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcor2-mocks
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arcor2-runtime
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcor2-scene
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ign8
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arcor2-yumi
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcor2
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arcor2-3d-mouse
+[2024-04-11 12:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: daraz-scrapper
+[2024-04-11 12:39:15] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.48]
+[2024-04-11 12:39:15] WARNING root fetch - processPackages [arcor2-3d-mouse]: Skipping, unable to determine old version
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-3d-mouse]: Start processing: prpy
+[2024-04-11 12:39:15] INFO root fetch - main [MainThread]: End processing [arcor2-3d-mouse] error
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-mocks]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [daraz-scrapper]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-yumi]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-scene]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-logger]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-runtime]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-11 12:39:15] WARNING root fetch - processPackages [prpy]: Skipping, unable to determine old version
+[2024-04-11 12:39:15] INFO root fetch - processPackages [prpy]: Start processing: cudacanvas
+[2024-04-11 12:39:15] INFO root fetch - main [MainThread]: End processing [prpy] error
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [tree-sitter-muttrc]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [cudacanvas]: New version: [1.0.1.post222121] Old Version: [1.0.1.post222118]
+[2024-04-11 12:39:15] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/38/f2/d91d2ef0143db9fc04cc0e87ba5be2d82fa8b9da726e58b17de2ae1e72a1/ign8-4.8.48.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/57/26/99c97d014d622ccb98b45a361f597f5d926a960c29ace5dd720693e3cfea/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl
+[2024-04-11 12:39:15] INFO root fetch - processPackages [tree-sitter-muttrc]: Downloading https://files.pythonhosted.org/packages/0f/4d/9ea38057dcf791b8b998ad33a82b581f5cc23ea8d936073f0021887b11db/tree-sitter-muttrc-0.0.4.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-mocks]: Downloading https://files.pythonhosted.org/packages/7b/43/93d59571a1694b93ead3c28fd024bec9f4d93ae9498c0d7c4e1e710e12c9/arcor2_mocks-1.0.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [daraz-scrapper]: Downloading https://files.pythonhosted.org/packages/df/60/7a16bc19bec3627d3ff08a8cd353270b15a37e285ed9bf575304a22eca22/daraz_scrapper-0.1.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-yumi]: Downloading https://files.pythonhosted.org/packages/88/8b/08f0199e7c905c1071bbc017ef4ba757e93329d566566729986460919032/arcor2_yumi-0.2.0-py310-none-any.whl
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-scene]: Downloading https://files.pythonhosted.org/packages/ce/73/7bb83676bb378583b99e26bbba156ac2e075d147afcb98a1cd9c895c1df0/arcor2_scene-1.0.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-logger]: Downloading https://files.pythonhosted.org/packages/ba/ae/c245c127317806db9929169017518dcf9e8d5f4fe0c959080229187fdf31/arcor2_logger-0.1.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-runtime]: Downloading https://files.pythonhosted.org/packages/06/93/68120e00b3f23defd919cf12f9805eb3bfd040131163d6dd43496d9e9eaf/arcor2_runtime-1.1.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2]: Downloading https://files.pythonhosted.org/packages/cd/54/643af10be866de0e4509820584b15e5e4e5086d9a4e5ccd928b146db824c/arcor2-1.2.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [cudacanvas]: Downloading https://files.pythonhosted.org/packages/20/0b/edb25aa0011d6bbbc87387df92be0530c9a4dbe1a39ae9bc4ec14f498d16/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-mocks]: Downloading https://files.pythonhosted.org/packages/5e/eb/c4591e7a62c2200c18261ac8cd081dc4e3ec2d6f46e7d0244b34ff9899fb/arcor2_mocks-1.1.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-logger]: Downloading https://files.pythonhosted.org/packages/a8/c3/f84822237ec908d311c2f6d952c0ac203241dc9b6986f326a06a1de3a204/arcor2_logger-0.2.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-yumi]: Downloading https://files.pythonhosted.org/packages/7c/55/29ae9b79c60eba9c722890db3a2c77b1029d954fb45149f7b86b42f50ac5/arcor2_yumi-0.3.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [daraz-scrapper]: Downloading https://files.pythonhosted.org/packages/be/2b/f0339fcfbe08df9e70b0589adcd21a23d72ccfcf38f7cc438c9ef6b253a5/daraz-scrapper-0.1.1.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2-runtime]: Downloading https://files.pythonhosted.org/packages/31/ac/c6e938e3bd45a71576e2f58db56f18144c6f1e58dcdef1266fad7218240e/arcor2_runtime-1.2.0.tar.gz
+[2024-04-11 12:39:15] INFO root fetch - processPackages [arcor2]: Downloading https://files.pythonhosted.org/packages/e1/57/e383b21450a956f40a124243a77673f55c30479920362272594de6c47dea/arcor2-1.3.0.tar.gz
+[2024-04-11 12:39:16] INFO root fetch - processPackages [cudacanvas]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [cudacanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip --markdown 20240411/c/cudacanvas/1.0.1.post222118-1.0.1.post222121/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.48.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.48-4.8.5/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [tree-sitter-muttrc]: Downloading https://files.pythonhosted.org/packages/15/59/57e22661edd62a1ae68609f0f0501c5e86473b52c5569a31931c61060895/tree-sitter-muttrc-0.0.5.tar.gz
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-scene]: Downloading https://files.pythonhosted.org/packages/02/3d/595b4117d99db3e1ede93e25acdd2eb8e789dbd7eec2435bf3d59a11fac9/arcor2_scene-1.1.0.tar.gz
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-mocks]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-mocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_mocks-1.0.0.tar.gz tmp/arcor2_mocks-1.1.0.tar.gz --markdown 20240411/a/arcor2-mocks/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-logger]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_logger-0.1.0.tar.gz tmp/arcor2_logger-0.2.0.tar.gz --markdown 20240411/a/arcor2-logger/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [daraz-scrapper]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [daraz-scrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daraz_scrapper-0.1.0.tar.gz tmp/daraz-scrapper-0.1.1.tar.gz --markdown 20240411/d/daraz-scrapper/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-yumi]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-yumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_yumi-0.2.0-py310-none-any.whl.zip tmp/arcor2_yumi-0.3.0.tar.gz --markdown 20240411/a/arcor2-yumi/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2-1.2.0.tar.gz tmp/arcor2-1.3.0.tar.gz --markdown 20240411/a/arcor2/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [tree-sitter-muttrc]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [tree-sitter-muttrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-muttrc-0.0.4.tar.gz tmp/tree-sitter-muttrc-0.0.5.tar.gz --markdown 20240411/t/tree-sitter-muttrc/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-scene]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-scene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_scene-1.0.0.tar.gz tmp/arcor2_scene-1.1.0.tar.gz --markdown 20240411/a/arcor2-scene/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-runtime]: executing diffoscope
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_runtime-1.1.0.tar.gz tmp/arcor2_runtime-1.2.0.tar.gz --markdown 20240411/a/arcor2-runtime/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-logger]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_logger-0.1.0.tar.gz]
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-logger]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_logger-0.2.0.tar.gz]
+[2024-04-11 12:39:16] INFO root fetch - processPackages [arcor2-logger]: Start processing: NetworkXsimple
+[2024-04-11 12:39:16] INFO root fetch - main [MainThread]: End processing [arcor2-logger]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [NetworkXsimple]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [daraz-scrapper]: Remove: archive file [/home/abi/fetcher/tmp/daraz_scrapper-0.1.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [daraz-scrapper]: Remove: archive file [/home/abi/fetcher/tmp/daraz-scrapper-0.1.1.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [daraz-scrapper]: Start processing: aws-parallelcluster-node
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [daraz-scrapper]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-yumi]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_yumi-0.2.0-py310-none-any.whl.zip]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-yumi]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_yumi-0.3.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-yumi]: Start processing: nonebot-plugin-picstatus
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [arcor2-yumi]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/46/d3/c75b0a7b3a817079248dbaec2bb982f6613de5f75272a07b180e8e81c3a6/NetworkXsimple-0.1.8.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-mocks]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_mocks-1.0.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-mocks]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_mocks-1.1.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-mocks]: Start processing: aws-parallelcluster
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [arcor2-mocks]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [nonebot-plugin-picstatus]: New version: [2.0.0.post3] Old Version: [2.0.0.post2]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [cudacanvas]: Remove: archive file [/home/abi/fetcher/tmp/cudacanvas-1.0.1.post222118-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [cudacanvas]: Remove: archive file [/home/abi/fetcher/tmp/cudacanvas-1.0.1.post222121-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [cudacanvas]: Start processing: pymemgpt-nightly
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [cudacanvas]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster-node]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240411025350] Old Version: [0.3.8.dev20240410103932]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-scene]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_scene-1.0.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-scene]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_scene-1.1.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [arcor2-scene]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Downloading https://files.pythonhosted.org/packages/b2/3f/dbd87f69be72c833b7970fd60a256c2715df982c1bb71004a9e63710e032/nonebot_plugin_picstatus-2.0.0.post2.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-runtime]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_runtime-1.1.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2-runtime]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_runtime-1.2.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [arcor2-runtime]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2]: Remove: archive file [/home/abi/fetcher/tmp/arcor2-1.2.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [arcor2]: Remove: archive file [/home/abi/fetcher/tmp/arcor2-1.3.0.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [arcor2]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/56/25/060ceb3811e48319bbf93a5611e2864180ddf93590fc92e6fa98cecfe3be/pymemgpt_nightly-0.3.8.dev20240410103932.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/58/2e/f105fe6121d39fe0abfc8218ca1a29526027ea4699b893937c1612b9f631/NetworkXsimple-0.1.9-py2.py3-none-any.whl
+[2024-04-11 12:39:17] INFO root fetch - processPackages [tree-sitter-muttrc]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-muttrc-0.0.4.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [tree-sitter-muttrc]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-muttrc-0.0.5.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [tree-sitter-muttrc]: success
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster-node]: Downloading https://files.pythonhosted.org/packages/6e/93/78a9aa13505ca793b8ad6fe784c5b4e2ac551996a3967e62fb4ac9cc6d73/aws-parallelcluster-node-3.9.0.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [NetworkXsimple]: executing diffoscope
+[2024-04-11 12:39:17] INFO root fetch - processPackages [NetworkXsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetworkXsimple-0.1.8.tar.gz tmp/NetworkXsimple-0.1.9-py2.py3-none-any.whl.zip --markdown 20240411/N/NetworkXsimple/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 12:39:17] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Downloading https://files.pythonhosted.org/packages/ea/e6/133b65c7e41e2ab868515903133ae38c630fd7577ba3510c76c84e55b771/nonebot_plugin_picstatus-2.0.0.post3.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster]: Downloading https://files.pythonhosted.org/packages/15/08/ed912b9f2a1ac506085d7a1e61f6d57683ae16839f2092d35c18b9fc1652/aws-parallelcluster-3.9.0.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [nonebot-plugin-picstatus]: executing diffoscope
+[2024-04-11 12:39:17] INFO root fetch - processPackages [nonebot-plugin-picstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_picstatus-2.0.0.post2.tar.gz tmp/nonebot_plugin_picstatus-2.0.0.post3.tar.gz --markdown 20240411/n/nonebot-plugin-picstatus/2.0.0.post2-2.0.0.post3/README.md --exclude *.pyd
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster-node]: Downloading https://files.pythonhosted.org/packages/d6/93/94a88ed86cc431df9e0678622e49be1da1887f99750ab198194216f1c766/aws-parallelcluster-node-3.9.1.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/45/5b/88f72b45a9ef2cf952442a8eacd1427379e24aeb4581379ea9d6a772a765/pymemgpt_nightly-0.3.9.dev20240411025350.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster-node]: executing diffoscope
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-parallelcluster-node-3.9.0.tar.gz tmp/aws-parallelcluster-node-3.9.1.tar.gz --markdown 20240411/a/aws-parallelcluster-node/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-11 12:39:17] INFO root fetch - processPackages [aws-parallelcluster]: Downloading https://files.pythonhosted.org/packages/b2/05/1e38b8c6bd9ae490eca2f54fa747aec94aaf6f835201542160c447b3699a/aws-parallelcluster-3.9.1.tar.gz
+[2024-04-11 12:39:17] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-11 12:39:17] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.8.dev20240410103932.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240411025350.tar.gz --markdown 20240411/p/pymemgpt-nightly/0.3.8.dev20240410103932-0.3.9.dev20240411025350/README.md --exclude *.pyd
+[2024-04-11 12:39:17] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.8.tar.gz]
+[2024-04-11 12:39:17] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-11 12:39:17] INFO root fetch - main [MainThread]: End processing [NetworkXsimple]: success
+[2024-04-11 12:39:18] INFO root fetch - processPackages [aws-parallelcluster]: executing diffoscope
+[2024-04-11 12:39:18] INFO root fetch - processPackages [aws-parallelcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-parallelcluster-3.9.0.tar.gz tmp/aws-parallelcluster-3.9.1.tar.gz --markdown 20240411/a/aws-parallelcluster/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-11 12:39:18] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_picstatus-2.0.0.post2.tar.gz]
+[2024-04-11 12:39:18] INFO root fetch - processPackages [nonebot-plugin-picstatus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_picstatus-2.0.0.post3.tar.gz]
+[2024-04-11 12:39:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-picstatus]: success
+[2024-04-11 12:39:18] INFO root fetch - processPackages [aws-parallelcluster-node]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-node-3.9.0.tar.gz]
+[2024-04-11 12:39:18] INFO root fetch - processPackages [aws-parallelcluster-node]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-node-3.9.1.tar.gz]
+[2024-04-11 12:39:18] INFO root fetch - main [MainThread]: End processing [aws-parallelcluster-node]: success
+[2024-04-11 12:39:19] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240410103932.tar.gz]
+[2024-04-11 12:39:19] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411025350.tar.gz]
+[2024-04-11 12:39:19] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-11 12:39:19] INFO root fetch - processPackages [aws-parallelcluster]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-3.9.0.tar.gz]
+[2024-04-11 12:39:19] INFO root fetch - processPackages [aws-parallelcluster]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-3.9.1.tar.gz]
+[2024-04-11 12:39:19] INFO root fetch - main [MainThread]: End processing [aws-parallelcluster]: success
+[2024-04-11 12:39:19] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.48.tar.gz]
+[2024-04-11 12:39:19] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 12:39:19] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 12:39:19] INFO root fetch - main [MainThread]: Store serial: [22718270]

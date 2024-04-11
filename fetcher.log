@@ -14598,3 +14598,45 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:15:41] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
 [2024-04-11 10:15:41] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
 [2024-04-11 10:15:41] INFO root fetch - main [MainThread]: Store serial: [22716180]
+[2024-04-11 10:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716180]
+[2024-04-11 10:17:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 10:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reviutils
+[2024-04-11 10:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: masspcf
+[2024-04-11 10:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiledb-cloud
+[2024-04-11 10:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-field-logger
+[2024-04-11 10:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssb-altinn-python
+[2024-04-11 10:17:50] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.22] Old Version: [0.0.21]
+[2024-04-11 10:17:50] INFO root fetch - processPackages [reviutils]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-11 10:17:50] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/3a/74/baa31a80dcaf97508982e07aa3641279d5c6afeaa5e12c72885c0657df49/django-field-logger-0.0.21.tar.gz
+[2024-04-11 10:17:50] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/2e/76/fee79277fe29884f114e7b6c73dc6ddeb53e297db1e857ed12e6a7722eae/reviutils-1.3.1.tar.gz
+[2024-04-11 10:17:50] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-11 10:17:50] WARNING root fetch - processPackages [masspcf]: Skipping, unable to determine old version
+[2024-04-11 10:17:50] INFO root fetch - main [MainThread]: End processing [masspcf] error
+[2024-04-11 10:17:50] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-11 10:17:51] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/2c/a5/d6f2d3514b7d419fc7d0345b8563c40f23327bba074fbf6c34b696470b94/django-field-logger-0.0.22.tar.gz
+[2024-04-11 10:17:51] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/da/65/b399f9379d5fe5b389cff667e7a323614cf86b212ebecc93e6fc199adf37/ssb_altinn_python-0.4.7.tar.gz
+[2024-04-11 10:17:51] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/bd/46/dd6490c220f2ffefe97e0545ff5890131b245d390529a7370bd824b2c1c4/reviutils-1.3.2.tar.gz
+[2024-04-11 10:17:51] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2024-04-11 10:17:51] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-11 10:17:51] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-field-logger-0.0.21.tar.gz tmp/django-field-logger-0.0.22.tar.gz --markdown 20240411/d/django-field-logger/0.0.21-0.0.22/README.md --exclude *.pyd
+[2024-04-11 10:17:51] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-11 10:17:51] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.1.tar.gz tmp/reviutils-1.3.2.tar.gz --markdown 20240411/r/reviutils/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-11 10:17:51] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/98/b1/53c160c4e9f8101230bf4313d67a9b0cbaf7244a8785da5a7a35edbb29b1/ssb_altinn_python-0.4.8.tar.gz
+[2024-04-11 10:17:51] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2024-04-11 10:17:51] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2024-04-11 10:17:51] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.4.7.tar.gz tmp/ssb_altinn_python-0.4.8.tar.gz --markdown 20240411/s/ssb-altinn-python/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-11 10:17:51] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2024-04-11 10:17:51] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20240411/t/tiledb-cloud/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-11 10:17:51] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.21.tar.gz]
+[2024-04-11 10:17:51] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.22.tar.gz]
+[2024-04-11 10:17:51] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-11 10:17:51] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.1.tar.gz]
+[2024-04-11 10:17:51] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.2.tar.gz]
+[2024-04-11 10:17:51] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-11 10:17:52] INFO root fetch - processPackages [ssb-altinn-python]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn_python-0.4.7.tar.gz]
+[2024-04-11 10:17:52] INFO root fetch - processPackages [ssb-altinn-python]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn_python-0.4.8.tar.gz]
+[2024-04-11 10:17:52] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2024-04-11 10:17:53] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2024-04-11 10:17:53] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2024-04-11 10:17:53] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2024-04-11 10:17:53] INFO root fetch - main [MainThread]: Store serial: [22716224]

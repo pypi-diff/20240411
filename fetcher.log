@@ -23123,3 +23123,44 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:23:33] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-04-11 14:23:33] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-04-11 14:23:33] INFO root fetch - main [MainThread]: Store serial: [22719673]
+[2024-04-11 14:25:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719673]
+[2024-04-11 14:25:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 14:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smad-legi-model-monitoring
+[2024-04-11 14:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bc-detect-secrets
+[2024-04-11 14:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hat-event
+[2024-04-11 14:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crx-hslayers
+[2024-04-11 14:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smad-legi-syndata
+[2024-04-11 14:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parse-it
+[2024-04-11 14:25:44] INFO root fetch - processPackages [hat-event]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 14:25:44] WARNING root fetch - processPackages [smad-legi-syndata]: Skipping, unable to determine old version
+[2024-04-11 14:25:44] INFO root fetch - main [MainThread]: End processing [smad-legi-syndata] error
+[2024-04-11 14:25:44] WARNING root fetch - processPackages [smad-legi-model-monitoring]: Skipping, unable to determine old version
+[2024-04-11 14:25:44] INFO root fetch - main [MainThread]: End processing [smad-legi-model-monitoring] error
+[2024-04-11 14:25:44] INFO root fetch - processPackages [crx-hslayers]: New version: [3.0.0b0] Old Version: [2.4.0]
+[2024-04-11 14:25:44] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/c1/40/60e7cbc836ba868121d63194f184f1bb86e14f78043407fac10e8ac23dd8/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl
+[2024-04-11 14:25:44] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-04-11 14:25:44] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2024-04-11 14:25:44] INFO root fetch - processPackages [crx-hslayers]: Downloading https://files.pythonhosted.org/packages/c7/05/d6b67ac5f2ec3e2ce1178a604f8d63ac0672b838c34a0920c9ce60e87b4e/crx_hslayers-2.4.0.tar.gz
+[2024-04-11 14:25:44] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/76/6d/d27c142e6d8d90bd55767731fc4e5ac8a3e00dad01c021c7add1dd877d44/bc-detect-secrets-1.5.5.tar.gz
+[2024-04-11 14:25:44] WARNING root fetch - processPackages [crx-hslayers]: Skipping package: exceeds size limit 11468667>=10485760
+[2024-04-11 14:25:44] INFO root fetch - main [MainThread]: End processing [crx-hslayers] error
+[2024-04-11 14:25:44] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/9d/19/b48731c32a4c0cf77346d5d7de403d840ed4558d57fa93328b11e519a4fc/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl
+[2024-04-11 14:25:44] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2024-04-11 14:25:45] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/1e/35/efdd8487d84b98ae19c0dfec8699b8be5c7f2fcea57f5debb810d7a3d19a/bc-detect-secrets-1.5.6.tar.gz
+[2024-04-11 14:25:45] INFO root fetch - processPackages [hat-event]: executing diffoscope
+[2024-04-11 14:25:45] INFO root fetch - processPackages [hat-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl.zip tmp/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl.zip --markdown 20240411/h/hat-event/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 14:25:45] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2024-04-11 14:25:45] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.5.5.tar.gz tmp/bc-detect-secrets-1.5.6.tar.gz --markdown 20240411/b/bc-detect-secrets/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-04-11 14:25:45] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2024-04-11 14:25:45] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2024-04-11 14:25:45] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20240411/p/parse-it/3.7.0-3.8.0/README.md --exclude *.pyd
+[2024-04-11 14:25:45] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl.zip]
+[2024-04-11 14:25:45] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl.zip]
+[2024-04-11 14:25:45] INFO root fetch - main [MainThread]: End processing [hat-event]: success
+[2024-04-11 14:25:45] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.5.5.tar.gz]
+[2024-04-11 14:25:45] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.5.6.tar.gz]
+[2024-04-11 14:25:45] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2024-04-11 14:25:45] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.7.0.tar.gz]
+[2024-04-11 14:25:45] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.8.0.tar.gz]
+[2024-04-11 14:25:45] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2024-04-11 14:25:45] INFO root fetch - main [MainThread]: Store serial: [22719706]

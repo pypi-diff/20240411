@@ -10709,3 +10709,15 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:00:03] INFO root fetch - processPackages [NuriKit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-11 06:00:03] INFO root fetch - main [MainThread]: End processing [NuriKit]: success
 [2024-04-11 06:00:03] INFO root fetch - main [MainThread]: Store serial: [22714141]
+[2024-04-11 06:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714141]
+[2024-04-11 06:02:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 06:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diso
+[2024-04-11 06:02:17] INFO root fetch - processPackages [diso]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 06:02:17] INFO root fetch - processPackages [diso]: Downloading https://files.pythonhosted.org/packages/d4/68/93ea7a8a2c29dc467b9e7284a0de032e834f147df2f2e8652c7a3703d9ab/diso-0.1.0.tar.gz
+[2024-04-11 06:02:17] INFO root fetch - processPackages [diso]: Downloading https://files.pythonhosted.org/packages/c2/52/3e1a208e7c52e31dda339c024e543aa4a93b8e57a43accab30ce6320d322/diso-0.1.1.tar.gz
+[2024-04-11 06:02:17] INFO root fetch - processPackages [diso]: executing diffoscope
+[2024-04-11 06:02:17] INFO root fetch - processPackages [diso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diso-0.1.0.tar.gz tmp/diso-0.1.1.tar.gz --markdown 20240411/d/diso/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 06:02:18] INFO root fetch - processPackages [diso]: Remove: archive file [/home/abi/fetcher/tmp/diso-0.1.0.tar.gz]
+[2024-04-11 06:02:18] INFO root fetch - processPackages [diso]: Remove: archive file [/home/abi/fetcher/tmp/diso-0.1.1.tar.gz]
+[2024-04-11 06:02:18] INFO root fetch - main [MainThread]: End processing [diso]: success
+[2024-04-11 06:02:18] INFO root fetch - main [MainThread]: Store serial: [22714143]

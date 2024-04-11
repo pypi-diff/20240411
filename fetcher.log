@@ -18495,3 +18495,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:43:48] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
 [2024-04-11 11:43:48] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2024-04-11 11:43:48] INFO root fetch - main [MainThread]: Store serial: [22717647]
+[2024-04-11 11:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717647]
+[2024-04-11 11:45:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 11:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-nightly-cuda110
+[2024-04-11 11:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-partner-pricelist-search
+[2024-04-11 11:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zonesmart-utils
+[2024-04-11 11:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-04-11 11:45:58] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-11 11:45:58] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/45/5f/3d40f4f4a29601035ce77db85e738c9e8720213906f1a902767fc529b5c9/zonesmart-utils-0.5.7.tar.gz
+[2024-04-11 11:45:58] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.6]
+[2024-04-11 11:45:58] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.37.0.dev20240409] Old Version: [1.37.0.dev20240405]
+[2024-04-11 11:45:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.37.0.dev20240409] Old Version: [1.37.0.dev20240405]
+[2024-04-11 11:45:58] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/04/4c/88dcb9acdbd9bd5fab33ddea4a3ad12d49f8d8fbecc9f7da36f3de03bf50/nvidia_dali_nightly_cuda110-1.37.0.dev20240405.tar.gz
+[2024-04-11 11:45:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/53/c2/5e466fa11357da241dfba01455522f563deec1e6c5f0a2cce105f1033b65/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240405.tar.gz
+[2024-04-11 11:45:58] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Downloading https://files.pythonhosted.org/packages/11/f5/61a9d1b4a239ddc565896b20bc4794d755b519ba587bb4910da6d946d946/odoo_addon_partner_pricelist_search-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-11 11:45:58] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/ce/06/0c1500a6ba6d65df7c9ba3b52b6f9c889a380dac813d0fcfeb6c9f730251/zonesmart-utils-0.5.8.tar.gz
+[2024-04-11 11:45:58] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2024-04-11 11:45:58] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.5.7.tar.gz tmp/zonesmart-utils-0.5.8.tar.gz --markdown 20240411/z/zonesmart-utils/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/9f/fe/3b15b7796f798732293cc4ee36703c4457837474a974fbbce19f5174d12a/nvidia_dali_nightly_cuda110-1.37.0.dev20240409.tar.gz
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/8b/4b/9f0fbc88606bc812d3d213eb22c08bd57e07df16c6da662c4e58cb7cf218/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240409.tar.gz
+[2024-04-11 11:45:59] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Downloading https://files.pythonhosted.org/packages/c5/8b/bedd9bc9e9b0596735457a11443c19c52d0061f874b2040523e0657ad390/odoo_addon_partner_pricelist_search-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240405.tar.gz tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240409.tar.gz --markdown 20240411/n/nvidia-dali-nightly-cuda110/1.37.0.dev20240405-1.37.0.dev20240409/README.md --exclude *.pyd
+[2024-04-11 11:45:59] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: executing diffoscope
+[2024-04-11 11:45:59] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_partner_pricelist_search-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-partner-pricelist-search/16.0.1.0.0.6-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240405.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240409.tar.gz --markdown 20240411/n/nvidia-dali-tf-plugin-nightly-cuda110/1.37.0.dev20240405-1.37.0.dev20240409/README.md --exclude *.pyd
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240405.tar.gz]
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240409.tar.gz]
+[2024-04-11 11:45:59] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240405.tar.gz]
+[2024-04-11 11:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240409.tar.gz]
+[2024-04-11 11:45:59] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-04-11 11:45:59] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-11 11:45:59] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_pricelist_search-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-11 11:45:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-pricelist-search]: success
+[2024-04-11 11:46:00] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.5.7.tar.gz]
+[2024-04-11 11:46:00] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.5.8.tar.gz]
+[2024-04-11 11:46:00] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2024-04-11 11:46:00] INFO root fetch - main [MainThread]: Store serial: [22717665]

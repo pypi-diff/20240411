@@ -2184,3 +2184,71 @@ EOFError: EOF read where object expected
 [2024-04-11 02:06:23] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240410.422.tar.gz]
 [2024-04-11 02:06:23] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-11 02:06:23] INFO root fetch - main [MainThread]: Store serial: [22711103]
+[2024-04-11 02:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711103]
+[2024-04-11 02:08:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezirion-api
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-py
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faucet
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SecLoadSDK
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: passphera-core
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swebench
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2024-04-11 02:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sos
+[2024-04-11 02:08:32] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240410] Old Version: [0.0.8.dev20240409]
+[2024-04-11 02:08:32] INFO root fetch - processPackages [passphera-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 02:08:32] INFO root fetch - processPackages [swebench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 02:08:32] WARNING root fetch - processPackages [SecLoadSDK]: Skipping, unable to determine old version
+[2024-04-11 02:08:32] INFO root fetch - main [MainThread]: End processing [SecLoadSDK] error
+[2024-04-11 02:08:32] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-11 02:08:32] WARNING root fetch - processPackages [ezirion-api]: Skipping, unable to determine old version
+[2024-04-11 02:08:32] INFO root fetch - main [MainThread]: End processing [ezirion-api] error
+[2024-04-11 02:08:32] INFO root fetch - processPackages [faucet]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-11 02:08:32] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2024-04-11 02:08:33] INFO root fetch - processPackages [sos]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2024-04-11 02:08:33] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/f0/33/7fb8dcc05311018efce7f0142edd43f0ce750800d2d52470bd4e0f3e62b0/jaxutils-nightly-0.0.8.dev20240409.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/28/d1/66a819af0084f3ea69e1c1bc015cad1d592cc842527b5ef8f8409eaff490/passphera-core-0.3.0.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9f/5f/e1b27b554c9d461ee219864c4084395d8c393b8c84491f779e65107362bb/swebench-1.0.8.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [faucet]: Downloading https://files.pythonhosted.org/packages/36/cf/a78ca34ccbe63e675a5f16e3b0ad465900a15f1bef78b695da77ca555e24/faucet-1.9.8.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [sos]: Downloading https://files.pythonhosted.org/packages/41/91/3fc5395eefacd12743b4e2ed644ae25ba3d40593b98d6d068716c2dc99e3/sos-0.9.9.8.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/f4/1e/da0a5ff7fec617ab4a890a381f312d0e2e1121cc800b024ac5b967ba62a7/swebench-1.0.9.tar.gz
+[2024-04-11 02:08:33] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2024-04-11 02:08:33] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2024-04-11 02:08:33] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/32/fb/d337786df2de3ec9fca39d5c44ca3fca0f0cc98f18dde088de5a22ab911f/jaxutils-nightly-0.0.8.dev20240410.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/ca/17/c84318c0385059ac9aa96b42787865a42e27950bee2149374ba6ea7580df/passphera-core-0.3.1.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-04-11 02:08:33] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.0.8.tar.gz tmp/swebench-1.0.9.tar.gz --markdown 20240411/s/swebench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 02:08:33] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-11 02:08:33] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240409.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240410.tar.gz --markdown 20240411/j/jaxutils-nightly/0.0.8.dev20240409-0.0.8.dev20240410/README.md --exclude *.pyd
+[2024-04-11 02:08:33] INFO root fetch - processPackages [passphera-core]: executing diffoscope
+[2024-04-11 02:08:33] INFO root fetch - processPackages [passphera-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passphera-core-0.3.0.tar.gz tmp/passphera-core-0.3.1.tar.gz --markdown 20240411/p/passphera-core/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 02:08:33] INFO root fetch - processPackages [sos]: Downloading https://files.pythonhosted.org/packages/f3/23/3b8df06b45cf5433c35ebe71d6179ff2fc9d92aeb7db48394c079d701410/sos-0.9.9.9.tar.gz
+[2024-04-11 02:08:33] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-11 02:08:33] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240411/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-11 02:08:34] INFO root fetch - processPackages [sos]: executing diffoscope
+[2024-04-11 02:08:34] INFO root fetch - processPackages [sos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sos-0.9.9.8.tar.gz tmp/sos-0.9.9.9.tar.gz --markdown 20240411/s/sos/0.9.9.8-0.9.9.9/README.md --exclude *.pyd
+[2024-04-11 02:08:34] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240409.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240410.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-11 02:08:34] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.3.0.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.3.1.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - main [MainThread]: End processing [passphera-core]: success
+[2024-04-11 02:08:34] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.8.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.9.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-04-11 02:08:34] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-11 02:08:34] INFO root fetch - processPackages [sos]: Remove: archive file [/home/abi/fetcher/tmp/sos-0.9.9.8.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - processPackages [sos]: Remove: archive file [/home/abi/fetcher/tmp/sos-0.9.9.9.tar.gz]
+[2024-04-11 02:08:34] INFO root fetch - main [MainThread]: End processing [sos]: success
+[2024-04-11 02:09:00] INFO root fetch - processPackages [faucet]: Downloading https://files.pythonhosted.org/packages/4e/cd/5282a28ad8b81fdf1fddb64227f4cd5b2d39bfb9814985df1002567e309b/faucet-1.9.9.tar.gz
+[2024-04-11 02:09:00] INFO root fetch - processPackages [faucet]: executing diffoscope
+[2024-04-11 02:09:00] INFO root fetch - processPackages [faucet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faucet-1.9.8.tar.gz tmp/faucet-1.9.9.tar.gz --markdown 20240411/f/faucet/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-11 02:09:02] INFO root fetch - processPackages [faucet]: Remove: archive file [/home/abi/fetcher/tmp/faucet-1.9.8.tar.gz]
+[2024-04-11 02:09:02] INFO root fetch - processPackages [faucet]: Remove: archive file [/home/abi/fetcher/tmp/faucet-1.9.9.tar.gz]
+[2024-04-11 02:09:02] INFO root fetch - main [MainThread]: End processing [faucet]: success
+[2024-04-11 02:09:02] INFO root fetch - main [MainThread]: Store serial: [22711136]

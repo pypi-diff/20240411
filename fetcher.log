@@ -18143,3 +18143,80 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:27:42] INFO root fetch - processPackages [allopy]: Remove: archive file [/home/abi/fetcher/tmp/allopy-0.1.4-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-11 11:27:42] INFO root fetch - main [MainThread]: End processing [allopy]: success
 [2024-04-11 11:27:42] INFO root fetch - main [MainThread]: Store serial: [22717445]
+[2024-04-11 11:29:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717445]
+[2024-04-11 11:29:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySigma-backend-QRadar-AQL
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyved-engine
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: new-rep
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-mpexec
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mage-ai
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sumo-experiments
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bisheng-langchain
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qiskit-scaleway
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luoguapi
+[2024-04-11 11:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neosctl
+[2024-04-11 11:29:51] INFO root fetch - processPackages [pyved-engine]: New version: [24.4a1] Old Version: [24.3a1]
+[2024-04-11 11:29:51] INFO root fetch - processPackages [bisheng-langchain]: New version: [0.3.0b0] Old Version: [0.3.0]
+[2024-04-11 11:29:51] INFO root fetch - processPackages [neosctl]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-11 11:29:51] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-11 11:29:51] WARNING root fetch - processPackages [new-rep]: Skipping, unable to determine old version
+[2024-04-11 11:29:51] INFO root fetch - main [MainThread]: End processing [new-rep] error
+[2024-04-11 11:29:51] INFO root fetch - processPackages [mage-ai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-11 11:29:51] INFO root fetch - processPackages [qiskit-scaleway]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-11 11:29:51] WARNING root fetch - processPackages [luoguapi]: Skipping, unable to determine old version
+[2024-04-11 11:29:51] INFO root fetch - main [MainThread]: End processing [luoguapi] error
+[2024-04-11 11:29:51] INFO root fetch - processPackages [sumo-experiments]: New version: [3.3.1] Old Version: [3.3]
+[2024-04-11 11:29:51] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-11 11:29:51] INFO root fetch - processPackages [pyved-engine]: Downloading https://files.pythonhosted.org/packages/97/e0/bc05b7cf6d55681a8160692671e3f83a87c2cc25f7959109f60f857475fe/pyved-engine-24.3a1.tar.gz
+[2024-04-11 11:29:51] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/5d/1b/bb37f5637a064c8d5ab4b4235d039cf7857037c9c438d57b7671aef507e3/neosctl-0.9.2.tar.gz
+[2024-04-11 11:29:51] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Downloading https://files.pythonhosted.org/packages/08/a6/3e3246349de7af5c7a9328a6569bf03381dc5d4d29dbb9ef0a674fb00d00/pysigma_backend_qradar_aql-0.2.9.tar.gz
+[2024-04-11 11:29:51] INFO root fetch - processPackages [bisheng-langchain]: Downloading https://files.pythonhosted.org/packages/b3/db/fb5e77dd58a337778e3424155251e7b5703878a86976219db8bea6b83e47/bisheng_langchain-0.3.0-py3-none-any.whl
+[2024-04-11 11:29:52] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/25/a7/250eec4f898ef6eb381124f2abb1b13e28f293a048995a1f72a7677bbf6a/qiskit_scaleway-0.1.3.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/65/1f/0b0854dd884fc475e0a0391b82036c03e9b4fab9cbe39e91c73079ca13d5/mage-ai-0.9.8.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/fb/ec/a92f3e2522c68dd6de31790893919fa325898923bd96d129314a718aa19c/lsst-ctrl-mpexec-26.2024.800.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [sumo-experiments]: Downloading https://files.pythonhosted.org/packages/ed/e3/5113a71cae150b30ad074783f687c61a681f36ac045d2a3c5b308d7a7ecd/sumo_experiments-3.3.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Downloading https://files.pythonhosted.org/packages/48/9e/19ab4bb07743df08711bcd6013c3da6806c2c07f6b9c02d810f66efb7a66/pysigma_backend_qradar_aql-0.3.0.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/fb/17/0247bcfe59a8b9582e555bf06a04177a766199fe8b2dca93c086c142891a/neosctl-0.9.3.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [pyved-engine]: Downloading https://files.pythonhosted.org/packages/d6/85/98012ae0d212ff16fab847f667ce480bebc029d469b6cf8c28c9875b47c6/pyved-engine-24.4a1.tar.gz
+[2024-04-11 11:29:52] WARNING root fetch - processPackages [sumo-experiments]: Skipping package: exceeds size limit 52469824>=10485760
+[2024-04-11 11:29:52] INFO root fetch - main [MainThread]: End processing [sumo-experiments] error
+[2024-04-11 11:29:52] INFO root fetch - processPackages [bisheng-langchain]: Downloading https://files.pythonhosted.org/packages/e8/85/6caa7353226fea4ca8006a0d38530f221503908d3772ee8769f0877d3552/bisheng_langchain-0.3.0b0-py3-none-any.whl
+[2024-04-11 11:29:52] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2024-04-11 11:29:52] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.9.2.tar.gz tmp/neosctl-0.9.3.tar.gz --markdown 20240411/n/neosctl/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-11 11:29:52] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/bc/45/f20a3c1b189888bf66cdf909b207391aba89319a73fe8d27cfbcfbb9a8cb/qiskit_scaleway-0.1.4.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: executing diffoscope
+[2024-04-11 11:29:52] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_qradar_aql-0.2.9.tar.gz tmp/pysigma_backend_qradar_aql-0.3.0.tar.gz --markdown 20240411/p/pySigma-backend-QRadar-AQL/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-11 11:29:52] INFO root fetch - processPackages [pyved-engine]: executing diffoscope
+[2024-04-11 11:29:52] INFO root fetch - processPackages [pyved-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyved-engine-24.3a1.tar.gz tmp/pyved-engine-24.4a1.tar.gz --markdown 20240411/p/pyved-engine/24.3a1-24.4a1/README.md --exclude *.pyd
+[2024-04-11 11:29:52] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/6d/f1/475e9b17bd6686ef7617465913567956ac4ae7b9d15bf6699af133438cb6/lsst-ctrl-mpexec-26.2024.900.tar.gz
+[2024-04-11 11:29:52] INFO root fetch - processPackages [bisheng-langchain]: executing diffoscope
+[2024-04-11 11:29:52] INFO root fetch - processPackages [bisheng-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisheng_langchain-0.3.0-py3-none-any.whl.zip tmp/bisheng_langchain-0.3.0b0-py3-none-any.whl.zip --markdown 20240411/b/bisheng-langchain/0.3.0-0.3.0b0/README.md --exclude *.pyd
+[2024-04-11 11:29:52] INFO root fetch - processPackages [qiskit-scaleway]: executing diffoscope
+[2024-04-11 11:29:52] INFO root fetch - processPackages [qiskit-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_scaleway-0.1.3.tar.gz tmp/qiskit_scaleway-0.1.4.tar.gz --markdown 20240411/q/qiskit-scaleway/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-11 11:29:52] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2024-04-11 11:29:52] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.2024.800.tar.gz tmp/lsst-ctrl-mpexec-26.2024.900.tar.gz --markdown 20240411/l/lsst-ctrl-mpexec/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-11 11:29:53] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_qradar_aql-0.2.9.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - processPackages [pySigma-backend-QRadar-AQL]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_qradar_aql-0.3.0.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - main [MainThread]: End processing [pySigma-backend-QRadar-AQL]: success
+[2024-04-11 11:29:53] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.2.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.3.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2024-04-11 11:29:53] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.3.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.4.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - main [MainThread]: End processing [qiskit-scaleway]: success
+[2024-04-11 11:29:53] INFO root fetch - processPackages [bisheng-langchain]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_langchain-0.3.0-py3-none-any.whl.zip]
+[2024-04-11 11:29:53] INFO root fetch - processPackages [bisheng-langchain]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_langchain-0.3.0b0-py3-none-any.whl.zip]
+[2024-04-11 11:29:53] INFO root fetch - main [MainThread]: End processing [bisheng-langchain]: success
+[2024-04-11 11:29:53] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.2024.800.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.2024.900.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2024-04-11 11:29:53] INFO root fetch - processPackages [pyved-engine]: Remove: archive file [/home/abi/fetcher/tmp/pyved-engine-24.3a1.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - processPackages [pyved-engine]: Remove: archive file [/home/abi/fetcher/tmp/pyved-engine-24.4a1.tar.gz]
+[2024-04-11 11:29:53] INFO root fetch - main [MainThread]: End processing [pyved-engine]: success
+[2024-04-11 11:29:55] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/28/98/682c8883178a9d97f875ff86fddc794bf88961384afdd2c4b8c98d21f7d8/mage-ai-0.9.9.tar.gz
+[2024-04-11 11:29:57] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2024-04-11 11:29:57] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.9.8.tar.gz tmp/mage-ai-0.9.9.tar.gz --markdown 20240411/m/mage-ai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-11 11:30:25] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.8.tar.gz]
+[2024-04-11 11:30:25] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.9.tar.gz]
+[2024-04-11 11:30:25] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2024-04-11 11:30:25] INFO root fetch - main [MainThread]: Store serial: [22717535]

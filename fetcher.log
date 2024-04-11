@@ -18534,3 +18534,43 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:46:00] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.5.8.tar.gz]
 [2024-04-11 11:46:00] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
 [2024-04-11 11:46:00] INFO root fetch - main [MainThread]: Store serial: [22717665]
+[2024-04-11 11:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717665]
+[2024-04-11 11:48:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speculos
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataiku-cli-requests
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-error-handler
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OSBModelValidation
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ActiveCollab
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytket-qiskit
+[2024-04-11 11:48:09] INFO root fetch - processPackages [dataiku-cli-requests]: New version: [0.3] Old Version: [0.1.1]
+[2024-04-11 11:48:09] INFO root fetch - processPackages [speculos]: New version: [0.8.5.dev2] Old Version: [0.8.4.dev6]
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ActiveCollab]: New version: [1.2] Old Version: [1]
+[2024-04-11 11:48:09] WARNING root fetch - processPackages [drf-error-handler]: Skipping, unable to determine old version
+[2024-04-11 11:48:09] INFO root fetch - main [MainThread]: End processing [drf-error-handler] error
+[2024-04-11 11:48:09] ERROR root fetch - processPackages [OSBModelValidation]: Unable to get metadata: No such project 'OSBModelValidation'
+[2024-04-11 11:48:09] INFO root fetch - processPackages [dataiku-cli-requests]: Downloading https://files.pythonhosted.org/packages/8c/d5/25ec3b7a191189f1d246b9662db927ccdcff1da2b92544490472db1b73d0/dataiku-cli-requests-0.1.1.tar.gz
+[2024-04-11 11:48:09] INFO root fetch - main [MainThread]: End processing [OSBModelValidation] error
+[2024-04-11 11:48:09] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/44/f8/b40c181b5863e994796f4fa47fcefcaa40cb7be3b5f2b46f8c80297be4ce/speculos-0.8.4.dev6.tar.gz
+[2024-04-11 11:48:09] INFO root fetch - processPackages [pytket-qiskit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 11:48:09] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16554641>=10485760
+[2024-04-11 11:48:09] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/9b/6a/ec0280117b652b68e0eeed9bd0848a6016ec7bcaef023be90d872469f52f/ActiveCollab-1.2.tar.gz
+[2024-04-11 11:48:09] INFO root fetch - processPackages [pytket-qiskit]: Downloading https://files.pythonhosted.org/packages/ff/b9/8f46cbccd38064746fc115594124a6dff8729f5e246680d9043202787ead/pytket-qiskit-0.9.0.tar.gz
+[2024-04-11 11:48:09] INFO root fetch - processPackages [dataiku-cli-requests]: Downloading https://files.pythonhosted.org/packages/7e/60/34301d1b4a45f5bb8fa7c1abce62c4e7aa026cc525606030c5a8f67f46cb/dataiku-cli-requests-0.3.tar.gz
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ActiveCollab]: executing diffoscope
+[2024-04-11 11:48:09] INFO root fetch - processPackages [ActiveCollab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ActiveCollab-1.tar.gz tmp/ActiveCollab-1.2.tar.gz --markdown 20240411/A/ActiveCollab/1-1.2/README.md --exclude *.pyd
+[2024-04-11 11:48:09] INFO root fetch - processPackages [dataiku-cli-requests]: executing diffoscope
+[2024-04-11 11:48:09] INFO root fetch - processPackages [dataiku-cli-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-cli-requests-0.1.1.tar.gz tmp/dataiku-cli-requests-0.3.tar.gz --markdown 20240411/d/dataiku-cli-requests/0.1.1-0.3/README.md --exclude *.pyd
+[2024-04-11 11:48:10] INFO root fetch - processPackages [pytket-qiskit]: Downloading https://files.pythonhosted.org/packages/23/19/02ea04ea396821dbc38a6428fe6344ca7c0d8eca52f90f0af34f63647f77/pytket-qiskit-0.9.1.tar.gz
+[2024-04-11 11:48:10] INFO root fetch - processPackages [pytket-qiskit]: executing diffoscope
+[2024-04-11 11:48:10] INFO root fetch - processPackages [pytket-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-qiskit-0.9.0.tar.gz tmp/pytket-qiskit-0.9.1.tar.gz --markdown 20240411/p/pytket-qiskit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 11:48:10] INFO root fetch - processPackages [dataiku-cli-requests]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-cli-requests-0.1.1.tar.gz]
+[2024-04-11 11:48:10] INFO root fetch - processPackages [dataiku-cli-requests]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-cli-requests-0.3.tar.gz]
+[2024-04-11 11:48:10] INFO root fetch - main [MainThread]: End processing [dataiku-cli-requests]: success
+[2024-04-11 11:48:10] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/ActiveCollab-1.tar.gz]
+[2024-04-11 11:48:10] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/ActiveCollab-1.2.tar.gz]
+[2024-04-11 11:48:10] INFO root fetch - main [MainThread]: End processing [ActiveCollab]: success
+[2024-04-11 11:48:11] INFO root fetch - processPackages [pytket-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qiskit-0.9.0.tar.gz]
+[2024-04-11 11:48:11] INFO root fetch - processPackages [pytket-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qiskit-0.9.1.tar.gz]
+[2024-04-11 11:48:11] INFO root fetch - main [MainThread]: End processing [pytket-qiskit]: success
+[2024-04-11 11:48:11] INFO root fetch - main [MainThread]: Store serial: [22717696]

@@ -20930,3 +20930,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:12:54] INFO root fetch - processPackages [cyclonedx-bom]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_bom-4.1.5.tar.gz]
 [2024-04-11 13:12:54] INFO root fetch - main [MainThread]: End processing [cyclonedx-bom]: success
 [2024-04-11 13:12:54] INFO root fetch - main [MainThread]: Store serial: [22718682]
+[2024-04-11 13:15:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718682]
+[2024-04-11 13:15:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 13:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-04-11 13:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: space-avenger
+[2024-04-11 13:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-04-11 13:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-04-11 13:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ign8
+[2024-04-11 13:15:10] WARNING root fetch - processPackages [space-avenger]: Skipping, unable to determine old version
+[2024-04-11 13:15:10] INFO root fetch - main [MainThread]: End processing [space-avenger] error
+[2024-04-11 13:15:10] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240411090226] Old Version: [3.3.1.dev20240411074624]
+[2024-04-11 13:15:10] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 13:15:10] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-11 13:15:10] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-11 13:15:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9c/bf/3f62ffd690f98c4e0bff6a70a43d5fae2daf275bb7e84799ef48602fa809/localstack-core-3.3.1.dev20240411074624.tar.gz
+[2024-04-11 13:15:10] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 13:15:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-11 13:15:10] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-11 13:15:11] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 13:15:11] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c2/44/afa77d2dc97e9802e35091d89cb6924e2f518b5e88a414fd99d7b867edb5/localstack-core-3.3.1.dev20240411090226.tar.gz
+[2024-04-11 13:15:11] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-11 13:15:11] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:15:11] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 13:15:11] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-11 13:15:11] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-11 13:15:11] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240411074624.tar.gz tmp/localstack-core-3.3.1.dev20240411090226.tar.gz --markdown 20240411/l/localstack-core/3.3.1.dev20240411074624-3.3.1.dev20240411090226/README.md --exclude *.pyd
+[2024-04-11 13:15:11] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-11 13:15:11] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240411/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-11 13:15:11] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-11 13:15:11] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240411/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-11 13:15:13] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-11 13:15:13] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-11 13:15:13] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-11 13:15:14] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 13:15:14] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 13:15:14] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:15:15] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240411074624.tar.gz]
+[2024-04-11 13:15:15] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240411090226.tar.gz]
+[2024-04-11 13:15:15] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-11 13:15:15] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-11 13:15:15] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-11 13:15:15] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-11 13:15:15] INFO root fetch - main [MainThread]: Store serial: [22718697]

@@ -21777,3 +21777,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:49:06] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
 [2024-04-11 13:49:06] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 13:49:06] INFO root fetch - main [MainThread]: Store serial: [22719046]
+[2024-04-11 13:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719046]
+[2024-04-11 13:51:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 13:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-customvueadmin
+[2024-04-11 13:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-yuqing
+[2024-04-11 13:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotivelabs-broker
+[2024-04-11 13:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nap-plot-tools
+[2024-04-11 13:51:17] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-11 13:51:17] INFO root fetch - processPackages [nap-plot-tools]: New version: [0.0.4] Old Version: [0.0.3a0]
+[2024-04-11 13:51:17] INFO root fetch - processPackages [remotivelabs-broker]: New version: [0.2.0b9] Old Version: [0.2.0b8]
+[2024-04-11 13:51:17] INFO root fetch - processPackages [antchain-yuqing]: New version: [1.2.9] Old Version: [1.2.3]
+[2024-04-11 13:51:17] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/ea/59/4c7d54bb2dbbd1419076a20d226af6cf3e59fdeda431eca918f416a50685/django-customvueadmin-0.1.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/de/20/2eb47129d613d1577b4543d5b1fea5b5b0b227f3da72609fa389cb1d8020/remotivelabs_broker-0.2.0b8.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [antchain-yuqing]: Downloading https://files.pythonhosted.org/packages/c7/04/5b4a4fb4a81ba69662a2593c4afd20e16b1447e9fdbaad35d673aab45f21/antchain_yuqing-1.2.3.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [nap-plot-tools]: Downloading https://files.pythonhosted.org/packages/9c/93/b6b593747a946d3b61d47c716de010e31520429c644728f4672965a0186b/nap-plot-tools-0.0.3a0.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/76/bd/b794a2367bdcf5c26a3dc6ed33bbb66bdfa45feb9bf4d53fe05481d9d1a5/django-customvueadmin-0.1.1.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/67/05/2deb03df2f5dac0994e3a7987a7603c11f8c1fc6ccf0375c8cb0faf0b41d/remotivelabs_broker-0.2.0b9.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [nap-plot-tools]: Downloading https://files.pythonhosted.org/packages/b6/b0/f9d867c53edda04dd26b543eaf2f4356f304bf7afb0427f019d5414f128f/nap-plot-tools-0.0.4.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-11 13:51:17] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.tar.gz tmp/django-customvueadmin-0.1.1.tar.gz --markdown 20240411/d/django-customvueadmin/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-11 13:51:17] INFO root fetch - processPackages [antchain-yuqing]: Downloading https://files.pythonhosted.org/packages/06/dd/2d32466d350e0a77a899b3c6e5be05940632833a6e212022bf9c66d61692/antchain_yuqing-1.2.9.tar.gz
+[2024-04-11 13:51:17] INFO root fetch - processPackages [remotivelabs-broker]: executing diffoscope
+[2024-04-11 13:51:17] INFO root fetch - processPackages [remotivelabs-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_broker-0.2.0b8.tar.gz tmp/remotivelabs_broker-0.2.0b9.tar.gz --markdown 20240411/r/remotivelabs-broker/0.2.0b8-0.2.0b9/README.md --exclude *.pyd
+[2024-04-11 13:51:18] INFO root fetch - processPackages [nap-plot-tools]: executing diffoscope
+[2024-04-11 13:51:18] INFO root fetch - processPackages [nap-plot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nap-plot-tools-0.0.3a0.tar.gz tmp/nap-plot-tools-0.0.4.tar.gz --markdown 20240411/n/nap-plot-tools/0.0.3a0-0.0.4/README.md --exclude *.pyd
+[2024-04-11 13:51:18] INFO root fetch - processPackages [antchain-yuqing]: executing diffoscope
+[2024-04-11 13:51:18] INFO root fetch - processPackages [antchain-yuqing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_yuqing-1.2.3.tar.gz tmp/antchain_yuqing-1.2.9.tar.gz --markdown 20240411/a/antchain-yuqing/1.2.3-1.2.9/README.md --exclude *.pyd
+[2024-04-11 13:51:18] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.1.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-11 13:51:18] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b8.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b9.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - main [MainThread]: End processing [remotivelabs-broker]: success
+[2024-04-11 13:51:18] INFO root fetch - processPackages [nap-plot-tools]: Remove: archive file [/home/abi/fetcher/tmp/nap-plot-tools-0.0.3a0.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - processPackages [nap-plot-tools]: Remove: archive file [/home/abi/fetcher/tmp/nap-plot-tools-0.0.4.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - main [MainThread]: End processing [nap-plot-tools]: success
+[2024-04-11 13:51:18] INFO root fetch - processPackages [antchain-yuqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yuqing-1.2.3.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - processPackages [antchain-yuqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yuqing-1.2.9.tar.gz]
+[2024-04-11 13:51:18] INFO root fetch - main [MainThread]: End processing [antchain-yuqing]: success
+[2024-04-11 13:51:18] INFO root fetch - main [MainThread]: Store serial: [22719064]

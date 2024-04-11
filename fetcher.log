@@ -13678,3 +13678,63 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:23:07] INFO root fetch - processPackages [arcimboldo]: Remove: archive file [/home/abi/fetcher/tmp/arcimboldo-1.0.9-py2.py3-none-any.whl.zip]
 [2024-04-11 09:23:07] INFO root fetch - main [MainThread]: End processing [arcimboldo]: success
 [2024-04-11 09:23:07] INFO root fetch - main [MainThread]: Store serial: [22715705]
+[2024-04-11 09:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715705]
+[2024-04-11 09:25:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 09:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyad
+[2024-04-11 09:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-parser
+[2024-04-11 09:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oep-client
+[2024-04-11 09:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDOE3
+[2024-04-11 09:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lqbox
+[2024-04-11 09:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: daraz-scrapper
+[2024-04-11 09:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mrx-link-core
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lqbox]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lazyad]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-11 09:25:19] INFO root fetch - processPackages [pyDOE3]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 09:25:19] INFO root fetch - processPackages [open-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/85/94/884ff44d9544fdd58ecb1deedd618240a24d27575d60c0035dc6114c6612/lqbox-2.4.0.tar.gz
+[2024-04-11 09:25:19] WARNING root fetch - processPackages [daraz-scrapper]: Skipping, unable to determine old version
+[2024-04-11 09:25:19] INFO root fetch - main [MainThread]: End processing [daraz-scrapper] error
+[2024-04-11 09:25:19] INFO root fetch - processPackages [oep-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 09:25:19] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/bf/4d/398a2600d3f4012ccc0a609acd8b43f0efff1d1c090bb6eafada11633511/open_parser-0.0.3.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/be/2f/f9e77c24ebabb312a63d297e758fee9e100c032e3087795f11f61a329b49/lazyad-0.0.6.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [pyDOE3]: Downloading https://files.pythonhosted.org/packages/af/90/56b728808eac110161e1c0d7b3487e73e89ff481ba6e38428a41e2a888ae/pydoe3-1.0.0.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/d2/2d/d1e97cafe701ab1c5fc58a49d963658dac96596936a4c305a8736384adee/oep-client-0.9.0.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [mrx-link-core]: New version: [1.4.0.dev0] Old Version: [1.3.1.dev0]
+[2024-04-11 09:25:19] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/a1/d0/744dacfa4d1dd8a870317d49f2ec5bb6e9cd066cba85496a6b14e8e4bd20/open_parser-0.0.4.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/a9/46/1eb8934a34b238a750b04b671c0aa7b63bf645c2a4b93bd9a664f544d2b9/lqbox-2.5.0.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/b4/6c/f396598e2f4ea881c88b57560e2eed318fc8af080c3a2d191df67356764a/lazyad-0.0.7.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [open-parser]: executing diffoscope
+[2024-04-11 09:25:19] INFO root fetch - processPackages [open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_parser-0.0.3.tar.gz tmp/open_parser-0.0.4.tar.gz --markdown 20240411/o/open-parser/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.6.tar.gz tmp/lazyad-0.0.7.tar.gz --markdown 20240411/l/lazyad/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lqbox]: executing diffoscope
+[2024-04-11 09:25:19] INFO root fetch - processPackages [lqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqbox-2.4.0.tar.gz tmp/lqbox-2.5.0.tar.gz --markdown 20240411/l/lqbox/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-04-11 09:25:19] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/c1/bb/7bdcd7ef32feaca7250e7d78eb3b7f0d90701ca74b26cf629dd35c2cb080/mrx_link_core-1.3.1.dev0-cp39-cp39-win_amd64.whl
+[2024-04-11 09:25:19] INFO root fetch - processPackages [pyDOE3]: Downloading https://files.pythonhosted.org/packages/9c/7d/c82b870a75eb57f209586b53015e357d42a14fef73fcbb1fdb8ff2e587aa/pydoe3-1.0.1.tar.gz
+[2024-04-11 09:25:19] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/6e/0d/c0e0626cda19096dbe0c08f4ea0503579d0394ff4a440c3302e8807e0f7f/oep-client-0.9.1.tar.gz
+[2024-04-11 09:25:20] INFO root fetch - processPackages [pyDOE3]: executing diffoscope
+[2024-04-11 09:25:20] INFO root fetch - processPackages [pyDOE3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoe3-1.0.0.tar.gz tmp/pydoe3-1.0.1.tar.gz --markdown 20240411/p/pyDOE3/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 09:25:20] INFO root fetch - processPackages [oep-client]: executing diffoscope
+[2024-04-11 09:25:20] INFO root fetch - processPackages [oep-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oep-client-0.9.0.tar.gz tmp/oep-client-0.9.1.tar.gz --markdown 20240411/o/oep-client/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 09:25:20] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/d5/b5/05580e56dd6602d1a121c556a51c016650b436ecd00baf3b11d83106deed/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-04-11 09:25:20] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.4.0.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.5.0.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - main [MainThread]: End processing [lqbox]: success
+[2024-04-11 09:25:20] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.3.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.4.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - main [MainThread]: End processing [open-parser]: success
+[2024-04-11 09:25:20] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.6.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.7.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-11 09:25:20] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.0.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.1.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - main [MainThread]: End processing [oep-client]: success
+[2024-04-11 09:25:20] INFO root fetch - processPackages [pyDOE3]: Remove: archive file [/home/abi/fetcher/tmp/pydoe3-1.0.0.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - processPackages [pyDOE3]: Remove: archive file [/home/abi/fetcher/tmp/pydoe3-1.0.1.tar.gz]
+[2024-04-11 09:25:20] INFO root fetch - main [MainThread]: End processing [pyDOE3]: success
+[2024-04-11 09:25:22] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2024-04-11 09:25:22] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.3.1.dev0-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240411/m/mrx-link-core/1.3.1.dev0-1.4.0.dev0/README.md --exclude *.pyd
+[2024-04-11 09:25:23] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.3.1.dev0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 09:25:23] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-04-11 09:25:23] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2024-04-11 09:25:23] INFO root fetch - main [MainThread]: Store serial: [22715726]

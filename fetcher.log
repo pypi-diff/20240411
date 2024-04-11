@@ -8032,3 +8032,51 @@ EOFError: EOF read where object expected
 [2024-04-11 03:23:50] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-11 03:23:50] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-11 03:23:50] INFO root fetch - main [MainThread]: Store serial: [22712774]
+[2024-04-11 03:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22712774]
+[2024-04-11 03:25:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 03:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-04-11 03:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fal
+[2024-04-11 03:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scmallet
+[2024-04-11 03:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyBibX
+[2024-04-11 03:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediff
+[2024-04-11 03:25:59] INFO root fetch - processPackages [pyBibX]: New version: [3.3.0] Old Version: [3.2.9]
+[2024-04-11 03:25:59] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 03:25:59] INFO root fetch - processPackages [onediff]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-11 03:25:59] INFO root fetch - processPackages [scmallet]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-11 03:25:59] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/fe/44/56fd4859593b0bfda13f3c8cc0df82945982ef9a5656b9b979602a6289c0/pyBibX-3.2.9.tar.gz
+[2024-04-11 03:25:59] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-11 03:25:59] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b5/b9/374ebf1306993c83fd9b2b7bc584983456da7a4dda0cd79e923e85476450/onediff-0.8.0-py3-none-any.whl
+[2024-04-11 03:25:59] INFO root fetch - processPackages [fal]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-11 03:25:59] INFO root fetch - processPackages [scmallet]: Downloading https://files.pythonhosted.org/packages/d1/93/2491cae2e88f3c210d96d59954eee344511a454ff04b1dc1794ebd4f7a4c/scmallet-0.0.2.tar.gz
+[2024-04-11 03:25:59] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/d8/d4/036bc89e31dfecb1eaaadd83e96b76d14fbb1fae25ff74d8b408236b3547/fal-0.9.4.tar.gz
+[2024-04-11 03:25:59] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-11 03:25:59] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/46/d1/e1d77f1aa0698c6cb2d65b0df58a5c609b22815dc9449c2d0f571ceb6a12/pyBibX-3.3.0.tar.gz
+[2024-04-11 03:25:59] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ef/35/e11ef77b4ecbfca20f6a6f4e859e3366285f109bbe200a8a82c62b8db14d/onediff-0.9.0-py3-none-any.whl
+[2024-04-11 03:25:59] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-11 03:25:59] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-0.8.0-py3-none-any.whl.zip tmp/onediff-0.9.0-py3-none-any.whl.zip --markdown 20240411/o/onediff/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-11 03:25:59] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2024-04-11 03:25:59] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-3.2.9.tar.gz tmp/pyBibX-3.3.0.tar.gz --markdown 20240411/p/pyBibX/3.2.9-3.3.0/README.md --exclude *.pyd
+[2024-04-11 03:25:59] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-11 03:25:59] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240411/c/cdo-sdk-python/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 03:26:00] INFO root fetch - processPackages [scmallet]: Downloading https://files.pythonhosted.org/packages/77/c8/eaf2679568ed28a491790c34fac0b3fc865fa404d9906254871c196e8783/scmallet-0.0.3.tar.gz
+[2024-04-11 03:26:00] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/1f/19/76b0975dea51404e3e86e1bdaf7bcaf35843068dded2e9eb0e9a020ec8d4/fal-0.9.5.tar.gz
+[2024-04-11 03:26:00] INFO root fetch - processPackages [scmallet]: executing diffoscope
+[2024-04-11 03:26:00] INFO root fetch - processPackages [scmallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmallet-0.0.2.tar.gz tmp/scmallet-0.0.3.tar.gz --markdown 20240411/s/scmallet/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-11 03:26:00] INFO root fetch - processPackages [fal]: executing diffoscope
+[2024-04-11 03:26:00] INFO root fetch - processPackages [fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal-0.9.4.tar.gz tmp/fal-0.9.5.tar.gz --markdown 20240411/f/fal/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-11 03:26:00] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.8.0-py3-none-any.whl.zip]
+[2024-04-11 03:26:00] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
+[2024-04-11 03:26:00] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-11 03:26:00] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.2.9.tar.gz]
+[2024-04-11 03:26:00] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.3.0.tar.gz]
+[2024-04-11 03:26:00] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2024-04-11 03:26:00] INFO root fetch - processPackages [scmallet]: Remove: archive file [/home/abi/fetcher/tmp/scmallet-0.0.2.tar.gz]
+[2024-04-11 03:26:00] INFO root fetch - processPackages [scmallet]: Remove: archive file [/home/abi/fetcher/tmp/scmallet-0.0.3.tar.gz]
+[2024-04-11 03:26:00] INFO root fetch - main [MainThread]: End processing [scmallet]: success
+[2024-04-11 03:26:01] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-0.9.4.tar.gz]
+[2024-04-11 03:26:01] INFO root fetch - processPackages [fal]: Remove: archive file [/home/abi/fetcher/tmp/fal-0.9.5.tar.gz]
+[2024-04-11 03:26:01] INFO root fetch - main [MainThread]: End processing [fal]: success
+[2024-04-11 03:26:01] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-11 03:26:01] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-11 03:26:01] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-11 03:26:01] INFO root fetch - main [MainThread]: Store serial: [22712851]

@@ -21071,3 +21071,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:21:52] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-04-11 13:21:52] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-04-11 13:21:52] INFO root fetch - main [MainThread]: Store serial: [22718759]
+[2024-04-11 13:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718759]
+[2024-04-11 13:24:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-11 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ewoksweb
+[2024-04-11 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flake8-pyi
+[2024-04-11 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-kawaii-robot
+[2024-04-11 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightning-template
+[2024-04-11 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-autonomy
+[2024-04-11 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-aea-test-autonomy
+[2024-04-11 13:24:01] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 13:24:02] INFO root fetch - processPackages [lightning-template]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-11 13:24:02] INFO root fetch - processPackages [flake8-pyi]: New version: [24.4.0] Old Version: [24.3.1]
+[2024-04-11 13:24:02] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: New version: [4.1.0.post2] Old Version: [4.1.0.post1]
+[2024-04-11 13:24:02] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [ewoksweb]: New version: [1.1.0rc0] Old Version: [1.1.0]
+[2024-04-11 13:24:02] INFO root fetch - processPackages [open-aea-test-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 13:24:02] INFO root fetch - processPackages [open-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 13:24:02] INFO root fetch - processPackages [flake8-pyi]: Downloading https://files.pythonhosted.org/packages/09/e9/6057ece5b8094634002550d5c0549703062f92bcd9564a14ec556b464055/flake8_pyi-24.3.1.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/fa/82/328c153c3cef3a0ada6222c40fa83b5ee818320650480328dd587f9e4f86/lightning-template-1.8.1.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Downloading https://files.pythonhosted.org/packages/d2/e9/4e8c6ebbe31021083255c075c5865694f996be021ac0a0e2edd7249ab659/nonebot_plugin_kawaii_robot-4.1.0.post1.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/d5/6d/dbbd6ed66656dc63f8ee1c2ec1d53696bd4fe205691e28503be98b27fa5f/ewoksweb-1.1.0.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/26/db/68ff36c112427aa8da36a891a4d5aabb3a68713130bb62425cb8bbdb402e/open-autonomy-0.9.0.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/a0/6e/9c4d67ce36ee527c11b4a9025747f46b827bb71545592e7f3c4e627c3088/open-aea-test-autonomy-0.9.0.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [flake8-pyi]: Downloading https://files.pythonhosted.org/packages/71/45/c1799a6255badaac63c095926823d9adf950de2de97340c11047212aae07/flake8_pyi-24.4.0.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/ff/41/87c6ba8561d19aeec49fa0fbbd99b05f100ec898ff58f8d9d271912f646a/lightning-template-1.9.0.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Downloading https://files.pythonhosted.org/packages/30/a5/5eebc59f32c8b93e6dc3aa20de12c3f287ce76ca9623fd0b17e6f6b5c6d2/nonebot_plugin_kawaii_robot-4.1.0.post2.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [flake8-pyi]: executing diffoscope
+[2024-04-11 13:24:02] INFO root fetch - processPackages [flake8-pyi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_pyi-24.3.1.tar.gz tmp/flake8_pyi-24.4.0.tar.gz --markdown 20240411/f/flake8-pyi/24.3.1-24.4.0/README.md --exclude *.pyd
+[2024-04-11 13:24:02] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: executing diffoscope
+[2024-04-11 13:24:02] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_kawaii_robot-4.1.0.post1.tar.gz tmp/nonebot_plugin_kawaii_robot-4.1.0.post2.tar.gz --markdown 20240411/n/nonebot-plugin-kawaii-robot/4.1.0.post1-4.1.0.post2/README.md --exclude *.pyd
+[2024-04-11 13:24:02] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2024-04-11 13:24:02] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.8.1.tar.gz tmp/lightning-template-1.9.0.tar.gz --markdown 20240411/l/lightning-template/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-11 13:24:02] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/16/ed/042bfa918bbe47dbe3fb43f396481d4f74ef1a90ac067516913c9fc8c2b7/open-aea-test-autonomy-0.9.1.tar.gz
+[2024-04-11 13:24:02] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/d2/14/e7bb8dec5be3ae2caf12a3a77abe5eb849912ee6ab113bbb753fb27c75bf/open-autonomy-0.9.1.tar.gz
+[2024-04-11 13:24:03] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 13:24:03] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 13:24:03] INFO root fetch - processPackages [open-aea-test-autonomy]: executing diffoscope
+[2024-04-11 13:24:03] INFO root fetch - processPackages [open-aea-test-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-test-autonomy-0.9.0.tar.gz tmp/open-aea-test-autonomy-0.9.1.tar.gz --markdown 20240411/o/open-aea-test-autonomy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 13:24:03] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/e9/71/698f0c77a203f0f7975b8fabd0c74f78bb530e0d439dcfa7ef70443d4afc/ewoksweb-1.1.0rc0.tar.gz
+[2024-04-11 13:24:03] INFO root fetch - processPackages [ewoksweb]: executing diffoscope
+[2024-04-11 13:24:03] INFO root fetch - processPackages [ewoksweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksweb-1.1.0.tar.gz tmp/ewoksweb-1.1.0rc0.tar.gz --markdown 20240411/e/ewoksweb/1.1.0-1.1.0rc0/README.md --exclude *.pyd
+[2024-04-11 13:24:03] INFO root fetch - processPackages [open-autonomy]: executing diffoscope
+[2024-04-11 13:24:03] INFO root fetch - processPackages [open-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-autonomy-0.9.0.tar.gz tmp/open-autonomy-0.9.1.tar.gz --markdown 20240411/o/open-autonomy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 13:24:03] INFO root fetch - processPackages [flake8-pyi]: Remove: archive file [/home/abi/fetcher/tmp/flake8_pyi-24.3.1.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - processPackages [flake8-pyi]: Remove: archive file [/home/abi/fetcher/tmp/flake8_pyi-24.4.0.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - main [MainThread]: End processing [flake8-pyi]: success
+[2024-04-11 13:24:03] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kawaii_robot-4.1.0.post1.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kawaii_robot-4.1.0.post2.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kawaii-robot]: success
+[2024-04-11 13:24:03] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.8.1.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.9.0.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2024-04-11 13:24:03] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.0.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.1.tar.gz]
+[2024-04-11 13:24:03] INFO root fetch - main [MainThread]: End processing [open-aea-test-autonomy]: success
+[2024-04-11 13:24:04] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 13:24:04] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 13:24:04] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 13:24:08] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.0.tar.gz]
+[2024-04-11 13:24:08] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.1.tar.gz]
+[2024-04-11 13:24:08] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
+[2024-04-11 13:24:29] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-1.1.0.tar.gz]
+[2024-04-11 13:24:29] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-1.1.0rc0.tar.gz]
+[2024-04-11 13:24:29] INFO root fetch - main [MainThread]: End processing [ewoksweb]: success
+[2024-04-11 13:24:29] INFO root fetch - main [MainThread]: Store serial: [22718780]

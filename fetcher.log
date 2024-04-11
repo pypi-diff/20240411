@@ -12485,3 +12485,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:15:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240410.tar.gz]
 [2024-04-11 08:15:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-04-11 08:15:48] INFO root fetch - main [MainThread]: Store serial: [22714981]
+[2024-04-11 08:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714981]
+[2024-04-11 08:17:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hs-correct
+[2024-04-11 08:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrkutil
+[2024-04-11 08:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tree-sitter-earthfile
+[2024-04-11 08:17:57] INFO root fetch - processPackages [mrkutil]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-11 08:17:57] INFO root fetch - processPackages [tree-sitter-earthfile]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-11 08:17:57] INFO root fetch - processPackages [hs-correct]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-11 08:17:57] INFO root fetch - processPackages [tree-sitter-earthfile]: Downloading https://files.pythonhosted.org/packages/be/03/afe94230a6b3a0b892f374937706a2c048479a18c8e815605ea8650e35d8/tree_sitter_earthfile-0.2.1-cp38-abi3-win_amd64.whl
+[2024-04-11 08:17:57] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/01/f4/5ed90998eefeb909cf4d0ef0dbe44bd1e376701cbc4681a45124d35d45cb/mrkutil-1.1.4-py3-none-any.whl
+[2024-04-11 08:17:58] INFO root fetch - processPackages [hs-correct]: Downloading https://files.pythonhosted.org/packages/0d/c2/73cd118c88be1c2deb0edfec718381007bb7d9ad5ecb2fef954c8c873710/hs_correct-0.0.4.tar.gz
+[2024-04-11 08:17:58] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/8d/c2/a606533e6b526e4f4a47a8a02f4f414770d99d2e5f815bd59c81c97faacb/mrkutil-1.2.0.tar.gz
+[2024-04-11 08:17:58] INFO root fetch - processPackages [tree-sitter-earthfile]: Downloading https://files.pythonhosted.org/packages/8e/9c/f2561b30eec662d00a3c372d18ee51449c4090c665c0b3bb172fecda59a7/tree_sitter_earthfile-0.2.2-cp38-abi3-win_amd64.whl
+[2024-04-11 08:17:58] INFO root fetch - processPackages [mrkutil]: executing diffoscope
+[2024-04-11 08:17:58] INFO root fetch - processPackages [mrkutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrkutil-1.1.4-py3-none-any.whl.zip tmp/mrkutil-1.2.0.tar.gz --markdown 20240411/m/mrkutil/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-11 08:17:58] INFO root fetch - processPackages [hs-correct]: Downloading https://files.pythonhosted.org/packages/d1/2c/a047bd0c5a5496a22d3f7336a88ed413041b224ebf5d0f484b3ca29688c0/hs_correct-0.0.5.tar.gz
+[2024-04-11 08:17:58] INFO root fetch - processPackages [hs-correct]: executing diffoscope
+[2024-04-11 08:17:58] INFO root fetch - processPackages [hs-correct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hs_correct-0.0.4.tar.gz tmp/hs_correct-0.0.5.tar.gz --markdown 20240411/h/hs-correct/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-11 08:17:58] INFO root fetch - processPackages [tree-sitter-earthfile]: executing diffoscope
+[2024-04-11 08:17:58] INFO root fetch - processPackages [tree-sitter-earthfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_earthfile-0.2.1-cp38-abi3-win_amd64.whl.zip tmp/tree_sitter_earthfile-0.2.2-cp38-abi3-win_amd64.whl.zip --markdown 20240411/t/tree-sitter-earthfile/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-11 08:17:58] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.1.4-py3-none-any.whl.zip]
+[2024-04-11 08:17:58] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.2.0.tar.gz]
+[2024-04-11 08:17:58] INFO root fetch - main [MainThread]: End processing [mrkutil]: success
+[2024-04-11 08:17:58] INFO root fetch - processPackages [tree-sitter-earthfile]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_earthfile-0.2.1-cp38-abi3-win_amd64.whl.zip]
+[2024-04-11 08:17:58] INFO root fetch - processPackages [tree-sitter-earthfile]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_earthfile-0.2.2-cp38-abi3-win_amd64.whl.zip]
+[2024-04-11 08:17:58] INFO root fetch - main [MainThread]: End processing [tree-sitter-earthfile]: success
+[2024-04-11 08:17:58] INFO root fetch - processPackages [hs-correct]: Remove: archive file [/home/abi/fetcher/tmp/hs_correct-0.0.4.tar.gz]
+[2024-04-11 08:17:58] INFO root fetch - processPackages [hs-correct]: Remove: archive file [/home/abi/fetcher/tmp/hs_correct-0.0.5.tar.gz]
+[2024-04-11 08:17:58] INFO root fetch - main [MainThread]: End processing [hs-correct]: success
+[2024-04-11 08:17:58] INFO root fetch - main [MainThread]: Store serial: [22714997]

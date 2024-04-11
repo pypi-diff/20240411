@@ -10950,3 +10950,35 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:21:46] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.5-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2024-04-11 06:21:46] INFO root fetch - main [MainThread]: End processing [pepeline]: success
 [2024-04-11 06:21:46] INFO root fetch - main [MainThread]: Store serial: [22714316]
+[2024-04-11 06:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714316]
+[2024-04-11 06:23:56] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 06:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714327]
+[2024-04-11 06:26:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 06:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magentic
+[2024-04-11 06:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PostTestResultsToPractiTest
+[2024-04-11 06:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vlite
+[2024-04-11 06:26:03] INFO root fetch - processPackages [vlite]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 06:26:03] INFO root fetch - processPackages [PostTestResultsToPractiTest]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-11 06:26:03] INFO root fetch - processPackages [magentic]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 06:26:03] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/b1/4c/c92b3a38ac6e6e9e2715083d4b0cd75ceb0e3bcbd7f805d25522283b4708/magentic-0.9.0.tar.gz
+[2024-04-11 06:26:03] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/d5/8c/fa80e5a5711423c17daff7999ad47b4a13f80ee318e09ba29bb94bd17f61/vlite-0.2.0.tar.gz
+[2024-04-11 06:26:03] INFO root fetch - processPackages [PostTestResultsToPractiTest]: Downloading https://files.pythonhosted.org/packages/13/09/9a434da3e541a6e1b39c3aecc05ee99101ec95f68bd42b6a8fa09f532b01/posttestresultstopractitest-0.0.5.tar.gz
+[2024-04-11 06:26:04] INFO root fetch - processPackages [PostTestResultsToPractiTest]: Downloading https://files.pythonhosted.org/packages/bd/5f/63887603b04439f2810d253deb847e23c1ee15d6377c5287c94f2d574e92/posttestresultstopractitest-0.0.6.tar.gz
+[2024-04-11 06:26:04] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/14/4d/5c6c2464c5abac2cf0a83ac11e48dd90edf9b6d646f6825ce23b0bfe99bf/magentic-0.9.1.tar.gz
+[2024-04-11 06:26:04] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/e1/30/0c0700b068febfc2de7b2a5a7164644baf5772dc8d1f1d0418fe755d993d/vlite-0.2.1.tar.gz
+[2024-04-11 06:26:04] INFO root fetch - processPackages [PostTestResultsToPractiTest]: executing diffoscope
+[2024-04-11 06:26:04] INFO root fetch - processPackages [PostTestResultsToPractiTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posttestresultstopractitest-0.0.5.tar.gz tmp/posttestresultstopractitest-0.0.6.tar.gz --markdown 20240411/P/PostTestResultsToPractiTest/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-11 06:26:04] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2024-04-11 06:26:04] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.9.0.tar.gz tmp/magentic-0.9.1.tar.gz --markdown 20240411/m/magentic/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 06:26:04] INFO root fetch - processPackages [vlite]: executing diffoscope
+[2024-04-11 06:26:04] INFO root fetch - processPackages [vlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlite-0.2.0.tar.gz tmp/vlite-0.2.1.tar.gz --markdown 20240411/v/vlite/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 06:26:04] INFO root fetch - processPackages [PostTestResultsToPractiTest]: Remove: archive file [/home/abi/fetcher/tmp/posttestresultstopractitest-0.0.5.tar.gz]
+[2024-04-11 06:26:04] INFO root fetch - processPackages [PostTestResultsToPractiTest]: Remove: archive file [/home/abi/fetcher/tmp/posttestresultstopractitest-0.0.6.tar.gz]
+[2024-04-11 06:26:04] INFO root fetch - main [MainThread]: End processing [PostTestResultsToPractiTest]: success
+[2024-04-11 06:26:04] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.0.tar.gz]
+[2024-04-11 06:26:04] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.1.tar.gz]
+[2024-04-11 06:26:04] INFO root fetch - main [MainThread]: End processing [vlite]: success
+[2024-04-11 06:26:05] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.0.tar.gz]
+[2024-04-11 06:26:05] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
+[2024-04-11 06:26:05] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2024-04-11 06:26:05] INFO root fetch - main [MainThread]: Store serial: [22714336]

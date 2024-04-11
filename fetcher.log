@@ -12817,3 +12817,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:38:40] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.9.tar.gz]
 [2024-04-11 08:38:40] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
 [2024-04-11 08:38:40] INFO root fetch - main [MainThread]: Store serial: [22715240]
+[2024-04-11 08:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715240]
+[2024-04-11 08:40:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: davify
+[2024-04-11 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rs1090
+[2024-04-11 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commits2pdf
+[2024-04-11 08:40:49] INFO root fetch - processPackages [commits2pdf]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-11 08:40:49] INFO root fetch - processPackages [davify]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 08:40:49] INFO root fetch - processPackages [rs1090]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-11 08:40:49] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/f4/b7/efa394d38d58f1ae32ec5528f2ab90e9460768cca23446b86bd6480b37eb/commits2pdf-1.1.6.tar.gz
+[2024-04-11 08:40:49] INFO root fetch - processPackages [davify]: Downloading https://files.pythonhosted.org/packages/ae/b7/c4c08dd603b46a585a42d509f845bf7f5f151cdc21a2c90bce0c9a38f1b7/davify-1.0.0.tar.gz
+[2024-04-11 08:40:49] INFO root fetch - processPackages [rs1090]: Downloading https://files.pythonhosted.org/packages/1f/82/d0b6a1254675c2fe5793af7442e7ea4758f01c9f29b2f674ba4187bd3638/rs1090-0.1.3.tar.gz
+[2024-04-11 08:40:49] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/59/e6/a44b8b5cb8e8381ac74c1f6de479d0eca1435985f49e522ab02bbae31c66/commits2pdf-1.1.7.tar.gz
+[2024-04-11 08:40:49] INFO root fetch - processPackages [davify]: Downloading https://files.pythonhosted.org/packages/cd/46/bf15b2855615a219b2a0fc515fdade8cb8d00545c00ff1cdf2837b3f401e/davify-1.1.0.tar.gz
+[2024-04-11 08:40:49] INFO root fetch - processPackages [commits2pdf]: executing diffoscope
+[2024-04-11 08:40:49] INFO root fetch - processPackages [commits2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commits2pdf-1.1.6.tar.gz tmp/commits2pdf-1.1.7.tar.gz --markdown 20240411/c/commits2pdf/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-11 08:40:49] INFO root fetch - processPackages [davify]: executing diffoscope
+[2024-04-11 08:40:49] INFO root fetch - processPackages [davify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/davify-1.0.0.tar.gz tmp/davify-1.1.0.tar.gz --markdown 20240411/d/davify/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 08:40:49] INFO root fetch - processPackages [rs1090]: Downloading https://files.pythonhosted.org/packages/96/04/5a2427c11995baed72c923ac5c1da1f94b607c58179fccc2a451e272762c/rs1090-0.2.0.tar.gz
+[2024-04-11 08:40:50] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.6.tar.gz]
+[2024-04-11 08:40:50] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.7.tar.gz]
+[2024-04-11 08:40:50] INFO root fetch - main [MainThread]: End processing [commits2pdf]: success
+[2024-04-11 08:40:50] INFO root fetch - processPackages [davify]: Remove: archive file [/home/abi/fetcher/tmp/davify-1.0.0.tar.gz]
+[2024-04-11 08:40:50] INFO root fetch - processPackages [davify]: Remove: archive file [/home/abi/fetcher/tmp/davify-1.1.0.tar.gz]
+[2024-04-11 08:40:50] INFO root fetch - main [MainThread]: End processing [davify]: success
+[2024-04-11 08:40:51] INFO root fetch - processPackages [rs1090]: executing diffoscope
+[2024-04-11 08:40:51] INFO root fetch - processPackages [rs1090]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rs1090-0.1.3.tar.gz tmp/rs1090-0.2.0.tar.gz --markdown 20240411/r/rs1090/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-11 08:40:53] INFO root fetch - processPackages [rs1090]: Remove: archive file [/home/abi/fetcher/tmp/rs1090-0.1.3.tar.gz]
+[2024-04-11 08:40:53] INFO root fetch - processPackages [rs1090]: Remove: archive file [/home/abi/fetcher/tmp/rs1090-0.2.0.tar.gz]
+[2024-04-11 08:40:53] INFO root fetch - main [MainThread]: End processing [rs1090]: success
+[2024-04-11 08:40:53] INFO root fetch - main [MainThread]: Store serial: [22715299]

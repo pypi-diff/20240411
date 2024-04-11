@@ -8080,3 +8080,24 @@ EOFError: EOF read where object expected
 [2024-04-11 03:26:01] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-11 03:26:01] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-11 03:26:01] INFO root fetch - main [MainThread]: Store serial: [22712851]
+[2024-04-11 03:28:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22712851]
+[2024-04-11 03:28:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediffx
+[2024-04-11 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-04-11 03:28:11] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 03:28:11] INFO root fetch - processPackages [onediffx]: New version: [0.13.0.dev202404100124] Old Version: [0.13.0.dev202404090125]
+[2024-04-11 03:28:11] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-11 03:28:11] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/f3/73/e226c9345fecfc24377cc8ad32ac2fdc2ca35d2c123f11e19a26ffb23eb5/onediffx-0.13.0.dev202404090125.tar.gz
+[2024-04-11 03:28:11] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-11 03:28:11] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-11 03:28:11] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240411/c/cdo-sdk-python/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 03:28:11] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/17/e2/53d7ced224e59d3028a67399f9a96f015df99edf83ead01881700a7e203f/onediffx-0.13.0.dev202404100124.tar.gz
+[2024-04-11 03:28:11] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-11 03:28:11] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-0.13.0.dev202404090125.tar.gz tmp/onediffx-0.13.0.dev202404100124.tar.gz --markdown 20240411/o/onediffx/0.13.0.dev202404090125-0.13.0.dev202404100124/README.md --exclude *.pyd
+[2024-04-11 03:28:12] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404090125.tar.gz]
+[2024-04-11 03:28:12] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404100124.tar.gz]
+[2024-04-11 03:28:12] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-11 03:28:12] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-11 03:28:12] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-11 03:28:12] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-11 03:28:12] INFO root fetch - main [MainThread]: Store serial: [22712928]

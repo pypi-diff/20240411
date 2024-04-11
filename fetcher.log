@@ -14284,3 +14284,30 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:58:03] INFO root fetch - processPackages [omotes-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/omotes-sdk-python-0.0.9.tar.gz]
 [2024-04-11 09:58:03] INFO root fetch - main [MainThread]: End processing [omotes-sdk-python]: success
 [2024-04-11 09:58:03] INFO root fetch - main [MainThread]: Store serial: [22715970]
+[2024-04-11 10:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715970]
+[2024-04-11 10:00:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncmc-fz
+[2024-04-11 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2024-04-11 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: egypt
+[2024-04-11 10:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-SQLAlchemy-Session2024
+[2024-04-11 10:00:12] ERROR root fetch - processPackages [asyncmc-fz]: Unable to get metadata: No such project 'asyncmc-fz'
+[2024-04-11 10:00:12] INFO root fetch - main [MainThread]: End processing [asyncmc-fz] error
+[2024-04-11 10:00:12] WARNING root fetch - processPackages [egypt]: Skipping, unable to determine old version
+[2024-04-11 10:00:12] INFO root fetch - main [MainThread]: End processing [egypt] error
+[2024-04-11 10:00:12] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240411] Old Version: [2.17.0.dev20240410]
+[2024-04-11 10:00:12] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-11 10:00:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/fb/03/8da46a592051f2c1a60436ce6afc1e9f42ddfba42b606a2a574c4c1c4bb2/tf_nightly-2.17.0.dev20240410-cp39-cp39-win_amd64.whl
+[2024-04-11 10:00:13] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: Downloading https://files.pythonhosted.org/packages/9d/53/deb26923a9fe469719feb15e92348faf768813c08b3b73f36289c691a2cb/Flask-SQLAlchemy-Session2024-2.0.0.tar.gz
+[2024-04-11 10:00:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/fc/30/edf791471e97e50dcf12b1b95099c83f2d5081c0fda966df81d3bd55df52/tf_nightly-2.17.0.dev20240411-cp39-cp39-win_amd64.whl
+[2024-04-11 10:00:13] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: Downloading https://files.pythonhosted.org/packages/8b/79/0936e16a4025c451b5648bf446e52697d6dd748e8f07527c31e53a095839/Flask-SQLAlchemy-Session2024-3.0.0.tar.gz
+[2024-04-11 10:00:13] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-11 10:00:13] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240411-cp39-cp39-win_amd64.whl.zip --markdown 20240411/t/tf-nightly/2.17.0.dev20240410-2.17.0.dev20240411/README.md --exclude *.pyd
+[2024-04-11 10:00:13] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: executing diffoscope
+[2024-04-11 10:00:13] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQLAlchemy-Session2024-2.0.0.tar.gz tmp/Flask-SQLAlchemy-Session2024-3.0.0.tar.gz --markdown 20240411/F/Flask-SQLAlchemy-Session2024/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-04-11 10:00:14] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 10:00:14] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240411-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 10:00:14] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-11 10:00:14] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQLAlchemy-Session2024-2.0.0.tar.gz]
+[2024-04-11 10:00:14] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQLAlchemy-Session2024-3.0.0.tar.gz]
+[2024-04-11 10:00:14] INFO root fetch - main [MainThread]: End processing [Flask-SQLAlchemy-Session2024]: success
+[2024-04-11 10:00:14] INFO root fetch - main [MainThread]: Store serial: [22715995]

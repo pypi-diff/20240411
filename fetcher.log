@@ -8848,3 +8848,72 @@ EOFError: EOF read where object expected
 [2024-04-11 04:18:40] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
 [2024-04-11 04:18:40] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2024-04-11 04:18:40] INFO root fetch - main [MainThread]: Store serial: [22713307]
+[2024-04-11 04:20:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713307]
+[2024-04-11 04:20:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepecho
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-athena
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparkproxy
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-mse20190531
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elasticsearch-curator
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: memodules
+[2024-04-11 04:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantcompare
+[2024-04-11 04:20:50] WARNING root fetch - processPackages [quantcompare]: Skipping, unable to determine old version
+[2024-04-11 04:20:50] INFO root fetch - main [MainThread]: End processing [quantcompare] error
+[2024-04-11 04:20:50] INFO root fetch - processPackages [sparkproxy]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 04:20:50] INFO root fetch - processPackages [alibabacloud-mse20190531]: New version: [6.3.2] Old Version: [6.3.1]
+[2024-04-11 04:20:50] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240410] Old Version: [1.2.20240409]
+[2024-04-11 04:20:50] INFO root fetch - processPackages [shipyard-athena]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2024-04-11 04:20:50] INFO root fetch - processPackages [deepecho]: New version: [0.6.0.dev0] Old Version: [0.6.0]
+[2024-04-11 04:20:50] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/78/a5/8e1d80e98fbda27f89d1a71a3887d14b1c71d7515d14cc74e1cdf34d19af/sparkproxy-0.3.0.tar.gz
+[2024-04-11 04:20:50] INFO root fetch - processPackages [memodules]: New version: [5.9.0] Old Version: [5.8.3]
+[2024-04-11 04:20:50] INFO root fetch - processPackages [elasticsearch-curator]: New version: [8.0.9] Old Version: [8.0.8]
+[2024-04-11 04:20:50] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/aa/f9/ad076d5ce14c5ffc1bdbde73f2d840475d670884ff3f172b99506f9b39d3/alibabacloud_mse20190531-6.3.1.tar.gz
+[2024-04-11 04:20:50] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/93/c0/dbb8909b217d3d63ba58ed4a90f278f108967b8eb95ae3c7968cb100291b/iam_actions-1.2.20240409.tar.gz
+[2024-04-11 04:20:50] INFO root fetch - processPackages [deepecho]: Downloading https://files.pythonhosted.org/packages/9f/d4/ace5480822b16830d04469b9d926f381aea8a55f98b1d1e7a3912b371843/deepecho-0.6.0.tar.gz
+[2024-04-11 04:20:50] INFO root fetch - processPackages [shipyard-athena]: Downloading https://files.pythonhosted.org/packages/aa/32/81a9ba72a54f11a714b613688d4263e7964986cba2d1258257d558d1b8b5/shipyard_athena-0.2.0a2.tar.gz
+[2024-04-11 04:20:50] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/a5/50/0e138bf1d237825c9d09a871e8b6cb89cd432218cd15f9f0676c1089e26a/memodules-5.8.3.tar.gz
+[2024-04-11 04:20:50] INFO root fetch - processPackages [elasticsearch-curator]: Downloading https://files.pythonhosted.org/packages/89/2a/ac7d786986b3bf9dbc7fb818a5541122ebe4591909b9739221152d2adbd7/elasticsearch_curator-8.0.8.tar.gz
+[2024-04-11 04:20:50] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/74/48/e144bf50235c486d1a4c3e608cf1977fc1d2d6642a3a0c0904bc218392fb/alibabacloud_mse20190531-6.3.2.tar.gz
+[2024-04-11 04:20:51] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/f8/f1/bf5f2307ee18d52a032d22a1d9e962020f2872736c43b7f2fdda0ca15bc2/sparkproxy-0.3.1.tar.gz
+[2024-04-11 04:20:51] INFO root fetch - processPackages [alibabacloud-mse20190531]: executing diffoscope
+[2024-04-11 04:20:51] INFO root fetch - processPackages [alibabacloud-mse20190531]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531-6.3.1.tar.gz tmp/alibabacloud_mse20190531-6.3.2.tar.gz --markdown 20240411/a/alibabacloud-mse20190531/6.3.1-6.3.2/README.md --exclude *.pyd
+[2024-04-11 04:20:51] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/8f/29/e576dda3eca115901491ba175876684f8af98723b55205e9e23aa142641c/iam_actions-1.2.20240410.tar.gz
+[2024-04-11 04:20:51] INFO root fetch - processPackages [deepecho]: Downloading https://files.pythonhosted.org/packages/22/96/b4f40c6695307e02cfa679c70f3fd925c47682c78cc73eca95cdf48e0f12/deepecho-0.6.0.dev0.tar.gz
+[2024-04-11 04:20:51] INFO root fetch - processPackages [sparkproxy]: executing diffoscope
+[2024-04-11 04:20:51] INFO root fetch - processPackages [sparkproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkproxy-0.3.0.tar.gz tmp/sparkproxy-0.3.1.tar.gz --markdown 20240411/s/sparkproxy/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 04:20:51] INFO root fetch - processPackages [shipyard-athena]: Downloading https://files.pythonhosted.org/packages/06/e2/70f5de914249a9b5260279e3625dc2d5da2baafcae88b16379844b2c4eb9/shipyard_athena-0.2.0a3.tar.gz
+[2024-04-11 04:20:51] INFO root fetch - processPackages [deepecho]: executing diffoscope
+[2024-04-11 04:20:51] INFO root fetch - processPackages [deepecho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepecho-0.6.0.tar.gz tmp/deepecho-0.6.0.dev0.tar.gz --markdown 20240411/d/deepecho/0.6.0-0.6.0.dev0/README.md --exclude *.pyd
+[2024-04-11 04:20:51] INFO root fetch - processPackages [elasticsearch-curator]: Downloading https://files.pythonhosted.org/packages/ad/dd/c809fa12595b55190b6d958ace220ed4f96686d4c3c92c4b12ac8e420d44/elasticsearch_curator-8.0.9.tar.gz
+[2024-04-11 04:20:51] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-11 04:20:51] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240409.tar.gz tmp/iam_actions-1.2.20240410.tar.gz --markdown 20240411/i/iam-actions/1.2.20240409-1.2.20240410/README.md --exclude *.pyd
+[2024-04-11 04:20:51] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/29/e6/0fbad7a0e8110c2a2be7fac5f08d1b38ec7f4d948605a9a34f2eb2db72a2/memodules-5.9.0.tar.gz
+[2024-04-11 04:20:51] INFO root fetch - processPackages [shipyard-athena]: executing diffoscope
+[2024-04-11 04:20:51] INFO root fetch - processPackages [shipyard-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_athena-0.2.0a2.tar.gz tmp/shipyard_athena-0.2.0a3.tar.gz --markdown 20240411/s/shipyard-athena/0.2.0a2-0.2.0a3/README.md --exclude *.pyd
+[2024-04-11 04:20:51] INFO root fetch - processPackages [elasticsearch-curator]: executing diffoscope
+[2024-04-11 04:20:51] INFO root fetch - processPackages [elasticsearch-curator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_curator-8.0.8.tar.gz tmp/elasticsearch_curator-8.0.9.tar.gz --markdown 20240411/e/elasticsearch-curator/8.0.8-8.0.9/README.md --exclude *.pyd
+[2024-04-11 04:20:51] INFO root fetch - processPackages [memodules]: executing diffoscope
+[2024-04-11 04:20:51] INFO root fetch - processPackages [memodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memodules-5.8.3.tar.gz tmp/memodules-5.9.0.tar.gz --markdown 20240411/m/memodules/5.8.3-5.9.0/README.md --exclude *.pyd
+[2024-04-11 04:20:51] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.3.0.tar.gz]
+[2024-04-11 04:20:51] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.3.1.tar.gz]
+[2024-04-11 04:20:51] INFO root fetch - main [MainThread]: End processing [sparkproxy]: success
+[2024-04-11 04:20:52] INFO root fetch - processPackages [deepecho]: Remove: archive file [/home/abi/fetcher/tmp/deepecho-0.6.0.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - processPackages [deepecho]: Remove: archive file [/home/abi/fetcher/tmp/deepecho-0.6.0.dev0.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - main [MainThread]: End processing [deepecho]: success
+[2024-04-11 04:20:52] INFO root fetch - processPackages [shipyard-athena]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_athena-0.2.0a2.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - processPackages [shipyard-athena]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_athena-0.2.0a3.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - main [MainThread]: End processing [shipyard-athena]: success
+[2024-04-11 04:20:52] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.8.3.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.0.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - main [MainThread]: End processing [memodules]: success
+[2024-04-11 04:20:52] INFO root fetch - processPackages [elasticsearch-curator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_curator-8.0.8.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - processPackages [elasticsearch-curator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_curator-8.0.9.tar.gz]
+[2024-04-11 04:20:52] INFO root fetch - main [MainThread]: End processing [elasticsearch-curator]: success
+[2024-04-11 04:20:53] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.3.1.tar.gz]
+[2024-04-11 04:20:53] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.3.2.tar.gz]
+[2024-04-11 04:20:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531]: success
+[2024-04-11 04:20:56] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240409.tar.gz]
+[2024-04-11 04:20:56] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240410.tar.gz]
+[2024-04-11 04:20:56] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-11 04:20:56] INFO root fetch - main [MainThread]: Store serial: [22713334]

@@ -12443,3 +12443,45 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:13:33] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
 [2024-04-11 08:13:33] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
 [2024-04-11 08:13:33] INFO root fetch - main [MainThread]: Store serial: [22714965]
+[2024-04-11 08:15:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714965]
+[2024-04-11 08:15:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 08:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2024-04-11 08:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: candycan
+[2024-04-11 08:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyecif
+[2024-04-11 08:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2024-04-11 08:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module
+[2024-04-11 08:15:43] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-11 08:15:43] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240410] Old Version: [20240409]
+[2024-04-11 08:15:43] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240410] Old Version: [20240409]
+[2024-04-11 08:15:43] INFO root fetch - processPackages [pyecif]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 08:15:43] WARNING root fetch - processPackages [candycan]: Skipping, unable to determine old version
+[2024-04-11 08:15:43] INFO root fetch - main [MainThread]: End processing [candycan] error
+[2024-04-11 08:15:43] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-11 08:15:43] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/71/6c/452c1ec954d6fdbf64933535caede1c54ce47c71d12f3ee5cefdbf22d4e5/fake-bpy-module-20240409.tar.gz
+[2024-04-11 08:15:43] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/e5/13/286df962233fd020f22e3180b125cd79e4ea6321e504d80b0cacf45aa757/fake-bpy-module-latest-20240409.tar.gz
+[2024-04-11 08:15:43] INFO root fetch - processPackages [pyecif]: Downloading https://files.pythonhosted.org/packages/94/99/15746c36fcf36100e318b186b4db9b74c080f4a1d0111c8de7d1858181b4/pyecif-0.1.1-py3-none-any.whl
+[2024-04-11 08:15:43] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-11 08:15:44] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/be/fe/66c7afd6d89e450fff6889c39351a312b37c5fd1a79f70bf0dfead54f860/fake-bpy-module-20240410.tar.gz
+[2024-04-11 08:15:44] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5b/1c/cdabbd9cf2a4b1bbd76962ad6b5478ee88a1d575e095bbd73599de15fd81/fake-bpy-module-latest-20240410.tar.gz
+[2024-04-11 08:15:44] INFO root fetch - processPackages [pyecif]: Downloading https://files.pythonhosted.org/packages/7b/4a/205faa6938c40577dddfe1212b98bd6f851fccaae33bb3b533e99d3977fc/pyecif-0.1.2-py3-none-any.whl
+[2024-04-11 08:15:44] INFO root fetch - processPackages [pyecif]: executing diffoscope
+[2024-04-11 08:15:44] INFO root fetch - processPackages [pyecif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecif-0.1.1-py3-none-any.whl.zip tmp/pyecif-0.1.2-py3-none-any.whl.zip --markdown 20240411/p/pyecif/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 08:15:44] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-11 08:15:44] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240411/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/README.md --exclude *.pyd
+[2024-04-11 08:15:44] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-11 08:15:44] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240409.tar.gz tmp/fake-bpy-module-20240410.tar.gz --markdown 20240411/f/fake-bpy-module/20240409-20240410/README.md --exclude *.pyd
+[2024-04-11 08:15:44] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-11 08:15:44] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240409.tar.gz tmp/fake-bpy-module-latest-20240410.tar.gz --markdown 20240411/f/fake-bpy-module-latest/20240409-20240410/README.md --exclude *.pyd
+[2024-04-11 08:15:44] INFO root fetch - processPackages [pyecif]: Remove: archive file [/home/abi/fetcher/tmp/pyecif-0.1.1-py3-none-any.whl.zip]
+[2024-04-11 08:15:44] INFO root fetch - processPackages [pyecif]: Remove: archive file [/home/abi/fetcher/tmp/pyecif-0.1.2-py3-none-any.whl.zip]
+[2024-04-11 08:15:44] INFO root fetch - main [MainThread]: End processing [pyecif]: success
+[2024-04-11 08:15:47] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-11 08:15:47] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-11 08:15:47] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-11 08:15:48] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240409.tar.gz]
+[2024-04-11 08:15:48] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240410.tar.gz]
+[2024-04-11 08:15:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-11 08:15:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240409.tar.gz]
+[2024-04-11 08:15:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240410.tar.gz]
+[2024-04-11 08:15:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-11 08:15:48] INFO root fetch - main [MainThread]: Store serial: [22714981]

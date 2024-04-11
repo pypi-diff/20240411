@@ -12003,3 +12003,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:49:08] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-1.1.4.tar.gz]
 [2024-04-11 07:49:08] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
 [2024-04-11 07:49:08] INFO root fetch - main [MainThread]: Store serial: [22714750]
+[2024-04-11 07:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714750]
+[2024-04-11 07:51:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: headline-gen
+[2024-04-11 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octoflow
+[2024-04-11 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avania
+[2024-04-11 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wipo-gbd-transformation
+[2024-04-11 07:51:18] INFO root fetch - processPackages [headline-gen]: New version: [2.0] Old Version: [1.1]
+[2024-04-11 07:51:18] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 07:51:18] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/38/35/80033465db86572909d08484ce9f8ab66155bfb7e54b7c18568e611762a0/headline-gen-1.1.tar.gz
+[2024-04-11 07:51:18] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-04-11 07:51:18] INFO root fetch - processPackages [avania]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-04-11 07:51:18] INFO root fetch - processPackages [wipo-gbd-transformation]: New version: [1.1.48] Old Version: [1.1.47]
+[2024-04-11 07:51:18] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/cf/6e/4e08b7f984040549e5bc59ccdb3d3576baa19331fb7f3fd6d8da8cf1fc42/Avania-0.0.0.tar.gz
+[2024-04-11 07:51:18] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-04-11 07:51:18] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/83/7b/361ff8d612d386fd7baf4bb3a12538b7e469e1cc7245280118f0c8c54d1d/headline-gen-2.0.tar.gz
+[2024-04-11 07:51:18] INFO root fetch - processPackages [wipo-gbd-transformation]: Downloading https://files.pythonhosted.org/packages/86/e2/854b90a7303c451c1f5e50b5342c92354e46c1ac778d047f2847853b9dec/wipo_gbd_transformation-1.1.47-py3-none-any.whl
+[2024-04-11 07:51:18] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-04-11 07:51:18] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240411/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 07:51:18] INFO root fetch - processPackages [headline-gen]: executing diffoscope
+[2024-04-11 07:51:18] INFO root fetch - processPackages [headline-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headline-gen-1.1.tar.gz tmp/headline-gen-2.0.tar.gz --markdown 20240411/h/headline-gen/1.1-2.0/README.md --exclude *.pyd
+[2024-04-11 07:51:18] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/bc/f1/facf39018bf2aa2dbfbda6d98bc496259fe88f84bba21ea6ceb0f3a2bd83/avania-0.0.2.tar.gz
+[2024-04-11 07:51:18] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-11 07:51:18] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Avania-0.0.0.tar.gz tmp/avania-0.0.2.tar.gz --markdown 20240411/a/avania/0.0.0-0.0.2/README.md --exclude *.pyd
+[2024-04-11 07:51:18] INFO root fetch - processPackages [wipo-gbd-transformation]: Downloading https://files.pythonhosted.org/packages/bf/79/015125e704c32e92eb6e3423aaa21a7200eb5d7eac7cb27c81eb2501632e/wipo_gbd_transformation-1.1.48-py3-none-any.whl
+[2024-04-11 07:51:19] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-04-11 07:51:19] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-04-11 07:51:19] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-04-11 07:51:19] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-1.1.tar.gz]
+[2024-04-11 07:51:19] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-2.0.tar.gz]
+[2024-04-11 07:51:19] INFO root fetch - main [MainThread]: End processing [headline-gen]: success
+[2024-04-11 07:51:19] INFO root fetch - processPackages [wipo-gbd-transformation]: executing diffoscope
+[2024-04-11 07:51:19] INFO root fetch - processPackages [wipo-gbd-transformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipo_gbd_transformation-1.1.47-py3-none-any.whl.zip tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip --markdown 20240411/w/wipo-gbd-transformation/1.1.47-1.1.48/README.md --exclude *.pyd
+[2024-04-11 07:51:19] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/Avania-0.0.0.tar.gz]
+[2024-04-11 07:51:19] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.0.2.tar.gz]
+[2024-04-11 07:51:19] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-11 07:51:21] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.47-py3-none-any.whl.zip]
+[2024-04-11 07:51:21] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip]
+[2024-04-11 07:51:21] INFO root fetch - main [MainThread]: End processing [wipo-gbd-transformation]: success
+[2024-04-11 07:51:21] INFO root fetch - main [MainThread]: Store serial: [22714758]

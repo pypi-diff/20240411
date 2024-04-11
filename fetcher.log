@@ -11922,3 +11922,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:44:43] INFO root fetch - processPackages [apinum]: Remove: archive file [/home/abi/fetcher/tmp/apinum-0.1.8.tar.gz]
 [2024-04-11 07:44:43] INFO root fetch - main [MainThread]: End processing [apinum]: success
 [2024-04-11 07:44:43] INFO root fetch - main [MainThread]: Store serial: [22714723]
+[2024-04-11 07:46:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714723]
+[2024-04-11 07:46:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byzerllm
+[2024-04-11 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geventhttpclient
+[2024-04-11 07:46:53] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 07:46:53] INFO root fetch - processPackages [geventhttpclient]: New version: [2.1.0] Old Version: [2.0b1]
+[2024-04-11 07:46:53] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-11 07:46:53] INFO root fetch - processPackages [geventhttpclient]: Downloading https://files.pythonhosted.org/packages/7e/10/41208ad77a184facc3b4776960d26f79fb75a2e271a6a2969628f14a3c55/geventhttpclient-2.0b1.tar.gz
+[2024-04-11 07:46:53] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-11 07:46:54] INFO root fetch - processPackages [geventhttpclient]: Downloading https://files.pythonhosted.org/packages/7b/bf/608b0c44108ec980dcc4a7658997b3d5340de7604f5b74683d1615ba9a7c/geventhttpclient-2.1.0.tar.gz
+[2024-04-11 07:46:54] INFO root fetch - processPackages [geventhttpclient]: executing diffoscope
+[2024-04-11 07:46:54] INFO root fetch - processPackages [geventhttpclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geventhttpclient-2.0b1.tar.gz tmp/geventhttpclient-2.1.0.tar.gz --markdown 20240411/g/geventhttpclient/2.0b1-2.1.0/README.md --exclude *.pyd
+[2024-04-11 07:46:54] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-11 07:46:54] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240411/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 07:46:55] INFO root fetch - processPackages [geventhttpclient]: Remove: archive file [/home/abi/fetcher/tmp/geventhttpclient-2.0b1.tar.gz]
+[2024-04-11 07:46:55] INFO root fetch - processPackages [geventhttpclient]: Remove: archive file [/home/abi/fetcher/tmp/geventhttpclient-2.1.0.tar.gz]
+[2024-04-11 07:46:55] INFO root fetch - main [MainThread]: End processing [geventhttpclient]: success
+[2024-04-11 07:46:56] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-11 07:46:56] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-11 07:46:56] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-11 07:46:56] INFO root fetch - main [MainThread]: Store serial: [22714728]

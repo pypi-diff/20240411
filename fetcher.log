@@ -3315,3 +3315,27 @@ EOFError: EOF read where object expected
 [2024-04-11 02:36:38] INFO root fetch - processPackages [synapseml]: Remove: archive file [/home/abi/fetcher/tmp/synapseml-1.0.4-py2.py3-none-any.whl.zip]
 [2024-04-11 02:36:38] INFO root fetch - main [MainThread]: End processing [synapseml]: success
 [2024-04-11 02:36:38] INFO root fetch - main [MainThread]: Store serial: [22711565]
+[2024-04-11 02:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711565]
+[2024-04-11 02:38:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 02:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ugrc-swapper
+[2024-04-11 02:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvflare
+[2024-04-11 02:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rich-click
+[2024-04-11 02:38:47] WARNING root fetch - processPackages [ugrc-swapper]: Skipping, unable to determine old version
+[2024-04-11 02:38:47] INFO root fetch - processPackages [rich-click]: New version: [1.8.0.dev2] Old Version: [1.8.0.dev1]
+[2024-04-11 02:38:47] INFO root fetch - main [MainThread]: End processing [ugrc-swapper] error
+[2024-04-11 02:38:47] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/bc/1b/e081ae5c40e32fe8de05a2f8a2cef98b719c5da21ff48bc2df597b80d5b8/rich-click-1.8.0.dev1.tar.gz
+[2024-04-11 02:38:47] INFO root fetch - processPackages [nvflare]: New version: [2.4.1rc5] Old Version: [2.4.1rc4]
+[2024-04-11 02:38:47] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/c7/8c/0468990a85874766879db8c127260d8f3c13bef23437952255601a950a7b/nvflare-2.4.1rc4-py3-none-any.whl
+[2024-04-11 02:38:47] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/ad/70/3b44d4d5cd3361fe2566cbc064e4309f4fa618677e6215e2e5642dd1e24a/rich-click-1.8.0.dev2.tar.gz
+[2024-04-11 02:38:47] INFO root fetch - processPackages [rich-click]: executing diffoscope
+[2024-04-11 02:38:47] INFO root fetch - processPackages [rich-click]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-click-1.8.0.dev1.tar.gz tmp/rich-click-1.8.0.dev2.tar.gz --markdown 20240411/r/rich-click/1.8.0.dev1-1.8.0.dev2/README.md --exclude *.pyd
+[2024-04-11 02:38:47] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/24/9b/2bc680253876ae46c23ff6eeae84a4020f65a0e590210312108ae8cc13a3/nvflare-2.4.1rc5-py3-none-any.whl
+[2024-04-11 02:38:48] INFO root fetch - processPackages [nvflare]: executing diffoscope
+[2024-04-11 02:38:48] INFO root fetch - processPackages [nvflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvflare-2.4.1rc4-py3-none-any.whl.zip tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip --markdown 20240411/n/nvflare/2.4.1rc4-2.4.1rc5/README.md --exclude *.pyd
+[2024-04-11 02:38:48] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich-click-1.8.0.dev1.tar.gz]
+[2024-04-11 02:38:48] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich-click-1.8.0.dev2.tar.gz]
+[2024-04-11 02:38:48] INFO root fetch - main [MainThread]: End processing [rich-click]: success
+[2024-04-11 02:38:51] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc4-py3-none-any.whl.zip]
+[2024-04-11 02:38:51] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip]
+[2024-04-11 02:38:51] INFO root fetch - main [MainThread]: End processing [nvflare]: success
+[2024-04-11 02:38:51] INFO root fetch - main [MainThread]: Store serial: [22711573]

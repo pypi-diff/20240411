@@ -14311,3 +14311,69 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:00:14] INFO root fetch - processPackages [Flask-SQLAlchemy-Session2024]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQLAlchemy-Session2024-3.0.0.tar.gz]
 [2024-04-11 10:00:14] INFO root fetch - main [MainThread]: End processing [Flask-SQLAlchemy-Session2024]: success
 [2024-04-11 10:00:14] INFO root fetch - main [MainThread]: Store serial: [22715995]
+[2024-04-11 10:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715995]
+[2024-04-11 10:02:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncmc-fz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tremolo
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: memodules
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-injection
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ds20kdb-avt
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: event-service-contracts
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kenv-to-local
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sievelib
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: misc-python-utils
+[2024-04-11 10:02:23] INFO root fetch - processPackages [memodules]: New version: [5.9.0] Old Version: [5.8.3]
+[2024-04-11 10:02:23] WARNING root fetch - processPackages [asyncmc-fz]: Skipping, unable to determine old version
+[2024-04-11 10:02:23] INFO root fetch - main [MainThread]: End processing [asyncmc-fz] error
+[2024-04-11 10:02:23] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/a5/50/0e138bf1d237825c9d09a871e8b6cb89cd432218cd15f9f0676c1089e26a/memodules-5.8.3.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ds20kdb-avt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-11 10:02:23] WARNING root fetch - processPackages [event-service-contracts]: Skipping, unable to determine old version
+[2024-04-11 10:02:23] INFO root fetch - main [MainThread]: End processing [event-service-contracts] error
+[2024-04-11 10:02:23] WARNING root fetch - processPackages [kenv-to-local]: Skipping, unable to determine old version
+[2024-04-11 10:02:23] INFO root fetch - main [MainThread]: End processing [kenv-to-local] error
+[2024-04-11 10:02:23] INFO root fetch - processPackages [misc-python-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-11 10:02:23] INFO root fetch - processPackages [sievelib]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-11 10:02:23] INFO root fetch - processPackages [tremolo]: New version: [0.0.504] Old Version: [0.0.503]
+[2024-04-11 10:02:23] INFO root fetch - processPackages [python-injection]: New version: [0.8.2] Old Version: [0.8.1.post0]
+[2024-04-11 10:02:23] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/5f/8f/50b8642242a2a7bccdaba5e216ac427ae9d09a12192e79831fb0f63bc509/tremolo-0.0.503.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/34/72/fb816f52f89bd2c3a639a8f5997d8cab561a7e35f8a14a0fa4105dae510a/ds20kdb-avt-1.0.2.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/29/e6/0fbad7a0e8110c2a2be7fac5f08d1b38ec7f4d948605a9a34f2eb2db72a2/memodules-5.9.0.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/0a/bb/8b5b3271433a3a1b419d267ce4a67fa34766bca7fb9ed6b47395594a948d/misc_python_utils-0.1.6.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/a1/ab/be4fbe7665800769cc54bbf5795e9cdcf8ecc4780e139848df6f5329185c/python_injection-0.8.1.post0.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [sievelib]: Downloading https://files.pythonhosted.org/packages/cd/e6/d988c4b2acad709ce63552b54cf2e60c485e88be00236667e45c6e7b7dc4/sievelib-1.3.0.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [memodules]: executing diffoscope
+[2024-04-11 10:02:23] INFO root fetch - processPackages [memodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memodules-5.8.3.tar.gz tmp/memodules-5.9.0.tar.gz --markdown 20240411/m/memodules/5.8.3-5.9.0/README.md --exclude *.pyd
+[2024-04-11 10:02:23] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/25/52/f5bfddcb5dc99787e7218b08a8499f2ac26afd663348282f20fddfcd56fb/misc_python_utils-0.1.7.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/3b/9f/399b9a3a6af58b5c02cab9826e34577c8f0f64b9b8fccc8a1ce8b0840a9c/tremolo-0.0.504.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [sievelib]: Downloading https://files.pythonhosted.org/packages/65/96/b7815e06681c2d519c7202a329c91fe5d2097f4fe33cd047fc5de816196d/sievelib-1.4.0.tar.gz
+[2024-04-11 10:02:23] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/70/0e/b8f21e8e0135cf8fcb6cdfbfd5fb533cf49ed02518668d39844a296a1abf/ds20kdb-avt-1.0.3.tar.gz
+[2024-04-11 10:02:24] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/70/ef/ceeb262a52491ed4fec968614f1e87706b8f80d5675a40c513e699a20a9a/python_injection-0.8.2.tar.gz
+[2024-04-11 10:02:24] INFO root fetch - processPackages [misc-python-utils]: executing diffoscope
+[2024-04-11 10:02:24] INFO root fetch - processPackages [misc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_python_utils-0.1.6.tar.gz tmp/misc_python_utils-0.1.7.tar.gz --markdown 20240411/m/misc-python-utils/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-11 10:02:24] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2024-04-11 10:02:24] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.503.tar.gz tmp/tremolo-0.0.504.tar.gz --markdown 20240411/t/tremolo/0.0.503-0.0.504/README.md --exclude *.pyd
+[2024-04-11 10:02:24] INFO root fetch - processPackages [sievelib]: executing diffoscope
+[2024-04-11 10:02:24] INFO root fetch - processPackages [sievelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sievelib-1.3.0.tar.gz tmp/sievelib-1.4.0.tar.gz --markdown 20240411/s/sievelib/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-11 10:02:24] INFO root fetch - processPackages [ds20kdb-avt]: executing diffoscope
+[2024-04-11 10:02:24] INFO root fetch - processPackages [ds20kdb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds20kdb-avt-1.0.2.tar.gz tmp/ds20kdb-avt-1.0.3.tar.gz --markdown 20240411/d/ds20kdb-avt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-11 10:02:24] INFO root fetch - processPackages [python-injection]: executing diffoscope
+[2024-04-11 10:02:24] INFO root fetch - processPackages [python-injection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_injection-0.8.1.post0.tar.gz tmp/python_injection-0.8.2.tar.gz --markdown 20240411/p/python-injection/0.8.1.post0-0.8.2/README.md --exclude *.pyd
+[2024-04-11 10:02:24] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.8.3.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.0.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - main [MainThread]: End processing [memodules]: success
+[2024-04-11 10:02:24] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.6.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.7.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
+[2024-04-11 10:02:24] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.8.1.post0.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.8.2.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - main [MainThread]: End processing [python-injection]: success
+[2024-04-11 10:02:24] INFO root fetch - processPackages [sievelib]: Remove: archive file [/home/abi/fetcher/tmp/sievelib-1.3.0.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - processPackages [sievelib]: Remove: archive file [/home/abi/fetcher/tmp/sievelib-1.4.0.tar.gz]
+[2024-04-11 10:02:24] INFO root fetch - main [MainThread]: End processing [sievelib]: success
+[2024-04-11 10:02:25] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb-avt-1.0.2.tar.gz]
+[2024-04-11 10:02:25] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb-avt-1.0.3.tar.gz]
+[2024-04-11 10:02:25] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
+[2024-04-11 10:02:25] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.503.tar.gz]
+[2024-04-11 10:02:25] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.504.tar.gz]
+[2024-04-11 10:02:25] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2024-04-11 10:02:25] INFO root fetch - main [MainThread]: Store serial: [22716023]

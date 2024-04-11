@@ -3452,3 +3452,56 @@ EOFError: EOF read where object expected
 [2024-04-11 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404100044.tar.gz]
 [2024-04-11 02:45:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-11 02:45:43] INFO root fetch - main [MainThread]: Store serial: [22711607]
+[2024-04-11 02:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711607]
+[2024-04-11 02:47:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nm-magic-wand-nightly
+[2024-04-11 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyeda2ato
+[2024-04-11 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freedownload
+[2024-04-11 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polygraphy
+[2024-04-11 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioversions
+[2024-04-11 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rich-click
+[2024-04-11 02:47:52] INFO root fetch - processPackages [easyeda2ato]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-11 02:47:52] INFO root fetch - processPackages [rich-click]: New version: [1.8.0.dev3] Old Version: [1.8.0.dev2]
+[2024-04-11 02:47:52] INFO root fetch - processPackages [freedownload]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-11 02:47:52] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-11 02:47:52] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240411] Old Version: [0.2.2.20240410]
+[2024-04-11 02:47:52] INFO root fetch - processPackages [easyeda2ato]: Downloading https://files.pythonhosted.org/packages/6e/62/ec3a4ff8f6718da5614ebec64acbd6b2b93e58a661da3ab58e8e339f1c58/easyeda2ato-0.2.0-py3-none-any.whl
+[2024-04-11 02:47:52] INFO root fetch - processPackages [polygraphy]: New version: [0.49.9] Old Version: [0.49.0]
+[2024-04-11 02:47:52] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/ad/70/3b44d4d5cd3361fe2566cbc064e4309f4fa618677e6215e2e5642dd1e24a/rich-click-1.8.0.dev2.tar.gz
+[2024-04-11 02:47:52] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/fd/00/147aecf4a57dc11f802cf9846c0b908424e9fc5c9f7b99819a8b13f32e06/freedownload-1.0.3.tar.gz
+[2024-04-11 02:47:52] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-11 02:47:52] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/7d/5c/4ee4ccc6ceeff5c424e68f6759d9b1644a36dfd311cd172fe85c23262a65/nm_magic_wand_nightly-0.2.2.20240410-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-11 02:47:52] INFO root fetch - processPackages [polygraphy]: Downloading https://files.pythonhosted.org/packages/fa/10/f8f15fde506d65f1a6b628ffd8bd081c91625d9e764084e229ad8fecfa4c/polygraphy-0.49.0-py2.py3-none-any.whl
+[2024-04-11 02:47:52] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/20/6a/9492817940d83d477809ca00b6947c3bdd087c35052a3c9a3ce1f498210d/freedownload-1.0.4.tar.gz
+[2024-04-11 02:47:52] INFO root fetch - processPackages [easyeda2ato]: Downloading https://files.pythonhosted.org/packages/fa/a5/4dda144b8a362f4a1635df627dd4aab62358692b5b8191febf551bbbc076/easyeda2ato-0.2.1.tar.gz
+[2024-04-11 02:47:52] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 78349042>=10485760
+[2024-04-11 02:47:52] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-11 02:47:52] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-11 02:47:52] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/10/4b/84bbb6c69eca2115d1e20625aa0bc46a4fc2b6cb6de2103f11b9b6d64757/rich-click-1.8.0.dev3.tar.gz
+[2024-04-11 02:47:52] INFO root fetch - processPackages [freedownload]: executing diffoscope
+[2024-04-11 02:47:52] INFO root fetch - processPackages [freedownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedownload-1.0.3.tar.gz tmp/freedownload-1.0.4.tar.gz --markdown 20240411/f/freedownload/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-11 02:47:52] INFO root fetch - processPackages [easyeda2ato]: executing diffoscope
+[2024-04-11 02:47:52] INFO root fetch - processPackages [easyeda2ato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyeda2ato-0.2.0-py3-none-any.whl.zip tmp/easyeda2ato-0.2.1.tar.gz --markdown 20240411/e/easyeda2ato/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-11 02:47:53] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-11 02:47:53] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240411/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-11 02:47:53] INFO root fetch - processPackages [rich-click]: executing diffoscope
+[2024-04-11 02:47:53] INFO root fetch - processPackages [rich-click]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-click-1.8.0.dev2.tar.gz tmp/rich-click-1.8.0.dev3.tar.gz --markdown 20240411/r/rich-click/1.8.0.dev2-1.8.0.dev3/README.md --exclude *.pyd
+[2024-04-11 02:47:53] INFO root fetch - processPackages [polygraphy]: Downloading https://files.pythonhosted.org/packages/4a/f5/a2b20c677c1a856cc9e08cd0b5a5105450ed5253e369e938ddd31d91c547/polygraphy-0.49.9-py2.py3-none-any.whl
+[2024-04-11 02:47:53] INFO root fetch - processPackages [polygraphy]: executing diffoscope
+[2024-04-11 02:47:53] INFO root fetch - processPackages [polygraphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygraphy-0.49.0-py2.py3-none-any.whl.zip tmp/polygraphy-0.49.9-py2.py3-none-any.whl.zip --markdown 20240411/p/polygraphy/0.49.0-0.49.9/README.md --exclude *.pyd
+[2024-04-11 02:47:53] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.3.tar.gz]
+[2024-04-11 02:47:53] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.4.tar.gz]
+[2024-04-11 02:47:53] INFO root fetch - main [MainThread]: End processing [freedownload]: success
+[2024-04-11 02:47:53] INFO root fetch - processPackages [easyeda2ato]: Remove: archive file [/home/abi/fetcher/tmp/easyeda2ato-0.2.0-py3-none-any.whl.zip]
+[2024-04-11 02:47:53] INFO root fetch - processPackages [easyeda2ato]: Remove: archive file [/home/abi/fetcher/tmp/easyeda2ato-0.2.1.tar.gz]
+[2024-04-11 02:47:53] INFO root fetch - main [MainThread]: End processing [easyeda2ato]: success
+[2024-04-11 02:47:53] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich-click-1.8.0.dev2.tar.gz]
+[2024-04-11 02:47:53] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich-click-1.8.0.dev3.tar.gz]
+[2024-04-11 02:47:53] INFO root fetch - main [MainThread]: End processing [rich-click]: success
+[2024-04-11 02:47:54] INFO root fetch - processPackages [polygraphy]: Remove: archive file [/home/abi/fetcher/tmp/polygraphy-0.49.0-py2.py3-none-any.whl.zip]
+[2024-04-11 02:47:54] INFO root fetch - processPackages [polygraphy]: Remove: archive file [/home/abi/fetcher/tmp/polygraphy-0.49.9-py2.py3-none-any.whl.zip]
+[2024-04-11 02:47:54] INFO root fetch - main [MainThread]: End processing [polygraphy]: success
+[2024-04-11 02:48:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-11 02:48:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-11 02:48:12] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-11 02:48:12] INFO root fetch - main [MainThread]: Store serial: [22711625]

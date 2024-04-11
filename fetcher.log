@@ -12332,3 +12332,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:06:59] INFO root fetch - processPackages [alibabacloud-cr20181201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cr20181201-1.3.0.tar.gz]
 [2024-04-11 08:06:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-cr20181201]: success
 [2024-04-11 08:06:59] INFO root fetch - main [MainThread]: Store serial: [22714889]
+[2024-04-11 08:09:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714889]
+[2024-04-11 08:09:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 08:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-11 08:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytun-pmd3
+[2024-04-11 08:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-cr20181201-py2
+[2024-04-11 08:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fs-storage
+[2024-04-11 08:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bakabakabaka
+[2024-04-11 08:09:08] INFO root fetch - processPackages [odoo-addon-fs-storage]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-11 08:09:08] INFO root fetch - processPackages [odoo-addon-fs-storage]: Downloading https://files.pythonhosted.org/packages/5d/38/3f890e0adf31538afc822be31c0ee2055f50e8c4527236dfc4fc34e625d2/odoo_addon_fs_storage-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-11 08:09:08] INFO root fetch - processPackages [alibabacloud-cr20181201-py2]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-11 08:09:08] INFO root fetch - processPackages [bakabakabaka]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-11 08:09:08] INFO root fetch - processPackages [kcli]: New version: [99.0.202404110606] Old Version: [99.0.202404091937]
+[2024-04-11 08:09:08] INFO root fetch - processPackages [pytun-pmd3]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-11 08:09:08] INFO root fetch - processPackages [bakabakabaka]: Downloading https://files.pythonhosted.org/packages/e7/4d/303049ad3119015aba148b323ff957bd8dc28970432eac500103ef377272/bakabakabaka-0.8.5.tar.gz
+[2024-04-11 08:09:08] INFO root fetch - processPackages [alibabacloud-cr20181201-py2]: Downloading https://files.pythonhosted.org/packages/fd/46/665c64913e461635820dacd4f4f51064463a8eda5d48550488f0735ac311/alibabacloud_cr20181201_py2-1.2.0.tar.gz
+[2024-04-11 08:09:08] INFO root fetch - processPackages [odoo-addon-fs-storage]: Downloading https://files.pythonhosted.org/packages/6e/65/2d60113f6a47a55a3f9213b8a0ba3bc09d884210bf27ba7981a95c2f11b1/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-11 08:09:08] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/60/95/38334ea654f23d66d80f5ae3907e47d5bffdd30485268076712c7402618a/kcli-99.0.202404091937.tar.gz
+[2024-04-11 08:09:08] INFO root fetch - processPackages [pytun-pmd3]: Downloading https://files.pythonhosted.org/packages/4a/e0/a7174ecbc0405386130d13f53bd6b5a70c1fb62c0564072d59cabcd97852/pytun-pmd3-2.0.3.tar.gz
+[2024-04-11 08:09:08] INFO root fetch - processPackages [odoo-addon-fs-storage]: executing diffoscope
+[2024-04-11 08:09:08] INFO root fetch - processPackages [odoo-addon-fs-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_storage-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-fs-storage/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-11 08:09:08] INFO root fetch - processPackages [bakabakabaka]: Downloading https://files.pythonhosted.org/packages/af/a9/928befc8c78ab2476061d37fffbaccf0652481902310030d9c04866dbf09/bakabakabaka-0.8.6.tar.gz
+[2024-04-11 08:09:08] INFO root fetch - processPackages [alibabacloud-cr20181201-py2]: Downloading https://files.pythonhosted.org/packages/85/e2/bdd600384e278cf9b1c288f6b3facf70286b221d7e244261dda59879f705/alibabacloud_cr20181201_py2-1.3.0.tar.gz
+[2024-04-11 08:09:08] INFO root fetch - processPackages [bakabakabaka]: executing diffoscope
+[2024-04-11 08:09:08] INFO root fetch - processPackages [bakabakabaka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bakabakabaka-0.8.5.tar.gz tmp/bakabakabaka-0.8.6.tar.gz --markdown 20240411/b/bakabakabaka/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-11 08:09:08] INFO root fetch - processPackages [pytun-pmd3]: Downloading https://files.pythonhosted.org/packages/d4/1f/8cb797c36f727666bc7147e81a6727df098f1dbe99baaed6e969ae6d2045/pytun-pmd3-2.0.4.tar.gz
+[2024-04-11 08:09:09] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/57/19/aca1a38f431e59579f337316273d07b089bbe7b9972b0d518b2366910a18/kcli-99.0.202404110606.tar.gz
+[2024-04-11 08:09:09] INFO root fetch - processPackages [alibabacloud-cr20181201-py2]: executing diffoscope
+[2024-04-11 08:09:09] INFO root fetch - processPackages [alibabacloud-cr20181201-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cr20181201_py2-1.2.0.tar.gz tmp/alibabacloud_cr20181201_py2-1.3.0.tar.gz --markdown 20240411/a/alibabacloud-cr20181201-py2/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-11 08:09:09] INFO root fetch - processPackages [odoo-addon-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_storage-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-11 08:09:09] INFO root fetch - processPackages [odoo-addon-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-11 08:09:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-storage]: success
+[2024-04-11 08:09:09] INFO root fetch - processPackages [pytun-pmd3]: executing diffoscope
+[2024-04-11 08:09:09] INFO root fetch - processPackages [pytun-pmd3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytun-pmd3-2.0.3.tar.gz tmp/pytun-pmd3-2.0.4.tar.gz --markdown 20240411/p/pytun-pmd3/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-11 08:09:09] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-11 08:09:09] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404091937.tar.gz tmp/kcli-99.0.202404110606.tar.gz --markdown 20240411/k/kcli/99.0.202404091937-99.0.202404110606/README.md --exclude *.pyd
+[2024-04-11 08:09:09] INFO root fetch - processPackages [bakabakabaka]: Remove: archive file [/home/abi/fetcher/tmp/bakabakabaka-0.8.5.tar.gz]
+[2024-04-11 08:09:09] INFO root fetch - processPackages [bakabakabaka]: Remove: archive file [/home/abi/fetcher/tmp/bakabakabaka-0.8.6.tar.gz]
+[2024-04-11 08:09:09] INFO root fetch - main [MainThread]: End processing [bakabakabaka]: success
+[2024-04-11 08:09:10] INFO root fetch - processPackages [alibabacloud-cr20181201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cr20181201_py2-1.2.0.tar.gz]
+[2024-04-11 08:09:10] INFO root fetch - processPackages [alibabacloud-cr20181201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cr20181201_py2-1.3.0.tar.gz]
+[2024-04-11 08:09:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-cr20181201-py2]: success
+[2024-04-11 08:09:10] INFO root fetch - processPackages [pytun-pmd3]: Remove: archive file [/home/abi/fetcher/tmp/pytun-pmd3-2.0.3.tar.gz]
+[2024-04-11 08:09:10] INFO root fetch - processPackages [pytun-pmd3]: Remove: archive file [/home/abi/fetcher/tmp/pytun-pmd3-2.0.4.tar.gz]
+[2024-04-11 08:09:10] INFO root fetch - main [MainThread]: End processing [pytun-pmd3]: success
+[2024-04-11 08:09:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404091937.tar.gz]
+[2024-04-11 08:09:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404110606.tar.gz]
+[2024-04-11 08:09:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-11 08:09:11] INFO root fetch - main [MainThread]: Store serial: [22714936]

@@ -8398,3 +8398,9 @@ EOFError: EOF read where object expected
 [2024-04-11 03:43:41] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
 [2024-04-11 03:43:41] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2024-04-11 03:43:41] INFO root fetch - main [MainThread]: Store serial: [22713121]
+[2024-04-11 03:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713121]
+[2024-04-11 03:45:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 03:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dblmt
+[2024-04-11 03:45:51] WARNING root fetch - processPackages [dblmt]: Skipping, unable to determine old version
+[2024-04-11 03:45:51] INFO root fetch - main [MainThread]: End processing [dblmt] error
+[2024-04-11 03:45:51] INFO root fetch - main [MainThread]: Store serial: [22713129]

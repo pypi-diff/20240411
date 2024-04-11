@@ -11202,3 +11202,20 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:45:48] INFO root fetch - processPackages [rocco]: Remove: archive file [/home/abi/fetcher/tmp/rocco-0.9.5.tar.gz]
 [2024-04-11 06:45:48] INFO root fetch - main [MainThread]: End processing [rocco]: success
 [2024-04-11 06:45:48] INFO root fetch - main [MainThread]: Store serial: [22714426]
+[2024-04-11 06:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714426]
+[2024-04-11 06:47:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 06:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ANX
+[2024-04-11 06:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-21
+[2024-04-11 06:47:58] INFO root fetch - processPackages [ANX]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-11 06:47:58] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240411] Old Version: [2.5.0b20240410]
+[2024-04-11 06:47:58] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/8b/97/d22ce3c250e0e352923b708f2ad83e3778517f51eab454e1f39b503d685f/ANX-0.7.3.tar.gz
+[2024-04-11 06:47:58] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/fe/68/cf1ff39b3bfd9ba0aa343a20610722b2f8a35959717acba32fc67731ef06/bigdl_core_xe_21-2.5.0b20240410-cp39-cp39-win_amd64.whl
+[2024-04-11 06:47:58] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25408590>=10485760
+[2024-04-11 06:47:58] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-11 06:47:59] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/1e/43/f0acd078a56460bddc22adbf9e128617c00ec7661ef62139f7dbf5240c50/ANX-0.7.4.tar.gz
+[2024-04-11 06:47:59] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-04-11 06:47:59] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.7.3.tar.gz tmp/ANX-0.7.4.tar.gz --markdown 20240411/A/ANX/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-11 06:47:59] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.3.tar.gz]
+[2024-04-11 06:47:59] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.4.tar.gz]
+[2024-04-11 06:47:59] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-04-11 06:47:59] INFO root fetch - main [MainThread]: Store serial: [22714431]

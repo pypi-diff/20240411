@@ -10936,3 +10936,17 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:17:29] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
 [2024-04-11 06:17:29] INFO root fetch - main [MainThread]: End processing [core-pro]: success
 [2024-04-11 06:17:29] INFO root fetch - main [MainThread]: Store serial: [22714274]
+[2024-04-11 06:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714274]
+[2024-04-11 06:19:37] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 06:21:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714275]
+[2024-04-11 06:21:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 06:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepeline
+[2024-04-11 06:21:42] INFO root fetch - processPackages [pepeline]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-11 06:21:43] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/00/10/7ddb926904781047907a6d29ef9e06f93d78564900bfb10ec5bc3a21e7f3/pepeline-0.2.4.tar.gz
+[2024-04-11 06:21:43] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/e5/59/41df7884b5fd6ac6b4b2671c3093fbc2744afd8757482990cd6640a99fd3/pepeline-0.2.5-cp39-cp39-macosx_11_0_arm64.whl
+[2024-04-11 06:21:46] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-04-11 06:21:46] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.2.4.tar.gz tmp/pepeline-0.2.5-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240411/p/pepeline/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-11 06:21:46] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.4.tar.gz]
+[2024-04-11 06:21:46] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.5-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-04-11 06:21:46] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-04-11 06:21:46] INFO root fetch - main [MainThread]: Store serial: [22714316]

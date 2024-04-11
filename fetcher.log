@@ -13963,3 +13963,63 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:38:24] INFO root fetch - processPackages [comfy-script]: Remove: archive file [/home/abi/fetcher/tmp/comfy_script-0.4.5.tar.gz]
 [2024-04-11 09:38:24] INFO root fetch - main [MainThread]: End processing [comfy-script]: success
 [2024-04-11 09:38:24] INFO root fetch - main [MainThread]: Store serial: [22715841]
+[2024-04-11 09:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715841]
+[2024-04-11 09:40:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 09:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyosv
+[2024-04-11 09:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eodc-faas-openeo
+[2024-04-11 09:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vsdm
+[2024-04-11 09:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reqargs
+[2024-04-11 09:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-orbit-api
+[2024-04-11 09:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OnyxCli
+[2024-04-11 09:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: causadb
+[2024-04-11 09:40:33] INFO root fetch - processPackages [causadb]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-04-11 09:40:33] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.21] Old Version: [1.1.20]
+[2024-04-11 09:40:33] INFO root fetch - processPackages [OnyxCli]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-11 09:40:33] WARNING root fetch - processPackages [reqargs]: Skipping, unable to determine old version
+[2024-04-11 09:40:33] INFO root fetch - main [MainThread]: End processing [reqargs] error
+[2024-04-11 09:40:33] INFO root fetch - processPackages [pyosv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 09:40:33] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-11 09:40:33] INFO root fetch - processPackages [vsdm]: New version: [0.2.9] Old Version: [0.1.0]
+[2024-04-11 09:40:33] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/61/25/6c2e734977817ed7292533ed7bbac07be3716d78ab94d65c902a2460872e/causadb-1.8.5.tar.gz
+[2024-04-11 09:40:33] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/47/95/d0acbe1d623f704aeed0688c7f2cb93d61e342a2917a34af2de7bad6850a/cloud_orbit_api-1.1.20.tar.gz
+[2024-04-11 09:40:33] INFO root fetch - processPackages [OnyxCli]: Downloading https://files.pythonhosted.org/packages/0a/db/93ed045d376488ff3afb7000a8be811c6e8b8884f540d910f8402e31344a/onyxcli-0.0.4.tar.gz
+[2024-04-11 09:40:33] INFO root fetch - processPackages [pyosv]: Downloading https://files.pythonhosted.org/packages/3f/9f/1a7299c86dc479af306e1b9d834083076a341c3b55316a9054c6b8168d51/pyosv-0.0.8.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/95/0d/3bbe76bf2dc16ab52e2891e0a5befbe87f597cd15fe4d4853644e5bfefc0/eodc_faas_openeo-2024.4.8.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [vsdm]: Downloading https://files.pythonhosted.org/packages/20/c1/dfbaa1fdad8ad2e5d2eb23b68038b42a47111f460a86f24ac97fd41f1c5c/vsdm-0.1.0.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/49/08/90713486ccb182b8326e9674937ee33f97eb9b6256815e961a74614c11f5/cloud_orbit_api-1.1.21.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/9d/70/e1fbe6309e08e66edeeb5378073bfa7c355edfa4775147c6de0e44622734/causadb-1.8.6.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/5e/60/0df26077da816d4440ca6002beb2eb117e5fc28afecbc0fc984839e59b0e/eodc_faas_openeo-2024.4.9.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [pyosv]: Downloading https://files.pythonhosted.org/packages/cd/75/82803fd1bb05e9003026185f67f0de76c76f20721198bfc0cd2f7a6caf02/pyosv-0.0.9.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-11 09:40:34] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-1.1.20.tar.gz tmp/cloud_orbit_api-1.1.21.tar.gz --markdown 20240411/c/cloud-orbit-api/1.1.20-1.1.21/README.md --exclude *.pyd
+[2024-04-11 09:40:34] INFO root fetch - processPackages [causadb]: executing diffoscope
+[2024-04-11 09:40:34] INFO root fetch - processPackages [causadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causadb-1.8.5.tar.gz tmp/causadb-1.8.6.tar.gz --markdown 20240411/c/causadb/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-04-11 09:40:34] INFO root fetch - processPackages [OnyxCli]: Downloading https://files.pythonhosted.org/packages/89/64/a273601c6019951c37d48e83df52dbef8c04f99127cad82e251131e44e00/onyxcli-0.0.5.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [pyosv]: executing diffoscope
+[2024-04-11 09:40:34] INFO root fetch - processPackages [pyosv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosv-0.0.8.tar.gz tmp/pyosv-0.0.9.tar.gz --markdown 20240411/p/pyosv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 09:40:34] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-11 09:40:34] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.8.tar.gz tmp/eodc_faas_openeo-2024.4.9.tar.gz --markdown 20240411/e/eodc-faas-openeo/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-11 09:40:34] INFO root fetch - processPackages [OnyxCli]: executing diffoscope
+[2024-04-11 09:40:34] INFO root fetch - processPackages [OnyxCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxcli-0.0.4.tar.gz tmp/onyxcli-0.0.5.tar.gz --markdown 20240411/O/OnyxCli/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-11 09:40:34] INFO root fetch - processPackages [vsdm]: Downloading https://files.pythonhosted.org/packages/f5/9e/6cfc3a7b493882a09021af5599cf6a712efc322c57a878334fd287e441da/vsdm-0.2.9.tar.gz
+[2024-04-11 09:40:34] INFO root fetch - processPackages [vsdm]: executing diffoscope
+[2024-04-11 09:40:34] INFO root fetch - processPackages [vsdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsdm-0.1.0.tar.gz tmp/vsdm-0.2.9.tar.gz --markdown 20240411/v/vsdm/0.1.0-0.2.9/README.md --exclude *.pyd
+[2024-04-11 09:40:35] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.20.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.21.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-11 09:40:35] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.8.5.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.8.6.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - main [MainThread]: End processing [causadb]: success
+[2024-04-11 09:40:35] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.8.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.9.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-11 09:40:35] INFO root fetch - processPackages [pyosv]: Remove: archive file [/home/abi/fetcher/tmp/pyosv-0.0.8.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - processPackages [pyosv]: Remove: archive file [/home/abi/fetcher/tmp/pyosv-0.0.9.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - main [MainThread]: End processing [pyosv]: success
+[2024-04-11 09:40:35] INFO root fetch - processPackages [OnyxCli]: Remove: archive file [/home/abi/fetcher/tmp/onyxcli-0.0.4.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - processPackages [OnyxCli]: Remove: archive file [/home/abi/fetcher/tmp/onyxcli-0.0.5.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - main [MainThread]: End processing [OnyxCli]: success
+[2024-04-11 09:40:35] INFO root fetch - processPackages [vsdm]: Remove: archive file [/home/abi/fetcher/tmp/vsdm-0.1.0.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - processPackages [vsdm]: Remove: archive file [/home/abi/fetcher/tmp/vsdm-0.2.9.tar.gz]
+[2024-04-11 09:40:35] INFO root fetch - main [MainThread]: End processing [vsdm]: success
+[2024-04-11 09:40:35] INFO root fetch - main [MainThread]: Store serial: [22715865]

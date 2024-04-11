@@ -10626,3 +10626,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:53:25] INFO root fetch - processPackages [argsense]: Remove: archive file [/home/abi/fetcher/tmp/argsense-0.5.7-py3-none-any.whl.zip]
 [2024-04-11 05:53:25] INFO root fetch - main [MainThread]: End processing [argsense]: success
 [2024-04-11 05:53:25] INFO root fetch - main [MainThread]: Store serial: [22714109]
+[2024-04-11 05:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714109]
+[2024-04-11 05:55:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 05:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-benchmark
+[2024-04-11 05:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svc-toolkit
+[2024-04-11 05:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2024-04-11 05:55:33] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 05:55:33] INFO root fetch - processPackages [llm-benchmark]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 05:55:33] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 05:55:33] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/18/71/a24976dca8e6971f4159fa0a5ac7f6c14882856b396c72cec99c66a68ec3/svc_toolkit-1.0.8.tar.gz
+[2024-04-11 05:55:34] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/52/95/1bf674bf31370821f79bca95e73545a37a8b265b9449461c69806c1fb7d0/llm_benchmark-0.3.8.tar.gz
+[2024-04-11 05:55:34] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/51/97/0ed66b947eb7371ed3f33d9501745d4bbc9b06a5cd25a6e7a6a6e7869fda/omnata_plugin_devkit-0.3.8.tar.gz
+[2024-04-11 05:55:34] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/12/47/713112c1e024ebcf265ef509aabd2f529c7542012e9ba49646881121f672/svc_toolkit-1.0.9.tar.gz
+[2024-04-11 05:55:34] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-11 05:55:34] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.8.tar.gz tmp/svc_toolkit-1.0.9.tar.gz --markdown 20240411/s/svc-toolkit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 05:55:34] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/d6/2b/16a568848f2ad6bc55b9f86128de716349ca568d85c995ddaeeaec1c8886/llm_benchmark-0.3.9.tar.gz
+[2024-04-11 05:55:34] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/05/26/00acb43f53fad72d614350962a4ab46ad393fce6583ee75c5dedc01385c8/omnata_plugin_devkit-0.3.9.tar.gz
+[2024-04-11 05:55:34] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2024-04-11 05:55:34] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.3.8.tar.gz tmp/omnata_plugin_devkit-0.3.9.tar.gz --markdown 20240411/o/omnata-plugin-devkit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 05:55:34] INFO root fetch - processPackages [llm-benchmark]: executing diffoscope
+[2024-04-11 05:55:34] INFO root fetch - processPackages [llm-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_benchmark-0.3.8.tar.gz tmp/llm_benchmark-0.3.9.tar.gz --markdown 20240411/l/llm-benchmark/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 05:55:34] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.8.tar.gz]
+[2024-04-11 05:55:34] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.9.tar.gz]
+[2024-04-11 05:55:34] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-11 05:55:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.8.tar.gz]
+[2024-04-11 05:55:35] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.9.tar.gz]
+[2024-04-11 05:55:35] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2024-04-11 05:55:35] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.8.tar.gz]
+[2024-04-11 05:55:35] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
+[2024-04-11 05:55:35] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
+[2024-04-11 05:55:35] INFO root fetch - main [MainThread]: Store serial: [22714118]

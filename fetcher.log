@@ -14968,3 +14968,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:34:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.4.tar.gz]
 [2024-04-11 10:34:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-11 10:34:29] INFO root fetch - main [MainThread]: Store serial: [22716438]
+[2024-04-11 10:36:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716438]
+[2024-04-11 10:36:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 10:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: henryobj
+[2024-04-11 10:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fyplot
+[2024-04-11 10:36:38] INFO root fetch - processPackages [henryobj]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-11 10:36:39] INFO root fetch - processPackages [fyplot]: New version: [2.1] Old Version: [2.0]
+[2024-04-11 10:36:39] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/d4/21/1e82598ca8ab9b553492bb436ab77b6c9c9d3339712994692ea23656ee88/henryobj-0.2.2.tar.gz
+[2024-04-11 10:36:39] INFO root fetch - processPackages [fyplot]: Downloading https://files.pythonhosted.org/packages/6d/83/19e34b1faffeb239e479e5925aff41e9ad5baae9223e8b9412df881b7b6d/fyplot-2.0.tar.gz
+[2024-04-11 10:36:39] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/9b/9a/6836f851fab11a426279a1983fbfc0712a5a8dfb907f82ff512b5a2ea4ea/henryobj-0.2.3.tar.gz
+[2024-04-11 10:36:39] INFO root fetch - processPackages [henryobj]: executing diffoscope
+[2024-04-11 10:36:39] INFO root fetch - processPackages [henryobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henryobj-0.2.2.tar.gz tmp/henryobj-0.2.3.tar.gz --markdown 20240411/h/henryobj/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-11 10:36:39] INFO root fetch - processPackages [fyplot]: Downloading https://files.pythonhosted.org/packages/1a/f4/9de0cfb24f63dfe662e6a6cef651cb7f93215a7de40c16d3695e7b6ab776/fyplot-2.1.tar.gz
+[2024-04-11 10:36:39] INFO root fetch - processPackages [fyplot]: executing diffoscope
+[2024-04-11 10:36:39] INFO root fetch - processPackages [fyplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyplot-2.0.tar.gz tmp/fyplot-2.1.tar.gz --markdown 20240411/f/fyplot/2.0-2.1/README.md --exclude *.pyd
+[2024-04-11 10:36:40] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.2.tar.gz]
+[2024-04-11 10:36:40] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.3.tar.gz]
+[2024-04-11 10:36:40] INFO root fetch - main [MainThread]: End processing [henryobj]: success
+[2024-04-11 10:36:40] INFO root fetch - processPackages [fyplot]: Remove: archive file [/home/abi/fetcher/tmp/fyplot-2.0.tar.gz]
+[2024-04-11 10:36:40] INFO root fetch - processPackages [fyplot]: Remove: archive file [/home/abi/fetcher/tmp/fyplot-2.1.tar.gz]
+[2024-04-11 10:36:40] INFO root fetch - main [MainThread]: End processing [fyplot]: success
+[2024-04-11 10:36:40] INFO root fetch - main [MainThread]: Store serial: [22716444]

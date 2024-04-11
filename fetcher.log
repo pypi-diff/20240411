@@ -8502,3 +8502,27 @@ EOFError: EOF read where object expected
 [2024-04-11 03:52:25] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.81.1.tar.gz]
 [2024-04-11 03:52:25] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest]: success
 [2024-04-11 03:52:25] INFO root fetch - main [MainThread]: Store serial: [22713168]
+[2024-04-11 03:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713168]
+[2024-04-11 03:54:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 03:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypnomics
+[2024-04-11 03:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-energy
+[2024-04-11 03:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-04-11 03:54:35] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.11.9.4.4]
+[2024-04-11 03:54:35] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-11 03:54:35] WARNING root fetch - processPackages [hypnomics]: Skipping, unable to determine old version
+[2024-04-11 03:54:35] INFO root fetch - main [MainThread]: End processing [hypnomics] error
+[2024-04-11 03:54:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/94/1c/8a205e1478d8d25639fb495eae0f943c7634b3ce9c421e4e4aa9281b4f32/chatllm-2024.4.11.9.4.4.tar.gz
+[2024-04-11 03:54:35] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-11 03:54:35] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-11 03:54:35] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-11 03:54:35] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240411/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-11 03:54:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-11 03:54:36] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-11 03:54:36] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.11.9.4.4.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240411/c/chatllm/2024.4.11.9.4.4-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-11 03:54:36] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-11 03:54:36] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-11 03:54:36] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-11 03:54:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.11.9.4.4.tar.gz]
+[2024-04-11 03:54:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-11 03:54:37] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-11 03:54:37] INFO root fetch - main [MainThread]: Store serial: [22713179]

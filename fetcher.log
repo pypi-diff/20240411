@@ -13072,3 +13072,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:54:24] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.1.tar.gz]
 [2024-04-11 08:54:24] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
 [2024-04-11 08:54:24] INFO root fetch - main [MainThread]: Store serial: [22715441]
+[2024-04-11 08:56:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715441]
+[2024-04-11 08:56:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mymodules
+[2024-04-11 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelon-impact-client
+[2024-04-11 08:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: davify
+[2024-04-11 08:56:33] INFO root fetch - processPackages [davify]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-11 08:56:33] INFO root fetch - processPackages [davify]: Downloading https://files.pythonhosted.org/packages/cd/46/bf15b2855615a219b2a0fc515fdade8cb8d00545c00ff1cdf2837b3f401e/davify-1.1.0.tar.gz
+[2024-04-11 08:56:33] INFO root fetch - processPackages [mymodules]: New version: [7.0.6] Old Version: [7.0.5]
+[2024-04-11 08:56:33] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-04-11 08:56:33] INFO root fetch - processPackages [mymodules]: Downloading https://files.pythonhosted.org/packages/96/79/5181a8e7f550a3e7027975c193182aee3b95ba1d7da920fe4c421ac0fd00/mymodules-7.0.5.tar.gz
+[2024-04-11 08:56:33] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/e6/38/1b8d34bf587fde7a79d9b937f1fe576d628ffdf0d9ca864081f0f93f7c25/modelon_impact_client-3.8.1.tar.gz
+[2024-04-11 08:56:33] INFO root fetch - processPackages [davify]: Downloading https://files.pythonhosted.org/packages/65/cc/3023b3f71b541a8eee44f678f09b5429f0d4fd4ca9ec8b7b6cb9f017ea2b/davify-1.1.1.tar.gz
+[2024-04-11 08:56:33] INFO root fetch - processPackages [davify]: executing diffoscope
+[2024-04-11 08:56:33] INFO root fetch - processPackages [davify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/davify-1.1.0.tar.gz tmp/davify-1.1.1.tar.gz --markdown 20240411/d/davify/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-11 08:56:33] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/60/b8/7c2424190ed68b6558d409ff3ae458f12114b0e2ff5e4df7d07cc9344fd9/modelon_impact_client-3.9.0.tar.gz
+[2024-04-11 08:56:33] INFO root fetch - processPackages [mymodules]: Downloading https://files.pythonhosted.org/packages/15/7c/8eab7f457c6b84f0834351a2022d88d6b6c4c46fb39815450628736cf319/mymodules-7.0.6.tar.gz
+[2024-04-11 08:56:33] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2024-04-11 08:56:33] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.8.1.tar.gz tmp/modelon_impact_client-3.9.0.tar.gz --markdown 20240411/m/modelon-impact-client/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-04-11 08:56:34] INFO root fetch - processPackages [mymodules]: executing diffoscope
+[2024-04-11 08:56:34] INFO root fetch - processPackages [mymodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymodules-7.0.5.tar.gz tmp/mymodules-7.0.6.tar.gz --markdown 20240411/m/mymodules/7.0.5-7.0.6/README.md --exclude *.pyd
+[2024-04-11 08:56:34] INFO root fetch - processPackages [davify]: Remove: archive file [/home/abi/fetcher/tmp/davify-1.1.0.tar.gz]
+[2024-04-11 08:56:34] INFO root fetch - processPackages [davify]: Remove: archive file [/home/abi/fetcher/tmp/davify-1.1.1.tar.gz]
+[2024-04-11 08:56:34] INFO root fetch - main [MainThread]: End processing [davify]: success
+[2024-04-11 08:56:34] INFO root fetch - processPackages [mymodules]: Remove: archive file [/home/abi/fetcher/tmp/mymodules-7.0.5.tar.gz]
+[2024-04-11 08:56:34] INFO root fetch - processPackages [mymodules]: Remove: archive file [/home/abi/fetcher/tmp/mymodules-7.0.6.tar.gz]
+[2024-04-11 08:56:34] INFO root fetch - main [MainThread]: End processing [mymodules]: success
+[2024-04-11 08:56:34] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.8.1.tar.gz]
+[2024-04-11 08:56:34] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
+[2024-04-11 08:56:34] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2024-04-11 08:56:34] INFO root fetch - main [MainThread]: Store serial: [22715451]

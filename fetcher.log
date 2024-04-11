@@ -13855,3 +13855,83 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:31:54] INFO root fetch - processPackages [urnc]: Remove: archive file [/home/abi/fetcher/tmp/urnc-1.9.3.tar.gz]
 [2024-04-11 09:31:54] INFO root fetch - main [MainThread]: End processing [urnc]: success
 [2024-04-11 09:31:54] INFO root fetch - main [MainThread]: Store serial: [22715789]
+[2024-04-11 09:33:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715789]
+[2024-04-11 09:34:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapy-util
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FancySchmancyTestsplit
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: persona_ai
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asiignment
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zalando-cli-bundle
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightning-module-enhanced
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decision-optimization-client
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymobiledevice3
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reqargs
+[2024-04-11 09:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wah
+[2024-04-11 09:34:04] INFO root fetch - processPackages [zalando-cli-bundle]: New version: [24.5.0] Old Version: [21.5.0]
+[2024-04-11 09:34:04] INFO root fetch - processPackages [lightning-module-enhanced]: New version: [0.26.1] Old Version: [0.26]
+[2024-04-11 09:34:04] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 09:34:04] INFO root fetch - processPackages [pymobiledevice3]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-11 09:34:04] INFO root fetch - processPackages [decision-optimization-client]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-11 09:34:04] INFO root fetch - processPackages [scrapy-util]: New version: [1.0.2] Old Version: [0.0.9]
+[2024-04-11 09:34:04] WARNING root fetch - processPackages [persona_ai]: Skipping, unable to determine old version
+[2024-04-11 09:34:04] INFO root fetch - processPackages [persona_ai]: Start processing: pyosv
+[2024-04-11 09:34:04] INFO root fetch - main [MainThread]: End processing [persona_ai] error
+[2024-04-11 09:34:04] INFO root fetch - processPackages [zalando-cli-bundle]: Downloading https://files.pythonhosted.org/packages/ab/e5/de7a4052ac407e41f7ebf9ab108da52de50c408df1b4ed3c470aa0cd286b/zalando-cli-bundle-21.5.0.tar.gz
+[2024-04-11 09:34:04] INFO root fetch - processPackages [FancySchmancyTestsplit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 09:34:04] WARNING root fetch - processPackages [asiignment]: Skipping, unable to determine old version
+[2024-04-11 09:34:04] INFO root fetch - main [MainThread]: End processing [asiignment] error
+[2024-04-11 09:34:04] WARNING root fetch - processPackages [reqargs]: Skipping, unable to determine old version
+[2024-04-11 09:34:04] INFO root fetch - main [MainThread]: End processing [reqargs] error
+[2024-04-11 09:34:04] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-04-11 09:34:04] INFO root fetch - processPackages [lightning-module-enhanced]: Downloading https://files.pythonhosted.org/packages/9a/3c/1ef76ad2e1e0d45a1c08e8876c13666203fa5ac26b2a5605b162e75adfab/lightning-module-enhanced-0.26.tar.gz
+[2024-04-11 09:34:04] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/94/85/ce666356bf43e116fb36663cbba34a8502c15533b9043f110cb6f5328e5f/pymobiledevice3-3.3.1.tar.gz
+[2024-04-11 09:34:05] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31540478>=10485760
+[2024-04-11 09:34:05] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-11 09:34:05] INFO root fetch - processPackages [pyosv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 09:34:05] INFO root fetch - processPackages [decision-optimization-client]: Downloading https://files.pythonhosted.org/packages/68/7f/2651c0d3fbd805869411a1fb9fd4458364d71c8be8b718195698340f01b5/decision_optimization_client-1.1.0.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [scrapy-util]: Downloading https://files.pythonhosted.org/packages/d5/e6/7c547c60ed41e464c0ee500035600fce5c14d4acd9dc11c1f35540d46122/scrapy-util-0.0.9.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/5f/3d/b6b5b2374bbaa6e63551147fb1cc840203e76f436a623cfff18d47bebf49/FancySchmancyTestsplit-0.1.8.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [lightning-module-enhanced]: Downloading https://files.pythonhosted.org/packages/5b/08/3c3123921cdb0e7be1f8f00d4d3152f6053cdaf97e3e607b5d136d4fef2e/lightning-module-enhanced-0.26.1.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [zalando-cli-bundle]: Downloading https://files.pythonhosted.org/packages/ce/a7/a30c13ed255df138b9c93f6b6f770f12f24aea2ab2cc8ae52e091a65ce40/zalando_cli_bundle-24.5.0.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [pyosv]: Downloading https://files.pythonhosted.org/packages/3f/9f/1a7299c86dc479af306e1b9d834083076a341c3b55316a9054c6b8168d51/pyosv-0.0.8.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-04-11 09:34:05] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240411/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 09:34:05] INFO root fetch - processPackages [lightning-module-enhanced]: executing diffoscope
+[2024-04-11 09:34:05] INFO root fetch - processPackages [lightning-module-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-module-enhanced-0.26.tar.gz tmp/lightning-module-enhanced-0.26.1.tar.gz --markdown 20240411/l/lightning-module-enhanced/0.26-0.26.1/README.md --exclude *.pyd
+[2024-04-11 09:34:05] INFO root fetch - processPackages [zalando-cli-bundle]: executing diffoscope
+[2024-04-11 09:34:05] INFO root fetch - processPackages [zalando-cli-bundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-cli-bundle-21.5.0.tar.gz tmp/zalando_cli_bundle-24.5.0.tar.gz --markdown 20240411/z/zalando-cli-bundle/21.5.0-24.5.0/README.md --exclude *.pyd
+[2024-04-11 09:34:05] INFO root fetch - processPackages [decision-optimization-client]: Downloading https://files.pythonhosted.org/packages/95/32/dc9275321d922a0e43c7ffee9c741d697644476cdff02f2327ac1e8b3604/decision_optimization_client-1.1.1.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [scrapy-util]: Downloading https://files.pythonhosted.org/packages/e0/8f/d3b7c16cd4a704131d9132855e11e16611640b8e46c4e10695b75fd2379b/scrapy-util-1.0.2.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/f0/7a/15b7b4d05668e8ade4d0d8d6f2d444e47fb4c283b8d0978808b822c7ce39/FancySchmancyTestsplit-0.1.9.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [decision-optimization-client]: executing diffoscope
+[2024-04-11 09:34:05] INFO root fetch - processPackages [decision-optimization-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decision_optimization_client-1.1.0.tar.gz tmp/decision_optimization_client-1.1.1.tar.gz --markdown 20240411/d/decision-optimization-client/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-11 09:34:05] INFO root fetch - processPackages [FancySchmancyTestsplit]: executing diffoscope
+[2024-04-11 09:34:05] INFO root fetch - processPackages [FancySchmancyTestsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FancySchmancyTestsplit-0.1.8.tar.gz tmp/FancySchmancyTestsplit-0.1.9.tar.gz --markdown 20240411/F/FancySchmancyTestsplit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 09:34:05] INFO root fetch - processPackages [scrapy-util]: executing diffoscope
+[2024-04-11 09:34:05] INFO root fetch - processPackages [scrapy-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-util-0.0.9.tar.gz tmp/scrapy-util-1.0.2.tar.gz --markdown 20240411/s/scrapy-util/0.0.9-1.0.2/README.md --exclude *.pyd
+[2024-04-11 09:34:05] INFO root fetch - processPackages [pyosv]: Downloading https://files.pythonhosted.org/packages/cd/75/82803fd1bb05e9003026185f67f0de76c76f20721198bfc0cd2f7a6caf02/pyosv-0.0.9.tar.gz
+[2024-04-11 09:34:05] INFO root fetch - processPackages [pyosv]: executing diffoscope
+[2024-04-11 09:34:05] INFO root fetch - processPackages [pyosv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosv-0.0.8.tar.gz tmp/pyosv-0.0.9.tar.gz --markdown 20240411/p/pyosv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 09:34:06] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-04-11 09:34:06] INFO root fetch - processPackages [zalando-cli-bundle]: Remove: archive file [/home/abi/fetcher/tmp/zalando-cli-bundle-21.5.0.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - processPackages [zalando-cli-bundle]: Remove: archive file [/home/abi/fetcher/tmp/zalando_cli_bundle-24.5.0.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: End processing [zalando-cli-bundle]: success
+[2024-04-11 09:34:06] INFO root fetch - processPackages [lightning-module-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/lightning-module-enhanced-0.26.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - processPackages [lightning-module-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/lightning-module-enhanced-0.26.1.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: End processing [lightning-module-enhanced]: success
+[2024-04-11 09:34:06] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.8.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.9.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: End processing [FancySchmancyTestsplit]: success
+[2024-04-11 09:34:06] INFO root fetch - processPackages [scrapy-util]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-util-0.0.9.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - processPackages [scrapy-util]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-util-1.0.2.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: End processing [scrapy-util]: success
+[2024-04-11 09:34:06] INFO root fetch - processPackages [decision-optimization-client]: Remove: archive file [/home/abi/fetcher/tmp/decision_optimization_client-1.1.0.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - processPackages [decision-optimization-client]: Remove: archive file [/home/abi/fetcher/tmp/decision_optimization_client-1.1.1.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: End processing [decision-optimization-client]: success
+[2024-04-11 09:34:06] INFO root fetch - processPackages [pyosv]: Remove: archive file [/home/abi/fetcher/tmp/pyosv-0.0.8.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - processPackages [pyosv]: Remove: archive file [/home/abi/fetcher/tmp/pyosv-0.0.9.tar.gz]
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: End processing [pyosv]: success
+[2024-04-11 09:34:06] INFO root fetch - main [MainThread]: Store serial: [22715824]

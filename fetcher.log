@@ -11303,3 +11303,23 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:52:21] INFO root fetch - processPackages [pyweatherfr]: Remove: archive file [/home/abi/fetcher/tmp/pyweatherfr-4.0.0.tar.gz]
 [2024-04-11 06:52:21] INFO root fetch - main [MainThread]: End processing [pyweatherfr]: success
 [2024-04-11 06:52:21] INFO root fetch - main [MainThread]: Store serial: [22714458]
+[2024-04-11 06:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714458]
+[2024-04-11 06:54:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 06:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prusek-spheroid
+[2024-04-11 06:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-ffmpeg
+[2024-04-11 06:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aerospace-chatbot
+[2024-04-11 06:54:30] INFO root fetch - processPackages [prusek-spheroid]: New version: [4.8] Old Version: [4.7]
+[2024-04-11 06:54:30] WARNING root fetch - processPackages [aerospace-chatbot]: Skipping, unable to determine old version
+[2024-04-11 06:54:30] INFO root fetch - main [MainThread]: End processing [aerospace-chatbot] error
+[2024-04-11 06:54:30] INFO root fetch - processPackages [python-ffmpeg]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-11 06:54:30] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/f2/c7/54e46908e92ff7b534eff70494d3e254ffba27add2c75729a0f22dd3d773/prusek_spheroid-4.7.tar.gz
+[2024-04-11 06:54:30] INFO root fetch - processPackages [python-ffmpeg]: Downloading https://files.pythonhosted.org/packages/79/bc/4d920c847ee0925b0b89cd90f27fa479f50321d3a16414a9407574f7d37a/python-ffmpeg-2.0.8.tar.gz
+[2024-04-11 06:54:31] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/32/7f/3edd9c30f8248e9741c36255bca4eb47077516e25af01feb8d3d01dc696e/prusek_spheroid-4.8.tar.gz
+[2024-04-11 06:54:31] WARNING root fetch - processPackages [python-ffmpeg]: Skipping package: exceeds size limit 14125329>=10485760
+[2024-04-11 06:54:31] INFO root fetch - main [MainThread]: End processing [python-ffmpeg] error
+[2024-04-11 06:54:31] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-11 06:54:31] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-4.7.tar.gz tmp/prusek_spheroid-4.8.tar.gz --markdown 20240411/p/prusek-spheroid/4.7-4.8/README.md --exclude *.pyd
+[2024-04-11 06:54:31] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.7.tar.gz]
+[2024-04-11 06:54:31] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.8.tar.gz]
+[2024-04-11 06:54:31] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-11 06:54:31] INFO root fetch - main [MainThread]: Store serial: [22714470]

@@ -13615,3 +13615,15 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:18:42] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.99.tar.gz]
 [2024-04-11 09:18:42] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2024-04-11 09:18:42] INFO root fetch - main [MainThread]: Store serial: [22715685]
+[2024-04-11 09:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715685]
+[2024-04-11 09:20:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 09:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Py-BOBYQA
+[2024-04-11 09:20:51] INFO root fetch - processPackages [Py-BOBYQA]: New version: [1.4.1] Old Version: [1.4]
+[2024-04-11 09:20:51] INFO root fetch - processPackages [Py-BOBYQA]: Downloading https://files.pythonhosted.org/packages/64/d4/5cdf443bf7fde99ca180d7bb4a0c1668cc1a5477634db64688c7481e7c33/Py-BOBYQA-1.4.tar.gz
+[2024-04-11 09:20:52] INFO root fetch - processPackages [Py-BOBYQA]: Downloading https://files.pythonhosted.org/packages/e1/44/5562851502c7f80f27c8da84a3563c671c9526ef4dfcff1512c1e9ad4c78/Py-BOBYQA-1.4.1.tar.gz
+[2024-04-11 09:20:52] INFO root fetch - processPackages [Py-BOBYQA]: executing diffoscope
+[2024-04-11 09:20:52] INFO root fetch - processPackages [Py-BOBYQA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Py-BOBYQA-1.4.tar.gz tmp/Py-BOBYQA-1.4.1.tar.gz --markdown 20240411/P/Py-BOBYQA/1.4-1.4.1/README.md --exclude *.pyd
+[2024-04-11 09:20:52] INFO root fetch - processPackages [Py-BOBYQA]: Remove: archive file [/home/abi/fetcher/tmp/Py-BOBYQA-1.4.tar.gz]
+[2024-04-11 09:20:52] INFO root fetch - processPackages [Py-BOBYQA]: Remove: archive file [/home/abi/fetcher/tmp/Py-BOBYQA-1.4.1.tar.gz]
+[2024-04-11 09:20:52] INFO root fetch - main [MainThread]: End processing [Py-BOBYQA]: success
+[2024-04-11 09:20:52] INFO root fetch - main [MainThread]: Store serial: [22715688]

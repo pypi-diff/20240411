@@ -8958,3 +8958,15 @@ EOFError: EOF read where object expected
 [2024-04-11 04:25:40] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240410-py3-none-win_amd64.whl.zip]
 [2024-04-11 04:25:40] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-04-11 04:25:40] INFO root fetch - main [MainThread]: Store serial: [22713346]
+[2024-04-11 04:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713346]
+[2024-04-11 04:27:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch
+[2024-04-11 04:27:50] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-11 04:27:50] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-04-11 04:27:51] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-04-11 04:27:51] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-04-11 04:27:51] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240411/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-04-11 04:27:52] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-04-11 04:27:52] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-04-11 04:27:52] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-04-11 04:27:52] INFO root fetch - main [MainThread]: Store serial: [22713353]

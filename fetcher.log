@@ -17985,3 +17985,36 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:23:16] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.6-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-04-11 11:23:16] INFO root fetch - main [MainThread]: End processing [pepeline]: success
 [2024-04-11 11:23:16] INFO root fetch - main [MainThread]: Store serial: [22717342]
+[2024-04-11 11:25:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717342]
+[2024-04-11 11:25:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 11:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: so-ml-tools
+[2024-04-11 11:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-felis
+[2024-04-11 11:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suno-py
+[2024-04-11 11:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-pex-config
+[2024-04-11 11:25:26] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-11 11:25:27] WARNING root fetch - processPackages [suno-py]: Skipping, unable to determine old version
+[2024-04-11 11:25:27] INFO root fetch - main [MainThread]: End processing [suno-py] error
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-felis]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-11 11:25:27] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/ad/31/0b6d07f42d7cbc65faef67fad1dc7fcf9169933d8b1ec0af83d3d31061de/lsst-felis-26.2024.800.tar.gz
+[2024-04-11 11:25:27] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/58/b5/29b7f46aaa2c52d8e18673b652f17dea0cc0f60e2f278307bd67945e02e2/lsst-pex-config-26.2024.800.tar.gz
+[2024-04-11 11:25:27] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-11 11:25:27] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240411/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/5b/71/252577ba2b2a9c5264c2b271dd8b9f1d294b47c89454815a32337590f647/lsst-felis-26.2024.900.tar.gz
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/3a/b0/00ae70f50a7a45b76e5b25ec673e5b103de58050d46db15665081dceab41/lsst-pex-config-26.2024.900.tar.gz
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-felis-26.2024.800.tar.gz tmp/lsst-felis-26.2024.900.tar.gz --markdown 20240411/l/lsst-felis/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2024-04-11 11:25:27] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.2024.800.tar.gz tmp/lsst-pex-config-26.2024.900.tar.gz --markdown 20240411/l/lsst-pex-config/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-11 11:25:28] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-11 11:25:28] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-11 11:25:28] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-11 11:25:28] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst-felis-26.2024.800.tar.gz]
+[2024-04-11 11:25:28] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst-felis-26.2024.900.tar.gz]
+[2024-04-11 11:25:28] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-04-11 11:25:28] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.800.tar.gz]
+[2024-04-11 11:25:28] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.900.tar.gz]
+[2024-04-11 11:25:28] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2024-04-11 11:25:28] INFO root fetch - main [MainThread]: Store serial: [22717399]

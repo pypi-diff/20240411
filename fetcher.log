@@ -19154,3 +19154,59 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:10:24] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.2.tar.gz]
 [2024-04-11 12:10:24] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
 [2024-04-11 12:10:24] INFO root fetch - main [MainThread]: Store serial: [22717936]
+[2024-04-11 12:12:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717936]
+[2024-04-11 12:12:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmsis-stream
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dip-coater
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devo-sdk
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyAibote
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lense
+[2024-04-11 12:12:33] INFO root fetch - processPackages [PyAibote]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-11 12:12:33] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240410.9.49.501422] Old Version: [20240410.19.8.820950]
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.46]
+[2024-04-11 12:12:33] INFO root fetch - processPackages [cmsis-stream]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-11 12:12:33] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/42/1d/f4ccb6fc1c73f3d2e0e48043f6f1b76bc34c01d187238008a914c776d194/PyAibote-1.3.6.tar.gz
+[2024-04-11 12:12:33] INFO root fetch - processPackages [dip-coater]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-11 12:12:33] INFO root fetch - processPackages [devo-sdk]: New version: [5.2.0] Old Version: [5.1.9]
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/0a/c5/363f1bc1804ae3cded37e37f7cbca72102b66d210370d0da5e4cc7c19f07/ign8-4.8.46.tar.gz
+[2024-04-11 12:12:33] WARNING root fetch - processPackages [lense]: Skipping, unable to determine old version
+[2024-04-11 12:12:33] INFO root fetch - main [MainThread]: End processing [lense] error
+[2024-04-11 12:12:33] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/1b/7a/e6ba3dcd6040005e9e453adc84c03e4c5b983431eb41827d35fcb3cb3eab/certora-cli-alpha-master-20240410.19.8.820950.tar.gz
+[2024-04-11 12:12:33] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14483478>=10485760
+[2024-04-11 12:12:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-11 12:12:33] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b9/28/f38218f2a95f4af219e9b95ddcc6904d9b9766d24b663b44ff4c5a206b8d/cmsis_stream-1.9.1-py3-none-any.whl
+[2024-04-11 12:12:33] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/12/8b/943168670e4c50a5c662eb848ab96de5fa33bb813f06e090934521650ee0/dip-coater-0.8.0.tar.gz
+[2024-04-11 12:12:33] INFO root fetch - processPackages [devo-sdk]: Downloading https://files.pythonhosted.org/packages/0a/46/ecf8f6874255f3d862e648165c0e066ada4c77f8947f2475296844119581/devo-sdk-5.1.9.tar.gz
+[2024-04-11 12:12:33] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 12:12:34] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/cd/92/5facd02ee81fba6964825c886c448e8e59bab0855796c53de501c547b542/PyAibote-1.3.7.tar.gz
+[2024-04-11 12:12:34] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 12:12:34] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.46.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.46-4.8.5/README.md --exclude *.pyd
+[2024-04-11 12:12:34] INFO root fetch - processPackages [PyAibote]: executing diffoscope
+[2024-04-11 12:12:34] INFO root fetch - processPackages [PyAibote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAibote-1.3.6.tar.gz tmp/PyAibote-1.3.7.tar.gz --markdown 20240411/P/PyAibote/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-04-11 12:12:34] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/b5/cb/d744ee7c2d454e3a1367da2acf13654530ff52ff3288851dfc27d61e5814/dip-coater-0.9.0.tar.gz
+[2024-04-11 12:12:34] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b2/66/0d1e34c99fc8cbcab3c6e39ea3afccb5712e15ffb480b0b617395533814b/cmsis_stream-1.9.2-py3-none-any.whl
+[2024-04-11 12:12:34] INFO root fetch - processPackages [devo-sdk]: Downloading https://files.pythonhosted.org/packages/09/d5/bf7830f0c6f9165e061b015f0f46993cf79c23f7de8c5826ad29c6781926/devo-sdk-5.2.0.tar.gz
+[2024-04-11 12:12:34] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-11 12:12:34] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.8.0.tar.gz tmp/dip-coater-0.9.0.tar.gz --markdown 20240411/d/dip-coater/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-11 12:12:34] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2024-04-11 12:12:34] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip --markdown 20240411/c/cmsis-stream/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-11 12:12:34] INFO root fetch - processPackages [devo-sdk]: executing diffoscope
+[2024-04-11 12:12:34] INFO root fetch - processPackages [devo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devo-sdk-5.1.9.tar.gz tmp/devo-sdk-5.2.0.tar.gz --markdown 20240411/d/devo-sdk/5.1.9-5.2.0/README.md --exclude *.pyd
+[2024-04-11 12:12:35] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.8.0.tar.gz]
+[2024-04-11 12:12:35] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.9.0.tar.gz]
+[2024-04-11 12:12:35] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-11 12:12:35] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.3.6.tar.gz]
+[2024-04-11 12:12:35] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.3.7.tar.gz]
+[2024-04-11 12:12:35] INFO root fetch - main [MainThread]: End processing [PyAibote]: success
+[2024-04-11 12:12:35] INFO root fetch - processPackages [devo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devo-sdk-5.1.9.tar.gz]
+[2024-04-11 12:12:35] INFO root fetch - processPackages [devo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devo-sdk-5.2.0.tar.gz]
+[2024-04-11 12:12:35] INFO root fetch - main [MainThread]: End processing [devo-sdk]: success
+[2024-04-11 12:12:35] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip]
+[2024-04-11 12:12:35] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
+[2024-04-11 12:12:35] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2024-04-11 12:12:37] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.46.tar.gz]
+[2024-04-11 12:12:37] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 12:12:37] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 12:12:37] INFO root fetch - main [MainThread]: Store serial: [22717956]

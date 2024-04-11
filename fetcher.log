@@ -3616,3 +3616,20 @@ EOFError: EOF read where object expected
 [2024-04-11 02:55:36] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-11 02:55:36] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-11 02:55:36] INFO root fetch - main [MainThread]: Store serial: [22711664]
+[2024-04-11 02:57:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711664]
+[2024-04-11 02:57:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 02:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datajunction-server
+[2024-04-11 02:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyprtg-api
+[2024-04-11 02:57:44] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-04-11 02:57:45] INFO root fetch - processPackages [pyprtg-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 02:57:45] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-04-11 02:57:45] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-04-11 02:57:45] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-04-11 02:57:45] INFO root fetch - processPackages [pyprtg-api]: Downloading https://files.pythonhosted.org/packages/7a/45/0779da29ba1456cddb83959040c727378a9590313536e974783a57a801db/pyprtg-api-0.0.8.tar.gz
+[2024-04-11 02:57:46] INFO root fetch - processPackages [pyprtg-api]: Downloading https://files.pythonhosted.org/packages/a5/53/c522fa11b05ca153616316821ab4c0ccefc7e15ca58127d2f0a0f743bc68/pyprtg-api-0.0.9.tar.gz
+[2024-04-11 02:57:46] INFO root fetch - processPackages [pyprtg-api]: executing diffoscope
+[2024-04-11 02:57:46] INFO root fetch - processPackages [pyprtg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprtg-api-0.0.8.tar.gz tmp/pyprtg-api-0.0.9.tar.gz --markdown 20240411/p/pyprtg-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 02:57:47] INFO root fetch - processPackages [pyprtg-api]: Remove: archive file [/home/abi/fetcher/tmp/pyprtg-api-0.0.8.tar.gz]
+[2024-04-11 02:57:47] INFO root fetch - processPackages [pyprtg-api]: Remove: archive file [/home/abi/fetcher/tmp/pyprtg-api-0.0.9.tar.gz]
+[2024-04-11 02:57:47] INFO root fetch - main [MainThread]: End processing [pyprtg-api]: success
+[2024-04-11 02:57:47] INFO root fetch - main [MainThread]: Store serial: [22711674]

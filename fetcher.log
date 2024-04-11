@@ -14524,3 +14524,42 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:09:02] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-11 10:09:02] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-04-11 10:09:02] INFO root fetch - main [MainThread]: Store serial: [22716121]
+[2024-04-11 10:11:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716121]
+[2024-04-11 10:11:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-field-logger
+[2024-04-11 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tornado-pubsub-client
+[2024-04-11 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdlvvv
+[2024-04-11 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkproxy
+[2024-04-11 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaml-to-cfg
+[2024-04-11 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mteb
+[2024-04-11 10:11:13] INFO root fetch - processPackages [sparkproxy]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-11 10:11:13] WARNING root fetch - processPackages [yaml-to-cfg]: Skipping, unable to determine old version
+[2024-04-11 10:11:13] INFO root fetch - main [MainThread]: End processing [yaml-to-cfg] error
+[2024-04-11 10:11:13] ERROR root fetch - processPackages [rdlvvv]: Unable to get metadata: No such project 'rdlvvv'
+[2024-04-11 10:11:13] INFO root fetch - main [MainThread]: End processing [rdlvvv] error
+[2024-04-11 10:11:13] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/f8/f1/bf5f2307ee18d52a032d22a1d9e962020f2872736c43b7f2fdda0ca15bc2/sparkproxy-0.3.1.tar.gz
+[2024-04-11 10:11:13] WARNING root fetch - processPackages [tornado-pubsub-client]: Skipping, unable to determine old version
+[2024-04-11 10:11:13] INFO root fetch - main [MainThread]: End processing [tornado-pubsub-client] error
+[2024-04-11 10:11:13] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.22] Old Version: [0.0.21]
+[2024-04-11 10:11:13] INFO root fetch - processPackages [mteb]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-11 10:11:13] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/3a/74/baa31a80dcaf97508982e07aa3641279d5c6afeaa5e12c72885c0657df49/django-field-logger-0.0.21.tar.gz
+[2024-04-11 10:11:13] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/9f/fd/66498a11f80e70f481f63d4500cde1cc2b476de9ee992b26adf8ec5c8bb5/mteb-1.6.0.tar.gz
+[2024-04-11 10:11:13] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/47/da/87500852a688bf7936d627ede67ecd683c58af31156605989912ea8925e5/sparkproxy-0.4.0.tar.gz
+[2024-04-11 10:11:13] INFO root fetch - processPackages [sparkproxy]: executing diffoscope
+[2024-04-11 10:11:13] INFO root fetch - processPackages [sparkproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkproxy-0.3.1.tar.gz tmp/sparkproxy-0.4.0.tar.gz --markdown 20240411/s/sparkproxy/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-11 10:11:13] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/2c/a5/d6f2d3514b7d419fc7d0345b8563c40f23327bba074fbf6c34b696470b94/django-field-logger-0.0.22.tar.gz
+[2024-04-11 10:11:13] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/65/78/115c0fd77156b7b572d37c054ccebb1ce98a7609067040c8482b507aa691/mteb-1.6.1.tar.gz
+[2024-04-11 10:11:13] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-11 10:11:13] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-field-logger-0.0.21.tar.gz tmp/django-field-logger-0.0.22.tar.gz --markdown 20240411/d/django-field-logger/0.0.21-0.0.22/README.md --exclude *.pyd
+[2024-04-11 10:11:13] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-11 10:11:13] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.0.tar.gz tmp/mteb-1.6.1.tar.gz --markdown 20240411/m/mteb/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-11 10:11:14] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.3.1.tar.gz]
+[2024-04-11 10:11:14] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.4.0.tar.gz]
+[2024-04-11 10:11:14] INFO root fetch - main [MainThread]: End processing [sparkproxy]: success
+[2024-04-11 10:11:14] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.21.tar.gz]
+[2024-04-11 10:11:14] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.22.tar.gz]
+[2024-04-11 10:11:14] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-11 10:11:14] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.0.tar.gz]
+[2024-04-11 10:11:14] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.1.tar.gz]
+[2024-04-11 10:11:14] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-11 10:11:14] INFO root fetch - main [MainThread]: Store serial: [22716147]

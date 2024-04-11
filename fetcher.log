@@ -13804,3 +13804,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:29:44] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.21.tar.gz]
 [2024-04-11 09:29:44] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
 [2024-04-11 09:29:44] INFO root fetch - main [MainThread]: Store serial: [22715769]
+[2024-04-11 09:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715769]
+[2024-04-11 09:31:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightning-module-enhanced
+[2024-04-11 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyPtt
+[2024-04-11 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: urnc
+[2024-04-11 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-creartramas
+[2024-04-11 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qd2-client
+[2024-04-11 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spydir
+[2024-04-11 09:31:53] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-11 09:31:53] INFO root fetch - processPackages [PyPtt]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-11 09:31:53] WARNING root fetch - processPackages [qd2-client]: Skipping, unable to determine old version
+[2024-04-11 09:31:53] INFO root fetch - main [MainThread]: End processing [qd2-client] error
+[2024-04-11 09:31:53] INFO root fetch - processPackages [urnc]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-11 09:31:53] INFO root fetch - processPackages [lightning-module-enhanced]: New version: [0.26.1] Old Version: [0.26]
+[2024-04-11 09:31:53] INFO root fetch - processPackages [spydir]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 09:31:53] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/04/95/bb21a6e6a049a2f6d7e145a3d051988062c16b0dc5b9a2853b4e4e2aac62/robotframework_creartramas-2.1.3.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/64/67/d5fdc18727c898fafdf13c3ac75d2a7eda57b6925a5dacf5d610a0a3ef50/PyPtt-1.2.3.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [urnc]: Downloading https://files.pythonhosted.org/packages/92/1a/04bf5fc0c819d81cb8a25d73c26d980592b8720273133d0dc31e636931ca/urnc-1.9.2.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [spydir]: Downloading https://files.pythonhosted.org/packages/7f/cb/01f81655ba054d90c0eb62e5ea7dd3dfc3bd3ef9956caa6e6b31cb5462c0/spydir-0.1.1.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [lightning-module-enhanced]: Downloading https://files.pythonhosted.org/packages/9a/3c/1ef76ad2e1e0d45a1c08e8876c13666203fa5ac26b2a5605b162e75adfab/lightning-module-enhanced-0.26.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/e9/55/1f056d2001b642a05730a6179b1bd0aad7ce2ecb2749dc1d545095586a43/robotframework_creartramas-2.1.4.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/4c/60/ec0368ede2f1124a2eaa49a12d4a300739f6c70991a2ca7250c605c0531f/PyPtt-1.2.4.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-04-11 09:31:53] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.1.3.tar.gz tmp/robotframework_creartramas-2.1.4.tar.gz --markdown 20240411/r/robotframework-creartramas/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-11 09:31:53] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2024-04-11 09:31:53] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPtt-1.2.3.tar.gz tmp/PyPtt-1.2.4.tar.gz --markdown 20240411/P/PyPtt/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-11 09:31:53] INFO root fetch - processPackages [spydir]: Downloading https://files.pythonhosted.org/packages/09/71/f999fa429563196db4846854a431c7c77f04845849cc073a0c389330a117/spydir-0.1.2.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [urnc]: Downloading https://files.pythonhosted.org/packages/86/c4/3f5832fb7f3e891834f655f964b8ccb3c4c2be9e45f501f091f793f1f0ff/urnc-1.9.3.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [lightning-module-enhanced]: Downloading https://files.pythonhosted.org/packages/5b/08/3c3123921cdb0e7be1f8f00d4d3152f6053cdaf97e3e607b5d136d4fef2e/lightning-module-enhanced-0.26.1.tar.gz
+[2024-04-11 09:31:53] INFO root fetch - processPackages [spydir]: executing diffoscope
+[2024-04-11 09:31:53] INFO root fetch - processPackages [spydir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spydir-0.1.1.tar.gz tmp/spydir-0.1.2.tar.gz --markdown 20240411/s/spydir/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 09:31:53] INFO root fetch - processPackages [lightning-module-enhanced]: executing diffoscope
+[2024-04-11 09:31:53] INFO root fetch - processPackages [lightning-module-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-module-enhanced-0.26.tar.gz tmp/lightning-module-enhanced-0.26.1.tar.gz --markdown 20240411/l/lightning-module-enhanced/0.26-0.26.1/README.md --exclude *.pyd
+[2024-04-11 09:31:53] INFO root fetch - processPackages [urnc]: executing diffoscope
+[2024-04-11 09:31:53] INFO root fetch - processPackages [urnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urnc-1.9.2.tar.gz tmp/urnc-1.9.3.tar.gz --markdown 20240411/u/urnc/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-11 09:31:54] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.3.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.4.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-04-11 09:31:54] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.2.3.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.2.4.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2024-04-11 09:31:54] INFO root fetch - processPackages [spydir]: Remove: archive file [/home/abi/fetcher/tmp/spydir-0.1.1.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - processPackages [spydir]: Remove: archive file [/home/abi/fetcher/tmp/spydir-0.1.2.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - main [MainThread]: End processing [spydir]: success
+[2024-04-11 09:31:54] INFO root fetch - processPackages [lightning-module-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/lightning-module-enhanced-0.26.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - processPackages [lightning-module-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/lightning-module-enhanced-0.26.1.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - main [MainThread]: End processing [lightning-module-enhanced]: success
+[2024-04-11 09:31:54] INFO root fetch - processPackages [urnc]: Remove: archive file [/home/abi/fetcher/tmp/urnc-1.9.2.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - processPackages [urnc]: Remove: archive file [/home/abi/fetcher/tmp/urnc-1.9.3.tar.gz]
+[2024-04-11 09:31:54] INFO root fetch - main [MainThread]: End processing [urnc]: success
+[2024-04-11 09:31:54] INFO root fetch - main [MainThread]: Store serial: [22715789]

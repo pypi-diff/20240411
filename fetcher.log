@@ -12290,3 +12290,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:02:21] INFO root fetch - processPackages [typed-argument-parser]: Remove: archive file [/home/abi/fetcher/tmp/typed-argument-parser-1.9.0.tar.gz]
 [2024-04-11 08:02:21] INFO root fetch - main [MainThread]: End processing [typed-argument-parser]: success
 [2024-04-11 08:02:21] INFO root fetch - main [MainThread]: Store serial: [22714859]
+[2024-04-11 08:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714859]
+[2024-04-11 08:04:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 08:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiscalsim-us
+[2024-04-11 08:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrawl
+[2024-04-11 08:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aviatrix-migration-nat
+[2024-04-11 08:04:30] INFO root fetch - processPackages [qrawl]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-11 08:04:30] INFO root fetch - processPackages [fiscalsim-us]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-11 08:04:30] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/52/d9/7d6e1e4dd7c556398ea2bad371cebe2de7cb9ebf8a08a68765156f770a9d/qrawl-0.1.3.tar.gz
+[2024-04-11 08:04:30] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/93/c8/9411c7b3b79e56043c5f9dcc919b35539b1c2cf338c8c6dc871a156c72a7/fiscalsim-us-0.2.6.tar.gz
+[2024-04-11 08:04:31] INFO root fetch - processPackages [aviatrix-migration-nat]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-11 08:04:31] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/cc/f1/a14ca83b14325616ec019386f799363fe7302899f0326acfb788cd89a756/qrawl-0.1.4.tar.gz
+[2024-04-11 08:04:31] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/cf/b2/4e16a4161bac5c42d418b42c737532990f8f3013da1a1bbb464e5e977e58/fiscalsim-us-0.2.7.tar.gz
+[2024-04-11 08:04:31] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-04-11 08:04:31] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.3.tar.gz tmp/qrawl-0.1.4.tar.gz --markdown 20240411/q/qrawl/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-11 08:04:31] INFO root fetch - processPackages [fiscalsim-us]: executing diffoscope
+[2024-04-11 08:04:31] INFO root fetch - processPackages [fiscalsim-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiscalsim-us-0.2.6.tar.gz tmp/fiscalsim-us-0.2.7.tar.gz --markdown 20240411/f/fiscalsim-us/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-11 08:04:31] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/08/44/67a2a6a0bb3a0e938a869e01dc27ef39b70a2a9fd0ed42209e8dbab0597a/aviatrix_migration_nat-0.8.0-cp39-cp39-win_amd64.whl
+[2024-04-11 08:04:31] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.3.tar.gz]
+[2024-04-11 08:04:31] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.4.tar.gz]
+[2024-04-11 08:04:31] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-04-11 08:04:31] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/91/b4/e0495dfd60f01cbcb06824ccafca51fd7f296a2647e38c650274de35ac33/aviatrix_migration_nat-0.8.1-cp310-cp310-win_amd64.whl
+[2024-04-11 08:04:33] INFO root fetch - processPackages [aviatrix-migration-nat]: executing diffoscope
+[2024-04-11 08:04:33] INFO root fetch - processPackages [aviatrix-migration-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration_nat-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration_nat-0.8.1-cp310-cp310-win_amd64.whl.zip --markdown 20240411/a/aviatrix-migration-nat/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-11 08:04:33] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-11 08:04:33] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.1-cp310-cp310-win_amd64.whl.zip]
+[2024-04-11 08:04:33] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
+[2024-04-11 08:04:49] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.2.6.tar.gz]
+[2024-04-11 08:04:49] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.2.7.tar.gz]
+[2024-04-11 08:04:49] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
+[2024-04-11 08:04:49] INFO root fetch - main [MainThread]: Store serial: [22714871]

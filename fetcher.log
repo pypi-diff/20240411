@@ -13492,3 +13492,15 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:09:55] INFO root fetch - processPackages [pyiron-continuum]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_continuum-0.0.9.tar.gz]
 [2024-04-11 09:09:55] INFO root fetch - main [MainThread]: End processing [pyiron-continuum]: success
 [2024-04-11 09:09:55] INFO root fetch - main [MainThread]: Store serial: [22715605]
+[2024-04-11 09:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715605]
+[2024-04-11 09:12:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-11 09:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers
+[2024-04-11 09:12:04] INFO root fetch - processPackages [mct-quantizers]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-11 09:12:04] INFO root fetch - processPackages [mct-quantizers]: Downloading https://files.pythonhosted.org/packages/f8/e9/d3fcd09fbb98bbe20b2aedd66cfecf37aba77b1a5ac8431aeedd809f4eea/mct-quantizers-1.4.0.tar.gz
+[2024-04-11 09:12:05] INFO root fetch - processPackages [mct-quantizers]: Downloading https://files.pythonhosted.org/packages/8a/f1/b28ae61b42fe18cf1a02b0643967bc5dc9bd64bb33d21eef2644903199db/mct-quantizers-1.5.0.tar.gz
+[2024-04-11 09:12:05] INFO root fetch - processPackages [mct-quantizers]: executing diffoscope
+[2024-04-11 09:12:05] INFO root fetch - processPackages [mct-quantizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-1.4.0.tar.gz tmp/mct-quantizers-1.5.0.tar.gz --markdown 20240411/m/mct-quantizers/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-11 09:12:06] INFO root fetch - processPackages [mct-quantizers]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-1.4.0.tar.gz]
+[2024-04-11 09:12:06] INFO root fetch - processPackages [mct-quantizers]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-1.5.0.tar.gz]
+[2024-04-11 09:12:06] INFO root fetch - main [MainThread]: End processing [mct-quantizers]: success
+[2024-04-11 09:12:06] INFO root fetch - main [MainThread]: Store serial: [22715609]

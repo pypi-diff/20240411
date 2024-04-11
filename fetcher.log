@@ -11705,3 +11705,30 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:27:07] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.6-cp312-none-win_amd64.whl.zip]
 [2024-04-11 07:27:07] INFO root fetch - main [MainThread]: End processing [anyon]: success
 [2024-04-11 07:27:07] INFO root fetch - main [MainThread]: Store serial: [22714646]
+[2024-04-11 07:29:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714646]
+[2024-04-11 07:29:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 07:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eagle-llm
+[2024-04-11 07:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fgen-example
+[2024-04-11 07:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: klvm-rs
+[2024-04-11 07:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyPrintShape
+[2024-04-11 07:29:15] INFO root fetch - processPackages [eagle-llm]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-11 07:29:16] WARNING root fetch - processPackages [pyPrintShape]: Skipping, unable to determine old version
+[2024-04-11 07:29:16] INFO root fetch - main [MainThread]: End processing [pyPrintShape] error
+[2024-04-11 07:29:16] WARNING root fetch - processPackages [fgen-example]: Skipping, unable to determine old version
+[2024-04-11 07:29:16] INFO root fetch - main [MainThread]: End processing [fgen-example] error
+[2024-04-11 07:29:16] INFO root fetch - processPackages [klvm-rs]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-11 07:29:16] INFO root fetch - processPackages [eagle-llm]: Downloading https://files.pythonhosted.org/packages/e8/57/b71bd70a346871a9d84f75ae595c88eefc80f0f448ae7e25c5d6479b847f/eagle-llm-1.1.0.tar.gz
+[2024-04-11 07:29:16] INFO root fetch - processPackages [klvm-rs]: Downloading https://files.pythonhosted.org/packages/ab/d3/ed28f1e9c4dc67c10174886b305c5567254dac7a29bff116acec40a8c3f6/klvm_rs-0.6.0.tar.gz
+[2024-04-11 07:29:16] INFO root fetch - processPackages [eagle-llm]: Downloading https://files.pythonhosted.org/packages/b3/7a/67c8d0edc4e04e59c256bfc2c3ba5e6511def1e90bc3ce5bcec3cc1b5c91/eagle-llm-1.2.0.tar.gz
+[2024-04-11 07:29:16] INFO root fetch - processPackages [eagle-llm]: executing diffoscope
+[2024-04-11 07:29:16] INFO root fetch - processPackages [eagle-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eagle-llm-1.1.0.tar.gz tmp/eagle-llm-1.2.0.tar.gz --markdown 20240411/e/eagle-llm/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-11 07:29:17] INFO root fetch - processPackages [eagle-llm]: Remove: archive file [/home/abi/fetcher/tmp/eagle-llm-1.1.0.tar.gz]
+[2024-04-11 07:29:17] INFO root fetch - processPackages [eagle-llm]: Remove: archive file [/home/abi/fetcher/tmp/eagle-llm-1.2.0.tar.gz]
+[2024-04-11 07:29:17] INFO root fetch - main [MainThread]: End processing [eagle-llm]: success
+[2024-04-11 07:29:17] INFO root fetch - processPackages [klvm-rs]: Downloading https://files.pythonhosted.org/packages/1b/94/d882a256ec7ecc8112bef325b49fecca2605aae6a996668ae754d11546f4/klvm_rs-0.6.1.tar.gz
+[2024-04-11 07:29:17] INFO root fetch - processPackages [klvm-rs]: executing diffoscope
+[2024-04-11 07:29:17] INFO root fetch - processPackages [klvm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klvm_rs-0.6.0.tar.gz tmp/klvm_rs-0.6.1.tar.gz --markdown 20240411/k/klvm-rs/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-11 07:29:21] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.6.0.tar.gz]
+[2024-04-11 07:29:21] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.6.1.tar.gz]
+[2024-04-11 07:29:21] INFO root fetch - main [MainThread]: End processing [klvm-rs]: success
+[2024-04-11 07:29:21] INFO root fetch - main [MainThread]: Store serial: [22714663]

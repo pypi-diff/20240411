@@ -8738,3 +8738,23 @@ EOFError: EOF read where object expected
 [2024-04-11 04:09:58] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip]
 [2024-04-11 04:09:58] INFO root fetch - main [MainThread]: End processing [nvflare]: success
 [2024-04-11 04:09:58] INFO root fetch - main [MainThread]: Store serial: [22713253]
+[2024-04-11 04:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713253]
+[2024-04-11 04:12:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 04:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wxauto
+[2024-04-11 04:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyff-schema
+[2024-04-11 04:12:06] INFO root fetch - processPackages [dyff-schema]: New version: [0.3.7] Old Version: [0.3.5]
+[2024-04-11 04:12:06] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/84/18/4269af449ead12523e370cee8788a54919b2c940920c133dd3fea1177a51/dyff-schema-0.3.5.tar.gz
+[2024-04-11 04:12:06] INFO root fetch - processPackages [wxauto]: New version: [3.9.8.15] Old Version: [3.3.5.1]
+[2024-04-11 04:12:07] WARNING root fetch - processPackages [wxauto]: fallback to get urls: [3.3.5.1]
+[2024-04-11 04:12:07] WARNING root fetch - processPackages [wxauto]: None
+[2024-04-11 04:12:07] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/48/d1/5f199ede61bee7b6fd7172f7272d29763f625db1f10252573c89cd9a77db/dyff-schema-0.3.7.tar.gz
+[2024-04-11 04:12:07] WARNING root fetch - processPackages [wxauto]: None
+[2024-04-11 04:12:07] WARNING root fetch - processPackages [wxauto]: unable to get url for both version [3.3.5.1]
+[2024-04-11 04:12:07] INFO root fetch - processPackages [dyff-schema]: executing diffoscope
+[2024-04-11 04:12:07] INFO root fetch - processPackages [dyff-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-schema-0.3.5.tar.gz tmp/dyff-schema-0.3.7.tar.gz --markdown 20240411/d/dyff-schema/0.3.5-0.3.7/README.md --exclude *.pyd
+[2024-04-11 04:12:07] WARNING root fetch - processPackages [wxauto]: None
+[2024-04-11 04:12:07] INFO root fetch - main [MainThread]: End processing [wxauto] error
+[2024-04-11 04:12:07] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.3.5.tar.gz]
+[2024-04-11 04:12:07] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.3.7.tar.gz]
+[2024-04-11 04:12:07] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
+[2024-04-11 04:12:07] INFO root fetch - main [MainThread]: Store serial: [22713260]

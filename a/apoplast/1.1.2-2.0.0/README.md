@@ -1,0 +1,674 @@
+# Comparing `tmp/apoplast-1.1.2.tar.gz` & `tmp/apoplast-2.0.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "apoplast-1.1.2.tar", last modified: Tue Apr  9 20:17:14 2024, max compression
++gzip compressed data, was "apoplast-2.0.0.tar", max compression
+```
+
+## Comparing `apoplast-1.1.2.tar` & `apoplast-2.0.0.tar`
+
+### file list
+
+```diff
+@@ -1,604 +1,4 @@
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/
+--rw-r--r--   0 root         (0) root         (0)     1045 2024-04-09 20:17:14.238623 apoplast-1.1.2/PKG-INFO
+--rwxrwxrwx   0 root         (0) root         (0)      970 2024-04-09 20:16:05.000000 apoplast-1.1.2/pyproject.toml
+--rwxrwxrwx   0 root         (0) root         (0)      550 2024-03-30 21:10:34.000000 apoplast-1.1.2/readme.md
+--rw-r--r--   0 root         (0) root         (0)       38 2024-04-09 20:17:14.238623 apoplast-1.1.2/setup.cfg
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.070625 apoplast-1.1.2/venues/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.070625 apoplast-1.1.2/venues/stages/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.094624 apoplast-1.1.2/venues/stages/apoplast/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.094624 apoplast-1.1.2/venues/stages/apoplast/-license/
+--rwxrwxrwx   0 root         (0) root         (0)      427 2024-02-04 21:45:08.000000 apoplast-1.1.2/venues/stages/apoplast/-license/license.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.098624 apoplast-1.1.2/venues/stages/apoplast/-license/list/
+--rwxrwxrwx   0 root         (0) root         (0)    37279 2023-12-01 20:51:04.000000 apoplast-1.1.2/venues/stages/apoplast/-license/list/gpl-3.0-standalone.html
+--rwxrwxrwx   0 root         (0) root         (0)      112 2024-02-04 21:44:43.000000 apoplast-1.1.2/venues/stages/apoplast/-license/list/vegan.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)       78 2024-04-08 03:43:18.000000 apoplast-1.1.2/venues/stages/apoplast/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.098624 apoplast-1.1.2/venues/stages/apoplast/__itinerary/
+--rwxrwxrwx   0 root         (0) root         (0)      595 2024-04-08 03:40:23.000000 apoplast-1.1.2/venues/stages/apoplast/__itinerary/apoplast.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.098624 apoplast-1.1.2/venues/stages/apoplast/__itinerary/book/
+--rwxrwxrwx   0 root         (0) root         (0)      405 2024-04-08 03:26:57.000000 apoplast-1.1.2/venues/stages/apoplast/__itinerary/book/Vitamin B.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)       63 2024-04-08 03:27:04.000000 apoplast-1.1.2/venues/stages/apoplast/__itinerary/book/Vitamin K.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.098624 apoplast-1.1.2/venues/stages/apoplast/__status/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.098624 apoplast-1.1.2/venues/stages/apoplast/__status/db/
+--rwxrwxrwx   0 root         (0) root         (0)  6494696 2024-04-09 20:16:48.000000 apoplast-1.1.2/venues/stages/apoplast/__status/db/records.json
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.106624 apoplast-1.1.2/venues/stages/apoplast/__status/db_API/
+--rwxrwxrwx   0 root         (0) root         (0)    30367 2024-02-04 22:01:04.000000 apoplast-1.1.2/venues/stages/apoplast/__status/db_API/records.json
+--rwxrwxrwx   0 root         (0) root         (0)     1265 2024-04-09 20:03:54.000000 apoplast-1.1.2/venues/stages/apoplast/__status/status.proc.py
+--rwxrwxrwx   0 root         (0) root         (0)     1209 2024-03-30 21:08:29.000000 apoplast-1.1.2/venues/stages/apoplast/__status/status_API.proc.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/_ellipses/
+--rwxrwxrwx   0 root         (0) root         (0)      424 2024-03-30 22:53:59.000000 apoplast-1.1.2/venues/stages/apoplast/_ellipses/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.070625 apoplast-1.1.2/venues/stages/apoplast/_interfaces/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/_interfaces/clique/
+--rwxrwxrwx   0 root         (0) root         (0)      394 2024-04-09 15:54:03.000000 apoplast-1.1.2/venues/stages/apoplast/_interfaces/clique/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/_interfaces/clique/group/
+--rwxrwxrwx   0 root         (0) root         (0)      297 2024-04-08 03:41:14.000000 apoplast-1.1.2/venues/stages/apoplast/_interfaces/clique/group/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/_interfaces/sanic/
+--rwxrwxrwx   0 root         (0) root         (0)     1161 2024-04-08 04:51:52.000000 apoplast-1.1.2/venues/stages/apoplast/_interfaces/sanic/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)        2 2024-04-08 04:37:31.000000 apoplast-1.1.2/venues/stages/apoplast/_interfaces/sanic/off.py
+--rwxrwxrwx   0 root         (0) root         (0)      500 2024-04-08 04:45:34.000000 apoplast-1.1.2/venues/stages/apoplast/_interfaces/sanic/on.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/_variables/
+--rwxrwxrwx   0 root         (0) root         (0)     1238 2024-04-09 16:42:39.000000 apoplast-1.1.2/venues/stages/apoplast/_variables/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/clouds/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/clouds/affiliates_Amazon/
+--rwxrwxrwx   0 root         (0) root         (0)      118 2024-02-04 18:06:33.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/affiliates_Amazon/affiliates.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      111 2024-03-31 01:44:52.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/clouds.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.110624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/
+--rwxrwxrwx   0 root         (0) root         (0)     1036 2024-03-31 22:06:11.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.114624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/assertions/
+--rwxrwxrwx   0 root         (0) root         (0)      429 2023-10-29 21:44:17.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/assertions/branded.py
+--rwxrwxrwx   0 root         (0) root         (0)      264 2023-11-17 17:51:13.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/assertions/foundational.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.114624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/status/
+--rwxrwxrwx   0 root         (0) root         (0)      419 2023-11-17 00:19:37.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/status/API_status_branded_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      465 2023-11-17 00:19:37.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/one/status/API_status_foundational_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      370 2023-11-16 23:17:45.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/deliveries/source.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.114624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/
+--rwxrwxrwx   0 root         (0) root         (0)     1009 2023-11-22 01:31:31.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.118624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/
+--rwxrwxrwx   0 root         (0) root         (0)    37079 2023-12-09 20:38:41.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/Gardein_f'sh_2663758.JSON
+--rwxrwxrwx   0 root         (0) root         (0)    37079 2023-11-22 01:40:03.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/Gardein_f'sh_2664238.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     7242 2023-10-19 22:27:22.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/beet_juice_2412474.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     8522 2023-10-12 21:13:07.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/beet_juice_2642759.JSON
+--rwxrwxrwx   0 root         (0) root         (0)    33964 2023-11-22 01:38:38.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/impossible_beef_2664238.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.122624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/problems/
+--rwxrwxrwx   0 root         (0) root         (0)    17926 2023-09-25 16:28:17.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/problems/impossible_2468423.JSON
+--rwxrwxrwx   0 root         (0) root         (0)      104 2023-11-26 02:04:47.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/problems/problems.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)    10678 2023-11-22 01:32:41.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/vegan_pizza_2672996.JSON
+--rwxrwxrwx   0 root         (0) root         (0)    10670 2023-10-24 03:17:57.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/branded/walnuts_1882785.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.122624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/foundational/
+--rwxrwxrwx   0 root         (0) root         (0)   189146 2023-10-12 22:00:16.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/foundational/2346404_sweet_potatoes.JSON
+--rwxrwxrwx   0 root         (0) root         (0)      255 2023-11-17 18:04:07.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/mergers.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)       88 2023-11-22 01:27:20.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/priorities.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      457 2023-12-09 23:06:15.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/examples/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      614 2023-12-15 19:53:16.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/food.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.074625 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.126624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/foodNutrient/
+--rwxrwxrwx   0 root         (0) root         (0)       28 2023-11-22 04:54:08.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/foodNutrient/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.126624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/labelNutrient/
+--rwxrwxrwx   0 root         (0) root         (0)       28 2023-11-22 02:45:04.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/labelNutrient/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.126624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/
+--rwxrwxrwx   0 root         (0) root         (0)     1783 2023-11-23 18:42:09.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      583 2023-11-22 00:01:06.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/assertions.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.130624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/interpret/
+--rwxrwxrwx   0 root         (0) root         (0)     4126 2023-11-22 20:58:41.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/interpret/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1229 2023-11-22 20:47:39.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/interpret/status_mass_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      877 2023-11-22 20:23:41.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/interpret/status_volume_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.130624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/label_splitter/
+--rwxrwxrwx   0 root         (0) root         (0)      415 2023-11-22 20:49:55.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/label_splitter/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1374 2023-11-22 20:23:29.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/interpret/packageWeight/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.130624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/
+--rwxrwxrwx   0 root         (0) root         (0)     5029 2024-01-08 21:02:44.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.130624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/_status/
+--rwxrwxrwx   0 root         (0) root         (0)     2606 2024-02-04 20:24:03.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/_status/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1610 2023-12-09 20:39:39.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/_status/status_2.py
+--rwxrwxrwx   0 root         (0) root         (0)     1236 2023-12-17 01:49:13.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/_status/status_2412474.py
+--rwxrwxrwx   0 root         (0) root         (0)     1078 2023-12-17 00:42:09.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/_status/status_3.py
+--rwxrwxrwx   0 root         (0) root         (0)      812 2023-12-09 20:39:39.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/_status/status_loop_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.130624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/cautionary_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)     3302 2023-12-15 23:15:41.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/cautionary_ingredients/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.130624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/energy/
+--rwxrwxrwx   0 root         (0) root         (0)        4 2023-11-26 00:02:13.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/energy/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.130624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/essential_nutrients/
+--rwxrwxrwx   0 root         (0) root         (0)     3116 2023-12-17 00:12:42.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/essential_nutrients/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.134624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/form/
+--rwxrwxrwx   0 root         (0) root         (0)     4031 2023-11-26 01:50:19.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/form/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1231 2024-03-31 22:06:29.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/form/status_mass_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1159 2023-11-26 00:30:32.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/form/status_volume_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.134624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/
+--rwxrwxrwx   0 root         (0) root         (0)     1427 2023-11-27 04:58:37.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.134624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/_status/
+--rwxrwxrwx   0 root         (0) root         (0)     1676 2023-11-26 01:00:29.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/_status/status_IU_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1875 2024-03-31 22:07:48.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/_status/status_energy_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1579 2023-11-26 01:00:16.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/_status/status_mass_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.134624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/
+--rwxrwxrwx   0 root         (0) root         (0)     2077 2023-11-26 01:09:26.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.134624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/biological_activity/
+--rwxrwxrwx   0 root         (0) root         (0)     1224 2023-11-26 01:10:07.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/biological_activity/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.134624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/energy/
+--rwxrwxrwx   0 root         (0) root         (0)     1494 2023-11-26 23:54:17.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/energy/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.138624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/mass/
+--rwxrwxrwx   0 root         (0) root         (0)     1389 2024-03-29 23:33:34.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/mass/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.138624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/per_package/
+--rwxrwxrwx   0 root         (0) root         (0)      622 2023-11-26 02:01:26.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/per_package/food_nutrient.py
+--rwxrwxrwx   0 root         (0) root         (0)      468 2023-11-22 04:50:10.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/amount/per_package/label_nutrient.py
+--rwxrwxrwx   0 root         (0) root         (0)      503 2023-11-26 00:52:57.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/ingredient.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      706 2023-11-22 20:45:42.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredient/ingredient_prototype_1.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.138624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/
+--rwxrwxrwx   0 root         (0) root         (0)      485 2023-11-26 01:53:47.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.138624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/_status/
+--rwxrwxrwx   0 root         (0) root         (0)     2092 2023-11-24 04:45:08.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/_status/status_mass_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      687 2023-11-26 00:51:56.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/_status/status_volume_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1058 2023-11-26 00:49:48.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/example.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.138624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/for_each/
+--rwxrwxrwx   0 root         (0) root         (0)      863 2023-11-23 23:49:12.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/for_each/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.138624 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/seek/
+--rwxrwxrwx   0 root         (0) root         (0)      575 2023-11-23 23:46:06.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/seek/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1019 2023-11-23 23:47:00.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/food_USDA/nature/measured_ingredients_list/seek/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/goodness_certifications/
+--rwxrwxrwx   0 root         (0) root         (0)     1791 2024-03-31 18:10:18.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/goodness_certifications/certifications.py
+--rwxrwxrwx   0 root         (0) root         (0)      641 2024-03-31 20:50:04.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/goodness_certifications/vegan.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/
+--rwxrwxrwx   0 root         (0) root         (0)     1046 2024-03-31 02:07:55.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/NIH.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/deliveries/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/deliveries/one/
+--rwxrwxrwx   0 root         (0) root         (0)     1137 2024-03-31 22:06:43.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/deliveries/one/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1087 2023-10-25 01:29:58.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/deliveries/one/assertions.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/deliveries/one/status/
+--rwxrwxrwx   0 root         (0) root         (0)      392 2023-11-17 00:20:01.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/deliveries/one/status/API_status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      316 2023-10-25 01:28:37.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/deliveries/source.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/
+--rwxrwxrwx   0 root         (0) root         (0)      848 2023-11-27 22:36:33.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/coated tablets/
+--rwxrwxrwx   0 root         (0) root         (0)    44597 2023-10-13 17:10:19.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/coated tablets/multivitamin_276336.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/other/
+--rwxrwxrwx   0 root         (0) root         (0)    22180 2023-10-25 17:22:33.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/other/chia_seeds_214893.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.142624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/powder/
+--rwxrwxrwx   0 root         (0) root         (0)     6430 2023-10-13 17:09:44.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/powder/mane_270619.JSON
+--rwxrwxrwx   0 root         (0) root         (0)    72594 2023-10-25 01:46:01.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/powder/nutritional_shake_220884.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.146624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/powder packets/
+--rwxrwxrwx   0 root         (0) root         (0)    57378 2023-10-13 17:05:59.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/powder packets/multivitamin_246811.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.146624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/tablets/
+--rwxrwxrwx   0 root         (0) root         (0)    22710 2023-10-13 17:08:42.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/tablets/calcium_261967.JSON
+--rwxrwxrwx   0 root         (0) root         (0)    43725 2023-10-13 17:08:08.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/tablets/multivitamin_249664.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.146624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/vegan_capsules/
+--rwxrwxrwx   0 root         (0) root         (0)     7107 2023-10-13 17:07:29.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/examples/vegan_capsules/probiotics_248267.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.078625 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.146624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/ingredientRows/
+--rwxrwxrwx   0 root         (0) root         (0)       98 2023-11-27 03:46:15.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/ingredientRows/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/ingredientRows/for_each/
+--rwxrwxrwx   0 root         (0) root         (0)     1152 2023-11-27 04:24:46.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/ingredientRows/for_each/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      923 2023-11-27 04:25:24.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/ingredientRows/for_each/status_powder_packets_246811.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/servingSizeUnit/
+--rwxrwxrwx   0 root         (0) root         (0)       56 2023-11-27 04:49:39.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/interpret/servingSizeUnit/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/
+--rwxrwxrwx   0 root         (0) root         (0)     4087 2024-03-31 22:07:01.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.078625 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/_loop/
+--rwxrwxrwx   0 root         (0) root         (0)      730 2023-11-27 22:52:02.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/_loop/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/coated_tablets/
+--rwxrwxrwx   0 root         (0) root         (0)     1580 2024-03-11 02:00:19.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/coated_tablets/status_multivitamin_276336.py
+--rwxrwxrwx   0 root         (0) root         (0)   136857 2024-04-09 20:16:48.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/coated_tablets/status_multivitamin_276336_nature.JSON
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/other/
+--rwxrwxrwx   0 root         (0) root         (0)   100726 2024-04-09 20:16:48.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/other/chia_seeds_214893_nature.JSON
+--rwxrwxrwx   0 root         (0) root         (0)      762 2024-03-11 02:02:48.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/other/status_chia_seeds_214893.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/powder/
+--rwxrwxrwx   0 root         (0) root         (0)    28773 2024-04-09 20:16:47.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/powder/mane_270619_nature.JSON
+--rwxrwxrwx   0 root         (0) root         (0)      748 2023-12-19 18:33:07.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/_status/powder/status_mane_270619.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.150624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/cautionary_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)     2753 2023-12-15 23:31:38.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/cautionary_ingredients/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.154624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/essential_nutrients/
+--rwxrwxrwx   0 root         (0) root         (0)     2583 2024-03-30 21:02:16.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/essential_nutrients/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      832 2023-11-27 20:26:53.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/essential_nutrients/essential_nutrients.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      281 2023-11-27 20:27:05.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/essential_nutrients/essential_nutrients_priorities.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.154624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/
+--rwxrwxrwx   0 root         (0) root         (0)      323 2023-11-27 04:41:57.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.154624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/amount/
+--rwxrwxrwx   0 root         (0) root         (0)      676 2023-11-27 23:18:44.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/amount/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      510 2023-11-22 19:45:00.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/amount/status_other_214893.py
+--rwxrwxrwx   0 root         (0) root         (0)      512 2023-11-25 23:13:17.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/form.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.078625 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/serving_size/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.154624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/serving_size/amount/
+--rwxrwxrwx   0 root         (0) root         (0)     3759 2023-11-27 23:36:21.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/serving_size/amount/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)        0 2023-11-27 22:52:26.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/serving_size/amount/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1841 2024-04-09 20:04:26.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/serving_size/amount/status_246811.py
+--rwxrwxrwx   0 root         (0) root         (0)     1711 2023-11-27 23:47:05.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/serving_size/amount/status_276336.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.158624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/
+--rwxrwxrwx   0 root         (0) root         (0)     3210 2023-11-27 23:13:13.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      983 2023-11-27 23:17:35.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/status_coated_tablet_276336.py
+--rwxrwxrwx   0 root         (0) root         (0)      814 2023-11-22 18:01:32.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/status_gram_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      818 2023-11-22 19:42:51.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/status_powder_220884.py
+--rwxrwxrwx   0 root         (0) root         (0)      903 2023-11-22 19:46:12.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/status_powder_270619.py
+--rwxrwxrwx   0 root         (0) root         (0)     1333 2023-11-22 20:15:00.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/status_powder_packets_246811.py
+--rwxrwxrwx   0 root         (0) root         (0)      701 2023-11-22 20:21:05.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/status_tablet_261967.py
+--rwxrwxrwx   0 root         (0) root         (0)      725 2023-11-22 19:30:39.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/form/unit/status_vegan_capsule_248267.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.158624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/
+--rwxrwxrwx   0 root         (0) root         (0)     4631 2024-03-11 02:07:04.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.158624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/_status/
+--rwxrwxrwx   0 root         (0) root         (0)     1687 2024-03-11 02:13:24.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/_status/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.078625 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/amount--/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.158624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/amount--/mass/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2023-11-27 05:04:38.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/amount--/mass/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1514 2024-03-11 01:32:01.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredient/measured_ingredient.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.158624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)     1656 2024-03-30 21:01:47.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.158624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/_status/
+--rwxrwxrwx   0 root         (0) root         (0)      826 2024-03-11 02:03:57.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/_status/status_chia_seeds_214893.py
+--rwxrwxrwx   0 root         (0) root         (0)      561 2023-11-27 05:48:16.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/measured_ingredients.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.158624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/seek/
+--rwxrwxrwx   0 root         (0) root         (0)     1116 2023-11-27 05:48:52.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/seek/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      657 2023-11-27 05:50:29.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/seek/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/seek_name/
+--rwxrwxrwx   0 root         (0) root         (0)      511 2023-11-27 18:44:30.000000 apoplast-1.1.2/venues/stages/apoplast/clouds/supp_NIH/nature/measured_ingredients/seek_name/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/
+--rwxrwxrwx   0 root         (0) root         (0)      233 2024-04-09 15:54:11.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/clique.py
+--rwxrwxrwx   0 root         (0) root         (0)       96 2024-04-08 03:49:12.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/data_nodes.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/
+--rwxrwxrwx   0 root         (0) root         (0)      554 2024-04-09 16:42:34.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/connect.py
+--rwxrwxrwx   0 root         (0) root         (0)      632 2024-04-08 04:23:34.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/off.py
+--rwxrwxrwx   0 root         (0) root         (0)     2117 2024-04-09 20:12:27.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/on.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/saves/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2024-04-08 04:30:53.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/saves/dump.py
+--rwxrwxrwx   0 root         (0) root         (0)        0 2024-04-08 04:30:49.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/saves/export.py
+--rwxrwxrwx   0 root         (0) root         (0)     1701 2024-04-09 19:46:45.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/DB/status.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/__itinerary/
+--rwxrwxrwx   0 root         (0) root         (0)      454 2024-03-31 01:44:39.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/__itinerary/itinerary.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/exports/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/exports/cautionary_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)      118 2024-03-31 03:53:00.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/exports/cautionary_ingredients/cautionary_ingredients.1.json
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/exports/essential_nutrients/
+--rwxrwxrwx   0 root         (0) root         (0)     5140 2024-03-31 03:54:30.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/exports/essential_nutrients/essential_nutrients.1.json
+--rwxrwxrwx   0 root         (0) root         (0)      481 2024-03-31 03:53:37.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/exports/exports.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)       35 2024-04-09 20:14:48.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/_saves/save.py
+--rwxrwxrwx   0 root         (0) root         (0)     1104 2024-04-09 19:46:23.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/clique.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.162624 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.166623 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/_land/
+--rwxrwxrwx   0 root         (0) root         (0)      796 2024-03-31 03:43:31.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/_land/insert_document.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.166623 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/cautionary_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)      170 2024-04-08 03:47:20.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/cautionary_ingredients/cautionary_ingredients.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.166623 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/cautionary_ingredients/collection/
+--rwxrwxrwx   0 root         (0) root         (0)        2 2024-03-31 03:51:33.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/cautionary_ingredients/collection/export.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.166623 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/cautionary_ingredients/document/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2024-04-08 03:46:10.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/cautionary_ingredients/document/insert.py
+--rwxrwxrwx   0 root         (0) root         (0)       27 2024-04-08 03:47:50.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/collections.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.166623 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/essential_nutrients/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2024-03-31 03:51:29.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/collections/essential_nutrients/export.py
+--rwxrwxrwx   0 root         (0) root         (0)     1523 2024-04-08 03:56:03.000000 apoplast-1.1.2/venues/stages/apoplast/data_nodes/ingredients/ingredients.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)       14 2024-03-31 22:10:20.000000 apoplast-1.1.2/venues/stages/apoplast/emojis.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.166623 apoplast-1.1.2/venues/stages/apoplast/insure/
+--rwxrwxrwx   0 root         (0) root         (0)     1085 2023-11-27 23:25:39.000000 apoplast-1.1.2/venues/stages/apoplast/insure/equalities.py
+--rwxrwxrwx   0 root         (0) root         (0)      234 2023-11-22 18:56:47.000000 apoplast-1.1.2/venues/stages/apoplast/insure/equality.py
+--rwxrwxrwx   0 root         (0) root         (0)      729 2023-11-27 01:34:09.000000 apoplast-1.1.2/venues/stages/apoplast/insure/override_print.py
+--rwxrwxrwx   0 root         (0) root         (0)      374 2023-11-22 19:22:12.000000 apoplast-1.1.2/venues/stages/apoplast/insure/status_equalitites_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.082625 apoplast-1.1.2/venues/stages/apoplast/measures/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.170623 apoplast-1.1.2/venues/stages/apoplast/measures/_interpret/
+--rwxrwxrwx   0 root         (0) root         (0)       61 2023-10-24 19:09:48.000000 apoplast-1.1.2/venues/stages/apoplast/measures/_interpret/interpret.r.html
+--rwxrwxrwx   0 root         (0) root         (0)      670 2023-11-22 03:00:29.000000 apoplast-1.1.2/venues/stages/apoplast/measures/_interpret/status_unit_kind.py
+--rwxrwxrwx   0 root         (0) root         (0)     1678 2023-11-27 23:51:26.000000 apoplast-1.1.2/venues/stages/apoplast/measures/_interpret/unit_kind.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.170623 apoplast-1.1.2/venues/stages/apoplast/measures/biological_activity/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2023-11-22 02:29:15.000000 apoplast-1.1.2/venues/stages/apoplast/measures/biological_activity/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.170623 apoplast-1.1.2/venues/stages/apoplast/measures/electric_current/
+--rwxrwxrwx   0 root         (0) root         (0)       59 2024-02-26 21:23:18.000000 apoplast-1.1.2/venues/stages/apoplast/measures/electric_current/electric_current.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.170623 apoplast-1.1.2/venues/stages/apoplast/measures/energy/
+--rwxrwxrwx   0 root         (0) root         (0)     1142 2023-11-18 02:03:26.000000 apoplast-1.1.2/venues/stages/apoplast/measures/energy/energy.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.170623 apoplast-1.1.2/venues/stages/apoplast/measures/energy/swap/
+--rwxrwxrwx   0 root         (0) root         (0)     1174 2023-11-27 05:11:29.000000 apoplast-1.1.2/venues/stages/apoplast/measures/energy/swap/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      386 2023-11-22 03:06:00.000000 apoplast-1.1.2/venues/stages/apoplast/measures/energy/swap/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.170623 apoplast-1.1.2/venues/stages/apoplast/measures/length/
+--rwxrwxrwx   0 root         (0) root         (0)       71 2023-11-18 02:08:27.000000 apoplast-1.1.2/venues/stages/apoplast/measures/length/length.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.174623 apoplast-1.1.2/venues/stages/apoplast/measures/mass/
+--rwxrwxrwx   0 root         (0) root         (0)       95 2023-09-10 01:33:12.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass/e_note.py
+--rwxrwxrwx   0 root         (0) root         (0)       12 2023-10-24 23:00:23.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass/mass.r.html
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.174623 apoplast-1.1.2/venues/stages/apoplast/measures/mass/swap/
+--rwxrwxrwx   0 root         (0) root         (0)     2329 2023-11-27 23:53:01.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass/swap/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1153 2023-11-21 20:24:21.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass/swap/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     2419 2023-10-25 22:32:32.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass/system international.r.html
+--rwxrwxrwx   0 root         (0) root         (0)      768 2023-10-24 19:13:36.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass/us customary.r.html
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.174623 apoplast-1.1.2/venues/stages/apoplast/measures/mass_equivalents/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.174623 apoplast-1.1.2/venues/stages/apoplast/measures/mass_equivalents/is_an_equivalent/
+--rwxrwxrwx   0 root         (0) root         (0)      523 2023-11-18 02:19:07.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass_equivalents/is_an_equivalent/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      342 2023-11-18 02:17:02.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass_equivalents/is_an_equivalent/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      861 2023-11-18 02:32:14.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass_equivalents/jargon.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     2242 2023-12-09 18:56:13.000000 apoplast-1.1.2/venues/stages/apoplast/measures/mass_equivalents/mass equivalents.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.082625 apoplast-1.1.2/venues/stages/apoplast/measures/number/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.082625 apoplast-1.1.2/venues/stages/apoplast/measures/number/decimal/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.174623 apoplast-1.1.2/venues/stages/apoplast/measures/number/decimal/reduce/
+--rwxrwxrwx   0 root         (0) root         (0)     2431 2024-02-26 20:25:18.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/decimal/reduce/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1428 2023-11-26 02:08:37.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/decimal/reduce/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      901 2023-11-21 19:30:34.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/decimal/reduce/status_2.py
+--rwxrwxrwx   0 root         (0) root         (0)     1115 2023-11-21 19:30:34.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/decimal/reduce/status_3.py
+--rwxrwxrwx   0 root         (0) root         (0)      470 2023-11-26 02:09:05.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/decimal/reduce/status_sci_note_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.174623 apoplast-1.1.2/venues/stages/apoplast/measures/number/fraction_point/
+--rwxrwxrwx   0 root         (0) root         (0)      170 2023-12-10 03:06:16.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/fraction_point/fraction_point.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.174623 apoplast-1.1.2/venues/stages/apoplast/measures/number/integer/
+--rwxrwxrwx   0 root         (0) root         (0)      560 2023-11-18 02:07:34.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/integer/status_string_is_integer.py
+--rwxrwxrwx   0 root         (0) root         (0)      368 2023-11-18 02:05:23.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/integer/string_is_integer.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.178623 apoplast-1.1.2/venues/stages/apoplast/measures/number/percentage/
+--rwxrwxrwx   0 root         (0) root         (0)      951 2023-11-21 19:30:01.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/percentage/from_fraction.py
+--rwxrwxrwx   0 root         (0) root         (0)      553 2023-11-18 02:34:50.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/percentage/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.178623 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note/
+--rwxrwxrwx   0 root         (0) root         (0)     2211 2024-02-26 21:02:23.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.178623 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note/_status/
+--rwxrwxrwx   0 root         (0) root         (0)     3224 2024-02-26 21:13:28.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note/_status/status_multiples_of_3_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      612 2024-02-26 21:07:29.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note/sci_note.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      644 2024-02-26 21:07:36.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note/sci_note_possibilities.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     1342 2024-02-26 21:09:10.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note/sci_note_thoughts.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.178623 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note_2/
+--rwxrwxrwx   0 root         (0) root         (0)      363 2024-03-29 23:32:14.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note_2/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      936 2024-02-26 21:51:34.000000 apoplast-1.1.2/venues/stages/apoplast/measures/number/sci_note_2/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.178623 apoplast-1.1.2/venues/stages/apoplast/measures/temperature/
+--rwxrwxrwx   0 root         (0) root         (0)       58 2023-10-24 22:59:09.000000 apoplast-1.1.2/venues/stages/apoplast/measures/temperature/temperature.r.html
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.182623 apoplast-1.1.2/venues/stages/apoplast/measures/volume/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.182623 apoplast-1.1.2/venues/stages/apoplast/measures/volume/swap/
+--rwxrwxrwx   0 root         (0) root         (0)     2205 2023-11-18 04:45:15.000000 apoplast-1.1.2/venues/stages/apoplast/measures/volume/swap/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1666 2023-11-18 04:42:26.000000 apoplast-1.1.2/venues/stages/apoplast/measures/volume/swap/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      510 2023-10-19 17:30:50.000000 apoplast-1.1.2/venues/stages/apoplast/measures/volume/volume.html
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.182623 apoplast-1.1.2/venues/stages/apoplast/measures/weight/
+--rwxrwxrwx   0 root         (0) root         (0)      911 2023-11-18 02:37:48.000000 apoplast-1.1.2/venues/stages/apoplast/measures/weight/weight.r.html
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.182623 apoplast-1.1.2/venues/stages/apoplast/proposals/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.182623 apoplast-1.1.2/venues/stages/apoplast/proposals/humans/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2023-12-16 03:24:46.000000 apoplast-1.1.2/venues/stages/apoplast/proposals/humans/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.182623 apoplast-1.1.2/venues/stages/apoplast/proposals/humans/_journal/
+--rwxrwxrwx   0 root         (0) root         (0)      364 2023-11-18 01:10:16.000000 apoplast-1.1.2/venues/stages/apoplast/proposals/humans/_journal/vitamin e.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      219 2023-11-18 02:14:35.000000 apoplast-1.1.2/venues/stages/apoplast/proposals/humans/people.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      207 2023-12-16 03:26:47.000000 apoplast-1.1.2/venues/stages/apoplast/proposals/proposals structure.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      958 2024-01-19 20:01:27.000000 apoplast-1.1.2/venues/stages/apoplast/proposals/proposals.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      338 2024-04-08 03:36:01.000000 apoplast-1.1.2/venues/stages/apoplast/room.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.186623 apoplast-1.1.2/venues/stages/apoplast/shows/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.186623 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/
+--rwxrwxrwx   0 root         (0) root         (0)      224 2023-11-17 23:54:21.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/FDA.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.186623 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/
+--rwxrwxrwx   0 root         (0) root         (0)      421 2023-11-22 20:41:38.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/journal.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.190623 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2023-11-22 06:06:19.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/calcium.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.190623 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/lipids/
+--rwxrwxrwx   0 root         (0) root         (0)      216 2023-11-24 01:35:08.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/lipids/lipids.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.190623 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/protein/
+--rwxrwxrwx   0 root         (0) root         (0)       11 2023-11-22 06:06:47.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/protein/protein.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     1351 2023-11-18 00:49:44.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/vitamin a.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      807 2023-11-18 00:12:47.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/vitamin b.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)       93 2023-11-24 01:36:24.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/vitamin c.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     1298 2023-11-17 23:45:28.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/vitamin d.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      149 2023-11-18 01:08:23.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/_journal/structures/vitamin e.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.190623 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/channel/
+--rwxrwxrwx   0 root         (0) root         (0)      219 2023-11-16 23:54:05.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/channel/river.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      543 2024-02-04 19:20:12.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/forward channel.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      935 2023-11-24 02:38:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/forward_channel/structures.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.190623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.194623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.086624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.194623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/cautions/
+--rwxrwxrwx   0 root         (0) root         (0)      102 2023-12-15 18:50:56.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/cautions/cautions.JSON
+--rwxrwxrwx   0 root         (0) root         (0)       35 2023-12-16 23:46:18.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/cautions/cautions.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.194623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/essentials/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.194623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/essentials/archive/
+--rwxrwxrwx   0 root         (0) root         (0)     3706 2023-11-25 18:53:45.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/essentials/archive/1.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     3955 2023-11-27 20:39:58.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/essentials/archive/2.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     3864 2023-12-15 19:16:15.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/_bases/essentials/essentials.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     1643 2023-12-15 20:42:05.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/access.py
+--rwxrwxrwx   0 root         (0) root         (0)      598 2023-12-15 20:11:06.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/path.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.086624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.194623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/list/
+--rwxrwxrwx   0 root         (0) root         (0)      957 2024-03-11 03:50:37.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/list/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      425 2023-12-15 20:37:53.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/list/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.194623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/seek/
+--rwxrwxrwx   0 root         (0) root         (0)     1040 2024-03-11 03:59:22.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/seek/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1127 2024-03-11 03:56:08.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/seek/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.194623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/seek_next_region/
+--rwxrwxrwx   0 root         (0) root         (0)      521 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/seek_next_region/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.198623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/seek_next_region/status_actual/
+--rwxrwxrwx   0 root         (0) root         (0)      452 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/scan/seek_next_region/status_actual/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.198623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.086624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.198623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/adapt/
+--rwxrwxrwx   0 root         (0) root         (0)      994 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/adapt/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.198623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/adapt_every/
+--rwxrwxrwx   0 root         (0) root         (0)     1160 2023-12-15 20:37:53.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/adapt_every/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.198623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/add/
+--rwxrwxrwx   0 root         (0) root         (0)      735 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/add/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.198623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/erase/
+--rwxrwxrwx   0 root         (0) root         (0)      749 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/essential/erase/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)       93 2023-11-25 18:51:12.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/sculpt/sculpt.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      251 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/DB/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.086624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/assertions/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.198623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/assertions/one/
+--rwxrwxrwx   0 root         (0) root         (0)      424 2023-12-15 22:29:15.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/assertions/one/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.202623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/assertions/recipe/
+--rwxrwxrwx   0 root         (0) root         (0)      504 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/assertions/recipe/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.202623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.202623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/assertions/
+--rwxrwxrwx   0 root         (0) root         (0)      768 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/assertions/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.202623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/erase_ingredient/
+--rwxrwxrwx   0 root         (0) root         (0)     1030 2023-12-17 01:34:38.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/erase_ingredient/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      668 2023-12-17 01:36:56.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/erase_ingredient/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      603 2023-12-17 01:38:18.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/erase_ingredient/status_2.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.202623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/essential_is_story_1/
+--rwxrwxrwx   0 root         (0) root         (0)      551 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/essential_is_story_1/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      798 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/essential_is_story_1/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      254 2023-11-23 22:33:02.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/grove.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.206623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/has_uniters/
+--rwxrwxrwx   0 root         (0) root         (0)     4712 2024-03-31 22:07:23.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/has_uniters/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      945 2023-11-26 03:02:03.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/has_uniters/has_uniters.r.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     1055 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/has_uniters/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.206623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/measures/
+--rwxrwxrwx   0 root         (0) root         (0)      222 2023-12-09 18:50:30.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/measures/measures.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.206623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/measures/seek_fraction_string/
+--rwxrwxrwx   0 root         (0) root         (0)      176 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/measures/seek_fraction_string/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      164 2023-12-15 20:03:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/measures/seek_fraction_string/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.206623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/nurture/
+--rwxrwxrwx   0 root         (0) root         (0)     2879 2023-12-17 01:45:25.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/nurture/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      542 2023-12-15 23:08:39.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/nurture/nurture.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     1297 2023-12-15 23:05:28.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/nurture/status_cautions_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      696 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/nurture/status_essentials_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.206623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/print/
+--rwxrwxrwx   0 root         (0) root         (0)     1424 2023-12-15 23:01:30.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/print/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.206623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek/
+--rwxrwxrwx   0 root         (0) root         (0)     1235 2023-12-17 01:00:44.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      572 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.210623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_count/
+--rwxrwxrwx   0 root         (0) root         (0)      469 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_count/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     3891 2023-12-08 03:23:39.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_count/essentials.JSON
+--rwxrwxrwx   0 root         (0) root         (0)      833 2023-12-15 23:06:34.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_count/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.210623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_measured_ingredient_name/
+--rwxrwxrwx   0 root         (0) root         (0)     1237 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_measured_ingredient_name/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      568 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_measured_ingredient_name/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.210623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_name_or_accepts/
+--rwxrwxrwx   0 root         (0) root         (0)     1056 2023-12-17 00:41:11.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_name_or_accepts/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      507 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_name_or_accepts/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.210623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_uniter/
+--rwxrwxrwx   0 root         (0) root         (0)      794 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_uniter/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      776 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/seek_uniter/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.210623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/sort/
+--rwxrwxrwx   0 root         (0) root         (0)      633 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove/sort/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.210623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/
+--rwxrwxrwx   0 root         (0) root         (0)      180 2023-11-23 19:14:43.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/grove prototype.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.210623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/nurture/
+--rwxrwxrwx   0 root         (0) root         (0)     1903 2023-12-15 22:31:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/nurture/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/nurture/seek/
+--rwxrwxrwx   0 root         (0) root         (0)      918 2023-12-15 20:35:42.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/nurture/seek/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      536 2023-12-15 20:35:49.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/nurture/seek/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      624 2023-12-15 20:36:03.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/nurture/seek/status_2.py
+--rwxrwxrwx   0 root         (0) root         (0)      966 2023-12-15 20:42:05.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/nurture/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/print/
+--rwxrwxrwx   0 root         (0) root         (0)     1389 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/print/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/seek/
+--rwxrwxrwx   0 root         (0) root         (0)      719 2023-12-15 20:36:28.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/seek/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      529 2023-12-15 20:36:38.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/seek/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      615 2023-12-15 20:36:51.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/grove_prototype/seek/status_2.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/ingredient/
+--rwxrwxrwx   0 root         (0) root         (0)      692 2023-11-24 00:44:01.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/ingredient/nutrient_pattern.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     1012 2024-03-29 20:58:01.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/ingredient scan.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/
+--rwxrwxrwx   0 root         (0) root         (0)     4982 2024-03-29 23:50:17.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)        3 2023-11-27 20:33:45.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/add_measured_ingredient.r.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/status_empty_grove/
+--rwxrwxrwx   0 root         (0) root         (0)     1082 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/status_empty_grove/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/status_m_and_meq/
+--rwxrwxrwx   0 root         (0) root         (0)     2212 2024-03-29 23:53:03.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/status_m_and_meq/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     2200 2024-03-29 23:53:32.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/status_m_and_meq/status_2.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.214623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/status_m_eq_and_ba/
+--rwxrwxrwx   0 root         (0) root         (0)     3932 2024-03-29 23:52:06.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/add_measured_ingredient/status_m_eq_and_ba/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.218623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/build/
+--rwxrwxrwx   0 root         (0) root         (0)     1136 2023-12-15 23:10:16.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/build/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      375 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/build/measures.py
+--rwxrwxrwx   0 root         (0) root         (0)      324 2023-12-15 23:11:21.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/build/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)      812 2023-12-15 23:12:52.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/build/status_cautionary_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.218623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/calculate_portions/
+--rwxrwxrwx   0 root         (0) root         (0)     3271 2024-03-30 21:01:29.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/calculate_portions/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.218623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/cultivate/
+--rwxrwxrwx   0 root         (0) root         (0)     1644 2023-12-17 01:39:47.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/cultivate/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     3497 2024-03-29 23:49:19.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/land.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.090624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.218623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/aggregate/
+--rwxrwxrwx   0 root         (0) root         (0)      439 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/aggregate/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      614 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/aggregate/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.218623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/sums/
+--rwxrwxrwx   0 root         (0) root         (0)     2794 2024-03-29 23:51:11.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/sums/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.218623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/sums/status/
+--rwxrwxrwx   0 root         (0) root         (0)      407 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/measures/sums/status/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.222623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/
+--rwxrwxrwx   0 root         (0) root         (0)     2290 2023-12-15 20:50:14.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.222623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/courses/
+--rwxrwxrwx   0 root         (0) root         (0)      551 2023-12-15 20:50:37.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/courses/course_2.py
+--rwxrwxrwx   0 root         (0) root         (0)      950 2023-11-27 02:53:23.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/multiply_measures.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     2582 2024-03-30 00:06:40.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     2923 2024-03-30 00:05:43.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/status_2.py
+--rwxrwxrwx   0 root         (0) root         (0)     1039 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/land/multiply_amount/status_loop_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.090624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.222623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/merge/
+--rwxrwxrwx   0 root         (0) root         (0)     1313 2024-03-30 00:01:21.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/merge/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1477 2024-03-30 00:13:11.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/merge/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1475 2024-03-30 00:08:56.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/merge/status_2.py
+--rwxrwxrwx   0 root         (0) root         (0)     1319 2024-03-30 00:09:21.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/merge/status_3.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.222623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/multiply/
+--rwxrwxrwx   0 root         (0) root         (0)      776 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/multiply/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)     1728 2023-12-15 20:03:33.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/multiply/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.222623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/selected_unit/
+--rwxrwxrwx   0 root         (0) root         (0)      275 2023-11-26 22:20:49.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/measures/selected_unit/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      102 2023-12-15 19:52:46.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan/names.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.222623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/
+--rwxrwxrwx   0 root         (0) root         (0)     1200 2024-03-07 04:13:37.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.090624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_empty/
+--rwxrwxrwx   0 root         (0) root         (0)     1207 2023-12-16 05:02:53.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_empty/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_food/
+--rwxrwxrwx   0 root         (0) root         (0)     2315 2024-03-30 00:02:05.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_food/status_0.py
+--rwxrwxrwx   0 root         (0) root         (0)     6474 2024-03-30 00:18:21.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_food/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     3862 2024-03-30 00:17:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_food/status_2.py
+--rwxrwxrwx   0 root         (0) root         (0)     2473 2024-02-04 20:24:03.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_food/status_3.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_foods_and_supps/
+--rwxrwxrwx   0 root         (0) root         (0)   215864 2024-04-09 20:16:43.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_foods_and_supps/status_1.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     2506 2024-03-11 02:02:18.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_foods_and_supps/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_rational_amounts/
+--rwxrwxrwx   0 root         (0) root         (0)   131410 2024-04-09 20:16:42.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_rational_amounts/status_1.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     1863 2024-03-11 01:24:01.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_rational_amounts/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_supp/
+--rwxrwxrwx   0 root         (0) root         (0)   127961 2024-04-09 20:16:43.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_supp/status_1.JSON
+--rwxrwxrwx   0 root         (0) root         (0)     1755 2023-12-16 05:04:27.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_supp/status_1.py
+--rwxrwxrwx   0 root         (0) root         (0)     1606 2023-12-16 05:04:52.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/_status/status_supp/status_1_supp_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/assertions/
+--rwxrwxrwx   0 root         (0) root         (0)     2844 2023-12-16 05:01:05.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/assertions/ingredient.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.090624 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/calculate/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/calculate/grove_mass_and_mass_eq_sum/
+--rwxrwxrwx   0 root         (0) root         (0)      471 2023-12-15 22:41:08.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/calculate/grove_mass_and_mass_eq_sum/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/calculate/slice/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2023-12-09 18:24:24.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/calculate/slice/__init__.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/cautionary_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)        0 2023-12-16 04:48:59.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/cautionary_ingredients/formulate.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.226623 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/essential_nutrients/
+--rwxrwxrwx   0 root         (0) root         (0)     3439 2024-03-07 04:11:50.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/formulate/essential_nutrients/formulate.py
+--rwxrwxrwx   0 root         (0) root         (0)     1876 2023-11-26 22:19:07.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/recipe structure.s.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      968 2024-02-04 19:27:25.000000 apoplast-1.1.2/venues/stages/apoplast/shows/ingredient_scan_recipe/recipe.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.230623 apoplast-1.1.2/venues/stages/apoplast/shows/natures/
+--rwxrwxrwx   0 root         (0) root         (0)      101 2023-11-17 21:50:38.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/__init__.py
+--rwxrwxrwx   0 root         (0) root         (0)      371 2023-11-21 23:21:15.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/assertions.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.230623 apoplast-1.1.2/venues/stages/apoplast/shows/natures/measured_ingredient/
+--rwxrwxrwx   0 root         (0) root         (0)       84 2023-11-22 02:42:38.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/measured_ingredient/assertions.py
+--rwxrwxrwx   0 root         (0) root         (0)      332 2024-03-29 20:56:02.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/nature.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.230623 apoplast-1.1.2/venues/stages/apoplast/shows/natures/pattern/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.230623 apoplast-1.1.2/venues/stages/apoplast/shows/natures/pattern/nature/
+--rwxrwxrwx   0 root         (0) root         (0)     3867 2023-11-28 02:28:19.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/pattern/nature/nature.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)     2209 2023-11-25 23:54:11.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/pattern/nature: form.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      139 2023-11-28 02:28:25.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/pattern/pattern.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      115 2023-11-16 20:19:44.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/pattern/pattern: measured ingredients.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)        5 2023-11-16 20:58:52.000000 apoplast-1.1.2/venues/stages/apoplast/shows/natures/pattern/pattern: unmeasured ingredients.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      843 2024-03-31 01:49:28.000000 apoplast-1.1.2/venues/stages/apoplast/shows/shows.s.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/
+--rwxrwxrwx   0 root         (0) root         (0)     1523 2024-03-31 02:20:59.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/grove.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/info/
+--rwxrwxrwx   0 root         (0) root         (0)       58 2024-03-31 02:19:44.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/info/info.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/measures/
+--rwxrwxrwx   0 root         (0) root         (0)       73 2024-03-31 02:21:06.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/measures/measures.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/natures/
+--rwxrwxrwx   0 root         (0) root         (0)       59 2024-03-31 02:21:27.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/natures/natures.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/unites/
+--rwxrwxrwx   0 root         (0) root         (0)     1508 2024-03-31 02:23:11.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/grove/unites/unites.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      131 2024-03-31 02:19:06.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/land.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.234623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/measures/
+--rwxrwxrwx   0 root         (0) root         (0)      459 2024-03-31 02:16:52.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/measures/measures.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/natures/
+--rwxrwxrwx   0 root         (0) root         (0)      412 2024-03-31 02:09:01.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/land/natures/natures.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/measured_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)      405 2024-03-31 01:56:16.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/measured_ingredients/measured_ingredients.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/measures/
+--rwxrwxrwx   0 root         (0) root         (0)     1018 2024-03-31 01:54:44.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/measures/measures.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      426 2024-03-31 01:58:10.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/nature.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/unmeasured_ingredients/
+--rwxrwxrwx   0 root         (0) root         (0)      294 2024-03-31 01:56:52.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/nature/unmeasured_ingredients/UI.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)      106 2024-03-31 01:57:56.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/shows.S.HTML
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/venues/stages/apoplast/shows_v2/treasure/
+--rwxrwxrwx   0 root         (0) root         (0)      232 2024-03-31 01:52:52.000000 apoplast-1.1.2/venues/stages/apoplast/shows_v2/treasure/treasure.S.HTML
+--rwxrwxrwx   0 root         (0) root         (0)       63 2023-11-16 19:27:45.000000 apoplast-1.1.2/venues/stages/apoplast/status_1.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2024-04-09 20:17:14.238623 apoplast-1.1.2/venues/stages/apoplast.egg-info/
+--rw-r--r--   0 root         (0) root         (0)     1045 2024-04-09 20:17:14.000000 apoplast-1.1.2/venues/stages/apoplast.egg-info/PKG-INFO
+--rwxrwxrwx   0 root         (0) root         (0)    27469 2024-04-09 20:17:14.000000 apoplast-1.1.2/venues/stages/apoplast.egg-info/SOURCES.txt
+--rwxrwxrwx   0 root         (0) root         (0)        1 2024-04-09 20:17:14.000000 apoplast-1.1.2/venues/stages/apoplast.egg-info/dependency_links.txt
+--rw-r--r--   0 root         (0) root         (0)       45 2024-04-09 20:17:14.000000 apoplast-1.1.2/venues/stages/apoplast.egg-info/entry_points.txt
+--rwxrwxrwx   0 root         (0) root         (0)       58 2024-04-09 20:17:14.000000 apoplast-1.1.2/venues/stages/apoplast.egg-info/requires.txt
+--rwxrwxrwx   0 root         (0) root         (0)        9 2024-04-09 20:17:14.000000 apoplast-1.1.2/venues/stages/apoplast.egg-info/top_level.txt
++-rw-r--r--   0        0        0      619 2024-04-11 20:18:02.088181 apoplast-2.0.0/pyproject.toml
++-rwxr-xr-x   0        0        0      540 2024-04-11 17:29:17.329381 apoplast-2.0.0/readme.md
++-rw-r--r--   0        0        0       21 2024-04-11 20:17:16.500712 apoplast-2.0.0/venues/stages/apoplast/__init__.py
++-rw-r--r--   0        0        0     1304 1970-01-01 00:00:00.000000 apoplast-2.0.0/PKG-INFO
+```
+
+### Comparing `apoplast-1.1.2/readme.md` & `apoplast-2.0.0/readme.md`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -2,15 +2,15 @@
+ 
+ 
+ 
+ ******
+ 
+ Bravo!  You have received a Mercantilism Diploma in "apoplast" from   
+ the Orbital Convergence University International Air and Water 
+-Embassy of the Tangerine Planet 🍊 (the planet that is one ellipse further from
++Embassy of the Tangerine Planet (the planet that is one ellipse further from
+ the Sun than Earth's ellipse).
+ 
+ You are now officially certified to include "apoplast" in your practice!
+ 
+ Encore! Encore! Encore! Encore!
+ 
+ ******
+@@ -21,15 +21,15 @@
+ ---
+ 
+ ## description
+ 
+ 
+ ---		
+ 		
+-## 🎁 obtainment
++## obtainment
+ `[xonsh] pip install apoplast`
+ 
+ ---
+ 
+ ## tutorial
+ `[xonsh] apoplast`
+```
+
+#### encoding
+
+```diff
+@@ -1 +1 @@
+-utf-8
++us-ascii
+```
+

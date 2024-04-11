@@ -14377,3 +14377,72 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:02:25] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.504.tar.gz]
 [2024-04-11 10:02:25] INFO root fetch - main [MainThread]: End processing [tremolo]: success
 [2024-04-11 10:02:25] INFO root fetch - main [MainThread]: Store serial: [22716023]
+[2024-04-11 10:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716023]
+[2024-04-11 10:04:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Unreal-Engine-Packer
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teareduce
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kube-secret-pirate
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: senpwai
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crawlee
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lwutils
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anthropic
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nic-test
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langfun
+[2024-04-11 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pubsub-client
+[2024-04-11 10:04:35] INFO root fetch - processPackages [Unreal-Engine-Packer]: New version: [1.1] Old Version: [1.0]
+[2024-04-11 10:04:35] INFO root fetch - processPackages [teareduce]: New version: [0.3.5] Old Version: [0.3.0]
+[2024-04-11 10:04:35] INFO root fetch - processPackages [senpwai]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-11 10:04:35] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240410] Old Version: [0.0.2.dev20240409]
+[2024-04-11 10:04:35] INFO root fetch - processPackages [anthropic]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-11 10:04:35] INFO root fetch - processPackages [Unreal-Engine-Packer]: Downloading https://files.pythonhosted.org/packages/8c/08/cfb93d4024dcb1d0b030fc80c49e4737830c03d003378613f7459887c218/Unreal_Engine_Packer-1.0-py3-none-any.whl
+[2024-04-11 10:04:35] INFO root fetch - processPackages [crawlee]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 10:04:35] WARNING root fetch - processPackages [lwutils]: Skipping, unable to determine old version
+[2024-04-11 10:04:35] WARNING root fetch - processPackages [nic-test]: Skipping, unable to determine old version
+[2024-04-11 10:04:35] INFO root fetch - main [MainThread]: End processing [lwutils] error
+[2024-04-11 10:04:35] WARNING root fetch - processPackages [kube-secret-pirate]: Skipping, unable to determine old version
+[2024-04-11 10:04:35] INFO root fetch - main [MainThread]: End processing [nic-test] error
+[2024-04-11 10:04:35] INFO root fetch - main [MainThread]: End processing [kube-secret-pirate] error
+[2024-04-11 10:04:35] WARNING root fetch - processPackages [pubsub-client]: Skipping, unable to determine old version
+[2024-04-11 10:04:35] INFO root fetch - main [MainThread]: End processing [pubsub-client] error
+[2024-04-11 10:04:35] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/a0/42/a94a2ef0a94abdc9a7e5af123e03fbb1de8f40e64fe1d9f738a0ae6b1c22/langfun-0.0.2.dev20240409.tar.gz
+[2024-04-11 10:04:35] INFO root fetch - processPackages [teareduce]: Downloading https://files.pythonhosted.org/packages/4c/61/ac5cb1d074e681ecb9f77e0af01f813ada8da23b656fac55e8fe30774e69/teareduce-0.3.0.tar.gz
+[2024-04-11 10:04:35] INFO root fetch - processPackages [senpwai]: Downloading https://files.pythonhosted.org/packages/b5/66/e03af3e4d4257a64ff48a4659db3dd44bfe1e3c6ac1ff29b9599307b3140/senpwai-2.1.7.tar.gz
+[2024-04-11 10:04:35] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/b7/41/dcf60daedd5b67efd47c8798679c797fe6150fea55287dc207c8d59c19b2/anthropic-0.8.1.tar.gz
+[2024-04-11 10:04:35] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/7d/89/85b23547bfe32de6cda5c886d0aa94ef4507701adaa31b1086516bde4c20/crawlee-0.0.1.tar.gz
+[2024-04-11 10:04:35] INFO root fetch - processPackages [Unreal-Engine-Packer]: Downloading https://files.pythonhosted.org/packages/83/09/ef7d803075c14ead1ec133c94f5c2f31cf34c2f94d1f9256749597a3c228/Unreal_Engine_Packer-1.1-py3-none-any.whl
+[2024-04-11 10:04:35] INFO root fetch - processPackages [Unreal-Engine-Packer]: executing diffoscope
+[2024-04-11 10:04:35] INFO root fetch - processPackages [Unreal-Engine-Packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Unreal_Engine_Packer-1.0-py3-none-any.whl.zip tmp/Unreal_Engine_Packer-1.1-py3-none-any.whl.zip --markdown 20240411/U/Unreal-Engine-Packer/1.0-1.1/README.md --exclude *.pyd
+[2024-04-11 10:04:36] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/d9/2c/8c15bc61dfae9149ed340420e1deb85750cb6f56c6d3a3daf4b63d1e1de7/langfun-0.0.2.dev20240410.tar.gz
+[2024-04-11 10:04:36] INFO root fetch - processPackages [teareduce]: Downloading https://files.pythonhosted.org/packages/c5/b6/24d748f8cf4cdd467562c1f289c33da8b7608a0d13eada173b27c80806e0/teareduce-0.3.5.tar.gz
+[2024-04-11 10:04:36] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/25/20/cfba3d21f5057796d49ebf34e8046705348996a464bdd06b9c3678d9ae70/anthropic-0.9.0.tar.gz
+[2024-04-11 10:04:36] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/32/69/81c648cf968468c67a28c115fe8cc914a2cd3b7b7841c700e514cc2ca8a1/crawlee-0.0.2.tar.gz
+[2024-04-11 10:04:36] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-11 10:04:36] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240409.tar.gz tmp/langfun-0.0.2.dev20240410.tar.gz --markdown 20240411/l/langfun/0.0.2.dev20240409-0.0.2.dev20240410/README.md --exclude *.pyd
+[2024-04-11 10:04:36] INFO root fetch - processPackages [teareduce]: executing diffoscope
+[2024-04-11 10:04:36] INFO root fetch - processPackages [teareduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teareduce-0.3.0.tar.gz tmp/teareduce-0.3.5.tar.gz --markdown 20240411/t/teareduce/0.3.0-0.3.5/README.md --exclude *.pyd
+[2024-04-11 10:04:36] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2024-04-11 10:04:36] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.8.1.tar.gz tmp/anthropic-0.9.0.tar.gz --markdown 20240411/a/anthropic/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-11 10:04:36] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-04-11 10:04:36] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.1.tar.gz tmp/crawlee-0.0.2.tar.gz --markdown 20240411/c/crawlee/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 10:04:36] INFO root fetch - processPackages [senpwai]: Downloading https://files.pythonhosted.org/packages/d9/93/85eb788c648a060843a19e2ac72c16151c9866961e39fe6f9686d7621d7e/senpwai-2.1.8.tar.gz
+[2024-04-11 10:04:36] INFO root fetch - processPackages [Unreal-Engine-Packer]: Remove: archive file [/home/abi/fetcher/tmp/Unreal_Engine_Packer-1.0-py3-none-any.whl.zip]
+[2024-04-11 10:04:36] INFO root fetch - processPackages [Unreal-Engine-Packer]: Remove: archive file [/home/abi/fetcher/tmp/Unreal_Engine_Packer-1.1-py3-none-any.whl.zip]
+[2024-04-11 10:04:36] INFO root fetch - main [MainThread]: End processing [Unreal-Engine-Packer]: success
+[2024-04-11 10:04:37] INFO root fetch - processPackages [senpwai]: executing diffoscope
+[2024-04-11 10:04:37] INFO root fetch - processPackages [senpwai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/senpwai-2.1.7.tar.gz tmp/senpwai-2.1.8.tar.gz --markdown 20240411/s/senpwai/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-11 10:04:37] INFO root fetch - processPackages [teareduce]: Remove: archive file [/home/abi/fetcher/tmp/teareduce-0.3.0.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - processPackages [teareduce]: Remove: archive file [/home/abi/fetcher/tmp/teareduce-0.3.5.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - main [MainThread]: End processing [teareduce]: success
+[2024-04-11 10:04:37] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.1.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.2.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-04-11 10:04:37] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240409.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240410.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-11 10:04:37] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.8.1.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.9.0.tar.gz]
+[2024-04-11 10:04:37] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2024-04-11 10:04:38] INFO root fetch - processPackages [senpwai]: Remove: archive file [/home/abi/fetcher/tmp/senpwai-2.1.7.tar.gz]
+[2024-04-11 10:04:38] INFO root fetch - processPackages [senpwai]: Remove: archive file [/home/abi/fetcher/tmp/senpwai-2.1.8.tar.gz]
+[2024-04-11 10:04:38] INFO root fetch - main [MainThread]: End processing [senpwai]: success
+[2024-04-11 10:04:38] INFO root fetch - main [MainThread]: Store serial: [22716061]

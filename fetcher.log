@@ -11279,3 +11279,27 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:50:12] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-11 06:50:12] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-11 06:50:12] INFO root fetch - main [MainThread]: Store serial: [22714451]
+[2024-04-11 06:52:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714451]
+[2024-04-11 06:52:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 06:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-11 06:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykrotik
+[2024-04-11 06:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyweatherfr
+[2024-04-11 06:52:20] WARNING root fetch - processPackages [pykrotik]: Skipping, unable to determine old version
+[2024-04-11 06:52:20] INFO root fetch - main [MainThread]: End processing [pykrotik] error
+[2024-04-11 06:52:20] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-11 06:52:20] INFO root fetch - processPackages [pyweatherfr]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-11 06:52:20] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-11 06:52:21] INFO root fetch - processPackages [pyweatherfr]: Downloading https://files.pythonhosted.org/packages/33/48/afa611c43112558f761cfd2ce8834d1491353194c2615c2e2b55cfd4caed/pyweatherfr-3.0.0.tar.gz
+[2024-04-11 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-11 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-11 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240411/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-11 06:52:21] INFO root fetch - processPackages [pyweatherfr]: Downloading https://files.pythonhosted.org/packages/22/fb/901eb8e52a375354bd795be70f9671b0e7faa63408d3a1832822ce0ab013/pyweatherfr-4.0.0.tar.gz
+[2024-04-11 06:52:21] INFO root fetch - processPackages [pyweatherfr]: executing diffoscope
+[2024-04-11 06:52:21] INFO root fetch - processPackages [pyweatherfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweatherfr-3.0.0.tar.gz tmp/pyweatherfr-4.0.0.tar.gz --markdown 20240411/p/pyweatherfr/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-11 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-11 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-11 06:52:21] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-11 06:52:21] INFO root fetch - processPackages [pyweatherfr]: Remove: archive file [/home/abi/fetcher/tmp/pyweatherfr-3.0.0.tar.gz]
+[2024-04-11 06:52:21] INFO root fetch - processPackages [pyweatherfr]: Remove: archive file [/home/abi/fetcher/tmp/pyweatherfr-4.0.0.tar.gz]
+[2024-04-11 06:52:21] INFO root fetch - main [MainThread]: End processing [pyweatherfr]: success
+[2024-04-11 06:52:21] INFO root fetch - main [MainThread]: Store serial: [22714458]

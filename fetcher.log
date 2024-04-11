@@ -18393,3 +18393,66 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:39:25] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2024-04-11 11:39:25] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2024-04-11 11:39:25] INFO root fetch - main [MainThread]: Store serial: [22717603]
+[2024-04-11 11:41:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717603]
+[2024-04-11 11:41:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdmf-ai
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycotore
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ticketsdk
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dayone-to-obsidian
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-confluentcloud
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-customvueadmin
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-pagerduty
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pre-commit-update
+[2024-04-11 11:41:33] INFO root fetch - processPackages [ticketsdk]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-04-11 11:41:33] INFO root fetch - processPackages [pycotore]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 11:41:34] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/50/7c/189f0db16f128af646b3f2f181fc293628996da1e50c7a838909faf3b152/ticketsdk-2.2.6.tar.gz
+[2024-04-11 11:41:34] WARNING root fetch - processPackages [hdmf-ai]: Skipping, unable to determine old version
+[2024-04-11 11:41:34] INFO root fetch - main [MainThread]: End processing [hdmf-ai] error
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/4b/fb/987ae1aaf6866984f3f0778cef005bdbd988645ebfb7563de8aaa6277540/pycotore-0.1.0.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [dayone-to-obsidian]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-11 11:41:34] WARNING root fetch - processPackages [django-customvueadmin]: Skipping, unable to determine old version
+[2024-04-11 11:41:34] INFO root fetch - main [MainThread]: End processing [django-customvueadmin] error
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pre-commit-update]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-11 11:41:34] INFO root fetch - processPackages [dayone-to-obsidian]: Downloading https://files.pythonhosted.org/packages/3e/59/72c3357812994f41c68c38af76506a2771b83f786ef6db1f9959f1409bc8/dayone_to_obsidian-0.4.7.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/65/e9/a48ce1bcae020d0700c73bfcb4283432777ba150aeaac947200aced31b46/pre_commit_update-0.2.1.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/44/02/60214e52e1ad7b8787525fd697e5e93492a350504a1b769f38ea8e558a79/ticketsdk-2.2.7.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/ca/29/c79586805c10d66a9eaae5d1094ca94928f38d467166e7976ac009e39be9/pycotore-0.1.1.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [ticketsdk]: executing diffoscope
+[2024-04-11 11:41:34] INFO root fetch - processPackages [ticketsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticketsdk-2.2.6.tar.gz tmp/ticketsdk-2.2.7.tar.gz --markdown 20240411/t/ticketsdk/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pycotore]: executing diffoscope
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pycotore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycotore-0.1.0.tar.gz tmp/pycotore-0.1.1.tar.gz --markdown 20240411/p/pycotore/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/78/0a/732b5b25cc57dd7a8eeccae91eaaf40307f22a6ca11bf0f72de10fafa0f8/pre_commit_update-0.2.2.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [dayone-to-obsidian]: Downloading https://files.pythonhosted.org/packages/04/d4/e8575b6593094e79f5dbb25eac09691ecc32518b2aa7c39a104b33231766/dayone_to_obsidian-0.4.8.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240411/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-04-11 11:41:34] INFO root fetch - processPackages [dayone-to-obsidian]: executing diffoscope
+[2024-04-11 11:41:34] INFO root fetch - processPackages [dayone-to-obsidian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dayone_to_obsidian-0.4.7.tar.gz tmp/dayone_to_obsidian-0.4.8.tar.gz --markdown 20240411/d/dayone-to-obsidian/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240411/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2024-04-11 11:41:34] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.2.1.tar.gz tmp/pre_commit_update-0.2.2.tar.gz --markdown 20240411/p/pre-commit-update/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-11 11:41:35] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.6.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.7.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - main [MainThread]: End processing [ticketsdk]: success
+[2024-04-11 11:41:35] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.1.0.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.1.1.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - main [MainThread]: End processing [pycotore]: success
+[2024-04-11 11:41:35] INFO root fetch - processPackages [dayone-to-obsidian]: Remove: archive file [/home/abi/fetcher/tmp/dayone_to_obsidian-0.4.7.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - processPackages [dayone-to-obsidian]: Remove: archive file [/home/abi/fetcher/tmp/dayone_to_obsidian-0.4.8.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - main [MainThread]: End processing [dayone-to-obsidian]: success
+[2024-04-11 11:41:35] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.2.1.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.2.2.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2024-04-11 11:41:35] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-11 11:41:35] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-11 11:41:36] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-11 11:41:36] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-11 11:41:36] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-11 11:41:36] INFO root fetch - main [MainThread]: Store serial: [22717633]

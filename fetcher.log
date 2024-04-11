@@ -19753,3 +19753,171 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:34:51] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-11 12:34:51] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 12:34:51] INFO root fetch - main [MainThread]: Store serial: [22718139]
+[2024-04-11 12:36:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718139]
+[2024-04-11 12:36:59] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: singular-api-client
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easydebugger
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambeq
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: video-images-creator
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcor2-arserver-data
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arcor2-arserver
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arcor2-build-data
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcor2-build
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arcor2-calibration-data
+[2024-04-11 12:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arcor2-calibration
+[2024-04-11 12:36:59] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 12:36:59] INFO root fetch - processPackages [arcor2-calibration]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-11 12:36:59] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 12:36:59] INFO root fetch - processPackages [arcor2-build-data]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 12:36:59] INFO root fetch - processPackages [singular-api-client]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-11 12:36:59] INFO root fetch - processPackages [arcor2-arserver-data]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration-data]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 12:37:00] INFO root fetch - processPackages [easydebugger]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-11 12:37:00] INFO root fetch - processPackages [lambeq]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration]: Downloading https://files.pythonhosted.org/packages/8e/3f/925f0d09a6634aa8f40c0e37b70d6d0783d216db853f1c238496cac183c8/arcor2_calibration-1.1.0.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration-data]: Downloading https://files.pythonhosted.org/packages/f8/3f/8b3feb167b21ab49aeb7413db08d3cd107eb1a9f3736365b6eec7d1ecc57/arcor2_calibration_data-1.0.0.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build-data]: Downloading https://files.pythonhosted.org/packages/dc/6c/e27aa47317a601f4b53dd47f14db71f5a1a9ee6f34f3eac6942811af67bc/arcor2_build_data-1.0.0.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [singular-api-client]: Downloading https://files.pythonhosted.org/packages/a8/95/e6973fc31035ba685b19b523a7aa85152fc54c2756cb4a39d0851d49e47d/singular_api_client-0.6.7.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver-data]: Downloading https://files.pythonhosted.org/packages/12/1c/0899488088cea5a1c05f96ab06dd697be0504a5c0b0a238357692d34a965/arcor2_arserver_data-1.0.0.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [lambeq]: Downloading https://files.pythonhosted.org/packages/21/50/357d3e2f06716043903d5f03e2281f73521b9b806268a1a1c49148d152ab/lambeq-0.4.0.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build]: Downloading https://files.pythonhosted.org/packages/e4/47/fc7936b07ae79e2e2559f24a7c31f30966308d4fe89f3fc3efc7bdf997cb/arcor2_build-1.3.1.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [easydebugger]: Downloading https://files.pythonhosted.org/packages/6d/a0/af043e08aac9696dec70da54d3cd9ef5540d6da1f20da5e4e8b50fa9c8b4/easydebugger-1.0.1.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver]: Downloading https://files.pythonhosted.org/packages/75/9a/9a5ae57f97277a47fb41e6f998ed2cdd69b6955e7878c75151ed459d8e3e/arcor2_arserver-1.1.1.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration]: Downloading https://files.pythonhosted.org/packages/00/cc/3ea0fba317bcd6033cf4db31fa1a21eff36b93de50497593a0fc7a53358b/arcor2_calibration-1.2.0-py311-none-any.whl
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration-data]: Downloading https://files.pythonhosted.org/packages/b7/d2/17a6609e31196039c264d5640613e74da7f45a04e1f03b5fec6168d99487/arcor2_calibration_data-1.1.0-py311-none-any.whl
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build-data]: Downloading https://files.pythonhosted.org/packages/03/94/41f186e33ef15e530b0e76d3ced446c3d4fb217be013cf24a879023ff020/arcor2_build_data-1.1.0-py311-none-any.whl
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver-data]: Downloading https://files.pythonhosted.org/packages/d5/32/28feb7e045a89d8651247d0d269b2e82f0cf85a00a8f1f2a1e8b20b31ff9/arcor2_arserver_data-1.1.0-py311-none-any.whl
+[2024-04-11 12:37:00] INFO root fetch - processPackages [singular-api-client]: Downloading https://files.pythonhosted.org/packages/19/33/c83c411b5bee723d9f28766f2b88c3e552d3f9a52b64e6cc60572e5cc4b4/singular_api_client-0.6.8.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build]: Downloading https://files.pythonhosted.org/packages/83/b1/870bfff051fdc6d51be2f2778ace348f9770dca8c760f2237de121c04284/arcor2_build-1.4.0-py311-none-any.whl
+[2024-04-11 12:37:00] INFO root fetch - processPackages [easydebugger]: Downloading https://files.pythonhosted.org/packages/61/fc/e61bc8fbce6254707fbb439e485f61efa8e084a267a03c2aa59046ae0bc6/easydebugger-1.1.0.tar.gz
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver]: Downloading https://files.pythonhosted.org/packages/6d/55/e1ea158e091a534214b3d4ae0c80287dc527dc523f41e4e552246c2daff2/arcor2_arserver-1.2.0-py311-none-any.whl
+[2024-04-11 12:37:00] INFO root fetch - processPackages [singular-api-client]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [singular-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singular_api_client-0.6.7.tar.gz tmp/singular_api_client-0.6.8.tar.gz --markdown 20240411/s/singular-api-client/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build-data]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_build_data-1.0.0.tar.gz tmp/arcor2_build_data-1.1.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-build-data/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_calibration-1.1.0.tar.gz tmp/arcor2_calibration-1.2.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-calibration/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver-data]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_arserver_data-1.0.0.tar.gz tmp/arcor2_arserver_data-1.1.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-arserver-data/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 12:37:00] INFO root fetch - processPackages [easydebugger]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [easydebugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydebugger-1.0.1.tar.gz tmp/easydebugger-1.1.0.tar.gz --markdown 20240411/e/easydebugger/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration-data]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-calibration-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_calibration_data-1.0.0.tar.gz tmp/arcor2_calibration_data-1.1.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-calibration-data/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_build-1.3.1.tar.gz tmp/arcor2_build-1.4.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-build/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver]: executing diffoscope
+[2024-04-11 12:37:00] INFO root fetch - processPackages [arcor2-arserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_arserver-1.1.1.tar.gz tmp/arcor2_arserver-1.2.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-arserver/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-11 12:37:01] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 12:37:01] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 12:37:01] INFO root fetch - processPackages [lambeq]: Downloading https://files.pythonhosted.org/packages/9f/e2/216b427dd1dcafa8608743f8727469f4bb1584bc7a081ffdd9854f8dd99e/lambeq-0.4.1.tar.gz
+[2024-04-11 12:37:01] INFO root fetch - processPackages [lambeq]: executing diffoscope
+[2024-04-11 12:37:01] INFO root fetch - processPackages [lambeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambeq-0.4.0.tar.gz tmp/lambeq-0.4.1.tar.gz --markdown 20240411/l/lambeq/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-build-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_build_data-1.0.0.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-build-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_build_data-1.1.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-build-data]: Start processing: traceml
+[2024-04-11 12:37:01] INFO root fetch - main [MainThread]: End processing [arcor2-build-data]: success
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-arserver-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_arserver_data-1.0.0.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-arserver-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_arserver_data-1.1.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-arserver-data]: Start processing: arcor2-dobot
+[2024-04-11 12:37:01] INFO root fetch - main [MainThread]: End processing [arcor2-arserver-data]: success
+[2024-04-11 12:37:01] INFO root fetch - processPackages [traceml]: New version: [2.0.0rc48] Old Version: [2.0.0rc47]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-build]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_build-1.3.1.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-build]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_build-1.4.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-build]: Start processing: arcor2-execution-data
+[2024-04-11 12:37:01] INFO root fetch - main [MainThread]: End processing [arcor2-build]: success
+[2024-04-11 12:37:01] INFO root fetch - processPackages [singular-api-client]: Remove: archive file [/home/abi/fetcher/tmp/singular_api_client-0.6.7.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [singular-api-client]: Remove: archive file [/home/abi/fetcher/tmp/singular_api_client-0.6.8.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [singular-api-client]: Start processing: arcor2-execution-rest-proxy
+[2024-04-11 12:37:01] INFO root fetch - main [MainThread]: End processing [singular-api-client]: success
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-arserver]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_arserver-1.1.1.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-arserver]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_arserver-1.2.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-dobot]: New version: [1.3.0] Old Version: [1.1.1]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [easydebugger]: Remove: archive file [/home/abi/fetcher/tmp/easydebugger-1.0.1.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - processPackages [arcor2-arserver]: Start processing: arcor2-execution
+[2024-04-11 12:37:01] INFO root fetch - processPackages [easydebugger]: Remove: archive file [/home/abi/fetcher/tmp/easydebugger-1.1.0.tar.gz]
+[2024-04-11 12:37:01] INFO root fetch - main [MainThread]: End processing [arcor2-arserver]: success
+[2024-04-11 12:37:01] INFO root fetch - processPackages [easydebugger]: Start processing: arcor2-fanuc
+[2024-04-11 12:37:01] INFO root fetch - main [MainThread]: End processing [easydebugger]: success
+[2024-04-11 12:37:02] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/12/57/5a2818e32520291c781f452df2724fb926edb53d414478241f3359324e19/traceml-2.0.0rc47.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-calibration-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_calibration_data-1.0.0.tar.gz]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-calibration-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_calibration_data-1.1.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-calibration-data]: Start processing: arcor2-fit-demo
+[2024-04-11 12:37:02] INFO root fetch - main [MainThread]: End processing [arcor2-calibration-data]: success
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-data]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-rest-proxy]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-fanuc]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-dobot]: Downloading https://files.pythonhosted.org/packages/61/0a/bc3e3ab13a5b0c6074f0cc26bdb2ba6b7c16a1ba4c39e57c4f728bd8544e/arcor2_dobot-1.1.1.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-fit-demo]: New version: [1.5.0] Old Version: [1.2.0]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-calibration]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_calibration-1.1.0.tar.gz]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-calibration]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_calibration-1.2.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-calibration]: Start processing: arcor2-kinect-azure-data
+[2024-04-11 12:37:02] INFO root fetch - main [MainThread]: End processing [arcor2-calibration]: success
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-data]: Downloading https://files.pythonhosted.org/packages/dc/e5/8077cf4d95de117dce6c5b4bdf73bbdc1a7e8f24bfbaabcb09fea4df0c8e/arcor2_execution_data-1.1.0.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution]: Downloading https://files.pythonhosted.org/packages/c9/97/efb33c6ab973e7af2855850a21eb649245130e4d94ca405985811022605a/arcor2_execution-1.2.0.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-rest-proxy]: Downloading https://files.pythonhosted.org/packages/0a/32/c4998db6f6312d0b6163679444ecfbcf358abd5ca46002372488d6ed45a0/arcor2_execution_rest_proxy-1.0.0.tar.gz
+[2024-04-11 12:37:02] WARNING root fetch - processPackages [arcor2-kinect-azure-data]: Skipping, unable to determine old version
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-kinect-azure-data]: Start processing: prem-utils
+[2024-04-11 12:37:02] INFO root fetch - main [MainThread]: End processing [arcor2-kinect-azure-data] error
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-fanuc]: Downloading https://files.pythonhosted.org/packages/79/55/a6251336aa2cf3da583756f213e62d47f43085c40b87bf9f73e95439bc95/arcor2_fanuc-0.3.0.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/31/c9/c90e20e84885b402877fefd32682278467486fbf49f162a4eac08011b74a/traceml-2.0.0rc48.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 12:37:02] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 12:37:02] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-fit-demo]: Downloading https://files.pythonhosted.org/packages/60/ce/6fc6f06b18c1d712432fe2ef8df2d8c291509f2de28bd66f077fa1495a3a/arcor2_fit_demo-1.2.0.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-dobot]: Downloading https://files.pythonhosted.org/packages/e4/89/4dd463d6100750cea5cfb2b12819c1ff4a4f896f2a04c52d4d0147d3db9c/arcor2_dobot-1.3.0-py311-none-any.whl
+[2024-04-11 12:37:02] INFO root fetch - processPackages [traceml]: executing diffoscope
+[2024-04-11 12:37:02] INFO root fetch - processPackages [traceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceml-2.0.0rc47.tar.gz tmp/traceml-2.0.0rc48.tar.gz --markdown 20240411/t/traceml/2.0.0rc47-2.0.0rc48/README.md --exclude *.pyd
+[2024-04-11 12:37:02] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-data]: Downloading https://files.pythonhosted.org/packages/33/2d/8e0ff4de0c885fe5e1d1cd5c8b0f714f4a4bafd2424a939bde82a19e2e3b/arcor2_execution_data-1.2.0-py311-none-any.whl
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution]: Downloading https://files.pythonhosted.org/packages/0d/78/03e178d51052cb5156dbfaabc652aa3b4c9c0e9a62c131ffd11a9fedfa02/arcor2_execution-1.3.0-py311-none-any.whl
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-rest-proxy]: Downloading https://files.pythonhosted.org/packages/c7/5c/998ec9aabd8100078801d0d5d61618c875c01defee074ea4c8d2947a5449/arcor2_execution_rest_proxy-1.1.0-py311-none-any.whl
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-fanuc]: Downloading https://files.pythonhosted.org/packages/fb/32/4225064b690129dd8b7d59cf0873e31e6d6e1ce5fc7c9d7bc9246c7dd704/arcor2_fanuc-0.4.0-py311-none-any.whl
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-dobot]: executing diffoscope
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-dobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_dobot-1.1.1.tar.gz tmp/arcor2_dobot-1.3.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-dobot/1.1.1-1.3.0/README.md --exclude *.pyd
+[2024-04-11 12:37:02] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution]: executing diffoscope
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_execution-1.2.0.tar.gz tmp/arcor2_execution-1.3.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-execution/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-data]: executing diffoscope
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_execution_data-1.1.0.tar.gz tmp/arcor2_execution_data-1.2.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-execution-data/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-rest-proxy]: executing diffoscope
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-execution-rest-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_execution_rest_proxy-1.0.0.tar.gz tmp/arcor2_execution_rest_proxy-1.1.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-execution-rest-proxy/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-11 12:37:02] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-11 12:37:02] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240411/p/prem-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-fanuc]: executing diffoscope
+[2024-04-11 12:37:02] INFO root fetch - processPackages [arcor2-fanuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_fanuc-0.3.0.tar.gz tmp/arcor2_fanuc-0.4.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-fanuc/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-fit-demo]: Downloading https://files.pythonhosted.org/packages/a5/e7/e22fa41a28bd62086123cc43c269c5d652a30543b221797d862636bff574/arcor2_fit_demo-1.5.0-py311-none-any.whl
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-dobot]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_dobot-1.1.1.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-dobot]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_dobot-1.3.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [arcor2-dobot]: success
+[2024-04-11 12:37:03] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-2.0.0rc47.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-2.0.0rc48.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [traceml]: success
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-execution-rest-proxy]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution_rest_proxy-1.0.0.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-execution-rest-proxy]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution_rest_proxy-1.1.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [arcor2-execution-rest-proxy]: success
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-fanuc]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_fanuc-0.3.0.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-fanuc]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_fanuc-0.4.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [arcor2-fanuc]: success
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-execution-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution_data-1.1.0.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-execution-data]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution_data-1.2.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [arcor2-execution-data]: success
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-execution]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution-1.2.0.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-execution]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_execution-1.3.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [arcor2-execution]: success
+[2024-04-11 12:37:03] INFO root fetch - processPackages [lambeq]: Remove: archive file [/home/abi/fetcher/tmp/lambeq-0.4.0.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [lambeq]: Remove: archive file [/home/abi/fetcher/tmp/lambeq-0.4.1.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [lambeq]: success
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-fit-demo]: executing diffoscope
+[2024-04-11 12:37:03] INFO root fetch - processPackages [arcor2-fit-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcor2_fit_demo-1.2.0.tar.gz tmp/arcor2_fit_demo-1.5.0-py311-none-any.whl.zip --markdown 20240411/a/arcor2-fit-demo/1.2.0-1.5.0/README.md --exclude *.pyd
+[2024-04-11 12:37:03] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-11 12:37:03] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-11 12:37:05] INFO root fetch - processPackages [arcor2-fit-demo]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_fit_demo-1.2.0.tar.gz]
+[2024-04-11 12:37:05] INFO root fetch - processPackages [arcor2-fit-demo]: Remove: archive file [/home/abi/fetcher/tmp/arcor2_fit_demo-1.5.0-py311-none-any.whl.zip]
+[2024-04-11 12:37:05] INFO root fetch - main [MainThread]: End processing [arcor2-fit-demo]: success
+[2024-04-11 12:37:05] INFO root fetch - main [MainThread]: Store serial: [22718186]

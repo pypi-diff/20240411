@@ -11370,3 +11370,38 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:01:01] INFO root fetch - processPackages [snowflake-deployer]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-deployer-0.1.9.tar.gz]
 [2024-04-11 07:01:01] INFO root fetch - main [MainThread]: End processing [snowflake-deployer]: success
 [2024-04-11 07:01:01] INFO root fetch - main [MainThread]: Store serial: [22714488]
+[2024-04-11 07:03:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714488]
+[2024-04-11 07:03:10] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-11 07:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714488]
+[2024-04-11 07:05:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 07:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uiauto-dev
+[2024-04-11 07:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-04-11 07:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: illuminatapp
+[2024-04-11 07:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-devkit
+[2024-04-11 07:05:17] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 07:05:17] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-11 07:05:17] WARNING root fetch - processPackages [illuminatapp]: Skipping, unable to determine old version
+[2024-04-11 07:05:17] INFO root fetch - main [MainThread]: End processing [illuminatapp] error
+[2024-04-11 07:05:17] INFO root fetch - processPackages [uiauto-dev]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 07:05:17] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/51/97/0ed66b947eb7371ed3f33d9501745d4bbc9b06a5cd25a6e7a6a6e7869fda/omnata_plugin_devkit-0.3.8.tar.gz
+[2024-04-11 07:05:17] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-11 07:05:17] INFO root fetch - processPackages [uiauto-dev]: Downloading https://files.pythonhosted.org/packages/d3/2e/f24f8ba41d1cec9b9fba693ab5e3d8c2ef920054c325814751e2303054b8/uiauto_dev-0.3.0.tar.gz
+[2024-04-11 07:05:17] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/05/26/00acb43f53fad72d614350962a4ab46ad393fce6583ee75c5dedc01385c8/omnata_plugin_devkit-0.3.9.tar.gz
+[2024-04-11 07:05:17] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2024-04-11 07:05:17] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.3.8.tar.gz tmp/omnata_plugin_devkit-0.3.9.tar.gz --markdown 20240411/o/omnata-plugin-devkit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 07:05:17] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-11 07:05:17] INFO root fetch - processPackages [uiauto-dev]: Downloading https://files.pythonhosted.org/packages/37/aa/64e28d58c0196fa0e0443591a859406d0bed5cba0aaa58892eb1baba624f/uiauto_dev-0.3.1.tar.gz
+[2024-04-11 07:05:17] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-11 07:05:17] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240411/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-11 07:05:17] INFO root fetch - processPackages [uiauto-dev]: executing diffoscope
+[2024-04-11 07:05:17] INFO root fetch - processPackages [uiauto-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiauto_dev-0.3.0.tar.gz tmp/uiauto_dev-0.3.1.tar.gz --markdown 20240411/u/uiauto-dev/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 07:05:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.8.tar.gz]
+[2024-04-11 07:05:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.9.tar.gz]
+[2024-04-11 07:05:18] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2024-04-11 07:05:18] INFO root fetch - processPackages [uiauto-dev]: Remove: archive file [/home/abi/fetcher/tmp/uiauto_dev-0.3.0.tar.gz]
+[2024-04-11 07:05:18] INFO root fetch - processPackages [uiauto-dev]: Remove: archive file [/home/abi/fetcher/tmp/uiauto_dev-0.3.1.tar.gz]
+[2024-04-11 07:05:18] INFO root fetch - main [MainThread]: End processing [uiauto-dev]: success
+[2024-04-11 07:05:19] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-11 07:05:19] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-11 07:05:19] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-11 07:05:19] INFO root fetch - main [MainThread]: Store serial: [22714503]

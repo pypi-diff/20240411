@@ -20753,3 +20753,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:06:09] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.5.tar.gz]
 [2024-04-11 13:06:09] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 13:06:09] INFO root fetch - main [MainThread]: Store serial: [22718570]
+[2024-04-11 13:08:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718570]
+[2024-04-11 13:08:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illuminatapp
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gen-vm-image
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wolta
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: space-avenger
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ign8
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numpy-rms
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: authentik-client
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-scibec
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-scibec-openapi-client
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ign8]: New version: [4.9.7] Old Version: [4.9.5]
+[2024-04-11 13:08:18] WARNING root fetch - processPackages [gen-vm-image]: Skipping, unable to determine old version
+[2024-04-11 13:08:18] INFO root fetch - main [MainThread]: End processing [gen-vm-image] error
+[2024-04-11 13:08:18] INFO root fetch - processPackages [wolta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 13:08:18] WARNING root fetch - processPackages [numpy-rms]: Skipping, unable to determine old version
+[2024-04-11 13:08:18] INFO root fetch - main [MainThread]: End processing [numpy-rms] error
+[2024-04-11 13:08:18] WARNING root fetch - processPackages [space-avenger]: Skipping, unable to determine old version
+[2024-04-11 13:08:18] INFO root fetch - main [MainThread]: End processing [space-avenger] error
+[2024-04-11 13:08:18] INFO root fetch - processPackages [authentik-client]: New version: [2024.2.2.post1712833602] Old Version: [2024.2.2.post1712687873]
+[2024-04-11 13:08:18] INFO root fetch - processPackages [illuminatapp]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 13:08:18] INFO root fetch - processPackages [py-scibec-openapi-client]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-04-11 13:08:18] INFO root fetch - processPackages [py-scibec]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-04-11 13:08:18] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/b3/07/9f5087427eb5a670c82a82e026a31f6794771374576315dd5094b78c091f/ign8-4.9.5.tar.gz
+[2024-04-11 13:08:18] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/25/b0/a6ddaae2537e6109bf18d6f4c89a2ea03c1b21cfebdabdbdcaad8280dae4/wolta-0.1.8.tar.gz
+[2024-04-11 13:08:18] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/26/8b/ec8ba6426bd888e232275a1d4a2f33fefc17ea9d02dc19ab632ddf8c1812/authentik_client-2024.2.2.post1712687873.tar.gz
+[2024-04-11 13:08:18] INFO root fetch - processPackages [py-scibec-openapi-client]: Downloading https://files.pythonhosted.org/packages/ed/ba/63b687e7d8014d23ac8b03a9d7277789639101595bce8476d52e705e797b/py-scibec-openapi-client-1.8.5.tar.gz
+[2024-04-11 13:08:18] INFO root fetch - processPackages [illuminatapp]: Downloading https://files.pythonhosted.org/packages/db/12/f2405f976a2104b2836e090ca937f41fef861e6b97ef8e911002b8896b2c/illuminatapp-0.0.3.tar.gz
+[2024-04-11 13:08:19] INFO root fetch - processPackages [py-scibec]: Downloading https://files.pythonhosted.org/packages/fc/1b/2607d73f581c241f6d2df4e02e4d4838e7e040d09ad71402873e9ee7120b/py_scibec-1.8.5.tar.gz
+[2024-04-11 13:08:19] WARNING root fetch - processPackages [illuminatapp]: Skipping package: exceeds size limit 95905511>=10485760
+[2024-04-11 13:08:19] INFO root fetch - main [MainThread]: End processing [illuminatapp] error
+[2024-04-11 13:08:19] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/fd/0d/da0b32645df75d665a1f595e960cfb8fb35cf153bd6e88509e9119548372/ign8-4.9.7.tar.gz
+[2024-04-11 13:08:19] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/68/c2/6add7316a2f3f14decbe28f8d605a564789210784c8f233e45f64332edf2/wolta-0.1.9.tar.gz
+[2024-04-11 13:08:19] INFO root fetch - processPackages [py-scibec-openapi-client]: Downloading https://files.pythonhosted.org/packages/bc/86/ffe3b0b6e397d152eadc2de6ffcc9e329420338371ffe742e6e55c5df25d/py-scibec-openapi-client-1.8.6.tar.gz
+[2024-04-11 13:08:19] INFO root fetch - processPackages [wolta]: executing diffoscope
+[2024-04-11 13:08:19] INFO root fetch - processPackages [wolta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolta-0.1.8.tar.gz tmp/wolta-0.1.9.tar.gz --markdown 20240411/w/wolta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 13:08:19] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/80/f2/efb282e05c9184e2ab1adfb76dd62fa4036ff5f78cb95f3a89b4b92bceb1/authentik_client-2024.2.2.post1712833602.tar.gz
+[2024-04-11 13:08:19] INFO root fetch - processPackages [py-scibec]: Downloading https://files.pythonhosted.org/packages/6b/60/57dc33a997ee8680aca6878cc38e19fb18680b764884c13f3cc3e105b46b/py_scibec-1.8.6.tar.gz
+[2024-04-11 13:08:19] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 13:08:19] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.5.tar.gz tmp/ign8-4.9.7.tar.gz --markdown 20240411/i/ign8/4.9.5-4.9.7/README.md --exclude *.pyd
+[2024-04-11 13:08:19] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-04-11 13:08:19] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.2.2.post1712687873.tar.gz tmp/authentik_client-2024.2.2.post1712833602.tar.gz --markdown 20240411/a/authentik-client/2024.2.2.post1712687873-2024.2.2.post1712833602/README.md --exclude *.pyd
+[2024-04-11 13:08:19] INFO root fetch - processPackages [py-scibec-openapi-client]: executing diffoscope
+[2024-04-11 13:08:19] INFO root fetch - processPackages [py-scibec-openapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-scibec-openapi-client-1.8.5.tar.gz tmp/py-scibec-openapi-client-1.8.6.tar.gz --markdown 20240411/p/py-scibec-openapi-client/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-04-11 13:08:19] INFO root fetch - processPackages [py-scibec]: executing diffoscope
+[2024-04-11 13:08:19] INFO root fetch - processPackages [py-scibec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_scibec-1.8.5.tar.gz tmp/py_scibec-1.8.6.tar.gz --markdown 20240411/p/py-scibec/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-04-11 13:08:20] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.8.tar.gz]
+[2024-04-11 13:08:20] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.9.tar.gz]
+[2024-04-11 13:08:20] INFO root fetch - main [MainThread]: End processing [wolta]: success
+[2024-04-11 13:08:20] INFO root fetch - processPackages [py-scibec]: Remove: archive file [/home/abi/fetcher/tmp/py_scibec-1.8.5.tar.gz]
+[2024-04-11 13:08:20] INFO root fetch - processPackages [py-scibec]: Remove: archive file [/home/abi/fetcher/tmp/py_scibec-1.8.6.tar.gz]
+[2024-04-11 13:08:20] INFO root fetch - main [MainThread]: End processing [py-scibec]: success
+[2024-04-11 13:08:21] INFO root fetch - processPackages [py-scibec-openapi-client]: Remove: archive file [/home/abi/fetcher/tmp/py-scibec-openapi-client-1.8.5.tar.gz]
+[2024-04-11 13:08:21] INFO root fetch - processPackages [py-scibec-openapi-client]: Remove: archive file [/home/abi/fetcher/tmp/py-scibec-openapi-client-1.8.6.tar.gz]
+[2024-04-11 13:08:21] INFO root fetch - main [MainThread]: End processing [py-scibec-openapi-client]: success
+[2024-04-11 13:08:22] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712687873.tar.gz]
+[2024-04-11 13:08:22] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712833602.tar.gz]
+[2024-04-11 13:08:22] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-04-11 13:08:22] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.5.tar.gz]
+[2024-04-11 13:08:22] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.7.tar.gz]
+[2024-04-11 13:08:22] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 13:08:22] INFO root fetch - main [MainThread]: Store serial: [22718632]

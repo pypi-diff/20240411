@@ -11525,3 +11525,76 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:18:18] INFO root fetch - processPackages [quagnes]: Remove: archive file [/home/abi/fetcher/tmp/quagnes-1.0.0.tar.gz]
 [2024-04-11 07:18:18] INFO root fetch - main [MainThread]: End processing [quagnes]: success
 [2024-04-11 07:18:18] INFO root fetch - main [MainThread]: Store serial: [22714574]
+[2024-04-11 07:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714574]
+[2024-04-11 07:20:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fnschool
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-repair-reinvoice
+[2024-04-11 07:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eagle-llm
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [odoo-addon-repair-reinvoice]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-11 07:20:28] WARNING root fetch - processPackages [eagle-llm]: Skipping, unable to determine old version
+[2024-04-11 07:20:28] INFO root fetch - main [MainThread]: End processing [eagle-llm] error
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240410.2229.5]
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:28] INFO root fetch - processPackages [odoo-addon-repair-reinvoice]: Downloading https://files.pythonhosted.org/packages/3f/5b/b81f826189c4a26afb6b25ea4b0421949d387f7ac47cb2b1a05ab14424ec/odoo_addon_repair_reinvoice-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:28] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/a5/57/948c89f94823fd4fc6313693c2dd55f29ac963ab0815c70cf799da00e198/fnschool-20240410.2229.5.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [odoo-addon-repair-reinvoice]: Downloading https://files.pythonhosted.org/packages/7a/cc/2df1e9c1977fa025aeafaa912fd71d94c92bf22e14c57d60d4a10011c490/odoo_addon_repair_reinvoice-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-11 07:20:29] INFO root fetch - processPackages [odoo-addon-repair-reinvoice]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [odoo-addon-repair-reinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_reinvoice-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_repair_reinvoice-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-repair-reinvoice/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-11 07:20:29] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240410.2229.5.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240411/f/fnschool/20240410.2229.5-20240411.800.36/README.md --exclude *.pyd
+[2024-04-11 07:20:30] INFO root fetch - processPackages [odoo-addon-repair-reinvoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_reinvoice-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-11 07:20:30] INFO root fetch - processPackages [odoo-addon-repair-reinvoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_reinvoice-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-11 07:20:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-reinvoice]: success
+[2024-04-11 07:20:31] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240410.2229.5.tar.gz]
+[2024-04-11 07:20:31] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-11 07:20:31] INFO root fetch - main [MainThread]: Store serial: [22714596]

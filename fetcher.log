@@ -19261,3 +19261,48 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:14:57] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
 [2024-04-11 12:14:57] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2024-04-11 12:14:57] INFO root fetch - main [MainThread]: Store serial: [22717977]
+[2024-04-11 12:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717977]
+[2024-04-11 12:17:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 12:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-11 12:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roktools
+[2024-04-11 12:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valx
+[2024-04-11 12:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agency-swarm
+[2024-04-11 12:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-stock-available-to-promise-release-block
+[2024-04-11 12:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fiddler-client
+[2024-04-11 12:17:06] INFO root fetch - processPackages [roktools]: New version: [6.0.3] Old Version: [6.0.1]
+[2024-04-11 12:17:06] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/7e/e8/a6597b43af6b980753e55b456b164b6f48eaacbba368fb896cbf469a8d82/roktools-6.0.1.tar.gz
+[2024-04-11 12:17:06] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 12:17:06] WARNING root fetch - processPackages [valx]: Skipping, unable to determine old version
+[2024-04-11 12:17:06] INFO root fetch - main [MainThread]: End processing [valx] error
+[2024-04-11 12:17:06] INFO root fetch - processPackages [agency-swarm]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-11 12:17:06] WARNING root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: Skipping, unable to determine old version
+[2024-04-11 12:17:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-available-to-promise-release-block] error
+[2024-04-11 12:17:06] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev1] Old Version: [3.0.0.dev9]
+[2024-04-11 12:17:07] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 12:17:07] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/5c/2c/62c053edc7517729f24d2dc31b3ce33c8839e09888bb8812108e6a11393c/agency-swarm-0.1.6.tar.gz
+[2024-04-11 12:17:07] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/0b/15/2d112d8c0a0629a003daaf8a9962af3239c79f88c88297ab0c176bedc50f/roktools-6.0.3.tar.gz
+[2024-04-11 12:17:07] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/ff/e1/4f0bace7747053b705b1b7aae20344f14657b7e98f7742553847e34590cb/fiddler-client-3.0.0.dev9.tar.gz
+[2024-04-11 12:17:07] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-04-11 12:17:07] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-6.0.1.tar.gz tmp/roktools-6.0.3.tar.gz --markdown 20240411/r/roktools/6.0.1-6.0.3/README.md --exclude *.pyd
+[2024-04-11 12:17:07] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/6e/3e/1f24708d13dc9b38702c409187fa2976b31dd4c1fad78ff11615b4f3da66/agency-swarm-0.1.7.tar.gz
+[2024-04-11 12:17:07] INFO root fetch - processPackages [agency-swarm]: executing diffoscope
+[2024-04-11 12:17:07] INFO root fetch - processPackages [agency-swarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency-swarm-0.1.6.tar.gz tmp/agency-swarm-0.1.7.tar.gz --markdown 20240411/a/agency-swarm/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-11 12:17:07] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/08/ea/1f0e0c4bf6978125bb6d32314f0dcebce3728dfce8fa0ef3106948b4d899/fiddler-client-3.1.0.dev1.tar.gz
+[2024-04-11 12:17:07] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-04-11 12:17:07] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.0.0.dev9.tar.gz tmp/fiddler-client-3.1.0.dev1.tar.gz --markdown 20240411/f/fiddler-client/3.0.0.dev9-3.1.0.dev1/README.md --exclude *.pyd
+[2024-04-11 12:17:07] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.0.1.tar.gz]
+[2024-04-11 12:17:07] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.0.3.tar.gz]
+[2024-04-11 12:17:07] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-04-11 12:17:08] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 12:17:08] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency-swarm-0.1.6.tar.gz]
+[2024-04-11 12:17:08] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency-swarm-0.1.7.tar.gz]
+[2024-04-11 12:17:08] INFO root fetch - main [MainThread]: End processing [agency-swarm]: success
+[2024-04-11 12:17:08] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.0.0.dev9.tar.gz]
+[2024-04-11 12:17:08] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev1.tar.gz]
+[2024-04-11 12:17:08] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-04-11 12:17:09] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 12:17:09] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 12:17:10] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 12:17:10] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 12:17:10] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 12:17:10] INFO root fetch - main [MainThread]: Store serial: [22717998]

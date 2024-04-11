@@ -9073,3 +9073,24 @@ EOFError: EOF read where object expected
 [2024-04-11 04:36:34] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.1.tar.gz]
 [2024-04-11 04:36:34] INFO root fetch - main [MainThread]: End processing [qrawl]: success
 [2024-04-11 04:36:34] INFO root fetch - main [MainThread]: Store serial: [22713389]
+[2024-04-11 04:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713389]
+[2024-04-11 04:38:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 04:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaoranli
+[2024-04-11 04:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-04-11 04:38:43] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.20]
+[2024-04-11 04:38:43] INFO root fetch - processPackages [policyengine-us]: New version: [0.727.2] Old Version: [0.727.1]
+[2024-04-11 04:38:43] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f7/6e/a12a47a7bdb71a2d6eb431a1e46e4e665d5658651ac1239ad789e160aed6/policyengine-us-0.727.1.tar.gz
+[2024-04-11 04:38:43] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/91/1c/390b00de5e7454664821fd009d6c0ef01e4775e09ade786e2df74fa8ad0a/xiaoranli-0.7.20-py3-none-any.whl
+[2024-04-11 04:38:44] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/0a/49/edf7e57c3600c0e1e76ece6870bedfe1d2e67a205020eef5104d580e45ce/policyengine-us-0.727.2.tar.gz
+[2024-04-11 04:38:44] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-11 04:38:44] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-11 04:38:44] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.20-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240411/x/xiaoranli/0.7.20-0.7.8/README.md --exclude *.pyd
+[2024-04-11 04:38:44] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-11 04:38:44] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.727.1.tar.gz tmp/policyengine-us-0.727.2.tar.gz --markdown 20240411/p/policyengine-us/0.727.1-0.727.2/README.md --exclude *.pyd
+[2024-04-11 04:38:45] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.20-py3-none-any.whl.zip]
+[2024-04-11 04:38:45] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-04-11 04:38:45] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-11 04:39:15] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.727.1.tar.gz]
+[2024-04-11 04:39:15] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.727.2.tar.gz]
+[2024-04-11 04:39:15] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-11 04:39:15] INFO root fetch - main [MainThread]: Store serial: [22713394]

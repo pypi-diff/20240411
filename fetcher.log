@@ -9223,3 +9223,58 @@ EOFError: EOF read where object expected
 [2024-04-11 04:47:41] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.8.0.tar.gz]
 [2024-04-11 04:47:41] INFO root fetch - main [MainThread]: End processing [abstra]: success
 [2024-04-11 04:47:41] INFO root fetch - main [MainThread]: Store serial: [22713513]
+[2024-04-11 04:49:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713513]
+[2024-04-11 04:49:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bttc
+[2024-04-11 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tigeropen
+[2024-04-11 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kucoin-futures-lib
+[2024-04-11 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arxiv-client
+[2024-04-11 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2024-04-11 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2024-04-11 04:49:49] INFO root fetch - processPackages [arxiv-client]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-11 04:49:49] INFO root fetch - processPackages [bttc]: New version: [0.0.73.9] Old Version: [0.0.73.8]
+[2024-04-11 04:49:49] INFO root fetch - processPackages [kucoin-futures-lib]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-11 04:49:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-11 04:49:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-11 04:49:49] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/46/f7/5e12898213af8bf0e4f6a17555add6cfe117b39f1213cd24cc8998bbed01/kucoin_futures_lib-0.5.0.tar.gz
+[2024-04-11 04:49:49] INFO root fetch - processPackages [tigeropen]: New version: [3.2.3] Old Version: [3.2.2]
+[2024-04-11 04:49:50] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/cd/55/11faa95e72946fe97d5b64f98b5f25729ac80e83d355877d785ccc1f9d34/arxiv_client-0.2.3.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/80/a6/d190e751187f05a579dc150f81153aff3c44744dcdb5278403d98cf365b6/bttc-0.0.73.8.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/f6/85/e52b803740334ff5d8c7cb0d5449a9c2299714e475cf44f7eb09327fe2e0/tigeropen-3.2.2.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/5a/30/311f4601a6fd4781cfa805b010153a237452969938a8b109573c47da54a5/kucoin_futures_lib-0.6.0.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/00/2c/75a1f7a4149a243aa1cc06c9d4dd82e493e8fb7cc14b37cc591f78a9cc99/arxiv_client-0.2.4.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/f2/f1/06743ed185b36dc6a588af3f1791947e92a0b31acc0e0f40eb77eea5a2fe/bttc-0.0.73.9.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240411/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-11 04:49:50] INFO root fetch - processPackages [kucoin-futures-lib]: executing diffoscope
+[2024-04-11 04:49:50] INFO root fetch - processPackages [kucoin-futures-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin_futures_lib-0.5.0.tar.gz tmp/kucoin_futures_lib-0.6.0.tar.gz --markdown 20240411/k/kucoin-futures-lib/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-11 04:49:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240411/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-11 04:49:50] INFO root fetch - processPackages [arxiv-client]: executing diffoscope
+[2024-04-11 04:49:50] INFO root fetch - processPackages [arxiv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_client-0.2.3.tar.gz tmp/arxiv_client-0.2.4.tar.gz --markdown 20240411/a/arxiv-client/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-11 04:49:50] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-11 04:49:50] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.8.tar.gz tmp/bttc-0.0.73.9.tar.gz --markdown 20240411/b/bttc/0.0.73.8-0.0.73.9/README.md --exclude *.pyd
+[2024-04-11 04:49:50] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/c2/a4/431edc903985059d1ea725f2e73aba6088a0b4e3b183c0ac205823763830/tigeropen-3.2.3.tar.gz
+[2024-04-11 04:49:50] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2024-04-11 04:49:50] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-3.2.2.tar.gz tmp/tigeropen-3.2.3.tar.gz --markdown 20240411/t/tigeropen/3.2.2-3.2.3/README.md --exclude *.pyd
+[2024-04-11 04:49:51] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.5.0.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.6.0.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib]: success
+[2024-04-11 04:49:51] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-11 04:49:51] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.2.3.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.2.4.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - main [MainThread]: End processing [arxiv-client]: success
+[2024-04-11 04:49:51] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.8.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.9.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-11 04:49:51] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-11 04:49:51] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.2.2.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.2.3.tar.gz]
+[2024-04-11 04:49:51] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2024-04-11 04:49:51] INFO root fetch - main [MainThread]: Store serial: [22713542]

@@ -14640,3 +14640,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:17:53] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
 [2024-04-11 10:17:53] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
 [2024-04-11 10:17:53] INFO root fetch - main [MainThread]: Store serial: [22716224]
+[2024-04-11 10:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716224]
+[2024-04-11 10:20:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 10:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scematk
+[2024-04-11 10:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linktest
+[2024-04-11 10:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okdata-sdk
+[2024-04-11 10:20:02] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-11 10:20:02] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-11 10:20:02] INFO root fetch - processPackages [okdata-sdk]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-11 10:20:02] INFO root fetch - processPackages [linktest]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-11 10:20:03] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/bf/12/9fe60096dd2713951660b6d92f14f7e8224adff6af590ba7507baa9a957d/linktest-2.3.8.tar.gz
+[2024-04-11 10:20:03] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-11 10:20:03] INFO root fetch - processPackages [okdata-sdk]: Downloading https://files.pythonhosted.org/packages/ae/88/a5859f99507ff66cb55e48c8f78279c8f9b87ad70afee8b97af7ffde716b/okdata-sdk-3.1.0.tar.gz
+[2024-04-11 10:20:03] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-11 10:20:03] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240411/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-11 10:20:03] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/99/56/f5938f127bdc0ac9de707f712ade1b485ae8ca7381c20414f06838519381/linktest-2.3.9.tar.gz
+[2024-04-11 10:20:03] INFO root fetch - processPackages [okdata-sdk]: Downloading https://files.pythonhosted.org/packages/f1/26/24a06956128b7373089938e833395925faf406c3e31fa94006192c6e7b9a/okdata-sdk-3.1.1.tar.gz
+[2024-04-11 10:20:03] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-11 10:20:03] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.3.8.tar.gz tmp/linktest-2.3.9.tar.gz --markdown 20240411/l/linktest/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-11 10:20:03] INFO root fetch - processPackages [okdata-sdk]: executing diffoscope
+[2024-04-11 10:20:03] INFO root fetch - processPackages [okdata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okdata-sdk-3.1.0.tar.gz tmp/okdata-sdk-3.1.1.tar.gz --markdown 20240411/o/okdata-sdk/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-04-11 10:20:03] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-11 10:20:03] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-11 10:20:03] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-11 10:20:04] INFO root fetch - processPackages [okdata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/okdata-sdk-3.1.0.tar.gz]
+[2024-04-11 10:20:04] INFO root fetch - processPackages [okdata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/okdata-sdk-3.1.1.tar.gz]
+[2024-04-11 10:20:04] INFO root fetch - main [MainThread]: End processing [okdata-sdk]: success
+[2024-04-11 10:20:04] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.3.8.tar.gz]
+[2024-04-11 10:20:04] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.3.9.tar.gz]
+[2024-04-11 10:20:04] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-11 10:20:04] INFO root fetch - main [MainThread]: Store serial: [22716247]

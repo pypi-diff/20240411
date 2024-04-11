@@ -3073,3 +3073,179 @@ EOFError: EOF read where object expected
 [2024-04-11 02:28:18] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
 [2024-04-11 02:28:18] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2024-04-11 02:28:18] INFO root fetch - main [MainThread]: Store serial: [22711477]
+[2024-04-11 02:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711477]
+[2024-04-11 02:30:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 02:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-rando
+[2024-04-11 02:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-11 02:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basicbedrock
+[2024-04-11 02:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kayalab
+[2024-04-11 02:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intecomm-edc
+[2024-04-11 02:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iree-runtime
+[2024-04-11 02:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aeppl-nightly
+[2024-04-11 02:30:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-11 02:30:28] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240410] Old Version: [0.1.5.dev20240409]
+[2024-04-11 02:30:28] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-11 02:30:28] INFO root fetch - processPackages [basicbedrock]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 02:30:28] INFO root fetch - processPackages [intecomm-rando]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 02:30:28] INFO root fetch - processPackages [intecomm-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 02:30:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/43/00/31f0bbdf29113a4d6e01a97418c2aa6be2849e1cad2201c6f970a4c38886/aeppl-nightly-0.1.5.dev20240409.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [iree-runtime]: New version: [20240410.859] Old Version: [20240226.813]
+[2024-04-11 02:30:28] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/d0/97/ecf9f67b83183627031e23c9a86fc95dcc8919382c8577639423d545decb/basicbedrock-0.1.0.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/95/7e/91688931664f03b9e0b33b457b317a3c56b1a56f2296576c6566f791acb9/intecomm-edc-0.2.8.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [intecomm-rando]: Downloading https://files.pythonhosted.org/packages/c1/8c/e75803f118b1ef4665d68abda316a5d10344a6877ba8f82cfc9b888022de/intecomm-rando-0.1.8.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-11 02:30:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240411/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-11 02:30:28] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/6a/85/d7365b6b9b116a42330b7302a2ab8f0ad45b9ffe00fcfea7ebf67ce4d611/aeppl-nightly-0.1.5.dev20240410.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/61/a0/f1ab8f076c72c515c2a6ed2751a7bd4b07bbe390d69c388d672164794562/basicbedrock-0.1.1.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-11 02:30:28] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240409.tar.gz tmp/aeppl-nightly-0.1.5.dev20240410.tar.gz --markdown 20240411/a/aeppl-nightly/0.1.5.dev20240409-0.1.5.dev20240410/README.md --exclude *.pyd
+[2024-04-11 02:30:28] INFO root fetch - processPackages [basicbedrock]: executing diffoscope
+[2024-04-11 02:30:28] INFO root fetch - processPackages [basicbedrock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicbedrock-0.1.0.tar.gz tmp/basicbedrock-0.1.1.tar.gz --markdown 20240411/b/basicbedrock/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 02:30:28] INFO root fetch - processPackages [intecomm-rando]: Downloading https://files.pythonhosted.org/packages/4e/61/fe312626b623c93f3cc9a252982c7cdfab2cbd3e7b4f04b458a4046401ab/intecomm-rando-0.1.9.tar.gz
+[2024-04-11 02:30:28] INFO root fetch - processPackages [intecomm-rando]: executing diffoscope
+[2024-04-11 02:30:28] INFO root fetch - processPackages [intecomm-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-rando-0.1.8.tar.gz tmp/intecomm-rando-0.1.9.tar.gz --markdown 20240411/i/intecomm-rando/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 02:30:29] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/d8/f7/da7970f16a11303f171ea066f66e06b546fa84ee58cd6cfd9da33905321f/intecomm-edc-0.2.9.tar.gz
+[2024-04-11 02:30:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-11 02:30:29] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2024-04-11 02:30:29] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.2.8.tar.gz tmp/intecomm-edc-0.2.9.tar.gz --markdown 20240411/i/intecomm-edc/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 02:30:29] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.0.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.1.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - main [MainThread]: End processing [basicbedrock]: success
+[2024-04-11 02:30:29] INFO root fetch - processPackages [intecomm-rando]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-rando-0.1.8.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - processPackages [intecomm-rando]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-rando-0.1.9.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - main [MainThread]: End processing [intecomm-rando]: success
+[2024-04-11 02:30:29] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240409.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240410.tar.gz]
+[2024-04-11 02:30:29] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-11 02:30:30] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-04-11 02:30:31] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-04-11 02:30:31] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240411/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-11 02:30:32] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.8.tar.gz]
+[2024-04-11 02:30:32] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
+[2024-04-11 02:30:32] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2024-04-11 02:30:34] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-04-11 02:30:34] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-04-11 02:30:34] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-04-11 02:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711477]
+[2024-04-11 02:32:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-rando
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basicbedrock
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kayalab
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intecomm-edc
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iree-runtime
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aeppl-nightly
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vidsrc-search
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kayalab
+[2024-04-11 02:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: launchflow
+[2024-04-11 02:32:43] INFO root fetch - processPackages [vidsrc-search]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [iree-runtime]: New version: [20240410.859] Old Version: [20240226.813]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [basicbedrock]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-rando]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240411] Old Version: [0.1.5.dev20240410]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-04-11 02:32:44] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/6c/aa/52b4bdab2df25eaa9f7741b8356390deced3a41724c26c542ae2245686f4/vidsrc-search-0.1.3.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/d0/97/ecf9f67b83183627031e23c9a86fc95dcc8919382c8577639423d545decb/basicbedrock-0.1.0.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-rando]: Downloading https://files.pythonhosted.org/packages/c1/8c/e75803f118b1ef4665d68abda316a5d10344a6877ba8f82cfc9b888022de/intecomm-rando-0.1.8.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/95/7e/91688931664f03b9e0b33b457b317a3c56b1a56f2296576c6566f791acb9/intecomm-edc-0.2.8.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [iree-runtime]: Downloading https://files.pythonhosted.org/packages/8d/58/783ceac81fe001fe4721183c0ae3af9d8933fc7f7b4761e3c1d663d4ea29/iree_runtime-20240226.813-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-11 02:32:44] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/6a/85/d7365b6b9b116a42330b7302a2ab8f0ad45b9ffe00fcfea7ebf67ce4d611/aeppl-nightly-0.1.5.dev20240410.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-rando]: Downloading https://files.pythonhosted.org/packages/4e/61/fe312626b623c93f3cc9a252982c7cdfab2cbd3e7b4f04b458a4046401ab/intecomm-rando-0.1.9.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [basicbedrock]: Downloading https://files.pythonhosted.org/packages/61/a0/f1ab8f076c72c515c2a6ed2751a7bd4b07bbe390d69c388d672164794562/basicbedrock-0.1.1.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/d8/f7/da7970f16a11303f171ea066f66e06b546fa84ee58cd6cfd9da33905321f/intecomm-edc-0.2.9.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/47/ae/d5f4b6f267f94099e7d80a268a7d5570be8279c9e9a33fd0f09084e0e4af/vidsrc-search-0.1.4.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-11 02:32:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240411/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-11 02:32:44] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/b3/e2/0eb72f8c02eacb38f4b08eb2c1f540e82ffec9dbdec792be152bea62b429/aeppl-nightly-0.1.5.dev20240411.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-rando]: executing diffoscope
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-rando-0.1.8.tar.gz tmp/intecomm-rando-0.1.9.tar.gz --markdown 20240411/i/intecomm-rando/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 02:32:44] INFO root fetch - processPackages [basicbedrock]: executing diffoscope
+[2024-04-11 02:32:44] INFO root fetch - processPackages [basicbedrock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicbedrock-0.1.0.tar.gz tmp/basicbedrock-0.1.1.tar.gz --markdown 20240411/b/basicbedrock/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 02:32:44] INFO root fetch - processPackages [vidsrc-search]: executing diffoscope
+[2024-04-11 02:32:44] INFO root fetch - processPackages [vidsrc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidsrc-search-0.1.3.tar.gz tmp/vidsrc-search-0.1.4.tar.gz --markdown 20240411/v/vidsrc-search/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-11 02:32:44] INFO root fetch - processPackages [iree-runtime]: Downloading https://files.pythonhosted.org/packages/6b/a9/907a79489189876098b3f487e183d8c546041b3eff34e5cc588c4e8c2a8f/iree_runtime-20240410.859-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-11 02:32:44] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-11 02:32:44] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240410.tar.gz tmp/aeppl-nightly-0.1.5.dev20240411.tar.gz --markdown 20240411/a/aeppl-nightly/0.1.5.dev20240410-0.1.5.dev20240411/README.md --exclude *.pyd
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2024-04-11 02:32:44] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.2.8.tar.gz tmp/intecomm-edc-0.2.9.tar.gz --markdown 20240411/i/intecomm-edc/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 02:32:44] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-04-11 02:32:44] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-04-11 02:32:45] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-11 02:32:45] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240411/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-04-11 02:32:45] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-04-11 02:32:45] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240411/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-11 02:32:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: SQLDataModel
+[2024-04-11 02:32:45] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-11 02:32:45] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-04-11 02:32:45] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240411/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-11 02:32:45] INFO root fetch - processPackages [SQLDataModel]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [intecomm-rando]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-rando-0.1.8.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [intecomm-rando]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-rando-0.1.9.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [intecomm-rando]: Start processing: python-sat
+[2024-04-11 02:32:45] INFO root fetch - main [MainThread]: End processing [intecomm-rando]: success
+[2024-04-11 02:32:45] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.1.3.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.1.4.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [vidsrc-search]: Start processing: weni-rp-apps
+[2024-04-11 02:32:45] INFO root fetch - main [MainThread]: End processing [vidsrc-search]: success
+[2024-04-11 02:32:45] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.8.1] Old Version: [2.8.0a8]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.0.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [basicbedrock]: Remove: archive file [/home/abi/fetcher/tmp/basicbedrock-0.1.1.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - main [MainThread]: End processing [basicbedrock]: success
+[2024-04-11 02:32:45] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/93/a1/ae384f7bd44637c9b2399b96aeacf6e3dc5e22bf69973012d10ff78580b8/SQLDataModel-0.3.6.tar.gz
+[2024-04-11 02:32:45] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240410.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240411.tar.gz]
+[2024-04-11 02:32:45] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-11 02:32:45] INFO root fetch - processPackages [python-sat]: New version: [1.8.dev9] Old Version: [1.8.dev8]
+[2024-04-11 02:32:46] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/89/94/a9e1bb270572feca2886792653e0f7e674f19e087eb64f2c467e4e874dc6/weni_rp_apps-2.8.0a8.tar.gz
+[2024-04-11 02:32:46] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-04-11 02:32:46] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-04-11 02:32:46] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-11 02:32:46] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/e0/21/db77eab3c3c97028b8108196f885fa3664d8c13d102acbb71cd21e1393ee/SQLDataModel-0.3.7.tar.gz
+[2024-04-11 02:32:46] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/63/b4/ae527b84f3619dbc9cd55ecb25f8610e81022286b3f26915527c0275951b/python-sat-1.8.dev8.tar.gz
+[2024-04-11 02:32:46] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/17/c8/7a6ef98fcb1a70afabf54b51689fc3d7df2d2b823ba392447c6a83fa68a3/weni_rp_apps-2.8.1.tar.gz
+[2024-04-11 02:32:46] INFO root fetch - processPackages [SQLDataModel]: executing diffoscope
+[2024-04-11 02:32:46] INFO root fetch - processPackages [SQLDataModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLDataModel-0.3.6.tar.gz tmp/SQLDataModel-0.3.7.tar.gz --markdown 20240411/S/SQLDataModel/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-11 02:32:46] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2024-04-11 02:32:46] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.8.0a8.tar.gz tmp/weni_rp_apps-2.8.1.tar.gz --markdown 20240411/w/weni-rp-apps/2.8.0a8-2.8.1/README.md --exclude *.pyd
+[2024-04-11 02:32:46] INFO root fetch - processPackages [iree-runtime]: executing diffoscope
+[2024-04-11 02:32:46] INFO root fetch - processPackages [iree-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iree_runtime-20240226.813-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/iree_runtime-20240410.859-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240411/i/iree-runtime/20240226.813-20240410.859/README.md --exclude *.pyd
+[2024-04-11 02:32:47] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/73/f6/4ac4fc5a70a70cda807cdf434544823996baa36a3f67549676d3a0390166/python-sat-1.8.dev9.tar.gz
+[2024-04-11 02:32:47] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/SQLDataModel-0.3.6.tar.gz]
+[2024-04-11 02:32:47] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/SQLDataModel-0.3.7.tar.gz]
+[2024-04-11 02:32:47] INFO root fetch - main [MainThread]: End processing [SQLDataModel]: success
+[2024-04-11 02:32:47] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.8.0a8.tar.gz]
+[2024-04-11 02:32:47] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.8.1.tar.gz]
+[2024-04-11 02:32:47] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2024-04-11 02:32:47] INFO root fetch - processPackages [python-sat]: executing diffoscope
+[2024-04-11 02:32:47] INFO root fetch - processPackages [python-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sat-1.8.dev8.tar.gz tmp/python-sat-1.8.dev9.tar.gz --markdown 20240411/p/python-sat/1.8.dev8-1.8.dev9/README.md --exclude *.pyd
+[2024-04-11 02:32:48] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.8.tar.gz]
+[2024-04-11 02:32:48] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
+[2024-04-11 02:32:48] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2024-04-11 02:32:48] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-04-11 02:32:48] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-04-11 02:32:48] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-04-11 02:32:48] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-04-11 02:32:48] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-1.8.dev8.tar.gz]
+[2024-04-11 02:32:48] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-1.8.dev9.tar.gz]
+[2024-04-11 02:32:48] INFO root fetch - main [MainThread]: End processing [python-sat]: success
+[2024-04-11 02:34:16] INFO root fetch - processPackages [iree-runtime]: Remove: archive file [/home/abi/fetcher/tmp/iree_runtime-20240226.813-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-11 02:34:16] INFO root fetch - processPackages [iree-runtime]: Remove: archive file [/home/abi/fetcher/tmp/iree_runtime-20240410.859-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-11 02:34:16] INFO root fetch - main [MainThread]: End processing [iree-runtime]: success
+[2024-04-11 02:34:16] INFO root fetch - main [MainThread]: Store serial: [22711538]

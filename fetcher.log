@@ -14798,3 +14798,119 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:29:37] ERROR root fetch - processPackages [aspose-diagram]: Timeout during execution of pkgdiff
 [2024-04-11 10:29:37] INFO root fetch - main [MainThread]: End processing [aspose-diagram] error
 [2024-04-11 10:29:37] INFO root fetch - main [MainThread]: Store serial: [22716368]
+[2024-04-11 10:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716368]
+[2024-04-11 10:31:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyasd
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rl-deploy
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssb-dash-components
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: annet
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telq
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: insightconnect-plugin-runtime
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dflow-galaxy
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: persona_ai
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: masspcf
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bisheng-pyautogen
+[2024-04-11 10:31:46] INFO root fetch - processPackages [pyasd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [rl-deploy]: New version: [2.0.1.0] Old Version: [2.0.0.0]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [persona_ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [telq]: New version: [1.3.0] Old Version: [0.1.2]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ssb-dash-components]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [bisheng-pyautogen]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-11 10:31:46] WARNING root fetch - processPackages [masspcf]: Skipping, unable to determine old version
+[2024-04-11 10:31:46] INFO root fetch - processPackages [masspcf]: Start processing: nonebot-plugin-bilichat
+[2024-04-11 10:31:46] INFO root fetch - main [MainThread]: End processing [masspcf] error
+[2024-04-11 10:31:46] INFO root fetch - processPackages [dflow-galaxy]: New version: [0.1.6] Old Version: [0.1.5.post5]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [insightconnect-plugin-runtime]: New version: [5.4.7] Old Version: [5.4.6]
+[2024-04-11 10:31:46] INFO root fetch - processPackages [rl-deploy]: Downloading https://files.pythonhosted.org/packages/57/aa/a627c2a21b9727ab690e7733f89078eb3d1f5658c2f226dd9a4f637c1348/rl_deploy-2.0.0.0-py2.py3-none-win_amd64.whl
+[2024-04-11 10:31:46] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-04-11 10:31:46] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/1e/3c/e5da3440b3de1912ef22aa718f0ba2bdd5adfc11c88683f2b96d50aa99f5/pyasd-0.0.8.tar.gz
+[2024-04-11 10:31:46] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/c7/96/e07855a68dfd8fad0de913214c37f36448bf551040b3d84818acbd0dce6b/ssb_dash_components-0.6.1.tar.gz
+[2024-04-11 10:31:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.4.2] Old Version: [5.4.1]
+[2024-04-11 10:31:47] INFO root fetch - processPackages [telq]: Downloading https://files.pythonhosted.org/packages/1b/39/35372f79e3105f574e63b800e90b2c57f5947af2a2ff3712d84056bfbdbc/telq-0.1.2.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [bisheng-pyautogen]: Downloading https://files.pythonhosted.org/packages/fa/cf/62c338e67ce6f113c8add674d40bd9a134252bbaa6739744489ba4bfef6a/bisheng_pyautogen-0.2.1-py3-none-any.whl
+[2024-04-11 10:31:47] INFO root fetch - processPackages [dflow-galaxy]: Downloading https://files.pythonhosted.org/packages/d1/ad/dee2aa7ee7282436a0c02affd2b7716a6c5833f520e80eb3afe5b4946853/dflow_galaxy-0.1.5.post5.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/43/b7/ad2bd5e0fec59b34d6d8b2bfdf93f9e53099a72e345f3e4db35d051877cf/persona_ai-0.1.0.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/be/4d/47cf4e63a396e03a6926f83a635612e0b7b0ec39dcfcf89f73bff7a66709/insightconnect-plugin-runtime-5.4.6.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/a6/f2/0f49f22f521007666cb8845f9db5e55c3e65806daaf131550adeca2150da/nonebot_plugin_bilichat-5.4.1.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [rl-deploy]: Downloading https://files.pythonhosted.org/packages/6a/61/7b08c00923cfac23c917265b6ce2a712c888c4679c7ab1d036f9d484f472/rl_deploy-2.0.1.0-py2.py3-none-win_amd64.whl
+[2024-04-11 10:31:47] INFO root fetch - processPackages [telq]: Downloading https://files.pythonhosted.org/packages/e1/06/c63c1408474cf32fdcdb0addffd7ad2223e5573634be576d0b19ee270b9e/telq-1.3.0.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/13/59/befebcc36691c45386f00aae5ecb3994add7243a4e71e3bc0f41fb176bec/ssb_dash_components-0.7.0.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/82/16/f1a02173580a74fed24f629373a8eed9ab8fcd8f14a02a6fff44d466e831/pyasd-0.0.9.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [bisheng-pyautogen]: Downloading https://files.pythonhosted.org/packages/b0/f0/5d1b72cbbc15077766115a70c538729ed9436c8ff062cbc98904e1c31067/bisheng_pyautogen-0.3.0-py3-none-any.whl
+[2024-04-11 10:31:47] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/e5/49/0f02282225fe55eda23c9daa2f119cd61ffe8f2dc0a1d0a93b2f16667d0e/persona_ai-0.1.1.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/df/e0/8c5a735b105110c3b6d63a595367aee389b75c0bd4c530f25cee964d758b/insightconnect-plugin-runtime-5.4.7.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-04-11 10:31:47] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240411/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-04-11 10:31:47] INFO root fetch - processPackages [telq]: executing diffoscope
+[2024-04-11 10:31:47] INFO root fetch - processPackages [telq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telq-0.1.2.tar.gz tmp/telq-1.3.0.tar.gz --markdown 20240411/t/telq/0.1.2-1.3.0/README.md --exclude *.pyd
+[2024-04-11 10:31:47] INFO root fetch - processPackages [dflow-galaxy]: Downloading https://files.pythonhosted.org/packages/c2/55/d4cd8160a00fbdfff6e9e662eed554d64c4ba8f837bf1cb2b0710f6d9bba/dflow_galaxy-0.1.6.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [ssb-dash-components]: executing diffoscope
+[2024-04-11 10:31:47] INFO root fetch - processPackages [ssb-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_dash_components-0.6.1.tar.gz tmp/ssb_dash_components-0.7.0.tar.gz --markdown 20240411/s/ssb-dash-components/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-11 10:31:47] INFO root fetch - processPackages [pyasd]: executing diffoscope
+[2024-04-11 10:31:47] INFO root fetch - processPackages [pyasd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasd-0.0.8.tar.gz tmp/pyasd-0.0.9.tar.gz --markdown 20240411/p/pyasd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 10:31:47] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/a3/2f/ae805999b6bf4c3a27797273c8003b07ca10b74f71332e98e82c774fa08e/nonebot_plugin_bilichat-5.4.2.tar.gz
+[2024-04-11 10:31:47] INFO root fetch - processPackages [persona_ai]: executing diffoscope
+[2024-04-11 10:31:47] INFO root fetch - processPackages [persona_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persona_ai-0.1.0.tar.gz tmp/persona_ai-0.1.1.tar.gz --markdown 20240411/p/persona_ai/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-11 10:31:47] INFO root fetch - processPackages [bisheng-pyautogen]: executing diffoscope
+[2024-04-11 10:31:47] INFO root fetch - processPackages [bisheng-pyautogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisheng_pyautogen-0.2.1-py3-none-any.whl.zip tmp/bisheng_pyautogen-0.3.0-py3-none-any.whl.zip --markdown 20240411/b/bisheng-pyautogen/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-11 10:31:48] INFO root fetch - processPackages [insightconnect-plugin-runtime]: executing diffoscope
+[2024-04-11 10:31:48] INFO root fetch - processPackages [insightconnect-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect-plugin-runtime-5.4.6.tar.gz tmp/insightconnect-plugin-runtime-5.4.7.tar.gz --markdown 20240411/i/insightconnect-plugin-runtime/5.4.6-5.4.7/README.md --exclude *.pyd
+[2024-04-11 10:31:48] INFO root fetch - processPackages [rl-deploy]: executing diffoscope
+[2024-04-11 10:31:48] INFO root fetch - processPackages [rl-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_deploy-2.0.0.0-py2.py3-none-win_amd64.whl.zip tmp/rl_deploy-2.0.1.0-py2.py3-none-win_amd64.whl.zip --markdown 20240411/r/rl-deploy/2.0.0.0-2.0.1.0/README.md --exclude *.pyd
+[2024-04-11 10:31:48] INFO root fetch - processPackages [dflow-galaxy]: executing diffoscope
+[2024-04-11 10:31:48] INFO root fetch - processPackages [dflow-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dflow_galaxy-0.1.5.post5.tar.gz tmp/dflow_galaxy-0.1.6.tar.gz --markdown 20240411/d/dflow-galaxy/0.1.5.post5-0.1.6/README.md --exclude *.pyd
+[2024-04-11 10:31:48] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-04-11 10:31:48] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.4.1.tar.gz tmp/nonebot_plugin_bilichat-5.4.2.tar.gz --markdown 20240411/n/nonebot-plugin-bilichat/5.4.1-5.4.2/README.md --exclude *.pyd
+[2024-04-11 10:31:50] INFO root fetch - processPackages [telq]: Remove: archive file [/home/abi/fetcher/tmp/telq-0.1.2.tar.gz]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [telq]: Remove: archive file [/home/abi/fetcher/tmp/telq-1.3.0.tar.gz]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [telq]: Start processing: bmt_py
+[2024-04-11 10:31:50] INFO root fetch - main [MainThread]: End processing [telq]: success
+[2024-04-11 10:31:50] WARNING root fetch - processPackages [bmt_py]: Skipping, unable to determine old version
+[2024-04-11 10:31:50] INFO root fetch - processPackages [bmt_py]: Start processing: minio_async_client
+[2024-04-11 10:31:50] INFO root fetch - main [MainThread]: End processing [bmt_py] error
+[2024-04-11 10:31:50] WARNING root fetch - processPackages [minio_async_client]: Skipping, unable to determine old version
+[2024-04-11 10:31:50] INFO root fetch - processPackages [minio_async_client]: Start processing: qleegss
+[2024-04-11 10:31:50] INFO root fetch - main [MainThread]: End processing [minio_async_client] error
+[2024-04-11 10:31:50] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.0.tar.gz]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.1.tar.gz]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [persona_ai]: Start processing: quantplay
+[2024-04-11 10:31:50] INFO root fetch - main [MainThread]: End processing [persona_ai]: success
+[2024-04-11 10:31:50] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect-plugin-runtime-5.4.6.tar.gz]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect-plugin-runtime-5.4.7.tar.gz]
+[2024-04-11 10:31:50] INFO root fetch - main [MainThread]: End processing [insightconnect-plugin-runtime]: success
+[2024-04-11 10:31:50] INFO root fetch - processPackages [bisheng-pyautogen]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_pyautogen-0.2.1-py3-none-any.whl.zip]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [bisheng-pyautogen]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_pyautogen-0.3.0-py3-none-any.whl.zip]
+[2024-04-11 10:31:50] INFO root fetch - main [MainThread]: End processing [bisheng-pyautogen]: success
+[2024-04-11 10:31:50] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-11 10:31:50] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-11 10:31:50] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-11 10:31:50] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-11 10:31:50] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.8.tar.gz]
+[2024-04-11 10:31:50] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.9.tar.gz]
+[2024-04-11 10:31:51] INFO root fetch - main [MainThread]: End processing [pyasd]: success
+[2024-04-11 10:31:51] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-04-11 10:31:51] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-04-11 10:31:51] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-04-11 10:31:51] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.4.1.tar.gz]
+[2024-04-11 10:31:51] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.4.2.tar.gz]
+[2024-04-11 10:31:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-04-11 10:31:51] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-11 10:31:51] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-11 10:31:51] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240411/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-11 10:31:51] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.5.post5.tar.gz]
+[2024-04-11 10:31:51] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.6.tar.gz]
+[2024-04-11 10:31:51] INFO root fetch - main [MainThread]: End processing [dflow-galaxy]: success
+[2024-04-11 10:31:52] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.6.1.tar.gz]
+[2024-04-11 10:31:52] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.7.0.tar.gz]
+[2024-04-11 10:31:52] INFO root fetch - main [MainThread]: End processing [ssb-dash-components]: success
+[2024-04-11 10:31:52] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-11 10:31:52] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-11 10:31:52] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-11 10:31:57] INFO root fetch - processPackages [rl-deploy]: Remove: archive file [/home/abi/fetcher/tmp/rl_deploy-2.0.0.0-py2.py3-none-win_amd64.whl.zip]
+[2024-04-11 10:31:57] INFO root fetch - processPackages [rl-deploy]: Remove: archive file [/home/abi/fetcher/tmp/rl_deploy-2.0.1.0-py2.py3-none-win_amd64.whl.zip]
+[2024-04-11 10:31:57] INFO root fetch - main [MainThread]: End processing [rl-deploy]: success
+[2024-04-11 10:31:57] INFO root fetch - main [MainThread]: Store serial: [22716412]

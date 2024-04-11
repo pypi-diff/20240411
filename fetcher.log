@@ -23164,3 +23164,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:25:45] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.8.0.tar.gz]
 [2024-04-11 14:25:45] INFO root fetch - main [MainThread]: End processing [parse-it]: success
 [2024-04-11 14:25:45] INFO root fetch - main [MainThread]: Store serial: [22719706]
+[2024-04-11 14:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719706]
+[2024-04-11 14:27:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ops-py-azure-key-vault-report
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-France-Dotations-Locales
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fizz-cli
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valx
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brainscale
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moonstreamdb-v3
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hat-event
+[2024-04-11 14:27:56] WARNING root fetch - processPackages [valx]: Skipping, unable to determine old version
+[2024-04-11 14:27:56] INFO root fetch - main [MainThread]: End processing [valx] error
+[2024-04-11 14:27:56] INFO root fetch - processPackages [hat-event]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-11 14:27:56] WARNING root fetch - processPackages [brainscale]: Skipping, unable to determine old version
+[2024-04-11 14:27:56] INFO root fetch - main [MainThread]: End processing [brainscale] error
+[2024-04-11 14:27:56] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/c1/40/60e7cbc836ba868121d63194f184f1bb86e14f78043407fac10e8ac23dd8/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl
+[2024-04-11 14:27:56] WARNING root fetch - processPackages [fizz-cli]: Skipping, unable to determine old version
+[2024-04-11 14:27:56] INFO root fetch - main [MainThread]: End processing [fizz-cli] error
+[2024-04-11 14:27:56] INFO root fetch - processPackages [moonstreamdb-v3]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-11 14:27:56] INFO root fetch - processPackages [OpenFisca-France-Dotations-Locales]: New version: [3.0.0] Old Version: [2.0.2]
+[2024-04-11 14:27:56] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: New version: [4.0.0] Old Version: [3.3.0]
+[2024-04-11 14:27:57] INFO root fetch - processPackages [OpenFisca-France-Dotations-Locales]: Downloading https://files.pythonhosted.org/packages/45/82/e44d6159e1e6c9c6cbcd98f62b9acbab356af41008ae604737a7f4e8c61d/OpenFisca_France_Dotations_Locales-2.0.2-py3-none-any.whl
+[2024-04-11 14:27:57] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/a1/ba/9302bd04340c48bf87d47378c56b8bad4860b567e599cdf7abd4339d5882/ops-py-azure-key-vault-report-3.3.0.tar.gz
+[2024-04-11 14:27:57] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/63/23/e81fae80c22ae8b4511c50b60f69a97206ba51f6ccbb35e99495709b5458/moonstreamdb-v3-0.0.1.tar.gz
+[2024-04-11 14:27:57] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/9d/19/b48731c32a4c0cf77346d5d7de403d840ed4558d57fa93328b11e519a4fc/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl
+[2024-04-11 14:27:57] INFO root fetch - processPackages [hat-event]: executing diffoscope
+[2024-04-11 14:27:57] INFO root fetch - processPackages [hat-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl.zip tmp/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl.zip --markdown 20240411/h/hat-event/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-11 14:27:57] INFO root fetch - processPackages [OpenFisca-France-Dotations-Locales]: Downloading https://files.pythonhosted.org/packages/f2/33/f45674166d4ed88ef1844f998ddc92b73f93c315d2fad86fc14db49c4e14/OpenFisca_France_Dotations_Locales-3.0.0-py3-none-any.whl
+[2024-04-11 14:27:57] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/5f/97/34cd7cf82aa7fb68634fb5598c8402b649d02395f7c3d44646195d95c316/ops-py-azure-key-vault-report-4.0.0.tar.gz
+[2024-04-11 14:27:57] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/93/c6/8bec414cc66a693041de99b3459f05a8b9a933a8f898bdf6529806ca187e/moonstreamdb-v3-0.0.2.tar.gz
+[2024-04-11 14:27:57] INFO root fetch - processPackages [OpenFisca-France-Dotations-Locales]: executing diffoscope
+[2024-04-11 14:27:57] INFO root fetch - processPackages [OpenFisca-France-Dotations-Locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France_Dotations_Locales-2.0.2-py3-none-any.whl.zip tmp/OpenFisca_France_Dotations_Locales-3.0.0-py3-none-any.whl.zip --markdown 20240411/O/OpenFisca-France-Dotations-Locales/2.0.2-3.0.0/README.md --exclude *.pyd
+[2024-04-11 14:27:57] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: executing diffoscope
+[2024-04-11 14:27:57] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-py-azure-key-vault-report-3.3.0.tar.gz tmp/ops-py-azure-key-vault-report-4.0.0.tar.gz --markdown 20240411/o/ops-py-azure-key-vault-report/3.3.0-4.0.0/README.md --exclude *.pyd
+[2024-04-11 14:27:57] INFO root fetch - processPackages [moonstreamdb-v3]: executing diffoscope
+[2024-04-11 14:27:57] INFO root fetch - processPackages [moonstreamdb-v3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-v3-0.0.1.tar.gz tmp/moonstreamdb-v3-0.0.2.tar.gz --markdown 20240411/m/moonstreamdb-v3/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-11 14:27:58] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl.zip]
+[2024-04-11 14:27:58] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl.zip]
+[2024-04-11 14:27:58] INFO root fetch - main [MainThread]: End processing [hat-event]: success
+[2024-04-11 14:27:58] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-azure-key-vault-report-3.3.0.tar.gz]
+[2024-04-11 14:27:58] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-azure-key-vault-report-4.0.0.tar.gz]
+[2024-04-11 14:27:58] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-report]: success
+[2024-04-11 14:27:58] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.1.tar.gz]
+[2024-04-11 14:27:58] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.2.tar.gz]
+[2024-04-11 14:27:58] INFO root fetch - main [MainThread]: End processing [moonstreamdb-v3]: success
+[2024-04-11 14:27:58] INFO root fetch - processPackages [OpenFisca-France-Dotations-Locales]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France_Dotations_Locales-2.0.2-py3-none-any.whl.zip]
+[2024-04-11 14:27:58] INFO root fetch - processPackages [OpenFisca-France-Dotations-Locales]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France_Dotations_Locales-3.0.0-py3-none-any.whl.zip]
+[2024-04-11 14:27:58] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Dotations-Locales]: success
+[2024-04-11 14:27:58] INFO root fetch - main [MainThread]: Store serial: [22719731]

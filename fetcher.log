@@ -19390,3 +19390,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:21:31] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-11 12:21:31] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-11 12:21:31] INFO root fetch - main [MainThread]: Store serial: [22718029]
+[2024-04-11 12:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718029]
+[2024-04-11 12:23:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-04-11 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-images-creator
+[2024-04-11 12:23:40] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.1] Old Version: [2.0.9]
+[2024-04-11 12:23:40] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 12:23:40] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/27/17/417bd9ca10ad8fe7063060f8a89a4403a2b90974a9552588e118721ef9bf/finbourne_identity_sdk-2.0.9.tar.gz
+[2024-04-11 12:23:40] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 12:23:41] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/b2/1c/9e21df1e97f8b47dcd8bc6f0cc7a7ea848b2f0b955206cd1a1d0b0098c6f/finbourne_identity_sdk-2.1.1.tar.gz
+[2024-04-11 12:23:41] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-11 12:23:41] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.0.9.tar.gz tmp/finbourne_identity_sdk-2.1.1.tar.gz --markdown 20240411/f/finbourne-identity-sdk/2.0.9-2.1.1/README.md --exclude *.pyd
+[2024-04-11 12:23:41] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 12:23:41] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 12:23:41] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 12:23:42] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.0.9.tar.gz]
+[2024-04-11 12:23:42] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.1.tar.gz]
+[2024-04-11 12:23:42] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-11 12:23:42] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 12:23:42] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 12:23:42] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 12:23:42] INFO root fetch - main [MainThread]: Store serial: [22718034]

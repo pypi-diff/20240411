@@ -3249,3 +3249,69 @@ EOFError: EOF read where object expected
 [2024-04-11 02:34:16] INFO root fetch - processPackages [iree-runtime]: Remove: archive file [/home/abi/fetcher/tmp/iree_runtime-20240410.859-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-04-11 02:34:16] INFO root fetch - main [MainThread]: End processing [iree-runtime]: success
 [2024-04-11 02:34:16] INFO root fetch - main [MainThread]: Store serial: [22711538]
+[2024-04-11 02:36:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711538]
+[2024-04-11 02:36:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synapseml
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freedownload
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecha
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flim-labs
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ring-attention-pytorch
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: state-machine-semaphore
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quant2
+[2024-04-11 02:36:35] INFO root fetch - processPackages [quant2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 02:36:35] INFO root fetch - processPackages [flim-labs]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ring-attention-pytorch]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 02:36:35] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-11 02:36:35] INFO root fetch - processPackages [mecha]: New version: [0.93.0] Old Version: [0.92.0]
+[2024-04-11 02:36:35] INFO root fetch - processPackages [freedownload]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-11 02:36:35] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/2b/a5/9d7ca1d525b2199503e6b84207b969e0bcb6beef3048cf3cad355d2ba539/flim_labs-1.0.7-cp39-none-win_amd64.whl
+[2024-04-11 02:36:35] INFO root fetch - processPackages [synapseml]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-11 02:36:35] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/bf/4225581d3021d37874804da989897221f25fc6c93fa5f1b07d38fcbf01d3/quant2-0.0.8.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/64/50/d87eba292a82a901931792586c5292529bc50296787e121708c8cc8ce404/mecha-0.92.0.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/a6/32/99b886c413a1bcd5aba06e93348707d8c7ad6d44e5c52558c50a7ecb9773/ring-attention-pytorch-0.3.8.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/fd/00/147aecf4a57dc11f802cf9846c0b908424e9fc5c9f7b99819a8b13f32e06/freedownload-1.0.3.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [synapseml]: Downloading https://files.pythonhosted.org/packages/c7/a7/e0fa016411ad7553c7b9d7fa043d20b7d81c690d215f8d58502dee44a4c8/synapseml-1.0.3-py2.py3-none-any.whl
+[2024-04-11 02:36:35] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/14/b2/02902adfc8374a2d4e7cf6e11c97319142fb7a2f1565e78bcc91dd0cd825/quant2-0.0.9.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/be/cc/661abf9ad2226b0e543df6658ad23709481a7e1caffa2c7ff2a5ccbec9d1/ring-attention-pytorch-0.3.9.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/8b/8e/983f9eb932c914bac6c13a5cacacf39d2d90db91bbf91978160d3eff7132/mecha-0.93.0.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/97/bf/1e9f32b4bd313feb87eb49da5551b2d09d968c2d2fdfe0543a41ebb9ac99/flim_labs-1.0.9-cp39-none-win_amd64.whl
+[2024-04-11 02:36:35] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-11 02:36:35] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.0.8.tar.gz tmp/quant2-0.0.9.tar.gz --markdown 20240411/q/quant2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ring-attention-pytorch]: executing diffoscope
+[2024-04-11 02:36:35] INFO root fetch - processPackages [ring-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ring-attention-pytorch-0.3.8.tar.gz tmp/ring-attention-pytorch-0.3.9.tar.gz --markdown 20240411/r/ring-attention-pytorch/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 02:36:35] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/20/6a/9492817940d83d477809ca00b6947c3bdd087c35052a3c9a3ce1f498210d/freedownload-1.0.4.tar.gz
+[2024-04-11 02:36:35] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2024-04-11 02:36:35] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.92.0.tar.gz tmp/mecha-0.93.0.tar.gz --markdown 20240411/m/mecha/0.92.0-0.93.0/README.md --exclude *.pyd
+[2024-04-11 02:36:36] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-11 02:36:36] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240411/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-11 02:36:36] INFO root fetch - processPackages [synapseml]: Downloading https://files.pythonhosted.org/packages/71/3c/5b2d9679503e41debcaad1f8e87b7bdac98a1eab054c2edd21998110b907/synapseml-1.0.4-py2.py3-none-any.whl
+[2024-04-11 02:36:36] INFO root fetch - processPackages [flim-labs]: executing diffoscope
+[2024-04-11 02:36:36] INFO root fetch - processPackages [flim-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip --markdown 20240411/f/flim-labs/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-11 02:36:36] INFO root fetch - processPackages [freedownload]: executing diffoscope
+[2024-04-11 02:36:36] INFO root fetch - processPackages [freedownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedownload-1.0.3.tar.gz tmp/freedownload-1.0.4.tar.gz --markdown 20240411/f/freedownload/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-11 02:36:36] INFO root fetch - processPackages [synapseml]: executing diffoscope
+[2024-04-11 02:36:36] INFO root fetch - processPackages [synapseml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapseml-1.0.3-py2.py3-none-any.whl.zip tmp/synapseml-1.0.4-py2.py3-none-any.whl.zip --markdown 20240411/s/synapseml/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-11 02:36:36] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.8.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.9.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - main [MainThread]: End processing [ring-attention-pytorch]: success
+[2024-04-11 02:36:36] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-11 02:36:36] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip]
+[2024-04-11 02:36:36] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip]
+[2024-04-11 02:36:36] INFO root fetch - main [MainThread]: End processing [flim-labs]: success
+[2024-04-11 02:36:36] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.3.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.4.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - main [MainThread]: End processing [freedownload]: success
+[2024-04-11 02:36:36] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.8.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.9.tar.gz]
+[2024-04-11 02:36:36] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-11 02:36:37] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.92.0.tar.gz]
+[2024-04-11 02:36:37] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.93.0.tar.gz]
+[2024-04-11 02:36:37] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2024-04-11 02:36:38] INFO root fetch - processPackages [synapseml]: Remove: archive file [/home/abi/fetcher/tmp/synapseml-1.0.3-py2.py3-none-any.whl.zip]
+[2024-04-11 02:36:38] INFO root fetch - processPackages [synapseml]: Remove: archive file [/home/abi/fetcher/tmp/synapseml-1.0.4-py2.py3-none-any.whl.zip]
+[2024-04-11 02:36:38] INFO root fetch - main [MainThread]: End processing [synapseml]: success
+[2024-04-11 02:36:38] INFO root fetch - main [MainThread]: Store serial: [22711565]

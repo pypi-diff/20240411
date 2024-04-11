@@ -14171,3 +14171,36 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 09:49:23] INFO root fetch - processPackages [pyosv]: Remove: archive file [/home/abi/fetcher/tmp/pyosv-0.0.9.tar.gz]
 [2024-04-11 09:49:23] INFO root fetch - main [MainThread]: End processing [pyosv]: success
 [2024-04-11 09:49:23] INFO root fetch - main [MainThread]: Store serial: [22715921]
+[2024-04-11 09:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715921]
+[2024-04-11 09:51:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: noteshrunk
+[2024-04-11 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-apps
+[2024-04-11 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-pipelines
+[2024-04-11 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matrix-gptbot
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-11 09:51:32] WARNING root fetch - processPackages [noteshrunk]: Skipping, unable to determine old version
+[2024-04-11 09:51:32] INFO root fetch - main [MainThread]: End processing [noteshrunk] error
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-11 09:51:32] INFO root fetch - processPackages [matrix-gptbot]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-11 09:51:32] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/92/a5/af1240a18121ab32fc18c83f75fb5ae3437c131bd546db7cdada9e557bc2/matrix_gptbot-0.3.5.tar.gz
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/e2/8a/f408a3673d0e20732801e857a5f3a110cd2954b1891dc1928cd25b8852aa/rats_pipelines-0.1.2.dev9-py3-none-any.whl
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240411/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-11 09:51:32] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240411/r/rats-pipelines/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-11 09:51:33] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/ae/c0/257cc5a2726b27ad944adc09fd04eb446f531a2deadce4bfd747b2d1965f/matrix_gptbot-0.3.6.tar.gz
+[2024-04-11 09:51:33] INFO root fetch - processPackages [matrix-gptbot]: executing diffoscope
+[2024-04-11 09:51:33] INFO root fetch - processPackages [matrix-gptbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_gptbot-0.3.5.tar.gz tmp/matrix_gptbot-0.3.6.tar.gz --markdown 20240411/m/matrix-gptbot/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-11 09:51:33] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-11 09:51:33] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-11 09:51:33] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-11 09:51:33] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-11 09:51:33] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-11 09:51:33] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-11 09:51:33] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.5.tar.gz]
+[2024-04-11 09:51:33] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.6.tar.gz]
+[2024-04-11 09:51:33] INFO root fetch - main [MainThread]: End processing [matrix-gptbot]: success
+[2024-04-11 09:51:33] INFO root fetch - main [MainThread]: Store serial: [22715933]

@@ -22675,3 +22675,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:09:52] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 14:09:52] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-11 14:09:52] INFO root fetch - main [MainThread]: Store serial: [22719485]
+[2024-04-11 14:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719485]
+[2024-04-11 14:12:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 14:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryojax
+[2024-04-11 14:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: richie
+[2024-04-11 14:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-sigaus-stock-picking-report-valued
+[2024-04-11 14:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Presage-Technologies
+[2024-04-11 14:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyside6-qml-stubgen
+[2024-04-11 14:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ign8
+[2024-04-11 14:12:03] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-11 14:12:03] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 14:12:03] INFO root fetch - processPackages [pyside6-qml-stubgen]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-04-11 14:12:03] INFO root fetch - processPackages [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2024-04-11 14:12:03] INFO root fetch - processPackages [Presage-Technologies]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-11 14:12:03] INFO root fetch - processPackages [cryojax]: New version: [0.2.3rc1] Old Version: [0.2.2rc1]
+[2024-04-11 14:12:03] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-04-11 14:12:03] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 14:12:03] INFO root fetch - processPackages [pyside6-qml-stubgen]: Downloading https://files.pythonhosted.org/packages/68/7b/8c458d5db1e5a44642b19cb439542eeb44e514b130a53e59187f9701c03c/pyside6_qml_stubgen-0.1.0a1.tar.gz
+[2024-04-11 14:12:03] INFO root fetch - processPackages [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/85/2f/0d1c2b5aef9c6b2dd3e585133608f1bacb6c8b31eafeb5c6a5f6576f8188/odoo_addon_l10n_es_sigaus_stock_picking_report_valued-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-11 14:12:03] INFO root fetch - processPackages [Presage-Technologies]: Downloading https://files.pythonhosted.org/packages/aa/82/7654b8035c23f21dc2942f8819e69c489525ffa32449947ad1518e570888/Presage_Technologies-1.5.0-py3-none-any.whl
+[2024-04-11 14:12:03] INFO root fetch - processPackages [cryojax]: Downloading https://files.pythonhosted.org/packages/fc/07/6a8ad880a8e9d5f8d68c84b64b71fa2bf449196ac26646886721c75f6e8e/cryojax-0.2.2rc1.tar.gz
+[2024-04-11 14:12:03] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 14:12:03] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-04-11 14:12:03] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 14:12:03] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 14:12:03] INFO root fetch - processPackages [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/4e/1b/985e0124c28f262423b366bc609ff6211fd5ab33e814c824e8d0ff3a839a/odoo_addon_l10n_es_sigaus_stock_picking_report_valued-16.0.1.0.1-py3-none-any.whl
+[2024-04-11 14:12:03] INFO root fetch - processPackages [Presage-Technologies]: Downloading https://files.pythonhosted.org/packages/06/88/0369374519ddc338d83222e96b8ed83151dee22cb4e59b5d978bc26445ab/Presage_Technologies-1.6.0-py3-none-any.whl
+[2024-04-11 14:12:03] INFO root fetch - processPackages [pyside6-qml-stubgen]: Downloading https://files.pythonhosted.org/packages/1a/20/d92e794cb102148d4371e6e1eba60ef0394d213492746b16beca1f8248b7/pyside6_qml_stubgen-0.1.0a2.tar.gz
+[2024-04-11 14:12:03] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-04-11 14:12:03] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240411/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-11 14:12:03] INFO root fetch - processPackages [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: executing diffoscope
+[2024-04-11 14:12:03] INFO root fetch - processPackages [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_sigaus_stock_picking_report_valued-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_sigaus_stock_picking_report_valued-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-l10n-es-sigaus-stock-picking-report-valued/16.0.1.0.0.2-16.0.1.0.1/README.md --exclude *.pyd
+[2024-04-11 14:12:03] INFO root fetch - processPackages [pyside6-qml-stubgen]: executing diffoscope
+[2024-04-11 14:12:03] INFO root fetch - processPackages [pyside6-qml-stubgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyside6_qml_stubgen-0.1.0a1.tar.gz tmp/pyside6_qml_stubgen-0.1.0a2.tar.gz --markdown 20240411/p/pyside6-qml-stubgen/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-04-11 14:12:03] INFO root fetch - processPackages [Presage-Technologies]: executing diffoscope
+[2024-04-11 14:12:03] INFO root fetch - processPackages [Presage-Technologies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Presage_Technologies-1.5.0-py3-none-any.whl.zip tmp/Presage_Technologies-1.6.0-py3-none-any.whl.zip --markdown 20240411/P/Presage-Technologies/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-11 14:12:04] INFO root fetch - processPackages [cryojax]: Downloading https://files.pythonhosted.org/packages/48/b8/9512597cbd18cd86e8991fcf9f44613fb787963d3f3f58c4e9f2964ea958/cryojax-0.2.3rc1.tar.gz
+[2024-04-11 14:12:04] INFO root fetch - processPackages [cryojax]: executing diffoscope
+[2024-04-11 14:12:04] INFO root fetch - processPackages [cryojax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryojax-0.2.2rc1.tar.gz tmp/cryojax-0.2.3rc1.tar.gz --markdown 20240411/c/cryojax/0.2.2rc1-0.2.3rc1/README.md --exclude *.pyd
+[2024-04-11 14:12:04] INFO root fetch - processPackages [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_sigaus_stock_picking_report_valued-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-11 14:12:04] INFO root fetch - processPackages [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_sigaus_stock_picking_report_valued-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-11 14:12:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-sigaus-stock-picking-report-valued]: success
+[2024-04-11 14:12:04] INFO root fetch - processPackages [Presage-Technologies]: Remove: archive file [/home/abi/fetcher/tmp/Presage_Technologies-1.5.0-py3-none-any.whl.zip]
+[2024-04-11 14:12:04] INFO root fetch - processPackages [Presage-Technologies]: Remove: archive file [/home/abi/fetcher/tmp/Presage_Technologies-1.6.0-py3-none-any.whl.zip]
+[2024-04-11 14:12:04] INFO root fetch - main [MainThread]: End processing [Presage-Technologies]: success
+[2024-04-11 14:12:04] INFO root fetch - processPackages [pyside6-qml-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pyside6_qml_stubgen-0.1.0a1.tar.gz]
+[2024-04-11 14:12:04] INFO root fetch - processPackages [pyside6-qml-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pyside6_qml_stubgen-0.1.0a2.tar.gz]
+[2024-04-11 14:12:04] INFO root fetch - main [MainThread]: End processing [pyside6-qml-stubgen]: success
+[2024-04-11 14:12:05] INFO root fetch - processPackages [cryojax]: Remove: archive file [/home/abi/fetcher/tmp/cryojax-0.2.2rc1.tar.gz]
+[2024-04-11 14:12:05] INFO root fetch - processPackages [cryojax]: Remove: archive file [/home/abi/fetcher/tmp/cryojax-0.2.3rc1.tar.gz]
+[2024-04-11 14:12:05] INFO root fetch - main [MainThread]: End processing [cryojax]: success
+[2024-04-11 14:12:07] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 14:12:07] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 14:12:07] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 14:13:59] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-04-11 14:13:59] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-04-11 14:13:59] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-04-11 14:13:59] INFO root fetch - main [MainThread]: Store serial: [22719507]

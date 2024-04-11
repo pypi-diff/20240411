@@ -8687,3 +8687,24 @@ EOFError: EOF read where object expected
 [2024-04-11 04:05:36] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.5-cp312-none-win_amd64.whl.zip]
 [2024-04-11 04:05:36] INFO root fetch - main [MainThread]: End processing [anyon]: success
 [2024-04-11 04:05:36] INFO root fetch - main [MainThread]: Store serial: [22713239]
+[2024-04-11 04:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713239]
+[2024-04-11 04:07:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 04:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantminer
+[2024-04-11 04:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ogicg
+[2024-04-11 04:07:45] INFO root fetch - processPackages [quantminer]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 04:07:45] INFO root fetch - processPackages [ogicg]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-11 04:07:45] INFO root fetch - processPackages [quantminer]: Downloading https://files.pythonhosted.org/packages/83/80/12cc8dfa8f9f95d56b0d713731b2d29fd9ead54b0a6fe80374e269343cd6/quantminer-0.3.0.tar.gz
+[2024-04-11 04:07:45] INFO root fetch - processPackages [ogicg]: Downloading https://files.pythonhosted.org/packages/8c/55/aa7c53ef5a9fdd7d4c7e3d5355c77f05c6992f0678a8f744550dfb55f103/ogicg-0.0.1.tar.gz
+[2024-04-11 04:07:45] INFO root fetch - processPackages [quantminer]: Downloading https://files.pythonhosted.org/packages/2d/9a/d0dbae80484fa152865b625cdb80536991736fa15878d2127cf738e7925f/quantminer-0.3.1.tar.gz
+[2024-04-11 04:07:45] INFO root fetch - processPackages [ogicg]: Downloading https://files.pythonhosted.org/packages/4d/72/e0ebaebc390da7004bd111e2a1108987c1ae1f49c8b77c45748be4789d14/ogicg-1.0.0.tar.gz
+[2024-04-11 04:07:45] INFO root fetch - processPackages [quantminer]: executing diffoscope
+[2024-04-11 04:07:45] INFO root fetch - processPackages [quantminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantminer-0.3.0.tar.gz tmp/quantminer-0.3.1.tar.gz --markdown 20240411/q/quantminer/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 04:07:45] INFO root fetch - processPackages [ogicg]: executing diffoscope
+[2024-04-11 04:07:45] INFO root fetch - processPackages [ogicg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogicg-0.0.1.tar.gz tmp/ogicg-1.0.0.tar.gz --markdown 20240411/o/ogicg/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-04-11 04:07:46] INFO root fetch - processPackages [ogicg]: Remove: archive file [/home/abi/fetcher/tmp/ogicg-0.0.1.tar.gz]
+[2024-04-11 04:07:46] INFO root fetch - processPackages [ogicg]: Remove: archive file [/home/abi/fetcher/tmp/ogicg-1.0.0.tar.gz]
+[2024-04-11 04:07:46] INFO root fetch - processPackages [quantminer]: Remove: archive file [/home/abi/fetcher/tmp/quantminer-0.3.0.tar.gz]
+[2024-04-11 04:07:46] INFO root fetch - main [MainThread]: End processing [ogicg]: success
+[2024-04-11 04:07:46] INFO root fetch - processPackages [quantminer]: Remove: archive file [/home/abi/fetcher/tmp/quantminer-0.3.1.tar.gz]
+[2024-04-11 04:07:46] INFO root fetch - main [MainThread]: End processing [quantminer]: success
+[2024-04-11 04:07:46] INFO root fetch - main [MainThread]: Store serial: [22713247]

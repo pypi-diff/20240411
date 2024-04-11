@@ -18726,3 +18726,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:54:58] INFO root fetch - processPackages [beepy-web]: Remove: archive file [/home/abi/fetcher/tmp/beepy_web-0.9.0.tar.gz]
 [2024-04-11 11:54:58] INFO root fetch - main [MainThread]: End processing [beepy-web]: success
 [2024-04-11 11:54:58] INFO root fetch - main [MainThread]: Store serial: [22717763]
+[2024-04-11 11:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717763]
+[2024-04-11 11:57:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 11:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsee-core
+[2024-04-11 11:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tutor
+[2024-04-11 11:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decorator-validation
+[2024-04-11 11:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcentrapi
+[2024-04-11 11:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazyad
+[2024-04-11 11:57:08] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:57:08] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.0] Old Version: [0.1.3.9]
+[2024-04-11 11:57:08] INFO root fetch - processPackages [dcentrapi]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-11 11:57:08] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-11 11:57:08] INFO root fetch - processPackages [decorator-validation]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-11 11:57:08] INFO root fetch - processPackages [tutor]: New version: [17.0.4] Old Version: [17.0.3]
+[2024-04-11 11:57:08] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/02/59/9b82f031a7a19f09bdf8023888f2910261d3538ec8533ce5b2edba7b7f2f/dcentrapi-0.4.3.tar.gz
+[2024-04-11 11:57:08] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/a1/8a/4364b9dc0275821114a9492f360f6a97683a9e25d30a522bd4e24c3b3cc6/parsee_core-0.1.3.9.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/c3/96/15a72f60853542a833be838a2e07f78ddffe37c950104e2889b7d43025bb/tutor-17.0.3.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [decorator-validation]: Downloading https://files.pythonhosted.org/packages/8d/53/328c4d92c7532d373ba0cf477ddea169ff8225168f2e8ad986df15658c72/decorator_validation-3.0.2.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/31/dc/9a23c4878735df58d0e52b40eaa44ce6ede400739b092a1cfdbaef509b87/parsee_core-0.1.4.0.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/2d/17/1c808959d1176ac7ee5a1e0b362b05a15600ce5102e6c6f3be2b4a6d7be7/dcentrapi-0.4.4.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-11 11:57:09] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240411/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:57:09] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2024-04-11 11:57:09] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.4.3.tar.gz tmp/dcentrapi-0.4.4.tar.gz --markdown 20240411/d/dcentrapi/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-11 11:57:09] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-11 11:57:09] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.3.9.tar.gz tmp/parsee_core-0.1.4.0.tar.gz --markdown 20240411/p/parsee-core/0.1.3.9-0.1.4.0/README.md --exclude *.pyd
+[2024-04-11 11:57:09] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/f7/6c/b819459e3261e0bfad11554538bdcbfc1b1991e6820ec9747a1d340e6c92/tutor-17.0.4.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [decorator-validation]: Downloading https://files.pythonhosted.org/packages/b1/52/8b07c5c339f869c454e85cee6b2ccfbd604555b13d88919213b4c2412cdc/decorator_validation-3.0.3.tar.gz
+[2024-04-11 11:57:09] INFO root fetch - processPackages [tutor]: executing diffoscope
+[2024-04-11 11:57:09] INFO root fetch - processPackages [tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-17.0.3.tar.gz tmp/tutor-17.0.4.tar.gz --markdown 20240411/t/tutor/17.0.3-17.0.4/README.md --exclude *.pyd
+[2024-04-11 11:57:09] INFO root fetch - processPackages [decorator-validation]: executing diffoscope
+[2024-04-11 11:57:09] INFO root fetch - processPackages [decorator-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_validation-3.0.2.tar.gz tmp/decorator_validation-3.0.3.tar.gz --markdown 20240411/d/decorator-validation/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-04-11 11:57:09] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-11 11:57:09] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-11 11:57:09] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-11 11:57:10] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.4.3.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.4.4.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2024-04-11 11:57:10] INFO root fetch - processPackages [decorator-validation]: Remove: archive file [/home/abi/fetcher/tmp/decorator_validation-3.0.2.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - processPackages [decorator-validation]: Remove: archive file [/home/abi/fetcher/tmp/decorator_validation-3.0.3.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - main [MainThread]: End processing [decorator-validation]: success
+[2024-04-11 11:57:10] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.3.9.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.0.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-11 11:57:10] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-17.0.3.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-17.0.4.tar.gz]
+[2024-04-11 11:57:10] INFO root fetch - main [MainThread]: End processing [tutor]: success
+[2024-04-11 11:57:10] INFO root fetch - main [MainThread]: Store serial: [22717782]

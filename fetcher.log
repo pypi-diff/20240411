@@ -11495,3 +11495,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:16:08] INFO root fetch - processPackages [ofdcomparer]: Remove: archive file [/home/abi/fetcher/tmp/ofdcomparer-1.5.40.tar.gz]
 [2024-04-11 07:16:08] INFO root fetch - main [MainThread]: End processing [ofdcomparer]: success
 [2024-04-11 07:16:08] INFO root fetch - main [MainThread]: Store serial: [22714546]
+[2024-04-11 07:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714546]
+[2024-04-11 07:18:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 07:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icutil-IGNchinmay
+[2024-04-11 07:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quagnes
+[2024-04-11 07:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headline-gen
+[2024-04-11 07:18:17] INFO root fetch - processPackages [headline-gen]: New version: [1.0] Old Version: [0.1.3]
+[2024-04-11 07:18:17] INFO root fetch - processPackages [icutil-IGNchinmay]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-11 07:18:17] INFO root fetch - processPackages [quagnes]: New version: [1.0.0] Old Version: [0.8.4]
+[2024-04-11 07:18:17] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/a3/15/6a3158f13cf596ec657af20bc75f54ecd8b4a0007e03427df4c850cfafd0/headline-gen-0.1.3.tar.gz
+[2024-04-11 07:18:17] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/03/17/b0a969b973da247614f69b06520f62371816b4fbf6e13038cf8176eb0d99/icutil_IGNchinmay-0.0.6.tar.gz
+[2024-04-11 07:18:17] INFO root fetch - processPackages [quagnes]: Downloading https://files.pythonhosted.org/packages/cd/d3/949a1e01bc6623fec951dd95137e51098a8740916099a441efb33fcbea99/quagnes-0.8.4.tar.gz
+[2024-04-11 07:18:17] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/a9/d8/ecac75f7ad80b34e5559b1b650b38b64847c17a23f50a4e5141c20e3b3bb/headline-gen-1.0.tar.gz
+[2024-04-11 07:18:18] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/67/73/4f02a3a654fc79ae81eb99b94cca2b14cdf71f9c813786b2aeed20505b88/icutil_IGNchinmay-0.0.7.tar.gz
+[2024-04-11 07:18:18] INFO root fetch - processPackages [headline-gen]: executing diffoscope
+[2024-04-11 07:18:18] INFO root fetch - processPackages [headline-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headline-gen-0.1.3.tar.gz tmp/headline-gen-1.0.tar.gz --markdown 20240411/h/headline-gen/0.1.3-1.0/README.md --exclude *.pyd
+[2024-04-11 07:18:18] INFO root fetch - processPackages [quagnes]: Downloading https://files.pythonhosted.org/packages/98/56/1342f6ed00fe7836423c078479bedbdf0d2a0e0a33d500be32ea5accca56/quagnes-1.0.0.tar.gz
+[2024-04-11 07:18:18] INFO root fetch - processPackages [icutil-IGNchinmay]: executing diffoscope
+[2024-04-11 07:18:18] INFO root fetch - processPackages [icutil-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icutil_IGNchinmay-0.0.6.tar.gz tmp/icutil_IGNchinmay-0.0.7.tar.gz --markdown 20240411/i/icutil-IGNchinmay/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-11 07:18:18] INFO root fetch - processPackages [quagnes]: executing diffoscope
+[2024-04-11 07:18:18] INFO root fetch - processPackages [quagnes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quagnes-0.8.4.tar.gz tmp/quagnes-1.0.0.tar.gz --markdown 20240411/q/quagnes/0.8.4-1.0.0/README.md --exclude *.pyd
+[2024-04-11 07:18:18] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-0.1.3.tar.gz]
+[2024-04-11 07:18:18] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-1.0.tar.gz]
+[2024-04-11 07:18:18] INFO root fetch - main [MainThread]: End processing [headline-gen]: success
+[2024-04-11 07:18:18] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.6.tar.gz]
+[2024-04-11 07:18:18] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.7.tar.gz]
+[2024-04-11 07:18:18] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay]: success
+[2024-04-11 07:18:18] INFO root fetch - processPackages [quagnes]: Remove: archive file [/home/abi/fetcher/tmp/quagnes-0.8.4.tar.gz]
+[2024-04-11 07:18:18] INFO root fetch - processPackages [quagnes]: Remove: archive file [/home/abi/fetcher/tmp/quagnes-1.0.0.tar.gz]
+[2024-04-11 07:18:18] INFO root fetch - main [MainThread]: End processing [quagnes]: success
+[2024-04-11 07:18:18] INFO root fetch - main [MainThread]: Store serial: [22714574]

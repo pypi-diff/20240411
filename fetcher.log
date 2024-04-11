@@ -12104,3 +12104,51 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 07:53:32] INFO root fetch - processPackages [wipo-gbd-transformation]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_transformation-1.1.48-py3-none-any.whl.zip]
 [2024-04-11 07:53:32] INFO root fetch - main [MainThread]: End processing [wipo-gbd-transformation]: success
 [2024-04-11 07:53:32] INFO root fetch - main [MainThread]: Store serial: [22714777]
+[2024-04-11 07:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714777]
+[2024-04-11 07:55:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 07:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-available-immediately-exclude-location
+[2024-04-11 07:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-available-base-exclude-location
+[2024-04-11 07:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-04-11 07:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doped
+[2024-04-11 07:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wipo-gbd-pypers
+[2024-04-11 07:55:41] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-11 07:55:41] INFO root fetch - processPackages [odoo-addon-stock-available-base-exclude-location]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2024-04-11 07:55:41] INFO root fetch - processPackages [doped]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-11 07:55:41] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-11 07:55:41] INFO root fetch - processPackages [odoo-addon-stock-available-immediately-exclude-location]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-11 07:55:41] INFO root fetch - processPackages [wipo-gbd-pypers]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-11 07:55:41] INFO root fetch - processPackages [odoo-addon-stock-available-base-exclude-location]: Downloading https://files.pythonhosted.org/packages/7c/10/854dbdfed46089e5f4ae737402f01920508e412d54a1fc2d12c85bd1de27/odoo_addon_stock_available_base_exclude_location-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-11 07:55:41] INFO root fetch - processPackages [doped]: Downloading https://files.pythonhosted.org/packages/36/f5/854d898322dd6eb25d9704a608c84b237440d357a2e204f5acc311d0057d/doped-2.4.0.tar.gz
+[2024-04-11 07:55:42] INFO root fetch - processPackages [odoo-addon-stock-available-immediately-exclude-location]: Downloading https://files.pythonhosted.org/packages/1f/42/a7ac322cd40994c112f35e6e8c8be867d465421518af3a2cb140b49f526b/odoo_addon_stock_available_immediately_exclude_location-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-11 07:55:42] INFO root fetch - processPackages [wipo-gbd-pypers]: Downloading https://files.pythonhosted.org/packages/74/29/2a23e2af74f32e0544308c00d9b819eeadcd723a8c9b7f8e0fa8830c07f6/wipo_gbd_pypers-2.1.8-py3-none-any.whl
+[2024-04-11 07:55:42] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-11 07:55:42] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-11 07:55:42] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240411/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-11 07:55:42] INFO root fetch - processPackages [odoo-addon-stock-available-base-exclude-location]: Downloading https://files.pythonhosted.org/packages/29/b9/77c1d054d37a8b3867c1a31706f325a0d469836accd9ea43d3eaa2bb0a75/odoo_addon_stock_available_base_exclude_location-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-11 07:55:42] INFO root fetch - processPackages [odoo-addon-stock-available-immediately-exclude-location]: Downloading https://files.pythonhosted.org/packages/05/7b/dc9b062e44bc7967317c4efbd14ef87ace3e870bcce8fbcbeb966b7557d1/odoo_addon_stock_available_immediately_exclude_location-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-11 07:55:42] INFO root fetch - processPackages [doped]: Downloading https://files.pythonhosted.org/packages/d3/42/609271a397ee952b087b7be60b5de7b6fdd1229c703179c3ca5193350cf6/doped-2.4.1.tar.gz
+[2024-04-11 07:55:42] INFO root fetch - processPackages [odoo-addon-stock-available-base-exclude-location]: executing diffoscope
+[2024-04-11 07:55:42] INFO root fetch - processPackages [odoo-addon-stock-available-base-exclude-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_base_exclude_location-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_stock_available_base_exclude_location-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-stock-available-base-exclude-location/16.0.1.0.0.5-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-04-11 07:55:42] INFO root fetch - processPackages [odoo-addon-stock-available-immediately-exclude-location]: executing diffoscope
+[2024-04-11 07:55:42] INFO root fetch - processPackages [odoo-addon-stock-available-immediately-exclude-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_immediately_exclude_location-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_available_immediately_exclude_location-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-stock-available-immediately-exclude-location/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-11 07:55:42] INFO root fetch - processPackages [wipo-gbd-pypers]: Downloading https://files.pythonhosted.org/packages/2c/80/047a147df7a7d8fc36a238c3c74f35936edc68ca56cb763590dc7302ee4c/wipo_gbd_pypers-2.1.9-py3-none-any.whl
+[2024-04-11 07:55:42] INFO root fetch - processPackages [doped]: executing diffoscope
+[2024-04-11 07:55:42] INFO root fetch - processPackages [doped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doped-2.4.0.tar.gz tmp/doped-2.4.1.tar.gz --markdown 20240411/d/doped/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-11 07:55:42] INFO root fetch - processPackages [wipo-gbd-pypers]: executing diffoscope
+[2024-04-11 07:55:42] INFO root fetch - processPackages [wipo-gbd-pypers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipo_gbd_pypers-2.1.8-py3-none-any.whl.zip tmp/wipo_gbd_pypers-2.1.9-py3-none-any.whl.zip --markdown 20240411/w/wipo-gbd-pypers/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-11 07:55:42] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-11 07:55:42] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-11 07:55:42] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-11 07:55:43] INFO root fetch - processPackages [odoo-addon-stock-available-base-exclude-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_base_exclude_location-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-11 07:55:43] INFO root fetch - processPackages [odoo-addon-stock-available-base-exclude-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_base_exclude_location-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-11 07:55:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-base-exclude-location]: success
+[2024-04-11 07:55:43] INFO root fetch - processPackages [odoo-addon-stock-available-immediately-exclude-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_immediately_exclude_location-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-11 07:55:43] INFO root fetch - processPackages [odoo-addon-stock-available-immediately-exclude-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_immediately_exclude_location-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-11 07:55:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-immediately-exclude-location]: success
+[2024-04-11 07:55:43] INFO root fetch - processPackages [doped]: Remove: archive file [/home/abi/fetcher/tmp/doped-2.4.0.tar.gz]
+[2024-04-11 07:55:43] INFO root fetch - processPackages [doped]: Remove: archive file [/home/abi/fetcher/tmp/doped-2.4.1.tar.gz]
+[2024-04-11 07:55:43] INFO root fetch - main [MainThread]: End processing [doped]: success
+[2024-04-11 07:55:44] INFO root fetch - processPackages [wipo-gbd-pypers]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_pypers-2.1.8-py3-none-any.whl.zip]
+[2024-04-11 07:55:44] INFO root fetch - processPackages [wipo-gbd-pypers]: Remove: archive file [/home/abi/fetcher/tmp/wipo_gbd_pypers-2.1.9-py3-none-any.whl.zip]
+[2024-04-11 07:55:44] INFO root fetch - main [MainThread]: End processing [wipo-gbd-pypers]: success
+[2024-04-11 07:55:44] INFO root fetch - main [MainThread]: Store serial: [22714790]

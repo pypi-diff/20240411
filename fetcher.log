@@ -19411,3 +19411,60 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:23:42] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-11 12:23:42] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-11 12:23:42] INFO root fetch - main [MainThread]: Store serial: [22718034]
+[2024-04-11 12:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718034]
+[2024-04-11 12:25:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 12:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filetrack
+[2024-04-11 12:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GRSdriver
+[2024-04-11 12:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: treat2p
+[2024-04-11 12:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beatrica
+[2024-04-11 12:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mly
+[2024-04-11 12:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py2docfx
+[2024-04-11 12:25:51] INFO root fetch - processPackages [filetrack]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-11 12:25:51] INFO root fetch - processPackages [beatrica]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-11 12:25:51] INFO root fetch - processPackages [GRSdriver]: New version: [1.0.2a0] Old Version: [1.0.2.1]
+[2024-04-11 12:25:51] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4.dev1689521] Old Version: [0.1.4.dev1687602]
+[2024-04-11 12:25:51] INFO root fetch - processPackages [mly]: New version: [1.0.3] Old Version: [1.0.0]
+[2024-04-11 12:25:51] INFO root fetch - processPackages [treat2p]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-11 12:25:51] INFO root fetch - processPackages [filetrack]: Downloading https://files.pythonhosted.org/packages/42/41/15c401003b65e332e30c38c7d8f59ec1edc6ccee872f1bdfb04114c7c512/filetrack-0.0.5.tar.gz
+[2024-04-11 12:25:51] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/61/67/dd894704b9bf700473c1fe32ccef5d0d5c03ff75c6b5126e3815742a28a0/beatrica-0.0.4.tar.gz
+[2024-04-11 12:25:51] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/5d/aa/56d2c2857ca0aa4a86e104746191e1ac24b256be28a1642b01e66f048d9a/py2docfx-0.1.4.dev1687602-py3-none-any.whl
+[2024-04-11 12:25:51] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/f2/7c/b8d95dbc23d32ac4f9508dae0de34b6db78247204a224372fa25e72313d4/mly-1.0.0.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [GRSdriver]: Downloading https://files.pythonhosted.org/packages/67/28/e08a5f5fc6fb2557097397a1e25032864e392913f39544c02f58e8556db0/GRSdriver-1.0.2.1.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [treat2p]: Downloading https://files.pythonhosted.org/packages/37/59/511e389f86b6cc372c4fa7d589231f3f1a9f242a3800b50d99ce66e595fa/treat2p-0.0.3.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [filetrack]: Downloading https://files.pythonhosted.org/packages/ca/56/277ddd12cae1f5adc0dca5fd5502100d4de59a99a884b34557b76814754d/filetrack-0.0.6.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/0a/1b/9aa91099ff7db8b85f3d294c614a2cfff529c23275627734e620e4c90e56/beatrica-0.0.5.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [filetrack]: executing diffoscope
+[2024-04-11 12:25:52] INFO root fetch - processPackages [filetrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filetrack-0.0.5.tar.gz tmp/filetrack-0.0.6.tar.gz --markdown 20240411/f/filetrack/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-11 12:25:52] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/bc/6d/9a3d674673b6bbf99ec83ab345a864d70bf0961e362280e74b3c5f08a560/py2docfx-0.1.4.dev1689521-py3-none-any.whl
+[2024-04-11 12:25:52] INFO root fetch - processPackages [beatrica]: executing diffoscope
+[2024-04-11 12:25:52] INFO root fetch - processPackages [beatrica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beatrica-0.0.4.tar.gz tmp/beatrica-0.0.5.tar.gz --markdown 20240411/b/beatrica/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-11 12:25:52] INFO root fetch - processPackages [GRSdriver]: Downloading https://files.pythonhosted.org/packages/19/9f/be85b58b5499c377cc519c91eb06986a22c0e4092ebf4e43648925b1bbf2/GRSdriver-1.0.2a0.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/f3/35/5ef4e1d17128852d85e2507d13abe2c83898b97594108236bf802aff6ab9/mly-1.0.3.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [treat2p]: Downloading https://files.pythonhosted.org/packages/f9/22/77e79c97459ff550e81e55d50e21885e18c9303983bcdbae4090cfe11f66/treat2p-0.0.4.tar.gz
+[2024-04-11 12:25:52] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-11 12:25:52] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4.dev1687602-py3-none-any.whl.zip tmp/py2docfx-0.1.4.dev1689521-py3-none-any.whl.zip --markdown 20240411/p/py2docfx/0.1.4.dev1687602-0.1.4.dev1689521/README.md --exclude *.pyd
+[2024-04-11 12:25:52] INFO root fetch - processPackages [treat2p]: executing diffoscope
+[2024-04-11 12:25:52] INFO root fetch - processPackages [treat2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treat2p-0.0.3.tar.gz tmp/treat2p-0.0.4.tar.gz --markdown 20240411/t/treat2p/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-11 12:25:52] INFO root fetch - processPackages [GRSdriver]: executing diffoscope
+[2024-04-11 12:25:52] INFO root fetch - processPackages [GRSdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GRSdriver-1.0.2.1.tar.gz tmp/GRSdriver-1.0.2a0.tar.gz --markdown 20240411/G/GRSdriver/1.0.2.1-1.0.2a0/README.md --exclude *.pyd
+[2024-04-11 12:25:52] INFO root fetch - processPackages [mly]: executing diffoscope
+[2024-04-11 12:25:52] INFO root fetch - processPackages [mly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly-1.0.0.tar.gz tmp/mly-1.0.3.tar.gz --markdown 20240411/m/mly/1.0.0-1.0.3/README.md --exclude *.pyd
+[2024-04-11 12:25:53] INFO root fetch - processPackages [filetrack]: Remove: archive file [/home/abi/fetcher/tmp/filetrack-0.0.5.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - processPackages [filetrack]: Remove: archive file [/home/abi/fetcher/tmp/filetrack-0.0.6.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - main [MainThread]: End processing [filetrack]: success
+[2024-04-11 12:25:53] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.4.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.5.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - main [MainThread]: End processing [beatrica]: success
+[2024-04-11 12:25:53] INFO root fetch - processPackages [treat2p]: Remove: archive file [/home/abi/fetcher/tmp/treat2p-0.0.3.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - processPackages [treat2p]: Remove: archive file [/home/abi/fetcher/tmp/treat2p-0.0.4.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - main [MainThread]: End processing [treat2p]: success
+[2024-04-11 12:25:53] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1687602-py3-none-any.whl.zip]
+[2024-04-11 12:25:53] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1689521-py3-none-any.whl.zip]
+[2024-04-11 12:25:53] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-11 12:25:53] INFO root fetch - processPackages [GRSdriver]: Remove: archive file [/home/abi/fetcher/tmp/GRSdriver-1.0.2.1.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - processPackages [GRSdriver]: Remove: archive file [/home/abi/fetcher/tmp/GRSdriver-1.0.2a0.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - main [MainThread]: End processing [GRSdriver]: success
+[2024-04-11 12:25:53] INFO root fetch - processPackages [mly]: Remove: archive file [/home/abi/fetcher/tmp/mly-1.0.0.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - processPackages [mly]: Remove: archive file [/home/abi/fetcher/tmp/mly-1.0.3.tar.gz]
+[2024-04-11 12:25:53] INFO root fetch - main [MainThread]: End processing [mly]: success
+[2024-04-11 12:25:53] INFO root fetch - main [MainThread]: Store serial: [22718051]

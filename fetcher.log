@@ -9389,3 +9389,42 @@ EOFError: EOF read where object expected
 [2024-04-11 05:00:44] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-04-11 05:00:44] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-04-11 05:00:44] INFO root fetch - main [MainThread]: Store serial: [22713582]
+[2024-04-11 05:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713582]
+[2024-04-11 05:02:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pangu-kits-app-dev-py
+[2024-04-11 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrawl
+[2024-04-11 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-runtime
+[2024-04-11 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcsfe-iosapi
+[2024-04-11 05:02:53] INFO root fetch - processPackages [qrawl]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-11 05:02:53] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/bb/b3/58bea78083fb37321303c2ad04ea53c0bbb2bb26e23267162d904a922afe/qrawl-0.1.1.tar.gz
+[2024-04-11 05:02:53] INFO root fetch - processPackages [pangu-kits-app-dev-py]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-11 05:02:53] INFO root fetch - processPackages [mojo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 05:02:53] INFO root fetch - processPackages [bcsfe-iosapi]: New version: [2.7.68] Old Version: [2.7.67]
+[2024-04-11 05:02:53] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/a2/73/8d6292a4a8763a95222fb988aaaf46e8e4faa6dbfa82aba07ec8abaabd54/mojo_runtime-1.3.8.tar.gz
+[2024-04-11 05:02:53] INFO root fetch - processPackages [pangu-kits-app-dev-py]: Downloading https://files.pythonhosted.org/packages/b2/9b/088f2d3d1078170ccca2893e6bcd3fd6537ea55e0becc12375c0eb083d14/pangu_kits_app_dev_py-2.0.0-py3-none-any.whl
+[2024-04-11 05:02:53] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/dc/13/ed6c1f0c6aeec0a720c587e24fd7ce71e16dfced791fc806c2f5e74dfc85/bcsfe-iosapi-2.7.67.tar.gz
+[2024-04-11 05:02:53] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/b9/4c/a90ecd3585b14666b7a53638a2896605cf6ec7fa918784b03a9b072a6902/qrawl-0.1.2.tar.gz
+[2024-04-11 05:02:53] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-04-11 05:02:53] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.1.tar.gz tmp/qrawl-0.1.2.tar.gz --markdown 20240411/q/qrawl/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-11 05:02:53] INFO root fetch - processPackages [pangu-kits-app-dev-py]: Downloading https://files.pythonhosted.org/packages/78/b5/f4aa884277f6231e1124c41284a6abe6022178c146b63bf0c92018ffee26/pangu_kits_app_dev_py-2.1.0-py3-none-any.whl
+[2024-04-11 05:02:53] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/d8/72/11ae6da51311fb6fe39796b32cda706673eed2e6d5f1cc271bf029880f36/mojo_runtime-1.3.9.tar.gz
+[2024-04-11 05:02:53] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/4f/b5/586da1db3cb4d3cce20a7cf3c02c18aa64daa39a4e51a348e56aff6d6089/bcsfe-iosapi-2.7.68.tar.gz
+[2024-04-11 05:02:53] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2024-04-11 05:02:53] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-1.3.8.tar.gz tmp/mojo_runtime-1.3.9.tar.gz --markdown 20240411/m/mojo-runtime/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 05:02:53] INFO root fetch - processPackages [pangu-kits-app-dev-py]: executing diffoscope
+[2024-04-11 05:02:53] INFO root fetch - processPackages [pangu-kits-app-dev-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangu_kits_app_dev_py-2.0.0-py3-none-any.whl.zip tmp/pangu_kits_app_dev_py-2.1.0-py3-none-any.whl.zip --markdown 20240411/p/pangu-kits-app-dev-py/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-11 05:02:54] INFO root fetch - processPackages [bcsfe-iosapi]: executing diffoscope
+[2024-04-11 05:02:54] INFO root fetch - processPackages [bcsfe-iosapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-iosapi-2.7.67.tar.gz tmp/bcsfe-iosapi-2.7.68.tar.gz --markdown 20240411/b/bcsfe-iosapi/2.7.67-2.7.68/README.md --exclude *.pyd
+[2024-04-11 05:02:54] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.1.tar.gz]
+[2024-04-11 05:02:54] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.2.tar.gz]
+[2024-04-11 05:02:54] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-04-11 05:02:54] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.8.tar.gz]
+[2024-04-11 05:02:54] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
+[2024-04-11 05:02:54] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2024-04-11 05:02:54] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.67.tar.gz]
+[2024-04-11 05:02:54] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.68.tar.gz]
+[2024-04-11 05:02:54] INFO root fetch - main [MainThread]: End processing [bcsfe-iosapi]: success
+[2024-04-11 05:02:55] INFO root fetch - processPackages [pangu-kits-app-dev-py]: Remove: archive file [/home/abi/fetcher/tmp/pangu_kits_app_dev_py-2.0.0-py3-none-any.whl.zip]
+[2024-04-11 05:02:55] INFO root fetch - processPackages [pangu-kits-app-dev-py]: Remove: archive file [/home/abi/fetcher/tmp/pangu_kits_app_dev_py-2.1.0-py3-none-any.whl.zip]
+[2024-04-11 05:02:55] INFO root fetch - main [MainThread]: End processing [pangu-kits-app-dev-py]: success
+[2024-04-11 05:02:55] INFO root fetch - main [MainThread]: Store serial: [22713593]

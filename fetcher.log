@@ -14578,3 +14578,23 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:13:26] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-1.0.3.tar.gz]
 [2024-04-11 10:13:26] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware]: success
 [2024-04-11 10:13:26] INFO root fetch - main [MainThread]: Store serial: [22716153]
+[2024-04-11 10:15:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716153]
+[2024-04-11 10:15:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-04-11 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiqc-sgr
+[2024-04-11 10:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viankafl
+[2024-04-11 10:15:35] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-11 10:15:35] WARNING root fetch - processPackages [viankafl]: Skipping, unable to determine old version
+[2024-04-11 10:15:35] INFO root fetch - main [MainThread]: End processing [viankafl] error
+[2024-04-11 10:15:35] INFO root fetch - processPackages [multiqc-sgr]: New version: [1.22.post0] Old Version: [1.21.0]
+[2024-04-11 10:15:35] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-11 10:15:35] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-11 10:15:35] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-11 10:15:35] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/c7/45/033e9c2470b6be66f1725aa9b8e564035a67cd2cd7a6c3fe5894e44bde09/multiqc_sgr-1.21.0.tar.gz
+[2024-04-11 10:15:36] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/7c/6e/d282fd34a6c142f910166e6132b8e59684ee95354c6b8da93c39a1d14b83/multiqc_sgr-1.22.post0.tar.gz
+[2024-04-11 10:15:36] INFO root fetch - processPackages [multiqc-sgr]: executing diffoscope
+[2024-04-11 10:15:36] INFO root fetch - processPackages [multiqc-sgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiqc_sgr-1.21.0.tar.gz tmp/multiqc_sgr-1.22.post0.tar.gz --markdown 20240411/m/multiqc-sgr/1.21.0-1.22.post0/README.md --exclude *.pyd
+[2024-04-11 10:15:41] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.21.0.tar.gz]
+[2024-04-11 10:15:41] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
+[2024-04-11 10:15:41] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
+[2024-04-11 10:15:41] INFO root fetch - main [MainThread]: Store serial: [22716180]

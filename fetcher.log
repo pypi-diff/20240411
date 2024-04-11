@@ -19306,3 +19306,27 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:17:10] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-11 12:17:10] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-11 12:17:10] INFO root fetch - main [MainThread]: Store serial: [22717998]
+[2024-04-11 12:19:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717998]
+[2024-04-11 12:19:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 12:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigachain-standard-tests
+[2024-04-11 12:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-tagging-model
+[2024-04-11 12:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beatrica
+[2024-04-11 12:19:19] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a9] Old Version: [0.1.2a8]
+[2024-04-11 12:19:19] INFO root fetch - processPackages [beatrica]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-11 12:19:19] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/d2/aa/0b7718418e5af94a759f9103a1ce4e95aab5b43bd9cc6982841ef69b5495/text_tagging_model-0.1.2a8.tar.gz
+[2024-04-11 12:19:19] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/6b/b3/8a418af2313d103425454aed58a5057004c035cb6b4f4148c7a18a59461b/beatrica-0.0.1.tar.gz
+[2024-04-11 12:19:19] WARNING root fetch - processPackages [gigachain-standard-tests]: Skipping, unable to determine old version
+[2024-04-11 12:19:19] INFO root fetch - main [MainThread]: End processing [gigachain-standard-tests] error
+[2024-04-11 12:19:19] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/f4/4f/6e016d62fa675094cc43cdbbbc2714a9ad9da8a6ac084c0fa0d7b7b29251/beatrica-0.0.3.tar.gz
+[2024-04-11 12:19:19] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/ae/ee/90f07f7f23d035c4a1891a43729ffadb5f0a822ff1990e448aafcf65e330/text_tagging_model-0.1.2a9.tar.gz
+[2024-04-11 12:19:19] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-11 12:19:19] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a8.tar.gz tmp/text_tagging_model-0.1.2a9.tar.gz --markdown 20240411/t/text-tagging-model/0.1.2a8-0.1.2a9/README.md --exclude *.pyd
+[2024-04-11 12:19:19] INFO root fetch - processPackages [beatrica]: executing diffoscope
+[2024-04-11 12:19:19] INFO root fetch - processPackages [beatrica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beatrica-0.0.1.tar.gz tmp/beatrica-0.0.3.tar.gz --markdown 20240411/b/beatrica/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-11 12:19:20] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.1.tar.gz]
+[2024-04-11 12:19:20] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.3.tar.gz]
+[2024-04-11 12:19:20] INFO root fetch - main [MainThread]: End processing [beatrica]: success
+[2024-04-11 12:19:20] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a8.tar.gz]
+[2024-04-11 12:19:20] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a9.tar.gz]
+[2024-04-11 12:19:20] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-11 12:19:20] INFO root fetch - main [MainThread]: Store serial: [22718010]

@@ -14670,3 +14670,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:20:04] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.3.9.tar.gz]
 [2024-04-11 10:20:04] INFO root fetch - main [MainThread]: End processing [linktest]: success
 [2024-04-11 10:20:04] INFO root fetch - main [MainThread]: Store serial: [22716247]
+[2024-04-11 10:22:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716247]
+[2024-04-11 10:22:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxapit
+[2024-04-11 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circuitpython-mcp48xx
+[2024-04-11 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: persona_ai
+[2024-04-11 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2024-04-11 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redbrick-sdk
+[2024-04-11 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irispie
+[2024-04-11 10:22:13] WARNING root fetch - processPackages [persona_ai]: Skipping, unable to determine old version
+[2024-04-11 10:22:13] INFO root fetch - main [MainThread]: End processing [persona_ai] error
+[2024-04-11 10:22:13] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-11 10:22:13] INFO root fetch - processPackages [cxapit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 10:22:13] INFO root fetch - processPackages [circuitpython-mcp48xx]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2024-04-11 10:22:13] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-11 10:22:13] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-11 10:22:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-11 10:22:13] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/40/d2/6ba448187d01bcf2ddd513e304260404eca0419f94d567d7ee439a58b037/cxapit-1.0.8.tar.gz
+[2024-04-11 10:22:13] INFO root fetch - processPackages [circuitpython-mcp48xx]: Downloading https://files.pythonhosted.org/packages/5e/4c/87efd62de2dd4113502865ce98c966a9e5648c2b5c73d6e7007e8dfc3647/circuitpython-mcp48xx-1.0.0.tar.gz
+[2024-04-11 10:22:13] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-11 10:22:13] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2024-04-11 10:22:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-11 10:22:13] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-11 10:22:13] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240411/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-11 10:22:13] INFO root fetch - processPackages [circuitpython-mcp48xx]: Downloading https://files.pythonhosted.org/packages/a2/5d/7d0aaa3bac6d9a73f88c688a4df60eb202692b2e089fec5e656ed9ca6ca1/circuitpython-mcp48xx-1.0.0rc1.tar.gz
+[2024-04-11 10:22:13] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/11/15/879a55591e519068d24d92c0ef5424a7fcf5d84383ff819e7d0adeae19c5/cxapit-1.0.9.tar.gz
+[2024-04-11 10:22:13] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2024-04-11 10:22:13] INFO root fetch - processPackages [circuitpython-mcp48xx]: executing diffoscope
+[2024-04-11 10:22:13] INFO root fetch - processPackages [circuitpython-mcp48xx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-mcp48xx-1.0.0.tar.gz tmp/circuitpython-mcp48xx-1.0.0rc1.tar.gz --markdown 20240411/c/circuitpython-mcp48xx/1.0.0-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-11 10:22:13] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-11 10:22:13] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.8.tar.gz tmp/cxapit-1.0.9.tar.gz --markdown 20240411/c/cxapit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 10:22:14] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2024-04-11 10:22:14] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20240411/r/redbrick-sdk/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-11 10:22:14] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-11 10:22:14] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-11 10:22:14] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240411/i/irispie/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-11 10:22:14] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.8.tar.gz]
+[2024-04-11 10:22:14] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.9.tar.gz]
+[2024-04-11 10:22:14] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-11 10:22:14] INFO root fetch - processPackages [circuitpython-mcp48xx]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-mcp48xx-1.0.0.tar.gz]
+[2024-04-11 10:22:14] INFO root fetch - processPackages [circuitpython-mcp48xx]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-mcp48xx-1.0.0rc1.tar.gz]
+[2024-04-11 10:22:14] INFO root fetch - main [MainThread]: End processing [circuitpython-mcp48xx]: success
+[2024-04-11 10:22:14] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2024-04-11 10:22:14] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2024-04-11 10:22:14] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2024-04-11 10:22:15] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-11 10:22:15] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-11 10:22:15] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-11 10:22:16] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-11 10:22:16] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-11 10:22:16] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-11 10:22:16] INFO root fetch - main [MainThread]: Store serial: [22716268]

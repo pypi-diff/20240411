@@ -18774,3 +18774,45 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:57:10] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-17.0.4.tar.gz]
 [2024-04-11 11:57:10] INFO root fetch - main [MainThread]: End processing [tutor]: success
 [2024-04-11 11:57:10] INFO root fetch - main [MainThread]: Store serial: [22717782]
+[2024-04-11 11:59:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717782]
+[2024-04-11 11:59:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 11:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyClinet
+[2024-04-11 11:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowddl
+[2024-04-11 11:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pami
+[2024-04-11 11:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sumologic
+[2024-04-11 11:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samplemongoconnect
+[2024-04-11 11:59:19] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-04-11 11:59:19] WARNING root fetch - processPackages [samplemongoconnect]: Skipping, unable to determine old version
+[2024-04-11 11:59:19] INFO root fetch - main [MainThread]: End processing [samplemongoconnect] error
+[2024-04-11 11:59:19] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-04-11 11:59:19] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-11 11:59:19] INFO root fetch - processPackages [PyClinet]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-04-11 11:59:19] INFO root fetch - processPackages [pami]: New version: [2024.4.9.1] Old Version: [2024.4.11.1]
+[2024-04-11 11:59:20] INFO root fetch - processPackages [PyClinet]: Downloading https://files.pythonhosted.org/packages/f7/bd/e633f57bec21abc21179763546109652055cebfbca76aadee52795ff515f/PyClinet-1.1.1.tar.gz
+[2024-04-11 11:59:20] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2024-04-11 11:59:20] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-04-11 11:59:20] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/52/5f/c16787a3425b832845f33699310b407124050a466a0b823d7d12f8bd82a3/pami-2024.4.11.1.tar.gz
+[2024-04-11 11:59:20] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-04-11 11:59:20] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240411/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-04-11 11:59:20] INFO root fetch - processPackages [PyClinet]: Downloading https://files.pythonhosted.org/packages/d4/10/f6dbc41d1a90141c1ba575a8c697637b3faef27bb3268695f1ad9a8b2c04/PyClinet-2.0.0.tar.gz
+[2024-04-11 11:59:20] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2024-04-11 11:59:20] INFO root fetch - processPackages [PyClinet]: executing diffoscope
+[2024-04-11 11:59:20] INFO root fetch - processPackages [PyClinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyClinet-1.1.1.tar.gz tmp/PyClinet-2.0.0.tar.gz --markdown 20240411/P/PyClinet/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-04-11 11:59:20] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/46/a7/dca599df03b4e779f939be80a4ba017d370fa9a4133a445e50509d5c337a/pami-2024.4.9.1.tar.gz
+[2024-04-11 11:59:20] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2024-04-11 11:59:20] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20240411/s/snowddl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-11 11:59:20] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-04-11 11:59:20] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.4.11.1.tar.gz tmp/pami-2024.4.9.1.tar.gz --markdown 20240411/p/pami/2024.4.11.1-2024.4.9.1/README.md --exclude *.pyd
+[2024-04-11 11:59:21] INFO root fetch - processPackages [PyClinet]: Remove: archive file [/home/abi/fetcher/tmp/PyClinet-1.1.1.tar.gz]
+[2024-04-11 11:59:21] INFO root fetch - processPackages [PyClinet]: Remove: archive file [/home/abi/fetcher/tmp/PyClinet-2.0.0.tar.gz]
+[2024-04-11 11:59:21] INFO root fetch - main [MainThread]: End processing [PyClinet]: success
+[2024-04-11 11:59:21] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-04-11 11:59:21] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-04-11 11:59:21] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-04-11 11:59:21] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.8.tar.gz]
+[2024-04-11 11:59:21] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
+[2024-04-11 11:59:21] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2024-04-11 11:59:22] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.11.1.tar.gz]
+[2024-04-11 11:59:22] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.9.1.tar.gz]
+[2024-04-11 11:59:22] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-04-11 11:59:22] INFO root fetch - main [MainThread]: Store serial: [22717802]

@@ -8101,3 +8101,51 @@ EOFError: EOF read where object expected
 [2024-04-11 03:28:12] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-11 03:28:12] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-11 03:28:12] INFO root fetch - main [MainThread]: Store serial: [22712928]
+[2024-04-11 03:30:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22712928]
+[2024-04-11 03:30:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 03:30:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezirion-api
+[2024-04-11 03:30:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erlab
+[2024-04-11 03:30:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyCatFile
+[2024-04-11 03:30:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kkpyai
+[2024-04-11 03:30:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: better-rtplot
+[2024-04-11 03:30:21] INFO root fetch - processPackages [kkpyai]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-11 03:30:21] INFO root fetch - processPackages [erlab]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-11 03:30:21] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/3e/37/7c3cbdc51135ca769d6277afaf23266735fae1dae866765f325d202f27cb/kkpyai-0.2.3.tar.gz
+[2024-04-11 03:30:21] INFO root fetch - processPackages [PyCatFile]: New version: [0.7.6] Old Version: [0.7.4]
+[2024-04-11 03:30:21] INFO root fetch - processPackages [ezirion-api]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-11 03:30:21] INFO root fetch - processPackages [better-rtplot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 03:30:21] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/76/29/e2ff57fb2caf7af0c90a69938e15c9f327d2e1d893bb4aa7ea89d23d1cfd/erlab-2.1.0.tar.gz
+[2024-04-11 03:30:21] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/22/9e/dedb24c6ae52257f40b25d8efd14b8d8cdf82f21a143837bf96e6926f777/kkpyai-0.3.0.tar.gz
+[2024-04-11 03:30:21] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/03/92/1ab6f873385319cfc909494c41ffa4895e4244af2f62544e95325b1e393a/PyCatFile-0.7.4.tar.gz
+[2024-04-11 03:30:21] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/3d/43/3f11666e72dc5eeec15f4a8dce1ddf3ec6679dd9cc70a71516cc1dacfe5d/better_rtplot-0.1.4.tar.gz
+[2024-04-11 03:30:22] INFO root fetch - processPackages [ezirion-api]: Downloading https://files.pythonhosted.org/packages/0e/88/fe19baf167887f7dc63cbaea694857e3fa6556accf89e96e38757bde50ce/ezirion_api-0.1.0.tar.gz
+[2024-04-11 03:30:22] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-04-11 03:30:22] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.2.3.tar.gz tmp/kkpyai-0.3.0.tar.gz --markdown 20240411/k/kkpyai/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-11 03:30:22] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/01/67/a3272599ee71780b17e0c562007273595c071627384f281fe783cee2683a/PyCatFile-0.7.6.tar.gz
+[2024-04-11 03:30:22] INFO root fetch - processPackages [ezirion-api]: Downloading https://files.pythonhosted.org/packages/19/2c/e8a15d7ed8dda2db9586588e8c548dcbabf58c77dfd81ae2d0a1f1cdc751/ezirion_api-0.1.2.tar.gz
+[2024-04-11 03:30:22] INFO root fetch - processPackages [PyCatFile]: executing diffoscope
+[2024-04-11 03:30:22] INFO root fetch - processPackages [PyCatFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCatFile-0.7.4.tar.gz tmp/PyCatFile-0.7.6.tar.gz --markdown 20240411/P/PyCatFile/0.7.4-0.7.6/README.md --exclude *.pyd
+[2024-04-11 03:30:22] INFO root fetch - processPackages [better-rtplot]: Downloading https://files.pythonhosted.org/packages/1d/48/e88e898651f7f63be9679f2ee26865597dcff5e5ed01347dbfe674171945/better_rtplot-0.1.5.tar.gz
+[2024-04-11 03:30:22] INFO root fetch - processPackages [ezirion-api]: executing diffoscope
+[2024-04-11 03:30:22] INFO root fetch - processPackages [ezirion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezirion_api-0.1.0.tar.gz tmp/ezirion_api-0.1.2.tar.gz --markdown 20240411/e/ezirion-api/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-11 03:30:22] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/3f/b7/9f85915edd18434c07216f7c1bfaec2954c12c672af924e9e84807ead59d/erlab-2.1.1.tar.gz
+[2024-04-11 03:30:22] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.2.3.tar.gz]
+[2024-04-11 03:30:22] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.3.0.tar.gz]
+[2024-04-11 03:30:22] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-04-11 03:30:22] INFO root fetch - processPackages [better-rtplot]: executing diffoscope
+[2024-04-11 03:30:22] INFO root fetch - processPackages [better-rtplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_rtplot-0.1.4.tar.gz tmp/better_rtplot-0.1.5.tar.gz --markdown 20240411/b/better-rtplot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 03:30:22] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-11 03:30:22] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.1.0.tar.gz tmp/erlab-2.1.1.tar.gz --markdown 20240411/e/erlab/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-11 03:30:23] INFO root fetch - processPackages [ezirion-api]: Remove: archive file [/home/abi/fetcher/tmp/ezirion_api-0.1.0.tar.gz]
+[2024-04-11 03:30:23] INFO root fetch - processPackages [ezirion-api]: Remove: archive file [/home/abi/fetcher/tmp/ezirion_api-0.1.2.tar.gz]
+[2024-04-11 03:30:23] INFO root fetch - main [MainThread]: End processing [ezirion-api]: success
+[2024-04-11 03:30:23] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/PyCatFile-0.7.4.tar.gz]
+[2024-04-11 03:30:23] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/PyCatFile-0.7.6.tar.gz]
+[2024-04-11 03:30:23] INFO root fetch - main [MainThread]: End processing [PyCatFile]: success
+[2024-04-11 03:30:23] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.4.tar.gz]
+[2024-04-11 03:30:23] INFO root fetch - processPackages [better-rtplot]: Remove: archive file [/home/abi/fetcher/tmp/better_rtplot-0.1.5.tar.gz]
+[2024-04-11 03:30:23] INFO root fetch - main [MainThread]: End processing [better-rtplot]: success
+[2024-04-11 03:30:41] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.0.tar.gz]
+[2024-04-11 03:30:41] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.1.tar.gz]
+[2024-04-11 03:30:41] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-11 03:30:41] INFO root fetch - main [MainThread]: Store serial: [22713006]

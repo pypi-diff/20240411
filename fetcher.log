@@ -18355,3 +18355,41 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 11:37:13] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.900.tar.gz]
 [2024-04-11 11:37:13] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-04-11 11:37:13] INFO root fetch - main [MainThread]: Store serial: [22717588]
+[2024-04-11 11:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22717588]
+[2024-04-11 11:39:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 11:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heppyness
+[2024-04-11 11:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.web
+[2024-04-11 11:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cut-detector
+[2024-04-11 11:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sumologic
+[2024-04-11 11:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: new-rep
+[2024-04-11 11:39:22] WARNING root fetch - processPackages [new-rep]: Skipping, unable to determine old version
+[2024-04-11 11:39:22] INFO root fetch - main [MainThread]: End processing [new-rep] error
+[2024-04-11 11:39:22] INFO root fetch - processPackages [heppyness]: New version: [2.1.0] Old Version: [2.0.5]
+[2024-04-11 11:39:22] INFO root fetch - processPackages [cut-detector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 11:39:23] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-04-11 11:39:23] INFO root fetch - processPackages [heppyness]: Downloading https://files.pythonhosted.org/packages/43/bb/531d80d5f357f6eaf65d6b09ab39b80b45f8fc9d5090106f03415367ee25/heppyness-2.0.5.tar.gz
+[2024-04-11 11:39:23] INFO root fetch - processPackages [swh.web]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-11 11:39:23] INFO root fetch - processPackages [cut-detector]: Downloading https://files.pythonhosted.org/packages/a4/e8/c914e8c6b2f2289cbc9e36478c72afbfa6b99c930cbc131205a8c3e937f6/cut-detector-0.0.8.tar.gz
+[2024-04-11 11:39:23] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-04-11 11:39:23] INFO root fetch - processPackages [swh.web]: Downloading https://files.pythonhosted.org/packages/fc/85/1a19d69fb1b536eb7bff20638e199b15d43ea7b190895a44612108c9a19a/swh.web-0.4.0.tar.gz
+[2024-04-11 11:39:23] INFO root fetch - processPackages [heppyness]: Downloading https://files.pythonhosted.org/packages/e8/05/2856270cc97b2f6310e82997a5f61c54121221c69ee1199c27af1d08fb22/heppyness-2.1.0.tar.gz
+[2024-04-11 11:39:23] WARNING root fetch - processPackages [swh.web]: Skipping package: exceeds size limit 13820090>=10485760
+[2024-04-11 11:39:23] INFO root fetch - main [MainThread]: End processing [swh.web] error
+[2024-04-11 11:39:23] INFO root fetch - processPackages [heppyness]: executing diffoscope
+[2024-04-11 11:39:23] INFO root fetch - processPackages [heppyness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heppyness-2.0.5.tar.gz tmp/heppyness-2.1.0.tar.gz --markdown 20240411/h/heppyness/2.0.5-2.1.0/README.md --exclude *.pyd
+[2024-04-11 11:39:23] INFO root fetch - processPackages [cut-detector]: Downloading https://files.pythonhosted.org/packages/78/63/43b98e6af539058f60d3f4e599d03537136fdcba329ac11739abd86083f8/cut-detector-0.0.9.tar.gz
+[2024-04-11 11:39:23] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-04-11 11:39:23] INFO root fetch - processPackages [cut-detector]: executing diffoscope
+[2024-04-11 11:39:23] INFO root fetch - processPackages [cut-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cut-detector-0.0.8.tar.gz tmp/cut-detector-0.0.9.tar.gz --markdown 20240411/c/cut-detector/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 11:39:23] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-04-11 11:39:23] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240411/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-04-11 11:39:24] INFO root fetch - processPackages [heppyness]: Remove: archive file [/home/abi/fetcher/tmp/heppyness-2.0.5.tar.gz]
+[2024-04-11 11:39:24] INFO root fetch - processPackages [heppyness]: Remove: archive file [/home/abi/fetcher/tmp/heppyness-2.1.0.tar.gz]
+[2024-04-11 11:39:24] INFO root fetch - main [MainThread]: End processing [heppyness]: success
+[2024-04-11 11:39:24] INFO root fetch - processPackages [cut-detector]: Remove: archive file [/home/abi/fetcher/tmp/cut-detector-0.0.8.tar.gz]
+[2024-04-11 11:39:24] INFO root fetch - processPackages [cut-detector]: Remove: archive file [/home/abi/fetcher/tmp/cut-detector-0.0.9.tar.gz]
+[2024-04-11 11:39:24] INFO root fetch - main [MainThread]: End processing [cut-detector]: success
+[2024-04-11 11:39:25] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-04-11 11:39:25] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-04-11 11:39:25] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-04-11 11:39:25] INFO root fetch - main [MainThread]: Store serial: [22717603]

@@ -10287,3 +10287,24 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:44:38] INFO root fetch - processPackages [valor-client]: Remove: archive file [/home/abi/fetcher/tmp/valor-client-0.20.2.tar.gz]
 [2024-04-11 05:44:38] INFO root fetch - main [MainThread]: End processing [valor-client]: success
 [2024-04-11 05:44:38] INFO root fetch - main [MainThread]: Store serial: [22714023]
+[2024-04-11 05:46:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714023]
+[2024-04-11 05:46:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 05:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: five-strips-of-bacon
+[2024-04-11 05:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trinnov-altitude
+[2024-04-11 05:46:46] INFO root fetch - processPackages [five-strips-of-bacon]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-11 05:46:46] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 05:46:46] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/3b/1a/9b3d904cc9d888af190fae631c57bd57ef168371a5c47ac68f0a3269b99d/five_strips_of_bacon-0.1.2.tar.gz
+[2024-04-11 05:46:46] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-11 05:46:47] INFO root fetch - processPackages [five-strips-of-bacon]: Downloading https://files.pythonhosted.org/packages/83/c8/cd4e4244e5b30354559f34f679d282f89dc627765e531b894332a1ea7485/five_strips_of_bacon-0.1.4.tar.gz
+[2024-04-11 05:46:47] INFO root fetch - processPackages [five-strips-of-bacon]: executing diffoscope
+[2024-04-11 05:46:47] INFO root fetch - processPackages [five-strips-of-bacon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_strips_of_bacon-0.1.2.tar.gz tmp/five_strips_of_bacon-0.1.4.tar.gz --markdown 20240411/f/five-strips-of-bacon/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-11 05:46:47] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/76/2e/d188a8568df2fbd157a92850369057419ef690d42167df73acfde0838f4e/trinnov-altitude-0.1.9.tar.gz
+[2024-04-11 05:46:47] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-11 05:46:47] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.8.tar.gz tmp/trinnov-altitude-0.1.9.tar.gz --markdown 20240411/t/trinnov-altitude/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 05:46:47] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.2.tar.gz]
+[2024-04-11 05:46:47] INFO root fetch - processPackages [five-strips-of-bacon]: Remove: archive file [/home/abi/fetcher/tmp/five_strips_of_bacon-0.1.4.tar.gz]
+[2024-04-11 05:46:47] INFO root fetch - main [MainThread]: End processing [five-strips-of-bacon]: success
+[2024-04-11 05:46:47] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-11 05:46:47] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
+[2024-04-11 05:46:47] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-11 05:46:47] INFO root fetch - main [MainThread]: Store serial: [22714029]

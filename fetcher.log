@@ -11060,3 +11060,36 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:34:52] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-6.0.0.tar.gz]
 [2024-04-11 06:34:52] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
 [2024-04-11 06:34:52] INFO root fetch - main [MainThread]: Store serial: [22714365]
+[2024-04-11 06:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714365]
+[2024-04-11 06:37:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 06:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datoso
+[2024-04-11 06:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octoflow
+[2024-04-11 06:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headline-gen
+[2024-04-11 06:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: komodo-sdk
+[2024-04-11 06:37:01] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-11 06:37:01] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-11 06:37:01] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-11 06:37:01] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/ed/04/cdca5aeb9ac9536e839c5138ff9f58fcb15927acc3c52467dfb9baa31805/komodo_sdk-0.0.90.tar.gz
+[2024-04-11 06:37:01] INFO root fetch - processPackages [datoso]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 06:37:01] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 06:37:01] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/2e/6f/18ee10194d36dffcf108e1df0c2169f92e5dc8f83f6b7ee1956814ea77c2/datoso-0.3.8.tar.gz
+[2024-04-11 06:37:01] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-04-11 06:37:01] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/a2/30/abcf0fccef909600c703fb6298dc2d2f23d1f1353cd9802424dccdb51af7/komodo_sdk-0.0.91.tar.gz
+[2024-04-11 06:37:01] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-04-11 06:37:02] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/fc/9c/1d4fe5b11bbfebe00aa24f06e96a5cf8803b5f86544c241f7ca89e42f845/datoso-0.3.9.tar.gz
+[2024-04-11 06:37:02] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-04-11 06:37:02] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240411/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 06:37:02] INFO root fetch - processPackages [datoso]: executing diffoscope
+[2024-04-11 06:37:02] INFO root fetch - processPackages [datoso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso-0.3.8.tar.gz tmp/datoso-0.3.9.tar.gz --markdown 20240411/d/datoso/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 06:37:02] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-11 06:37:02] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.90.tar.gz tmp/komodo_sdk-0.0.91.tar.gz --markdown 20240411/k/komodo-sdk/0.0.90-0.0.91/README.md --exclude *.pyd
+[2024-04-11 06:37:02] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-04-11 06:37:02] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-04-11 06:37:02] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-04-11 06:37:02] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.8.tar.gz]
+[2024-04-11 06:37:02] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.9.tar.gz]
+[2024-04-11 06:37:02] INFO root fetch - main [MainThread]: End processing [datoso]: success
+[2024-04-11 06:37:07] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.90.tar.gz]
+[2024-04-11 06:37:07] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.91.tar.gz]
+[2024-04-11 06:37:07] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-11 06:37:07] INFO root fetch - main [MainThread]: Store serial: [22714378]

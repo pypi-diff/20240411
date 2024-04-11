@@ -14914,3 +14914,57 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:31:57] INFO root fetch - processPackages [rl-deploy]: Remove: archive file [/home/abi/fetcher/tmp/rl_deploy-2.0.1.0-py2.py3-none-win_amd64.whl.zip]
 [2024-04-11 10:31:57] INFO root fetch - main [MainThread]: End processing [rl-deploy]: success
 [2024-04-11 10:31:57] INFO root fetch - main [MainThread]: Store serial: [22716412]
+[2024-04-11 10:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716412]
+[2024-04-11 10:34:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viadot2
+[2024-04-11 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peakqc
+[2024-04-11 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: q-loki-client
+[2024-04-11 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diffusion
+[2024-04-11 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk
+[2024-04-11 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: molgenis-emx2-staging-migrator
+[2024-04-11 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-move-location
+[2024-04-11 10:34:10] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: New version: [8.213.11.dev1692184266583] Old Version: [10.50.1]
+[2024-04-11 10:34:10] INFO root fetch - processPackages [diffusion]: New version: [6.9.7] Old Version: [6.9.6]
+[2024-04-11 10:34:10] INFO root fetch - processPackages [viadot2]: New version: [2.0a23] Old Version: [2.0a22]
+[2024-04-11 10:34:10] WARNING root fetch - processPackages [peakqc]: Skipping, unable to determine old version
+[2024-04-11 10:34:10] INFO root fetch - main [MainThread]: End processing [peakqc] error
+[2024-04-11 10:34:10] INFO root fetch - processPackages [odoo-addon-stock-move-location]: New version: [16.0.1.2.3] Old Version: [16.0.1.2.2]
+[2024-04-11 10:34:10] WARNING root fetch - processPackages [q-loki-client]: Skipping, unable to determine old version
+[2024-04-11 10:34:10] INFO root fetch - main [MainThread]: End processing [q-loki-client] error
+[2024-04-11 10:34:10] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Downloading https://files.pythonhosted.org/packages/00/88/d6558bbcb1a043706d355f8257eed83f6e9e6523f7e6986199116b4af924/molgenis-emx2-staging-migrator-10.50.1.tar.gz
+[2024-04-11 10:34:10] INFO root fetch - processPackages [diffusion]: Downloading https://files.pythonhosted.org/packages/18/32/6c0430b33596e4bef36f51ba7d5e75a05f01a7f8ba265f79cf156a101b01/diffusion-6.9.6-1-py3-none-any.whl
+[2024-04-11 10:34:10] INFO root fetch - processPackages [viadot2]: Downloading https://files.pythonhosted.org/packages/36/f1/2e99936167420d4eada70bd119e3e4c8423b92a1127d271ce8e76ca4880e/viadot2-2.0a22.tar.gz
+[2024-04-11 10:34:10] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/eb/b9/7d0121756702776146a3c54e55661f41c6b865addac56f804c76a6a7991b/odoo_addon_stock_move_location-16.0.1.2.2-py3-none-any.whl
+[2024-04-11 10:34:10] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.4] Old Version: [2.0.96b0]
+[2024-04-11 10:34:10] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Downloading https://files.pythonhosted.org/packages/5b/83/40c65a3790a8bef0c1dc624ce1ac3d02f7b7a13c7879a836fae7c2e3df81/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz
+[2024-04-11 10:34:10] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: executing diffoscope
+[2024-04-11 10:34:10] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-emx2-staging-migrator-10.50.1.tar.gz tmp/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz --markdown 20240411/m/molgenis-emx2-staging-migrator/10.50.1-8.213.11.dev1692184266583/README.md --exclude *.pyd
+[2024-04-11 10:34:10] INFO root fetch - processPackages [diffusion]: Downloading https://files.pythonhosted.org/packages/b5/f7/3b98241a271d07e427092acf99de96149d1ec91564d1f6e129c8b558c11f/diffusion-6.9.7-1-py3-none-any.whl
+[2024-04-11 10:34:10] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/79/bb/a00dd0006ca7cf9f5c9e9d6fb1a04a9f2b19a093e74becce026a1b0b4855/lusid_sdk-2.0.96b0.tar.gz
+[2024-04-11 10:34:10] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/d3/e3/4de744bb48efc6919592d473af785626c24f9a691ebdf5461eec6fbf9b3f/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl
+[2024-04-11 10:34:10] INFO root fetch - processPackages [viadot2]: Downloading https://files.pythonhosted.org/packages/b2/fe/7a8d39c5e176641e3aab5ed8252152f0f3c4ce9fd12164cf1ed8bb684737/viadot2-2.0a23.tar.gz
+[2024-04-11 10:34:11] INFO root fetch - processPackages [diffusion]: executing diffoscope
+[2024-04-11 10:34:11] INFO root fetch - processPackages [diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusion-6.9.6-1-py3-none-any.whl.zip tmp/diffusion-6.9.7-1-py3-none-any.whl.zip --markdown 20240411/d/diffusion/6.9.6-6.9.7/README.md --exclude *.pyd
+[2024-04-11 10:34:11] INFO root fetch - processPackages [viadot2]: executing diffoscope
+[2024-04-11 10:34:11] INFO root fetch - processPackages [viadot2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viadot2-2.0a22.tar.gz tmp/viadot2-2.0a23.tar.gz --markdown 20240411/v/viadot2/2.0a22-2.0a23/README.md --exclude *.pyd
+[2024-04-11 10:34:11] INFO root fetch - processPackages [odoo-addon-stock-move-location]: executing diffoscope
+[2024-04-11 10:34:11] INFO root fetch - processPackages [odoo-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_location-16.0.1.2.2-py3-none-any.whl.zip tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-stock-move-location/16.0.1.2.2-16.0.1.2.3/README.md --exclude *.pyd
+[2024-04-11 10:34:11] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/96/9d6a918fed49bbc9d1d4e5a586eb2582b874fae854bc771f84b2c21de97d/lusid_sdk-2.1.4.tar.gz
+[2024-04-11 10:34:11] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-11 10:34:11] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.0.96b0.tar.gz tmp/lusid_sdk-2.1.4.tar.gz --markdown 20240411/l/lusid-sdk/2.0.96b0-2.1.4/README.md --exclude *.pyd
+[2024-04-11 10:34:12] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-emx2-staging-migrator-10.50.1.tar.gz]
+[2024-04-11 10:34:12] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz]
+[2024-04-11 10:34:12] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-staging-migrator]: success
+[2024-04-11 10:34:12] INFO root fetch - processPackages [viadot2]: Remove: archive file [/home/abi/fetcher/tmp/viadot2-2.0a22.tar.gz]
+[2024-04-11 10:34:12] INFO root fetch - processPackages [viadot2]: Remove: archive file [/home/abi/fetcher/tmp/viadot2-2.0a23.tar.gz]
+[2024-04-11 10:34:12] INFO root fetch - main [MainThread]: End processing [viadot2]: success
+[2024-04-11 10:34:13] INFO root fetch - processPackages [diffusion]: Remove: archive file [/home/abi/fetcher/tmp/diffusion-6.9.6-1-py3-none-any.whl.zip]
+[2024-04-11 10:34:13] INFO root fetch - processPackages [diffusion]: Remove: archive file [/home/abi/fetcher/tmp/diffusion-6.9.7-1-py3-none-any.whl.zip]
+[2024-04-11 10:34:13] INFO root fetch - main [MainThread]: End processing [diffusion]: success
+[2024-04-11 10:34:13] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.2-py3-none-any.whl.zip]
+[2024-04-11 10:34:13] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip]
+[2024-04-11 10:34:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-location]: success
+[2024-04-11 10:34:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.96b0.tar.gz]
+[2024-04-11 10:34:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.4.tar.gz]
+[2024-04-11 10:34:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-11 10:34:29] INFO root fetch - main [MainThread]: Store serial: [22716438]

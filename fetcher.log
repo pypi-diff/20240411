@@ -12615,3 +12615,93 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 08:27:38] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
 [2024-04-11 08:27:38] INFO root fetch - main [MainThread]: End processing [moto-ext] error
 [2024-04-11 08:27:38] INFO root fetch - main [MainThread]: Store serial: [22715032]
+[2024-04-11 08:29:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22715032]
+[2024-04-11 08:29:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-wms
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: context-menu
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DFO-LS
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-packages
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmuses
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adb-enhanced
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazy-main
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dump-github
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-eks
+[2024-04-11 08:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-blockchaintools
+[2024-04-11 08:29:47] INFO root fetch - processPackages [llmuses]: New version: [0.2.7rc9] Old Version: [0.2.7rc8]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [odoo-addons-oca-wms]: New version: [16.0.20240409.0] Old Version: [16.0.20240405.0]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [dump-github]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [DFO-LS]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [pulumi-eks]: New version: [2.4.0a1712771890] Old Version: [2.4.0a1712071824]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/5d/94/0c920185f0751c4b167ae92dbb3ad6465f9cb607d97280222bcfb00aaa0f/odoo_addons_oca_wms-16.0.20240405.0-py3-none-any.whl
+[2024-04-11 08:29:47] INFO root fetch - processPackages [dump-github]: Downloading https://files.pythonhosted.org/packages/7a/7d/7a9ac4d0fe375e860b58c4dc5dfac822b320800c2c11fe6960e095c31ed1/dump_github-0.1.2-py3-none-any.whl
+[2024-04-11 08:29:47] INFO root fetch - processPackages [llmuses]: Downloading https://files.pythonhosted.org/packages/fa/be/1e37c61f2e743e3c6966af46e4bd70bf8a688c4f0a294f628275f8908c3b/llmuses-0.2.7rc8.tar.gz
+[2024-04-11 08:29:47] WARNING root fetch - processPackages [python-blockchaintools]: Skipping, unable to determine old version
+[2024-04-11 08:29:47] INFO root fetch - processPackages [python-blockchaintools]: Start processing: fd2py
+[2024-04-11 08:29:47] INFO root fetch - main [MainThread]: End processing [python-blockchaintools] error
+[2024-04-11 08:29:47] INFO root fetch - processPackages [context-menu]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [lazy-main]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [adb-enhanced]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 08:29:47] INFO root fetch - processPackages [DFO-LS]: Downloading https://files.pythonhosted.org/packages/58/92/6f618fd1f1bb5e1969fa4dd9b4ad0fe352b10587808d283fc36a780129a3/DFO-LS-1.4.0.tar.gz
+[2024-04-11 08:29:47] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/48/45/59ac244a2cbdfef7dfd4857cb3520006d65f38227000c5db81911a712b5a/pulumi_eks-2.4.0a1712071824.tar.gz
+[2024-04-11 08:29:47] ERROR root fetch - processPackages [fd2py]: Unable to get metadata: No such project 'fd2py'
+[2024-04-11 08:29:47] INFO root fetch - main [MainThread]: End processing [fd2py] error
+[2024-04-11 08:29:47] INFO root fetch - processPackages [context-menu]: Downloading https://files.pythonhosted.org/packages/b3/0d/6358ca8e07e6914f9bd1e5e8a9c9b3d74375c18840df74dc59976616efd8/context_menu-1.3.1.tar.gz
+[2024-04-11 08:29:47] INFO root fetch - processPackages [lazy-main]: Downloading https://files.pythonhosted.org/packages/cf/ad/4177419342a0fe844b114fd5d331c411f21c7ce4ea783ef6827c7bcf481d/lazy_main-0.1.2.tar.gz
+[2024-04-11 08:29:47] INFO root fetch - processPackages [adb-enhanced]: Downloading https://files.pythonhosted.org/packages/66/96/61eb70ea1d11a9171a47d8d36796eaedc5fb10fea509b9e3853f4408b9a1/adb-enhanced-2.5.8.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/c3/26/787e628a076f861e8de19d52378e03eb1b90435c500aee1f81c1b89c5f02/odoo_addons_oca_wms-16.0.20240409.0-py3-none-any.whl
+[2024-04-11 08:29:48] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [dump-github]: Downloading https://files.pythonhosted.org/packages/e2/74/4e6ccc97b952805b3449bf8efdcaa8479d65f74cd8722b1353bdde7c2c86/dump_github-0.1.3-py3-none-any.whl
+[2024-04-11 08:29:48] INFO root fetch - processPackages [llmuses]: Downloading https://files.pythonhosted.org/packages/a6/49/47fc2e73e42f8a45c9d39db5ad3343516242ffe1f12e6a2cb7e082980052/llmuses-0.2.7rc9.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [odoo-addons-oca-wms]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [odoo-addons-oca-wms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_wms-16.0.20240405.0-py3-none-any.whl.zip tmp/odoo_addons_oca_wms-16.0.20240409.0-py3-none-any.whl.zip --markdown 20240411/o/odoo-addons-oca-wms/16.0.20240405.0-16.0.20240409.0/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [DFO-LS]: Downloading https://files.pythonhosted.org/packages/0e/fe/e5aababbee593516a5b0ae3627aba692f3ad426c46ffb09a341137677dd9/DFO-LS-1.4.1.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/a3/5d/4f1d6e8e9bdde537bdc80eeedac98cd649411a013eaa7acd8b7752e1c875/pulumi_eks-2.4.0a1712771890.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [dump-github]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [dump-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dump_github-0.1.2-py3-none-any.whl.zip tmp/dump_github-0.1.3-py3-none-any.whl.zip --markdown 20240411/d/dump-github/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [context-menu]: Downloading https://files.pythonhosted.org/packages/35/68/b297e1fc4b8538596c88aed56db50b4a64edde6a13235d153b8c091dd4d7/context_menu-1.4.0.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [llmuses]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [llmuses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmuses-0.2.7rc8.tar.gz tmp/llmuses-0.2.7rc9.tar.gz --markdown 20240411/l/llmuses/0.2.7rc8-0.2.7rc9/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [DFO-LS]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [DFO-LS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFO-LS-1.4.0.tar.gz tmp/DFO-LS-1.4.1.tar.gz --markdown 20240411/D/DFO-LS/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [pulumi-eks]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_eks-2.4.0a1712071824.tar.gz tmp/pulumi_eks-2.4.0a1712771890.tar.gz --markdown 20240411/p/pulumi-eks/2.4.0a1712071824-2.4.0a1712771890/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [lazy-main]: Downloading https://files.pythonhosted.org/packages/5f/3e/5f70799c12a1a63b23424ce1bad7f8e36556587334489f8d486fdf2e292a/lazy_main-0.1.3.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-11 08:29:48] INFO root fetch - processPackages [context-menu]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [context-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/context_menu-1.3.1.tar.gz tmp/context_menu-1.4.0.tar.gz --markdown 20240411/c/context-menu/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [lazy-main]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [lazy-main]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_main-0.1.2.tar.gz tmp/lazy_main-0.1.3.tar.gz --markdown 20240411/l/lazy-main/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-11 08:29:48] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240411/a/aws-packages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 08:29:48] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240405.0-py3-none-any.whl.zip]
+[2024-04-11 08:29:48] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240409.0-py3-none-any.whl.zip]
+[2024-04-11 08:29:48] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-wms]: success
+[2024-04-11 08:29:48] INFO root fetch - processPackages [dump-github]: Remove: archive file [/home/abi/fetcher/tmp/dump_github-0.1.2-py3-none-any.whl.zip]
+[2024-04-11 08:29:48] INFO root fetch - processPackages [dump-github]: Remove: archive file [/home/abi/fetcher/tmp/dump_github-0.1.3-py3-none-any.whl.zip]
+[2024-04-11 08:29:48] INFO root fetch - main [MainThread]: End processing [dump-github]: success
+[2024-04-11 08:29:49] INFO root fetch - processPackages [DFO-LS]: Remove: archive file [/home/abi/fetcher/tmp/DFO-LS-1.4.0.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - processPackages [DFO-LS]: Remove: archive file [/home/abi/fetcher/tmp/DFO-LS-1.4.1.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - main [MainThread]: End processing [DFO-LS]: success
+[2024-04-11 08:29:49] INFO root fetch - processPackages [lazy-main]: Remove: archive file [/home/abi/fetcher/tmp/lazy_main-0.1.2.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - processPackages [lazy-main]: Remove: archive file [/home/abi/fetcher/tmp/lazy_main-0.1.3.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - main [MainThread]: End processing [lazy-main]: success
+[2024-04-11 08:29:49] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-2.4.0a1712071824.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-2.4.0a1712771890.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - main [MainThread]: End processing [pulumi-eks]: success
+[2024-04-11 08:29:49] INFO root fetch - processPackages [context-menu]: Remove: archive file [/home/abi/fetcher/tmp/context_menu-1.3.1.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - processPackages [context-menu]: Remove: archive file [/home/abi/fetcher/tmp/context_menu-1.4.0.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - main [MainThread]: End processing [context-menu]: success
+[2024-04-11 08:29:49] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-11 08:29:49] INFO root fetch - processPackages [adb-enhanced]: Downloading https://files.pythonhosted.org/packages/3f/f8/923f303e71299b7de66680c9bc6f630793c4a4a05fb23f6dd65787981b42/adb-enhanced-2.5.9.tar.gz
+[2024-04-11 08:29:49] INFO root fetch - processPackages [llmuses]: Remove: archive file [/home/abi/fetcher/tmp/llmuses-0.2.7rc8.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - processPackages [llmuses]: Remove: archive file [/home/abi/fetcher/tmp/llmuses-0.2.7rc9.tar.gz]
+[2024-04-11 08:29:49] INFO root fetch - main [MainThread]: End processing [llmuses]: success
+[2024-04-11 08:29:51] INFO root fetch - processPackages [adb-enhanced]: executing diffoscope
+[2024-04-11 08:29:51] INFO root fetch - processPackages [adb-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adb-enhanced-2.5.8.tar.gz tmp/adb-enhanced-2.5.9.tar.gz --markdown 20240411/a/adb-enhanced/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-04-11 08:29:52] INFO root fetch - processPackages [adb-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/adb-enhanced-2.5.8.tar.gz]
+[2024-04-11 08:29:52] INFO root fetch - processPackages [adb-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/adb-enhanced-2.5.9.tar.gz]
+[2024-04-11 08:29:52] INFO root fetch - main [MainThread]: End processing [adb-enhanced]: success
+[2024-04-11 08:29:52] INFO root fetch - main [MainThread]: Store serial: [22715137]

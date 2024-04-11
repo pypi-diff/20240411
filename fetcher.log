@@ -9995,3 +9995,54 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 05:26:59] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.2.dev20240409093519.tar.gz]
 [2024-04-11 05:26:59] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2024-04-11 05:26:59] INFO root fetch - main [MainThread]: Store serial: [22713846]
+[2024-04-11 05:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22713846]
+[2024-04-11 05:29:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: endec
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcsfe-iosapi
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ring-attention-pytorch
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nlp-nightly
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: core-pro
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goose-checker
+[2024-04-11 05:29:07] INFO root fetch - processPackages [bcsfe-iosapi]: New version: [2.7.71] Old Version: [2.7.70]
+[2024-04-11 05:29:07] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 05:29:07] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ring-attention-pytorch]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-11 05:29:07] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/4f/0b/5f6b01d21fa793795e47dbd61c447f7c39e3f6e8f6b3899e9994b8824097/bcsfe-iosapi-2.7.70.tar.gz
+[2024-04-11 05:29:07] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-11 05:29:07] WARNING root fetch - processPackages [goose-checker]: Skipping, unable to determine old version
+[2024-04-11 05:29:07] INFO root fetch - main [MainThread]: End processing [goose-checker] error
+[2024-04-11 05:29:07] INFO root fetch - processPackages [endec]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2024-04-11 05:29:07] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/a6/32/99b886c413a1bcd5aba06e93348707d8c7ad6d44e5c52558c50a7ecb9773/ring-attention-pytorch-0.3.8.tar.gz
+[2024-04-11 05:29:07] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-04-11 05:29:08] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-11 05:29:08] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/b6/af/fcade7f32fedb2e7afe111e444996ef47461e9146fddf8c749b860039ca0/endec-0.1.0b2.tar.gz
+[2024-04-11 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-04-11 05:29:08] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-11 05:29:08] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240411/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 05:29:08] INFO root fetch - processPackages [bcsfe-iosapi]: Downloading https://files.pythonhosted.org/packages/25/07/0429c1e38d91351a8bad6b2c4ef2a9ed7a8ac868d4d9b3537790f377d109/bcsfe-iosapi-2.7.71.tar.gz
+[2024-04-11 05:29:08] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/be/cc/661abf9ad2226b0e543df6658ad23709481a7e1caffa2c7ff2a5ccbec9d1/ring-attention-pytorch-0.3.9.tar.gz
+[2024-04-11 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-11 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240411/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-04-11 05:29:08] INFO root fetch - processPackages [bcsfe-iosapi]: executing diffoscope
+[2024-04-11 05:29:08] INFO root fetch - processPackages [bcsfe-iosapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-iosapi-2.7.70.tar.gz tmp/bcsfe-iosapi-2.7.71.tar.gz --markdown 20240411/b/bcsfe-iosapi/2.7.70-2.7.71/README.md --exclude *.pyd
+[2024-04-11 05:29:08] INFO root fetch - processPackages [ring-attention-pytorch]: executing diffoscope
+[2024-04-11 05:29:08] INFO root fetch - processPackages [ring-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ring-attention-pytorch-0.3.8.tar.gz tmp/ring-attention-pytorch-0.3.9.tar.gz --markdown 20240411/r/ring-attention-pytorch/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-11 05:29:08] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/60/bb/3b27241adab76256158f45f7e903700082d2908100d0d36820b960a6935b/endec-0.1.0b3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl
+[2024-04-11 05:29:08] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-11 05:29:08] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-11 05:29:08] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-11 05:29:08] INFO root fetch - processPackages [endec]: executing diffoscope
+[2024-04-11 05:29:08] INFO root fetch - processPackages [endec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endec-0.1.0b2.tar.gz tmp/endec-0.1.0b3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip --markdown 20240411/e/endec/0.1.0b2-0.1.0b3/README.md --exclude *.pyd
+[2024-04-11 05:29:09] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.8.tar.gz]
+[2024-04-11 05:29:09] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.9.tar.gz]
+[2024-04-11 05:29:09] INFO root fetch - main [MainThread]: End processing [ring-attention-pytorch]: success
+[2024-04-11 05:29:09] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.70.tar.gz]
+[2024-04-11 05:29:09] INFO root fetch - processPackages [bcsfe-iosapi]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-iosapi-2.7.71.tar.gz]
+[2024-04-11 05:29:09] INFO root fetch - main [MainThread]: End processing [bcsfe-iosapi]: success
+[2024-04-11 05:29:09] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.0b2.tar.gz]
+[2024-04-11 05:29:09] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.0b3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2024-04-11 05:29:09] INFO root fetch - main [MainThread]: End processing [endec]: success
+[2024-04-11 05:29:09] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-04-11 05:29:09] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-04-11 05:29:09] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-11 05:29:09] INFO root fetch - main [MainThread]: Store serial: [22713911]

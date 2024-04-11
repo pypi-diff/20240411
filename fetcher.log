@@ -22593,3 +22593,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:07:39] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-04-11 14:07:39] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-04-11 14:07:39] INFO root fetch - main [MainThread]: Store serial: [22719447]
+[2024-04-11 14:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719447]
+[2024-04-11 14:09:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissect.volume
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmtuner
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hat-event
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmsis-stream
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ign8
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: outpostkit
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torcheval-nightly
+[2024-04-11 14:09:48] INFO root fetch - processPackages [pih]: New version: [0.36.3] Old Version: [0.36.2]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [cmsis-stream]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [dissect.volume]: New version: [3.9.dev1] Old Version: [3.9]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [llmtuner]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/f7/37/b5921eeb3300dccdb43b736247b890c83967f21c4547f861f00c83e232b0/pih-0.36.2.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b9/28/f38218f2a95f4af219e9b95ddcc6904d9b9766d24b663b44ff4c5a206b8d/cmsis_stream-1.9.1-py3-none-any.whl
+[2024-04-11 14:09:48] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [dissect.volume]: Downloading https://files.pythonhosted.org/packages/2d/61/ee58d68ec907b43f180fc2ce036ead99679e948a11096ffbe9f7548923f2/dissect.volume-3.9.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [hat-event]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-11 14:09:48] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/c7/ff/7a66017da505732cbc5faf77df9650945212bdc6362012748b67df3b50aa/llmtuner-0.6.1.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/42/ae/db34febc92eb4cec0c67afc087783be0649b30845064810e8929c0b21eb8/hat_event-0.8.9-cp310.cp311-abi3-win_amd64.whl
+[2024-04-11 14:09:48] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b2/66/0d1e34c99fc8cbcab3c6e39ea3afccb5712e15ffb480b0b617395533814b/cmsis_stream-1.9.2-py3-none-any.whl
+[2024-04-11 14:09:48] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/7a/5b/6051c70ebbeb178e500d826f75d352de7da1eb17e3f75339114cfbdcd79b/pih-0.36.3.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [dissect.volume]: Downloading https://files.pythonhosted.org/packages/0d/0d/9d1cb082f16af8acccac34cc6bb4abd81ccb9c5c2e7705cf3e5545f9d95c/dissect.volume-3.9.dev1.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 14:09:48] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-11 14:09:48] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240411/o/outpostkit/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-11 14:09:48] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2024-04-11 14:09:48] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip --markdown 20240411/c/cmsis-stream/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-11 14:09:48] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-11 14:09:48] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240411/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-11 14:09:49] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-11 14:09:49] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.2.tar.gz tmp/pih-0.36.3.tar.gz --markdown 20240411/p/pih/0.36.2-0.36.3/README.md --exclude *.pyd
+[2024-04-11 14:09:49] INFO root fetch - processPackages [dissect.volume]: executing diffoscope
+[2024-04-11 14:09:49] INFO root fetch - processPackages [dissect.volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.volume-3.9.tar.gz tmp/dissect.volume-3.9.dev1.tar.gz --markdown 20240411/d/dissect.volume/3.9-3.9.dev1/README.md --exclude *.pyd
+[2024-04-11 14:09:49] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 14:09:49] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 14:09:49] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 14:09:49] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 14:09:49] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/e3/06/5155c86284f7a5d645b65a60e1f77d185e28704f6e3236af363f8a4b4fcd/llmtuner-0.6.2.tar.gz
+[2024-04-11 14:09:49] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/c1/40/60e7cbc836ba868121d63194f184f1bb86e14f78043407fac10e8ac23dd8/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl
+[2024-04-11 14:09:49] INFO root fetch - processPackages [llmtuner]: executing diffoscope
+[2024-04-11 14:09:49] INFO root fetch - processPackages [llmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmtuner-0.6.1.tar.gz tmp/llmtuner-0.6.2.tar.gz --markdown 20240411/l/llmtuner/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-11 14:09:49] INFO root fetch - processPackages [hat-event]: executing diffoscope
+[2024-04-11 14:09:49] INFO root fetch - processPackages [hat-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_event-0.8.9-cp310.cp311-abi3-win_amd64.whl.zip tmp/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl.zip --markdown 20240411/h/hat-event/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-11 14:09:49] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-11 14:09:49] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-11 14:09:49] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-11 14:09:50] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip]
+[2024-04-11 14:09:50] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
+[2024-04-11 14:09:50] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2024-04-11 14:09:50] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.2.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.3.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-11 14:09:50] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-11 14:09:50] INFO root fetch - processPackages [dissect.volume]: Remove: archive file [/home/abi/fetcher/tmp/dissect.volume-3.9.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - processPackages [dissect.volume]: Remove: archive file [/home/abi/fetcher/tmp/dissect.volume-3.9.dev1.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - main [MainThread]: End processing [dissect.volume]: success
+[2024-04-11 14:09:50] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.8.9-cp310.cp311-abi3-win_amd64.whl.zip]
+[2024-04-11 14:09:50] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.9.0-cp310.cp311.cp312-abi3-win_amd64.whl.zip]
+[2024-04-11 14:09:50] INFO root fetch - main [MainThread]: End processing [hat-event]: success
+[2024-04-11 14:09:50] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.6.1.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.6.2.tar.gz]
+[2024-04-11 14:09:50] INFO root fetch - main [MainThread]: End processing [llmtuner]: success
+[2024-04-11 14:09:52] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 14:09:52] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 14:09:52] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 14:09:52] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 14:09:52] INFO root fetch - main [MainThread]: Store serial: [22719485]

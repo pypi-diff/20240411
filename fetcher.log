@@ -10812,3 +10812,38 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:06:38] INFO root fetch - processPackages [python-mecab-ko]: Remove: archive file [/home/abi/fetcher/tmp/python_mecab_ko-1.3.5-cp39-cp39-win32.whl.zip]
 [2024-04-11 06:06:38] INFO root fetch - main [MainThread]: End processing [python-mecab-ko]: success
 [2024-04-11 06:06:38] INFO root fetch - main [MainThread]: Store serial: [22714219]
+[2024-04-11 06:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714219]
+[2024-04-11 06:08:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeclient
+[2024-04-11 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendp
+[2024-04-11 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-runtime
+[2024-04-11 06:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lineartest
+[2024-04-11 06:08:46] INFO root fetch - processPackages [mojo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 06:08:46] INFO root fetch - processPackages [lineartest]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-11 06:08:46] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/a2/73/8d6292a4a8763a95222fb988aaaf46e8e4faa6dbfa82aba07ec8abaabd54/mojo_runtime-1.3.8.tar.gz
+[2024-04-11 06:08:46] INFO root fetch - processPackages [zeclient]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-11 06:08:46] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240410001]
+[2024-04-11 06:08:46] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/20/6a/f6d1b5ce2e1f561d40270495abaf6b4f6d7208fd13fd5d5b37fb7a11c42e/lineartest-0.3.0.tar.gz
+[2024-04-11 06:08:46] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/2f/2c/6baf11cb133fb269e387bf871c5003f1fca5246a54b99ca3ac52085c64b9/opendp-0.9.2a20240410001-py3-none-any.whl
+[2024-04-11 06:08:46] INFO root fetch - processPackages [zeclient]: Downloading https://files.pythonhosted.org/packages/0a/0c/45e2f3db0fb87ebb84fb3f27e90694326703eb27b2f0b08bd86b981f9734/zeclient-1.1.4.tar.gz
+[2024-04-11 06:08:46] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36093815>=10485760
+[2024-04-11 06:08:46] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-04-11 06:08:46] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/d8/72/11ae6da51311fb6fe39796b32cda706673eed2e6d5f1cc271bf029880f36/mojo_runtime-1.3.9.tar.gz
+[2024-04-11 06:08:47] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/d3/8e/dccb689e09bec8c5cfd9b77c7c3359d039fa07666528ec31258a95a1e2a8/lineartest-0.3.1.tar.gz
+[2024-04-11 06:08:47] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2024-04-11 06:08:47] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-1.3.8.tar.gz tmp/mojo_runtime-1.3.9.tar.gz --markdown 20240411/m/mojo-runtime/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 06:08:47] INFO root fetch - processPackages [lineartest]: executing diffoscope
+[2024-04-11 06:08:47] INFO root fetch - processPackages [lineartest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineartest-0.3.0.tar.gz tmp/lineartest-0.3.1.tar.gz --markdown 20240411/l/lineartest/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-11 06:08:47] INFO root fetch - processPackages [zeclient]: Downloading https://files.pythonhosted.org/packages/87/01/555cf3eb79ef7cf2f04ff57ef1bb3b7cc3d5680ba83e355cbdb2c18a2eaa/zeclient-1.1.5.tar.gz
+[2024-04-11 06:08:47] INFO root fetch - processPackages [zeclient]: executing diffoscope
+[2024-04-11 06:08:47] INFO root fetch - processPackages [zeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeclient-1.1.4.tar.gz tmp/zeclient-1.1.5.tar.gz --markdown 20240411/z/zeclient/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-11 06:08:47] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.8.tar.gz]
+[2024-04-11 06:08:47] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
+[2024-04-11 06:08:47] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2024-04-11 06:08:47] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.3.0.tar.gz]
+[2024-04-11 06:08:47] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.3.1.tar.gz]
+[2024-04-11 06:08:47] INFO root fetch - main [MainThread]: End processing [lineartest]: success
+[2024-04-11 06:08:47] INFO root fetch - processPackages [zeclient]: Remove: archive file [/home/abi/fetcher/tmp/zeclient-1.1.4.tar.gz]
+[2024-04-11 06:08:47] INFO root fetch - processPackages [zeclient]: Remove: archive file [/home/abi/fetcher/tmp/zeclient-1.1.5.tar.gz]
+[2024-04-11 06:08:47] INFO root fetch - main [MainThread]: End processing [zeclient]: success
+[2024-04-11 06:08:47] INFO root fetch - main [MainThread]: Store serial: [22714234]

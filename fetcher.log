@@ -10901,3 +10901,20 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:13:09] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip]
 [2024-04-11 06:13:09] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
 [2024-04-11 06:13:09] INFO root fetch - main [MainThread]: Store serial: [22714254]
+[2024-04-11 06:15:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714254]
+[2024-04-11 06:15:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-11 06:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-cells
+[2024-04-11 06:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-datev-export-xml
+[2024-04-11 06:15:18] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.9]
+[2024-04-11 06:15:18] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Downloading https://files.pythonhosted.org/packages/c3/2a/313562b2161246e43d085d9a0b9e9495cfa8fa07b1a2055ae1dd51fe33ee/odoo_addon_datev_export_xml-15.0.1.0.0.9-py3-none-any.whl
+[2024-04-11 06:15:18] INFO root fetch - processPackages [aspose-cells]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-04-11 06:15:18] INFO root fetch - processPackages [aspose-cells]: Downloading https://files.pythonhosted.org/packages/47/ed/bb69bc41563982b41ccaadc3cf2982443d3932c45ec3a5b1d9c70a02d960/aspose-cells-24.3.0.tar.gz
+[2024-04-11 06:15:18] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Downloading https://files.pythonhosted.org/packages/0e/84/a6b426ceb3006691dbb1fecc6b44bef3c7da568b8dc3068a17dc3a3e1db2/odoo_addon_datev_export_xml-15.0.1.0.1-py3-none-any.whl
+[2024-04-11 06:15:18] WARNING root fetch - processPackages [aspose-cells]: Skipping package: exceeds size limit 14252360>=10485760
+[2024-04-11 06:15:18] INFO root fetch - main [MainThread]: End processing [aspose-cells] error
+[2024-04-11 06:15:18] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: executing diffoscope
+[2024-04-11 06:15:18] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_datev_export_xml-15.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_datev_export_xml-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240411/o/odoo-addon-datev-export-xml/15.0.1.0.0.9-15.0.1.0.1/README.md --exclude *.pyd
+[2024-04-11 06:15:19] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export_xml-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-11 06:15:19] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export_xml-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-11 06:15:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-datev-export-xml]: success
+[2024-04-11 06:15:19] INFO root fetch - main [MainThread]: Store serial: [22714263]

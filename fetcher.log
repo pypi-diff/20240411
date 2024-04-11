@@ -21357,3 +21357,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 13:31:10] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.91.1.tar.gz]
 [2024-04-11 13:31:10] INFO root fetch - main [MainThread]: End processing [htag]: success
 [2024-04-11 13:31:10] INFO root fetch - main [MainThread]: Store serial: [22718873]
+[2024-04-11 13:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718873]
+[2024-04-11 13:33:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htag
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-admin-assets
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: illuminatapp
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingman-openapi-server-dev
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfss
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-esimd
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xklb
+[2024-04-11 13:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smad-legi-classifier
+[2024-04-11 13:33:19] INFO root fetch - processPackages [htag]: New version: [0.91.1] Old Version: [0.91.0]
+[2024-04-11 13:33:19] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1479] Old Version: [1.0.0.post1478]
+[2024-04-11 13:33:19] INFO root fetch - processPackages [dfss]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-11 13:33:19] INFO root fetch - processPackages [illuminatapp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-11 13:33:19] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/69/30/41edaf3730cedd18d12e7b18a435b664bbcd7af0932f2eb1d9c568bd851d/htag-0.91.0.tar.gz
+[2024-04-11 13:33:19] INFO root fetch - processPackages [dingman-openapi-server-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 13:33:19] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240411] Old Version: [2.5.0b20240410]
+[2024-04-11 13:33:19] INFO root fetch - processPackages [illuminatapp]: Downloading https://files.pythonhosted.org/packages/70/48/42732036c49218c0a428b4bcf5afcdee23679b31d08ac1aa67223d6f38cb/illuminatapp-0.0.4.tar.gz
+[2024-04-11 13:33:20] WARNING root fetch - processPackages [smad-legi-classifier]: Skipping, unable to determine old version
+[2024-04-11 13:33:20] INFO root fetch - main [MainThread]: End processing [smad-legi-classifier] error
+[2024-04-11 13:33:20] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/a5/d2/07f512cee5d6fb61913297d7176e2e4553fb7ee932a98272cfb03183b2b7/nucliadb_admin_assets-1.0.0.post1478-py3-none-any.whl
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/3c/05/cc06bd160cc7ceabf7c8a9fbb1a12bb41285287a5ad59c978b7e1f4ef92d/dfss-1.6.8.tar.gz
+[2024-04-11 13:33:20] INFO root fetch - processPackages [xklb]: New version: [2.6.1] Old Version: [2.5.9]
+[2024-04-11 13:33:20] WARNING root fetch - processPackages [illuminatapp]: Skipping package: exceeds size limit 95905482>=10485760
+[2024-04-11 13:33:20] INFO root fetch - main [MainThread]: End processing [illuminatapp] error
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/0a/e0/a22b71c7a082395d67c3fc0251a257b5111b3d7e421ed01a12c627b3eb56/dingman-openapi-server-dev-1.0.8.tar.gz
+[2024-04-11 13:33:20] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/54/32/acda25f04edeeea3eee048861986da83c5b857103448388398f4da37d65d/htag-0.91.1.tar.gz
+[2024-04-11 13:33:20] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/4d/37/98e094cca0251e84aef7824cb10deb856913ddae5c8438bd71e62fdf435a/bigdl_core_xe_esimd-2.5.0b20240410-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/53/e4/eb1b79783b9a45ea3bcb4726a998f6787e63d4d269053f4a5dea9fbb9ea7/dfss-1.6.9.tar.gz
+[2024-04-11 13:33:20] INFO root fetch - processPackages [htag]: executing diffoscope
+[2024-04-11 13:33:20] INFO root fetch - processPackages [htag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htag-0.91.0.tar.gz tmp/htag-0.91.1.tar.gz --markdown 20240411/h/htag/0.91.0-0.91.1/README.md --exclude *.pyd
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dfss]: executing diffoscope
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dfss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfss-1.6.8.tar.gz tmp/dfss-1.6.9.tar.gz --markdown 20240411/d/dfss/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-11 13:33:20] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865773>=10485760
+[2024-04-11 13:33:20] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-11 13:33:20] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/4e/05/9d82a1ff2d9b9c4fb1faeddaad1c5442a4c6d9e76fc8369d59062ab94134/xklb-2.5.9.tar.gz
+[2024-04-11 13:33:20] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/d2/3c/a6a8bd33986dab820f33d91d4a4e85d06bdb8f96b417646aa1dcdc4694fd/nucliadb_admin_assets-1.0.0.post1479-py3-none-any.whl
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/e4/c2/a7a9179d9294fd9fc6405f23a2718a8df0fd29cc68a702c76645d487ab33/dingman-openapi-server-dev-1.0.9.tar.gz
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dingman-openapi-server-dev]: executing diffoscope
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dingman-openapi-server-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman-openapi-server-dev-1.0.8.tar.gz tmp/dingman-openapi-server-dev-1.0.9.tar.gz --markdown 20240411/d/dingman-openapi-server-dev/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 13:33:20] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-11 13:33:20] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1478-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1479-py3-none-any.whl.zip --markdown 20240411/n/nucliadb-admin-assets/1.0.0.post1478-1.0.0.post1479/README.md --exclude *.pyd
+[2024-04-11 13:33:20] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/80/35/94dfa70641edf2bd6d10cf10976add2afc9b82792548136965da1bd64b8e/xklb-2.6.1.tar.gz
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.8.tar.gz]
+[2024-04-11 13:33:20] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.9.tar.gz]
+[2024-04-11 13:33:20] INFO root fetch - main [MainThread]: End processing [dfss]: success
+[2024-04-11 13:33:21] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-11 13:33:21] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.5.9.tar.gz tmp/xklb-2.6.1.tar.gz --markdown 20240411/x/xklb/2.5.9-2.6.1/README.md --exclude *.pyd
+[2024-04-11 13:33:21] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.91.0.tar.gz]
+[2024-04-11 13:33:21] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.91.1.tar.gz]
+[2024-04-11 13:33:21] INFO root fetch - main [MainThread]: End processing [htag]: success
+[2024-04-11 13:33:21] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.8.tar.gz]
+[2024-04-11 13:33:21] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.9.tar.gz]
+[2024-04-11 13:33:21] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server-dev]: success
+[2024-04-11 13:33:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1478-py3-none-any.whl.zip]
+[2024-04-11 13:33:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1479-py3-none-any.whl.zip]
+[2024-04-11 13:33:22] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-11 13:33:22] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.5.9.tar.gz]
+[2024-04-11 13:33:22] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.1.tar.gz]
+[2024-04-11 13:33:22] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-11 13:33:22] INFO root fetch - main [MainThread]: Store serial: [22718891]

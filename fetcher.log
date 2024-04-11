@@ -15280,3 +15280,111 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:50:13] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc3.tar.gz]
 [2024-04-11 10:50:13] INFO root fetch - main [MainThread]: End processing [csnlp]: success
 [2024-04-11 10:50:13] INFO root fetch - main [MainThread]: Store serial: [22716585]
+[2024-04-11 10:52:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716585]
+[2024-04-11 10:52:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: igipy
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulp-ansible-client
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ign8
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulp-ansible
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wapordl
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xrfeitoria
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noteshrunk
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-grpc-act-uiframework-win-demo
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyE2
+[2024-04-11 10:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sunholo
+[2024-04-11 10:52:22] INFO root fetch - processPackages [wapordl]: New version: [0.9] Old Version: [0.8]
+[2024-04-11 10:52:22] WARNING root fetch - processPackages [igipy]: Skipping, unable to determine old version
+[2024-04-11 10:52:22] INFO root fetch - processPackages [igipy]: Start processing: pycommons
+[2024-04-11 10:52:22] INFO root fetch - main [MainThread]: End processing [igipy] error
+[2024-04-11 10:52:22] INFO root fetch - processPackages [noteshrunk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [pulp-ansible-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [pulp-ansible]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [wapordl]: Downloading https://files.pythonhosted.org/packages/f5/9f/1dd1edd45724646a308a9680ebc05eb6c1943d79d06f8390371d386b919b/wapordl-0.8.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [xrfeitoria]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: New version: [1.3.0.dev8644030535] Old Version: [1.3.0.dev8544485212]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.38]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-11 10:52:22] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/83/a0/903a6137f71ca5916ecc9696a3330e72984f7b47e32229e75687173a8e5b/ign8-4.8.38.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [noteshrunk]: Downloading https://files.pythonhosted.org/packages/69/e3/485c4c0dca390ebcc08ba50c130fca0241ebb17cb11ef7d049611d5d0cb1/noteshrunk-1.0.0.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/f9/b1/73071a21ca569d00218daa10feb86f7c77a90bcf326d67ec0d3bce2f26a2/pulp_ansible-client-0.9.1.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Downloading https://files.pythonhosted.org/packages/39/60/1a4ee826fd279f3937fedecfc98989a3066d9baf40ec861e912abcf98703/th2_grpc_act_uiframework_win_demo-1.3.0.dev8544485212.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/62/2c/e1b7d3b2bf694e5b527aece5c0ff297ce5b7a35e0a1288e77cdf9e9288b6/pulp-ansible-0.9.1.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [xrfeitoria]: Downloading https://files.pythonhosted.org/packages/fd/e0/b706615e32e791c6d29bd6d4b670f8d1ca8f1276c63f8775ed8c23e16195/xrfeitoria-0.6.1-py3-none-any.whl
+[2024-04-11 10:52:22] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [wapordl]: Downloading https://files.pythonhosted.org/packages/cb/16/ff7b7084d907bd809f3d80eb8dbfd54eebe3cbf33a652e9c0ca88da3ad1b/wapordl-0.9.tar.gz
+[2024-04-11 10:52:22] INFO root fetch - processPackages [wapordl]: executing diffoscope
+[2024-04-11 10:52:22] INFO root fetch - processPackages [wapordl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wapordl-0.8.tar.gz tmp/wapordl-0.9.tar.gz --markdown 20240411/w/wapordl/0.8-0.9/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Downloading https://files.pythonhosted.org/packages/32/33/a3147cb3a32fc64886a8343d1fbbdab9ba4d48e695c15182a4f33ea759ed/th2_grpc_act_uiframework_win_demo-1.3.0.dev8644030535.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240411/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8544485212.tar.gz tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8644030535.tar.gz --markdown 20240411/t/th2-grpc-act-uiframework-win-demo/1.3.0.dev8544485212-1.3.0.dev8644030535/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/0f/9f/cbcaea9dbbc573d1e5619eeedcc30accc9083b017ae0f26afd6e9a170cca/pulp_ansible-client-0.9.2.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/b8/7c/698a44eb6120b3c5dbf2a80023bfeda1f9bf6400d2a563351bd9093e44f3/pulp-ansible-0.9.2.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [noteshrunk]: Downloading https://files.pythonhosted.org/packages/ed/5f/14b7f03ac85d7d3e3310026168b1cac6fcf0ba850a6771d4ea96bcd31e3b/noteshrunk-1.0.1.tar.gz
+[2024-04-11 10:52:23] INFO root fetch - processPackages [xrfeitoria]: Downloading https://files.pythonhosted.org/packages/20/c0/dc0686b435a8f30bb83ee7f06aa668769c401d2eeb5a0d35f97d1cba4570/xrfeitoria-0.6.2-py3-none-any.whl
+[2024-04-11 10:52:23] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.38.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240411/i/ign8/4.8.38-4.8.5/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pulp-ansible-client]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pulp-ansible-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_ansible-client-0.9.1.tar.gz tmp/pulp_ansible-client-0.9.2.tar.gz --markdown 20240411/p/pulp-ansible-client/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240411/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240411/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [xrfeitoria]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [xrfeitoria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrfeitoria-0.6.1-py3-none-any.whl.zip tmp/xrfeitoria-0.6.2-py3-none-any.whl.zip --markdown 20240411/x/xrfeitoria/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pulp-ansible]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [pulp-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-ansible-0.9.1.tar.gz tmp/pulp-ansible-0.9.2.tar.gz --markdown 20240411/p/pulp-ansible/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-11 10:52:23] INFO root fetch - processPackages [noteshrunk]: executing diffoscope
+[2024-04-11 10:52:23] INFO root fetch - processPackages [noteshrunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteshrunk-1.0.0.tar.gz tmp/noteshrunk-1.0.1.tar.gz --markdown 20240411/n/noteshrunk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-11 10:52:24] INFO root fetch - processPackages [wapordl]: Remove: archive file [/home/abi/fetcher/tmp/wapordl-0.8.tar.gz]
+[2024-04-11 10:52:24] INFO root fetch - processPackages [wapordl]: Remove: archive file [/home/abi/fetcher/tmp/wapordl-0.9.tar.gz]
+[2024-04-11 10:52:24] INFO root fetch - processPackages [wapordl]: Start processing: donald
+[2024-04-11 10:52:24] INFO root fetch - main [MainThread]: End processing [wapordl]: success
+[2024-04-11 10:52:24] INFO root fetch - processPackages [donald]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-11 10:52:25] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8544485212.tar.gz]
+[2024-04-11 10:52:25] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8644030535.tar.gz]
+[2024-04-11 10:52:25] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Start processing: harlequin-risingwave
+[2024-04-11 10:52:25] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-uiframework-win-demo]: success
+[2024-04-11 10:52:25] INFO root fetch - processPackages [donald]: Downloading https://files.pythonhosted.org/packages/bb/5a/9baf61def2fbb1e51148fde6d51c96368686fd53ca5f2e7f1c08d432ae54/donald-0.9.1.tar.gz
+[2024-04-11 10:52:25] WARNING root fetch - processPackages [harlequin-risingwave]: Skipping, unable to determine old version
+[2024-04-11 10:52:25] INFO root fetch - main [MainThread]: End processing [harlequin-risingwave] error
+[2024-04-11 10:52:25] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-11 10:52:25] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-11 10:52:25] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-11 10:52:25] INFO root fetch - processPackages [donald]: Downloading https://files.pythonhosted.org/packages/b3/b4/29703ee3c9fe6a790d2b103e522bee35130b5f2fb0e95aaa2b9b0a78db76/donald-0.9.2.tar.gz
+[2024-04-11 10:52:25] INFO root fetch - processPackages [noteshrunk]: Remove: archive file [/home/abi/fetcher/tmp/noteshrunk-1.0.0.tar.gz]
+[2024-04-11 10:52:25] INFO root fetch - processPackages [noteshrunk]: Remove: archive file [/home/abi/fetcher/tmp/noteshrunk-1.0.1.tar.gz]
+[2024-04-11 10:52:25] INFO root fetch - main [MainThread]: End processing [noteshrunk]: success
+[2024-04-11 10:52:26] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-11 10:52:26] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-11 10:52:26] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-11 10:52:26] INFO root fetch - processPackages [xrfeitoria]: Remove: archive file [/home/abi/fetcher/tmp/xrfeitoria-0.6.1-py3-none-any.whl.zip]
+[2024-04-11 10:52:26] INFO root fetch - processPackages [xrfeitoria]: Remove: archive file [/home/abi/fetcher/tmp/xrfeitoria-0.6.2-py3-none-any.whl.zip]
+[2024-04-11 10:52:26] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-11 10:52:26] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-11 10:52:26] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-11 10:52:26] INFO root fetch - main [MainThread]: End processing [xrfeitoria]: success
+[2024-04-11 10:52:26] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.1.tar.gz]
+[2024-04-11 10:52:26] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.2.tar.gz]
+[2024-04-11 10:52:26] INFO root fetch - main [MainThread]: End processing [pulp-ansible]: success
+[2024-04-11 10:52:26] INFO root fetch - processPackages [donald]: executing diffoscope
+[2024-04-11 10:52:26] INFO root fetch - processPackages [donald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donald-0.9.1.tar.gz tmp/donald-0.9.2.tar.gz --markdown 20240411/d/donald/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-11 10:52:27] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.1.tar.gz]
+[2024-04-11 10:52:27] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.2.tar.gz]
+[2024-04-11 10:52:27] INFO root fetch - main [MainThread]: End processing [pulp-ansible-client]: success
+[2024-04-11 10:52:27] INFO root fetch - processPackages [donald]: Remove: archive file [/home/abi/fetcher/tmp/donald-0.9.1.tar.gz]
+[2024-04-11 10:52:27] INFO root fetch - processPackages [donald]: Remove: archive file [/home/abi/fetcher/tmp/donald-0.9.2.tar.gz]
+[2024-04-11 10:52:27] INFO root fetch - main [MainThread]: End processing [donald]: success
+[2024-04-11 10:52:29] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.38.tar.gz]
+[2024-04-11 10:52:29] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-11 10:52:29] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 10:52:29] INFO root fetch - main [MainThread]: Store serial: [22716624]

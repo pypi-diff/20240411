@@ -3553,3 +3553,51 @@ EOFError: EOF read where object expected
 [2024-04-11 02:50:57] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.3.tar.gz]
 [2024-04-11 02:50:57] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
 [2024-04-11 02:50:57] INFO root fetch - main [MainThread]: Store serial: [22711641]
+[2024-04-11 02:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22711641]
+[2024-04-11 02:53:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-11 02:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: go-vendor-tools
+[2024-04-11 02:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcloud-user
+[2024-04-11 02:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcloud-setup
+[2024-04-11 02:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emx
+[2024-04-11 02:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fiscalsim-us
+[2024-04-11 02:53:06] INFO root fetch - processPackages [go-vendor-tools]: New version: [0.4.0b1] Old Version: [0.4.0]
+[2024-04-11 02:53:06] INFO root fetch - processPackages [emx]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-04-11 02:53:06] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/e7/4e/bd235563390109689988d5df36a650619a0bb057277e8bfd165829c39239/emx-1.0.3-py3-none-any.whl
+[2024-04-11 02:53:06] INFO root fetch - processPackages [qcloud-setup]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 02:53:06] INFO root fetch - processPackages [qcloud-user]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-11 02:53:06] INFO root fetch - processPackages [fiscalsim-us]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-11 02:53:07] INFO root fetch - processPackages [go-vendor-tools]: Downloading https://files.pythonhosted.org/packages/01/21/b40c74d33ba364d437ab68ef19316c59b34674e423e1586e1de1184d27f2/go_vendor_tools-0.4.0.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/6c/a0/9a73217fafc538a08bd3c697025df47715e0ac5daa09f9b92df99bd0d45d/qcloud_user-1.0.8.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/fb/56/8c189806712495a41635c775527eb4b3952336d5b3f5b20c5b377c6adc66/qcloud_setup-1.0.8.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/93/c8/9411c7b3b79e56043c5f9dcc919b35539b1c2cf338c8c6dc871a156c72a7/fiscalsim-us-0.2.6.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [go-vendor-tools]: Downloading https://files.pythonhosted.org/packages/03/77/b23f33d4d5535965d56aef1de947b5aa2e71e7b4949e94435c7fd3ff90ca/go_vendor_tools-0.4.0b1.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/15/28/31cd3116c34a7378b72bd4c725518af710ff3de992324ce5f7f7f43c209c/emx-1.0.5-py3-none-any.whl
+[2024-04-11 02:53:07] INFO root fetch - processPackages [go-vendor-tools]: executing diffoscope
+[2024-04-11 02:53:07] INFO root fetch - processPackages [go-vendor-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_vendor_tools-0.4.0.tar.gz tmp/go_vendor_tools-0.4.0b1.tar.gz --markdown 20240411/g/go-vendor-tools/0.4.0-0.4.0b1/README.md --exclude *.pyd
+[2024-04-11 02:53:07] INFO root fetch - processPackages [emx]: executing diffoscope
+[2024-04-11 02:53:07] INFO root fetch - processPackages [emx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emx-1.0.3-py3-none-any.whl.zip tmp/emx-1.0.5-py3-none-any.whl.zip --markdown 20240411/e/emx/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/ee/3a/d117c02a1979892a11c0a09509ab8da0d09acd6c4be8200e4989df4bd993/qcloud_user-1.0.9.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/51/e3/46320aa18bcac027394c71063da5617b18d28d359fe1707f290f13c84ab5/qcloud_setup-1.0.9.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-setup]: executing diffoscope
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_setup-1.0.8.tar.gz tmp/qcloud_setup-1.0.9.tar.gz --markdown 20240411/q/qcloud-setup/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-user]: executing diffoscope
+[2024-04-11 02:53:07] INFO root fetch - processPackages [qcloud-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_user-1.0.8.tar.gz tmp/qcloud_user-1.0.9.tar.gz --markdown 20240411/q/qcloud-user/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-11 02:53:07] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/cf/b2/4e16a4161bac5c42d418b42c737532990f8f3013da1a1bbb464e5e977e58/fiscalsim-us-0.2.7.tar.gz
+[2024-04-11 02:53:07] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.3-py3-none-any.whl.zip]
+[2024-04-11 02:53:07] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.5-py3-none-any.whl.zip]
+[2024-04-11 02:53:07] INFO root fetch - main [MainThread]: End processing [emx]: success
+[2024-04-11 02:53:08] INFO root fetch - processPackages [go-vendor-tools]: Remove: archive file [/home/abi/fetcher/tmp/go_vendor_tools-0.4.0.tar.gz]
+[2024-04-11 02:53:08] INFO root fetch - processPackages [go-vendor-tools]: Remove: archive file [/home/abi/fetcher/tmp/go_vendor_tools-0.4.0b1.tar.gz]
+[2024-04-11 02:53:08] INFO root fetch - main [MainThread]: End processing [go-vendor-tools]: success
+[2024-04-11 02:53:08] INFO root fetch - processPackages [fiscalsim-us]: executing diffoscope
+[2024-04-11 02:53:08] INFO root fetch - processPackages [fiscalsim-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiscalsim-us-0.2.6.tar.gz tmp/fiscalsim-us-0.2.7.tar.gz --markdown 20240411/f/fiscalsim-us/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-11 02:53:08] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.8.tar.gz]
+[2024-04-11 02:53:08] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.9.tar.gz]
+[2024-04-11 02:53:08] INFO root fetch - main [MainThread]: End processing [qcloud-setup]: success
+[2024-04-11 02:53:08] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.8.tar.gz]
+[2024-04-11 02:53:08] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.9.tar.gz]
+[2024-04-11 02:53:08] INFO root fetch - main [MainThread]: End processing [qcloud-user]: success
+[2024-04-11 02:53:25] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.2.6.tar.gz]
+[2024-04-11 02:53:25] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.2.7.tar.gz]
+[2024-04-11 02:53:25] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
+[2024-04-11 02:53:25] INFO root fetch - main [MainThread]: Store serial: [22711656]

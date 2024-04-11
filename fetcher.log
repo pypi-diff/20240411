@@ -22190,3 +22190,216 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-11 14:02:52] INFO root fetch - processPackages [dissect.cim]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cim-3.9.dev3.tar.gz]
 [2024-04-11 14:02:52] INFO root fetch - main [MainThread]: End processing [dissect.cim]: success
 [2024-04-11 14:02:52] INFO root fetch - main [MainThread]: Store serial: [22719314]
+[2024-04-11 14:04:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22719314]
+[2024-04-11 14:05:00] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acquire
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.executable
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dissect.etl
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.regf
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dissect.shellitem
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dissect.ffs
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dissect.eventlog
+[2024-04-11 14:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dissect.hypervisor
+[2024-04-11 14:05:00] INFO root fetch - processPackages [dissect.regf]: New version: [3.9.dev2] Old Version: [3.9.dev1]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.etl]: New version: [3.9.dev3] Old Version: [3.9.dev2]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.ffs]: New version: [3.8.dev3] Old Version: [3.8.dev2]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.shellitem]: New version: [3.8.dev3] Old Version: [3.8.dev2]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.eventlog]: New version: [3.8.dev3] Old Version: [3.8.dev2]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.hypervisor]: New version: [3.9.dev2] Old Version: [3.9.dev1]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [ign8]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.executable]: New version: [1.6.dev4] Old Version: [1.6.dev3]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [acquire]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-04-11 14:05:01] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/a8/ec/7a9e407a8ffa4cbc93bdead9e0cb503011cefef1ad9f2b612972f93c76a9/ign8-4.9.8.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.shellitem]: Downloading https://files.pythonhosted.org/packages/a5/43/31f6eb267d036579c07d2842def585c77c09a12ce50a46c25fb1ddcf4a17/dissect.shellitem-3.8.dev2.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/af/ec/69e00fa310306008e17c631732f51ace0bddfcf103118ce3d31e75c7975d/dissect.etl-3.9.dev2.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.regf]: Downloading https://files.pythonhosted.org/packages/3e/15/38204c59b601767b2f7cf1ee757a995c4e09af2e56351f09463fd082d076/dissect.regf-3.9.dev1.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/98/af/76c88d373e1a1cba5c1a8da2c91856833509eee2effbd2af8cabc380b90d/dissect.eventlog-3.8.dev2.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/3c/ac/da399ca4cba763b4241ad0275a41f8d742ac5a80617d74599fd4f924f2d7/dissect.ffs-3.8.dev2.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/eb/60/9f2541a437d8c156ca050d8ad64473200e75fcdf4f742f88f1030db83f30/dissect.hypervisor-3.9.dev1.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/db/7e/3d1c43bdb12c8fc178af09e4a7eab65b82309de648a147af025c707075ee/dissect.executable-1.6.dev3.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/84/93/0ad75506614e6982b031006a623fa4914f082e8791f6297b87e24cd0f382/acquire-3.9.dev8.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1d/3f/f2ba3be5e7980c8e941b7cb78186f68917af70eacb83f317c2b9e0093523/ign8-4.9.9.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.shellitem]: Downloading https://files.pythonhosted.org/packages/f0/fa/472fdd8d3b01dac3605836b94db983bc4c5eb71c330cda548f3d361c6bdd/dissect.shellitem-3.8.dev3.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/26/ad/d4b40663d442cf00ba953752c3583d5a63a410c63bb59d81186f6bbc8510/dissect.eventlog-3.8.dev3.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.9.8.tar.gz tmp/ign8-4.9.9.tar.gz --markdown 20240411/i/ign8/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-11 14:05:01] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/a5/45/14009b331bc74be537a1be7f24ceae3e6bd070ca28f848a7f1002bd95f8e/acquire-3.9.dev9.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/37/4b/ad804df7e97fd1c078a06257da98671d50e6c44a3f31c128ecf95d6af6ce/dissect.ffs-3.8.dev3.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/66/fa/82a1d34b7471e73114772bd6eb784c75db069594b71d20f122ac29d53e1a/dissect.executable-1.6.dev4.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/3b/0d/7ff8c878ac8c0413dd1442d491d088a3b77116d4f543d4f24df3f4e78e50/dissect.hypervisor-3.9.dev2.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 14:05:01] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2024-04-11 14:05:01] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.9.dev8.tar.gz tmp/acquire-3.9.dev9.tar.gz --markdown 20240411/a/acquire/3.9.dev8-3.9.dev9/README.md --exclude *.pyd
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.executable]: executing diffoscope
+[2024-04-11 14:05:01] INFO root fetch - processPackages [dissect.executable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.executable-1.6.dev3.tar.gz tmp/dissect.executable-1.6.dev4.tar.gz --markdown 20240411/d/dissect.executable/1.6.dev3-1.6.dev4/README.md --exclude *.pyd
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.eventlog]: executing diffoscope
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.eventlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.eventlog-3.8.dev2.tar.gz tmp/dissect.eventlog-3.8.dev3.tar.gz --markdown 20240411/d/dissect.eventlog/3.8.dev2-3.8.dev3/README.md --exclude *.pyd
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.shellitem]: executing diffoscope
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.shellitem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.shellitem-3.8.dev2.tar.gz tmp/dissect.shellitem-3.8.dev3.tar.gz --markdown 20240411/d/dissect.shellitem/3.8.dev2-3.8.dev3/README.md --exclude *.pyd
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.ffs]: executing diffoscope
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.ffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ffs-3.8.dev2.tar.gz tmp/dissect.ffs-3.8.dev3.tar.gz --markdown 20240411/d/dissect.ffs/3.8.dev2-3.8.dev3/README.md --exclude *.pyd
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.regf]: Downloading https://files.pythonhosted.org/packages/17/81/ccde5689c86058b0e3299dfdd6d9a18aecb698cfb44892a21c38f7c6790b/dissect.regf-3.9.dev2.tar.gz
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/76/56/f25a231b8cdb18cfd18587c22ccdf2483e1f2d918373e27ef1c9f82a4a76/dissect.etl-3.9.dev3.tar.gz
+[2024-04-11 14:05:02] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 14:05:02] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.hypervisor]: executing diffoscope
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.hypervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.hypervisor-3.9.dev1.tar.gz tmp/dissect.hypervisor-3.9.dev2.tar.gz --markdown 20240411/d/dissect.hypervisor/3.9.dev1-3.9.dev2/README.md --exclude *.pyd
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.executable]: Remove: archive file [/home/abi/fetcher/tmp/dissect.executable-1.6.dev3.tar.gz]
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.executable]: Remove: archive file [/home/abi/fetcher/tmp/dissect.executable-1.6.dev4.tar.gz]
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.executable]: Start processing: dissect.jffs
+[2024-04-11 14:05:02] INFO root fetch - main [MainThread]: End processing [dissect.executable]: success
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.jffs]: New version: [1.2.dev4] Old Version: [1.2.dev3]
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.shellitem]: Remove: archive file [/home/abi/fetcher/tmp/dissect.shellitem-3.8.dev2.tar.gz]
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.shellitem]: Remove: archive file [/home/abi/fetcher/tmp/dissect.shellitem-3.8.dev3.tar.gz]
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.shellitem]: Start processing: geo-parameters
+[2024-04-11 14:05:02] INFO root fetch - main [MainThread]: End processing [dissect.shellitem]: success
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.etl]: executing diffoscope
+[2024-04-11 14:05:02] INFO root fetch - processPackages [dissect.etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.etl-3.9.dev2.tar.gz tmp/dissect.etl-3.9.dev3.tar.gz --markdown 20240411/d/dissect.etl/3.9.dev2-3.9.dev3/README.md --exclude *.pyd
+[2024-04-11 14:05:02] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.9.dev8.tar.gz]
+[2024-04-11 14:05:02] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.9.dev9.tar.gz]
+[2024-04-11 14:05:02] INFO root fetch - processPackages [acquire]: Start processing: socktalk
+[2024-04-11 14:05:02] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2024-04-11 14:05:03] INFO root fetch - processPackages [socktalk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [geo-parameters]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.eventlog]: Remove: archive file [/home/abi/fetcher/tmp/dissect.eventlog-3.8.dev2.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.eventlog]: Remove: archive file [/home/abi/fetcher/tmp/dissect.eventlog-3.8.dev3.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.eventlog]: Start processing: odoo14-addon-shopfloor-single-product-transfer
+[2024-04-11 14:05:03] INFO root fetch - main [MainThread]: End processing [dissect.eventlog]: success
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.ffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ffs-3.8.dev2.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.ffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ffs-3.8.dev3.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.ffs]: Start processing: dissect.ntfs
+[2024-04-11 14:05:03] INFO root fetch - main [MainThread]: End processing [dissect.ffs]: success
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.jffs]: Downloading https://files.pythonhosted.org/packages/53/24/9332cf433e1ee9078fb46be4133426b02cdbbc62401a7e9c184c809e2657/dissect.jffs-1.2.dev3.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/c1/96/e8986bcc5eac4413056a7e800eb0c63f4db12997622fec5b851e1f5b608f/socktalk-0.1.4.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: New version: [14.0.2.3.2] Old Version: [14.0.2.3.1]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [geo-parameters]: Downloading https://files.pythonhosted.org/packages/af/11/b13b5c97d29be159b378e99ca417abc3a7e42a61ee305618b112b2aa00db/geo_parameters-0.1.1.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.ntfs]: New version: [3.9.dev2] Old Version: [3.9.dev1]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/e0/89/a1b6c680063bf5b6f662ecc34073759c8d7340f9841a0d12dcc8dc9ec31f/socktalk-0.1.5.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.hypervisor]: Remove: archive file [/home/abi/fetcher/tmp/dissect.hypervisor-3.9.dev1.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.hypervisor]: Remove: archive file [/home/abi/fetcher/tmp/dissect.hypervisor-3.9.dev2.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.hypervisor]: Start processing: earthdaily
+[2024-04-11 14:05:03] INFO root fetch - main [MainThread]: End processing [dissect.hypervisor]: success
+[2024-04-11 14:05:03] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Downloading https://files.pythonhosted.org/packages/b7/0d/cda27c3872621c1a3c0f09d4d7d05ac881ba9ed2778f5b83d2862b9b9923/odoo14_addon_shopfloor_single_product_transfer-14.0.2.3.1-py3-none-any.whl
+[2024-04-11 14:05:03] INFO root fetch - processPackages [socktalk]: executing diffoscope
+[2024-04-11 14:05:03] INFO root fetch - processPackages [socktalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socktalk-0.1.4.tar.gz tmp/socktalk-0.1.5.tar.gz --markdown 20240411/s/socktalk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/20/09/273a77de8a4a4eca22bc4cad61e0cb622b1d4437698f7aa451b1974c5966/dissect.ntfs-3.9.dev1.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [earthdaily]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [video-images-creator]: Start processing: pre-commit-update
+[2024-04-11 14:05:03] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.regf]: executing diffoscope
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.regf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.regf-3.9.dev1.tar.gz tmp/dissect.regf-3.9.dev2.tar.gz --markdown 20240411/d/dissect.regf/3.9.dev1-3.9.dev2/README.md --exclude *.pyd
+[2024-04-11 14:05:03] INFO root fetch - processPackages [earthdaily]: Downloading https://files.pythonhosted.org/packages/79/51/423677ab39b3c52375d916217503215c12821a29429b60564e775d6483d3/earthdaily-0.0.8.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [geo-parameters]: Downloading https://files.pythonhosted.org/packages/5f/2f/c10ef214ecab02e3e42f45110b4743e79519d8129fce62a32048022155a2/geo_parameters-0.2.1.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [pre-commit-update]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-11 14:05:03] INFO root fetch - processPackages [geo-parameters]: executing diffoscope
+[2024-04-11 14:05:03] INFO root fetch - processPackages [geo-parameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_parameters-0.1.1.tar.gz tmp/geo_parameters-0.2.1.tar.gz --markdown 20240411/g/geo-parameters/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-04-11 14:05:03] INFO root fetch - processPackages [earthdaily]: Downloading https://files.pythonhosted.org/packages/4b/21/df13f6092a2e0f689bc910ce342279aa27ee13014981169df975257aeec6/earthdaily-0.0.9.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/9f/bc/b8535f363139e02f9d298a2686e0414122200be67b96b2370ae9579e8a5d/dissect.ntfs-3.9.dev2.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/78/0a/732b5b25cc57dd7a8eeccae91eaaf40307f22a6ca11bf0f72de10fafa0f8/pre_commit_update-0.2.2.tar.gz
+[2024-04-11 14:05:03] INFO root fetch - processPackages [earthdaily]: executing diffoscope
+[2024-04-11 14:05:03] INFO root fetch - processPackages [earthdaily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthdaily-0.0.8.tar.gz tmp/earthdaily-0.0.9.tar.gz --markdown 20240411/e/earthdaily/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-11 14:05:03] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Downloading https://files.pythonhosted.org/packages/9b/9e/4d323691e0b675374c593ce35c91c87f6d4c9c26ee65eff554ec1e3663a3/odoo14_addon_shopfloor_single_product_transfer-14.0.2.3.2-py3-none-any.whl
+[2024-04-11 14:05:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: executing diffoscope
+[2024-04-11 14:05:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.3.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.3.2-py3-none-any.whl.zip --markdown 20240411/o/odoo14-addon-shopfloor-single-product-transfer/14.0.2.3.1-14.0.2.3.2/README.md --exclude *.pyd
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.ntfs]: executing diffoscope
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.ntfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ntfs-3.9.dev1.tar.gz tmp/dissect.ntfs-3.9.dev2.tar.gz --markdown 20240411/d/dissect.ntfs/3.9.dev1-3.9.dev2/README.md --exclude *.pyd
+[2024-04-11 14:05:04] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/dd/ca/f4bd83f00d139ef4eb28a03bdf3ca00e59e0311eace202cb023b36284193/pre_commit_update-0.2.3.tar.gz
+[2024-04-11 14:05:04] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.4.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.5.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [socktalk]: Start processing: dissect.thumbcache
+[2024-04-11 14:05:04] INFO root fetch - main [MainThread]: End processing [socktalk]: success
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.regf]: Remove: archive file [/home/abi/fetcher/tmp/dissect.regf-3.9.dev1.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.regf]: Remove: archive file [/home/abi/fetcher/tmp/dissect.regf-3.9.dev2.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.regf]: Start processing: naja-atra-asgi
+[2024-04-11 14:05:04] INFO root fetch - main [MainThread]: End processing [dissect.regf]: success
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.thumbcache]: New version: [1.8.dev2] Old Version: [1.8.dev1]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2024-04-11 14:05:04] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.2.2.tar.gz tmp/pre_commit_update-0.2.3.tar.gz --markdown 20240411/p/pre-commit-update/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-11 14:05:04] WARNING root fetch - processPackages [naja-atra-asgi]: Skipping, unable to determine old version
+[2024-04-11 14:05:04] INFO root fetch - processPackages [naja-atra-asgi]: Start processing: dissect.ole
+[2024-04-11 14:05:04] INFO root fetch - main [MainThread]: End processing [naja-atra-asgi] error
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.ole]: New version: [3.8.dev2] Old Version: [3.8.dev1]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [geo-parameters]: Remove: archive file [/home/abi/fetcher/tmp/geo_parameters-0.1.1.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [geo-parameters]: Remove: archive file [/home/abi/fetcher/tmp/geo_parameters-0.2.1.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [geo-parameters]: Start processing: QT-PyQt-PySide-Custom-Widgets
+[2024-04-11 14:05:04] INFO root fetch - main [MainThread]: End processing [geo-parameters]: success
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/2b/8f/9643e8f1fe588304954f1e7d193efc9513ec1917e0cdbe898f4e0eab48fe/dissect.thumbcache-1.8.dev1.tar.gz
+[2024-04-11 14:05:04] INFO root fetch - processPackages [earthdaily]: Remove: archive file [/home/abi/fetcher/tmp/earthdaily-0.0.8.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [earthdaily]: Remove: archive file [/home/abi/fetcher/tmp/earthdaily-0.0.9.tar.gz]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [earthdaily]: Start processing: PySideExtn
+[2024-04-11 14:05:04] INFO root fetch - main [MainThread]: End processing [earthdaily]: success
+[2024-04-11 14:05:04] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [dissect.ole]: Downloading https://files.pythonhosted.org/packages/ae/ae/dfd7cba1146f6c104da8de1b697341663cfcc793dfb5ae48e1437cb7a14a/dissect.ole-3.8.dev1.tar.gz
+[2024-04-11 14:05:04] INFO root fetch - processPackages [PySideExtn]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.3.1-py3-none-any.whl.zip]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.3.2-py3-none-any.whl.zip]
+[2024-04-11 14:05:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Start processing: dissect.squashfs
+[2024-04-11 14:05:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-single-product-transfer]: success
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.ntfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ntfs-3.9.dev1.tar.gz]
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.ntfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ntfs-3.9.dev2.tar.gz]
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.ntfs]: Start processing: dissect.fat
+[2024-04-11 14:05:05] INFO root fetch - main [MainThread]: End processing [dissect.ntfs]: success
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.fat]: New version: [3.9.dev3] Old Version: [3.9.dev2]
+[2024-04-11 14:05:05] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/77/79/679c33d4ed0c0a0d75702a3201c06582d8514b0cdde889f32f31677ffa5f/QT-PyQt-PySide-Custom-Widgets-0.9.5.tar.gz
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.squashfs]: New version: [1.5.dev4] Old Version: [1.5.dev3]
+[2024-04-11 14:05:05] INFO root fetch - processPackages [PySideExtn]: Downloading https://files.pythonhosted.org/packages/2b/e2/c45960adf48b931d266d0a08ce340bc7f7ccddcc59c3c55c4b02deb0e304/PySideExtn-2.0.0-py3-none-any.whl
+[2024-04-11 14:05:05] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.2.2.tar.gz]
+[2024-04-11 14:05:05] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.2.3.tar.gz]
+[2024-04-11 14:05:05] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/b8/af/a9a901e6cf210eb1a8684abf1f63608e95d7a3db22a6c21e9efe37ce9a69/dissect.fat-3.9.dev2.tar.gz
+[2024-04-11 14:05:05] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.8.tar.gz]
+[2024-04-11 14:05:05] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
+[2024-04-11 14:05:05] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.ole]: Downloading https://files.pythonhosted.org/packages/4b/c2/8d8478c2d74199e92e3397cd0cc162d78173a10b860cf780436a08a51375/dissect.ole-3.8.dev2.tar.gz
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/c4/b1/ae41624ac22a3d49b87208b82369b1b9d2b871fc8e62234958c0e3803db9/dissect.squashfs-1.5.dev3.tar.gz
+[2024-04-11 14:05:05] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/ad/19/1445eaa11e03ca3be08afd359e9b416c73dc7ffb8aded89eabf95b92c6c5/QT-PyQt-PySide-Custom-Widgets-0.9.6.tar.gz
+[2024-04-11 14:05:05] INFO root fetch - processPackages [PySideExtn]: Downloading https://files.pythonhosted.org/packages/ee/e8/0a6d16051952ae2636de322c77e2fc024f9195070ec816485eb65fcbcb43/PySideExtn-2.0.1-py3-none-any.whl
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.ole]: executing diffoscope
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.ole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ole-3.8.dev1.tar.gz tmp/dissect.ole-3.8.dev2.tar.gz --markdown 20240411/d/dissect.ole/3.8.dev1-3.8.dev2/README.md --exclude *.pyd
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.jffs]: Downloading https://files.pythonhosted.org/packages/a8/3b/011d3ce7d5fec233b844fb2749e0cdba82e51bfb5e41867c130897e2fde4/dissect.jffs-1.2.dev4.tar.gz
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/97/e2/77d2f25b2973f550977c8022bb18de1144f4ade09375b4d142d6bf47a6e0/dissect.squashfs-1.5.dev4.tar.gz
+[2024-04-11 14:05:05] INFO root fetch - processPackages [PySideExtn]: executing diffoscope
+[2024-04-11 14:05:05] INFO root fetch - processPackages [PySideExtn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySideExtn-2.0.0-py3-none-any.whl.zip tmp/PySideExtn-2.0.1-py3-none-any.whl.zip --markdown 20240411/P/PySideExtn/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-11 14:05:05] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/a5/6c/7f1044e1593ac9fc9b0555a1292d50654a671e6bd187014b0214cc196cba/dissect.fat-3.9.dev3.tar.gz
+[2024-04-11 14:05:06] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: executing diffoscope
+[2024-04-11 14:05:06] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QT-PyQt-PySide-Custom-Widgets-0.9.5.tar.gz tmp/QT-PyQt-PySide-Custom-Widgets-0.9.6.tar.gz --markdown 20240411/Q/QT-PyQt-PySide-Custom-Widgets/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.squashfs]: executing diffoscope
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.squashfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.squashfs-1.5.dev3.tar.gz tmp/dissect.squashfs-1.5.dev4.tar.gz --markdown 20240411/d/dissect.squashfs/1.5.dev3-1.5.dev4/README.md --exclude *.pyd
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/49/90/a816b078c5291248807d443a96196fd977c216280a99f3c8097b3d951ba5/dissect.thumbcache-1.8.dev2.tar.gz
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.fat]: executing diffoscope
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.jffs]: executing diffoscope
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.jffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.jffs-1.2.dev3.tar.gz tmp/dissect.jffs-1.2.dev4.tar.gz --markdown 20240411/d/dissect.jffs/1.2.dev3-1.2.dev4/README.md --exclude *.pyd
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.fat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.fat-3.9.dev2.tar.gz tmp/dissect.fat-3.9.dev3.tar.gz --markdown 20240411/d/dissect.fat/3.9.dev2-3.9.dev3/README.md --exclude *.pyd
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.ole]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ole-3.8.dev1.tar.gz]
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.ole]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ole-3.8.dev2.tar.gz]
+[2024-04-11 14:05:06] INFO root fetch - main [MainThread]: End processing [dissect.ole]: success
+[2024-04-11 14:05:06] INFO root fetch - processPackages [PySideExtn]: Remove: archive file [/home/abi/fetcher/tmp/PySideExtn-2.0.0-py3-none-any.whl.zip]
+[2024-04-11 14:05:06] INFO root fetch - processPackages [PySideExtn]: Remove: archive file [/home/abi/fetcher/tmp/PySideExtn-2.0.1-py3-none-any.whl.zip]
+[2024-04-11 14:05:06] INFO root fetch - main [MainThread]: End processing [PySideExtn]: success
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.squashfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.squashfs-1.5.dev3.tar.gz]
+[2024-04-11 14:05:06] INFO root fetch - processPackages [dissect.squashfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.squashfs-1.5.dev4.tar.gz]
+[2024-04-11 14:05:06] INFO root fetch - main [MainThread]: End processing [dissect.squashfs]: success
+[2024-04-11 14:05:07] INFO root fetch - processPackages [dissect.thumbcache]: executing diffoscope
+[2024-04-11 14:05:07] INFO root fetch - processPackages [dissect.thumbcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.thumbcache-1.8.dev1.tar.gz tmp/dissect.thumbcache-1.8.dev2.tar.gz --markdown 20240411/d/dissect.thumbcache/1.8.dev1-1.8.dev2/README.md --exclude *.pyd
+[2024-04-11 14:05:07] INFO root fetch - processPackages [dissect.jffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.jffs-1.2.dev3.tar.gz]
+[2024-04-11 14:05:07] INFO root fetch - processPackages [dissect.jffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.jffs-1.2.dev4.tar.gz]
+[2024-04-11 14:05:07] INFO root fetch - main [MainThread]: End processing [dissect.jffs]: success
+[2024-04-11 14:05:08] INFO root fetch - processPackages [dissect.thumbcache]: Remove: archive file [/home/abi/fetcher/tmp/dissect.thumbcache-1.8.dev1.tar.gz]
+[2024-04-11 14:05:08] INFO root fetch - processPackages [dissect.thumbcache]: Remove: archive file [/home/abi/fetcher/tmp/dissect.thumbcache-1.8.dev2.tar.gz]
+[2024-04-11 14:05:08] INFO root fetch - main [MainThread]: End processing [dissect.thumbcache]: success
+[2024-04-11 14:05:08] INFO root fetch - processPackages [dissect.fat]: Remove: archive file [/home/abi/fetcher/tmp/dissect.fat-3.9.dev2.tar.gz]
+[2024-04-11 14:05:08] INFO root fetch - processPackages [dissect.fat]: Remove: archive file [/home/abi/fetcher/tmp/dissect.fat-3.9.dev3.tar.gz]
+[2024-04-11 14:05:08] INFO root fetch - main [MainThread]: End processing [dissect.fat]: success
+[2024-04-11 14:05:20] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.9.dev2.tar.gz]
+[2024-04-11 14:05:20] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.9.dev3.tar.gz]
+[2024-04-11 14:05:20] INFO root fetch - main [MainThread]: End processing [dissect.etl]: success
+[2024-04-11 14:05:24] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.5.tar.gz]
+[2024-04-11 14:05:24] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.6.tar.gz]
+[2024-04-11 14:05:24] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
+[2024-04-11 14:05:24] INFO root fetch - main [MainThread]: Store serial: [22719384]

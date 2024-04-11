@@ -123,7 +123,7 @@
 
  * *error from `html2text {}`:*
 
- * *File "/tmp/diffoscope_deptr7cn_/tmpxgcy5bvu_TarContainer/0/2", line 25, column 36: Levels of opening and closing headings don't match*
+ * *File "/tmp/diffoscope_5y9lo0pz_/tmp4ryor2le_TarContainer/0/2", line 25, column 36: Levels of opening and closing headings don't match*
 
 ```diff
 @@ -1,8 +1,8 @@
@@ -391,7 +391,7 @@
 
  * *error from `html2text {}`:*
 
- * *File "/tmp/diffoscope_deptr7cn_/tmpxgcy5bvu_TarContainer/0/32", line 25, column 36: Levels of opening and closing headings don't match*
+ * *File "/tmp/diffoscope_5y9lo0pz_/tmp4ryor2le_TarContainer/0/32", line 25, column 36: Levels of opening and closing headings don't match*
 
 ```diff
 @@ -1,8 +1,8 @@

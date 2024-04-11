@@ -10847,3 +10847,36 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:08:47] INFO root fetch - processPackages [zeclient]: Remove: archive file [/home/abi/fetcher/tmp/zeclient-1.1.5.tar.gz]
 [2024-04-11 06:08:47] INFO root fetch - main [MainThread]: End processing [zeclient]: success
 [2024-04-11 06:08:47] INFO root fetch - main [MainThread]: Store serial: [22714234]
+[2024-04-11 06:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714234]
+[2024-04-11 06:10:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-11 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipxu
+[2024-04-11 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linkml-map
+[2024-04-11 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-testplus
+[2024-04-11 06:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeclient
+[2024-04-11 06:10:56] INFO root fetch - processPackages [zeclient]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-11 06:10:56] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-04-11 06:10:56] INFO root fetch - processPackages [zeclient]: Downloading https://files.pythonhosted.org/packages/0a/0c/45e2f3db0fb87ebb84fb3f27e90694326703eb27b2f0b08bd86b981f9734/zeclient-1.1.4.tar.gz
+[2024-04-11 06:10:57] WARNING root fetch - processPackages [linkml-map]: Skipping, unable to determine old version
+[2024-04-11 06:10:57] INFO root fetch - main [MainThread]: End processing [linkml-map] error
+[2024-04-11 06:10:57] INFO root fetch - processPackages [mojo-testplus]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-11 06:10:57] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-04-11 06:10:57] INFO root fetch - processPackages [zeclient]: Downloading https://files.pythonhosted.org/packages/87/01/555cf3eb79ef7cf2f04ff57ef1bb3b7cc3d5680ba83e355cbdb2c18a2eaa/zeclient-1.1.5.tar.gz
+[2024-04-11 06:10:57] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a5/fe/6ef403e4cd8937907cb1b6d2bfaee70af2ccb33355ae49346889ebd9d153/mojo_testplus-1.3.8.tar.gz
+[2024-04-11 06:10:57] INFO root fetch - processPackages [zeclient]: executing diffoscope
+[2024-04-11 06:10:57] INFO root fetch - processPackages [zeclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeclient-1.1.4.tar.gz tmp/zeclient-1.1.5.tar.gz --markdown 20240411/z/zeclient/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-11 06:10:57] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-04-11 06:10:57] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-11 06:10:57] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240411/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-04-11 06:10:57] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a4/cd/894241650e47414136a3bf37ddbbef7907d3dc69c678f40c9716e3afbfd2/mojo_testplus-1.3.9.tar.gz
+[2024-04-11 06:10:57] INFO root fetch - processPackages [zeclient]: Remove: archive file [/home/abi/fetcher/tmp/zeclient-1.1.4.tar.gz]
+[2024-04-11 06:10:57] INFO root fetch - processPackages [zeclient]: Remove: archive file [/home/abi/fetcher/tmp/zeclient-1.1.5.tar.gz]
+[2024-04-11 06:10:57] INFO root fetch - main [MainThread]: End processing [zeclient]: success
+[2024-04-11 06:10:57] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2024-04-11 06:10:57] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-1.3.8.tar.gz tmp/mojo_testplus-1.3.9.tar.gz --markdown 20240411/m/mojo-testplus/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-11 06:10:58] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-04-11 06:10:58] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-04-11 06:10:58] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-11 06:10:58] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.8.tar.gz]
+[2024-04-11 06:10:58] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.9.tar.gz]
+[2024-04-11 06:10:58] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2024-04-11 06:10:58] INFO root fetch - main [MainThread]: Store serial: [22714249]

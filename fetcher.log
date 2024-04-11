@@ -15208,3 +15208,33 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 10:45:48] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-04-11 10:45:48] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-04-11 10:45:48] INFO root fetch - main [MainThread]: Store serial: [22716554]
+[2024-04-11 10:47:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22716554]
+[2024-04-11 10:47:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 10:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: staticjinjaplus
+[2024-04-11 10:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jy_lib
+[2024-04-11 10:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azdev
+[2024-04-11 10:47:59] INFO root fetch - processPackages [staticjinjaplus]: New version: [1.1.0] Old Version: [1.0.0b4]
+[2024-04-11 10:47:59] INFO root fetch - processPackages [jy_lib]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-11 10:47:59] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 10:47:59] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/7a/3a/eaabc232a0991a55d2197e0b98fc3843873239c1f8ba5e20d5c3c5e7eb76/jy_lib-0.5.6.tar.gz
+[2024-04-11 10:47:59] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/4e/0f/fd694bac2d50c8475a6faf207836650d4be187dfcc20bc9e4b6e3218909e/staticjinjaplus-1.0.0b4.tar.gz
+[2024-04-11 10:47:59] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2024-04-11 10:47:59] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/70/a1/4347aa070b831f810c1dfdbf7e8e15be03221db18fb175dfec71357911f0/staticjinjaplus-1.1.0.tar.gz
+[2024-04-11 10:47:59] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/35/2e/6aa4a1e718fbf71f41572594f2ff8e7507f38c243370c254c76983a39dc1/jy_lib-0.5.7.tar.gz
+[2024-04-11 10:47:59] INFO root fetch - processPackages [staticjinjaplus]: executing diffoscope
+[2024-04-11 10:47:59] INFO root fetch - processPackages [staticjinjaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticjinjaplus-1.0.0b4.tar.gz tmp/staticjinjaplus-1.1.0.tar.gz --markdown 20240411/s/staticjinjaplus/1.0.0b4-1.1.0/README.md --exclude *.pyd
+[2024-04-11 10:47:59] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-11 10:47:59] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.5.6.tar.gz tmp/jy_lib-0.5.7.tar.gz --markdown 20240411/j/jy_lib/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-11 10:47:59] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2024-04-11 10:48:00] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2024-04-11 10:48:00] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20240411/a/azdev/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 10:48:00] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.6.tar.gz]
+[2024-04-11 10:48:00] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.7.tar.gz]
+[2024-04-11 10:48:00] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-11 10:48:00] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-1.0.0b4.tar.gz]
+[2024-04-11 10:48:00] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-1.1.0.tar.gz]
+[2024-04-11 10:48:00] INFO root fetch - main [MainThread]: End processing [staticjinjaplus]: success
+[2024-04-11 10:48:01] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2024-04-11 10:48:01] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2024-04-11 10:48:01] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2024-04-11 10:48:01] INFO root fetch - main [MainThread]: Store serial: [22716566]

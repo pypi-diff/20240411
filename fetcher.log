@@ -19681,3 +19681,63 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 12:30:25] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-11 12:30:25] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-11 12:30:25] INFO root fetch - main [MainThread]: Store serial: [22718104]
+[2024-04-11 12:32:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22718104]
+[2024-04-11 12:32:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-11 12:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-fedit
+[2024-04-11 12:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: persona_ai
+[2024-04-11 12:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jo3mnist
+[2024-04-11 12:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pimoroni-as7343
+[2024-04-11 12:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: video-images-creator
+[2024-04-11 12:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syngen
+[2024-04-11 12:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huojiweiguoba
+[2024-04-11 12:32:35] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-11 12:32:35] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-11 12:32:35] INFO root fetch - processPackages [persona_ai]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-11 12:32:35] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-11 12:32:35] INFO root fetch - processPackages [syngen]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-11 12:32:35] INFO root fetch - processPackages [jo3mnist]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-11 12:32:35] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/97/bc/53d1c75105dd125d8a3b86403759dccc745454907a0ae1ecbc3c777e5478/wagtail_fedit-1.4.4.tar.gz
+[2024-04-11 12:32:35] WARNING root fetch - processPackages [pimoroni-as7343]: Skipping, unable to determine old version
+[2024-04-11 12:32:35] INFO root fetch - main [MainThread]: End processing [pimoroni-as7343] error
+[2024-04-11 12:32:35] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/c7/fd/47db525179ae9dbb069f7e1695bea6bc68cb51d27fd0fdb0a0d32aa247fd/persona_ai-0.1.4.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/f2/fc/890c984bf491a7744a58fbad3bfebe8245d718886f5ea74116d8b101bf2a/syngen-0.7.7.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [jo3mnist]: Downloading https://files.pythonhosted.org/packages/ba/e1/b754863827e0f4803b87cbe69985a1a3b5b1f331acb311d848cc1e4e4710/jo3mnist-0.0.4.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/1d/e5/44fec948547df6205e66746985c162d64629da9bb95bb7aebd5e768dbf17/persona_ai-0.1.5.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/b8/be/7e6a99d14e31c4312196068c130421e978699081a5f7e39367e563b63234/wagtail_fedit-1.4.5.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-11 12:32:35] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240411/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-11 12:32:35] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/3c/da/80e93358f32609ae1f680d3121a0a93e6f715ae81ba3a901ce42533860a5/syngen-0.7.9.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [persona_ai]: executing diffoscope
+[2024-04-11 12:32:35] INFO root fetch - processPackages [persona_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persona_ai-0.1.4.tar.gz tmp/persona_ai-0.1.5.tar.gz --markdown 20240411/p/persona_ai/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-11 12:32:35] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-11 12:32:35] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.4.4.tar.gz tmp/wagtail_fedit-1.4.5.tar.gz --markdown 20240411/w/wagtail-fedit/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-04-11 12:32:35] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [jo3mnist]: Downloading https://files.pythonhosted.org/packages/10/b5/04b23e9ac658b4fbc75184d3b9af9fdc0770e259432289da9afd25542c53/jo3mnist-0.0.5.tar.gz
+[2024-04-11 12:32:35] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2024-04-11 12:32:35] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.7.7.tar.gz tmp/syngen-0.7.9.tar.gz --markdown 20240411/s/syngen/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-11 12:32:36] INFO root fetch - processPackages [jo3mnist]: executing diffoscope
+[2024-04-11 12:32:36] INFO root fetch - processPackages [jo3mnist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jo3mnist-0.0.4.tar.gz tmp/jo3mnist-0.0.5.tar.gz --markdown 20240411/j/jo3mnist/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-11 12:32:36] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-11 12:32:36] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240411/v/video-images-creator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-11 12:32:36] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-11 12:32:36] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.4.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.5.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - main [MainThread]: End processing [persona_ai]: success
+[2024-04-11 12:32:36] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.4.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.5.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-11 12:32:36] INFO root fetch - processPackages [jo3mnist]: Remove: archive file [/home/abi/fetcher/tmp/jo3mnist-0.0.4.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - processPackages [jo3mnist]: Remove: archive file [/home/abi/fetcher/tmp/jo3mnist-0.0.5.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - main [MainThread]: End processing [jo3mnist]: success
+[2024-04-11 12:32:36] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.7.7.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.7.9.tar.gz]
+[2024-04-11 12:32:36] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2024-04-11 12:32:37] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-11 12:32:37] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-11 12:32:37] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-11 12:32:37] INFO root fetch - main [MainThread]: Store serial: [22718129]

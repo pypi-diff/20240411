@@ -11344,3 +11344,29 @@ AssertionError: tmp/arabic_datetime-0.0.3.tar.gz does not exist
 [2024-04-11 06:58:51] WARNING root fetch - processPackages [vit-pytorch-implementation]: Skipping, unable to determine old version
 [2024-04-11 06:58:51] INFO root fetch - main [MainThread]: End processing [vit-pytorch-implementation] error
 [2024-04-11 06:58:51] INFO root fetch - main [MainThread]: Store serial: [22714481]
+[2024-04-11 07:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22714481]
+[2024-04-11 07:01:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-11 07:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-deployer
+[2024-04-11 07:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Montreal-Forced-Aligner
+[2024-04-11 07:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pystackql
+[2024-04-11 07:01:00] INFO root fetch - processPackages [pystackql]: New version: [3.5.4] Old Version: [3.5.3]
+[2024-04-11 07:01:00] INFO root fetch - processPackages [snowflake-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-11 07:01:00] INFO root fetch - processPackages [Montreal-Forced-Aligner]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-11 07:01:00] INFO root fetch - processPackages [snowflake-deployer]: Downloading https://files.pythonhosted.org/packages/23/aa/378082c0e8815c463894e380752fdd338aa6d978166e32e45ecd5e285610/snowflake-deployer-0.1.8.tar.gz
+[2024-04-11 07:01:00] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Downloading https://files.pythonhosted.org/packages/03/4d/571e161cac4698b7cd5bbebb12f85709a969548afe7eda881d1b59d268c8/Montreal_Forced_Aligner-3.0.3.tar.gz
+[2024-04-11 07:01:00] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/2a/29/deeed475dd50637e4bd385b61436625c4f3053ad2386d1ebb1411757af7a/pystackql-3.5.3.tar.gz
+[2024-04-11 07:01:00] WARNING root fetch - processPackages [Montreal-Forced-Aligner]: Skipping package: exceeds size limit 19113138>=10485760
+[2024-04-11 07:01:00] INFO root fetch - main [MainThread]: End processing [Montreal-Forced-Aligner] error
+[2024-04-11 07:01:00] INFO root fetch - processPackages [snowflake-deployer]: Downloading https://files.pythonhosted.org/packages/2b/51/6e1f55ca599dc7c349f8e1996c5da0b6bd56f68adfe282da0dadf2dd82df/snowflake-deployer-0.1.9.tar.gz
+[2024-04-11 07:01:00] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/5d/16/302f0b8a1e182ce1df9f4b0587934262d0bbde4d6f67729fbaac35f47ad9/pystackql-3.5.4.tar.gz
+[2024-04-11 07:01:00] INFO root fetch - processPackages [snowflake-deployer]: executing diffoscope
+[2024-04-11 07:01:00] INFO root fetch - processPackages [snowflake-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-deployer-0.1.8.tar.gz tmp/snowflake-deployer-0.1.9.tar.gz --markdown 20240411/s/snowflake-deployer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-11 07:01:01] INFO root fetch - processPackages [pystackql]: executing diffoscope
+[2024-04-11 07:01:01] INFO root fetch - processPackages [pystackql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240411:/home/abi/fetcher/20240411:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystackql-3.5.3.tar.gz tmp/pystackql-3.5.4.tar.gz --markdown 20240411/p/pystackql/3.5.3-3.5.4/README.md --exclude *.pyd
+[2024-04-11 07:01:01] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.3.tar.gz]
+[2024-04-11 07:01:01] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.4.tar.gz]
+[2024-04-11 07:01:01] INFO root fetch - main [MainThread]: End processing [pystackql]: success
+[2024-04-11 07:01:01] INFO root fetch - processPackages [snowflake-deployer]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-deployer-0.1.8.tar.gz]
+[2024-04-11 07:01:01] INFO root fetch - processPackages [snowflake-deployer]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-deployer-0.1.9.tar.gz]
+[2024-04-11 07:01:01] INFO root fetch - main [MainThread]: End processing [snowflake-deployer]: success
+[2024-04-11 07:01:01] INFO root fetch - main [MainThread]: Store serial: [22714488]
